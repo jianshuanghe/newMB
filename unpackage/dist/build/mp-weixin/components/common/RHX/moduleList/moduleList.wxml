@@ -1,0 +1,1 @@
+<view class="moduleList _div"><view class="module-box _div"><drag-sorts vue-id="1" disabled="{{disabled}}" selIconList="{{selIconList}}" list="{{dataList}}" data-event-opts="{{[['^change',[['onDragSortChange']]]]}}" bind:change="__e" bind:__l="__l"></drag-sorts></view></view>

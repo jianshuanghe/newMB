@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "items": "/modules/createBusiness/selectTemplate/selectList/made/items",
+    "empty": "/components/common/empty/empty"
+  },
+  "component": true
+}

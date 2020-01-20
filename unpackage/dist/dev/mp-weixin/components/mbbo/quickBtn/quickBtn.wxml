@@ -1,0 +1,1 @@
+<view class="content-quickBtn _div data-v-52b27442"><view data-event-opts="{{[['tap',[['clickQuickBtn',['$event']]]]]}}" class="quickBtn _div data-v-52b27442" bindtap="__e"><image class="img _img data-v-52b27442" src="{{quickBtn}}" alt></image></view></view>

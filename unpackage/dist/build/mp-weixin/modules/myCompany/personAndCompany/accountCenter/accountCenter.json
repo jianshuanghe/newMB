@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "top-box": "/components/mbbo/topBox/topBox",
+    "survey-run-water-title": "/modules/myCompany/personAndCompany/accountCenter/surveyAndrunWater/surveyRunWaterTitle",
+    "survey": "/modules/myCompany/personAndCompany/accountCenter/surveyAndrunWater/survey",
+    "run-water": "/modules/myCompany/personAndCompany/accountCenter/surveyAndrunWater/runWater"
+  }
+}

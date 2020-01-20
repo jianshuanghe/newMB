@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/project/MBBO/news/news-list/news-classification"],{"0b1a":function(n,t,e){},"2ff1":function(n,t,e){"use strict";e.r(t);var o=e("66f1"),u=e.n(o);for(var s in o)"default"!==s&&function(n){e.d(t,n,function(){return o[n]})}(s);t["default"]=u.a},"4f8d":function(n,t,e){"use strict";e.r(t);var o=e("6d32"),u=e("2ff1");for(var s in u)"default"!==s&&function(n){e.d(t,n,function(){return u[n]})}(s);e("8f34");var a=e("2877"),f=Object(a["a"])(u["default"],o["a"],o["b"],!1,null,null,null);t["default"]=f.exports},"66f1":function(n,t,e){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=f(e("56bd")),u=f(e("d933")),s=f(e("34e6")),a=f(e("e13c"));function f(n){return n&&n.__esModule?n:{default:n}}var i={data:function(){return{zan:o.default,fensi:u.default,shou:s.default,news:a.default}},mounted:function(){},onLoad:function(){},methods:{gotoPraisedAndCollection:function(t){console.log("获赞与收藏"),n.navigateTo({url:"/modules/news/newsPraisedAndCollection/news-PraisedAndCollection?id="+t})},gotomyFocusonfans:function(t){console.log("已关注 粉丝"),n.navigateTo({url:"/modules/myCompany/myFocusonfans/my-Focusonfans?id="+t})},gotosystem:function(){console.log("系统通知"),n.navigateTo({url:"/modules/news/newssystem/news-system"})}},computed:{i18n:function(){return this.$t("My")}}};t.default=i}).call(this,e("543d")["default"])},"6d32":function(n,t,e){"use strict";var o=function(){var n=this,t=n.$createElement;n._self._c},u=[];e.d(t,"a",function(){return o}),e.d(t,"b",function(){return u})},"8f34":function(n,t,e){"use strict";var o=e("0b1a"),u=e.n(o);u.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/project/MBBO/news/news-list/news-classification-create-component',
+    {
+        'pages/project/MBBO/news/news-list/news-classification-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("4f8d"))
+        })
+    },
+    [['pages/project/MBBO/news/news-list/news-classification-create-component']]
+]);                

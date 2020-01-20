@@ -1,0 +1,21 @@
+
+.addLink-content{
+	position: relative;
+	width: 100%;
+}
+.addLink{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+.name{
+	font-size: 28rpx;
+	color: #2E2E30;
+	padding-top: 16rpx;
+	line-height: 60rpx;
+}
+.input-box{
+	position: relative;
+	width: 100%;
+}
+

@@ -1,0 +1,171 @@
+
+.addto{
+	width: 26.666vw;
+	height: 8.8vw;
+	border-style:dashed;
+	border-width:2rpx;
+	border-color:  rgba(46,46,48,0.30);
+	float: left;
+	margin-top: 18rpx;
+	margin-left: 15rpx;
+	text-align: center;
+	line-height: 8.8vw;
+	position: relative;
+}
+.addto-img{
+	width: 32rpx;
+	height: 32rpx;
+	position: absolute;
+	right: -10rpx;
+	top: -10rpx;
+}
+.addMask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+}
+.addMask-A{
+	width: 100%;
+	min-height: 260rpx;
+	max-height:868rpx;
+	background: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+}
+.addMask-AA{
+	width: 100%;
+	height: 100rpx;
+	background: #F9F9F9;
+}
+.addMask-AB{
+	width: 100%;
+	height: 140rpx;
+	padding: 1rpx;
+}
+.addMask-AB>._div{
+	width: 26.666vw;
+	min-height: 8.8vw;
+	border-style:dashed;
+	border-width:2rpx;
+	border-color:  #02C2A2;
+	font-size: 32rpx;
+	color: #02C2A2;
+	text-align: center;
+	line-height: 8.8vw;
+	margin-top: 40rpx;
+	margin-left: 40rpx;
+	position: relative;
+	float: left;
+}
+.addMask-AB>._div>image{
+	width: 16rpx;
+	height: 10rpx;
+	margin-left: 10rpx;
+	margin-top: 3.5vw;
+	position: absolute;
+}
+.addMaskAb{
+	background:#02C2A2!important;
+	color:#FFFFFF!important;
+}
+.addMasklians{
+	background:#02C2A2!important;
+	color:#FFFFFF!important;
+}
+.addMask-AC{
+	width: 100%;
+	min-height: 300rpx;
+	max-height: 628rpx;
+	padding: 1rpx;
+	background: #F9F9F9;
+	padding-bottom: 40rpx;
+	overflow: auto;
+}
+.addMask-ding{
+	width: 90%;
+	height: 120rpx;
+	margin: 40rpx auto auto auto;
+}
+.addMask-ding>._div:nth-of-type(1){
+	width: 32rpx;
+	height: 100%;
+	line-height: 140rpx;
+	float: left;
+}
+.addMask-ding>._div:nth-of-type(1)>image{
+	width: 100%;
+	height: 32rpx;
+}
+.addMask-ding>._div:nth-of-type(2){
+	width: 120rpx;
+	height: 100%;
+	float: left;
+	margin-left: 24rpx;
+}
+.addMask-ding>._div:nth-of-type(2)>image{
+	width: 100%;
+	height: 100%;
+}
+.addMask-ding>._div:nth-of-type(3){
+	width: 70%;
+	height: 120rpx;
+	float: left;
+	margin-left: 20rpx;
+}
+.addMask-ding>._div:nth-of-type(3)>._div:nth-of-type(1){
+	font-size: 26rpx;
+	color: #2E2E30;
+	display: -webkit-box;
+	-webkit-line-clamp:1;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+}
+.addMask-ding>._div:nth-of-type(3)>._div:nth-of-type(2){
+	font-size: 26rpx;
+	color: #9B9B9B;
+	line-height: 40rpx;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+}
+.addMask-tian{
+	width: 294rpx;
+	height: 66rpx;
+	margin: 40rpx auto auto auto;
+	background: #2E2E30;
+	text-align: center;
+	line-height: 66rpx;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.addMask-AD{
+	width: 100%;
+	height: 340rpx;
+	padding: 1rpx;
+	background: #F9F9F9;
+}
+.addMask-Ad{
+	width: 90%;
+	height: 140rpx;
+	border-bottom: 2rpx solid #E2E2E2;
+	margin: 0 auto;
+}
+.addMask-Ad>._p{
+	font-size: 28rpx;
+	color: #2E2E30;
+	padding-top: 16rpx;
+}
+.addMask-Ad>input{
+	width: 100%;
+	height: 30rpx;
+	margin-top: 20rpx;
+}
+
+

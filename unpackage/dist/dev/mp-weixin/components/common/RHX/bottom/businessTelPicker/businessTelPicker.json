@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "business-tel-infor": "/components/common/RHX/bottom/businessTelInfor/businessTelInfor",
+    "r-picker": "/components/common/RHX/rPicker/rPicker",
+    "fixed-bg-btn": "/components/common/button/fixedBgBtn"
+  },
+  "component": true
+}

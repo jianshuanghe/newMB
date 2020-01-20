@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "trend-title": "/modules/aLittle/dataReport/dataTrendKanban/trendTitle",
+    "liu-liang-or-put-in-title": "/modules/aLittle/dataReport/dataTrendKanban/liuLiangOrPutInTitle",
+    "data-trend-liu-liang": "/modules/aLittle/dataReport/dataTrendKanban/liuLiang/dataTrend",
+    "data-trend-put-in": "/modules/aLittle/dataReport/dataTrendKanban/putIn/dataTrend"
+  },
+  "component": true
+}

@@ -1,0 +1,1 @@
+<view class="selectTemplate-content _div"><bottom vue-id="1" bottomloca="13.333vw" data-event-opts="{{[['^bottomTap',[['bottomTap']]],['^botPhone',[['botPhone']]]]}}" bind:bottomTap="__e" bind:botPhone="__e" bind:__l="__l"></bottom><view data-event-opts="{{[['tap',[['asd']]]]}}" class="nijap _div" bindtap="__e"></view></view>

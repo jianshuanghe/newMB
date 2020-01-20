@@ -1,0 +1,35 @@
+
+.putInList-content{
+	position: relative;
+	width: 100vw;
+	min-height: 100vh;
+}
+.jindu{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	padding: 3vw;
+	font-family: PingFangSC-Medium;
+	font-size: 36rpx;
+	color: #2E2E30;
+	letter-spacing: 0;
+	line-height: 60rpx;
+	font-weight: bold;
+}
+.text{
+	position: relative;
+	ont-family: PingFangSC-Medium;
+	font-size: 28rpx;
+	color: #2E2E30;
+	letter-spacing: 0;
+	line-height: 60rpx;
+}
+.numText{
+	position: relative;
+	ont-family: PingFangSC-Medium;
+	font-size: 28rpx;
+	color: #9B9B9B;
+	letter-spacing: 0;
+	line-height: 60rpx;
+}
+

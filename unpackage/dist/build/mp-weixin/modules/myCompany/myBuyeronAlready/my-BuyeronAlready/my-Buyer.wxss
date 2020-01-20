@@ -1,0 +1,130 @@
+
+.my-Buyer{
+	width: 100%;
+	min-height: 100%;
+}
+.my-Buyer-header{
+	width: 100%;
+	height: 72rpx;
+	border-bottom: 2rpx solid #F5F5F5;
+	position: fixed;
+	top: 88rpx;
+	background: #FFFFFF;
+}
+.my-Buyer-headerone{
+	width: 60%;
+	height: 100%;
+	margin-left: 20rpx;
+	float: left;
+}
+.my-Buyer-headerone>._span{
+	font-size: 24rpx;
+	color: #9B9B9B;
+	/* line-height: 72upx; */
+	float: left;
+	margin-left: 40rpx;
+	margin-top: 18rpx;
+}
+.changeColors{
+	padding: 0rpx 16rpx 0rpx 16rpx;
+	background: #E2E2E2;
+	border-radius: 26rpx;
+	color: #2E2E30!important;
+}
+.my-Buyer-headertwo{
+	width: 20%;
+	height: 100%;
+	float:right;
+	font-size: 24rpx;
+	color: #9B9B9B;
+	text-align: center;
+	line-height: 72rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.my-Buyer-headertwo>image{
+	width: 18rpx;
+	height: 24rpx;
+	margin-top: 24rpx;
+	display: block;
+}
+.my-Buyer-headertwo>._span{
+	margin-left: 10rpx;
+}
+.my-Buyer-header-list{
+	width: 90%;
+	min-height: 200rpx;
+	height: auto;
+	border-bottom: 2rpx solid #F5F5F5;
+	margin: 0 auto;
+	padding-bottom: 40rpx;
+}
+.my-Buyer-header-list1{
+	width: 6%;
+	/* height: 100%; */
+	/* position: relative; */
+	float: left;
+}
+.my-Buyer-header-list1>view{
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+	margin-top: 92rpx;
+	background: red;
+}
+.my-Buyer-header-list2{
+	width: 94%;
+	/* height: 100%; */
+	float: right;
+}
+.my-Buyer-header-list2-zi{
+	font-size: 20px;
+	color: #2E2E30;
+	padding-top: 66rpx;
+	line-height: 64rpx;
+}
+.my-Buyer-header-list2-nei{
+	font-size: 28rpx;
+	color: #2E2E30;
+	line-height: 42rpx;
+	padding-top: 32rpx;
+	overflow:hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+}
+.my-Buyer-header-list2-xin{
+	width: 100%;
+	height: 30rpx;
+	
+	padding-top: 32rpx;
+}
+.my-Buyer-header-list2-xin>view:nth-of-type(1){
+	width: 50%;
+	/* height: 100%; */
+	font-size: 26rpx;
+	color: #9B9B9B;
+	line-height: 30rpx;
+	float: left;
+}
+.my-Buyer-header-list2-xin>view:nth-of-type(1)>._span{
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+.my-Buyer-header-list2-xin>view:nth-of-type(2){
+	width: 40%;
+	/* height: 100%; */
+	line-height: 30rpx;
+	font-size: 26rpx;
+	color: #9B9B9B;
+	float: right;
+	text-align: right;
+}
+.cler{
+	clear: both;
+}
+

@@ -1,0 +1,35 @@
+
+.basicInformation-content{
+	position: relative;
+	width: 100%;
+	margin-bottom: 2vw;
+}
+.basicInformation{
+	position: relative;
+	width: 90%;
+}
+.name-box{
+	position: relative;
+	width: 23%;
+}
+.value-box{
+	position: relative;
+	width: 54%;
+}
+.delete-box{
+	position: absolute;
+	width: 10%;
+	right: 0;
+	top: 20rpx;
+}
+.delete{
+	position: relative;
+	width: 44rpx;
+	height: 44rpx;
+}
+.delIcon{
+	position: relative;
+	width: 44rpx;
+	height: 44rpx;
+}
+

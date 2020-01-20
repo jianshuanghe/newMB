@@ -1,0 +1,20 @@
+
+.content-quickBtn.data-v-52b27442{
+    position: fixed;
+    /* width: 100%; */
+    /* margin-top: 1.5vw; */
+	top: 25rpx;
+	z-index: 200000;
+	margin-right: 2vw;
+}
+.quickBtn.data-v-52b27442{
+    position: relative;
+    width: 7vw;
+    height: 5vw;
+}
+.quickBtn>._img.data-v-52b27442{
+    position: relative;
+    width: 5.5vw;
+    height: 5vw;
+}
+

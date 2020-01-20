@@ -1,0 +1,1 @@
+<view class="defaultAdd-box _div data-v-0454d33e"><view data-event-opts="{{[['tap',[['addImage',['$event']]]]]}}" class="defaultAdd _div data-v-0454d33e" bindtap="__e"><image class="bannerImg data-v-0454d33e" style="{{'width:'+(widthStyle)+';'+('height:'+(heightStyle)+';')}}" src="{{imgDefaultSrc}}"></image></view></view>

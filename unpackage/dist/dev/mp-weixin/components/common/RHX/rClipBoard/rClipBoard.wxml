@@ -1,0 +1,1 @@
+<view class="rClipBoard-content _div"><view class="rClipBoard _div"><view class="title _div">{{clipBoardTitles}}</view><view class="copyText _div">{{clipBoardLink}}</view><view class="copyBtn _div"><view data-event-opts="{{[['tap',[['clickClipBoard',['$event']]]]]}}" class="btn _div" bindtap="__e">+ 复制链接</view></view></view></view>

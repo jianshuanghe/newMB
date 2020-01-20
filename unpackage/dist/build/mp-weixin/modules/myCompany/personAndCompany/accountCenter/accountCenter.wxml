@@ -1,0 +1,1 @@
+<view class="accountCenter-content _div data-v-4bc076a2"><top-box vue-id="1" class="data-v-4bc076a2" bind:__l="__l" vue-slots="{{['default']}}"><survey-run-water-title vue-id="{{('2')+','+('1')}}" class="data-v-4bc076a2" bind:__l="__l"></survey-run-water-title></top-box><block wx:if="{{true}}"><survey vue-id="3" class="data-v-4bc076a2" bind:__l="__l"></survey></block></view>

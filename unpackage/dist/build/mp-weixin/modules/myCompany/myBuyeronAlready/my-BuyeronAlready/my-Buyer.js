@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["modules/myCompany/myBuyeronAlready/my-BuyeronAlready/my-Buyer"],{2409:function(n,t,o){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var e=u(o("668d"));function u(n){return n&&n.__esModule?n:{default:n}}var a={data:function(){return{List:["全部","产品","定制","资讯"],num:0,wei:e.default}},mounted:function(){},onLoad:function(){},methods:{gotoGood:function(n){this.num=n},all:function(){n.showModal({title:"提示",content:"是否清除全部未读？",confirmColor:" #02C2A2",success:function(n){n.confirm?console.log("用户点击确定"):n.cancel&&console.log("用户点击取消")}})},gotoxi:function(){console.log("to已发留言详情"),n.navigateTo({url:"/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/Message-details/Buyer-details"})}},computed:{}};t.default=a}).call(this,o("543d")["default"])},"335f":function(n,t,o){"use strict";var e=o("897f"),u=o.n(e);u.a},"4cb8":function(n,t,o){"use strict";var e=function(){var n=this,t=n.$createElement;n._self._c},u=[];o.d(t,"a",function(){return e}),o.d(t,"b",function(){return u})},"897f":function(n,t,o){},c3b7:function(n,t,o){"use strict";o.r(t);var e=o("2409"),u=o.n(e);for(var a in e)"default"!==a&&function(n){o.d(t,n,function(){return e[n]})}(a);t["default"]=u.a},e254:function(n,t,o){"use strict";o.r(t);var e=o("4cb8"),u=o("c3b7");for(var a in u)"default"!==a&&function(n){o.d(t,n,function(){return u[n]})}(a);o("335f");var c=o("2877"),r=Object(c["a"])(u["default"],e["a"],e["b"],!1,null,null,null);t["default"]=r.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'modules/myCompany/myBuyeronAlready/my-BuyeronAlready/my-Buyer-create-component',
+    {
+        'modules/myCompany/myBuyeronAlready/my-BuyeronAlready/my-Buyer-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("e254"))
+        })
+    },
+    [['modules/myCompany/myBuyeronAlready/my-BuyeronAlready/my-Buyer-create-component']]
+]);                

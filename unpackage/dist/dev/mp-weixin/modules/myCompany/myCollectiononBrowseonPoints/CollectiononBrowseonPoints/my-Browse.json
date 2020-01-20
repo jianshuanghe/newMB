@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "home-search": "/components/mbbo/homeSearch/homeSearch",
+    "media-list": "/pages/project/MBBO/find/fimdList/mediaList"
+  },
+  "component": true
+}

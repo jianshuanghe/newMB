@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "buyer": "/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/my-Buyer",
+    "already": "/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/my-Already",
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation"
+  }
+}

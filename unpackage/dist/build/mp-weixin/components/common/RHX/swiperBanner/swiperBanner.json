@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "uni-swiper-dot": "/node-modules/_@dcloudio_uni-ui@1.0.4@@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot",
+    "change-img-tips": "/components/common/RHX/changeImgTips/changeImgTips",
+    "default-add": "/components/common/RHX/defaultAdd/defaultAdd"
+  },
+  "component": true
+}

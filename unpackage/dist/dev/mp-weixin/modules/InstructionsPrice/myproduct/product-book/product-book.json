@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation",
+    "q-rcode": "/modules/InstructionsPrice/myproduct/product-book/QRcodeandinquiry/QRcode"
+  },
+  "component": true
+}

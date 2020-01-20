@@ -1,0 +1,14 @@
+
+.mode-list{
+	position: relative;
+	width: 100%;
+}
+.mode-items{
+	position: relative;
+	width: 100%;
+}
+.scroll-Y{
+	position: relative;
+	height: 100vh;
+}
+

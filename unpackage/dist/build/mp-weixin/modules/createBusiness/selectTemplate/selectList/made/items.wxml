@@ -1,0 +1,1 @@
+<view class="content-items"><view class="items-box"><image class="items-img" src="{{product}}" alt></image><view class="items-text _div"><view class="text _p">新品介绍/活动宣传/企业个人通用</view></view><view class="chaKanOrUser _div">查看104<text class="user-text">使用4915</text></view></view></view>

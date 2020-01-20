@@ -1,0 +1,43 @@
+
+.QRcode.data-v-1a85b480{
+	width: 100%;
+	height: 100%;
+	margin-top: 40rpx;
+}
+.QRcode-imj.data-v-1a85b480{
+	width: 100%;
+	min-height: 508rpx;
+}
+.swiper-box.data-v-1a85b480{
+	height: 508rpx;
+}
+.swiper-slide.data-v-1a85b480{
+	width: 360rpx;
+	height: 508rpx;
+	/* margin-left: 30%; */
+}
+.swiper-slide>image.data-v-1a85b480{
+	width: 100%;
+	height: 100%;
+}
+.saveBtn.data-v-1a85b480{
+	position: relative;
+	width: 100%;
+	margin: 40rpx 0;
+}
+.save-box.data-v-1a85b480{
+	position: relative;
+	width: 160rpx;
+	height: 56rpx;
+	margin: auto;
+	background: #2E2E30;
+	border-radius: 2px;
+	border-radius: 2px;
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 56rpx;
+}
+

@@ -1,0 +1,21 @@
+
+.textAarea-box{
+	position: relative;
+	width: 100%;
+}
+.Textarea{
+	position: relative;
+}
+.mainTextarea{
+	position: relative;
+	width: 100%;
+}
+.info{
+	position: absolute;
+	top: 60%;
+	right: 0;
+}
+uni-textarea {
+	min-height: 10vw;
+}
+

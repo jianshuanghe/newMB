@@ -1,0 +1,14 @@
+
+.inputBox-content{
+	position: relative;
+	width: 100%;
+}
+.inputBox{
+	position: relative;
+	width: 100%;
+}
+.mainInput{
+	position: relative;
+	width: 100%;
+}
+

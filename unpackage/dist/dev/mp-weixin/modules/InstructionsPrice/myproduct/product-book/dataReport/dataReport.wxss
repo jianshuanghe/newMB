@@ -1,0 +1,17 @@
+
+.dataReport_content.data-v-c8471922 {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background: #f6f6f6;
+}
+.right-arrow.data-v-c8471922 {
+	position: relative;
+	width: 2vw;
+}
+.rightArrow.data-v-c8471922 {
+	position: relative;
+	width: 3.2vw;
+	top: 0.6vw;
+}
+

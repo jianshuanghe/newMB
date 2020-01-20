@@ -1,0 +1,368 @@
+
+.QRcodelist-edit {
+	width: 100%;
+	min-height: 100%;
+	background: #ffffff;
+}
+.clear {
+	clear: both;
+	width: 100%;
+	height: 120rpx;
+}
+.product-book-title {
+	width: 100%;
+	height: 88rpx;
+	background: #ffffff;
+	border-bottom: 2rpx solid #f5f5f5;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.quickBtn-Fd {
+	width: 5%;
+	margin-left: 38rpx;
+}
+.search-Fd {
+	position: relative;
+	width: 30%;
+	margin-left: 36%;
+	text-align: center;
+	line-height: 88rpx;
+	font-size: 28rpx;
+	color: #2e2e30;
+	float: left;
+}
+.tian {
+	width: 100%;
+	height: 88rpx;
+}
+.QRcodelist-edit-ti {
+	width: 90%;
+	font-size: 32rpx;
+	color: #02c2a2;
+	margin: 0 auto;
+	padding-top: 54rpx;
+}
+.QRcodelist-edit-header {
+	width: 90%;
+	height: 200rpx;
+	margin: 0 auto;
+	border-bottom: 2rpx solid #f5f5f5;
+	position: relative;
+}
+.QRcodelist-edit-header > view:nth-of-type(1) {
+	font-size: 32rpx;
+	color: #2e2e30;
+	padding-top: 40rpx;
+	font-weight: bold;
+}
+.QRcodelist-edit-header > view:nth-of-type(2) {
+	width: 100%;
+	min-height: 30rpx;
+	padding-top: 20rpx;
+}
+.QRcodelist-edit-header > view:nth-of-type(2) > input {
+	width: 100%;
+	height: 100%;
+}
+.QRcodelist-edit-header > view:nth-of-type(3) {
+	font-size: 28rpx;
+	color: #d2d2d2;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.QRcodelist-edit-Middle {
+	width: 90%;
+	min-height: 240rpx;
+	margin: 0 auto;
+	border-bottom: 2rpx solid #f5f5f5;
+	position: relative;
+}
+.QRcodelist-edit-Middle > view:nth-of-type(1) {
+	font-size: 32rpx;
+	color: #2e2e30;
+	padding-top: 80rpx;
+	font-weight: bold;
+}
+.QRcodelist-edit-Middle > view:nth-of-type(2) {
+	width: 100%;
+	min-height: 30rpx;
+	padding-top: 20rpx;
+}
+.QRcodelist-edit-Middle > view:nth-of-type(2) > input {
+	width: 100%;
+	height: 100%;
+}
+.QRcodelist-edit-Middle > view:nth-of-type(3) {
+	font-size: 28rpx;
+	color: #d2d2d2;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.QRcodelist-edit-look {
+	width: 90%;
+	height: 232rpx;
+	margin: 0 auto;
+}
+.QRcodelist-edit-look > view:nth-of-type(1) {
+	width: 100%;
+	height: 30rpx;
+	font-size: 28rpx;
+	color: #2e2e30;
+	line-height: 30rpx;
+	padding-top: 20rpx;
+}
+.QRcodelist-edit-look > view:nth-of-type(1) > image {
+	width: 28rpx;
+	height: 24rpx;
+	display: block;
+	float: left;
+	margin-top: 2rpx;
+}
+.QRcodelist-edit-look > view:nth-of-type(1) > ._span {
+	margin-left: 10rpx;
+	display: block;
+	float: left;
+}
+.QRcodelist-edit-look > view:nth-of-type(2) {
+	width: 100%;
+	min-height: 150rpx;
+	background: #f9f9f9;
+	margin-top: 20rpx;
+	border-radius: 4rpx;
+	overflow: hidden;
+}
+.QRcodelist-edit-look > view:nth-of-type(2) > view {
+	width: 95%;
+	margin: 20rpx auto auto auto;
+	font-size: 24rpx;
+	color: #2e2e30;
+}
+.myheader-Keyword-industry {
+	width: 95%;
+	min-height: 100rpx;
+	margin: 20rpx auto;
+}
+.myheader-Keyword-Tips {
+	width: 90%;
+	height: 40rpx;
+	margin: 80rpx auto auto auto;
+	font-size: 28rpx;
+	color: #2e2e30;
+}
+.myheader-Keyword-Label {
+	padding: 10rpx 30rpx 10rpx 30rpx;
+	border: 2rpx solid #e2e2e2;
+	border-radius: 8rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 26rpx;
+	position: relative;
+}
+.myheader-Keyword-Label > image {
+	width: 36rpx;
+	height: 36rpx;
+	top: -15rpx;
+	right: -12rpx;
+	position: absolute;
+}
+.myheader-Keyword-Labels {
+	padding: 10rpx 30rpx 10rpx 30rpx;
+	border: 2rpx solid #02c2a2;
+	border-radius: 8rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 28rpx;
+
+	color: #02c2a2;
+}
+.myheader-Keyword-Labela {
+	padding: 10rpx 30rpx 10rpx 30rpx;
+	border: 2rpx solid #e2e2e2;
+	border-radius: 8rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 26rpx;
+	color: #02c2a2;
+	width: 130rpx;
+	height: 45rpx;
+	line-height: 45rpx;
+	position: relative;
+}
+.myheader-Keyword-Labela > input {
+	width: 100%;
+	height: 100%;
+}
+.myheader-btn {
+	width: 90%;
+	height: 90rpx;
+	background: #02c2a2;
+	text-align: center;
+	line-height: 90rpx;
+	font-size: 32rpx;
+	color: #ffffff;
+	position: fixed;
+	bottom: 20rpx;
+	left: 5%;
+}
+.myheader-Keyword-box {
+	/* padding-bottom: 300upx; */
+}
+.topsss {
+	width: 84%;
+	height: 40rpx;
+	/* margin: 40upx auto auto!important; */
+	/* margin-top: 100upx; */
+	margin: 0rpx auto auto auto;
+	padding-top: 80rpx;
+	font-size: 28rpx;
+	color: #2e2e30;
+	clear: both;
+}
+.myheader-Keyword-Labelss {
+	padding: 10rpx 50rpx 10rpx 50rpx;
+	border: 2rpx solid #e2e2e2;
+	border-radius: 35rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 26rpx;
+	color: #fab000;
+}
+.QRcodelist-edit-bao {
+	width: 100%;
+	height: 100rpx;
+	background-image: -o-linear-gradient(316deg, #15d49f 0%, #57d6cf 100%);
+	background-image: linear-gradient(134deg, #15d49f 0%, #57d6cf 100%);
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 32rpx;
+	color: #ffffff;
+}
+.QRcodelist-edit-baoNo{
+	width: 100%;
+	height: 100rpx;
+	background: #a5efea;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 32rpx;
+	color: #ffffff;
+}
+.QRcodelist-edit-lei {
+	width: 90%;
+	height: 100rpx;
+	border-bottom: 2rpx solid #f5f5f5;
+	margin: 20rpx auto;
+}
+.QRcodelist-edit-lei > view:nth-of-type(1) {
+	line-height: 100rpx;
+	font-size: 32rpx;
+	color: #2e2e30;
+	float: left;
+}
+.QRcodelist-edit-lei > view:nth-of-type(2) {
+	line-height: 100rpx;
+	font-size: 28rpx;
+	color: #bdbdbd;
+	float: left;
+	margin-left: 20rpx;
+}
+.QRcodelist-edit-lei > view:nth-of-type(3) {
+	line-height: 100rpx;
+	width: 20rpx;
+	height: 100%;
+	float: right;
+}
+.QRcodelist-edit-lei > view:nth-of-type(3) > image {
+	width: 100%;
+	height: 20rpx;
+}
+.QRcodelist-edit-category {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+.QRcodelist-edit-greak {
+	width: 100%;
+	height: 900rpx;
+	position: absolute;
+	bottom: 0;
+	background: #ffffff;
+}
+.QRcodelist-edit-greak-one {
+	width: 100%;
+	height: 114rpx;
+	border-bottom: 2rpx solid #f5f5f5;
+}
+.QRcodelist-edit-greak-one > view:nth-of-type(1) {
+	font-size: 32rpx;
+	color: #9b9b9b;
+	line-height: 114rpx;
+	padding-left: 40rpx;
+	float: left;
+}
+.QRcodelist-edit-greak-one > view:nth-of-type(2) {
+	width: 50%;
+	height: 100%;
+	padding-left: 76rpx;
+	text-align: center;
+	line-height: 114rpx;
+	font-size: 32rpx;
+	color: #2e2e30;
+	float: left;
+}
+.QRcodelist-edit-greak-two {
+	width: 90%;
+	margin: 10rpx auto;
+	height: 753rpx;
+	overflow: auto;
+}
+.QRcodelist-edit-greak-two > view {
+	width: 204rpx;
+	height: 70rpx;
+	border-radius: 35rpx;
+	border: 2rpx solid #e2e2e2;
+	text-align: center;
+	line-height: 70rpx;
+	font-size: 26rpx;
+	color: #2e2e30;
+	float: left;
+	margin-top: 30rpx;
+	margin-left: 16rpx;
+}
+.hidens {
+	background: #02c2a2 !important;
+	color: #ffffff !important;
+}
+.skipBtn{
+	position: absolute;
+	width: 10%;
+	right: 20rpx;
+	top: 0;
+	line-height: 88rpx;
+	font-size: 28rpx;
+	color: #15d49f;
+}
+.xing{
+	position: relative;
+	width: 16rpx;
+	height: 16rpx;
+	margin-left: 10rpx;
+	top: -8rpx;
+}
+

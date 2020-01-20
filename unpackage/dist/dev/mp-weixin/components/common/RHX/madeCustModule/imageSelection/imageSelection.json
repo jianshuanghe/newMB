@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "image-selection-list": "/components/common/RHX/madeCustModule/imageSelection/imageSelectionList",
+    "r-check-box": "/components/common/RHX/rCheckBox/rCheckBox"
+  },
+  "component": true
+}

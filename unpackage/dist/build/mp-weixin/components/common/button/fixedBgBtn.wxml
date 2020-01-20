@@ -1,0 +1,1 @@
+<view class="fixedBgBtn-box _div" style="{{'bottom:'+(bbottom)+';'+('border-color:'+(bColor)+';')+('padding:'+(paddingNum)+';')+('background:'+(bgColor)+';')+('box-shadow:'+(bShadow)+';')}}"><slot></slot></view>

@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "top-box": "/components/mbbo/topBox/topBox",
+    "member-center-tips": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterTips",
+    "member-center-account": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterAccount",
+    "member-center-open": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterOpen",
+    "member-center-equity": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterEquity",
+    "member-center-create": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterCreate",
+    "member-center-ad": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterAd",
+    "member-center-put-in": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterPutIn",
+    "member-center-test": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterTest",
+    "member-center-extend": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterExtend",
+    "member-center-cancel-at-open": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterCancelAtOpen",
+    "member-center-at-open": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterAtOpen"
+  }
+}

@@ -1,0 +1,10 @@
+
+.moduleTitle-content {
+	position: relative;
+	width: 100%;
+}
+.moduleTitle {
+	position: relative;
+	width: 100%;
+}
+

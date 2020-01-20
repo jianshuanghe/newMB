@@ -1,0 +1,12 @@
+
+.mode-list{
+	position: relative;
+	width: 100%;
+	background: #FFFF;
+	padding: 0rpx 24rpx 2rpx 24rpx;
+}
+.mode-items{
+	position: relative;
+	width: 48%;
+}
+

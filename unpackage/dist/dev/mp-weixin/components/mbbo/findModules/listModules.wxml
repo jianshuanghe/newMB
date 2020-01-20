@@ -1,0 +1,1 @@
+<view class="listModules _div"><view class="listContent _div" list="{{options}}"><capital vue-id="1" msgDatas="{{options}}" bind:__l="__l"></capital></view></view>

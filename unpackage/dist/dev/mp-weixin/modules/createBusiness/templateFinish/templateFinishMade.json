@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "立即定制",
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation"
+  }
+}

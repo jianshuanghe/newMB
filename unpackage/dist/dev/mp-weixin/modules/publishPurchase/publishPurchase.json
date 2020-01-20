@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "发布采购",
+  "usingComponents": {
+    "preview": "/modules/publishPurchase/templet/preview",
+    "title-purchase": "/modules/publishPurchase/title/titlePurchase",
+    "simple": "/modules/publishPurchase/templet/simple",
+    "general": "/modules/publishPurchase/templet/general",
+    "more-set": "/modules/publishPurchase/templet/moreSet/moreSet",
+    "no-edit-btn": "/modules/publishPurchase/btn/noEditBtn"
+  }
+}

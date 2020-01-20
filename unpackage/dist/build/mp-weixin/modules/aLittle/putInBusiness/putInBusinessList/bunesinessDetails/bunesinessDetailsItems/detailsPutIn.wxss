@@ -1,0 +1,98 @@
+
+.detailsPutIn-box.data-v-05f6de38{
+  position: relative;
+  width: 100%;
+}
+.detailsPutIn.data-v-05f6de38{
+   position: relative;
+   width: 100%;
+}
+.topDetail-Putin.data-v-05f6de38 {
+   position: relative;
+   width: 100vw;
+   padding: 2vw 4vw;
+   background: #fff;
+   margin-bottom: 1.5vw;
+}
+.top-details-item.data-v-05f6de38{
+   position: relative;
+   width: 100%;
+}
+.item-detail-pi.data-v-05f6de38{
+   position: relative;
+   width: 50%;
+}
+.pi-text.data-v-05f6de38{
+   position: relative;
+   width: 100%;
+}
+.pi-text>._p.data-v-05f6de38{
+   font-family: PingFangSC-Regular;
+   font-size: 3.733vw;
+   color: #2E2E30;
+   line-height: 11vw;
+   -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
+.item-detail-ut.data-v-05f6de38{
+   position: relative;
+   width: 50%;
+}
+.ut-text.data-v-05f6de38{
+   position: relative;
+   width: 100%;
+   font-family: PingFangSC-Regular;
+   font-size: 3.733vw;
+   color: #5D5D5D;
+   text-align: right;
+   line-height: 9vw;
+}
+.ut-text>._p.data-v-05f6de38{
+   font-family: PingFangSC-Regular;
+   font-size: 3.733vw;
+   color: #5D5D5D;
+   text-align: right;
+   line-height: 11vw;
+}
+.ut-text>._span.data-v-05f6de38{
+  font-family: PingFangSC-Regular;
+  font-size: 3.733vw;
+  color: #5D5D5D;
+  text-align: right;
+  line-height: 11vw;
+}
+.bottomDetail-Putin.data-v-05f6de38{
+   position: relative;
+   width: 100vw;
+   padding: 2vw 4vw 0 4vw;
+   background: #fff;
+   margin-bottom: 1.5vw;
+}
+.putin-data-de.data-v-05f6de38{
+   position: relative;
+   width: 100%;
+}
+.data-pi-text.data-v-05f6de38{
+   position: relative;
+   width: 100%;
+}
+.data-pi-text>._p.data-v-05f6de38{
+  font-family: PingFangSC-Regular;
+  font-size: 3.733vw;
+  color: #2E2E30;
+  line-height: 8vw;
+}
+.isMore-box.data-v-05f6de38{
+   position: relative;
+   width: 100%;
+}
+.isMore-box>._p.data-v-05f6de38{
+   font-family: PingFang-SC-Medium;
+   font-size: 3.5vw;
+   color: #9B9B9B;
+   line-height: 9vw;
+   text-align: center;
+}
+

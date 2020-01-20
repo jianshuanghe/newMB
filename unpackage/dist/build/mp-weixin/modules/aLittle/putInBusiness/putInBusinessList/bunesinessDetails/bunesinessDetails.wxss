@@ -1,0 +1,13 @@
+
+.content-BunessDetails.data-v-72f600a0{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #F6F6F6;
+}
+.detailsPutIn-Box-Cont.data-v-72f600a0{
+  position: relative;
+  width: 100%;
+  min-height: 97vh;
+}
+

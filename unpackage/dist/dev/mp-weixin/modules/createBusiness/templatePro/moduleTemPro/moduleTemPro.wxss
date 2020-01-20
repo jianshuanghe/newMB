@@ -1,0 +1,20 @@
+
+.scroll-Y{
+	position: relative;
+	height: 93vh;
+}
+.scroll-Cust-Y{
+	position: relative;
+	height: 100vh;
+}
+.waterMark{
+	height: 22vh;
+}
+.text{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #bdbdbd;
+	text-align: center;
+	line-height: 80rpx;
+}
+

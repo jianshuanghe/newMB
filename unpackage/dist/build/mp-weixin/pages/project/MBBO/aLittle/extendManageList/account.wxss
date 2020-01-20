@@ -1,0 +1,101 @@
+
+.content {
+	position: relative;
+	width: 100vw;
+	padding: 2vw 4vw;
+	background: #fff;
+}
+.account-box {
+	position: relative;
+	width: 100%;
+}
+.account {
+	position: relative;
+	width: 100%;
+	height: 47.2vw;
+	background-image: -o-linear-gradient(224deg, #57d6cf 0%, #15d49f 100%);
+	background-image: linear-gradient(-134deg, #57d6cf 0%, #15d49f 100%);
+	-webkit-box-shadow: 0 2px 10px 0 rgba(2, 194, 162, 0.3);
+	        box-shadow: 0 2px 10px 0 rgba(2, 194, 162, 0.3);
+	border-radius: 4px;
+}
+.person-box {
+	position: relative;
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 5vw;
+}
+.person-img {
+	position: relative;
+	width: 10vw;
+	height: 10vw;
+}
+.person-img > ._img {
+	position: relative;
+	width: 100%;
+	border-radius: 50%;
+	height: 100%;
+}
+.person-name {
+	position: relative;
+	width: 60%;
+}
+.person-name > ._p {
+	position: relative;
+	font-family: PingFang-SC-Medium;
+	font-size: 4.5vw;
+	color: #ffffff;
+	letter-spacing: 0;
+	margin-left: 2vw;
+	line-height: 10vw;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.my-account {
+	position: relative;
+	width: 100%;
+}
+.accout-title {
+	position: relative;
+	width: 100%;
+	font-size: 3.5vw;
+	line-height: 5vw;
+	color: #fff;
+	text-align: center;
+}
+.account-num {
+	position: relative;
+	width: 100%;
+	font-size: 9vw;
+	color: #fff;
+	text-align: center;
+}
+.account-num > ._span {
+	position: relative;
+	font-size: 3.5vw;
+	line-height: 9vw;
+	color: #fff;
+}
+.account-can {
+	position: relative;
+	width: 100%;
+	font-size: 3.5vw;
+	line-height: 5vw;
+	color: #fff;
+	text-align: center;
+}
+.account-can > ._span {
+	position: relative;
+	font-size: 3.5vw;
+	line-height: 9vw;
+	color: #fff;
+}
+.questionImg {
+	position: relative;
+	width: 3.5vw;
+	height: 3.5vw;
+	top: 0.5vw;
+}
+

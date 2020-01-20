@@ -1,0 +1,1 @@
+<view class="jshBtn-box _div"><view class="jshTextY _p" style="{{'border-color:'+(bColor)+';'+('padding:'+(paddingNum)+';')+('background:'+(bgColor)+';')+('box-shadow:'+(bShadow)+';')+('background-image:'+(bgImage)+';')}}">{{name}}</view></view>

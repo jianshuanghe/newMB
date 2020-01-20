@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择模版(1/4)",
+  "usingComponents": {
+    "top-s-tem": "/modules/createBusiness/selectTemplate/topSTem",
+    "contont-s-tem": "/modules/createBusiness/selectTemplate/contontSTem"
+  }
+}

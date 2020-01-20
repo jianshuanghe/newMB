@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "测试组件",
+  "usingComponents": {
+    "module-title": "/components/common/RHX/moduleTitle/moduleTitle",
+    "swiper-banner": "/components/common/RHX/swiperBanner/swiperBanner",
+    "single-picture": "/components/common/RHX/singlePicture/singlePicture",
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "manage-copy-tips": "/components/common/RHX/manageCopyTips/manageCopyTips",
+    "delete-move-tips": "/components/common/RHX/deleteMoveTips/deleteMoveTips",
+    "module-list": "/components/common/RHX/moduleList/moduleList",
+    "r-check-box": "/components/common/RHX/rCheckBox/rCheckBox",
+    "r-select": "/components/common/RHX/rSelect/rSelect",
+    "module-ylist": "/components/common/RHX/moduleYlist/moduleYlist",
+    "bottom": "/components/common/RHX/bottom/bottom"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="news"><my-title vue-id="1" bind:__l="__l"></my-title><view class="tian"></view><unread vue-id="2" bind:__l="__l"></unread><classification vue-id="3" bind:__l="__l"></classification><message vue-id="4" bind:__l="__l"></message></view>

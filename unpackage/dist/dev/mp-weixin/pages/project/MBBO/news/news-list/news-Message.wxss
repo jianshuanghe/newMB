@@ -1,0 +1,125 @@
+
+.news-Message {
+	width: 100%;
+	background: #ffffff;
+	margin-top: 20rpx;
+}
+/* 第二版用 */
+/* .news-Message-lie {
+	width: 90%;
+	height: 160upx;
+	margin: 0 auto;
+	border-bottom: 2upx solid #f5f5f5;
+	display: flex;
+}
+.news-Message-img {
+	width: 100upx;
+	height: 100%;
+	padding: 0.1upx;
+}
+.news-Message-img > image {
+	width: 72upx;
+	height: 72upx;
+	border-radius: 50%;
+	display: block;
+	margin-top: 40%;
+}
+.news-Message-conte {
+	width: 84.5%;
+	height: 100%;
+}
+.news-Message-conte > view:nth-of-type(1) {
+	font-size: 32upx;
+	color: #2e2e30;
+	float: left;
+	padding-top: 28upx;
+	font-weight: bold;
+}
+.news-Message-conte > view:nth-of-type(2) {
+	float: right;
+	font-size: 22upx;
+	color: #9b9b9b;
+	padding-top: 33upx;
+}
+.news-Message-conte > view:nth-of-type(3) {
+	clear: both;
+	font-size: 24upx;
+	color: #9b9b9b;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+} */
+.my-Buyer-header-list{
+		width: 90%;
+		min-height: 200rpx;
+		height: auto;
+		border-bottom: 2rpx solid #F5F5F5;
+		margin: 0 auto;
+		padding-bottom: 40rpx;
+}
+.my-Buyer-header-list1{
+		width: 6%;
+		/* height: 100%; */
+		/* position: relative; */
+		float: left;
+}
+.my-Buyer-header-list1>view{
+		width: 20rpx;
+		height: 20rpx;
+		border-radius: 50%;
+		margin-top: 92rpx;
+		background: #FF2A25;
+}
+.my-Buyer-header-list2{
+		width: 94%;
+		/* height: 100%; */
+		float: right;
+}
+.my-Buyer-header-list2-zi{
+		font-size: 20px;
+		color: #2E2E30;
+		padding-top: 66rpx;
+		line-height: 64rpx;
+}
+.my-Buyer-header-list2-nei{
+		font-size: 28rpx;
+		color: #2E2E30;
+		line-height: 42rpx;
+		padding-top: 32rpx;
+		overflow:hidden;
+		-o-text-overflow:ellipsis;
+		   text-overflow:ellipsis;
+		display:-webkit-box;
+		-webkit-box-orient:vertical;
+		-webkit-line-clamp:2;
+}
+.my-Buyer-header-list2-xin{
+		width: 100%;
+		height: 30rpx;
+		padding-top: 32rpx;
+}
+.my-Buyer-header-list2-xin>view:nth-of-type(1){
+		width: 60%;
+		/* height: 100%; */
+		font-size: 26rpx;
+		color: #9B9B9B;
+		line-height: 30rpx;
+		float: left;
+}
+.my-Buyer-header-list2-xin>view:nth-of-type(1)>._span{
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}
+.my-Buyer-header-list2-xin>view:nth-of-type(2){
+		width: 40%;
+		/* height: 100%; */
+		line-height: 30rpx;
+		font-size: 26rpx;
+		color: #9B9B9B;
+		float: right;
+		text-align: right;
+}
+.cler{
+		clear: both;
+}
+

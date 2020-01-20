@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "top-box": "/components/mbbo/topBox/topBox",
+    "navigation": "/components/mbbo/navigation/navigation"
+  }
+}

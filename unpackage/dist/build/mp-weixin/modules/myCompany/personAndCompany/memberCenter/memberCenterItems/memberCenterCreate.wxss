@@ -1,0 +1,85 @@
+
+.MCY-content.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+	background: #fff;
+}
+.MCY-Box.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+	padding: 4vw;
+}
+.MCY-top.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+}
+.title-MCY.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+}
+.title-MCY > ._p.data-v-326a4570 {
+	font-family: PingFangSC-Semibold;
+	font-size: 5.33vw;
+	color: #2e2e30;
+	text-align: left;
+	line-height: 12vw;
+}
+.MCY-cont.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+	margin-bottom: 5vw;
+	height: 60vw;
+}
+.swiper-box.data-v-326a4570{
+	height: 60vw;
+}
+.uni-swiper-slides.data-v-326a4570{
+	width: 80vw;
+}
+.swiper-container.data-v-326a4570 {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide.data-v-326a4570 {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	width: 90%;
+}
+.swiper-slide.data-v-326a4570:nth-child(2n) {
+	width: 80%;
+}
+.swiper-slide.data-v-326a4570:nth-child(3n) {
+	width: 80%;
+}
+.imgListSwiper.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+	border-radius: 2vw;
+	height: 40vw;
+}
+.MB-type.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+	margin-top: -2vw;
+	padding-left: 2vw;
+}
+.MB-type-text.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+	font-family: PingFang-SC-Medium;
+	font-size: 4vw;
+	color: #2e2e30;
+	line-height: 6vw;
+	text-align: left;
+}
+.MP-isFree.data-v-326a4570 {
+	position: relative;
+	width: 100%;
+	font-family: PingFang-SC-Regular;
+	font-size: 3.5vw;
+	color: #fab100;
+	line-height: 7vw;
+	text-align: left;
+}
+

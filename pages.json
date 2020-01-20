@@ -1,0 +1,634 @@
+{
+	"pages": [
+		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/project/MBBO/home",
+			"style": {
+				// #ifdef H5
+					"navigationStyle":"custom",
+				// #endif
+				"navigationBarTitleText": "陌拜商机",
+				"app-plus": {
+					"bounce":"none",
+					"app-plus": {
+						"bounce":"none"
+					}
+				}
+			}
+		},
+		// h5
+		{
+			"path": "pages/landRegistration/h5/landRegistration",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus": {
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/landRegistration/h5/forgetPassWord",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		// mp|| 微信小程序 支付宝小程序 百度小程序 头条小程序
+		{
+			"path": "pages/landRegistration/mp/landRegistration",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"bounce":"none"
+				}
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "modules/aLittle",
+			"pages": [
+				{
+					"path": "putInBusiness/putInBusiness",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "投放商机",
+						"app-plus": {
+						}
+					}
+				},
+				{
+					"path": "putInBusiness/putInBusinessList/bunesinessDetails/bunesinessDetails",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "商机详情",
+						"app-plus": {
+						}
+					}
+				},
+				{
+					"path": "putInBusiness/putInBusinessList/putInList/putInList",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "投放商机",
+						"app-plus": {
+						}
+					}
+				},
+				{
+					"path": "dataReport/dataReport",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "投放数据分析",
+						"app-plus": {
+						}
+					}
+				}
+			]
+		},
+		{
+			"root": "modules/publishPurchase", // 发布采购
+			"pages": [{
+					"path": "publishPurchase",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "发布采购"
+					}
+				},
+				{
+					"path": "selectTemplate/publishPurchaseFinish/publishPurchaseFinishShare",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "分享二维码(4/4)"
+					}
+				}
+			]
+		},
+		{
+			"root": "modules/createBusiness", // 创建商机
+			"pages": [{
+					"path": "selectTemplate",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "选择模版(1/4)"
+					}
+				},
+				{
+					"path": "templatePro/templatePro",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "修改模版(2/4)"
+					}
+				},
+				{
+					"path": "templateFinish/templateFinish",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "介绍说明(3/4)"
+					}
+				},
+				{
+					"path": "templateFinish/templateFinishShare",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "分享二维码(4/4)"
+					}
+				},
+				{
+					"path": "templateFinish/templateFinishMade",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "立即定制"
+					}
+				},
+				{
+					"path": "webView/webView",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "陌拜"
+					}
+				}
+			]
+		},
+		{
+			"root": "modules/news",
+			"pages": [{
+					"path": "newsList/newsList",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": "消息"
+					}
+				}
+			]
+		},
+		{//如何秀模块
+			"root": "modules/InstructionsPrice",
+			"pages": [{//我的说明书
+					"path": "myproduct/myproduct-shu",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书详情
+					"path": "myproduct/product-book/product-books",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书表格
+					"path": "myproduct/product-book/dataReport/dataReport",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书详情完善信息
+					"path": "myproduct/product-book/QRcodeandinquiry/QRcode-list/QRcodelist-edit",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 采购订单 供应订单
+					"path": "Order/Order",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 供应订单 详情
+					"path": "Order/Order-list/Order-details/Order-details",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 供应订单 详情
+					"path": "Order/Order-list/Order-details/Order-detailsh",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 供应订单 详情
+					"path": "Order/Order-list/Order-details/Order-confirm",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 采购订单  详情
+					"path": "Order/Order-list/Order-details/Order-details2",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 编辑说明书
+					"path": "Edit-instructions/Edit-instructions",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 我的采购
+					"path": "Purchase/Purchase",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 我的采购-详情页
+					"path": "Purchase/Purchase-details/Purchase-details",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//说明书 我的采购-详情页
+					"path": "Purchase/Purchase-details/dataReport/dataReport",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		},
+		{
+			"root": "modules/find",
+			"pages": [
+				{//发现页 搜索
+					"path": "findlist/find-search",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//发现页 慧聪云详情
+					"path": "findlist/find-cloud",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//发现页 陌拜资本详情
+					"path": "findlist/find-capital",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				}
+				
+			]
+		},
+		{
+			"root": "modules/myCompany",
+			"pages": [
+				{//个人中心 个人资料
+					"path": "myList/myheader",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//公司信息 证件有效期
+					"path": "personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/editvalidity",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//公司信息 注册地
+					"path": "personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/industryAddress/address",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//公司信息 编辑基本信息
+					"path": "personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/editBasicInfor",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//个人中心 简单介绍
+					"path": "myList/myheader-list/myheader-Personal",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//个人中心 感兴趣的行业
+					"path": "myList/myheader-list/myheader-interested",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//个人中心 感兴趣的关键词
+					"path": "myList/myheader-list/myheader-Keyword",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//个人中心 供应关键词
+					"path": "myList/myheader-list/myheader-Purchase",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//个人中心 供应关键词
+					"path": "myList/myheader-list/KeyWords",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//已关注 粉丝
+					"path": "myFocusonfans/my-Focusonfans",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//公司信息预览
+					"path": "personAndCompany/companyInfor/companyInfor",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//已收藏 浏览 点赞
+					"path": "myCollectiononBrowseonPoints/my-CollectiononBrowseonPoints",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},
+				{//公司信息编辑
+					"path": "personAndCompany/companyInfor/companyInforEdit",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//商家详情
+					"path": "mybusiness/my-business",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},
+				{//会员中心
+					"path": "personAndCompany/memberCenter/memberCenter",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},
+				{//会员支付页
+					"path": "personAndCompany/memberCenter/memberCenterItems/buyMember/buyMember",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//设置
+					"path": "mySetup/my-Setup",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//账户中心
+					"path": "personAndCompany/accountCenter/accountCenter",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//修改手机号
+					"path": "mySetup/mySetups/mySetup-phone",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//修改手机号
+					"path": "mySetup/mySetups/mySetup-pass",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//关于我们
+					"path": "personAndCompany/aboutUs/aboutUs",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//意见反馈
+					"path": "personAndCompany/Opinion/Opinion",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//设置 绑定邮箱
+					"path": "mySetup/mySetups/mySetup-mailbox",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//设置 绑定微信
+					"path": "mySetup/mySetups/mySetup-WX",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//设置 地址管理
+					"path": "mySetup/mySetups/mySetup-address",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//设置 添加地址
+					"path": "mySetup/mySetups/mySetup-address-new",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//设置 添加地址
+					"path": "mySetup/mySetups/mySetup-address-new2",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//买家留言 and 已发留言
+					"path": "myBuyeronAlready/my-BuyeronAlready",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//已发留言详情
+					"path": "myBuyeronAlready/my-BuyeronAlready/Message-details/Already-details",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//收到留言详情
+					"path": "myBuyeronAlready/my-BuyeronAlready/Message-details/Buyer-details",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		},{
+			"root": "modules/news",
+			"pages": [{//消息 获赞与收藏
+					"path": "newsPraisedAndCollection/news-PraisedAndCollection",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//消息 系统通知
+					"path": "newssystem/news-systemlist",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				},{//消息 消息详情
+					"path": "newssystem/system-feeling/news-feeling",
+					"style": {
+						// #ifdef H5
+							"navigationStyle":"custom",
+						// #endif
+						"navigationBarTitleText": ""
+					}
+				}
+			]
+		}
+	],
+    "preloadRule": { // 预加载
+        // "modules/pageHome/searchDetile/searchDetile": {
+        //     "network": "all",
+        //     "packages": ["modules/pageHome"]
+        // }
+    },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "陌拜商机",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-alipay": {
+			"titleBarColor": "#FFFFFF"
+		}
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

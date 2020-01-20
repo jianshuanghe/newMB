@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "home-search": "/components/mbbo/homeSearch/homeSearch"
+  }
+}

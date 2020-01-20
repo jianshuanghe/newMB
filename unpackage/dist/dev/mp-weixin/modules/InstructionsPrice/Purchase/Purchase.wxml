@@ -1,0 +1,1 @@
+<view class="Purchase"><view class="my-title"><view class="quickBtn-Fd left _div"><quick-btn vue-id="1" bind:__l="__l"></quick-btn></view><view class="myproduct-title">{{''+i18n.product10+''}}</view></view><view class="tian"></view><purchase vue-id="2" bind:__l="__l"></purchase><block wx:if="{{QUICKNAVCO.show}}"><navigation vue-id="3" bind:__l="__l"></navigation></block></view>

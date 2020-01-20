@@ -1,0 +1,18 @@
+
+.putInBus-content.data-v-6224b9c2{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #F6F6F6;
+  overflow: scroll;
+  -webkit-overflow-scrolling:touch;
+}
+.putBusinessItems-Box-cont.data-v-6224b9c2{
+    padding-top: 1.5vw;
+    position: fixed;
+    height: 95vh;
+    overflow: scroll;
+    padding-bottom: 15vw;
+    -webkit-overflow-scrolling:touch;
+}
+

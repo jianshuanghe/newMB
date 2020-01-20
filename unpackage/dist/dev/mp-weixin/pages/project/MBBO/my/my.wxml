@@ -1,0 +1,1 @@
+<view class="my"><my-title vue-id="1" bind:__l="__l"></my-title><headers vue-id="2" bind:__l="__l"></headers><functions vue-id="3" bind:__l="__l"></functions><sell vue-id="4" bind:__l="__l"></sell><buy vue-id="5" bind:__l="__l"></buy><tool vue-id="6" bind:__l="__l"></tool><information vue-id="7" bind:__l="__l"></information><about vue-id="8" bind:__l="__l"></about></view>

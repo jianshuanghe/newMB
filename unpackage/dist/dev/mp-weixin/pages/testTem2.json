@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "测试组件2",
+  "usingComponents": {
+    "bottom": "/components/common/RHX/bottom/bottom"
+  }
+}

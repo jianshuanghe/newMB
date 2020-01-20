@@ -1,0 +1,11 @@
+
+.replaceIcon-content{
+	position: relative;
+	width: 100%;
+}
+.replaceIcon{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+

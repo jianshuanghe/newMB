@@ -1,0 +1,172 @@
+
+.mybusiness-information{
+	width: 100%;
+	min-height: 50%;
+	background: #FFFFFF;
+	padding-bottom: 120rpx;
+}
+.mybusiness-information-box{
+	width: 90%;
+	height: 300rpx;
+	margin: 0 auto;
+	border-bottom: 2rpx solid #F5F5F5;
+}
+.mybusiness-supply-con{
+	width: 90%;
+	height: 300rpx;
+	margin: 0 auto;
+	border-bottom: 2rpx solid #F5F5F5;
+	overflow: hidden;
+}
+.mybusiness-supply-conone{
+	width: 100%;
+	height: 180rpx;
+	margin-top: 40rpx;
+}
+.mybusiness-supply-conone-zi{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.mybusiness-supply-conone-zi>view:nth-of-type(1){
+	width: 100%;
+	height: 80rpx;
+	font-size: 34rpx;
+	color: #2E2E30;
+	line-height: 40rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.mybusiness-supply-conone-zi>view:nth-of-type(2){
+	width: 100%;
+	height: 40rpx;
+	line-height: 40rpx;
+	padding-left: 12rpx;
+	margin-top: 40rpx;
+}
+.mybusiness-supply-conone-zi>view:nth-of-type(2)>._span:nth-of-type(1){
+	border: 2rpx solid #3893FF;
+	border-radius: 4rpx;
+	padding: 6rpx 6rpx 6rpx 6rpx;
+	font-size: 20rpx;
+	color: #3893FF;
+}
+.mybusiness-supply-conone-zi>view:nth-of-type(2)>._span:nth-of-type(2){
+	font-size: 22rpx;
+	color: #9B9B9B;
+	margin-left: 10rpx;
+}
+.mybusiness-supply-conone-zis{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.mybusiness-supply-conone-zis>view:nth-of-type(1){
+	width: 100%;
+	height: 80rpx;
+	font-size: 34rpx;
+	color: #2E2E30;
+	line-height: 40rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.mybusiness-supply-conone-zis>view:nth-of-type(2){
+	width: 100%;
+	height: 40rpx;
+	line-height: 40rpx;
+	padding-left: 12rpx;
+	margin-top: 40rpx;
+}
+.mybusiness-supply-conone-zis>view:nth-of-type(2)>._span:nth-of-type(1){
+	border: 2rpx solid #3893FF;
+	border-radius: 4rpx;
+	padding: 6rpx 6rpx 6rpx 6rpx;
+	font-size: 20rpx;
+	color: #3893FF;
+}
+.mybusiness-supply-conone-zis>view:nth-of-type(2)>._span:nth-of-type(2){
+	font-size: 22rpx;
+	color: #9B9B9B;
+	margin-left: 10rpx;
+}
+.mybusiness-supply-conone-tu{
+	width: 226rpx;
+	height: 166rpx;
+	float: right;
+	border-radius: 4rpx;
+}
+.mybusiness-supply-conone-tu>image{
+	width: 100%;
+	height: 100%;
+}
+.mybusiness-supply-contwo{
+	width: 100%;
+	height: 60rpx;
+}
+.icon-list{
+	position: relative;
+	width: 100%;
+	margin-top: 10rpx;
+	margin-left: 10rpx;
+}
+.lists{
+	position: relative;
+	width: 16.6%;
+}
+.list-item{
+	position: relative;
+	width: 100%;
+}
+.icon-img{
+	position: relative;
+	width: 30%;
+}
+.icon-img>._img{
+	position: relative;
+	width: 4.8vw;
+	height: 4.8vw;
+}
+.icon-text{
+	position: relative;
+	width: 40%;
+}
+.icon-text>._p{
+	position: relative;
+	width: 100%;
+	margin-left: 2vw;
+	font-size: 3.2vw;
+	line-height: 5vw;
+	color: #9B9B9B;
+}
+.interested{
+	position: absolute;
+	right: 0;
+}
+.mybusiness-supply-bot{
+	width: 100%;
+	height: 120rpx;
+	border-top: 2rpx solid #F5F5F5;
+	position: fixed;
+	bottom: 0;
+	background: #FFFFFF;
+}
+.mybusiness-supply-Customer{
+	width: 95%;
+	height:90rpx;
+	background: #02C2A2;
+	margin: 15rpx auto;
+	border-radius: 2px;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 90rpx;
+}
+
