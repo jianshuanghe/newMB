@@ -42,14 +42,13 @@
 </template>
 
 <script>
-	import defaultImg from '@/static/mbcImg/publish/createBusiness/defaultImg.png'
 export default {
 	name: 'TUIJIAN',
 	data() {
 		return {
 			title: '相关推荐',
 			list:this.moduleAIDateList ? this.moduleAIDateList.content : null,
-			defaultImg:defaultImg
+			defaultImg: this.Static+'publish/createBusiness/defaultImg.png'
 		};
 	},
 	created() {

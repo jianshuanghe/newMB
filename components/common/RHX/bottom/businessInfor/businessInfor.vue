@@ -210,14 +210,13 @@
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
 	import rTitle from '@/components/common/RHX/rTitle/rTitle';
-	import erweima from '@/static/mbcImg/news/erweima.png';
 	import singlePicture from '@/components/common/RHX/singlePicture/singlePicture';
 	import provinceCity from '@/components/common/provinceCity/provinceCity.vue';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				erweima: erweima,
+				erweima:  this.Static+'news/erweima.png',
 				businessTemLists: this.businessTemList, // 商家数据
 			};
 		},

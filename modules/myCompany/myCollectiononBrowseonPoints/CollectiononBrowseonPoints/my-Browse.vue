@@ -45,7 +45,6 @@
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import homeSearch from '@/components/mbbo/homeSearch/homeSearch.vue';
 	import mediaList from '@/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/Collection/mediaList.vue';
-	import nocon from '@/static/mbcImg/my/nocon.png';
 	 // 缓存每页最多
 	const MAX_CACHE_DATA = 100;
 	// 缓存页签数量
@@ -59,7 +58,7 @@
 	    data() {
 	        return {
 				arr:{},
-				nocon:nocon,
+				nocon: this.Static+'my/nocon.png',
 				datasea:'',
 	            newsList: [
 					{

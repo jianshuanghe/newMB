@@ -77,4 +77,16 @@
 	margin-top: 40rpx;
 	margin-left: 10rpx;
 }
+.Opinion-assembly-image{
+	width: 90%;
+	min-height: 500rpx;
+	margin: 20rpx auto auto auto;
+}
+.Opinion-assembly-image>image{
+	width: 32%;
+	height: 180rpx;
+	float: left;
+	margin-left: 8rpx;
+	margin-top: 26rpx;
+}
 

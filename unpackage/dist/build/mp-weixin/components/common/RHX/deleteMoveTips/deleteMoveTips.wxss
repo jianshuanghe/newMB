@@ -6,7 +6,7 @@
 	position: absolute;
 	top: 0;
 	background: rgba(66, 65, 65, 0.29);
-	z-index: 10002;
+	z-index: 102;
 }
 .deleteMoveTips{
 	text-align: center;
@@ -17,6 +17,6 @@
 	    -ms-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
 	width: 200px;
-	z-index: 10003;
+	z-index: 103;
 }
 

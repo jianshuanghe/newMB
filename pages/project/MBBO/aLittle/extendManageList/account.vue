@@ -14,11 +14,11 @@
 				<div class="my-account">
 					<p class="accout-title">账户可用余额 (元)<span class="question" @click="questions(1)"><img :src="question" alt="" class="questionImg" /></span></p>
 					<p class="account-num">
-						￥{{ list.moneyStr }}
+						￥{{ list.moneyStr || '0.00'}}
 						<span class="unit">元</span>
 					</p>
 					<p class="account-can">
-						账户余额 ￥{{ this.moneyzhong+this.moneydj | numFilter}} 元,已冻结 ￥{{list.frozenMoneyStr}} 元
+						账户余额 ￥{{ this.moneyzhong+this.moneydj | numFilter}} 元,已冻结 ￥{{list.frozenMoneyStr || '0.00'}} 元
 						<span class="question" @click="questions(2)"><img :src="question" alt="" class="questionImg" /></span>
 					</p>
 				</div>
@@ -28,8 +28,6 @@
 </template>
 
 <script>
-import question from '@/static/mbcImg/home/extendManageList/question.png';
-import navigation from "@/components/mbbo/navigation/navigation.vue";
 import { mapMutations , mapGetters} from 'vuex';
 export default {
 	name: 'account',
@@ -37,7 +35,7 @@ export default {
 	},
 	data() {
 		return {
-			question: question,
+			question: this.Static+'home/extendManageList/question.png',
 			loadingShow: false, // loading
 			accountData: '', // 个人账户信息数据
 			confirmShow: false,
@@ -80,7 +78,6 @@ export default {
 		}
 	},
 	components: {
-		navigation,
 	},
 	computed: {
 		i18n () {

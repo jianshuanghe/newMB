@@ -6,7 +6,6 @@
 }
 .moduleItems{
 	position: relative;
-	width: 670rpx;
-	margin-left: 40rpx;
+	width: 100%;
 }
 

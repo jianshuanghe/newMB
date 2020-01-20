@@ -58,7 +58,7 @@
 	width: 100%;
 	font-family: PingFangSC-Regular;
 	font-size: 24rpx;
-	color: #2e2e30;
+	color: #9B9B9B;
 }
 .class-a {
 	color: #02c2a2 !important;

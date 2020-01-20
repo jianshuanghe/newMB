@@ -22,7 +22,6 @@
 </template>
 
 <script>
-	import copy from '@/static/mbcImg/publish/createBusiness/copy.png';
 	import savePreviewBtn from '@/components/common/button/savePreviewBtn.vue';
 	export default {
 		props: [
@@ -34,7 +33,7 @@
 		],
 		data() {
 			return {
-				copy: copy,
+				copy:  this.Static+'publish/createBusiness/copy.png',
 				dataLists: this.dataList,
 			};
 		},

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "case-guarantee": "/components/common/RHX/madeModule/caseGuarantee/caseGuarantee",
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "add-button": "/components/common/RHX/addButton/addButton",
+    "picker-button": "/components/common/RHX/pickerButton/pickerButton"
+  },
+  "component": true
+}

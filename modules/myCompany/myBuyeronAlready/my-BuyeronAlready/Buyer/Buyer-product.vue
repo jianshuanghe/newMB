@@ -26,12 +26,11 @@
 
 <script>
 	import { mapMutations,mapGetters } from 'vuex';
-	import kong from '@/static/mbcImg/my/kong.png';
 	export default {
 		data() {
 			return {
 				list:[],
-				kong:kong,
+				kong:this.Static+'my/kong.png',
 				pages:'1'
 			}
 		},
@@ -152,7 +151,7 @@
 						title: '加载中'
 					});
 					uni.request({
-						url: this.api2 + '/rest-rp/msg?userId='+landRegistLG.user.id+'&page=1', //接口地址。
+						url: this.api2 + '/rest-rp/msg/selectList?userId='+landRegistLG.user.id+'&page=1', //接口地址。
 						// data: params,
 						method: 'GET',
 						header: {

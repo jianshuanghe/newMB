@@ -31,13 +31,13 @@
 }
 .mySetup-address-con{
 	width: 100%;
-	height: 240rpx;
+	min-height: 240rpx;
 	background: #FFFFFF;
 	margin-top: 20rpx;
 }
 .mySetup-address-nei{
 	width: 90%;
-	height: 160rpx;
+	min-height: 160rpx;
 	margin: 0 auto;
 	border-bottom: 2rpx solid #D2D2D2;
 }
@@ -52,7 +52,7 @@
 }
 .mySetup-address-xuan{
 	width: 90%;
-	height: 70rpx;
+	min-height: 70rpx;
 	margin: 0 auto;
 }
 .mySetup-address-xuan-img{
@@ -92,7 +92,7 @@
 }
 .mySetup-address-di{
 	width: 100%;
-	height: 2rpx;
+	height: 10rpx;
 	line-height: 2rpx;
 }
 .mySetup-address-di>image{

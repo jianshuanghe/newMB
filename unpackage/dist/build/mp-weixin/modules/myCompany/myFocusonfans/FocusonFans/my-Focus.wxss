@@ -39,7 +39,7 @@
 	margin-top: -5rpx;
 }
 .my-Focus-list-name>view:nth-of-type(1){
-	max-width: 240rpx;
+	max-width: 278rpx;
 	height: 100%;
 	font-size: 34rpx;
 	color: #2E2E30;
@@ -62,24 +62,24 @@
 }
 .my-Focus-list-name-thr{
 	width: 106rpx;
-	height: 50rpx;
+	height: 46rpx;
 	border: 2rpx solid #BDBDBD;
 	border-radius: 4rpx;
 	float: right;
 	text-align: center;
-	line-height: 50rpx;
+	line-height: 46rpx;
 	color: #BDBDBD;
 	font-size: 30rpx;
 	margin-top:-2rpx;
 }
 .my-Focus-list-name-thrs{
 	width: 106rpx;
-	height: 50rpx;
+	height: 46rpx;
 	border: 2rpx solid #02C2A2;
 	border-radius: 4rpx;
 	float: right;
 	text-align: center;
-	line-height: 50rpx;
+	line-height: 46rpx;
 	color: #02C2A2;
 	font-size: 30rpx;
 	margin-top:-2rpx;
@@ -119,5 +119,19 @@
 }
 .my-Focus-list-xiang:nth-of-type(4){
 	margin-left: 40rpx;
+}
+.meirenkanwo{
+	width: 330rpx;
+	height: 280rpx;
+	display: block;
+	margin: 120rpx auto auto auto;
+	font-size: 28rpx;
+	text-align: center;
+	color: #9B9B9B;
+	clear: both;
+}
+.meirenkanwo>image {
+	width: 92%;
+	height: 80%;
 }
 

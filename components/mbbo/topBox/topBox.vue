@@ -14,7 +14,7 @@
 </template>
 
 <script>
-    import quickBtn from './../quickBtn/quickBtn';
+    import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
     export default {
 		components: {
 			quickBtn

@@ -4,6 +4,7 @@
     "top-box": "/components/mbbo/topBox/topBox",
     "data-title": "/modules/aLittle/putInBusiness/putInBusinessList/bunesinessDetails/bunesinessDetailsItems/dataTitle",
     "details-put-in": "/modules/aLittle/putInBusiness/putInBusinessList/bunesinessDetails/bunesinessDetailsItems/detailsPutIn",
-    "data-trend-kanban": "/modules/aLittle/putInBusiness/putInBusinessList/bunesinessDetails/bunesinessDetailsItems/dataTrendKanban"
+    "data-trend-kanban": "/modules/aLittle/putInBusiness/putInBusinessList/bunesinessDetails/bunesinessDetailsItems/dataTrendKanban",
+    "navigation": "/components/mbbo/navigation/navigation"
   }
 }

@@ -37,13 +37,13 @@
 }
 .img {
 	position: relative;
-	width: 108rpx;
+	width: 124rpx;
 	margin: 0 auto;
 }
 .img > ._img {
 	position: relative;
-	width: 108rpx;
-	height: 108rpx;
+	width: 124rpx;
+	height: 124rpx;
 	margin-top: 2vw;
 	margin: 0 auto;
 }

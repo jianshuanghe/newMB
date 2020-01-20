@@ -38,9 +38,6 @@
 
 <script>
 	import blackBtn from '@/components/common/button/blackBtn.vue';
-	import deleteImg from '@/static/mbcImg/common/del.png';
-	import topImg from '@/static/mbcImg/common/top.png';
-	import bottomImg from '@/static/mbcImg/common/botom.png';
 	export default {
 		props: ['dataList', 'itemsData', 'indexNum', 'heightStyle', 'dMWidth', 'dMHeight','dright'],
 		data() {
@@ -48,9 +45,9 @@
 				dMShow: false,
 				dataLists: this.dataList,
 				itemsDatas: {},
-				deleteImg:deleteImg,
-				topImg:topImg,
-				bottomImg:bottomImg
+				deleteImg: this.Static+'common/del.png',
+				topImg: this.Static+'common/top.png',
+				bottomImg: this.Static+'common/botom.png'
 			};
 		},
 		components: {

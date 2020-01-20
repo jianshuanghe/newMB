@@ -74,20 +74,16 @@
 
 <script>
 import { mapMutations } from 'vuex';
-import dais from '@/static/mbcImg/my/dais.png';
-import tous from '@/static/mbcImg/my/tous.png';
-import weis from '@/static/mbcImg/my/weis.png';
-import zans from '@/static/mbcImg/my/zans.png';
 export default {
 	name: 'putBusinessItems',
 	data() {
 		return {
 			color: '1', // 颜色显示
 			authStates: '待审核' ,// 渲染数据
-			dais:dais,
-			tous:tous,
-			weis:weis,
-			zans:zans,
+			dais: this.Static+'my/dais.png',
+			tous: this.Static+'my/tous.png',
+			weis: this.Static+'my/weis.png',
+			zans: this.Static+'my/zans.png',
 			
 		};
 	},

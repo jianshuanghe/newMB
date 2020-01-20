@@ -1,38 +1,38 @@
 
-.memberCenterTips-content.data-v-2d2a9200{
+.memberCenterTips-content.data-v-0bb7ae24{
   position: relative;
   width: 100%;
 }
-.memberCenterTips.data-v-2d2a9200{
+.memberCenterTips.data-v-0bb7ae24{
   position: relative;
   width: 100%;
   padding: 0 4vw 0 4vw;
   background: #FEEEC7;
 }
-.MCT-type-box.data-v-2d2a9200{
+.MCT-type-box.data-v-0bb7ae24{
   position: relative;
   width: 100%;
 }
-.MCT-text.data-v-2d2a9200{
+.MCT-text.data-v-0bb7ae24{
   position: relative;
   width: 80%;
 }
-.MCT-text>._p.data-v-2d2a9200{
+.MCT-text>._p.data-v-0bb7ae24{
   font-family: PingFang-SC-Medium;
-  font-size: 3.2vw;
+  font-size: 24rpx;
   color: #FAB100;
   letter-spacing: 0;
   line-height: 9vw;
 }
-.MCT-open.data-v-2d2a9200{
+.MCT-open.data-v-0bb7ae24{
   position: relative;
   width: 20%;
 }
-.MCT-opne-Img.data-v-2d2a9200{
+.MCT-opne-Img.data-v-0bb7ae24{
   position: relative;
   width: 100%;
 }
-.MCT-opne-Img>._p.data-v-2d2a9200{
+.MCT-opne-Img>._p.data-v-0bb7ae24{
   font-family: PingFang-SC-Medium;
   font-size: 3.2vw;
   color: #FAB100;
@@ -41,7 +41,7 @@
   text-align: right;
   margin-right: 4vw;
 }
-.MCTopne-Img.data-v-2d2a9200{
+.MCTopne-Img.data-v-0bb7ae24{
   position: absolute;
   width: 3.2vw;
   height: 3.2vw;

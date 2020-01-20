@@ -1,11 +1,11 @@
 
-.content-BunessDetails.data-v-f087ab14 {
+.content-BunessDetails.data-v-59f57148 {
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: #f6f6f6;
 }
-.detailsPutIn-Box-Cont.data-v-f087ab14 {
+.detailsPutIn-Box-Cont.data-v-59f57148 {
 	position: relative;
 	width: 100%;
 	min-height: 97vh;

@@ -106,21 +106,16 @@
 </template>
 
 <script>
-import checkedItems from '@/static/mbcImg/publish/createBusiness/checkedItems.png';
-import selectEd from '@/static/mbcImg/publish/createBusiness/selectEd.png';
-import select from '@/static/mbcImg/publish/createBusiness/select.png';
-import rhx from '@/static/mbcImg/publish/createBusiness/rhx.png';
-
 export default {
 	props: ['disabled', 'dataList', 'dataListselectList', 'marginBottomShow', 'type', 'dataType', 'isTypeCust'],
 	data() {
 		return {
 			dataLists: [],
 			current: -1, // 用户选择的项
-			checkedItems: checkedItems, // 选择后的图片对勾标注
-			selectEd: selectEd, // 勾选圆框 黑色
-			select: select, // 未勾选圆框 白色
-			rhx: rhx, // 测试用途
+			checkedItems:  this.Static+'publish/createBusiness/checkedItems.png', // 选择后的图片对勾标注
+			selectEd:  this.Static+'publish/createBusiness/selectEd.png', // 勾选圆框 黑色
+			select:  this.Static+'publish/createBusiness/select.png', // 未勾选圆框 白色
+			rhx:  this.Static+'publish/createBusiness/rhx.png', // 测试用途
 			selectStyle: {
 				// 选择之后样式边框变化
 				background: '#FFFFFF',

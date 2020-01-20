@@ -31,11 +31,13 @@
 	width: 72rpx;
 	height: 100%;
 	float: left;
+	border-radius: 50%;
 }
 .news-Collection-head>image{
 	width: 72rpx;
 	height: 72rpx;
 	margin-top: 30rpx;
+	border-radius: 50%;
 }
 .news-Collection-body{
 	width: 87%;
@@ -99,5 +101,19 @@
 	font-size: 11px;
 	color: #9B9B9B;
 	clear: both;
+}
+.meirenkanwo{
+	width: 330rpx;
+	height: 280rpx;
+	display: block;
+	margin: 120rpx auto auto auto;
+	font-size: 28rpx;
+	text-align: center;
+	color: #9B9B9B;
+	clear: both;
+}
+.meirenkanwo>image {
+	width: 92%;
+	height: 80%;
 }
 

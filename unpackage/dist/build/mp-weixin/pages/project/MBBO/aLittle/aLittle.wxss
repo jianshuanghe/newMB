@@ -1,6 +1,10 @@
 
-.content-extend.data-v-0406d0c4 {
+.content-extend.data-v-b6834034 {
 	position: relative;
-	margin-bottom: 24vw;
+	margin-bottom: 10vw;
+}
+.extentBox-tian.data-v-b6834034{
+	width: 100%;
+	height: 20vw;
 }
 

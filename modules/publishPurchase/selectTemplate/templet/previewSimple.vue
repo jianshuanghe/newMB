@@ -108,13 +108,6 @@
 </template>
 
 <script>
-	import business from '@/static/mbcImg/publish/purchase/business.png';
-	import contact from '@/static/mbcImg/publish/purchase/contact.png';
-	import love from '@/static/mbcImg/publish/purchase/store.png';
-	import loved from '@/static/mbcImg/publish/purchase/stored.png';
-	import againEdit from '@/static/mbcImg/publish/purchase/againEdit.png';
-	import publish from '@/static/mbcImg/publish/purchase/publish.png';
-	import product from '@/static/mbcImg/publish/purchase/product.png';
 	import topBox from '@/components/mbbo/topBox/topBox';
 	import uniCountDown from '@/components/common/uni-count-down/uni-count-down.vue';
 	import fixedBgBtn from '@/components/common/button/fixedBgBtn.vue';
@@ -126,14 +119,14 @@
 	export default {
 		data() {
 			return {
-				business: business,
-				contact: contact,
-				store: love,
-				loved:loved,
-				love:love,
-				againEdit: againEdit,
-				publish: publish,
-				product: product,
+				business:  this.Static+'publish/purchase/business.png',
+				contact:  this.Static+'publish/purchase/contact.png',
+				store:  this.Static+'publish/purchase/store.png',
+				loved: this.Static+'publish/purchase/stored.png',
+				love: this.Static+'publish/purchase/store.png',
+				againEdit:  this.Static+'publish/purchase/againEdit.png',
+				publish:  this.Static+'publish/purchase/publish.pngg',
+				product:  this.Static+'publish/purchase/product.png',
 				isEdit:{
 					isEditShowBtn: true,
 					isBtnBottom: '88upx'

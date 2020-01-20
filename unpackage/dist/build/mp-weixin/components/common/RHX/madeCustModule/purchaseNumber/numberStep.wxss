@@ -1,0 +1,14 @@
+
+.numberStep-content{
+	position: relative;
+	width: 100%;
+}
+.numberStep{
+	position: relative;
+	width: 100%;
+}
+.NumberBox{
+	position: relative;
+	width: 100%;
+}
+

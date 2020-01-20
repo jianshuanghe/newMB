@@ -72,13 +72,30 @@
 	border-left: 4rpx solid #02C2A2;
 	margin: 40rpx auto auto auto;
 }
-.Buyer-details-GL>view{
+.Buyer-details-GL>view:nth-of-type(1){
 	width: 90%;
 	height: 50%;
-	font-size: 28rpx;
+	font-size: 32rpx;
 	color: #02C2A2;
 	margin-left: 20rpx;
-	line-height: 73rpx;
+	line-height: 106rpx;
+	font-weight: bold;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.Buyer-details-GL>view:nth-of-type(2){
+	width: 90%;
+	height: 50%;
+	font-size: 24rpx;
+	color: #02C2A2;
+	margin-left: 20rpx;
+	line-height: 60rpx;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
 }
 .Buyer-details-del{
 	width: 100%;

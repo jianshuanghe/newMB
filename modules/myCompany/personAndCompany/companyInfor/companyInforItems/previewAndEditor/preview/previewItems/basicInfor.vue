@@ -75,22 +75,16 @@
 </template>
 
 <script>
-import logo from '@/static/mbcImg/images/business/home/personCenter/company/logo.jpg';
-import certified from '@/static/mbcImg/images/business/home/personCenter/company/certified.png';
-import noCertified from '@/static/mbcImg/images/business/home/personCenter/company/noCertified.png';
-import qrCodeIcon from '@/static/mbcImg/images/business/home/personCenter/company/qrCodeIcon.png';
-import renzheng from '@/static/mbcImg/my/renzheng.png';
-
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'basicInfor',
 	components: {},
 	data() {
 		return {
-			certified: certified,
-			noCertified: noCertified,
-			logo: logo,
-			renzheng:renzheng,
+			certified:  this.Static+'images/business/home/personCenter/company/certified.png',
+			noCertified:  this.Static+'images/business/home/personCenter/company/noCertified.png',
+			logo:  this.Static+'images/business/home/personCenter/company/logo.jpg',
+			renzheng: this.Static+'my/renzheng.png',
 			addressDetail: '', // 页面显示地址
 			companyIntro:'asdasdasd',//公司简介
 			compTypePcodeStr:'',//所属行业

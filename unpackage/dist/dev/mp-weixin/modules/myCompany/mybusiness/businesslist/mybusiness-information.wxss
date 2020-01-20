@@ -5,6 +5,9 @@
 	background: #FFFFFF;
 	padding-bottom: 120rpx;
 }
+.top-s{
+	margin-top: 40rpx;
+}
 .mybusiness-information-box{
 	width: 90%;
 	height: 300rpx;
@@ -13,15 +16,18 @@
 }
 .mybusiness-supply-con{
 	width: 90%;
-	height: 300rpx;
+	min-height: 250rpx;
 	margin: 0 auto;
 	border-bottom: 2rpx solid #F5F5F5;
 	overflow: hidden;
 }
 .mybusiness-supply-conone{
 	width: 100%;
-	height: 180rpx;
+	min-height: 140rpx;
 	margin-top: 40rpx;
+}
+.widtaaa{
+	width: 100%!important;
 }
 .mybusiness-supply-conone-zi{
 	width: 60%;
@@ -45,15 +51,17 @@
 	width: 100%;
 	height: 40rpx;
 	line-height: 40rpx;
-	padding-left: 12rpx;
-	margin-top: 40rpx;
+	margin-top: 16rpx;
 }
 .mybusiness-supply-conone-zi>view:nth-of-type(2)>._span:nth-of-type(1){
 	border: 2rpx solid #3893FF;
 	border-radius: 4rpx;
-	padding: 6rpx 6rpx 6rpx 6rpx;
+	width: 52rpx;
+	height: 28rpx;
 	font-size: 20rpx;
 	color: #3893FF;
+	text-align: center;
+	line-height: 28rpx;
 }
 .mybusiness-supply-conone-zi>view:nth-of-type(2)>._span:nth-of-type(2){
 	font-size: 22rpx;

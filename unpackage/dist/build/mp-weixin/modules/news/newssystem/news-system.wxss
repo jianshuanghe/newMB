@@ -66,7 +66,9 @@
 	-o-text-overflow: ellipsis;
 	   text-overflow: ellipsis;
 	display: -webkit-box;
-	padding-top: 16rpx;
+	padding-top: 26rpx;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
 	/* -webkit-line-clamp: 1;
 	-webkit-box-orient: vertical; */
 }
@@ -97,5 +99,18 @@
 	display: block;
 	float: right;
 	margin-top: 32rpx;
+}
+.meirenkanwo{
+	width: 330rpx;
+	height: 280rpx;
+	display: block;
+	margin: 120rpx auto auto auto;
+	font-size: 28rpx;
+	text-align: center;
+	color: #9B9B9B;
+}
+.meirenkanwo>image {
+	width: 92%;
+	height: 80%;
 }
 

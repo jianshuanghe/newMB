@@ -238,7 +238,6 @@ import singlePicture from '@/components/common/RHX/singlePicture/singlePicture';
 import singlePictureInstbanner from '@/components/common/RHX/singlePicture/singlePictureInstbanner';
 import deleteMoveTips from '@/components/common/RHX/deleteMoveTips/deleteMoveTips';
 import manageCopyTips from '@/components/common/RHX/manageCopyTips/manageCopyTips';
-import noContent from '@/static/mbcImg/publish/createBusiness/noContent.png'
 export default {
 	components: {
 		rTitle,
@@ -272,7 +271,7 @@ export default {
 			current: 0,
 			addId:0,//插入产品位置的id    第一模块的第几个
 			page:1,//链接的页数
-			noContent:noContent,//图片
+			noContent: this.Static+'publish/createBusiness/noContent.png',//图片
 			isShowMask:false,//默认不显示替换和删除背景层
 			scrollToplink:0,//产品链接默认在顶部
 		};

@@ -1,5 +1,5 @@
 
-.made-content{
+.total-content{
 	position: fixed;
 	width: 750rpx;
 	background: #fff;
@@ -20,6 +20,9 @@
 	line-height: 300rpx;
 	text-align: center;
 	font-size: 36rpx;
+}
+.scrollContent{
+	padding-bottom:10vh;
 }
 .scroll-view-item_H {
 	display: inline-block;

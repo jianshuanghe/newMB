@@ -1,0 +1,1 @@
+<view class="addressPreve-content2 _div"><view class="addressPreve2 _div" style="{{'padding:'+('0 3.2vw')+';'}}"><view class="text2 _div">{{addresstext}}</view></view></view>

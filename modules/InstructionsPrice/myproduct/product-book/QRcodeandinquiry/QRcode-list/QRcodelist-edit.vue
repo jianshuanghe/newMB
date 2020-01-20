@@ -65,9 +65,6 @@
 <script>
 import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 import navigation from '@/components/mbbo/navigation/navigation.vue';
-import look from '@/static/mbcImg/my/look.png';
-import del from '@/static/mbcImg/my/del.png';
-import right from '@/static/mbcImg/my/right.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	data() {
@@ -76,19 +73,19 @@ export default {
 			rem: 0,
 			desc: '',
 			des: '',
-			look: look,
+			look:  this.Static+'my/look.png',
 			hiden: 2,
 			num: 0,
 			nums: 9999999999,
 			edit: '',
-			del: del,
+			del:  this.Static+'my/del.png',
 			list: [],
 			id: '',
 			editleiid:'',
 			arr: [],
 			editlei: '请选择',
 			editleis: '',
-			right: right,
+			right:  this.Static+'my/right.png',
 			iscategory: false,
 			arrs: [
 				{

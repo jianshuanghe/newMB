@@ -3,6 +3,7 @@
 	width: 100%;
 	min-height:93% ;
 	background: #FFFFFF;
+	position: relative;
 }
 .Opinion-myfeedback-con{
 	width: 90%;
@@ -54,5 +55,23 @@
 	width: 20rpx;
 	height: 20rpx;
 	margin-left: 8rpx;
+}
+.Opinion-myfeedback-tishi{
+	width: 280rpx;
+	height: 300rpx;
+	margin: 0 auto;
+	padding-top: 300rpx;
+	text-align: center;
+}
+.Opinion-myfeedback-tishi>image{
+	display: block;
+	width: 280rpx;
+	height: 280rpx;
+}
+.Opinion-myfeedback-tishi>._span{
+	display: block;
+	margin-top: 12rpx;
+	font-size: 32rpx;
+	color: #9B9B9B;
 }
 

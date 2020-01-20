@@ -29,8 +29,8 @@
 	float: left;
 }
 .my-sell-Enquirys>view:nth-of-type(1){
-	width: 34rpx;
-	height: 34rpx;
+	width: 40rpx;
+	height: 40rpx;
 	margin: 20rpx auto auto auto;
 }
 .my-sell-Enquirys>view:nth-of-type(1)>image{

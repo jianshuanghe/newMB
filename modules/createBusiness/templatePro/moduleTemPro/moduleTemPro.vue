@@ -574,8 +574,6 @@
 </template>
 
 <script>
-	
-	import defaultAddImg from '@/static/mbcImg/publish/createBusiness/defaultAdd.png';
 	import pageStatus from '@/components/common/RHX/pageStatus/pageStatus';
 	import moduleTitle from '@/components/common/RHX/moduleTitle/moduleTitle';
 	import swiperBanner from '@/components/common/RHX/swiperBanner/swiperBanner';
@@ -600,7 +598,6 @@
 	import INPUTTABLEB from '@/components/rhx/InstrModule/INPUT_TABLE_B';
 	import INPUTIMGA from '@/components/rhx/InstrModule/INPUT_IMG_A';
 	import INPUTTEXTA from '@/components/rhx/InstrModule/INPUT_TEXT_A';
-	import defaultAddLink from '@/static/mbcImg/publish/createBusiness/defaultAddLink.png';
 	import TABLEC from '@/components/rhx/InstrModule/TABLE_C';
 	import TABLED from '@/components/rhx/InstrModule/TABLE_D';
 	import TABLEE from '@/components/rhx/InstrModule/TABLE_E';
@@ -634,8 +631,8 @@
 				},
 				scrollInto: "", // 用户指定滚动的id位置
 				custIndexShow: 0, // 定制模板中定制信息编辑状态展示子项index'
-				defaultAddImg: defaultAddImg, // 默认添加图片
-				defaultAddLink:defaultAddLink, //默认添加链接图片
+				defaultAddImg:  this.Static+'publish/createBusiness/defaultAdd.png', // 默认添加图片
+				defaultAddLink: this.Static+'publish/createBusiness/defaultAddLink.png', //默认添加链接图片
 				titleText: '', // title
 				tabYItemsIndex: '', // 用户点击title子项，返回用户点击的index,与横向联动使用
 				isrefresh: true, // 强制刷新

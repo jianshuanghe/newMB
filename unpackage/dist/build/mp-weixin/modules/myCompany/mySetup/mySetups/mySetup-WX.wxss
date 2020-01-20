@@ -38,6 +38,10 @@
 	position: relative;
 	width: 100%;
 }
+.items-RB>._div {
+	position: relative;
+	width: 100%;
+}
 .input-RB {
 	position: relative;
 	width: 100%;

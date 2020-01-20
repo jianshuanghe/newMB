@@ -18,4 +18,9 @@
 uni-textarea {
 	min-height: 10vw;
 }
+.maxNum{
+	top: 42px;
+	position: absolute;
+	right: 0;
+}
 

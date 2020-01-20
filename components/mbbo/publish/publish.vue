@@ -33,17 +33,14 @@
 </template>
 
 <script>
-	import publishClose from '@/static/mbcImg/home/extendManageList/publishClose.png';
-	import publishGongYing from '@/static/mbcImg/home/extendManageList/publishGongYing.png';
-	import publishQiuGou from '@/static/mbcImg/home/extendManageList/publishQiuGou.png';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		name: 'gadget',
 		data() {
 			return {
-				publishClose: publishClose,
-				publishGongYing: publishGongYing,
-				publishQiuGou: publishQiuGou
+				publishClose:  this.Static+'home/extendManageList/publishClose.png',
+				publishGongYing:  this.Static+'home/extendManageList/publishGongYing.png',
+				publishQiuGou:  this.Static+'home/extendManageList/publishQiuGou.png'
 			};
 		},
 		created() {},

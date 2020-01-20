@@ -6,19 +6,19 @@
 				<view class="news-classification-fen" @tap="gotosystem()">
 					<view><image :src="news"></image></view>
 					<view>系统通知</view>
-					<view class="weidu" v-if="shu.noticeCount !== 0"></view>
+					<view class="weidu" v-if="xitong"></view>
 				</view>
 				<!-- 获赞与收藏 -->
 				<view class="news-classification-fen" @tap="gotoPraisedAndCollection(1)">
 					<view><image :src="zan"></image></view>
 					<view>获赞与收藏</view>
-					<view class="weidu" v-if="shu.likeFollowMesgCount !==0"></view>
+					<view class="weidu" v-if="zansh"></view>
 				</view>
 				<!-- 粉丝 -->
 				<view class="news-classification-fen" @tap="gotomyFocusonfans(2)">
 					<view><image :src="fensi"></image></view>
 					<view>粉丝</view>
-					<view class="weidu" v-if="shu.fansMesgCount !== 0"></view>
+					<view class="weidu" v-if="feng"></view>
 				</view>
 			</scroll-view>
 		</view>
@@ -26,21 +26,20 @@
 </template>
 
 <script>
-	import zan from '@/static/mbcImg/news/1.png';
-	import fensi from '@/static/mbcImg/news/2.png';
-	import shou from '@/static/mbcImg/news/3.png';
-	import news from '@/static/mbcImg/news/4.png';
 	import { mapMutations,mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				zan:zan,
-				fensi:fensi,
-				shou:shou,
-				news:news,
+				zan:this.Static+'news/1.png',
+				fensi:this.Static+'news/2.png',
+				shou:this.Static+'news/3.png',
+				news:this.Static+'news/4.png',
 				list:[],
 				num:[],
-				shu:[]
+				shu:[],
+				xitong:false,
+				zansh:false,
+				feng:false,
 			}
 		},
 		mounted() {
@@ -51,7 +50,21 @@
 				handler(a, b) {
 					console.log(a, b)
 					this.shu = a.num;
-					console.log(this.shu)
+					console.log(this.shu.noticeCount)
+					if(this.shu.noticeCount!=0&&this.shu.noticeCount!=undefined){
+						setTimeout(() => {
+							this.xitong=true;
+						}, 500);
+					}else if(this.shu.likeFollowMesgCount!=0&&this.shu.likeFollowMesgCount!=undefined){
+						setTimeout(() => {
+							this.zansh=true;
+						}, 500);
+					}else if(this.shu.fansMesgCount != 0&&this.shu.fansMesgCount!=undefined){
+						setTimeout(() => {
+							this.feng=true;
+						}, 500);
+					}
+					
 				},
 				deep: true
 			},

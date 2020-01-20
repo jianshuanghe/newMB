@@ -2,7 +2,7 @@
 .financeItems-content{
 	position: relative;
 	width: 690rpx;
-	margin-top: 26rpx;
+	margin-top: 30rpx;
 	background: #fff;
 }
 .FI-content{
@@ -61,6 +61,15 @@
 	font-size: 22rpx;
 	color: #9B9B9B;
 	padding-top: 10rpx;
+	width: 400rpx;
+	height: 25rpx;
+	position: absolute;
+	margin-top: 40rpx;
+	line-height: 25rpx;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
 }
 .FI-t-ins{
 	font-family: PingFangSC-Regular;
@@ -102,6 +111,7 @@
 .FI-cont{
 	position: relative;
 	width: 100%;
+	margin-top: 26rpx;
 }
 .FI-cont .ImageBox1{
 	position: relative;
@@ -194,5 +204,28 @@
 	-webkit-line-clamp: 2;
 	overflow: hidden;
 }
-
+.FI-BQ{
+	width: 97%;
+	height: 60rpx;
+	margin: 0 auto;
+}
+.FI-BQ>view:nth-of-type(1){
+	font-size: 20rpx;
+	color: #9B9B9B;
+	width: 52rpx;
+	height: 28rpx;
+	border: 2rpx solid #9B9B9B;
+	border-radius: 4rpx;
+	float: left;
+	margin-top: 26rpx;
+	line-height: 28rpx;
+	text-align: center;
+}
+.FI-BQ>view:nth-of-type(2){
+	float: left;
+	font-size: 22rpx;
+	color: #9B9B9B;
+	margin-left: 10rpx;
+	margin-top: 22rpx;
+}
 

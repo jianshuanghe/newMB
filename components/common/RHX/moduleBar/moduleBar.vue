@@ -70,7 +70,6 @@
 </template>
 
 <script>
-	import del from '@/static/mbcImg/publish/createBusiness/del.png';
 	import replaceIcon from '@/components/common/RHX/replaceIcon/replaceIcon';
 	import inputBox from '@/components/common/RHX/inputBox/inputBox';
 	export default {
@@ -109,7 +108,7 @@
 			'tBStyleOne'],
 		data() {
 			return {
-				del: del,
+				del:  this.Static+'publish/createBusiness/del.png',
 				valueOneText: this.valueOne,
 				dataLists: this.dataList
 			};

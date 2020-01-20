@@ -92,11 +92,6 @@
 </template>
 
 <script>
-	import check from '@/static/mbcImg/home/extendManageList/dataReport/check.png';
-	import checked from '@/static/mbcImg/home/extendManageList/dataReport/checked.png';
-	import checkedItems from '@/static/mbcImg/home/extendManageList/dataReport/checkedItems.png';
-	import selectEd from '@/static/mbcImg/publish/createBusiness/selectEd.png';
-	import select from '@/static/mbcImg/publish/createBusiness/select.png';
 	export default {
 		name: 'businessPutIn',
 		props: [
@@ -110,11 +105,11 @@
 			return {
 				dataLists: [], // 城防多选的转型后数组
 				selcetDataList: [], // 盛放选中的商机
-				check: check, // type 选择按钮的未选中状态 img
-				checked: checked, // type 选择按钮的选中状态 img
-				checkedItems: checkedItems, // 子项选中对勾 img
-				selectEd: selectEd, // 勾选圆框 黑色
-				select: select, // 未勾选圆框 白色
+				check:  this.Static+'home/extendManageList/dataReport/check.png', // type 选择按钮的未选中状态 img
+				checked:  this.Static+'home/extendManageList/dataReport/checked.png', // type 选择按钮的选中状态 img
+				checkedItems:  this.Static+'home/extendManageList/dataReport/checkedItems.png', // 子项选中对勾 img
+				selectEd:  this.Static+'publish/createBusiness/selectEd.png', // 勾选圆框 黑色
+				select:  this.Static+'publish/createBusiness/select.png', // 未勾选圆框 白色
 				clickItemsIndex: '', // 记录子项点击的index
 				selectStyle2: { // 选择之后样式边框变化
 					background: '#02C2A2',

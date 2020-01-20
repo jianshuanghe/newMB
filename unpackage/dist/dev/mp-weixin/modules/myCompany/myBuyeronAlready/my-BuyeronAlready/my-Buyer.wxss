@@ -10,6 +10,7 @@
 	position: fixed;
 	top: 88rpx;
 	background: #FFFFFF;
+	z-index: 100;
 }
 .my-Buyer-headerone{
 	width: 60%;

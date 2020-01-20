@@ -22,7 +22,6 @@
 </template>
 
 <script>
-	import wei from '@/static/mbcImg/my/weidu.png';
 	import whole from './Buyer/Buyer-whole';
 	import product from './Buyer/Buyer-product';
 	import information from './Buyer/Buyer-information';
@@ -32,7 +31,7 @@
 			return {
 				List:['全部','产品','资讯'],
 				numa:0,
-				wei:wei,
+				wei:this.Static+'my/weidu.png',
 			}
 		},
 		components:{

@@ -17,19 +17,19 @@
 			<!-- contactBusiness -->
 			<!-- <contactBusiness></contactBusiness> -->
 			<!-- 关注 -->
-			<follow :msgDatas='options' v-if="this.typeli=='follow'"></follow>
+			<follow :msgDatas='options' v-if="typeli=='follow'"></follow>
 			<!-- 推荐 -->
-			<Recommend :msgDatas='options' v-if="this.typeli=='push'"></Recommend>
+			<Recommend :msgDatas='options' v-if="typeli=='push'"></Recommend>
 			<!-- 供应 -->
-			<supply :msgDatas='options' v-if="this.typeli=='inst'"></supply>
+			<supply :msgDatas='options' v-if="typeli=='inst'"></supply>
 			<!-- 采购 -->
-			<Purchase :msgDatas='options' v-if="this.typeli=='purc'"></Purchase>
+			<Purchase :msgDatas='options' v-if="typeli=='purc'"></Purchase>
 			<!-- 资讯 -->
-			<information :msgDatas='options' v-if="this.typeli=='news'"></information>
+			<information :msgDatas='options' v-if="typeli=='news'"></information>
 			<!-- 企业服务 -->
-			<businessService :msgDatas='options' v-if="this.typeli=='compService'"></businessService>
+			<businessService :msgDatas='options' v-if="typeli=='compService'"></businessService>
 			<!-- 资本类型 -->
-			<capital :msgDatas='options' v-if="this.typeli=='invest'"></capital>
+			<capital :msgDatas='options' v-if="typeli=='invest'"></capital>
 		</div>
 		<!-- 只有商机且商机为一个时显示 用户行为组件
 		<!-- <div class="listBot">

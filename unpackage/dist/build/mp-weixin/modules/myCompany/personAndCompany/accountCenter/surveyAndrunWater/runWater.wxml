@@ -1,1 +1,1 @@
-<view class="runWater _div data-v-673a38dc"><run-water-account vue-id="1" class="data-v-673a38dc" bind:__l="__l"></run-water-account><report-from vue-id="2" class="data-v-673a38dc" bind:__l="__l"></report-from></view>
+<view class="runWater _div data-v-66e59482"><run-water-account vue-id="1" class="data-v-66e59482" bind:__l="__l"></run-water-account></view>

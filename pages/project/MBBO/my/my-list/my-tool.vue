@@ -34,16 +34,13 @@
 </template>
 
 <script>
-	import qiugou from '@/static/mbcImg/my/12.png';
-	import tou from '@/static/mbcImg/my/13.png';
-	import shu from '@/static/mbcImg/my/14.png';
 	import { mapMutations,mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				tou:tou,
-				qiugou:qiugou,
-				shu:shu
+				tou: this.Static+'my/13.png',
+				qiugou: this.Static+'my/12.png',
+				shu: this.Static+'my/14.png',
 			};
 		},
 		mounted() {},

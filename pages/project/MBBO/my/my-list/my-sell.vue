@@ -43,17 +43,13 @@
 </template>
 
 <script>
-	import maijia from '@/static/mbcImg/my/5.png'
-	import gongyin from '@/static/mbcImg/my/4.png'
-	import wode from '@/static/mbcImg/my/7.png'
-	import zixun from '@/static/mbcImg/my/3.png'
 	export default {
 		data() {
 			return {
-				maijia:maijia,
-				gongyin:gongyin,
-				wode:wode,
-				zixun:zixun,
+				maijia: this.Static+'my/5.png',
+				gongyin: this.Static+'my/4.png',
+				wode: this.Static+'my/7.png',
+				zixun: this.Static+'my/3.png',
 				list:[],
 			}
 		},

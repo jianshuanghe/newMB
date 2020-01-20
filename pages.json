@@ -16,22 +16,25 @@
 				}
 			}
 		},
-		// h5
-		{
-			"path": "pages/landRegistration/h5/landRegistration",
-			"style": {
-				"navigationStyle":"custom",
-				"app-plus": {
-					"bounce":"none"
+		// #ifdef H5
+			//h5
+			{
+				"path": "pages/landRegistration/h5/landRegistration",
+				"style": {
+					"navigationStyle":"custom",
+					"app-plus": {
+						"bounce":"none"
+					}
 				}
-			}
-		},
-		{
-			"path": "pages/landRegistration/h5/forgetPassWord",
-			"style": {
-				"navigationStyle":"custom"
-			}
-		},
+			},
+			{
+				"path": "pages/landRegistration/h5/forgetPassWord",
+				"style": {
+					"navigationStyle":"custom"
+				}
+			},
+		// #endif
+		
 		// mp|| 微信小程序 支付宝小程序 百度小程序 头条小程序
 		{
 			"path": "pages/landRegistration/mp/landRegistration",
@@ -574,7 +577,8 @@
 					}
 				}
 			]
-		},{
+		},
+		{
 			"root": "modules/news",
 			"pages": [{//消息 获赞与收藏
 					"path": "newsPraisedAndCollection/news-PraisedAndCollection",

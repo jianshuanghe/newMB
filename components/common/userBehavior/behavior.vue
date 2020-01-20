@@ -69,19 +69,6 @@
 </template>
 
 <script>
-import address from '@/static/mbcImg/common/userBehavior/address.png';
-import doc from '@/static/mbcImg/common/userBehavior/doc.png';
-import doced from '@/static/mbcImg/common/userBehavior/doced.png';
-import find from '@/static/mbcImg/common/userBehavior/find.png';
-import finded from '@/static/mbcImg/common/userBehavior/finded.png';
-import like from '@/static/mbcImg/common/userBehavior/like.png';
-import liked from '@/static/mbcImg/common/userBehavior/liked.png';
-import love from '@/static/mbcImg/common/userBehavior/love.png';
-import loved from '@/static/mbcImg/common/userBehavior/loved.png';
-import share from '@/static/mbcImg/common/userBehavior/share.png';
-import shared from '@/static/mbcImg/common/userBehavior/shared.png';
-import tel from '@/static/mbcImg/common/userBehavior/tel.png';
-import teled from '@/static/mbcImg/common/userBehavior/teled.png';
 export default {
 	name: 'behavior',
 	props:{
@@ -121,19 +108,19 @@ export default {
 	},
 	data() {
 		return {
-			address: address,
-			doc: doc,
-			doced: doced,
-			find: find,
-			finded: finded,
-			like: like,
-			liked: liked,
-			love: love,
-			loved: loved,
-			share: share,
-			shared: shared,
-			tel: tel,
-			teled: teled,
+			address:  this.Static+'common/userBehavior/address.png',
+			doc:  this.Static+'common/userBehavior/doc.png',
+			doced:  this.Static+'common/userBehavior/doced.png',
+			find:  this.Static+'common/userBehavior/find.png',
+			finded:  this.Static+'common/userBehavior/finded.png',
+			like:  this.Static+'common/userBehavior/like.png',
+			liked:  this.Static+'common/userBehavior/liked.png',
+			love:  this.Static+'common/userBehavior/love.png',
+			loved:  this.Static+'common/userBehavior/loved.png',
+			share:  this.Static+'common/userBehavior/share.png',
+			shared:  this.Static+'common/userBehavior/shared.png',
+			tel:  this.Static+'common/userBehavior/tel.png',
+			teled:  this.Static+'common/userBehavior/teled.png',
 			activeIndex:"0"
 		};
 	},

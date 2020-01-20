@@ -21,12 +21,11 @@
 
 <script>
 	import { mapMutations,mapGetters } from 'vuex';
-	import kong from '@/static/mbcImg/my/kong.png';
 	export default {
 		data() {
 			return {
 				list:[],
-				kong:kong,
+				kong:this.Static+'my/kong.png',
 			}
 		},
 		created() {
@@ -88,7 +87,7 @@
 			gotoxi(e){
 				console.log('to已发留言详情')
 				uni.navigateTo({
-					url: '/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/Message-details/Buyer-details?id='+ e,
+					url: '/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/Message-details/Already-details?id='+ e,
 				});
 			},
 		},

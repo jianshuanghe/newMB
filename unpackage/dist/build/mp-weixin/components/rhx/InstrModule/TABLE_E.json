@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "data-list-thr": "/components/common/RHX/dataListThr/dataListThr"
+  },
+  "component": true
+}

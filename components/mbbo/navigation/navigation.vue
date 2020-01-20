@@ -16,10 +16,11 @@
 						<div class="accout-nav" @tap="clickAccoutNav">
 							<div class="touxiang-nav"><img :src="UserData.headImg || head" alt="" class="img" /></div>
 							<p class="name-nav">{{ UserData.nickname }}</p>
-							<p class="company-nav">{{ UserData.companyName || i18n.companyName }}</p>
+							<p class="company-nav">{{ UserData.companyName || '暂无' }}</p>
 							<p class="company-nav">
-								{{ userTypeText }}
-								<image class="userImage" :src="authStateImage"></image>
+								{{ userTypeText || ''}} 
+								<image class="userImage" v-if="UserData.authState === '2'" :src="authYes"></image>
+								<image class="userImagse" v-if="UserData.authState !== '2'||UserData.authState!==undefined":src="authNo"></image>
 							</p>
 						</div>
 						<div class="quick-box">
@@ -69,9 +70,14 @@
 								<div class="clear"></div>
 							</div>
 						</div>
-						<div class="back-box-nav" @click="clickBackNav">
+						<div class="back-box-nav" @click="clickBackNav" v-if="join">
 							<div class="back-nav">
 								<p class="">{{ i18n.quickBack }}</p>
+							</div>
+						</div>
+						<div class="back-box-nav" @click="gotoNav" v-if="!join">
+							<div class="back-nav">
+								<p class="">登录</p>
 							</div>
 						</div>
 					</div>
@@ -82,32 +88,23 @@
 </template>
 
 <script>
-import close from '@/static/mbcImg/common/nav/close.png';
-import lineRightArrow from '@/static/mbcImg/common/nav/line-right-arrow.png';
-import authYes from '@/static/mbcImg/common/nav/authYes.png';
-import authNo from '@/static/mbcImg/common/nav/authNo.png';
-import home from '@/static/mbcImg/common/nav/home.png';
-import find from '@/static/mbcImg/common/nav/find.png';
-import publish from '@/static/mbcImg/common/nav/publish.png';
-import news from '@/static/mbcImg/common/nav/news.png';
-import my from '@/static/mbcImg/common/nav/my.png';
-import head from '@/static/mbcImg/common/nav/head.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	data() {
 		return {
 			authImg: null,
-			head: head,
-			authYes: authYes,
-			authNo: authNo,
-			close: close,
-			lineRightArrow: lineRightArrow,
+			head:  this.Static+'common/nav/head.png',
+			authYes:  this.Static+'common/nav/authYes.png',
+			authNo:  this.Static+'common/nav/authNo.png',
+			close:  this.Static+'common/nav/close.png',
+			lineRightArrow:  this.Static+'common/nav/line-right-arrow.png',
 			clickItems: null,
-			home: home, // 首页
-			find: find, // 发现
-			publish: publish, // 发布
-			news: news, // 消息
-			my: my, // 我的
+			home:  this.Static+'common/nav/home.png', // 首页
+			find:  this.Static+'common/nav/find.png', // 发现
+			publish:  this.Static+'common/nav/publish.png', // 发布
+			news:  this.Static+'common/nav/news.png', // 消息
+			my:  this.Static+'common/nav/my.png', // 我的
+			join:true,
 			quickNav: {
 				show: false
 			},
@@ -135,7 +132,10 @@ export default {
 	},
 	created() {
 		if (uni.getStorageSync('landRegist')) {
+			this.join=true;
 			this.getUserData();
+		}else{
+			this.join=false;
 		}
 	},
 	mounted() {
@@ -235,6 +235,9 @@ export default {
 				console.log('哈哈哈，先不做！');
 			}
 		},
+		gotoNav(){
+			this.tabbarClick(1);
+		},
 		tabbarClick(e) {
 			this.clickCloseMask();
 			console.log(e, '触发tabbar按钮');
@@ -310,6 +313,8 @@ export default {
 						_this.$store.commit('setHome', 2);
 						_this.$store.commit('setLandRegist', 0);
 						_this.$store.commit('setPublishShow', false); // 隐藏发布组件
+						let datauser={};
+						uni.setStorageSync('UserData', JSON.stringify(datauser)); 
 						uni.redirectTo({
 							url: '/pages/project/MBBO/home'
 						});
@@ -331,9 +336,17 @@ export default {
 	}
 .userImage {
 	position: relative;
-	width: 104upx;
-	height: 30upx;
+	width: 124upx;
+	height: 36upx;
 	top: 8upx;
+	padding-left: 10upx;
+}
+.userImagse {
+	position: relative;
+	width: 124upx;
+	height: 36upx;
+	top: 8upx;
+	padding-left: 10upx;
 }
 .closeTitle {
 	position: fixed;

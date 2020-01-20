@@ -27,12 +27,11 @@
 
 <script>
 	import { mapMutations, mapGetters } from 'vuex';
-	import del from '@/static/mbcImg/my/del.png'
 	export default {
 		data() {
 			return {
 				list:[],
-				del:del,
+				del: this.Static+'my/del.png',
 				hiden:2,
 				num:0,
 				edit:'',

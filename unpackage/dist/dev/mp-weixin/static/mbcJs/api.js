@@ -5,8 +5,8 @@ var api3 = ''; // 图片
 // uEnvDev
 if (process.env.NODE_ENV === 'development') {
     // api1 = 'http://10.158.41.45:8090'; // 短信
-    api1 = 'http://192.168.131.166:8090'; // 短信
-    api2 = 'https://hc360cyd.mynatapp.cc'; // 业务
+    api1 = 'http://192.168.131.204:8090'; // 短信
+    api2 = 'http://192.168.131.166:8080'; // 业务
     api3 = 'https://img01.iambuyer.com'; // 图片
 	// api1 = 'https://api.iambuyer.com';
 	// api2 = 'https://open.iambuyer.com/invest-rest';
@@ -14,12 +14,12 @@ if (process.env.NODE_ENV === 'development') {
 }
 // uEnvProd
 if (process.env.NODE_ENV === 'production') {
-	api1 = 'http://192.168.131.166:8090'; // 短信
-	api2 = 'https://hc360cyd.mynatapp.cc'; // 业务
-    api3 = 'https://img01.iambuyer.com'; // 图片
-    
-	//api1 = 'https://api.iambuyer.com';
-    //api2 = 'https://api.ruhexiu.com';
+	// api1 = 'http://192.168.131.203:8090'; // 短信
+	// api2 = 'https://hc360cyd.mynatapp.cc'; // 业务
 	// api3 = 'https://img01.iambuyer.com'; // 图片
+    
+	api1 = 'https://api.iambuyer.com';
+    api2 = 'https://api.ruhexiu.com';
+	api3 = 'https://img01.iambuyer.com'; // 图片
 }
 export {api1, api2, api3};

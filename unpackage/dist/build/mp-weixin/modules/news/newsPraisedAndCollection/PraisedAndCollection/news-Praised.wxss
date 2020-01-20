@@ -17,7 +17,7 @@
 }
 .news-Praised-con{
 	width: 100%;
-	height: 274rpx;
+	height: 246rpx;
 	background: #FFFFFF;
 }
 .news-Praised-conOne{
@@ -31,11 +31,13 @@
 	width: 72rpx;
 	height: 100%;
 	float: left;
+	border-radius: 50%;
 }
 .news-Praised-head>image{
 	width: 72rpx;
 	height: 72rpx;
 	margin-top: 30rpx;
+	border-radius: 50%;
 }
 .news-Praised-body{
 	width: 87%;
@@ -71,6 +73,7 @@
 	width: 100%;
 	height: 120rpx;
 	margin-top: 20rpx;
+	position: relative;
 }
 .news-Praised-body-xia-nei{
 	width: 78%;
@@ -111,5 +114,21 @@
 	font-size: 11px;
 	color: #9B9B9B;
 	clear: both;
+	bottom: 30rpx;
+	position: absolute;
+}
+.meirenkanwo{
+	width: 330rpx;
+	height: 280rpx;
+	display: block;
+	margin: 120rpx auto auto auto;
+	font-size: 28rpx;
+	text-align: center;
+	color: #9B9B9B;
+	clear: both;
+}
+.meirenkanwo>image {
+	width: 92%;
+	height: 80%;
 }
 

@@ -114,10 +114,6 @@
 <script>
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
-	import ding from '@/static/mbcImg/my/ding.png';
-	import select from '@/static/mbcImg/my/select.png';
-	import selectEd from '@/static/mbcImg/my/selectEd.png';
-	import right from '@/static/mbcImg/my/right.png';
 	import provinceCity from '@/components/common/provinceCity/provinceCity.vue';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
@@ -125,11 +121,11 @@
 			return {
 				list: [],
 				thid:[],
-				ding:ding,
+				ding: this.Static+'my/ding.png',
 				id:'',
-				select:select,
-				selectEd:selectEd,
-				right:right,
+				select: this.Static+'my/select.png',
+				selectEd: this.Static+'my/selectEd.png',
+				right: this.Static+'my/right.png',
 				money:'',
 				beizhu:'',
 				arr:[],

@@ -76,24 +76,18 @@
 </template>
 
 <script>
-    import vip1 from '@/static/mbcImg/images/business/home/personCenter/5+1.png';
-    import vip2 from '@/static/mbcImg/images/business/home/personCenter/说明书.png';
-    import vip3 from '@/static/mbcImg/images/business/home/personCenter/平台.png';
-	import vip4 from '@/static/mbcImg/images/business/home/personCenter/撮合.png';
-	import vip5 from '@/static/mbcImg/images/business/home/personCenter/场景.png';
-	import vip6 from '@/static/mbcImg/images/business/home/personCenter/数据.png';
     export default {
         name: 'memberCenterEquity',
         components: {
         },
         data () {
           return {
-            vip1: vip1,
-            vip2: vip2,
-            vip3: vip3,
-			vip4: vip4,
-			vip5: vip5,
-			vip6: vip6,
+            vip1:  this.Static+'images/business/home/personCenter/5+1.png',
+            vip2:  this.Static+'images/business/home/personCenter/说明书.png',
+            vip3:  this.Static+'images/business/home/personCenter/平台.png',
+			vip4:  this.Static+'images/business/home/personCenter/撮合.png',
+			vip5:  this.Static+'images/business/home/personCenter/场景.png',
+			vip6:  this.Static+'images/business/home/personCenter/数据.png',
           };
         },
         created () {},

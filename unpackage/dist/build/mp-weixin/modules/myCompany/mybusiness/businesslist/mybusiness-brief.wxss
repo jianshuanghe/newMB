@@ -81,7 +81,6 @@
 	width: 85%;
 	height: 85%;
 	position: absolute;
-	background: red;
 	top:28rpx;
 	left: 30rpx;
 }

@@ -81,6 +81,10 @@ var rightScreenData = [
 ];
 // 投放商机筛选条件
 var screenTermData1 = [
+	{
+	  'code': 'createTime desc',
+	  'vulue': '默认排序'
+	},
   {
     'code': 'consMoney asc',
     'vulue': '按照已消耗排序'

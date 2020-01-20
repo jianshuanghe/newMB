@@ -1,9 +1,9 @@
 
-.top-box-title.data-v-b102883c{
+.top-box-title.data-v-f1429798{
     position: relative;
     height: 12vw;
 }
-.quickBtn-search.data-v-b102883c{
+.quickBtn-search.data-v-f1429798{
     position: fixed;
     width: 100vw;
     padding: 2vw 4vw;
@@ -14,23 +14,23 @@
     -webkit-box-shadow: 0 1px 0 0 #F5F5F5;
             box-shadow: 0 1px 0 0 #F5F5F5;
 }
-.quickBtn-Fd.data-v-b102883c{
+.quickBtn-Fd.data-v-f1429798{
     position: relative;
     width: 6%;
 }
-.search-Fd.data-v-b102883c{
+.search-Fd.data-v-f1429798{
     position: relative;
     width: 94%;
 	text-align: center;
 }
-.title-putIn.data-v-b102883c{
+.title-putIn.data-v-f1429798{
     position: relative;
     width: 100%;
     text-align: center;
     line-height: 7vw;
     font-size: 3.733vw;
 }
-.right-title.data-v-b102883c{
+.right-title.data-v-f1429798{
     position: absolute;
     right: 0;
     font-family: PingFangSC-Regular;
@@ -41,7 +41,7 @@
     line-height: 7vw;
     top: 0;
 }
-.right-title-select.data-v-b102883c{
+.right-title-select.data-v-f1429798{
 	  position: absolute;
 	  right: 16rpx;
 	  font-family: PingFangSC-Regular;
@@ -52,14 +52,14 @@
 	  line-height: 7vw;
 	  top: 16rpx;
 }
-.select-title.data-v-b102883c{
+.select-title.data-v-f1429798{
 	  position: absolute;
 	  top: 72rpx;
 	  right: 0rpx;
 	  width:16vw;
 	  background: #02C2A2;
 }
-.select-title>._p.data-v-b102883c{
+.select-title>._p.data-v-f1429798{
 	  right: 0;
 	  font-family: PingFangSC-Regular;
 	  font-size: 3.5vw;
@@ -69,7 +69,7 @@
 	  line-height: 7vw;
 	  top: 0;
 }
-.rightBotTriangle.data-v-b102883c{
+.rightBotTriangle.data-v-f1429798{
 	  position: absolute;
 	  width: 12rpx;
 	  height: 12rpx;

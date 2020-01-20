@@ -8,7 +8,7 @@
 		</view>
 		<view class="tian"></view>
 		<view class="Already-details-GL">
-			<view>关联供应：{{list.instrucTitl}}</view>
+			<view @tap="tiao(list)">关联供应：{{list.instrucTitl}}</view>
 			<view>{{list.compUserName}}·{{list.compTel}}·{{list.compName}}</view>
 		</view>
 		<view class="Already-details-XS"></view>
@@ -47,8 +47,9 @@
 			this.shareEachPage(); // 分享
 		},
 		onLoad:function(opcito){
+			
+			this.id=opcito.id;
 			console.log(opcito)
-			this.id=opcito.id,
 			uni.setNavigationBarTitle({
 				title: this.i18n.message1
 			});
@@ -72,6 +73,34 @@
 			}
 		},
 		methods:{
+			tiao(e){
+				let lookUserId = null;
+				if (uni.getStorageSync('landRegist')) {
+					let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
+					//console.log(landRegistLG.user.id);
+					lookUserId = landRegistLG.user.id;
+				} else {
+					lookUserId = uni.getStorageSync('UUID');
+				};
+				let urlParams = {
+					isFlow: 0, // 平台来源
+					tempType: 0, // 说明书类型
+					orderType: 0, // 订单类型
+					sourceTemp: 2, // 说明书来源
+					aiListTemp: 1, // 是否展示ai
+					id: e.tempId, // 模板id
+					isMenu: e.isMenu, // 横向导航
+					instrucId:  e.instrucId, // 说明书id
+					lookUserId: lookUserId, // 浏览者
+					creatorId: e.userId, // 说明书创建者
+					instrucState: e.instState ,// 说明书状态
+					instrucCustType: e.instCustType, // 模板类型
+				};
+				// console.log(urlParams)
+				uni.navigateTo({
+					url: '/modules/createBusiness/templatePro/templatePro?urlParams=' + this.urlCrypto(urlParams, 0)
+				});
+			},
 			phone(e){
 				uni.makePhoneCall({
 					phoneNumber: e //仅为示例
@@ -258,6 +287,9 @@
 		background: #F2FEFC;
 		border-left: 4upx solid #02C2A2;
 		margin: 30upx auto auto auto;
+	}
+	.Already-details-GL>view:nth-of-type(1){
+		font-weight: bold!important;
 	}
 	.Already-details-GL>view{
 		width: 90%;

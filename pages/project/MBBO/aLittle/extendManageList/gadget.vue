@@ -39,15 +39,13 @@
 </template>
 
 <script>
-import toufang from '@/static/mbcImg/home/extendManageList/toufang.png';
-import shuju from '@/static/mbcImg/home/extendManageList/shuju.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'gadget',
 	data() {
 		return {
-			toufang: toufang,
-			shuju: shuju,
+			toufang:  this.Static+'home/extendManageList/toufang.png',
+			shuju:  this.Static+'home/extendManageList/shuju.png',
 			list:[],
 		};
 	},

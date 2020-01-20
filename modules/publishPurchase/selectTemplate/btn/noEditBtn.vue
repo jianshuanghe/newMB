@@ -38,18 +38,15 @@
 </template>
 
 <script>
-	import save from '@/static/mbcImg/publish/purchase/save.png';
-	import preview from '@/static/mbcImg/publish/purchase/preview.png';
-	import publish from '@/static/mbcImg/publish/purchase/publish.png';
 	import fixedBgBtn from '@/components/common/button/fixedBgBtn.vue';
 	import savePreviewBtn from '@/components/common/button/savePreviewBtn.vue';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				save: save,
-				preview: preview,
-				publish: publish
+				save:  this.Static+'publish/purchase/save.png',
+				preview:  this.Static+'publish/purchase/preview.png',
+				publish:  this.Static+'publish/purchase/publish.png'
 			};
 		},
 		components: {

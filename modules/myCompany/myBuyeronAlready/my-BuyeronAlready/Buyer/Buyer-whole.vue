@@ -2,7 +2,7 @@
 	<!-- 全部 -->
 	<view class="Buyer-whole">
 		<scroll-view class="scroll-v list" scroll-y="true" @scrolltolower="loadMore()">
-		<view class="my-Buyer-header-list" @tap="gotoxi(item.id)" v-for="(item,index) in this.GET_NEWS.Message" :key="index">
+		<view class="my-Buyer-header-list" @tap="gotoxi(item.id)" v-for="(item,index) in GET_NEWS.Message" :key="index">
 			<view class="my-Buyer-header-list1">
 				<view v-if="item.readeState == 0"></view>
 			</view>
@@ -16,7 +16,7 @@
 			</view>
 			<view class="cler"></view>
 		</view>
-		<view class="meirenkanwo" v-if="this.GET_NEWS.Message.length === 0">
+		<view class="meirenkanwo" v-if="GET_NEWS.Message.length === 0">
 			<image :src="kong" mode=""></image>
 			您还没有留言！
 		</view>
@@ -26,11 +26,10 @@
 
 <script>
 	import { mapMutations,mapGetters } from 'vuex';
-	import kong from '@/static/mbcImg/my/kong.png';
 	export default {
 		data() {
 			return {
-				kong:kong,
+				kong:this.Static+'my/kong.png',
 				pages:'2',
 				Mess:[],
 			}

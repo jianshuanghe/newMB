@@ -1,1 +1,1 @@
-<view data-event-opts="{{[['tap',[['goToPutInList']]]]}}" class="PutIn-sub _div" bindtap="__e"><view class="btn _p">+ 投放商机</view></view>
+<view class="_div"><view data-event-opts="{{[['tap',[['goToPutInList']]]]}}" class="PutIn-sub _div" bindtap="__e"><view class="btn _p">+ 投放商机</view></view></view>

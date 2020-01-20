@@ -43,19 +43,17 @@
 </template>
 
 <script>
-	import wode from '@/static/mbcImg/my/10.png'
-	import caigou from '@/static/mbcImg/my/11.png'
-	import yifa from '@/static/mbcImg/my/8.png'
 	export default {
 		data() {
 			return {
-				wode:wode,
-				caigou:caigou,
-				yifa:yifa,
+				wode: this.Static+'my/10.png',
+				caigou: this.Static+'my/11.png',
+				yifa: this.Static+'my/8.png',
 				list:[],
 			}
 		},
 		mounted() {
+			
 	
 		},
 		created() {

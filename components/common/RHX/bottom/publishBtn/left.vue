@@ -21,7 +21,6 @@
 </template>
 
 <script>
-	import dels from '@/static/mbcImg/my/dels.png';
 	export default {
 		data() {
 			return {
@@ -31,7 +30,7 @@
 				bLineHeight:'',
 				bgImages: this.bgImage,
 				names: this.name,
-				dels: dels, // 删除图片
+				dels: this.Static+'my/dels.png', // 删除图片
 			};
 		},
 		props: [

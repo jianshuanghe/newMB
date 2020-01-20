@@ -2,7 +2,8 @@
   "usingComponents": {
     "quick-btn": "/components/mbbo/quickBtn/quickBtn",
     "home-search": "/components/mbbo/homeSearch/homeSearch",
-    "media-list": "/pages/project/MBBO/find/fimdList/mediaList"
+    "media-list": "/pages/project/MBBO/find/fimdList/mediaList",
+    "message": "/pages/project/MBBO/find/fimdList/message"
   },
   "component": true
 }

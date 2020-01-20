@@ -27,12 +27,11 @@
 </template>
 
 <script>
-	import product from '@/static/mbcImg/publish/createBusiness/rhx.png';
 	import date from '@/static/mbcJs/dateTime.js';
 	export default {
 	    data () {
 			return {
-				product: product
+				product:  this.Static+'publish/createBusiness/rhx.png'
 			};
 	    },
 		props: ['msgData'],

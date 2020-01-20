@@ -41,11 +41,11 @@
 				<!-- 点赞 -->
 				<view class="product-book-BA" v-if="likes==0" @tap="dianzan(item.id,item.type,item.likeCount)">
 					<image :src="zan"></image>
-					<span>{{likenum}}</span>
+					<span>{{likenum||'0'}}</span>
 				</view>
-				<view class="product-book-BA" v-if="likes==1">
+				<view class="product-book-BA" v-if="likes==1" @tap="qudianzan(item.id,item.type,item.likeCount)">
 					<image :src="zanss"></image>
-					<span>{{likenum}}</span>
+					<span>{{likenum||'0'}}</span>
 				</view>
 				<!-- 收藏 -->
 				<view class="product-book-BA shou" v-if="shouc==0" @tap="shoucang(item.id,item.type)">
@@ -71,38 +71,22 @@
 </template>
 
 <script>
-//看過 電話 聊天 點讚..
-import zan from '@/static/mbcImg/my/zan.png';
-import look from '@/static/mbcImg/my/look.png';
-import phone from '@/static/mbcImg/my/phone.png';
-import liu from '@/static/mbcImg/my/liu.png';
-import shou from '@/static/mbcImg/my/shou.png';
-import fen from '@/static/mbcImg/my/fen.png';
-import zanss from '@/static/mbcImg/my/zanss.png';
-import looks from '@/static/mbcImg/my/looks.png';
-import phones from '@/static/mbcImg/my/phones.png';
-import lius from '@/static/mbcImg/my/lius.png';
-import shous from '@/static/mbcImg/my/shous.png';
-import fens from '@/static/mbcImg/my/fens.png';
-import kong from '@/static/mbcImg/my/kong.png';
-//結束
 export default {
 	data() {
 		return {
-			zan: zan,
-			look: look,
-			phone: phone,
-			liu: liu,
-			shou: shou,
-			kong:kong,
-			fen: fen,
+			zan:  this.Static+'my/zan.png',
+			look:  this.Static+'my/look.png',
+			phone:  this.Static+'my/phone.png',
+			liu:  this.Static+'my/liu.png',
+			shou:  this.Static+'my/shou.png',
+			fen:  this.Static+'my/fen.png',
 			arr: [],
-			zanss: zanss,
-			looks: looks,
-			phones: phones,
-			lius: lius,
-			shous: shous,
-			fens: fens,
+			zanss:  this.Static+'my/zanss.png',
+			looks:  this.Static+'my/looks.png',
+			phones:  this.Static+'my/phones.png',
+			lius:  this.Static+'my/lius.png',
+			shous:  this.Static+'my/shous.png',
+			fens:  this.Static+'my/fens.png',
 			floow:'',
 			floowdata:'',
 			likes:'0',
@@ -428,6 +412,110 @@ export default {
 				});
 			}
 		},
+		//取消点赞
+		qudianzan(a,b,f){
+			if(uni.getStorageSync('landRegist')){
+				let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
+				//console.log(landRegistLG.user.id);
+				uni.showLoading({ // 展示loading
+					title: '加载中'
+				});
+				if(b=='inst'){
+					var mode='0';
+				}else if(b=='purc'){
+					var mode='1';
+				}else if(b=='news'){
+					var mode='2';
+				}
+				uni.request({
+					url: this.api2 + '/rest-rp/like/cancel?userId='+landRegistLG.user.id+'&modelId='+a+'&type='+mode, //接口地址。
+					// data: params,
+					method: 'GET',
+					success: (response) => {
+						uni.hideLoading(); // 隐藏 loading
+						console.log(response.data, '---------------response.data--------------');
+						if (response.data.ret === '200') {
+							
+							this.likes=0;
+							//console.log(f)
+						}
+						 else {
+							uni.hideLoading(); // 隐藏 loading
+							uni.showToast({
+								title: response.data.msg,
+								icon: 'none',
+								duration: 1000
+							});
+						}
+					},
+					fail: (error) => {
+						uni.hideLoading(); // 隐藏 loading
+						uni.showToast({
+							title: '网络繁忙，请稍后',
+							icon: 'none',
+							duration: 1000
+						});
+						//console.log(error, '网络繁忙，请稍后');
+					}
+				});
+			}else if (uni.getStorageSync('UUID')) {
+				let UUID = uni.getStorageSync('UUID'); // 读取缓存的用户信息
+				//console.log(UUID);
+				if(b=='inst'){
+					var mode='0';
+				}else if(b=='purc'){
+					var mode='1';
+				}else if(b=='news'){
+					var mode='2';
+				}
+				uni.showLoading({ // 展示loading
+					title: '加载中'
+				});
+				uni.request({
+					url: this.api2 + '/rest-rp/like/cancel?userId='+UUID+'&modelId='+a+'&type='+mode, //接口地址。
+					// data: params,
+					method: 'GET',
+					success: (response) => {
+						uni.hideLoading(); // 隐藏 loading
+						//console.log(response.data, '---------------response.data--------------');
+						if (response.data.ret === '200') {
+							this.likes=0;
+							//console.log(f)
+						}else if (response.data.ret === '202') {
+							uni.removeStorageSync('landRegist');
+							uni.removeStorageSync('clickItems');
+							this.$store.commit('setHome', 1);
+							this.$store.commit('setLandRegist', 0);
+							uni.showToast({
+								title: '登录已过期，请重新登录',
+								icon: 'none',
+								duration: 1000
+							});
+							if (!uni.getStorageSync('landRegist')) {
+								this.landRegistra(); // 判断登录状态
+							}
+						}
+						 else {
+							uni.hideLoading(); // 隐藏 loading
+							uni.showToast({
+								title:  response.data.msg,
+								icon: 'none',
+								duration: 1000
+							});
+						}
+					},
+					fail: (error) => {
+						uni.hideLoading(); // 隐藏 loading
+						uni.showToast({
+							title: '网络繁忙，请稍后',
+							icon: 'none',
+							duration: 1000
+						});
+						//console.log(error, '网络繁忙，请稍后');
+					}
+				});
+			}
+		},
 		gotocomp(e){
 			console.log(e+'to商家详情')
 		},
@@ -473,7 +561,7 @@ export default {
 .information-hea-img {
 	min-width: 226upx;
 	height: 166upx;
-	background-image: url(../../../../../static/mbcImg/my/bigpick.png);
+	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
 	background-size: 100% 100%;
 }
 .information-hea-img > image {

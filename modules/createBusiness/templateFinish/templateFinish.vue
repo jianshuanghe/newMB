@@ -133,31 +133,27 @@ import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 import navigation from '@/components/mbbo/navigation/navigation.vue';
 import rTitle from '@/components/common/RHX/rTitle/rTitle';
 import skipMask from './skipMask';
-import xing from '@/static/mbcImg/common/xinghao.png';
-import look from '@/static/mbcImg/my/look.png';
-import del from '@/static/mbcImg/my/del.png';
-import right from '@/static/mbcImg/my/right.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	data() {
 		return {
-			xing: xing,
+			xing:  this.Static+'common/xinghao.png',
 			remnane: 0,
 			rem: 0,
 			desc: '',
 			des: '',
-			look: look,
+			look:  this.Static+'my/look.png',
 			hiden: 2,
 			num: 0,
 			nums: 9999999999,
 			edit: '',
-			del: del,
+			del:  this.Static+'my/del.png',
 			list: [],
 			id: '',
 			editleiid:'',
 			arr: [],
 			editleis: '',
-			right: right,
+			right:  this.Static+'my/right.png',
 			iscategory: false,
 			arrs: [],
 			tips:[

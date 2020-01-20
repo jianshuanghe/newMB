@@ -71,38 +71,22 @@
 </template>
 
 <script>
-//看過 電話 聊天 點讚..
-import zan from '@/static/mbcImg/my/zan.png';
-import look from '@/static/mbcImg/my/look.png';
-import phone from '@/static/mbcImg/my/phone.png';
-import liu from '@/static/mbcImg/my/liu.png';
-import shou from '@/static/mbcImg/my/shou.png';
-import fen from '@/static/mbcImg/my/fen.png';
-import zanss from '@/static/mbcImg/my/zanss.png';
-import looks from '@/static/mbcImg/my/looks.png';
-import phones from '@/static/mbcImg/my/phones.png';
-import lius from '@/static/mbcImg/my/lius.png';
-import shous from '@/static/mbcImg/my/shous.png';
-import fens from '@/static/mbcImg/my/fens.png';
-import kong from '@/static/mbcImg/my/kong.png';
-//結束
 export default {
 	data() {
 		return {
-			zan: zan,
-			look: look,
-			phone: phone,
-			liu: liu,
-			shou: shou,
-			kong:kong,
-			fen: fen,
+			zan:  this.Static+'my/zan.png',
+			look:  this.Static+'my/look.png',
+			phone:  this.Static+'my/phone.png',
+			liu:  this.Static+'my/liu.png',
+			shou:  this.Static+'my/shou.png',
+			fen:  this.Static+'my/fen.png',
 			arr: [],
-			zanss: zanss,
-			looks: looks,
-			phones: phones,
-			lius: lius,
-			shous: shous,
-			fens: fens,
+			zanss:  this.Static+'my/zanss.png',
+			looks:  this.Static+'my/looks.png',
+			phones:  this.Static+'my/phones.png',
+			lius:  this.Static+'my/lius.png',
+			shous:  this.Static+'my/shous.png',
+			fens:  this.Static+'my/fens.png',
 			floow:'',
 			floowdata:'',
 			likes:'0',
@@ -473,7 +457,7 @@ export default {
 .information-hea-img {
 	min-width: 226upx;
 	height: 166upx;
-	background-image: url(../../../../../static/mbcImg/my/bigpick.png);
+	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
 	background-size: 100% 100%;
 }
 .information-hea-img > image {

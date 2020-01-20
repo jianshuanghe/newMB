@@ -50,15 +50,12 @@
 
 <script>
 import { mapMutations, mapGetters } from 'vuex';
-import check from '@/static/mbcImg/home/extendManageList/check.png';
-import checked from '@/static/mbcImg/home/extendManageList/checked.png';
-import toufang from '@/static/mbcImg/my/toufang.png';
 export default {
 	data() {
 		return {
-			check: check,
-			checked: checked,
-			toufang: toufang,
+			check:  this.Static+'home/extendManageList/check.png',
+			checked:  this.Static+'home/extendManageList/checked.png',
+			toufang:  this.Static+'my/toufang.png',
 			listData: [
 				// {
 				// 		checked: false,

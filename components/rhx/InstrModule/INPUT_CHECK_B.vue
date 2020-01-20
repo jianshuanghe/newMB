@@ -63,7 +63,6 @@
 </template>
 
 <script>
-	import delsss from '@/static/mbcImg/publish/createBusiness/delsss.png';
 	import styleSelection from '@/components/common/RHX/madeCustModule/styleSelection/styleSelection';
 	import rTitle from '@/components/common/RHX/rTitle/rTitle';
 	import manageCopyTips from '@/components/common/RHX/manageCopyTips/manageCopyTips';
@@ -87,7 +86,7 @@
 		data() {
 			return {
 				indexs: -1,
-				delsss: delsss,
+				delsss:  this.Static+'publish/createBusiness/delsss.png',
 				basicDatas: this.basicData, // 原始数据
 				defaultAddImg: this.defaultImg,
 				dataLists: this.dataList,

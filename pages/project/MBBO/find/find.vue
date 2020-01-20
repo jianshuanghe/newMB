@@ -130,9 +130,6 @@
 import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 import homeSearch from '@/components/mbbo/homeSearch/homeSearch.vue';
 import mediaList from './fimdList/mediaList.vue';
-import pinDaoBtn from '@/static/mbcImg/common/pinDao/pinDaoBtn.png';
-import channelClose from '@/static/mbcImg/common/pinDao/close.png';
-import chanelDelete from '@/static/mbcImg/common/pinDao/delete.png';
 import message from './fimdList/message';
 import { mapMutations, mapGetters } from 'vuex';
 // 缓存每页最多
@@ -159,9 +156,9 @@ export default {
 				scrollTop: 0
 			},
 			durationTime: 300, // swiper动画时间
-			channelClose: channelClose, // 关闭频道按钮
-			chanelDelete: chanelDelete, // 编辑删除频道子项
-			pinDaoBtn: pinDaoBtn, // 频道按钮
+			channelClose: this.Static+'common/pinDao/close.png', // 关闭频道按钮
+			chanelDelete: this.Static+'common/pinDao/delete.png', // 编辑删除频道子项
+			pinDaoBtn: this.Static+'common/pinDao/pinDaoBtn.png', // 频道按钮
 			pinDaoShow: false, // 展示频道组件，默认不显示
 			editOrFinish: 0, // 0频道未编辑模式，1代表进入频道编辑模式
 			Refr:'1',
@@ -302,14 +299,7 @@ export default {
 		},
 		GET_MY:{
 			handler (a, b) {
-				//console.log(a,b)
-				// if(a.Refresh==1){
-				// 	this.adefault='push';
-				// 	this.pages='1';
-				// 	this.finddata(this.adefault,this.pages);
-				// 	//console.log('222222222222222222222222222222222222222222222')
-				// 	this.$store.commit('setRefresh', '0');
-				// }
+				
 			},
 			deep: true
 		}
@@ -1115,16 +1105,6 @@ export default {
 			activeTab.data = activeTab.data.concat(list);
 			//console.log(activeTab.data, '----------------activeTab.data----------------');
 		},
-		// close(index1, index2) {
-		// 	uni.showModal({
-		// 		content: '是否删除本条信息？',
-		// 		success: res => {
-		// 			if (res.confirm) {
-		// 				this.newsList[index1].data.splice(index2, 1);
-		// 			}
-		// 		}
-		// 	});
-		// },
 		loadMore(e) {
 			// setTimeout(() => {
 			// 	this.getList(this.tabIndex);
@@ -1178,11 +1158,6 @@ export default {
 		//记录滚动条位置
 		scroll: function(e) {
 			this.old.scrollTop = e.detail.scrollTop
-			// console.log(e)
-			if(this.old.scrollTop<10){
-				this.goTop();
-				// console.log('123')
-			}
 		},
 		goTop() {
 			this.scrollTop = this.old.scrollTop;

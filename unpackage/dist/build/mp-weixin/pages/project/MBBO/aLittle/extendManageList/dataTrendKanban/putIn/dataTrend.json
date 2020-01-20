@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "custom-time": "/pages/project/MBBO/aLittle/extendManageList/dataTrendKanban/liuLiang/customTime"
+  },
   "component": true
 }

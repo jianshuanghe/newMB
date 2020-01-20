@@ -14,7 +14,7 @@
 		<view class="Buyer-details-DH">联系电话:<span @tap="phone(list.mobile)">{{list.mobile}}</span></view>
 		<view class="Already-details-XS"></view>
 		<view class="Buyer-details-GL">
-			<view>关联供应：{{list.instrucTitl}}</view>
+			<view @tap="tiao(list)">关联供应：{{list.instrucTitl}}</view>
 			<view>{{list.compUserName}}·{{list.compTel}}·{{list.compName}}</view>
 		</view>
 		<view class="Buyer-details-tian"></view>
@@ -52,6 +52,10 @@
 			uni.setNavigationBarTitle({
 				title: this.i18n.message1
 			});
+			this.Buyer();
+			this.news = this.GET_NEWS.Message
+			console.log(this.news)
+			this.shareEachPage(); // 分享
 		},
 		filters: {
 			formatDate: function(value) {
@@ -71,12 +75,37 @@
 			}
 		},
 		created() {
-			this.Buyer();
-			this.news = this.GET_NEWS.Message
-			console.log(this.news)
-			this.shareEachPage(); // 分享
+			
 		},
 		methods:{
+			tiao(e){
+				let lookUserId = null;
+				if (uni.getStorageSync('landRegist')) {
+					let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
+					//console.log(landRegistLG.user.id);
+					lookUserId = landRegistLG.user.id;
+				} else {
+					lookUserId = uni.getStorageSync('UUID');
+				};
+				let urlParams = {
+					isFlow: 0, // 平台来源
+					tempType: 0, // 说明书类型
+					orderType: 0, // 订单类型
+					sourceTemp: 2, // 说明书来源
+					aiListTemp: 1, // 是否展示ai
+					id: e.tempId, // 模板id
+					isMenu: e.isMenu, // 横向导航
+					instrucId:  e.instrucId, // 说明书id
+					lookUserId: lookUserId, // 浏览者
+					creatorId: e.userId, // 说明书创建者
+					instrucState: e.instState ,// 说明书状态
+					instrucCustType: e.instCustType, // 模板类型
+				};
+				// console.log(urlParams)
+				uni.navigateTo({
+					url: '/modules/createBusiness/templatePro/templatePro?urlParams=' + this.urlCrypto(urlParams, 0)
+				});
+			},
 			phone(e){
 				uni.makePhoneCall({
 					phoneNumber: e //仅为示例

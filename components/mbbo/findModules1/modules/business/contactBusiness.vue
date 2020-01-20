@@ -15,13 +15,12 @@
 </template>
 
 <script>
-import address from '@/static/mbcImg/home/flowInlet/address.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'goodsOne',
 	data() {
 		return {
-			address: address,
+			address:  this.Static+'home/flowInlet/address.png',
 			typeNames: ['48小时发货', '材质保障', '买家保障']
 		};
 	},

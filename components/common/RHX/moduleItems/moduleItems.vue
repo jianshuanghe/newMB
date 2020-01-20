@@ -43,7 +43,6 @@
 </template>
 
 <script>
-	import del from '@/static/mbcImg/publish/createBusiness/del.png';
 	import moduleBar from '@/components/common/RHX/moduleBar/moduleBar';
 	export default {
 		components: {

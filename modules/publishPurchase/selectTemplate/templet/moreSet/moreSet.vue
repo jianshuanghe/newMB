@@ -89,8 +89,6 @@
 </template>
 
 <script>
-	import close from '@/static/mbcImg/common/nav/close.png';
-	import lineRightArrow from '@/static/mbcImg/common/nav/line-right-arrow.png';
 	import wSwitch from '@/components/common/switch/switch.vue';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
@@ -99,8 +97,8 @@
 				format: true
 			})
 			return {
-				close: close,
-				lineRightArrow: lineRightArrow,
+				close:  this.Static+'common/nav/close.png',
+				lineRightArrow:  this.Static+'common/nav/line-right-arrow.png',
 				quickNav: {
 					show: false
 				},

@@ -1,7 +1,7 @@
 
 function landRegistra() {
     // #ifdef H5
-    	this.isWeiXin(); // h5 判断是否为微信浏览器
+    	// this.isWeiXin(); // h5 判断是否为微信浏览器
     	console.log('h5');
     	if (!uni.getStorageSync('landRegist')) { // 用户没有登录 跳转去登陆 每次应用打开都要取判断
     	  uni.navigateTo({

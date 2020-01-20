@@ -1,21 +1,21 @@
 
-.content.data-v-35b461e8 {
+.content.data-v-b3e72d50 {
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw;
 	background: #fff;
 	margin-bottom: 1.5vw;
 }
-.gadget-box.data-v-35b461e8 {
+.gadget-box.data-v-b3e72d50 {
 	position: relative;
 	width: 100%;
 	padding-bottom: 2vw;
 }
-.gadget-title.data-v-35b461e8 {
+.gadget-title.data-v-b3e72d50 {
 	position: relative;
 	width: 100%;
 }
-.gadget-title > ._p.data-v-35b461e8 {
+.gadget-title > ._p.data-v-b3e72d50 {
 	position: relative;
 	width: 100%;
 	font-family: PingFang-SC-Bold;
@@ -23,42 +23,42 @@
 	color: #2e2e30;
 	line-height: 6vw;
 }
-.gadget-cont.data-v-35b461e8 {
+.gadget-cont.data-v-b3e72d50 {
 	position: relative;
 	width: 100%;
 }
-.gadget-toufang.data-v-35b461e8 {
+.gadget-toufang.data-v-b3e72d50 {
 	position: relative;
 	width: 33.3333%;
 }
-.conten-box.data-v-35b461e8 {
+.conten-box.data-v-b3e72d50 {
 	position: relative;
 	width: 100%;
 }
-.img.data-v-35b461e8 {
+.img.data-v-b3e72d50 {
 	position: relative;
 	width: 30%;
 	padding-left: 5%;
 	margin: auto;
 }
-.img > ._img.data-v-35b461e8 {
+.img > ._img.data-v-b3e72d50 {
 	position: relative;
 	width: 6vw;
 	height: 6vw;
 	margin-top: 2vw;
 }
-.text.data-v-35b461e8 {
+.text.data-v-b3e72d50 {
 	position: relative;
 	width: 100%;
 }
-.title.data-v-35b461e8 {
+.title.data-v-b3e72d50 {
 	font-family: PingFang-SC-Bold;
 	font-size: 3.7vw;
 	color: #2e2e30;
 	line-height: 5vw;
 	text-align: center;
 }
-.text-box.data-v-35b461e8 {
+.text-box.data-v-b3e72d50 {
 	font-family: PingFang-SC-Medium;
 	font-size: 3.2vw;
 	color: #9b9b9b;

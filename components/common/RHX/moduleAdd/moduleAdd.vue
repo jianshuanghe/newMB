@@ -17,14 +17,13 @@
 </template>
 
 <script>
-	import moduleAddIcon from '@/static/mbcImg/publish/createBusiness/moduleAddIcon.png';
 	export default {
 		components: {
 		},
 		props: [],
 		data() {
 			return {
-				moduleAddIcon: moduleAddIcon,
+				moduleAddIcon:  this.Static+'publish/createBusiness/moduleAddIcon.png',
 			};
 		},
 		created() {},

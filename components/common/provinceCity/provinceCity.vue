@@ -47,10 +47,14 @@
 
 <script>
 	import { mapMutations, mapGetters } from 'vuex';
+	import {province, city, county} from './areaCity';
 	// column：1，代表单列， 2，代表多列省市，3代表多列省市区县
 	export default{
 		data(){
 			return{
+				province:province,
+				city:city,
+				county:county,
 				rightArrow: this.Static + 'mbcImg/publish/rightArrow.png',
 				listData: {
 					// 组件用到的数据

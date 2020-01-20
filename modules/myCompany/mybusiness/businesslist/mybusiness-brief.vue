@@ -2,7 +2,7 @@
 	<view class="mybusiness-brief">
 		<!-- 简介 -->
 		<view class="mybusiness-brief-con" :class="fold ? 'fold' : 'unfold'">
-			{{data.companyIntro}}
+			{{datas.companyIntro}}
 		</view>
 		<view class="show" @tap="handleFold" v-if="fold">查看更多 <image :src="downArrow"></image></view>
 		<view class="show" @tap="handleFold" v-if="!fold">收起全部<image :src="uparrow"></image></view>
@@ -12,8 +12,8 @@
 					<view class="mybusiness-brief-codes-er">
 						<image :src="erweima" class="erweima"></image>
 						<view class="mybusiness-brief-codes-er-img">
-							<image :src="data.wechatQrImg" v-if="data.wechatQrImg!==''"></image>
-							<image :src="erweimamo" mode="" v-if="data.wechatQrImg==''"></image>
+							<image :src="datas.wechatQrImg" v-if="datas.wechatQrImg!==''"></image>
+							<image :src="erweimamo" mode="" v-if="datas.wechatQrImg==''"></image>
 						</view>
 					</view>
 				</view>
@@ -23,41 +23,36 @@
 				</view>
 			</view>
 			<view class="mybusiness-brief-Tips">
-				<view>{{data.contactTelphone}}</view>
-				<view>{{data.contactEmail}}</view>
+				<view>{{datas.contactTelphone}}</view>
+				<view>{{datas.contactEmail}}</view>
 				<view>
-					<text>{{data.addressDetail}}</text>
+					<text>{{datas.addressDetail}}</text>
 					<!-- 复制功能在h5中不适用 -->
 					<!-- #ifdef MP -->
-					<span class="mybusiness-brief-Tipss" @tap="copyBT();">复制</span>
+					<span class="mybusiness-brief-Tipss" @tap="copyBT(datas.addressDetail);">复制</span>
 					<!-- #endif -->
-					
 				</view>
 			</view>
 		</view>
 		<!-- 底部按钮 -->
 		<view class="mybusiness-supply-bot">
-			<view class="mybusiness-supply-Customer" @tap="phone(data.userPhone)" v-if="String(this.listid)!==String(this.id)">联系商家</view>
-			<view class="mybusiness-supply-Customer" @tap="clickBasicInforEdit" v-if="String(this.listid)==String(this.id)">编辑</view>
+			<view class="mybusiness-supply-Customer" @tap="phone(datas.userPhone)" v-if="String(listid)!==String(id)">联系商家</view>
+			<view class="mybusiness-supply-Customer" @tap="clickBasicInforEdit" v-if="String(listid)==String(id)">编辑</view>
 			<!-- <view class="mybusiness-supply-contact">联系商家</view> -->
 		</view>
 	</view>
 </template>
 
 <script>
-	import erweima from '@/static/mbcImg/news/erweima.png';
-	import downArrow from '@/static/mbcImg/my/downArrow.png';
-	import uparrow from '@/static/mbcImg/my/up-arrow.png';
-	import erweimamo from '@/static/mbcImg/my/erweimamo.png';
 	export default {
-		props:['data','listid'],
+		props:['datas','listid'],
 		data() {
 			return {
 				fold:true,
-				erweima:erweima,
-				downArrow:downArrow,
-				uparrow:uparrow,
-				erweimamo:erweimamo,
+				erweima:this.Static+'news/erweima.png',
+				downArrow:this.Static+'my/downArrow.png',
+				uparrow:this.Static+'my/up-arrow.png',
+				erweimamo:this.Static+'my/erweimamo.png',
 				list:[],
 				id:'',
 			}
@@ -66,7 +61,7 @@
 			let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 			
 			this.id=landRegistLG.user.id;
-			console.log(this.id,this.listid);
+			console.log(this.id,this.listid,this.datas);
 		},
 		methods:{
 			clickBasicInforEdit() {
@@ -83,9 +78,9 @@
 					phoneNumber: e //仅为示例
 				});
 			},
-			copyBT(){
+			copyBT(e){
 				uni.setClipboardData({
-					data: '北京市昌平区沙河镇七里渠慧聪园总部基地',
+					data: e,
 					success: function () {
 						console.log('复制成功');
 					}

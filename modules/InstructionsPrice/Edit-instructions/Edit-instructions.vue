@@ -168,13 +168,12 @@
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
 	import rTitle from '@/components/common/RHX/rTitle/rTitle';
-	import erweima from '@/static/mbcImg/news/erweima.png';
 	import imageUploadMore from '@/components/common/imageUpload/imageUploadMore.vue';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				erweima:erweima,
+				erweima: this.Static+'news/erweima.png',
 				logo1:[],
 				listData: {
 					imageData: [],

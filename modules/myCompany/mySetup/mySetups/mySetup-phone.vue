@@ -9,7 +9,7 @@
 			<view class="PB-top">
 				<view class="PB-top-v">
 					您当前绑定的手机号码为：
-					<span class="phoneNum">{{ this.GET_MY.headers.userPhone }}</span>
+					<span class="phoneNum">{{ GET_MY.headers.userPhone }}</span>
 				</view>
 				<view class="GH-PB">更换后可用新手机号登录</view>
 				<view class="PB-subStep">
@@ -193,7 +193,7 @@ export default {
 				uni.showToast({
 					title: '手机号为不能为空',
 					icon: 'none',
-					duration: 500
+					duration: 1000
 				});
 				return false;
 			}
@@ -202,7 +202,7 @@ export default {
 				uni.showToast({
 					title: '手机号码有误,请重填',
 					icon: 'none',
-					duration: 500
+					duration: 1000
 				});
 				return false;
 			}
@@ -210,7 +210,7 @@ export default {
 				uni.showToast({
 					title: '不能和当前已经绑定的手机号相同',
 					icon: 'none',
-					duration: 500
+					duration: 1000
 				});
 				return false;
 			} else {

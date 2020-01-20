@@ -11,7 +11,7 @@
 }
 .resuleTab-box{
 	position: relative;
-	width: 70%;
+	width: 51%;
 	margin-top: 10rpx;
 	margin: auto;
 }
@@ -20,26 +20,26 @@
 	width: 50%;
 }
 .active-tap{
-	font-size: 34rpx !important;
-	color: #2E2E30 !important;
-	font-weight: bold;
+	font-size: 32rpx !important;
+	color: #02C2A2 !important;
+	/* font-weight: bold; */
 }
 .RT-box-top{
 	font-family: PingFang-SC-Bold;
 	font-size: 32rpx;
-	color: #5D5D5D;
+	color: #9B9B9B;
 	letter-spacing: 0;
 	text-align: center;
 	line-height: 54rpx;
 	margin: 6rpx 0;
 }
-.RT-box-bot{
-	margin-top: 10rpx;
+/* .RT-box-bot{
+	margin-top: 10upx;
 	background: #02C2A2;
 	border-radius: 100px;
 	position: relative;
-	width: 40rpx;
-	height: 4rpx;
+	width: 40upx;
+	height: 4upx;
 	margin: auto;
-}
+} */
 

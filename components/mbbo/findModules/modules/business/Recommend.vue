@@ -99,20 +99,20 @@
 				<!-- 点赞 -->
 				<view class="product-book-BA" v-if="likes==0" @tap="dianzan(item.id,item.type,item.likeCount)">
 					<image :src="zan"></image>
-					<span>{{likenum}}</span>
+					<span>{{likenum||'0'}}</span>
 				</view>
 				<view class="product-book-BA" v-if="likes==1" @tap="qudianzan(item.id,item.type,item.likeCount)">
 					<image :src="zanss"></image>
-					<span>{{likenum}}</span>
+					<span>{{likenum||'0'}}</span>
 				</view>
 				<!-- 收藏 -->
 				<view class="product-book-BA shou" v-if="shouc==0" @tap="shoucang(item.id,item.type)">
 					<image :src="shou"></image>
-					<span>{{shoucnum}}</span>
+					<span>{{shoucnum||'0'}}</span>
 				</view>
 				<view class="product-book-BA shou" v-if="shouc==1" @tap='shoucangs(item.id,item.type)'>
 					<image :src="shous"></image>
-					<span>{{shoucnum}}</span>
+					<span>{{shoucnum||'0'}}</span>
 				</view>
 				<!-- 分享 -->
 				<view class="product-book-BA right shou" v-if="item.isShare==0" @tap="tiaozhuan(item)">
@@ -147,20 +147,20 @@
 				<!-- 点赞 -->
 				<view class="product-book-BAs" v-if="likes==0" @tap="dianzan(item.id,item.type)">
 					<image :src="zan"></image>
-					<span>{{likenum}}</span>
+					<span>{{likenum||'0'}}</span>
 				</view>
 				<view class="product-book-BAs" v-if="likes==1">
 					<image :src="zanss"></image>
-					<span>{{likenum}}</span>
+					<span>{{likenum||'0'}}</span>
 				</view>
 				<!-- 收藏 -->
 				<view class="product-book-BAs shou" v-if="shouc==0" @tap="shoucang(item.id,item.type)">
 					<image :src="shou"></image>
-					<span>{{shoucnum}}</span>
+					<span>{{shoucnum||'0'}}</span>
 				</view>
 				<view class="product-book-BAs shou" v-if="shouc==1" @tap="shoucangs(item.id,item.type)">
 					<image :src="shous"></image>
-					<span>{{shoucnum}}</span>
+					<span>{{shoucnum||'0'}}</span>
 				</view>
 				<!-- 分享 -->
 				<view class="product-book-BAs right shou" v-if="item.isShare==0">
@@ -181,54 +181,32 @@
 </template>
 
 <script>
-	//看過 電話 聊天 點讚..
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phone from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	import zanss from '@/static/mbcImg/my/zanss.png';
-	import looks from '@/static/mbcImg/my/looks.png';
-	import phones from '@/static/mbcImg/my/phones.png';
-	import lius from '@/static/mbcImg/my/lius.png';
-	import shous from '@/static/mbcImg/my/shous.png';
-	import fens from '@/static/mbcImg/my/fens.png';
-	import kong from '@/static/mbcImg/my/kong.png';
-	import hea from '@/static/mbcImg/my/hea.png';
-	import bigpick from '@/static/mbcImg/my/bigpick.png';
-	
-	//結束
-	import time from '@/static/mbcImg/my/Image.png';
-	import locat from '@/static/mbcImg/my/Images.png';
-	
 	export default {
 		data() {
 			return {
-				zan: zan,
-				look: look,
-				phone: phone,
-				kong:kong,
-				liu: liu,
-				shou: shou,
-				fen: fen,
-				zanss: zanss,
-				looks: looks,
-				phones: phones,
-				lius: lius,
-				shous: shous,
-				fens: fens,
+				zan:  this.Static+'my/zan.png',
+				look:  this.Static+'my/look.png',
+				phone:  this.Static+'my/phone.png',
+				liu:  this.Static+'my/liu.png',
+				shou:  this.Static+'my/shou.png',
+				fen:  this.Static+'my/fen.png',
+				zanss:  this.Static+'my/zanss.png',
+				looks:  this.Static+'my/looks.png',
+				phones:  this.Static+'my/phones.png',
+				lius:  this.Static+'my/lius.png',
+				shous:  this.Static+'my/shous.png',
+				fens:  this.Static+'my/fens.png',
 				arr: [],
-				time:time,
-				locat:locat,
+				time: this.Static+'my/Image.png',
+				locat: this.Static+'my/Images.png',
 				floow:'',
 				floowdata:'',
 				likes:'0',
 				likenum:'',
 				shouc:'0',
 				shoucnum:'',
-				hea:hea,
-				bigpick:bigpick,
+				hea: this.Static+'my/hea.png',
+				bigpick: this.Static+'my/bigpick.png',
 			};
 		},
 		components:{
@@ -901,7 +879,7 @@
 		min-width: 226upx;
 		height: 166upx;
 		margin-top: 30upx;
-		background-image: url(../../../../../static/mbcImg/my/bigpick.png);
+		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-two>image{
@@ -1037,7 +1015,7 @@
 		width: 220upx;
 		height: 166upx;
 		margin-left: 20upx;
-		background-image: url(../../../../../static/mbcImg/my/bigpick.png);
+		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-img>image:nth-of-type(1){
@@ -1105,7 +1083,7 @@
 		width: 100%;
 		height: 340upx;
 		margin-top: 16upx;
-		background-image: url(../../../../../static/mbcImg/my/bigpick.png);
+		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
         background-size: 100% 100%;
 	}
 	.find-Purchase-con-image>image{

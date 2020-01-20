@@ -1,5 +1,5 @@
 
-.product-content{
+.total-content{
 	position: fixed;
 	width: 750rpx;
 	background: #fff;
@@ -11,6 +11,9 @@
 .scroll-view_H {
 	white-space: nowrap;
 	width: 100%;
+}
+.scrollContent{
+	padding-bottom:10vh;
 }
 .uni-scroll-view{
 	height: 90vh;

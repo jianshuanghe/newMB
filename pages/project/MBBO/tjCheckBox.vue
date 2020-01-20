@@ -21,9 +21,6 @@
 </template>
 
 <script>
-	import check from '@/static/mbcImg/home/extendManageList/dataReport/check.png';
-	import checked from '@/static/mbcImg/home/extendManageList/dataReport/checked.png';
-	import checkedItems from '@/static/mbcImg/home/extendManageList/dataReport/checkedItems.png';
 	export default {
 		name: 'businessPutIn',
 		data() {
@@ -32,9 +29,9 @@
 				dataList: [], // 城防多选的转型后数组
 				
 				selcetDataList: [], // 盛放选中的商机
-				check: check, // type 选择按钮的未选中状态 img
-				checked: checked, // type 选择按钮的选中状态 img
-				checkedItems: checkedItems, // 子项选中对勾 img
+				check:  this.Static+'extendManageList/dataReport/check.png', // type 选择按钮的未选中状态 img
+				checked:  this.Static+'home/extendManageList/dataReport/checked.png', // type 选择按钮的选中状态 img
+				checkedItems:  this.Static+'home/extendManageList/dataReport/checkedItems.png', // 子项选中对勾 img
 				clickItemsIndex: '', // 记录子项点击的index
 				selectStyle2: { // 选择之后样式边框变化
 					// background: '#02C2A2',

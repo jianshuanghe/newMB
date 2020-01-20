@@ -25,7 +25,7 @@
 				</view>
 			</view>
 		</view>
-		<view class="meirenkanwo" v-if="this.GET_NEWS.system.length === 0">
+		<view class="meirenkanwo" v-if="GET_NEWS.system.length === 0">
 			<image :src="kong" mode=""></image>
 			您还没有收到系统通知！
 		</view>
@@ -36,18 +36,15 @@
 <script>
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
-	import rightArrow from '@/static/mbcImg/my/rightArrow.png'
-	import rightaa from '@/static/mbcImg/my/rightaa.png'
-	import kong from '@/static/mbcImg/my/kong.png'
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				rightArrow:rightArrow,
+				rightArrow:this.Static+'my/rightArrow.png',
 				list:[],
-				kong:kong,
+				kong:this.Static+'my/kong.png',
 				shu:[],
-				rightaa:rightaa,
+				rightaa:this.Static+'my/rightaa.png',
 			}
 		},
 		components: {

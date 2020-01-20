@@ -59,28 +59,20 @@
 </template>
 
 <script>
-import address from '@/static/mbcImg/home/flowInlet/address.png';
 import { mapMutations, mapGetters } from 'vuex';
-//看過 電話 聊天 點讚..
-import zan from '@/static/mbcImg/my/zan.png';
-import look from '@/static/mbcImg/my/look.png';
-import phone from '@/static/mbcImg/my/phone.png';
-import liu from '@/static/mbcImg/my/liu.png';
-import shou from '@/static/mbcImg/my/shou.png';
-import fen from '@/static/mbcImg/my/fen.png';
 //結束
 export default {
 	name: 'banner',
 	data() {
 		return {
-			address: address,
+			address: this.Static+'home/flowInlet/address.png',
 			typeNames: ['48小时发货', '材质保障', '买家保障'],
-			zan:zan,
-			look:look,
-			phone:phone,
-			liu:liu,
-			shou:shou,
-			fen:fen,
+			zan: this.Static+'my/zan.png',
+			look: this.Static+'my/look.png',
+			phone: this.Static+'my/phone.png',
+			liu: this.Static+'my/liu.png',
+			shou: this.Static+'my/shou.png',
+			fen: this.Static+'my/fen.png',
 		};
 	},
 	props: ['msgDatas'],

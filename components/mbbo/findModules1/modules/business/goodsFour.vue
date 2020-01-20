@@ -25,13 +25,12 @@
 </template>
 
 <script>
-import address from '@/static/mbcImg/home/flowInlet/address.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'banner',
 	data() {
 		return {
-			address: address
+			address:  this.Static+'home/flowInlet/address.png'
 		};
 	},
 	props: {

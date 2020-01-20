@@ -94,9 +94,9 @@
 							</div>
 						</div> -->
 						<div class="MI-hao" @click="clickIndustry">
-							<div class="MII-nih" v-if="this.industryss==''&&this.GET_MY.headers.compTypePcodeStr==''">请输入</div>
-							<div class="MII-nih" style="color:black;" v-if="this.GET_MY.headers.compTypePcodeStr!==''&&this.industryss==''">{{this.GET_MY.headers.compTypePcodeStr}}</div>
-							<div class="MII-nih" style="color:black;" v-if="this.industryss!=''">{{industryss}}</div>
+							<div class="MII-nih" v-if="industryss==''&&GET_MY.headers.compTypePcodeStr==''">请输入</div>
+							<div class="MII-nih" style="color:black;" v-if="GET_MY.headers.compTypePcodeStr!==''&&industryss==''">{{GET_MY.headers.compTypePcodeStr}}</div>
+							<div class="MII-nih" style="color:black;" v-if="industryss!=''">{{industryss}}</div>
 							<div class="MII-image"><image :src="lineRightArrow"></image></div>
 						</div>
 						<div class="clear"></div>
@@ -108,9 +108,9 @@
 							<p class="">联系地址</p>
 						</div>
 						<div class="MI-hao" @tap="area()">
-							<div class="MII-nih" v-if="this.placker==''&&this.GET_MY.headers.addrStr==''">请选择</div>
-							<div class="MII-nih" style="color:black;" v-if="this.GET_MY.headers.addrStr!==''&&this.placker==''">{{this.GET_MY.headers.addrStr}}</div>
-							<div class="MII-nih" style="color:black;" v-if="this.placker!=''">{{placker}}</div>
+							<div class="MII-nih" v-if="placker==''&&GET_MY.headers.addrStr==''">请选择</div>
+							<div class="MII-nih" style="color:black;" v-if="GET_MY.headers.addrStr!==''&&placker==''">{{GET_MY.headers.addrStr}}</div>
+							<div class="MII-nih" style="color:black;" v-if="placker!=''">{{placker}}</div>
 							<div class="MII-image"><image :src="lineRightArrow"></image></div>
 						</div>
 						<div class="clear"></div>
@@ -214,15 +214,15 @@
 			</div>
 		</div>
 		<div class="BIF-bottom">
-			<div class="BIF-btn" @click="clickSaveBasicInfor"><p class="">保存</p></div>
+			<div class="BIF-btn" @click="clickSaveBasicInfor">保存</div>
 		</div>
 		<navigation v-if="QUICKNAVCO.show"></navigation>
 		<!--行业组件-->
 		<industry 
-		v-if="this.hangye==1" 
+		v-if="hangye==1" 
 		v-on:CloseMask="CloseMask" 
 		v-on:clickConfirm="clickConfirm" 
-		:data="this.industryss"
+		:data="industryss"
 		></industry>
 		<!--图片预览组件-->
 		<!-- <previewImg :previewImgSrc="ImgSrc"  @sendValueToParent = "getValueFromChild"v-if="previewImgShow"></previewImg> -->
@@ -230,9 +230,6 @@
 </template>
 
 <script>
-import touXiang from '@/static/mbcImg/images/business/home/extendManageList/touxiang.png';
-import lineRightArrow from '@/static/mbcImg/images/common/line-right-arrow.png';
-import xing from '@/static/mbcImg/images/common/xing.png';
 import industry from './industryAddress/industry';
 import wInput from '@/components/common/watch-login/watch-input1.vue';
 import imageUploadOne from '@/components/common/imageUpload/imageUploadOne.vue';
@@ -252,9 +249,9 @@ export default {
 		return {
 			text: '',
 			touxiang: '',
-			touxiang1: touXiang,
-			lineRightArrow: lineRightArrow,
-			xing: xing,
+			touxiang1:  this.Static+'images/business/home/extendManageList/touxiang.png',
+			lineRightArrow:  this.Static+'images/common/line-right-arrow.png',
+			xing:  this.Static+'images/common/xing.png',
 			logo:'',
 			logos:'',
 			logoo:'',
@@ -329,6 +326,11 @@ export default {
 		};
 	},
 	created() {
+	},
+	onLoad:function(){
+		uni.setNavigationBarTitle({//标题 已收藏
+			title: '公司信息'
+		});
 	},
 	computed: {
 		...mapGetters(['PERSONCENTER', 'IMGDATA','QUICKNAVCO','GET_MY'])
@@ -504,8 +506,9 @@ export default {
 							}else{
 								this.GET_MY.headers.wechatQrImg=this.GET_MY.headers.wechatQrImg
 							}
-							this.$store.commit('setMy', this.GET_MY.headers);
-							uni.navigateBack({});
+							// this.$store.commit('setMy', this.GET_MY.headers);
+							this.getmy();
+							
 						},
 						fail: (error) => {
 							uni.hideLoading(); // 隐藏 loading
@@ -520,6 +523,57 @@ export default {
 				}
 			
 			
+		},
+		getmy() {
+			if (uni.getStorageSync('landRegist')) {
+				let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
+				console.log(landRegistLG.user.id);
+				let params = {}; // 请求总数居时 参数为空
+				uni.showLoading({ // 展示loading
+					title: '加载中'
+				});
+				uni.request({
+					url: this.api2 + '/rest-rp/user/'+landRegistLG.user.id, //接口地址。
+					// data: this.endParams(params),
+					method: 'GET',
+					header: {
+						Authorization: "Bearer " + landRegistLG.token //将token放到请求头中
+					},
+					success: (response) => {
+						uni.hideLoading();
+						if (response.data.ret === '202') {
+							uni.removeStorageSync('landRegist');
+							uni.removeStorageSync('clickItems');
+							this.$store.commit('setHome', 1);
+							this.$store.commit('setLandRegist', 0);
+							uni.showToast({
+								title: '登录已过期，请重新登录',
+								icon: 'none',
+								duration: 1000
+							});
+							if (!uni.getStorageSync('landRegist')) {
+								this.landRegistra(); // 判断登录状态
+							}
+						}else{
+							uni.navigateBack({});
+							this.list = response.data.content
+							this.$store.commit('setMy', this.list); // 更新vuex
+						}
+						// console.log(response.data);
+						
+						// this.$store.commit('setMation', this.List); // 更新vuex
+					},
+					fail: (error) => {
+						uni.hideLoading(); // 隐藏 loading
+						uni.showToast({
+							title: '网络繁忙，请稍后',
+							icon: 'none',
+							duration: 1000
+						});
+						console.log(error, '网络繁忙，请稍后');
+					}
+				});
+			}
 		},
 		//企业logo
 		deleteImage: function(e) {
@@ -787,6 +841,10 @@ export default {
 	margin-top: 6.5vw;
 	float: right;
 }
+.img{
+	width: 15upx;
+	height: 15upx;
+}
 .perInfoItemR {
 	width: 100%;
 	text-overflow: ellipsis;
@@ -826,22 +884,25 @@ export default {
 .BIF-bottom {
 	position: fixed;
 	width: 100%;
-	padding: 1.5vw 4vw 1.5vw 4vw;
+	height: 113upx;
+	/* padding: 1.5vw 4vw 1.5vw 4vw; */
 	bottom: 0;
 	z-index: 105;
 	background: #fff;
 }
 .BIF-btn {
 	position: relative;
-	width: 100%;
+	width: 90%;
+	height: 80%;
 	background: #02c2a2;
+	margin: 10upx auto auto auto;
 	border-radius: 2px;
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
 	color: #ffffff;
 	text-align: center;
 	letter-spacing: 0;
-	line-height: 12vw;
+	line-height: 88upx;
 }
 .MI-hao{
 	width:63%;
@@ -857,6 +918,9 @@ export default {
 	position:absolute;
 	right:0;
 	top:0;
+	/* #ifdef MP-WEIXIN */
+	line-height: 104upx;
+	/* #endif */
 }
 .MII-image>image{
 	width:100%;
@@ -870,5 +934,8 @@ export default {
 	overflow: hidden;
 	text-overflow:ellipsis;
 	white-space: nowrap;
+	/* #ifdef MP-WEIXIN */
+	line-height: 116upx;
+	/* #endif */
 }
 </style>

@@ -16,7 +16,6 @@
 import topBox from '@/components/mbbo/topBox/topBox';
 import businessPutIn from './dataReportItems/businessPutIn';
 import dataTrendKanban from './dataTrendKanban/dataTrendKanban';
-import rightArrow from '@/static/mbcImg/home/extendManageList/rightArrow4.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'dataReport',
@@ -27,7 +26,7 @@ export default {
 	},
 	data() {
 		return {
-			rightArrow: rightArrow
+			rightArrow:  this.Static+'home/extendManageList/rightArrow4.png'
 		};
 	},
 	computed: {

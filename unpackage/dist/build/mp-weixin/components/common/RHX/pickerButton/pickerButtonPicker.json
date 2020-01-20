@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "picker-button-infor": "/components/common/RHX/pickerButton/pickerButtonInfor",
+    "r-picker": "/components/common/RHX/rPicker/rPicker",
+    "fixed-bg-btn": "/components/common/button/fixedBgBtn"
+  },
+  "component": true
+}

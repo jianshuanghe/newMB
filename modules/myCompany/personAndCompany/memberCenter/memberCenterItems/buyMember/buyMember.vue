@@ -78,12 +78,6 @@
 
 <script>
 import topBox from '@/components/mbbo/topBox/topBox';
-import weixin from '@/static/mbcImg/images/business/home/personCenter/WXPay.png';
-import zhifubao from '@/static/mbcImg/images/business/home/personCenter/ALIPay.png';
-import select from '@/static/mbcImg/images/business/home/personCenter/勾选-未选择.png';
-import selected from '@/static/mbcImg/images/business/home/personCenter/勾选-选中.png';
-import lose from '@/static/mbcImg/images/business/home/personCenter/订单提交失败.png';
-import userLogo from '@/static/mbcImg/my/sasf.png';
 export default {
 	name: 'buyMember',
 	components: {
@@ -93,12 +87,12 @@ export default {
 		return {
 			UserData: null,
 			imgList:null,
-			weixin: weixin,
-			zhifubao: zhifubao,
-			select: select,
-			selected: selected,
-			lose: lose,
-			userLogo:userLogo,
+			weixin:  this.Static+'images/business/home/personCenter/WXPay.png',
+			zhifubao:  this.Static+'images/business/home/personCenter/ALIPay.png',
+			select:  this.Static+'images/business/home/personCenter/勾选-未选择.png',
+			selected: this.Static+'images/business/home/personCenter/勾选-选中.png',
+			lose:  this.Static+'images/business/home/personCenter/订单提交失败.png',
+			userLogo: this.Static+'my/sasf.png',
 			ZhiFuBao: true,
 			WeiXin: false,
 			browserType: 'FWX',

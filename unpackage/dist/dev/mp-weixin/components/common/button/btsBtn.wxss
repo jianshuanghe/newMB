@@ -13,7 +13,8 @@
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	top: 6rpx;
+	top: 12rpx;
+	margin-bottom: 8rpx;
 }
 .BTSText{
 	position: relative;

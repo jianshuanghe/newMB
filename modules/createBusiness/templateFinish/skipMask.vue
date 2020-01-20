@@ -22,16 +22,13 @@
 </template>
 
 <script>
-	import selectEd from '@/static/mbcImg/publish/createBusiness/selectEd.png';
-	import select from '@/static/mbcImg/publish/createBusiness/select.png';
-	import skipMaskBg from '@/static/mbcImg/publish/createBusiness/skipMaskBg.png';
 	export default {
 		data() {
 			return {
-				selectEd: selectEd, // 勾选圆框 黑色
-				select: select, // 未勾选圆框 白色
-				noTipsImg: select,
-				skipMaskBg: skipMaskBg,
+				selectEd:  this.Static+'publish/createBusiness/selectEd.png', // 勾选圆框 黑色
+				select:  this.Static+'publish/createBusiness/select.png', // 未勾选圆框 白色
+				noTipsImg:  this.Static+'publish/createBusiness/select.png',
+				skipMaskBg:  this.Static+'publish/createBusiness/skipMaskBg.png',
 				dateLists: this.dateListM
 			};
 		},

@@ -1,43 +1,66 @@
 
-.time-items{
-		position: relative;
-		padding: 3vw;
-		margin: auto;
-		padding-top: 2vw;
-		background: #fff;
+.time-items {
+	position: relative;
+	padding: 3vw;
+	margin: auto;
+	padding-top: 2vw;
+	background: #fff;
 }
-.RTI-box{
-		position: relative;
-		width: 18%;
+.RTI-box {
+	position: relative;
+	width: 17%;
+	/* margin-left: 32upx; */
 }
-.RTI-boxIte{
-		position: relative;
-		width: 23% !important;
+.time-items-box>view:nth-of-type(5){
+	margin-left: 30rpx!important;
+	/* width: 170upx; */
 }
-.active-tapRTI{
-		color: #2E2E30!important;
-		font-weight: bold;
-		background: #E2E2E2;
-		border-radius: 26rpx;
+.RTI-boxIte {
+	position: relative;
+	width: 27% !important;
 }
-.RTI-box-top{
-		font-family: PingFangSC-Regular;
-		font-size: 24rpx;
-		color: #9B9B9B;
-		line-height: 36rpx;
-		text-align: center;
+.line-YY{
+	position: absolute;
+    right: 4vw;
+    height: 52%;
+    width: 2rpx;
+    background: rgba(14, 14, 14, 0.12);
+    top: 16rpx;
 }
-.RTI-box-bot{
-		margin-top: 10rpx;
-		background: #02C2A2;
-		border-radius: 100px;
-		position: relative;
-		width: 40rpx;
-		height: 4rpx;
-		margin: auto;
+.active-tapRTI {
+	color: #2e2e30 !important;
+	font-weight: bold;
+	background: #e2e2e2!important;
+	border-radius: 26rpx;
+	/* padding-left: 20upx;
+	padding-right: 20upx; */
+}
+.RTI-box-top {
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #9b9b9b;
+	line-height: 44rpx;
+	text-align: center;
+}
+.RTI-box-top>image{
+	width: 24rpx;
+	height: 24rpx;
+	padding-top: 10rpx;
+	display: block;
+	float: left;
+	padding-left: 10rpx;
+}
+.RTI-box-bot {
+	margin-top: 10rpx;
+	background: #02c2a2;
+	border-radius: 100px;
+	position: relative;
+	width: 40rpx;
+	height: 4rpx;
+	margin: auto;
 }
 uni-picker {
-	    display: inline-block !important;
+	display: inline-block !important;
 }
 .line-box {
 	position: relative;
@@ -46,7 +69,7 @@ uni-picker {
 	margin-bottom: 2vw;
 	padding-bottom: 4vw;
 }
-	/*样式的width和height一定要与定义的cWidth和cHeight相对应*/
+/*样式的width和height一定要与定义的cWidth和cHeight相对应*/
 .qiun-charts {
 	width: 750rpx;
 	height: 500rpx;
@@ -59,7 +82,7 @@ uni-picker {
 }
 .scroll-view_H {
 	white-space: nowrap;
-	width: 300vw;
+	width: 207vw;
 	height: 10vw;
 }
 .scroll-view-item {
@@ -108,7 +131,7 @@ uni-picker {
 }
 .screen-date {
 	position: relative;
-	width: 70%;
+	width: 100%;
 	/* float: right; */
 }
 .screen-date > ._p {
@@ -121,12 +144,20 @@ uni-picker {
 	line-height: 6vw;
 }
 .screen-item2 {
-	color: #ff4d6a;
-	text-decoration: underline;
+	color: #02c2a2;
+	padding-left: 10rpx;
 }
 .screen-item1 {
-	color: #02c2a2;
-	text-decoration: underline;
+	color: #ff4d6a;
+	/* text-decoration: underline; */
+}
+.screen-image1{
+	padding-left: 6rpx;
+	padding-right: 10rpx;
+}
+.screen-image1>image{
+	width: 24rpx;
+	height: 22rpx;
 }
 .vs {
 	color: #000 !important;
@@ -148,10 +179,10 @@ uni-picker {
 }
 .tongji-item {
 	position: relative;
-	width: 25vw;
+	width: 23vw;
 }
 .tongji-item {
-	min-width: 25vw !important;
+	min-width: 23vw !important;
 }
 .items-YY {
 	position: relative;
@@ -179,9 +210,10 @@ uni-picker {
 .trend {
 	position: relative;
 	width: 100%;
-	padding: 2vw 4vw;
+	padding: 5vw 0vw  0vw  0vw;
 	background: #fff;
-	margin-bottom: 1.5vw;
+	/* margin-bottom: 1.5vw; */
+	/* margin-left: 304upx; */
 }
 .trend > view {
 	position: relative;

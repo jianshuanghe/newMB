@@ -29,7 +29,6 @@
 </template>
 
 <script>
-	import defaultImg from '@/static/mbcImg/publish/createBusiness/defaultImg.png'
 	import date from '@/static/mbcJs/dateTime.js';
 	export default{
 		components:{
@@ -49,7 +48,7 @@
 			return{
 				list:[],
 				upDataTime:this.updataTime,
-				defaultImg:defaultImg,
+				defaultImg: this.Static+'publish/createBusiness/defaultImg.png',
 				userData:this.dataList.userRetVO,
 				focusText: ''
 			}

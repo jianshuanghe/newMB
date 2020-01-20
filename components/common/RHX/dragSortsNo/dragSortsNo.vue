@@ -55,7 +55,6 @@
 <script>
 	import moduleIconLibrary from '@/components/common/RHX/moduleIconLibrary/moduleIconLibrary';
 	import moduleItems from '@/components/common/RHX/moduleItems/moduleItems';
-	import iconSrc from '@/static/mbcImg/publish/purchase/delete.png';
 export default {
 	name: 'drag-sort',
 	mixins: [],
@@ -70,7 +69,7 @@ export default {
 			iconLibraryShow: false, // 判断当前组件是否有icon库展示
 			dataLists: this.dataList,
 			isSelect: -1, // 用户选择的项
-			iconSrc: iconSrc,
+			iconSrc:  this.Static+'publish/purchase/delete.png',
 			old:{ // 用来记录用户上次行为
 				tapIndex: -1
 			},

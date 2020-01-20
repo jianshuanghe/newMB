@@ -4,8 +4,13 @@
 	width: 100vw;
 	min-height: 100vh;
 }
+.fen{
+	width: 100%;
+	height: 88rpx;
+}
 .jindu {
-	position: relative;
+	position: fixed;
+	top: 80rpx;
 	width: 100%;
 	background: #fff;
 	padding: 3vw;

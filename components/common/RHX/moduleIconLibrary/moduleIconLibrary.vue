@@ -25,7 +25,6 @@
 </template>
 
 <script>
-	import del from '@/static/mbcImg/publish/createBusiness/del.png';
 	import replaceIcon from '@/components/common/RHX/replaceIcon/replaceIcon';
 	import inputBox from '@/components/common/RHX/inputBox/inputBox';
 	export default {

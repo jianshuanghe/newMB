@@ -7,7 +7,7 @@
 						<div class="time-left left"><p class="">时间：</p></div>
 						<div class="time-screen left">
 							<p class="zitis">
-								<picker @change="bind" :value="ind" :range="array1" range-key='COMP_NAME'>
+								<picker @change="bind" :value="ind" :range="array1">
 									<view class="ziti">{{pic ? pic : '昨日'}}<img :src="rightArrow" alt="" class="rightArrow" /></view>
 								</picker>
 								
@@ -97,7 +97,6 @@
 </template>
 
 <script>
-import rightArrow2 from '@/static/mbcImg/images/business/home/extendManageList/rightArrow2.png';
 // import { runWaterData } from '@/utils/code.js';
 import { mapMutations, mapGetters } from 'vuex';
 // import { Toast, Popup } from 'mint-ui';
@@ -109,7 +108,7 @@ export default {
 	},
 	data() {
 		return {
-			rightArrow: rightArrow2, // 右侧箭头
+			rightArrow:  this.Static+'images/business/home/extendManageList/rightArrow2.png', // 右侧箭头
 			dataPopup: false, // 数据日期弹层
 			// screenData: [ // 日期
 			//   {

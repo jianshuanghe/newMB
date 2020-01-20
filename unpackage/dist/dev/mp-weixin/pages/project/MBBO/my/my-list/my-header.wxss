@@ -36,7 +36,7 @@
 	margin-left:30rpx;
 }
 .header-content-name{
-	max-width: 280rpx;
+	max-width: 320rpx;
 	font-size: 40rpx;
 	color: #3C3D3F;
 	overflow: hidden;
@@ -65,11 +65,12 @@
 	padding: 0.1rpx;
 }
 .header-content-zis{
-	padding: 0rpx 2rpx 0rpx 2rpx;
+	/* padding: 0upx 0upx 0upx 0upx; */
 	border: 2rpx solid #9B9B9B;
 	border-radius: 4rpx;
 	font-size: 20rpx;
 	color: #9B9B9B;
+	height: 20rpx;
 	margin-left: 10rpx;
 }
 .header-content-zia{

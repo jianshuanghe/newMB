@@ -25,6 +25,10 @@
 .items-list {
 	position: relative;
 }
+.tian{
+	width: 100%;
+	height: 88rpx;
+}
 .next {
 	position: fixed;
 	bottom: 0;
@@ -42,8 +46,8 @@
 	background: #02c2a2;
 }
 .scroll-Y {
-	height: 90vh;
-	padding-bottom: 100rpx;
+	height: 86vh;
+	padding-bottom: 0rpx;
 }
 .scroll-view_H {
 	white-space: nowrap;

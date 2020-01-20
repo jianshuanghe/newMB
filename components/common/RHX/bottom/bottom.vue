@@ -48,7 +48,6 @@
 <script>
 	import bottomBtnOne from '@/components/common/RHX/bottom/bottomBtnOne/bottomBtnOne';
 	import savePreviewPublish from '@/components/common/RHX/savePreviewPublish/savePreviewPublish';
-	import dels from '@/static/mbcImg/my/dels.png';
 	export default {
 		components: {
 			bottomBtnOne,
@@ -74,7 +73,7 @@
 		data() {
 			return {
 				add:false,
-				dels:dels,
+				dels: this.Static+'my/dels.png',
 				addtos:'',
 				bottomlocas: this.bottomloca,
 				bbottom: '98upx',

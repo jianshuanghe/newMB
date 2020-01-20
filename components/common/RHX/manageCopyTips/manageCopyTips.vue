@@ -132,18 +132,15 @@
 </template>
 
 <script>
-	import copy from '@/static/mbcImg/publish/createBusiness/copy.png';
-	import manage from '@/static/mbcImg/publish/createBusiness/manage.png';
-	import manageSuccess from '@/static/mbcImg/publish/createBusiness/manageSuccess.png';
 	import savePreviewBtn from '@/components/common/button/savePreviewBtn.vue';
 	export default {
 		props: ['dataList', 'itemsData', 'limitNum', 'udgeLastEmpty', 'isCopyData', 'isManageShow', 'manageCopyShow', 'manageType'],
 		data() {
 			return {
-				copy: copy,
-				manage: manage,
+				copy:  this.Static+'publish/createBusiness/copy.png',
+				manage:  this.Static+'publish/createBusiness/manage.png',
 				TipsShow: true,
-				manageSuccess: manageSuccess,
+				manageSuccess:  this.Static+'publish/createBusiness/manageSuccess.png',
 				manageShow: this.manageCopyShow,
 				manageTypes: this.manageType,
 				dataLists: this.dataList,

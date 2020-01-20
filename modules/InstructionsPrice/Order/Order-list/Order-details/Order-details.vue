@@ -187,10 +187,6 @@
 <script>
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
-	import biao from '@/static/mbcImg/my/biao.png';
-	import ding from '@/static/mbcImg/my/ding.png';
-	import phone from '@/static/mbcImg/my/phone.png';
-	import up from '@/static/mbcImg/my/up-arrow.png';
 	import imageUploadOne from '@/components/common/imageUpload/imageUploadOne.vue';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
@@ -198,10 +194,10 @@
 			return {
 				list: [],
 				num: 0,
-				biao:biao,
-				ding:ding,
-				up:up,
-				phone:phone,
+				biao: this.Static+'my/biao.png',
+				ding: this.Static+'my/ding.png',
+				up: this.Static+'my/up-arrow.png',
+				phone: this.Static+'my/phone.png',
 				id:'',
 				thid:[],
 				guanbi:'',

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "介绍说明(3/4)",
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation",
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "skip-mask": "/modules/createBusiness/templateFinish/skipMask"
+  }
+}

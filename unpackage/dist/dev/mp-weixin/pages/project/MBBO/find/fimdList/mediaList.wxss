@@ -29,10 +29,11 @@
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	border-bottom-width: 1rpx;
-	border-bottom-style: solid;
-	border-bottom-color: #c8c7cc;
-	padding: 20rpx 0;
+	padding: 0rpx 0 40rpx;
+}
+.jianjian{
+	width: 100%;
+	height: #F9F9F9;
 }
 .media-image-right {
 	-webkit-box-orient: horizontal;
@@ -119,7 +120,7 @@
 }
 .media-foot {
 	width: 100%;
-	margin-top: 20rpx;
+	/* margin-top: 20upx; */
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;

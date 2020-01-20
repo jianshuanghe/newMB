@@ -70,13 +70,8 @@
 </template>
 
 <script>
-	import dels from '@/static/mbcImg/my/dels.png';
-	import defaultAddImg from '@/static/mbcImg/publish/createBusiness/defaultAdd.png';
 	import singlePicture from '@/components/common/RHX/singlePicture/singlePicture';
 	import rTitle from '@/components/common/RHX/rTitle/rTitle';
-	import checkedItems from '@/static/mbcImg/publish/createBusiness/checkedItems.png';
-	import selectEd from '@/static/mbcImg/publish/createBusiness/selectEd.png';
-	import select from '@/static/mbcImg/publish/createBusiness/select.png';
 	
 	export default {
 		props: [
@@ -88,13 +83,13 @@
 		],
 		data() {
 			return {
-				dels: dels, // 删除图片
+				dels: this.Static+'my/dels.png', // 删除图片
 				dataLists: this.dataList,
 				indexs: -1, // 用户选择的项
-				checkedItems: checkedItems, // 选择后的图片对勾标注
-				selectEd: selectEd, // 勾选圆框 黑色
-				select: select, // 未勾选圆框 白色
-				defaultAddImg: defaultAddImg, 
+				checkedItems:  this.Static+'publish/createBusiness/checkedItems.png', // 选择后的图片对勾标注
+				selectEd:  this.Static+'publish/createBusiness/selectEd.png', // 勾选圆框 黑色
+				select:  this.Static+'publish/createBusiness/select.png', // 未勾选圆框 白色
+				defaultAddImg:  this.Static+'publish/createBusiness/defaultAdd.png', 
 			};
 		},
 		components: {
