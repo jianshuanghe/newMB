@@ -1,0 +1,244 @@
+
+.memberCenterAccount-contnet.data-v-197ca0ee {
+	position: relative;
+	width: 100vw;
+	padding: 30rpx 4vw;
+	background: #f9f9f9;
+}
+.memberCenterAccount-box.data-v-197ca0ee {
+	position: relative;
+	width: 100%;
+}
+.memberCenterAccount.data-v-197ca0ee {
+	position: relative;
+	width: 100%;
+	/* height: 356upx; */
+	height: 47.2vw;
+	-webkit-box-shadow: 0 4rpx 20rpx 0 rgba(124, 122, 135, 0.35);
+	        box-shadow: 0 4rpx 20rpx 0 rgba(124, 122, 135, 0.35);
+	border-radius: 24rpx;
+}
+.MCA-person-box.data-v-197ca0ee {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	font-family: PingFangSC-Semibold;
+	color: #FFFFFF;
+}
+.MCA-person-box-Img.data-v-197ca0ee {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+}
+/* -----------------------------------------------未申请会员》》会员中心 */
+.vip-state.data-v-197ca0ee {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.vip-state ._div.data-v-197ca0ee{
+	border-radius: 0 12px 0 12px;
+	border-radius: 0px 12px 0px 12px;
+	width: 112rpx;
+	height: 44rpx;
+	font-family: PingFangSC-Medium;
+	font-size: 24rpx;
+	letter-spacing: 0;
+	line-height: 24rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.vip-state .close.data-v-197ca0ee {
+	background: #02c2a2;
+}
+.vip-state .open.data-v-197ca0ee{
+	width: 112rpx;
+	height: 44rpx;
+}
+.vip-state .expired.data-v-197ca0ee{
+	background: #ABAEB9;
+}
+.vip-state .pay.data-v-197ca0ee{
+	background: #FAB100;
+}
+.vip-kind.data-v-197ca0ee{
+	margin-top: 16rpx;
+}
+.vip-kind ._div.data-v-197ca0ee{
+	font-size: 60rpx;
+	line-height: 60rpx;
+	margin-left: 40rpx;
+}
+.price.data-v-197ca0ee{
+	margin-top: 64rpx;
+	height: 36rpx;
+}
+.price ._span.data-v-197ca0ee:nth-child(1){
+	font-size: 36rpx;
+	letter-spacing: 0;
+	line-height: 36rpx;
+	padding-left: 34rpx;
+}
+.price ._span.data-v-197ca0ee:nth-child(2){
+	font-size: 24rpx;
+	letter-spacing: 0;
+	line-height: 24rpx;
+	padding-left: 10rpx;
+	text-decoration:line-through;
+}
+.privilege.data-v-197ca0ee{
+	margin-top: 20rpx;
+	font-size: 28rpx;
+	letter-spacing: 0;
+	line-height: 28rpx;
+	padding-left: 40rpx;
+}
+.savemoney.data-v-197ca0ee{
+	margin-top: 20rpx;
+	font-size: 28rpx;
+	letter-spacing: 0;
+	line-height: 28rpx;
+	padding-left: 40rpx;
+	font-family: PingFangSC-Regular;
+}
+.buybtn.data-v-197ca0ee{
+	position: absolute;
+	top: 252rpx;
+	left: 458rpx;
+	width: 192rpx;
+	height: 64rpx;
+	background: #FFFFFF;
+	border-radius: 81rpx;
+	border-radius: 33rpx;
+	color: #ABAEB9;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+/* ***********************************************已是会员》》已付款界面 */
+.vipUser.data-v-197ca0ee{
+	padding-top: 16rpx;
+	padding-left: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.vipUserImg.data-v-197ca0ee{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.vipUserImg ._img.data-v-197ca0ee{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.vipUserContent.data-v-197ca0ee{
+	margin-left: 10rpx;
+}
+.vipUserContent ._div.data-v-197ca0ee:nth-child(1){
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-family: PingFangSC-Medium;
+	font-size: 36rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 36rpx;
+	height: 40rpx;
+}
+.vipUserContent>._div:nth-child(1)>._div.data-v-197ca0ee:nth-child(2){
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	line-height: 24rpx;
+	border: 2rpx solid #FFFFFF;
+	border-radius: 4rpx;
+	width: 108rpx;
+	height: 36rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-left: 10rpx;
+}
+.vipUserContent>._div.data-v-197ca0ee:nth-child(2){
+	font-size: 28rpx;
+	letter-spacing: 0;
+	line-height: 28rpx;
+	margin-top: 20rpx;
+}
+.time.data-v-197ca0ee{
+	margin-top: 31rpx;
+	margin-left: 40rpx;
+	margin-right: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.time-youxiao.data-v-197ca0ee{
+	font-size: 20rpx;
+}
+.progress.data-v-197ca0ee{
+	width: 420rpx;
+	height: 8rpx;
+	margin-right: 15rpx;
+	background: rgb(176,176,186);
+	border-radius: 4rpx;
+}
+.progressEnd.data-v-197ca0ee{
+	height: 100%;
+	background: #FFFFFF;
+	border-radius: 4rpx;
+}
+.save.data-v-197ca0ee{
+	font-size: 28rpx;
+	letter-spacing: 0;
+	line-height: 28rpx;
+	margin-top: 46rpx;
+	padding-left: 40rpx;
+}
+

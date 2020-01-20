@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "r-radio": "/components/common/RHX/rRadio/rRadio",
+    "r-picker": "/components/common/RHX/rPicker/rPicker",
+    "fixed-bg-btn": "/components/common/button/fixedBgBtn"
+  },
+  "component": true
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "input-box": "/components/common/RHX/madeModule/price/editOrPreview/edit/inputBox",
+    "input-box2": "/components/common/RHX/inputBox/inputBox2"
+  },
+  "component": true
+}

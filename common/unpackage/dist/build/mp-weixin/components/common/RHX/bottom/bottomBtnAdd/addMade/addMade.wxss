@@ -1,0 +1,19 @@
+
+.addMade-box{
+	position: relative;
+	bottom: 0;
+	padding: 2rpx 0 32rpx 0;
+}
+.addMade-btn{
+	position: relative;
+	width: 294rpx;
+	height: 66rpx;
+	background: #2E2E30;
+	margin: 0 auto;
+	font-family: PingFangSC-Regular;
+	font-size: 26rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 66rpx;
+}
+

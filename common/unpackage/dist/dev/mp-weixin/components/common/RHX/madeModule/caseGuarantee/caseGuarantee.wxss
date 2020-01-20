@@ -1,0 +1,11 @@
+
+.caseGuarantee-content{
+	position: relative;
+	width: 100%;
+}
+.caseGuarantee{
+	position: relative;
+	width: 690rpx;
+	margin: 0 auto;
+}
+

@@ -1,0 +1,1 @@
+<view class="news-title"><view class="quickBtn-Fd left _div"><quick-btn vue-id="1" bind:__l="__l"></quick-btn></view><view class="search-Fd left _div">{{''+i18n.title1+''}}</view><view data-event-opts="{{[['tap',[['all']]]]}}" class="Already _div" bindtap="__e">{{''+i18n.title6+''}}</view></view>

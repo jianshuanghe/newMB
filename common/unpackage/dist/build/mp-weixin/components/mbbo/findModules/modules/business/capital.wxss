@@ -1,0 +1,231 @@
+
+.financeItems-content{
+	position: relative;
+	width: 690rpx;
+	margin-top: 30rpx;
+	background: #fff;
+}
+.FI-content{
+	position: relative;
+	width: 100%;
+}
+.FI-top{
+	position: relative;
+	width: 100%;
+}
+.FI-t-left{
+	position: relative;
+	width: 80rpx;
+	height: 80rpx;
+	margin-right: 20rpx;
+}
+.FI-t-left>image{
+	position: relative;
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+}
+.FI-t-cont{
+	position: relative;
+	max-width: 370rpx;
+}
+.FI-t-title{
+	position: relative;
+	width: 100%;
+}
+.title{
+	font-family: simhei !important;
+	font-size: 32rpx;
+	color: #2E2E30;
+	letter-spacing: 0;
+	line-height: 32rpx;
+	max-width: 252rpx;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.inst{
+	background: #DDFFF9;
+	border-radius: 2rpx;
+	font-family: PingFangSC-Regular;
+	font-size: 18rpx;
+	color: #00AF92;
+	letter-spacing: 0;
+	line-height: 27rpx;
+	top: 2rpx;
+	/* transform: scale(.8); */
+}
+.titlesa{
+	font-size: 22rpx;
+	color: #9B9B9B;
+	padding-top: 10rpx;
+	width: 400rpx;
+	height: 25rpx;
+	position: absolute;
+	margin-top: 40rpx;
+	line-height: 25rpx;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.FI-t-ins{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #9B9B9B;
+	line-height: 24rpx;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+	margin-top: 20rpx;
+}
+.FI-t-right{
+	position: absolute;
+	right: 0;
+}
+.FI-t-money{
+	position: relative;
+	font-family: PingFangSC-Semibold;
+	font-size: 18rpx;
+	color: #FAB100;
+	line-height: 24rpx;
+	text-align: right;
+}
+.money{
+	font-family: PingFangSC-Semibold;
+	font-size: 40rpx;
+	color: #FAB100;
+	line-height: 36rpx;
+}
+.FI-t-ins2{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #9B9B9B;
+	line-height: 48rpx;
+	text-align: right;
+	margin-top: 6rpx;
+}
+.FI-cont{
+	position: relative;
+	width: 100%;
+	margin-top: 26rpx;
+}
+.FI-cont .ImageBox1{
+	position: relative;
+	width: 100%;
+	height: 340rpx;
+}
+.FI-cont .ImageBox1>image{
+	width: 100%;
+	height: 100%;
+}
+.FI-cont-imgMore{
+	position: relative;
+	width: 720rpx;
+}
+.FI-cont-imgMore .imageBox{
+	position: relative;
+	width: 226rpx;
+	margin-right: 6rpx;
+	height: 150rpx;
+}
+.FI-cont-imgMore .imageBox>image{
+	position: relative;
+	    max-width: 100%;
+	    max-height: 100%;
+	    display: table-cell;
+	    vertical-align: middle;
+	    position: relative;
+	    margin: 0;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+}
+.FI-cont-imgMoreTwo{
+	position: relative;
+	width: 720rpx;
+}
+.FI-cont-imgMoreTwo .imageBox{
+	position: relative;
+	width: 330rpx;
+	margin-right: 14rpx;
+	height: 340rpx;
+}
+.FI-cont-imgMoreTwo .imageBox>image{
+	max-width: 100%;
+	max-height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.FI-modules{
+	position: relative;
+	width: 100%;
+	margin: 20rpx 0 14rpx 0;
+	height: 32rpx;
+	overflow: hidden;
+}
+.modules-items-FI{
+	background: #FFF7E5;
+	border-radius: 4rpx;
+	font-family: PingFangSC-Regular;
+	font-size: 18rpx;
+	color: #FE9D08;
+	letter-spacing: 0;
+	line-height: 24rpx;
+	padding: 4rpx 8rpx;
+	margin-right: 10rpx;
+}
+.FI-insCd{
+	position: relative;
+	width: 100%;
+	margin: 20rpx 0 20rpx 0;
+	height: 72rpx;
+}
+.FI-C-text{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #5D5D5D;
+	line-height: 16px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.FI-BQ{
+	width: 97%;
+	height: 60rpx;
+	margin: 0 auto;
+}
+.FI-BQ>view:nth-of-type(1){
+	font-size: 20rpx;
+	color: #9B9B9B;
+	width: 52rpx;
+	height: 28rpx;
+	border: 2rpx solid #9B9B9B;
+	border-radius: 4rpx;
+	float: left;
+	margin-top: 26rpx;
+	line-height: 28rpx;
+	text-align: center;
+}
+.FI-BQ>view:nth-of-type(2){
+	float: left;
+	font-size: 22rpx;
+	color: #9B9B9B;
+	margin-left: 10rpx;
+	margin-top: 22rpx;
+}
+

@@ -1,0 +1,9 @@
+
+.survey-content.data-v-164979ad{
+  position: fixed;
+  height: 96vh;
+  overflow: scroll;
+  padding-bottom: 5vh;
+  -webkit-overflow-scrolling:touch;
+}
+

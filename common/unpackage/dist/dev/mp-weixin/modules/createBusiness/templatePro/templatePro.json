@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "修改模版(2/4)",
+  "usingComponents": {
+    "module-tem-pro": "/modules/createBusiness/templatePro/moduleTemPro/moduleTemPro",
+    "module-btn-pro": "/modules/createBusiness/templatePro/moduleBtnPro/moduleBtnPro",
+    "navigation": "/components/mbbo/navigation/navigation"
+  }
+}

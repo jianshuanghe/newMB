@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "drag-sorts": "/components/common/RHX/dragSorts/dragSorts",
+    "drag-sorts-no": "/components/common/RHX/dragSortsNo/dragSortsNo",
+    "module-add": "/components/common/RHX/moduleAdd/moduleAdd",
+    "module-add-list": "/components/common/RHX/moduleAddList/moduleAddList"
+  },
+  "component": true
+}

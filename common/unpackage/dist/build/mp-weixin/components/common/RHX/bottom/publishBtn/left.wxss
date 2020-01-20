@@ -1,0 +1,40 @@
+
+.jshBtn-box{
+	position: relative;
+	width: 100%;
+	background: #FFFFFF;
+}
+.priceBtn {
+	position: relative;
+	width: 50%;
+}
+.jshImg{
+	position: relative;
+	width: 32rpx;
+	height: 32rpx;
+	margin-top: 28rpx;
+	margin-right: 6rpx;
+	display: inline-block;
+}
+.jshTextY{
+	position: relative;
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 96rpx;
+	background-image:-o-linear-gradient(315deg, #FAD161 0%, #F77F3B 100%);
+	background-image:linear-gradient(135deg, #FAD161 0%, #F77F3B 100%)
+}
+.delete{
+	position: absolute;
+	top: -2.5vw;
+	right: 1.5vw;
+}
+.delIcon{
+	position: relative;
+	width: 40rpx;
+	height: 40rpx;
+}
+

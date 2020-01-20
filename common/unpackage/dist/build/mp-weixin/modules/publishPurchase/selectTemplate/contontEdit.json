@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "top-s-tem": "/modules/publishPurchase/selectTemplate/topSTem",
+    "simple": "/modules/publishPurchase/selectTemplate/templet/simple",
+    "general": "/modules/publishPurchase/selectTemplate/templet/general",
+    "more-set": "/modules/publishPurchase/selectTemplate/templet/moreSet/moreSet",
+    "no-edit-btn": "/modules/publishPurchase/selectTemplate/btn/noEditBtn"
+  },
+  "component": true
+}

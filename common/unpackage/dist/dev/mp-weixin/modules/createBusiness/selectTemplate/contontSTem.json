@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "total": "/modules/createBusiness/selectTemplate/selectList/total/total",
+    "product": "/modules/createBusiness/selectTemplate/selectList/product/product",
+    "made": "/modules/createBusiness/selectTemplate/selectList/made/made",
+    "infor": "/modules/createBusiness/selectTemplate/selectList/infor/infor"
+  },
+  "component": true
+}

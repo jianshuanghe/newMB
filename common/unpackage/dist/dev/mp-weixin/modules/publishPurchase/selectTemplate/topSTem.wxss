@@ -1,0 +1,42 @@
+
+.resuleTab-content{
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 1px 0 0 #F5F5F5;
+	        box-shadow: 0 1px 0 0 #F5F5F5;
+}
+.resuleTab{
+	position: relative;
+	width: 100%;
+	margin-bottom: 10rpx;
+}
+.resuleTab-box{
+	position: relative;
+	width: 88%;
+	margin-top: 10rpx;
+	padding-left: 5%;
+}
+.RT-box{
+	position: relative;
+	width: 35%;
+}
+.active-tap{
+	color: #02C2A2 !important;
+}
+.RT-box-top{
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #9B9B9B;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 40rpx;
+}
+.RT-box-bot{
+	margin-top: 10rpx;
+	background: #02C2A2;
+	border-radius: 100px;
+	position: relative;
+	width: 40rpx;
+	height: 4rpx;
+	margin: auto;
+}
+

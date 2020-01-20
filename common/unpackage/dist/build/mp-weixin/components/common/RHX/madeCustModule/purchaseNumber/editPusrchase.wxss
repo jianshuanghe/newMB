@@ -1,0 +1,48 @@
+
+.purchaseNumber-content{
+	position: relative;
+	width: 100%;
+}
+.purchaseNumber{
+	position: relative;
+	width: 100%;
+	min-height: 10vw;
+}
+.NumberBox{
+	position: relative;
+	width: 100%;
+}
+.numbox-list{
+	position: relative;
+	width: 100%;
+	min-height: 10vw;
+	margin-bottom: 32rpx;
+}
+.inputBox{
+	position: relative;
+	width: 60%;
+}
+.input{
+	background: #FFFFFF;
+	border: 1px solid #D2D2D2;
+	border-radius: 2px;
+	border-radius: 2px;
+	width: 90%;
+	height: 76rpx;
+	text-align: left;
+	padding: 0 1vw;
+	line-height: 76rpx;
+	font-family: PingFangSC-Light;
+	font-size: 26rpx;
+	color: #2E2E30;
+	letter-spacing: 0;
+}
+.step{
+	position: relative;
+	width: 40%;
+}
+.value{
+	position: relative;
+	width: 90%;
+}
+

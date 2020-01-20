@@ -1,0 +1,1 @@
+<block wx:if="{{numberss}}"><view class="news-Unread"><view class="news-Unread-weidu">{{'您有'+shu.allCount+"条消息未读"}}<image src="{{dels}}" data-event-opts="{{[['tap',[['del',['$event']]]]]}}" bindtap="__e"></image></view></view></block>

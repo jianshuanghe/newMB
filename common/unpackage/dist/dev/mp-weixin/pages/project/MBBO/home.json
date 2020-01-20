@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "陌拜商机",
+  "usingComponents": {
+    "navigation": "/components/mbbo/navigation/navigation",
+    "a-little": "/pages/project/MBBO/aLittle/aLittle",
+    "find": "/pages/project/MBBO/find/find",
+    "my": "/pages/project/MBBO/my/my",
+    "news": "/pages/project/MBBO/news/news",
+    "publish": "/components/mbbo/publish/publish",
+    "tab-bar": "/components/mbbo/homeTabBar/tab_bar",
+    "key-words": "/pages/project/MBBO/KeyWords"
+  }
+}

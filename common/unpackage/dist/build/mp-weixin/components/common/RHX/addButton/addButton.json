@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "save-preview-btn": "/components/common/button/savePreviewBtn"
+  },
+  "component": true
+}

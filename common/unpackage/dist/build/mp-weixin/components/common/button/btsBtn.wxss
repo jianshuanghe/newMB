@@ -1,0 +1,27 @@
+
+.BTSBtn-box{
+	position: relative;
+	width: 100%;
+	background: #F5F5F5;
+}
+.BTSImg{
+	position: relative;
+	width: 38rpx;
+	height: 38rpx;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	top: 12rpx;
+	margin-bottom: 8rpx;
+}
+.BTSText{
+	position: relative;
+	font-family: PingFangSC-Regular;
+	font-size: 20rpx;
+	color: #9B9B9B;
+	text-align: center;
+	line-height: 46rpx;
+}
+

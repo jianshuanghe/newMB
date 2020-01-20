@@ -1,0 +1,25 @@
+
+.moduleAdd-content{
+	position: relative;
+	width: 100%;
+	padding: 0 40rpx;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 -1px 0 0 #F5F5F5;
+	        box-shadow: 0 -1px 0 0 #F5F5F5;
+}
+.moduleAddIcon{
+	position: relative;
+	width: 32rpx;
+	height: 32rpx;
+	margin-right: 28rpx;
+	margin-top: 44rpx;
+}
+.addText{
+	position: relative;
+	font-family: PingFangSC-Medium;
+	font-size: 32rpx;
+	color: #02C2A2;
+	letter-spacing: 0;
+	line-height: 120rpx;
+}
+

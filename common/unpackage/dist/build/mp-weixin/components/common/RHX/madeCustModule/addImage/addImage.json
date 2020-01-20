@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "add-more-picture": "/components/common/RHX/madeCustModule/addImage/addMorePicture"
+  },
+  "component": true
+}

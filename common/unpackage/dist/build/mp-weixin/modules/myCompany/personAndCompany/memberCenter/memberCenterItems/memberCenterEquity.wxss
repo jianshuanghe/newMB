@@ -1,0 +1,92 @@
+
+.MCY-content.data-v-3abf306f{
+    position: relative;
+    width: 100%;
+    background: #fff;
+}
+.MCY-Box.data-v-3abf306f{
+    position: relative;
+    width: 100%;
+    padding: 4vw;
+}
+.MCY-top.data-v-3abf306f{
+    position: relative;
+    width: 100%;
+}
+.title-MCY.data-v-3abf306f{
+    position: relative;
+    width: 100%;
+}
+.title-MCY>._p.data-v-3abf306f{
+    font-family: PingFangSC-Semibold;
+    font-size: 5.33vw;
+    color: #2E2E30;
+    text-align: left;
+    line-height: 12vw;
+}
+.MCY-cont.data-v-3abf306f{
+    position: relative;
+    width: 100%;
+    margin-bottom: 5vw;
+}
+.MCY-items.data-v-3abf306f{
+    position: relative;
+    width: 100%;
+    padding: 4vw 0 2vw 0;
+}
+.MCY-left.data-v-3abf306f{
+    position: relative;
+    width: 12.66vw;
+    height: 12.66vw;
+    border-radius: 50%;
+    background: #E2F8F5;
+    margin-right: 3vw;
+}
+.MCY-left>._img.data-v-3abf306f{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    -webkit-transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%);
+            transform:translate(-50%,-50%);
+    width: 11vw;
+    height: 11vw;
+}
+.MCY-right.data-v-3abf306f{
+    position: relative;
+    width: 80%;
+}
+.title-MCY-items.data-v-3abf306f{
+    font-family: PingFang-SC-Bold;
+    font-size: 3.733vw;
+    color: #2E2E30;
+    letter-spacing: 0;
+    line-height: 8vw;
+}
+.text-MCY-items.data-v-3abf306f{
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #9B9B9B;
+    line-height: 4vw;
+}
+.toVipFH.data-v-3abf306f{
+	  font-family: PingFangSC-Medium;
+	  font-size: 24rpx;
+	  color: #2E2E30;
+	  line-height: 24rpx;
+	  background: #EFF0F5;
+	  border-radius: 8rpx;
+	  width: 100%;
+	  height: 64rpx;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+	  padding-left: 20rpx;
+}
+
