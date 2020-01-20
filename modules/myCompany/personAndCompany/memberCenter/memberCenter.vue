@@ -114,7 +114,7 @@ export default {
 			// console.log(e)
 			//在数据变化后要执行的某个操作，而这个操作需要使用随数据改变而改变的DOM结构的时候，这个操作都应该放进Vue.nextTick()的回调函数中。
 			this.$nextTick(function() {
-				this.scrollTop = 1000;
+				this.scrollTop = 1500;
 			});
 		},
 		cancelMember(e) {

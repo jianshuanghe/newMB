@@ -3,6 +3,7 @@ import App from './App'
 import VueI18n from 'vue-i18n'
 import store from './store'
 import messages from './common/lang.js'
+import BaiduMap from 'vue-baidu-map'
 
 import {api1, api2, api3} from './static/mbcJs/api';
 import {endParams} from './static/mbcJs/endParams';
@@ -121,3 +122,7 @@ const app = new Vue({
 	...App
 })
 app.$mount()
+
+Vue.use(BaiduMap, {
+  ak: 'ANAoNIpE6QzNsYeVVrZ7qHxta8fAFpqL'
+})
