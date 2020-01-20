@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "business-infor": "/components/common/RHX/bottom/businessInfor/businessInfor",
-    "r-picker": "/components/common/RHX/rPicker/rPicker",
-    "fixed-bg-btn": "/components/common/button/fixedBgBtn"
-  },
-  "component": true
-}

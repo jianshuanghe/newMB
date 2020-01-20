@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "trend-title": "/modules/InstructionsPrice/Purchase/Purchase-details/dataReport/dataTrendKanban/trendTitle",
-    "liu-liang-or-put-in-title": "/modules/InstructionsPrice/Purchase/Purchase-details/dataReport/dataTrendKanban/liuLiangOrPutInTitle",
-    "data-trend-liu-liang": "/modules/InstructionsPrice/Purchase/Purchase-details/dataReport/dataTrendKanban/liuLiang/dataTrend",
-    "data-trend-put-in": "/modules/InstructionsPrice/Purchase/Purchase-details/dataReport/dataTrendKanban/putIn/dataTrend"
-  },
-  "component": true
-}

@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "evaluating": "/components/common/Evaluating/components/myIssue",
-    "assembly": "/modules/myCompany/personAndCompany/Opinion/OpinionList/Opinion-assembly"
-  },
-  "component": true
-}

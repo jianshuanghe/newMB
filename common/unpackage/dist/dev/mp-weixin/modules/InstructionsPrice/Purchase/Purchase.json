@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "purchase": "/modules/InstructionsPrice/Purchase/Purchase-list",
-    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
-    "navigation": "/components/mbbo/navigation/navigation"
-  }
-}

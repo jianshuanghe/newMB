@@ -1,1 +1,0 @@
-<view class="empty-box-cent data-v-53643521"><view class="empty-content data-v-53643521"><view class="empty data-v-53643521"><image class="img _img data-v-53643521" src="{{empty}}" alt></image></view><view class="emptyBlankText data-v-53643521"><view class="_p data-v-53643521"><slot></slot></view></view></view></view>

@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "black-btn": "/components/common/button/blackBtn"
-  },
-  "component": true
-}

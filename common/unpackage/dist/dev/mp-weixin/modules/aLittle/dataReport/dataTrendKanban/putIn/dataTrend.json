@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "custom-time": "/modules/aLittle/dataReport/dataTrendKanban/liuLiang/customTime"
-  },
-  "component": true
-}

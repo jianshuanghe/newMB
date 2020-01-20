@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "my-title": "/pages/project/MBBO/news/news-list/news-title",
-    "unread": "/pages/project/MBBO/news/news-list/news-Unread",
-    "classification": "/pages/project/MBBO/news/news-list/news-classification",
-    "message": "/pages/project/MBBO/news/news-list/news-Message"
-  },
-  "component": true
-}

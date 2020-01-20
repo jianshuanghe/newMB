@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "w-input": "/components/common/watch-login/watch-input",
-    "province-city": "/components/common/provinceCity/provinceCity",
-    "image-upload-more": "/components/common/imageUpload/imageUploadMore",
-    "r-title": "/components/common/RHX/rTitle/rTitle"
-  },
-  "component": true
-}

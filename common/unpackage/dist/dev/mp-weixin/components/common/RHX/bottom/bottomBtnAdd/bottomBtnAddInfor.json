@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "add-list-item": "/components/common/RHX/bottom/bottomBtnAdd/addListItem/addListItem",
-    "add-link": "/components/common/RHX/bottom/bottomBtnAdd/addLink/addLink",
-    "add-made": "/components/common/RHX/bottom/bottomBtnAdd/addMade/addMade"
-  },
-  "component": true
-}

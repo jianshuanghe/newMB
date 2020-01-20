@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "r-title": "/components/common/RHX/rTitle/rTitle",
-    "input-box": "/components/common/RHX/madeCustModule/basicInformation/inputBox"
-  },
-  "component": true
-}

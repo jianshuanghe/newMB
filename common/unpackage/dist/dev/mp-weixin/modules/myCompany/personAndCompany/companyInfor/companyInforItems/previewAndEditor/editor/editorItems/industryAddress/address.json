@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "w-input": "/components/common/watch-login/watch-input1",
-    "province-city": "/components/common/provinceCity/provinceCity"
-  }
-}

@@ -1,1 +1,0 @@
-<view class="view"><view class="list-cell view" hover-class="uni-list-cell-hover" data-event-opts="{{[['tap',[['bindClick',['$event']]]]]}}" bindtap="__e"><view class="media-list view"><view class="media-foot view"><list-modules style="width:100%;" vue-id="1" options="{{options}}" typelist="{{typelist}}" bind:__l="__l"></list-modules></view></view></view></view>

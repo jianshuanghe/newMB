@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "data-list-pre": "/components/common/RHX/dataList/dataListPre/dataListPre",
-    "data-list-set": "/components/common/RHX/dataList/dataListSet/dataListSet"
-  },
-  "component": true
-}

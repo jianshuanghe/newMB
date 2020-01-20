@@ -1,21 +1,21 @@
 
-.memberCenterAtOpen-content.data-v-36cfc2de {
+.memberCenterAtOpen-content.data-v-57124240 {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
 	bottom: 0;
 }
-.memberCenterAtOpen.data-v-36cfc2de {
+.memberCenterAtOpen.data-v-57124240 {
 	position: relative;
 	width: 100%;
 	margin-top: 2vw;
 }
-.MCO-btn-box1.data-v-36cfc2de {
+.MCO-btn-box1.data-v-57124240 {
 	position: relative;
 	width: 100%;
 	background: #FFFFFF;
 }
-.MCO-btn.data-v-36cfc2de {
+.MCO-btn.data-v-57124240 {
 	width: 100%;
 	height: 100rpx;
 	background-image: -o-linear-gradient(316deg, #15d49f 0%, #57d6cf 100%);
@@ -37,7 +37,7 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.MCO-btn-price.data-v-36cfc2de {
+.MCO-btn-price.data-v-57124240 {
 	font-family: PingFangSC-Regular;
 	font-size: 24rpx;
 	color: #ffffff;

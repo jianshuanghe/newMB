@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
-    "navigation": "/components/mbbo/navigation/navigation",
-    "myfeedback": "/modules/myCompany/personAndCompany/Opinion/OpinionList/Opinion-myfeedback",
-    "feedback": "/modules/myCompany/personAndCompany/Opinion/OpinionList/Opinion-feedback"
-  }
-}

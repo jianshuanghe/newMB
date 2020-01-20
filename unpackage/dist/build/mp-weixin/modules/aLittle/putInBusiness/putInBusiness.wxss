@@ -1,5 +1,5 @@
 
-.putInBus-content.data-v-5143656e {
+.putInBus-content.data-v-8519a346 {
 	position: fixed;
 	width: 100%;
 	height: 100vh;
@@ -7,7 +7,7 @@
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 }
-.putBusinessItems-Box-cont.data-v-5143656e {
+.putBusinessItems-Box-cont.data-v-8519a346 {
 	padding-top: 1.5vw;
 	position: fixed;
 	height: 95vh;
@@ -15,7 +15,7 @@
 	padding-bottom: 30vw;
 	-webkit-overflow-scrolling: touch;
 }
-.tianc.data-v-5143656e{
+.tianc.data-v-8519a346{
 	width: 100%;
 	height: 70rpx;
 }

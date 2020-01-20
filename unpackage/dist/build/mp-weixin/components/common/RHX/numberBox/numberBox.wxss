@@ -26,7 +26,7 @@
 /* 文章场景相关 */
 /* #ifdef APP-NVUE */
 /* #endif */
-.uni-numbox.data-v-68e540ae {
+.uni-numbox.data-v-8450e450 {
   /* #ifndef APP-NVUE */
   display: -webkit-box;
   display: -webkit-flex;
@@ -42,7 +42,7 @@
   line-height: 72rpx;
   width: 100%;
 }
-.uni-numbox__value.data-v-68e540ae {
+.uni-numbox__value.data-v-8450e450 {
   background-color: #ffffff;
   width: 200rpx;
   height: 74rpx;
@@ -54,7 +54,7 @@
   border-left-width: 0;
   border-right-width: 0;
 }
-.uni-numbox__minus.data-v-68e540ae {
+.uni-numbox__minus.data-v-8450e450 {
   /* #ifndef APP-NVUE */
   display: -webkit-box;
   display: -webkit-flex;
@@ -86,7 +86,7 @@
   border-bottom-left-radius: 6rpx;
   border-right-width: 0;
 }
-.uni-numbox__plus.data-v-68e540ae {
+.uni-numbox__plus.data-v-8450e450 {
   /* #ifndef APP-NVUE */
   display: -webkit-box;
   display: -webkit-flex;
@@ -116,11 +116,11 @@
   background-color: #f8f8f8;
   border-left-width: 0;
 }
-.uni-numbox--text.data-v-68e540ae {
+.uni-numbox--text.data-v-8450e450 {
   font-size: 40rpx;
   color: #333;
 }
-.uni-numbox--disabled.data-v-68e540ae {
+.uni-numbox--disabled.data-v-8450e450 {
   color: #c0c0c0;
 }
 

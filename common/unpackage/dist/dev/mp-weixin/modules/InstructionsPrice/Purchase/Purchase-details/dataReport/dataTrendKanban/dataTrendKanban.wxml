@@ -1,1 +1,0 @@
-<view class="content"><view class="data-box"><view class="kanban-box"></view><view class="Data-box _div"><data-trend-put-in vue-id="1" shujuid="{{this.dataid}}" bind:__l="__l"></data-trend-put-in></view></view></view>

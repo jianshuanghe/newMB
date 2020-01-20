@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "edit": "/components/common/RHX/madeModule/price/editOrPreview/edit/edit",
-    "preview": "/components/common/RHX/madeModule/price/editOrPreview/preview/preview"
-  },
-  "component": true
-}

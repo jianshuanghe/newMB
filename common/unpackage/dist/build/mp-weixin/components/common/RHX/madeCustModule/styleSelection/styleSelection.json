@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "style-selection-list": "/components/common/RHX/madeCustModule/styleSelection/styleSelectionList",
-    "r-check-box": "/components/common/RHX/rCheckBox/rCheckBox"
-  },
-  "component": true
-}

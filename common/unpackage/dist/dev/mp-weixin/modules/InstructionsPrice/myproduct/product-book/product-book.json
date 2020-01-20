@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
-    "navigation": "/components/mbbo/navigation/navigation",
-    "q-rcode": "/modules/InstructionsPrice/myproduct/product-book/QRcodeandinquiry/QRcode",
-    "r-qr-code": "/components/common/RHX/rQrCode/rQrCode"
-  },
-  "component": true
-}

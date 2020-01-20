@@ -1,27 +1,27 @@
 
-.QRcode.data-v-dff8e6aa{
+.QRcode.data-v-33e3471a{
 	width: 100%;
 	height: 100%;
 	margin-top: 40rpx;
 }
-.QRcode-imj.data-v-dff8e6aa{
+.QRcode-imj.data-v-33e3471a{
 	width: 100%;
 	height: 508rpx;
 }
-.swiper-box.data-v-dff8e6aa{
+.swiper-box.data-v-33e3471a{
 	height:600rpx;
 }
-.swiper-slide.data-v-dff8e6aa{
+.swiper-slide.data-v-33e3471a{
 	width: 360rpx;
 	height: 558rpx;
 	position: relative;
 	/* margin-left: 30%; */
 }
-.swiper-slide>image.data-v-dff8e6aa{
+.swiper-slide>image.data-v-33e3471a{
 	width: 100%;
 	height:508rpx;
 }
-.baocuntuimg.data-v-dff8e6aa{
+.baocuntuimg.data-v-33e3471a{
 	width: 160rpx;
 	height: 56rpx;
 	background: #2E2E30;

@@ -1,7 +1,7 @@
-.drag-sort.data-v-23e6bdab {
+.drag-sort.data-v-c9739bcc {
   width: 100%;
 }
-.drag-sort-item.data-v-23e6bdab {
+.drag-sort-item.data-v-c9739bcc {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -20,7 +20,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.drag-sort-item .item.data-v-23e6bdab {
+.drag-sort-item .item.data-v-c9739bcc {
   position: relative;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -29,7 +29,7 @@
   font-size: 16px;
   padding: 0 40rpx;
 }
-.drag-sort-item .close.data-v-23e6bdab {
+.drag-sort-item .close.data-v-c9739bcc {
   position: absolute;
   right: -10rpx;
   top: -10rpx;
@@ -38,11 +38,11 @@
   height: 30rpx;
   opacity: 0.8;
 }
-.drag-sort-item .close image.data-v-23e6bdab {
+.drag-sort-item .close image.data-v-c9739bcc {
   width: 100%;
   height: 100%;
 }
-.drag-sort-item .touch-tight.data-v-23e6bdab {
+.drag-sort-item .touch-tight.data-v-c9739bcc {
   width: 24px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -53,11 +53,11 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.touch.data-v-23e6bdab {
+.touch.data-v-c9739bcc {
   height: 100%;
   width: 50px;
 }
-.active.data-v-23e6bdab {
+.active.data-v-c9739bcc {
   background: #FFFFFF;
   -webkit-box-shadow: 0 0 4px 0 #E2E2E2;
           box-shadow: 0 0 4px 0 #E2E2E2;

@@ -1,21 +1,21 @@
 
-.content.data-v-158c33e2 {
+.content.data-v-741db904 {
 	position: relative;
 	/* width: 100vw;
 	padding: 4vw 4vw; */
 	background: #fff;
 	margin-bottom: 1.5vw;
 }
-.contact-box.data-v-158c33e2 {
+.contact-box.data-v-741db904 {
 	position: relative;
 	width: 100%;
 	padding-bottom: 3vw;
 }
-.cont-text.data-v-158c33e2 {
+.cont-text.data-v-741db904 {
 	position: relative;
 	width: 70%;
 }
-.cont-title.data-v-158c33e2 {
+.cont-title.data-v-741db904 {
 	position: relative;
 	width: 100%;
 	font-size: 4.5vw;
@@ -28,7 +28,7 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
-.cont-describe.data-v-158c33e2 {
+.cont-describe.data-v-741db904 {
 	position: relative;
 	width: 100%;
 	ont-family: PingFang-SC-Medium;
@@ -42,11 +42,11 @@
 	overflow: hidden;
 	max-height: 9.6vw;
 }
-.cont.data-v-158c33e2 {
+.cont.data-v-741db904 {
 	position: relative;
 	width: 30%;
 }
-.lianxi-box.data-v-158c33e2 {
+.lianxi-box.data-v-741db904 {
 	position: relative;
 	width: 78%;
 	border: 1px solid #02c2a2;
@@ -55,7 +55,7 @@
 	border-radius: 1vw;
 	margin-top: 5vw;
 }
-.lianxi-box > ._p.data-v-158c33e2 {
+.lianxi-box > ._p.data-v-741db904 {
 	position: relative;
 	width: 100%;
 	text-align: right;

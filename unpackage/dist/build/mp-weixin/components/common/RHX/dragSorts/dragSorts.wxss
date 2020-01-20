@@ -1,7 +1,7 @@
-.drag-sort.data-v-2bb4a32a {
+.drag-sort.data-v-08003fd9 {
   width: 100%;
 }
-.drag-sort-item.data-v-2bb4a32a {
+.drag-sort-item.data-v-08003fd9 {
   position: absolute !important;
   display: -webkit-box;
   display: -webkit-flex;
@@ -20,7 +20,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.drag-sort-item .item.data-v-2bb4a32a {
+.drag-sort-item .item.data-v-08003fd9 {
   position: relative;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -29,7 +29,7 @@
   font-size: 16px;
   padding: 0 40rpx;
 }
-.drag-sort-item .close.data-v-2bb4a32a {
+.drag-sort-item .close.data-v-08003fd9 {
   position: absolute;
   right: -10rpx;
   top: -10rpx;
@@ -38,11 +38,11 @@
   height: 30rpx;
   opacity: 0.8;
 }
-.drag-sort-item .close image.data-v-2bb4a32a {
+.drag-sort-item .close image.data-v-08003fd9 {
   width: 100%;
   height: 100%;
 }
-.drag-sort-item .touch-tight.data-v-2bb4a32a {
+.drag-sort-item .touch-tight.data-v-08003fd9 {
   width: 24px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -53,11 +53,11 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.touch.data-v-2bb4a32a {
+.touch.data-v-08003fd9 {
   height: 100%;
   width: 50px;
 }
-.active.data-v-2bb4a32a {
+.active.data-v-08003fd9 {
   background: #FFFFFF;
   -webkit-box-shadow: 0 0 4px 0 #E2E2E2;
           box-shadow: 0 0 4px 0 #E2E2E2;

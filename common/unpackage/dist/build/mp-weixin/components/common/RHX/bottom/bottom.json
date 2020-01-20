@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "bottom-btn-one": "/components/common/RHX/bottom/bottomBtnOne/bottomBtnOne",
-    "save-preview-publish": "/components/common/RHX/savePreviewPublish/savePreviewPublish"
-  },
-  "component": true
-}

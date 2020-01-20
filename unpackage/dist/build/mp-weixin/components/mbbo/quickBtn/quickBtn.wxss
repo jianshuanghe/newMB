@@ -1,5 +1,5 @@
 
-.content-quickBtn.data-v-0384bb04{
+.content-quickBtn.data-v-b55ce016{
     position: fixed;
     /* width: 100%; */
     /* margin-top: 1.5vw; */
@@ -7,12 +7,12 @@
 	z-index: 999;
 	margin-right: 2vw;
 }
-.quickBtn.data-v-0384bb04{
+.quickBtn.data-v-b55ce016{
     position: relative;
     width: 7vw;
     height: 5vw;
 }
-.quickBtn>._img.data-v-0384bb04{
+.quickBtn>._img.data-v-b55ce016{
     position: relative;
     width: 40rpx;
     height: 40rpx;

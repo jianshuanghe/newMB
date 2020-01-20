@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "run-water-account": "/modules/myCompany/personAndCompany/accountCenter/surveyAndrunWater/runWaterItems/runWaterAccount",
-    "report-from": "/modules/myCompany/personAndCompany/accountCenter/surveyAndrunWater/runWaterItems/reportFrom"
-  },
-  "component": true
-}

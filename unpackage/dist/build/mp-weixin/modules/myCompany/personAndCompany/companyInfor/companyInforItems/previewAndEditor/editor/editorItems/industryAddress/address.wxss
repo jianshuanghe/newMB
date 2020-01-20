@@ -1,27 +1,27 @@
 
-.editBasicInfor-content.data-v-81ca49ce {
+.editBasicInfor-content.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	background: #f9f9f9;
 }
-.editBasicInfor.data-v-81ca49ce {
+.editBasicInfor.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	background: #f9f9f9;
 	padding-bottom: 5vh;
 }
-.editBasicInfor-box.data-v-81ca49ce {
+.editBasicInfor-box.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	margin-bottom: 20vh;
 }
-.topTips.data-v-81ca49ce {
+.topTips.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	background: #f9f9f9;
 	padding: 0 4vw 0 4vw;
 }
-.topTips > ._p.data-v-81ca49ce {
+.topTips > ._p.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	font-family: PingFangSC-Light;
@@ -30,37 +30,37 @@
 	line-height: 8vw;
 	text-align: center;
 }
-.EBI-textArea.data-v-81ca49ce {
+.EBI-textArea.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	background: #fff;
 	padding: 0 4vw 0 4vw;
 }
-.textAarea-box.data-v-81ca49ce {
+.textAarea-box.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 }
-.introduce2.data-v-81ca49ce {
+.introduce2.data-v-1f889408 {
 	position: relative;
 	width: 96%;
 	margin-left: 4%;
 }
-.MI-box.data-v-81ca49ce {
+.MI-box.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	padding: 0vw 4vw 0 4vw;
 	background: #fff;
 }
-.MI-items.data-v-81ca49ce {
+.MI-items.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 }
-.MI-left-EBI.data-v-81ca49ce {
+.MI-left-EBI.data-v-1f889408 {
 	position: relative;
 	width: 21%;
 	height: 15vw;
 }
-.MI-left-EBI > ._img.data-v-81ca49ce {
+.MI-left-EBI > ._img.data-v-1f889408 {
 	position: relative;
 	width: 2vw;
 	height: 2vw;
@@ -70,7 +70,7 @@
 	left: 0;
 	display: inline-block;
 }
-.MI-left-EBI > ._p.data-v-81ca49ce {
+.MI-left-EBI > ._p.data-v-1f889408 {
 	position: absolute;
 	font-family: PingFangSC-Light;
 	font-size: 3.733vw;
@@ -78,7 +78,7 @@
 	line-height: 15vw;
 	margin-left: 4vw;
 }
-.MI-right.data-v-81ca49ce {
+.MI-right.data-v-1f889408 {
 	position: relative;
 	width: 79%;
 	height: 100%;
@@ -87,30 +87,30 @@
 	   text-overflow:ellipsis;
 	text-align: left;
 }
-.right-Box-MI.data-v-81ca49ce {
+.right-Box-MI.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	margin-top:24rpx;
 }
-.img-MI.data-v-81ca49ce {
+.img-MI.data-v-1f889408 {
 	position: relative;
 	width: 90%;
 }
-.EBI-img-MI.data-v-81ca49ce {
+.EBI-img-MI.data-v-1f889408 {
 	width: 100% !important;
 }
-.arrow-img-MI.data-v-81ca49ce {
+.arrow-img-MI.data-v-1f889408 {
 	position: relative;
 	width: 10%;
 }
-.arrow-img-MI > ._img.data-v-81ca49ce {
+.arrow-img-MI > ._img.data-v-1f889408 {
 	position: relative;
 	width: 2vw;
 	height: 2vw;
 	margin-top: 6.5vw;
 	float: right;
 }
-.perInfoItemR.data-v-81ca49ce {
+.perInfoItemR.data-v-1f889408 {
 	width: 100%;
 	-o-text-overflow: ellipsis;
 	   text-overflow: ellipsis;
@@ -128,7 +128,7 @@
 	margin-right: 1vw;
 	float: left;
 }
-.intro-MI.data-v-81ca49ce {
+.intro-MI.data-v-1f889408 {
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
 	color: #d2d2d2;
@@ -136,7 +136,7 @@
 	text-align: right;
 	line-height: 15vw;
 }
-.intro-MI2.data-v-81ca49ce {
+.intro-MI2.data-v-1f889408 {
 	-o-text-overflow: ellipsis;
 	   text-overflow: ellipsis;
 	overflow: hidden;
@@ -148,7 +148,7 @@
 	text-align: right;
 	line-height: 15vw;
 }
-.BIF-bottom.data-v-81ca49ce {
+.BIF-bottom.data-v-1f889408 {
 	position: fixed;
 	width: 100%;
 	/* padding: 0vw 4vw 0vw 4vw; */
@@ -159,7 +159,7 @@
 	        box-shadow: 0 -1px 0 0 #f5f5f5;
 	background: #fff;
 }
-.BIF-btn.data-v-81ca49ce {
+.BIF-btn.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	background: #02c2a2;
@@ -171,15 +171,15 @@
 	letter-spacing: 0;
 	line-height: 12vw;
 }
-.reset-bsp-I.data-v-81ca49ce {
+.reset-bsp-I.data-v-1f889408 {
 	position: relative;
 	width: 50%;
 }
-.reset-box.data-v-81ca49ce {
+.reset-box.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 }
-.reset-box > ._p.data-v-81ca49ce {
+.reset-box > ._p.data-v-1f889408 {
 	position: relative;
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
@@ -188,16 +188,16 @@
 	line-height: 12vw;
 	text-align: center;
 }
-.confirm-bsp-I.data-v-81ca49ce {
+.confirm-bsp-I.data-v-1f889408 {
 	position: relative;
 	width: 50%;
 }
-.confirm-box.data-v-81ca49ce {
+.confirm-box.data-v-1f889408 {
 	position: relative;
 	width: 100%;
 	background: #02c2a2;
 }
-.confirm-box > ._p.data-v-81ca49ce {
+.confirm-box > ._p.data-v-1f889408 {
 	position: relative;
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;

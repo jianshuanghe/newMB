@@ -1,1 +1,0 @@
-<view class="pageStatus-content _div"><view class="pageStatus _div"><block wx:if="{{isMenu===1}}"><view class="status _div"><image class="statusImg" src="{{pageStatus1}}" mode="widthFix"></image></view></block><block wx:if="{{isMenu===0}}"><view class="status _div"><image class="statusImg" src="{{pageStatus2}}" mode="widthFix"></image></view></block></view></view>

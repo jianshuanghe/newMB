@@ -1,1 +1,0 @@
-<view class="my-title"><view class="quickBtn-Fd left _div"><quick-btn vue-id="1" bind:__l="__l"></quick-btn></view><view class="search-Fd left _div">{{''+i18n.title1+''}}</view></view>

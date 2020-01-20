@@ -1,20 +1,20 @@
 
-.content.data-v-0aac5c14 {
+.content.data-v-4fd494e7 {
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw;
 	background: #fff;
 	margin-bottom: 1.5vw;
 }
-.Statistics-box.data-v-0aac5c14 {
+.Statistics-box.data-v-4fd494e7 {
 	position: relative;
 	width: 100%;
 }
-.Statistics-item.data-v-0aac5c14 {
+.Statistics-item.data-v-4fd494e7 {
 	position: relative;
 	width: 33.33333%;
 }
-.num.data-v-0aac5c14 {
+.num.data-v-4fd494e7 {
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -23,7 +23,7 @@
 	color: #02c2a2;
 	line-height: 6vw;
 }
-.text.data-v-0aac5c14 {
+.text.data-v-4fd494e7 {
 	position: relative;
 	width: 100%;
 	text-align: center;

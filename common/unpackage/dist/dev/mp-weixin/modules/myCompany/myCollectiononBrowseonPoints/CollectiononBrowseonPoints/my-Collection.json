@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
-    "home-search": "/components/mbbo/homeSearch/homeSearch",
-    "media-list": "/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/Collection/mediaList"
-  },
-  "component": true
-}

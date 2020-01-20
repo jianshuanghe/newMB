@@ -1,6 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "w-input": "/components/common/watch-login/watch-input"
-  }
-}

@@ -1,33 +1,33 @@
 
-.content.data-v-2ebc26b7 {
+.content.data-v-74f0bce6 {
 	position: relative;
 	/* padding: 0vw 4vw; */
 	background: #fff;
 	margin-bottom: 1.5vw;
 	width: 100%;
 }
-.goods-box.data-v-2ebc26b7 {
+.goods-box.data-v-74f0bce6 {
 	position: relative;
 	width: 100%;
 }
-.describe-text.data-v-2ebc26b7 {
+.describe-text.data-v-74f0bce6 {
 	width: 67%;
 	float: left;
 }
-.describe-img.data-v-2ebc26b7 {
+.describe-img.data-v-74f0bce6 {
 	width: 226rpx;
 	height: 166rpx;
 	float: right;
 }
-.describe-img > ._img.data-v-2ebc26b7 {
+.describe-img > ._img.data-v-74f0bce6 {
 	width: 100%;
 	height: 100%;
 }
-.title-box.data-v-2ebc26b7 {
+.title-box.data-v-74f0bce6 {
 	position: relative;
 	width: 100%;
 }
-.title-box > ._p.data-v-2ebc26b7 {
+.title-box > ._p.data-v-74f0bce6 {
 	position: relative;
 	width: 100%;
 	font-size: 4.5vw;
@@ -40,7 +40,7 @@
 	white-space: nowrap;
 	font-weight: blod;
 }
-.location.data-v-2ebc26b7 {
+.location.data-v-74f0bce6 {
 	position: relative;
 	width: 90%;
 	/* padding: 1.5vw 0 1vw 0; */
@@ -49,17 +49,17 @@
 	        transform: scale(0.9);
 	margin-left: -3.5vw;
 }
-.icon.data-v-2ebc26b7 {
+.icon.data-v-74f0bce6 {
 	position: relative;
 	width: 4vw;
 }
-.icon > ._img.data-v-2ebc26b7 {
+.icon > ._img.data-v-74f0bce6 {
 	position: relative;
 	width: 3vw;
 	height: 4.5vw;
 	margin-top: 0.8vw;
 }
-.loca-text.data-v-2ebc26b7 {
+.loca-text.data-v-74f0bce6 {
 	font-family: PingFang-SC-Medium;
 	width: 103%;
 	position: relative;
@@ -72,11 +72,11 @@
 	   text-overflow: ellipsis;
 	white-space: nowrap;
 }
-.price.data-v-2ebc26b7 {
+.price.data-v-74f0bce6 {
 	position: relative;
 	width: 100%;
 }
-.price > ._p.data-v-2ebc26b7 {
+.price > ._p.data-v-74f0bce6 {
 	font-family: PingFang-SC-Bold;
 	position: relative;
 	width: 100%;
@@ -86,11 +86,11 @@
 	margin-top: 10rpx;
 	font-weight: bold;
 }
-.member-price.data-v-2ebc26b7{
+.member-price.data-v-74f0bce6{
 	position: relative;
 	width: 100%;
 }
-.member-price > ._p.data-v-2ebc26b7 {
+.member-price > ._p.data-v-74f0bce6 {
 	font-family: PingFang-SC-Bold;
 	position: relative;
 	width: 100%;
