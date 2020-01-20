@@ -1,0 +1,25 @@
+
+.businessTel-content{
+	position: relative;
+	width: 100%;
+	margin: 60rpx 0 0 0;
+}
+.input-box{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+.tips{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #FAB100;
+	letter-spacing: 0;
+	line-height: 50rpx;
+	margin-bottom: 15vh;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL+S7o+eggS9TVk4v5oWn6IGq6ZmM5oucc3ZuMTIuMTMvMTIuMTMu5pma5LiKL2NvbXBvbmVudHMvY29tbW9uL1JIWC9ib3R0b20vYnVzaW5lc3NUZWxJbmZvci9idXNpbmVzc1RlbEluZm9yLnZ1ZT9kODhhIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiY29tcG9uZW50cy9jb21tb24vUkhYL2JvdHRvbS9idXNpbmVzc1RlbEluZm9yL2J1c2luZXNzVGVsSW5mb3IuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4uYnVzaW5lc3NUZWwtY29udGVudHtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHR3aWR0aDogMTAwJTtcblx0bWFyZ2luOiA2MHJweCAwIDAgMDtcbn1cbi5pbnB1dC1ib3h7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0d2lkdGg6IDkwJTtcblx0bWFyZ2luOiAwIGF1dG87XG59XG4udGlwc3tcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHR3aWR0aDogOTAlO1xuXHRtYXJnaW46IDAgYXV0bztcblx0Zm9udC1mYW1pbHk6IFBpbmdGYW5nU0MtUmVndWxhcjtcblx0Zm9udC1zaXplOiAyNHJweDtcblx0Y29sb3I6ICNGQUIxMDA7XG5cdGxldHRlci1zcGFjaW5nOiAwO1xuXHRsaW5lLWhlaWdodDogNTBycHg7XG5cdG1hcmdpbi1ib3R0b206IDE1dmg7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9*/

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "manage-copy-tips": "/components/common/RHX/manageCopyTips/manageCopyTips",
+    "delete-move-tips-two": "/components/common/RHX/deleteMoveTips/deleteMoveTipsTwo"
+  },
+  "component": true
+}

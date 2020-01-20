@@ -88,6 +88,27 @@
 				</label>
 			</checkbox-group>
 		</div>
+		<!-- 样式选择  -->
+		<div class="checkBox6" v-if= "dataType === '5'" >
+			<checkbox-group @change="checkboxChange">
+				<label 
+				v-for="(items, index) in dataLists" 
+				:key="index"
+				@click="labelBtn(items.value, index)" 
+				class='items-box2 left'>
+					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
+					<div class="rRadio-items6 left" :style="current === index ? selectStyle : noSelectStyle">
+						<image class="items-img" :src="items.itemData.moduleImg" mode='aspectFit'></image>
+						<image
+						class="selectImg6" 
+						:src="items.checked === true ? selectEd : select"
+						></image>
+					</div>
+				</label>
+				
+				<div class="clear"></div>
+			</checkbox-group>
+		</div>
 	</div>
 </template>
 
@@ -189,23 +210,37 @@
 							checked: items.select
 						};
 						this.dataLists.push(item);
+					} else if (this.dataType === '5') {
+						console.log('样式选择！');
+						let item = {
+							itemData: items,
+							value: items.type,
+							checked: false
+						};
+						this.dataLists.push(item);
 					} else {
 						let item = {
 							value: items.value ? items.value : items,
 							checked: false
 						};
 						this.dataLists.push(item);
+						console.log('++++++++++++++');
 					}
 					console.log(this.dataLists, 'this.dataLists')
 				})
 			},
 			// 勾选商机
 			labelBtn(name, index) {
+				console.log(name, index, '-----------xuanzhong-----------');
+				console.log(this.selcetDataList, '=============xiugaishuju-----------');
+				console.log(this.selcetDataList.join(',').indexOf(name), '"kkkkkkkkkkkkkkkkkkkkkkk"')
 				if (this.selcetDataList.join(',').indexOf(name) > -1) {
 					this.selcetDataList.map((items, key) => {
+						console.log(this.dataLists, '-------------0--------------')
 						this.dataLists[index].checked = true;
 					});
 				} else {
+					console.log(this.dataLists, '-------------1--------------')
 					this.dataLists[index].checked = false;
 				}
 			},
@@ -237,6 +272,35 @@
 						data.push(dataItems);
 					});
 					this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
+				} else if (this.dataType === '5') {
+					console.log('添加新样式');
+					let data={
+							"iconTitle": "新增模块",
+							"mType": "moreModule",
+							"moduleImg" : "http://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-public-module/temp-xiaomi-public-module-06.jpg",
+							"icon": {
+								"notSelected" : "https://style.iambuyer.com/img/icon/fenzu_0.png",
+								"selected" : "https://style.iambuyer.com/img/icon/fenzu_1.png",
+								"catalog_white":"https://style.iambuyer.com/img/icon/fenzu_2.png"
+							},
+							"dataList": [
+								
+							]
+						};;
+					console.log(JSON.stringify(this.dataLists))
+					console.log(this.dataLists, '--------------this.dataLists----------------')
+					this.dataLists.map((items, index)=>{
+						if (items.moduleAggregation === '0') { // 不可聚合
+							dataItems.mType = 'singleModule';
+						};
+						this.selcetDataList.map((item,key)=>{
+							console.log(items.itemData, item, '----------------items.title-------------')
+							if (items.itemData.type === item){
+								data.dataList.push(items.itemData);
+							}
+						})
+					});
+					this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
 				} else {
 					this.dataLists.map((items, index)=>{
 						this.selcetDataList.map((item,key)=>{
@@ -245,6 +309,7 @@
 							}
 						})
 					});
+					console.log(checkData, '----------------checkData-----------');
 					this.$emit('tap-CheckBox', checkData); // 将用户选择下来的子项返给前台
 				}
 			}
@@ -260,6 +325,11 @@
 	.checkBox{
 		position: relative;
 		width: 100%;
+	}
+	.checkBox6{
+		position: relative;
+		width: 100%;
+		padding: 20upx 0 0 36upx;
 	}
 	.paddingBox{
 		padding: 0 0 40upx 40upx;
@@ -468,5 +538,43 @@
 		color: #9B9B9B;
 		text-align: justify;
 		line-height: 40upx;
+	}
+	.rRadio-items6 {
+		position: relative;
+		width: 320upx;
+		height: 320upx;
+		margin: 20upx 0;
+		margin: 10upx 36upx 10upx 0;
+		font-family: PingFangSC-Regular;
+		font-size: 28upx;
+		color: #2e2e30;
+		letter-spacing: 0;
+		line-height: 80upx;
+		border: 1px solid #d2d2d2;
+		border-radius: 2px;
+		text-align: center;
+	}
+	.items-img {
+		width: 300upx;
+		height: 300upx;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.itemsChecked {
+		position: absolute;
+		bottom: -4upx;
+		right:-4upx;
+		width: 100upx;
+		height: 100upx;
+	}
+	.selectImg6{
+		position: absolute;
+		right: 20upx;
+		width: 36upx;
+		height: 36upx;
+		top: 20upx;
 	}
 </style>

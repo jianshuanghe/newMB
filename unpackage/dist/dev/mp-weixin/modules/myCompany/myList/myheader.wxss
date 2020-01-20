@@ -76,8 +76,7 @@
 	text-align: right;
 	line-height: 116rpx;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 }
 .myheader-portrait-con-juti > input {
@@ -129,8 +128,7 @@
 	font-size: 28rpx;
 	color: #D2D2D2;
 	overflow: hidden;
-	-o-text-overflow: clip;
-	   text-overflow: clip;
+	text-overflow: clip;
 	white-space: pre;
 	word-break: keep-all;
 	letter-spacing: 0;
@@ -142,7 +140,6 @@
 	text-align: right;
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
-	-ms-flex: 1;
 	flex: 1;
 	text-align: right;
 	padding-right: 24rpx;

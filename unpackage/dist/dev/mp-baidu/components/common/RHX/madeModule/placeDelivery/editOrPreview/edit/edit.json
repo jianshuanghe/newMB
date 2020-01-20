@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "edit-items": "/components/common/RHX/madeModule/placeDelivery/editOrPreview/edit/editItems"
+  },
+  "component": true
+}

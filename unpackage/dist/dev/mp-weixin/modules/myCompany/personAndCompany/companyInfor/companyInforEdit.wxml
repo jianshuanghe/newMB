@@ -1,1 +1,1 @@
-<view class="companyInfor-content _div data-v-26a267b4"><editor-t vue-id="1" class="data-v-26a267b4" bind:__l="__l"></editor-t></view>
+<view class="companyInfor-content _div data-v-adc948d0"><editor-t vue-id="1" listid="{{id}}" class="data-v-adc948d0" bind:__l="__l"></editor-t></view>

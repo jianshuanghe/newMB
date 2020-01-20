@@ -1,1 +1,1 @@
-<view class="selectTemplate-content _div"><top-s-tem vue-id="1" bind:__l="__l"></top-s-tem><contont-s-tem vue-id="2" bind:__l="__l"></contont-s-tem></view>
+<view class="selectTemplate-content _div"><top-s-tem vue-id="1" bind:__l="__l"></top-s-tem><contont-s-tem vue-id="2" bind:__l="__l"></contont-s-tem><block wx:if="{{QUICKNAVCO.show}}"><navigation vue-id="3" bind:__l="__l"></navigation></block></view>

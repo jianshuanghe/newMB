@@ -16,7 +16,8 @@
 		<div class="moduleItems">
 			<!-- 模块条组件 -->
 			<moduleBar
-			:disabled='false'
+			:disabled='!isEdit'
+			:delIcon='delIcon'
 			:dataList='dataList'
 			:indexNum='indexNum'
 			:isSelect='isSelect'
@@ -51,10 +52,12 @@
 		},
 		props: [
 			'dataList',
+			'delIcon',
 			'indexNum',
 			'sortNumber',
 			'isSelect',
 			'disabled',
+			'isEdit',
 			'valueOne',
 			'iconSrc'],
 		data() {
@@ -84,8 +87,16 @@
 			},
 			// 点击更换icon
 			tapModuleBarIcon () {
-				console.log(this.indexNum, this.sortNumber, '点击更换icon');
-				this.$emit('tap-ModuleItemsIcon', this.indexNum);
+				console.log(this.indexNum, this.dataList, this.isEdit, '点击更换icon');
+				if (this.isEdit === true) {
+					this.dataList.map((item, index)=>{
+						if (this.indexNum === index) {
+							this.$emit('tap-ModuleItemsIcon', item);
+						}
+					});
+				} else {
+					console.log('非编辑模式')
+				}
 			}
 		}
 	};

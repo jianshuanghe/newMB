@@ -1,0 +1,43 @@
+
+.resuleTab-content{
+	background: #FFFFFF;
+	box-shadow: 0 1px 0 0 #F5F5F5;
+}
+.resuleTab{
+	position: relative;
+	width: 100%;
+	margin-bottom: 10rpx;
+}
+.resuleTab-box{
+	position: relative;
+	width: 100%;
+	margin-top: 10rpx;
+	padding-left: 3%;
+}
+.RT-box{
+	position: relative;
+	width: 20%;
+}
+.active-tap{
+	color: #02C2A2 !important;
+}
+.RT-box-top{
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #9B9B9B;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 40rpx;
+}
+.RT-box-bot{
+	margin-top: 10rpx;
+	background: #02C2A2;
+	border-radius: 100px;
+	position: relative;
+	width: 40rpx;
+	height: 4rpx;
+	margin: auto;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL+S7o+eggS9TVk4v5oWn6IGq6ZmM5oucc3ZuMTIuMTMvMTIuMTMu5pma5LiKL21vZHVsZXMvY3JlYXRlQnVzaW5lc3Mvc2VsZWN0VGVtcGxhdGUvdG9wU1RlbS52dWU/MmNjMCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6Im1vZHVsZXMvY3JlYXRlQnVzaW5lc3Mvc2VsZWN0VGVtcGxhdGUvdG9wU1RlbS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5yZXN1bGVUYWItY29udGVudHtcblx0YmFja2dyb3VuZDogI0ZGRkZGRjtcblx0Ym94LXNoYWRvdzogMCAxcHggMCAwICNGNUY1RjU7XG59XG4ucmVzdWxlVGFie1xuXHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdHdpZHRoOiAxMDAlO1xuXHRtYXJnaW4tYm90dG9tOiAxMHJweDtcbn1cbi5yZXN1bGVUYWItYm94e1xuXHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdHdpZHRoOiAxMDAlO1xuXHRtYXJnaW4tdG9wOiAxMHJweDtcblx0cGFkZGluZy1sZWZ0OiAzJTtcbn1cbi5SVC1ib3h7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0d2lkdGg6IDIwJTtcbn1cbi5hY3RpdmUtdGFwe1xuXHRjb2xvcjogIzAyQzJBMiAhaW1wb3J0YW50O1xufVxuLlJULWJveC10b3B7XG5cdGZvbnQtZmFtaWx5OiBQaW5nRmFuZ1NDLVJlZ3VsYXI7XG5cdGZvbnQtc2l6ZTogMzJycHg7XG5cdGNvbG9yOiAjOUI5QjlCO1xuXHRsZXR0ZXItc3BhY2luZzogMDtcblx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHRsaW5lLWhlaWdodDogNDBycHg7XG59XG4uUlQtYm94LWJvdHtcblx0bWFyZ2luLXRvcDogMTBycHg7XG5cdGJhY2tncm91bmQ6ICMwMkMyQTI7XG5cdGJvcmRlci1yYWRpdXM6IDEwMHB4O1xuXHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdHdpZHRoOiA0MHJweDtcblx0aGVpZ2h0OiA0cnB4O1xuXHRtYXJnaW46IGF1dG87XG59XG4iXSwic291cmNlUm9vdCI6IiJ9*/

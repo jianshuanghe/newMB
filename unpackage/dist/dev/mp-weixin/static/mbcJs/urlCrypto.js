@@ -10,10 +10,14 @@ function urlCrypto(params, type) {
 			"object": base64Str,
 			"sign": signStr
 		};
-		return JSON.stringify(endData); 
+		console.log(JSON.stringify(endData));
+		let endString =  Base64.encode(JSON.stringify(endData), "UTF-8");
+		console.log(endString, '再次加密的数据');
+		return endString; 
 	};
 	if (type === 1) {
-		let paramStr = JSON.parse(params);
+		let paramsData = Base64.decode(params, "UTF-8")
+		let paramStr = JSON.parse(paramsData);
 		let object = paramStr.object;
 		let endData = Base64.decode(object, "UTF-8");
 		return JSON.parse(endData);

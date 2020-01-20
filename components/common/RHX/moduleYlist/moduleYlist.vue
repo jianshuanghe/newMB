@@ -40,20 +40,124 @@
 						@tap-ModuleYitems='tapModuleYitems'
 						v-if='true'></moduleYitems>
 					</swiper-item>
+					<swiper-item class='swiperItem' v-if='disabled'>
+						<!-- 横向列表子项 -->
+						<itemsAdd
+						@tap-ItemsAdd='tapItemsAdd'
+						v-if='true'
+						></itemsAdd>
+					</swiper-item>
+					<swiper-item class='swiperItem' v-if='disabled'>
+						<!-- 横向列表子项 -->
+						<itemsDel
+						@tap-ItemsDel='tapItemsDel'
+						v-if='true'
+						></itemsDel>
+					</swiper-item>
+					<swiper-item class='swiperItem' v-if='disabled'>
+						<!-- 横向列表子项 -->
+						<itemsModify
+						@tap-ItemsModify='tapItemsModify'
+						v-if='true'
+						></itemsModify>
+					</swiper-item>
 				</swiper>
 			</div>
+		</div>
+		<!-- 添加模块 -->
+		<div class="moduleAdd">
+			<!-- 添加模块区域列表 -->
+			<moduleAddList
+			leftText='取消'
+			centerText='添加模块'
+			tips='请勾选其中一项!'
+			rightText='保存'
+			:dataList='moduleTempLists'
+			:translateY="this.VwVhToPx(2, 'vh')"
+			scrollHeight='90vh'
+			:marginBottomShow='true'
+			:scrollY='true'
+			rightColor='#02C2A2'
+			type='1'
+			:isAnimate='isAnimateModule'
+			@tap-PreserveBotttomFixed='tapPreserveBotttomFixedAdd'
+			@tap-Cancel='tapCancelAdd'
+			@tap-Preserve='tapPreserveAdd'
+			v-if='moduleAddListShow'>
+			</moduleAddList>
+		</div>
+		<!-- 模块删除 -->
+		<div class='moduleList' v-if='isModuleListShow'>
+			<!-- rPicker -->
+			<rPicker
+			leftText='取消'
+			centerText='删除模块'
+			rightText='保存'
+			dataList=''
+			:translateY="this.VwVhToPx(2, 'vh')"
+			scrollHeight='86vh'
+			:marginBottomShow='false'
+			:scrollY='true'
+			:isAnimate='true'
+			rightColor='#02C2A2'
+			@tap-PickerCancel='tapPickerCancel'
+			@tap-PickerPreserve='tapPickerPreserve'
+			>
+				<moduleList
+				:disabled='true'
+				:isEditInput='false'
+				scrollHeight='90vh'
+				:addModuleTop='addModuleTop'
+				:dataList="dataListsM" 
+				selIconList=''
+				type='1'
+				:isDrag='false'
+				:pickerCancel='pickerCancel'
+				@tap-PreserveBotttom='tapPreserveBotttom'
+				@tab-ModuleList='tabModuleList'
+				>
+				</moduleList>
+			</rPicker>
+		</div>
+		<!-- 修改模块 -->
+		<div class="moduleModify" v-if='moduleModifyShow'>
+			<moduleModify
+			:dataList='dataLists'
+			:moduleTempList='moduleTempLists'
+			:dataListY='dataListY'
+			@tap-PreserveModuleModify='tapPreserveModuleModify'
+			@tap-CancelModify='tapCancelModify'
+			@tap-PreserveModify='tapPreserveModify'
+			></moduleModify>
 		</div>
 	</div>
 </template>
 
 <script>
 	import moduleYitems from '@/components/common/RHX/moduleYitems/moduleYitems';
+	import itemsAdd from '@/components/common/RHX/moduleYitemsSet/itemsAdd';
+	import itemsDel from '@/components/common/RHX/moduleYitemsSet/itemsDel';
+	import itemsModify from '@/components/common/RHX/moduleYitemsSet/itemsModify';
+	import moduleAddList from '@/components/common/RHX/moduleAddList/moduleAddList';
+	import rPicker from '@/components/common/RHX/rPicker/rPicker';
+	import moduleList from '@/components/common/RHX/moduleListDel/moduleList';
+	import moduleModify from '@/components/common/RHX/moduleModify/moduleModify';
 	export default {
 		components: {
-			moduleYitems
+			moduleYitems,
+			itemsAdd,
+			itemsDel,
+			itemsModify,
+			moduleAddList,
+			rPicker,
+			moduleList,
+			moduleModify
 		},
 		props: [
 			'dataList',
+			'dataListY',
+			'moduleTempList',
+			'disabled',
 			'scrollW',
 			'column',
 			'fixedScroll',
@@ -61,7 +165,7 @@
 			'scrollInto',
 			'tabYItemsIndex',
 			'scrollFixedShow'
-			],
+		],
 		data() {
 			return {
 				isFixedShow: false, // 是否固定定位
@@ -69,6 +173,7 @@
 				nextMargin: "290px",
 				scrollWidth: '100vw', // 横向滚动宽度
 				dataLists: this.dataList,
+				dataListsM: JSON.parse(JSON.stringify(this.dataList)),
 				tapIndex: 0, // 记录用户点击的子项
 				scrollIntos: this.scrollInto,
 				moduleYlistContentFED: { // 固定定位数据
@@ -76,7 +181,16 @@
 					top: this.titleH + 'px',
 					zIndex: '105',
 					width: '100%',
-				}
+				},
+				moduleAddListShow: false, // 是否展示添加模块列表
+				pickerCancel:true, // 记录用户取消按钮
+				scrollHeight: 0, // 滚动区域高度
+				addModuleTop: 0, // 添加模块按钮的top值
+				isModuleListShow: false, // 是否展示模块list
+				isModuleListShows: true, // 判断是否显示菜单项
+				radioValue: {}, // 单选选中的值
+				lineHeights: 0,
+				moduleModifyShow: false
 			};
 		},
 		created() {
@@ -90,6 +204,10 @@
 			};
 			console.log(this.titleH, '-----------------------this.titleH-----------------------');
 			this.getNextMargin(); // 获取轮播子项向后偏移量
+			console.log(this.moduleTempList, 'moduleTempList||');
+			this.moduleTempLists = this.moduleTempList.content;
+			this.scrollHeight = this.VwVhToPx(90, 'vh') - 20 + 'px';
+			this.addModuleTop = this.VwVhToPx(90, 'vh') - 60 + 'px';
 		},
 		mounted() {
 			this.yListModule()
@@ -99,6 +217,14 @@
 				handler(a, b) {
 					console.log(a, b, '--------------------------------------监听titleH变化---------------------------------------');
 					this.moduleYlistContentFED.top = a + 'px'
+				},
+				deep: true
+			},
+			dataList: {
+				handler(a, b) {
+					console.log(a, b, '--------------------------------------监听dataList变化---------------------------------------');
+					this.dataLists= a;
+					this.dataListsM = JSON.parse(JSON.stringify(this.dataList))
 				},
 				deep: true
 			},
@@ -130,11 +256,15 @@
 					console.log(a, b, '--------------------------------------监听tabYItemsIndex变化---------------------------------------');
 					this.tapIndex = a;
 					let num = Math.ceil(this.dataLists.length);
-					console.log(num, this.tapIndex,'------------+++++++++------------')
-					if (num - this.tapIndex >= 4) {
-						this.tapIndex2 = a;
+					console.log(num, this.tapIndex,'------------+++++++++------------');
+					if (this.disabled === false) {
+						if (num - this.tapIndex >= 4) {
+							this.tapIndex2 = a;
+						} else {
+							this.tapIndex2 = num - 4;
+						}
 					} else {
-						this.tapIndex2 = num - 4;
+						this.tapIndex2 = a;
 					}
 				},
 				deep: true
@@ -146,6 +276,13 @@
 				},
 				deep: true
 			},
+			moduleTempList: {
+				handler(a, b) {
+					console.log(a, b, '--------------------------------------监听moduleTempList变化---------------------------------------');
+					this.moduleTempLists = a.content;
+				},
+				deep: true
+			}
 		},
 		methods: {
 			getNextMargin(){
@@ -169,10 +306,112 @@
 			// 点击横向列表子项
 			tapModuleYitems(e){
 				console.log(e, '点击横向列表子项');
-				
 				this.tapIndex = e[1];
 				this.$emit('tap-ModuleYList', e);
 			},
+			// -------------------------------------------------------添加模块---------------------------------------------------------------
+			// 点击添加模块按钮
+			tapItemsAdd (e) {
+				console.log(e, '点击添加模块按钮');
+				this.moduleAddListShow = true; // 展示添加模块列表
+				this.isAnimateModule = false; // 取消模块管理动画
+				console.log(this.isAnimateModule, '----------------------isAnimateModule---------------------')
+			},
+			// 点击picker取消
+			tapCancelAdd (e) {
+				console.log('点击picker取消');
+				this.moduleAddListShow = false; // 取消展示添加模块列表
+			},
+			// 点击picker确定
+			tapPreserveAdd (e) {
+				console.log(e, '点击picker确定');
+				console.log(this.dataLists)
+				// this.$emit('tap-PreserveBotttom', e); // 将选中的值返回给父组件
+				this.moduleAddListShow = false; // 取消展示添加模块列表
+				// let data = this.content.context.tempCon.modules;
+				this.dataLists.push(e);
+				console.log(this.dataLists, '---------------tap-PreserveBotttom---------------');
+				this.distributeId(this.dataLists);
+			},
+			// 点击添加模块底部确定-----fixed----按钮
+			tapPreserveBotttomFixedAdd () {
+				this.$emit('tap-PreserveBotttom');
+			},
+			// 给每个数组数组添加id
+			distributeId (e) {
+				let datalist = e;
+				datalist.map((item, index)=>{
+					item.id = 'mb' + this.newGuid(); // 每一项添加id 用来点击目录定位到当前项，因为uni-app这样定义的
+				});
+				console.log(datalist, '增加id----------数据')
+				this.scrollIntos = datalist[datalist.length - 1].id;
+				this.$emit('tap-Title', [datalist, this.scrollIntos]);
+			},
+			// -------------------------------------------------------删除模块---------------------------------------------------------------
+			// 触发管理模块按钮
+			tapItemsDel() {
+				console.log(this.dataList, '往删除模块里传的数据！');
+				this.dataLists = this.dataList;
+				this.isModuleListShow = true;
+				console.log(this.isModuleListShow)
+			},
+			// 点击picker取消按钮
+			tapPickerCancel () {
+				console.log('点击picker取消按钮');
+				this.pickerCancel = false; // 记录用户触发picker取消按钮
+				console.log(this.pickerCancel, '----------------this.pickerCancel--------------')
+				this.dataListsM = JSON.parse(JSON.stringify(this.dataList));
+				this.isModuleListShow = false; // 关闭picker
+			},
+			// 点击picker确定按钮
+			tapPickerPreserve (e) {
+				console.log(e, '点击picker确定按钮');
+				this.isModuleListShow = false; // 关闭picker
+				if (uni.getStorageSync('currentList')) {
+					let currentList = uni.getStorageSync('currentList'); // 读取缓存中用户修改的数据
+					let newDate=[];
+					currentList.map((item, index)=>{
+						if(item.isShow === 1) {
+							delete item.SortNumber;
+							delete item.index;
+							delete item.isShow;
+							delete item.animation;
+							delete item.y;
+							delete item.x;
+							newDate.push(item);
+						}
+					});
+					console.log(newDate, '----------处理后的数据-----------')
+					this.dataLists = newDate;
+					this.$emit('set-FixedShow', true);
+					this.$emit('tap-Title', [newDate, '']);
+				};
+			},
+			// 点击模块List组件
+			tabModuleList (e) {
+				console.log(e, '++++++++++++++++++++++++++++点击模块List组件+++++++++++++++++++++++++++');
+				this.content.context.tempCon.modules = e;
+			},
+			// -------------------------------------------------------修改模块---------------------------------------------------------------
+			tapItemsModify(e){
+				this.moduleModifyShow = true;
+			},
+			// 取消修改模块
+			tapCancelModify (e) {
+				console.log(e, '取消修改模块');
+				this.moduleModifyShow = e[1];
+			},
+			// 确定修改模块
+			tapPreserveModify (e) {
+				console.log(e, '确定修改模块');
+				this.moduleModifyShow = e[1];
+				this.$emit('tap-Title', [e[0], '']);
+			},
+			// tapPreserveModuleModify
+			tapPreserveModuleModify (e) {
+				this.moduleModifyShow = e[2];
+				this.$emit('tap-Title', [e[0], e[1]]);
+			}
 		}
 	};
 </script>

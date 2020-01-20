@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "address-edit": "/components/common/RHX/madeModule/shopAddress/addressEdit/addressEdit",
+    "address-preve": "/components/common/RHX/madeModule/shopAddress/addressPreve/addressPreve"
+  },
+  "component": true
+}

@@ -1,0 +1,10 @@
+
+.title{
+	font-weight: bold;
+	background: #FFFFFF;
+}
+.bgc{
+	width: 100%;
+	height: 400rpx;
+}
+

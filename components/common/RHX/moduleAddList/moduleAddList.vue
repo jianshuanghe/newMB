@@ -22,29 +22,29 @@
 		<rPicker
 		:leftText='leftText'
 		:centerText='centerText'
-		rightText
+		:rightText='rightText'
 		:pickerTop='pickerTop'
 		:translateY='translateY'
 		:rightColor='rightColor'
 		:type='type'
 		:isAnimate='isAnimate'
 		@tap-PickerCancel='tapPickerCancel'
-		@tap-PickerPreserve='tapPickerPreserve'
+		@tap-PickerPreserve='preserve'
 		>	
 			<!-- 滚动区域 -->
 			<div class="scroll-box">
 				 <scroll-view class="scroll-H" :scroll-y="scrollY" :style="{height: scrollHeight}">
 					<!-- 单选框 -->
-					<rRadio
+					<rCheckBox
 					:dataList='dataList'
 					:marginBottomShow='marginBottomShow'
-					:type='type'
-					@tap-Radio='tapRadio'
-					v-if='true'></rRadio>
+					dataType='5'
+					@tap-CheckBox='tapCheckBox'
+					v-if='true'></rCheckBox>
 				 </scroll-view>
 			</div>
 			<!-- 确认框 -->
-			<fixedBgBtn
+			<!-- <fixedBgBtn
 			:bbottom="0"
 			bColor= ''
 			paddingNum=''
@@ -53,18 +53,18 @@
 			bShadow=''
 			bgImage='linear-gradient(134deg,  #15D49F 0%, #57D6CF 100%)'>
 				<div class="add-text" @tap='preserve'>确认添加</div>
-			</fixedBgBtn>
+			</fixedBgBtn> -->
 		</rPicker>
 	</div>
 </template>
 
 <script>
-	import rRadio from '@/components/common/RHX/rRadio/rRadio';
+	import rCheckBox from '@/components/common/RHX/rCheckBox/rCheckBox';
 	import rPicker from '@/components/common/RHX/rPicker/rPicker';
 	import fixedBgBtn from '@/components/common/button/fixedBgBtn.vue';
 	export default {
 		components: {
-			rRadio,
+			rCheckBox,
 			rPicker,
 			fixedBgBtn
 		},
@@ -96,7 +96,7 @@
 				// this.$emit('tap-ReplaceIcon');
 			},
 			// 触发单选按钮
-			tapRadio(e) {
+			tapCheckBox(e) {
 				console.log(e, '用户选中的值');
 				this.radioValue = e; // 用户选中的值
 			},

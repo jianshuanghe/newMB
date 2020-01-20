@@ -38,17 +38,18 @@
 				<view class="item">
 					<!-- 可拖动子项 -->
 					<moduleItems
-						:disabled="disabled"
+						:disabled="true"
+						:delIcon='true'
 						:dataList="currentList"
 						:indexNum="item.SortNumber"
 						:valueOne="item.iconTitle"
 						:iconSrc="item.icon || iconSrc"
-						:isSelect='isSelect === item.SortNumber ? true : false'
+						:isSelect='isSelect === item.index ? true : false'
 						@tap-ModuleItemsDel='tapModuleItemsDel'
 						@tap-ModuleItemsIcon='tapModuleItemsIcon'
 						@tap-ModuleItems="tapModuleItems"
 					></moduleItems>
-					<div class="icon" v-if='iconLibrary === item.SortNumber'>
+					<div class="icon" v-if='iconLibrary === item.SortNumber && false'>
 						<!-- icon图库 -->
 						<moduleIconLibrary
 						:disabled="disabled"
@@ -62,6 +63,7 @@
 				</view>
 			</movable-view>
 		</movable-area>
+		<div class="scroll-box" :style="{ height: boxHeight }"></div>
 	</view>
 </template>
 
@@ -128,13 +130,13 @@ export default {
 		'boxStyle',
 		'pickerCancel'],
 	watch: {
-		list: {
-			handler() {
-				// debugger;
-				this.onUpdateCurrentList();
-			},
-			deep: true
-		},
+		// list: {
+		// 	handler() {
+		// 		// debugger;
+		// 		this.onUpdateCurrentList();
+		// 	},
+		// 	deep: true
+		// },
 		disabled: {
 			handler(a, b) {
 				console.log(a, b)
@@ -155,11 +157,18 @@ export default {
 		},
 	},
 	created() {
+		
+	},
+	mounted() {
 		const res = uni.getSystemInfoSync();
 		this.windowWidth = res.windowWidth;
-		this.onUpdateCurrentList();
+		if (uni.getStorageSync('currentList')) {
+			this.currentList = uni.getStorageSync('currentList'); // 读取缓存中用户修改的数据
+			console.log(this.currentList, 'asdada');
+		} else {
+			this.currentList = this.list;
+		}
 	},
-	mounted() {},
 	updated() {},
 	filters: {},
 	beforeDestroy () {
@@ -167,29 +176,14 @@ export default {
 		// uni.removeStorageSync('currentList');
 	},
 	methods: {
-		onUpdateCurrentList(list = this.list) {
+		onUpdateCurrentList(list = this.currentList) {
 			let arr = [];
 			for (const key in list) {
-				// console.log(key)
 				let height = Math.ceil((Number(key) + 1) / 1) - 1;
 				let x = 0;
-				// if (key <= 3) {
-				// 	x = key * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
-				// } else {
-				// 	if ((Number(key) + 1) % 4 === 0) {
-				// 		x = 3 * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
-				// 	} else {
-				// 		x = (((Number(key) + 1) % 4) - 1) * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
-				// 	}
-				// }
 				arr.push({
 					...list[key],
-					isShow: 1,
-					index: Number(key),
-					SortNumber: Number(key),
 					y: height * this.height,
-					x,
-					animation: true
 				});
 			}
 			this.currentList = arr;
@@ -197,6 +191,10 @@ export default {
 			let data = JSON.parse(JSON.stringify(this.currentList));
 			data.sort((a,b)=>{return a.SortNumber-b.SortNumber});
 			uni.setStorageSync('currentList',data);
+			this.dragSortRefresh = false; // 刷新当前页面
+			this.$nextTick(function() {
+				this.dragSortRefresh = true;
+			});
 		},
 		// 根据排序进行重新计算位置
 		moveUpdateCurrentList(index) {
@@ -211,19 +209,7 @@ export default {
 				let temobj = { ...this.currentList[i] };
 				// debugger
 				this.currentList[i].y = (Math.ceil((Number(key) + 1) / 1) - 1) * this.height;
-				// if (index == key) {
-				// 	continue;
-				// } else {
-				// 	if (key <= 3) {
-				// 		this.currentList[i].x = key * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
-				// 	} else {
-				// 		if ((Number(key) + 1) % 4 === 0) {
-				// 			this.currentList[i].x = 3 * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
-				// 		} else {
-				// 			this.currentList[i].x = (((Number(key) + 1) % 4) - 1) * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
-				// 		}
-				// 	}
-				// }
+				
 			};
 		},
 		touchstart(e) {
@@ -299,138 +285,6 @@ export default {
 			data.sort((a,b)=>{return a.SortNumber-b.SortNumber});
 			uni.setStorageSync('currentList',data);
 		},
-		// 触发tapModuleItems
-		tapModuleItems(e) {
-			console.log(e, '触发tapModuleItems');
-			console.log(this.currentList, '---------------this.currentList-------------')
-			this.currentList.map((items, index)=>{
-				if (items.SortNumber === e[1]) {
-					items.iconTitle = e[0];
-				}
-			});
-			// 向前台更新数据
-			let data = JSON.parse(JSON.stringify(this.currentList));
-			data.sort((a,b)=>{return a.SortNumber-b.SortNumber});
-			uni.setStorageSync('currentList',data);
-		},
-		// 触发更改icon，展示icon库
-		tapModuleItemsIcon (e) {
-			console.log(e, '触发点击子项的index----原始值');
-			console.log(this.iconLibraryShow, '-------------------------this.iconLibraryShow-----------------------')
-			if (this.iconLibraryShow === false) {
-				this.iconLibraryShow = true;
-				this.iconLibrary = e;
-				this.isSelect = e;
-				this.old.tapIndex = e;
-				console.log(e, '------------------所在index------------------');
-				// this.currentList[e + 1].y = this.currentList[e + 1].y + 114;
-				this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
-				console.log(this.currentList[e] , '--------------------修改后的this.currentList-------------------');
-				this.currentList.map((items, index) => {
-					if (e === index === 0) {
-						items.y = items.y
-					} if (index > e) {
-						items.y = items.y + 114
-					}
-				});
-			} else if (this.iconLibraryShow === true) {
-				console.log(e, this.old.tapIndex, '----------------------------e, this.this.old.tapIndex--------------------------')
-				if (e === this.old.tapIndex) {
-					console.log('关闭上一次打开的')
-					this.iconLibraryShow = false;
-					this.iconLibrary = -1;
-					this.isSelect = -1;
-					this.old.tapIndex = -1;
-				} else {
-					console.log('关闭上一次打开的,并且打开新的')
-					this.iconLibraryShow = true;
-					this.iconLibrary = e;
-					this.isSelect = e;
-					this.old.tapIndex = e;
-					console.log(e, '------------------所在index------------------');
-					// this.currentList[e + 1].y = this.currentList[e + 1].y + 114;
-					this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
-					console.log(this.currentList[e] , '--------------------修改后的this.currentList-------------------');
-					this.currentList.map((items, index) => {
-						if (e === index === 0) {
-							items.y = items.y
-						} if (index > e) {
-							items.y = items.y + 114
-						}
-					});
-				}
-				
-			}
-			
-		},
-		// 删除
-		tapModuleItemsDel(e) {
-			// debugger
-			this.iconLibrary = -1;
-			this.iconLibraryShow = false; // 判断当前组件是否有icon库展示
-			console.log(e, '我是删除的index 的SortNumber');
-			this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
-			console.log(this.currentList[e] , '--------------------修改后的this.currentList-------------------');
-			console.log(this.currentList[e].SortNumber);
-			this.currentList.map((items, index)=>{
-				if(items.SortNumber === e) {
-					// delete this.currentList.splice(index, 1); // 删除选中的子项
-					this.dragSortRefresh = false; // 刷新当前页面
-					this.$nextTick(function() {
-						this.dragSortRefresh = true;
-					});
-				}
-			})
-			// delete this.currentList.splice(e, 1); // 删除选中的子项
-			// this.currentList.forEach((item, i) => {
-			// 	if (this.currentList[i].SortNumber > this.currentList[e].SortNumber) {
-			// 		item.SortNumber--;
-			// 	}
-			// });
-			this.moveUpdateCurrentList(-1);
-			if (this.currentList.length > 0) {
-				this.currentList[e].isShow = 0;
-			}
-			let data = this.currentList;
-			console.log(data, '------------------删除后数据--------------------')
-			// this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
-			console.log(this.currentList, '重排序')
-			// this.$emit('tab-DragSortChange', data);
-			// 向前台更新数据
-			let datas = JSON.parse(JSON.stringify(this.currentList));
-			datas.sort((a,b)=>{return a.SortNumber-b.SortNumber});
-			uni.setStorageSync('currentList',datas);
-			uni.showToast({
-				title: '成功！',
-				icon: 'none',
-				duration: 500
-			});
-			// this.onUpdateCurrentList();
-		},
-		// 更换icon
-		tapModuleIconLibrary(e) {
-			console.log(e, '用户选择的新icon');
-			// 将数据里的icon指定跟新
-			this.currentList.map((items, index)=>{
-				if (index === this.old.tapIndex) {
-					items.icon = e
-				}
-			});
-			// 往前台跟新图库
-			let data = this.currentList;
-			this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
-			this.$emit('tab-DragSortChange', data);
-			// 关闭图库
-			this.iconLibraryShow = false;
-			this.iconLibrary = -1;
-			this.isSelect = -1;
-			this.old.tapIndex = -1;
-			uni.showToast({
-				title: '替换成功！',
-				icon: 'none',
-				duration: 500
-			});
-		}
 	}
 };
 </script>
@@ -483,5 +337,13 @@ export default {
 	background: #FFFFFF;
 	box-shadow: 0 0 4px 0 #E2E2E2;
 	z-index: 99;
+}
+.scroll-box{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	width: 45vw;
+	height: 100vh;
+	margin-left: 40vw;
 }
 </style>

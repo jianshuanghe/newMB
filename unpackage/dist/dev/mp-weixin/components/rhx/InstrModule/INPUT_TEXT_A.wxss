@@ -26,4 +26,7 @@
 	width: 30rpx;
 	height: 34rpx;
 }
+.title{
+	margin-bottom: 3vw;
+}
 

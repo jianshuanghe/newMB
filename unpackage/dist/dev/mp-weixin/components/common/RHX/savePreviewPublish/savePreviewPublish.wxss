@@ -6,6 +6,7 @@
 	width: 100%;
 	background: #2E2E30;
 	height: 100rpx;
+	opacity: 0.9;
 }
 .editBtn{
 	position: relative;

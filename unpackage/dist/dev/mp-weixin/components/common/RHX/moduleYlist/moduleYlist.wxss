@@ -36,6 +36,9 @@
 	position: relative;
 	height: 160rpx !important;
 }
+.swiper{
+	height: 160rpx !important;
+}
 uni-swiper{
 	position: relative;
 	height: 160rpx !important;

@@ -9,9 +9,9 @@
 		"postcss": true,
 		"minified": true
 	},
-	"compileType": "plugin",
-	"libVersion": "2.7.0",
-	"appid": "wx81a69a253bbe2710",
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wxfe5497e8a3f7578a",
 	"projectname": "陌拜",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},

@@ -25,12 +25,15 @@
 				<view class="item">
 					<!-- 可拖动子项 -->
 					<moduleItems
-						:disabled="disabled"
+						:disabled="false"
+						:delIcon='false'
 						:dataList="currentList"
 						:indexNum="index"
+						:SortNumber="item.SortNumber"
 						:valueOne="item.iconTitle"
 						:iconSrc="item.icon || iconSrc"
 						:isSelect='isSelect === item.SortNumber ? true : false'
+						:isEdit='isEdit'
 						@tap-ModuleItemsDel='tapModuleItemsDel'
 						@tap-ModuleItemsIcon='tapModuleItemsIcon'
 						@tap-ModuleItems="tapModuleItems"
@@ -105,6 +108,8 @@ export default {
 	},
 	props: [
 		'disabled', 
+		'isEditInput',
+		'isEdit',
 		'selIconList', 
 		'list', 
 		'boxStyle',
@@ -132,12 +137,25 @@ export default {
 	created() {
 		const res = uni.getSystemInfoSync();
 		this.windowWidth = res.windowWidth;
-		this.currentList = this.list;
+		if (uni.getStorageSync('currentList')) {
+			this.currentList = uni.getStorageSync('currentList'); // 读取缓存中用户修改的数据
+			
+		} else {
+			this.currentList = this.list;
+		};
+		if (this.isEdit === true) {
+			this.isSelect = 0;
+			this.iconLibrary = 0;
+		}
 	},
 	mounted() {},
 	updated() {},
 	filters: {},
 	beforeDestroy () {
+		// 向前台更新数据
+		let data = JSON.parse(JSON.stringify(this.currentList));
+		data.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+		uni.setStorageSync('currentList',data);
 		console.log('页面销毁之前清除缓存数据--------------currentList');
 	},
 	methods: {
@@ -150,10 +168,62 @@ export default {
 					items.iconTitle = e[0];
 				}
 			});
+			let data = JSON.parse(JSON.stringify(this.currentList));
+			data.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+			uni.setStorageSync('currentList',data);
 		},
 		// 触发更改icon，展示icon库
 		tapModuleItemsIcon (e) {
 			console.log(e, '触发点击子项的index----原始值');
+			console.log(this.iconLibraryShow, '-------------------------this.iconLibraryShow-----------------------')
+			if (this.iconLibraryShow === false) {
+				this.iconLibraryShow = true;
+				this.iconLibrary = e.SortNumber;
+				this.isSelect = e.SortNumber;
+				this.old.tapIndex = e.index;
+				console.log(e, '------------------所在index------------------');
+				// this.currentList[e + 1].y = this.currentList[e + 1].y + 114;
+				this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+				console.log(this.currentList[e.index] , '--------------------修改后的this.currentList-------------------');
+				// this.currentList.map((items, index) => {
+				// 	if (e === index === 0) {
+				// 		items.y = items.y
+				// 	} if (index > e) {
+				// 		items.y = items.y + 114
+				// 	}
+				// });
+			} else if (this.iconLibraryShow === true) {
+				console.log(e, this.old.tapIndex, '----------------------------e, this.this.old.tapIndex--------------------------')
+				if (e.index === this.old.tapIndex) {
+					console.log('关闭上一次打开的')
+					this.iconLibraryShow = false;
+					this.iconLibrary = -1;
+					this.isSelect = -1;
+					this.old.tapIndex = -1;
+				} else {
+					console.log('关闭上一次打开的,并且打开新的')
+					this.iconLibraryShow = true;
+					this.iconLibrary = e.SortNumber;
+					this.isSelect = e.SortNumber;
+					this.old.tapIndex = e.index;
+					console.log(e, '------------------所在index------------------');
+					// this.currentList[e + 1].y = this.currentList[e + 1].y + 114;
+					// this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+					// console.log(this.currentList[e] , '--------------------修改后的this.currentList-------------------');
+					// this.currentList.map((items, index) => {
+					// 	if (e === index === 0) {
+					// 		items.y = items.y
+					// 	} if (index > e) {
+					// 		items.y = items.y + 114
+					// 	}
+					// });
+				}
+				let data = JSON.parse(JSON.stringify(this.currentList));
+				data.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+				uni.setStorageSync('currentList',data);
+				
+			}
+			
 		},
 		// 删除
 		tapModuleItemsDel(e) {
@@ -164,10 +234,66 @@ export default {
 				icon: 'none',
 				duration: 500
 			});
+			this.onUpdateCurrentList()
+		},
+		onUpdateCurrentList(list = this.currentList) {
+			let arr = [];
+			for (const key in list) {
+				// console.log(key)
+				let height = Math.ceil((Number(key) + 1) / 1) - 1;
+				let x = 0;
+				// if (key <= 3) {
+				// 	x = key * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
+				// } else {
+				// 	if ((Number(key) + 1) % 4 === 0) {
+				// 		x = 3 * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
+				// 	} else {
+				// 		x = (((Number(key) + 1) % 4) - 1) * this.windowWidth * 0.24 + this.windowWidth * 0.04 || this.windowWidth * 0.04;
+				// 	}
+				// }
+				arr.push({
+					...list[key],
+					isShow: 1,
+					index: Number(key),
+					SortNumber: Number(key),
+					y: height * this.height,
+					x,
+					animation: true
+				});
+			}
+			this.currentList = arr;
+			// 向前台更新数据
+			let data = JSON.parse(JSON.stringify(this.currentList));
+			data.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+			uni.setStorageSync('currentList',data);
 		},
 		// 更换icon
 		tapModuleIconLibrary(e) {
 			console.log(e, '用户选择的新icon');
+			// 将数据里的icon指定跟新
+			console.log(this.iconLibrary, this.old.tapIndex, '先')
+			this.currentList.map((items, index)=>{
+				if (index === this.iconLibrary) {
+					items.icon = e
+				}
+			});
+			// 往前台跟新图库
+			let data = this.currentList;
+			this.currentList.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+			this.$emit('tab-DragSortChange', data);
+			// 关闭图库
+			this.iconLibraryShow = false;
+			this.iconLibrary = -1;
+			this.isSelect = -1;
+			this.old.tapIndex = -1;
+			uni.showToast({
+				title: '替换成功！',
+				icon: 'none',
+				duration: 500
+			});
+			let datas = JSON.parse(JSON.stringify(this.currentList));
+			datas.sort((a,b)=>{return a.SortNumber-b.SortNumber});
+			uni.setStorageSync('currentList',datas);
 		}
 	}
 };
@@ -179,8 +305,8 @@ export default {
 }
 .drag-sort-item {
 	position: relative;
-	display: flex;
-	height: 60px;
+	// display: ;
+	min-height: 60px;
 	align-items: center;
 	width: 100%;
 	text-align: center;
@@ -192,7 +318,7 @@ export default {
 		position: relative;
 		flex: 1;
 		font-size: 16px;
-		padding: 0 40upx;
+		padding: 34upx 40upx 0 40upx;
 	}
 	.close {
 		position: absolute;

@@ -8,8 +8,7 @@
 	width: 160rpx;
 	height: 48rpx;
 	background: #FFFFFF;
-	-webkit-box-shadow: -1px 0 0 0 #F5F5F5;
-	        box-shadow: -1px 0 0 0 #F5F5F5;
+	box-shadow: -1px 0 0 0 #F5F5F5;
 }
 .add-btn{
 	position: relative;

@@ -25,6 +25,10 @@
 .items-list {
 	position: relative;
 }
+.tian{
+	width: 100%;
+	height: 88rpx;
+}
 .next {
 	position: fixed;
 	bottom: 0;
@@ -42,8 +46,8 @@
 	background: #02c2a2;
 }
 .scroll-Y {
-	height: 90vh;
-	padding-bottom: 100rpx;
+	height: 86vh;
+	padding-bottom: 0rpx;
 }
 .scroll-view_H {
 	white-space: nowrap;
@@ -69,11 +73,9 @@
 .loading-more {
 	-webkit-box-align: center;
 	-webkit-align-items: center;
-	    -ms-flex-align: center;
 	        align-items: center;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
-	    -ms-flex-pack: center;
 	        justify-content: center;
 	padding-top: 20rpx;
 	padding-bottom: 50rpx;
@@ -91,8 +93,7 @@
 	width: 100vw;
 	padding: 3vw;
 	background: #ffffff;
-	-webkit-box-shadow: 0 0 10rpx 0 #e2e2e2;
-	        box-shadow: 0 0 10rpx 0 #e2e2e2;
+	box-shadow: 0 0 10rpx 0 #e2e2e2;
 }
 .check {
 	position: relative;

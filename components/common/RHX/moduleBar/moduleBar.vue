@@ -60,8 +60,11 @@
 				></inputBox>
 			</div>
 			<div class="del left">
-				<div class="del-box" @tap='tapDel()'>
+				<div class="del-box" @tap='tapDel()' v-if='!delIcon'>
 					<image class="delImg" :src='del'></image>
+				</div>
+				<div class="del-box" v-if='delIcon'>
+					<image class="delImg" :src='sort'></image>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -71,6 +74,7 @@
 
 <script>
 	import del from '@/static/mbcImg/publish/createBusiness/del.png';
+	import sort from '@/static/mbcImg/publish/createBusiness/sort.png';
 	import replaceIcon from '@/components/common/RHX/replaceIcon/replaceIcon';
 	import inputBox from '@/components/common/RHX/inputBox/inputBox';
 	export default {
@@ -80,6 +84,7 @@
 		},
 		props: [
 			'dataList',
+			'delIcon',
 			'itemsData',
 			'indexNum',
 			'isSelect',
@@ -110,6 +115,7 @@
 		data() {
 			return {
 				del: del,
+				sort: sort,
 				valueOneText: this.valueOne,
 				dataLists: this.dataList
 			};
@@ -167,6 +173,7 @@
 	.text{
 		position: relative;
 		width: 86%;
+		padding-right: 56%;
 	}
 	.del{
 		position: relative;

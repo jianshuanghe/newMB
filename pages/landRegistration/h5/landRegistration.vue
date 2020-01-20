@@ -13,11 +13,24 @@
 					</view>
 					<view class="LR-cont">
 						<view class="inputPhone-PLR">
-							<wInput v-model="phoneLand.phone" type="number" maxlength="11" placeholder="请输入手机号码"></wInput>
+							<wInput 
+							v-model="phoneLand.phone" 
+							type="number" 
+							maxlength="11" 
+							placeholder="请输入手机号码"
+							inputWidth='85vw'></wInput>
 							<view class="line"></view>
 						</view>
 						<view class="inputYan-PLR">
-							<view class="yan-left-PLR left"><wInput v-model="phoneLand.code" type="number" maxlength="4" placeholder="请输入验证码"></wInput></view>
+							<view class="yan-left-PLR left">
+								<wInput 
+								v-model="phoneLand.code" 
+								type="number" 
+								maxlength="4" 
+								placeholder="请输入验证码"
+								inputWidth='60vw'
+								></wInput>
+							</view>
 							<view class="ma-right-PLR left">
 								<!--<p class="">获取验证码</p>-->
 								<view :class="{ yazm: isOvertime, 're-yazm': !isOvertime }" type="primary" action-type="button" mini @tap="sendMessage">{{ word }}</view>
@@ -40,11 +53,22 @@
 					</view>
 					<view class="LR-cont">
 						<view class="inputPhone-PLR">
-							<wInput v-model="passWordLand.phone" type="number" maxlength="11" placeholder="请输入手机号码"></wInput>
+							<wInput 
+							v-model="passWordLand.phone" 
+							type="number" 
+							maxlength="11" 
+							placeholder="请输入手机号码"
+							inputWidth='85vw'
+							></wInput>
 							<view class="line"></view>
 						</view>
 						<view class="inputPhone-PLR">
-							<wInput v-model="passWordLand.passWord" type="password" placeholder="请输入密码"></wInput>
+							<wInput 
+							v-model="passWordLand.passWord" 
+							type="password" 
+							placeholder="请输入密码"
+							inputWidth='80vw'
+							></wInput>
 							<view class="line"></view>
 						</view>
 						<view class="switchPassWorld">
@@ -59,7 +83,12 @@
 					<view class="top-PWLR"><img :src="logo" alt="" class="" /></view>
 					<view class="LR-cont">
 						<view class="inputPhone-PLR">
-							<wInput v-model="phoneLand.passWord" type="password" placeholder="请设置登录密码"></wInput>
+							<wInput 
+							v-model="phoneLand.passWord" 
+							type="password" 
+							placeholder="请设置登录密码"
+							inputWidth='85vw'
+							></wInput>
 							<view class="line"></view>
 						</view>
 					</view>
@@ -85,7 +114,7 @@
 
 <script>
 import wInput from '@/components/common/watch-login/watch-input.vue';
-
+import logo from '@/static/mbcImg/images/business/home/landRegistration/logo.png';
 export default {
 	name: 'landRegistration',
 	components: {
@@ -94,7 +123,7 @@ export default {
 	data() {
 		return {
 			browserType: '', // 判断浏览器
-			logo: this.Static + 'mbcImg/landRegistration/logo.png',
+			logo: logo,
 			loadingShow: false, // loading
 			isOvertime: false,
 			phoneLand: {
@@ -232,11 +261,17 @@ export default {
 		clickPassWordLand() {
 			console.log('触发账号密码登录按钮');
 			this.landType = 2;
+			if (this.phoneLand.phone !== '') {
+				this.passWordLand.phone = this.phoneLand.phone;
+			};
 			uni.setStorageSync('landType', this.landType); // 缓存登录方式
 		},
 		clickPhoneLand() {
 			console.log('触发手机号登录按钮');
 			this.landType = 1;
+			if (this.passWordLand.phone !== '') {
+				this.phoneLand.phone = this.passWordLand.phone;
+			};
 			uni.setStorageSync('landType', this.landType); // 缓存登录方式
 		},
 		clickForgetPassWord() {
@@ -563,7 +598,7 @@ export default {
 				});
 				uni.request({
 					url: this.api2 + '/rest-rp/user/' + landRegistLG.user.id, //接口地址。
-					data: this.endParams(params),
+					data: params,
 					method: 'POST',
 					header: {
 						Authorization: 'Bearer ' + landRegistLG.token //将token放到请求头中
@@ -626,8 +661,8 @@ export default {
 <style scoped>
 .landRegistration-content {
 	position: relative;
-	width: 750upx;
-	height: 1334upx;
+	width: 100vw;
+	height: 100vh;
 	background: #fff;
 }
 .landRegistration {
@@ -663,12 +698,10 @@ export default {
 .inputPhone-PLR {
 	position: relative;
 	width: 100%;
-	margin-top: 5vw;
 }
 .inputYan-PLR {
 	position: relative;
 	width: 100%;
-	margin-top: 4vw;
 }
 .yan-left-PLR {
 	position: relative;
@@ -689,7 +722,7 @@ export default {
 	font-family: PingFangSC-Light;
 	font-size: 4vw;
 	color: #02c2a2;
-	line-height: 12vw;
+	padding-top: 2vw;
 	text-align: right;
 }
 .switchPassWorld {

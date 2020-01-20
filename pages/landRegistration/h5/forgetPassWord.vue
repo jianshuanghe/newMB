@@ -10,11 +10,24 @@
 					</view>
 					<view class="LR-cont">
 						<view class="inputPhone-PLR">
-							<wInput v-model="phone" type="number" maxlength="11" placeholder="请输入手机号码"></wInput>
+							<wInput 
+							v-model="phone" 
+							type="number" 
+							maxlength="11" 
+							placeholder="请输入手机号码"
+							inputWidth='85vw'
+							></wInput>
 							<view class="line"></view>
 						</view>
 						<view class="inputYan-PLR">
-							<view class="yan-left-PLR left"><wInput v-model="code" type="number" maxlength="4" placeholder="请输入验证码"></wInput></view>
+							<view class="yan-left-PLR left">
+								<wInput 
+								v-model="code" 
+								type="number" 
+								maxlength="4" 
+								placeholder="请输入验证码"
+								inputWidth='60vw'
+								></wInput></view>
 							<view class="ma-right-PLR left">
 								<view v-bind:class="{ yazm: isOvertime, 're-yazm': !isOvertime }" type="primary" action-type="button" mini @tap="sendMessage">{{ word }}</view>
 							</view>
@@ -22,11 +35,21 @@
 							<view class="line"></view>
 						</view>
 						<view class="inputPhone-PLR">
-							<wInput v-model="passWord" type="password" placeholder="请输入新密码"></wInput>
+							<wInput 
+							v-model="passWord" 
+							type="password" 
+							placeholder="请输入新密码"
+							inputWidth='85vw'
+							></wInput>
 							<view class="line"></view>
 						</view>
 						<view class="inputPhone-PLR">
-							<wInput v-model="passWord1" type="password" placeholder="确认新密码"></wInput>
+							<wInput 
+							v-model="passWord1" 
+							type="password" 
+							placeholder="确认新密码"
+							inputWidth='85vw'
+							></wInput>
 							<view class="line"></view>
 						</view>
 					</view>
@@ -119,7 +142,7 @@ export default {
 				// 发送短信参数
 				phone: this.phone,
 				businessName: '1',
-				portal: 'iambuyer'
+				portal: 'ruhexiu'
 			};
 			uni.request({
 				url: this.api1 + '/rest-sso/phoneSms', //接口地址。
@@ -340,8 +363,8 @@ export default {
 <style scoped>
 .landRegistration-content {
 	position: relative;
-	width: 750upx;
-	height: 1334upx;
+	width: 100vw;
+	height: 100vh;
 	background: #fff;
 }
 .landRegistration {
@@ -381,7 +404,6 @@ export default {
 .inputYan-PLR {
 	position: relative;
 	width: 100%;
-	margin-top: 6vw;
 }
 .yan-left-PLR {
 	position: relative;
@@ -402,7 +424,7 @@ export default {
 	font-family: PingFangSC-Light;
 	font-size: 4vw;
 	color: #02c2a2;
-	line-height: 12vw;
+	line-height: 11vw;
 	text-align: right;
 }
 .top-PWLR > img {

@@ -35,8 +35,7 @@
 	line-height: 32rpx;
 	max-width: 320rpx;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 	font-weight: bold;
 }
@@ -59,8 +58,7 @@
 	color: #9B9B9B;
 	line-height: 24rpx;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 	margin-top: 15rpx;
 }

@@ -18,7 +18,8 @@
     {
       "root": "modules/publishPurchase",
       "pages": [
-        "publishPurchase"
+        "publishPurchase",
+        "selectTemplate/publishPurchaseFinish/publishPurchaseFinishShare"
       ]
     },
     {
@@ -28,7 +29,8 @@
         "templatePro/templatePro",
         "templateFinish/templateFinish",
         "templateFinish/templateFinishShare",
-        "templateFinish/templateFinishMade"
+        "templateFinish/templateFinishMade",
+        "webView/webView"
       ]
     },
     {
@@ -49,6 +51,8 @@
         "myproduct/product-book/QRcodeandinquiry/QRcode-list/QRcodelist-edit",
         "Order/Order",
         "Order/Order-list/Order-details/Order-details",
+        "Order/Order-list/Order-details/Order-detailsh",
+        "Order/Order-list/Order-details/Order-confirm",
         "Order/Order-list/Order-details/Order-details2",
         "Edit-instructions/Edit-instructions",
         "Purchase/Purchase",
@@ -82,6 +86,7 @@
         "personAndCompany/companyInfor/companyInforEdit",
         "mybusiness/my-business",
         "personAndCompany/memberCenter/memberCenter",
+        "personAndCompany/memberCenter/memberCenterItems/buyMember/buyMember",
         "mySetup/my-Setup",
         "personAndCompany/accountCenter/accountCenter",
         "mySetup/mySetups/mySetup-phone",
@@ -108,10 +113,16 @@
     "backgroundColorBottom": "#F4F5F6"
   },
   "preloadRule": {},
+  "networkTimeout": {
+    "request": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
   "permission": {
     "scope.userLocation": {
       "desc": ""
     }
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap16.json"
 }

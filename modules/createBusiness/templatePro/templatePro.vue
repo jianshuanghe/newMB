@@ -42,6 +42,10 @@
 </template>
 
 <script>
+	// import {isDataPuTong}from '@/static/mbcJs/dataJson/xiaomi.js';
+	// import {isDataPuTong}from '@/static/mbcJs/dataJson/dingzhi.js';
+	import {isDataPuTong}from '@/static/mbcJs/dataJson/gongcheng.js';
+	import {moduleTemp}from '@/static/mbcJs/dataJson/moduleTemp.js';
 	import moduleTemPro from './moduleTemPro/moduleTemPro';
 	import moduleBtnPro from './moduleBtnPro/moduleBtnPro';
 	import navigation from '@/components/mbbo/navigation/navigation.vue';
@@ -158,6 +162,7 @@
 			  }
 			})
 			// #endif
+			console.log(isDataPuTong, 'isDataPuTong');
 		},
 		beforeDestroy () {
 			// console.log('页面销毁之前缓存数据更新-----------setImgList、setCaiGouList');
@@ -191,7 +196,8 @@
 					success: response => {
 						// console.log(response.data, '---------------response.data--------------')
 						if (response.data.ret === '200') {
-							this.moduleDateList = response.data;
+							// this.moduleDateList = response.data;
+							this.moduleDateList = isDataPuTong; // 测试
 							if (Number(this.routeParam.instrucCustType)=== 1) {
 								this.getModuleTempList(id); // 根据id 拉去用户可添加的模块信息
 								this.getCustModuleTempList(id); 
@@ -260,7 +266,8 @@
 						// console.log(response.data, '---------------response.data--------------')
 						if (response.data.ret === '200') {
 							uni.hideLoading(); // 隐藏 loading
-							this.moduleTempList = response.data;
+							// this.moduleTempList = response.data;
+							this.moduleTempList = moduleTemp; // 测试使用
 							this.loadEnd = true; // 加载完成
 						} else if (response.data.ret === '202') {
 							uni.removeStorageSync('landRegist');
@@ -582,7 +589,7 @@
 			},
 			// 用户操作模板之后返回的新数据
 			tapModuleTemPro (e) {
-				// console.log(e, '用户操作模板之后返回的新数据');
+				console.log(e, '用户操作模板之后返回的新数据');
 				this.moduleDateList = e;
 			},
 			tapSetFixedTemp (e) {

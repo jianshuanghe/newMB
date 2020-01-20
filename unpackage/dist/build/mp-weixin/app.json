@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/testTem",
     "pages/project/MBBO/home",
     "pages/landRegistration/h5/landRegistration",
     "pages/landRegistration/h5/forgetPassWord",
@@ -19,13 +18,19 @@
     {
       "root": "modules/publishPurchase",
       "pages": [
-        "publishPurchase"
+        "publishPurchase",
+        "selectTemplate/publishPurchaseFinish/publishPurchaseFinishShare"
       ]
     },
     {
       "root": "modules/createBusiness",
       "pages": [
-        "selectTemplate"
+        "selectTemplate",
+        "templatePro/templatePro",
+        "templateFinish/templateFinish",
+        "templateFinish/templateFinishShare",
+        "templateFinish/templateFinishMade",
+        "webView/webView"
       ]
     },
     {
@@ -33,39 +38,66 @@
       "pages": [
         "newsList/newsList",
         "newsPraisedAndCollection/news-PraisedAndCollection",
-        "newssystem/news-system",
+        "newssystem/news-systemlist",
         "newssystem/system-feeling/news-feeling"
       ]
     },
     {
       "root": "modules/InstructionsPrice",
       "pages": [
-        "myproduct/myproduct"
+        "myproduct/myproduct-shu",
+        "myproduct/product-book/product-books",
+        "myproduct/product-book/dataReport/dataReport",
+        "myproduct/product-book/QRcodeandinquiry/QRcode-list/QRcodelist-edit",
+        "Order/Order",
+        "Order/Order-list/Order-details/Order-details",
+        "Order/Order-list/Order-details/Order-detailsh",
+        "Order/Order-list/Order-details/Order-confirm",
+        "Order/Order-list/Order-details/Order-details2",
+        "Edit-instructions/Edit-instructions",
+        "Purchase/Purchase",
+        "Purchase/Purchase-details/Purchase-details",
+        "Purchase/Purchase-details/dataReport/dataReport"
+      ]
+    },
+    {
+      "root": "modules/find",
+      "pages": [
+        "findlist/find-search",
+        "findlist/find-cloud",
+        "findlist/find-capital"
       ]
     },
     {
       "root": "modules/myCompany",
       "pages": [
         "myList/myheader",
+        "personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/editvalidity",
+        "personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/industryAddress/address",
+        "personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/editBasicInfor",
         "myList/myheader-list/myheader-Personal",
         "myList/myheader-list/myheader-interested",
         "myList/myheader-list/myheader-Keyword",
         "myList/myheader-list/myheader-Purchase",
+        "myList/myheader-list/KeyWords",
         "myFocusonfans/my-Focusonfans",
         "personAndCompany/companyInfor/companyInfor",
         "myCollectiononBrowseonPoints/my-CollectiononBrowseonPoints",
         "personAndCompany/companyInfor/companyInforEdit",
         "mybusiness/my-business",
         "personAndCompany/memberCenter/memberCenter",
+        "personAndCompany/memberCenter/memberCenterItems/buyMember/buyMember",
         "mySetup/my-Setup",
         "personAndCompany/accountCenter/accountCenter",
         "mySetup/mySetups/mySetup-phone",
+        "mySetup/mySetups/mySetup-pass",
         "personAndCompany/aboutUs/aboutUs",
         "personAndCompany/Opinion/Opinion",
         "mySetup/mySetups/mySetup-mailbox",
         "mySetup/mySetups/mySetup-WX",
         "mySetup/mySetups/mySetup-address",
         "mySetup/mySetups/mySetup-address-new",
+        "mySetup/mySetups/mySetup-address-new2",
         "myBuyeronAlready/my-BuyeronAlready",
         "myBuyeronAlready/my-BuyeronAlready/Message-details/Already-details",
         "myBuyeronAlready/my-BuyeronAlready/Message-details/Buyer-details"
@@ -81,6 +113,11 @@
     "backgroundColorBottom": "#F4F5F6"
   },
   "preloadRule": {},
+  "networkTimeout": {
+    "request": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
   "permission": {
     "scope.userLocation": {
       "desc": ""

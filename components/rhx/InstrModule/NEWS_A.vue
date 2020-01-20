@@ -329,9 +329,6 @@ export default {
 			this.dataLists.dataList[this.addId].instBanner = this.list[this.current].bannerImg;
 			this.dataLists.dataList[this.addId].instName = this.list[this.current].instrucTitle;
 			this.dataLists.dataList[this.addId].instId = this.list[this.current].instrucId.toString();
-			this.dataLists.dataList[this.addId].creatorId = this.list[this.current].userId.toString();/*提示userId不存在，吧这行清除注释就有userid了，但是底部按钮就没有了*/
-			this.dataLists.dataList[this.addId].tempId = this.list[this.current].tempId;
-			this.dataLists.dataList[this.addId].isMenu = this.list[this.current].isMenu;
 		},	
 		//创建我的产品说明书
 		navigateToAdd(){

@@ -1,12 +1,1 @@
-
-.moduleList{
-	position: relative;
-	width: 100vw;
-	/* padding: 40upx 40upx 40upx 40upx; */
-	background: #fff;
-}
-.module-box{
-	position: relative;
-	width: 100%;
-}
-
+.moduleList{position:relative;width:100%;background:#fff}.module-box{position:relative;width:100%}.module-add{position:fixed;width:100vw;left:0;z-index:1001}

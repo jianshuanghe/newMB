@@ -3,7 +3,7 @@
 	<div class="mode-list"  :id='dataLists.id'>
 		<!-- title -->
 		<div class="title">
-			<rTitle
+			<!-- <rTitle
 			:disabled='!disabled'
 			:isShowOne='true'
 			:rPadding="tabYItemsIndex === indexNum ? '6vw 0' : '6vw 0'"
@@ -25,79 +25,87 @@
 			tBStyleOne="dashed"
 			:isShowTwo='false'
 			@tap-Title='tabIconTitle'
-			></rTitle>
+			></rTitle> -->
 		</div>
 		<div class="mode-items" 
 		v-for='(item,index) in dataLists.dataList' 
-		:key='index'
-		:class="index%2===1 && index !== 0 ? 'right' : 'left'" >
-			<!-- 产品说明 -->
-			<div class="titleTwo">
-				<rTitle
+		:key='index'>
+		<div class='items-box'>
+			<div class="right item-text">
+				<!-- 产品说明 -->
+				<div class="titleTwo">
+					<rTitle
+					:dataList='dataLists.dataList'
+					:itemsData='dataLists.dataList[0]'
+					:indexNum='index'
+					:disabled='!disabled'
+					:isShowOne='true'
+					:valueOne="item.title"
+					typeOne="text" 
+					:focusOne='false'
+					:cursorOne='0'
+					adjustPositionOne='adjustPosition'
+					tTAlignOne='left'
+					tFontSizeOne='4.266vw'
+					tLineHeightOne='7vw'
+					tWidthOne="100%"
+					tHeightOne="7vw"
+					tPaddingOne="0 0 0 7vw"
+					tBGOne="rgba(212, 253, 247, 0.21)"
+					tBorderOne="1px solid #02C2A2"
+					tBStyleOne="dashed"
+					:tSortSHow='true'
+					:isShowTwo='true'
+					:valueTwo='item.content'
+					keyNameTwo='content'
+					tWidthTwo="100%"
+					tTMarginTwo='0vw 0'
+					tHeightTwo=""
+					:autoHeightTwo='true'
+					tPaddingTwo=""
+					tLineHeightTwo='5vw'
+					tBGTwo="rgba(212, 253, 247, 0.21)"
+					tBorderTwo="1px solid #02C2A2"
+					tBStyleTwo="dashed"
+					@tap-index='tapIndex'
+					@tap-Title='tapTitleContent'
+					></rTitle>
+				</div>
+			</div>
+			<div class="left item-img">
+				<!-- 单张图片组件 -->
+				<singlePicture
+				:disabled='disabled'
 				:dataList='dataLists.dataList'
 				:itemsData='dataLists.dataList[0]'
 				:indexNum='index'
-				:disabled='!disabled'
-				:isShowOne='true'
-				:valueOne="item.title"
-				typeOne="text" 
-				:focusOne='false'
-				:cursorOne='0'
-				adjustPositionOne='adjustPosition'
-				tTAlignOne='left'
-				tFontSizeOne='4.266vw'
-				tLineHeightOne='7vw'
-				tWidthOne="100%"
-				tHeightOne="7vw"
-				tPaddingOne="0 0 0 7vw"
-				tBGOne="rgba(212, 253, 247, 0.21)"
-				tBorderOne="1px solid #02C2A2"
-				tBStyleOne="dashed"
-				:tSortSHow='true'
-				:isShowTwo='true'
-				:valueTwo='item.content'
-				keyNameTwo='content'
-				tWidthTwo="100%"
-				tTMarginTwo='0vw 0'
-				tHeightTwo=""
-				:autoHeightTwo='true'
-				tPaddingTwo=""
-				tLineHeightTwo='5vw'
-				tBGTwo="rgba(212, 253, 247, 0.21)"
-				tBorderTwo="1px solid #02C2A2"
-				tBStyleTwo="dashed"
-				@tap-index='tapIndex'
-				@tap-Title='tapTitleContent'
-				></rTitle>
+				:defaultImg='defaultAddImg'
+				:imgSrc='item.imgUrl'
+				mode='widthFix'
+				lazyLoad=true
+				pictureWidth='100%'
+				pictureHeight='78.666vw'
+				@tap-Picture='tabPicture'
+				:deleteMoveShow='deleteMoveTipsShow'
+				></singlePicture>
 			</div>
-			<!-- 单张图片组件 -->
-			<singlePicture
-			:disabled='disabled'
-			:dataList='dataLists.dataList'
-			:itemsData='dataLists.dataList[0]'
-			:indexNum='index'
-			:defaultImg='defaultAddImg'
-			:imgSrc='item.imgUrl'
-			mode='widthFix'
-			lazyLoad=true
-			pictureWidth='100%'
-			pictureHeight='78.666vw'
-			@tap-Picture='tabPicture'
-			:deleteMoveShow='deleteMoveTipsShow'
-			></singlePicture>
+			<div class="clear"></div>
+		</div>
+			
+			
 			<!-- 删除、上移、下移 -->
-			<deleteMoveTips
+			<!-- <deleteMoveTips
 			:dataList='dataLists.dataList'
 			:itemsData='dataLists.dataList[0]'
 			:indexNum='index'
 			dMWidth='100%'
 			dMHeight='100%'
 			@tap-DeleteMoveTips='tapDeleteMoveTips'
-			v-if='deleteMoveTipsShow && disabled'></deleteMoveTips>
+			v-if='deleteMoveTipsShow && disabled'></deleteMoveTips> -->
 		</div>
 		<div class='clear'></div>
 		<!-- 管理项目、复加此项 -->
-		<manageCopyTips
+		<!-- <manageCopyTips
 		v-if='disabled'
 		:manageCopyShow='deleteMoveTipsShow'
 		:manageType='manageType'
@@ -105,7 +113,7 @@
 		:itemsData='dataLists.dataList[0]'
 		:isManageShow='true'
 		@tap-ManageCopyTips='tapManageCopyTips'
-		></manageCopyTips>
+		></manageCopyTips> -->
 	</div>
 </template>
 
@@ -216,6 +224,18 @@
 		margin-bottom: 30upx;
 	}
 	.mode-items{
+		position: relative;
+		width: 100%;
+	}
+	.items-box{
+		position: relative;
+		width: 100%;
+	}
+	.item-text{
+		position: relative;
+		width: 48%;
+	}
+	.item-img{
 		position: relative;
 		width: 48%;
 	}

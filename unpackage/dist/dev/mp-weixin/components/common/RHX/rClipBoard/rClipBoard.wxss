@@ -20,6 +20,14 @@
 	color: #2E2E30;
 	letter-spacing: 0;
 	line-height: 60rpx;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	white-space: normal;
+	word-break: break-all;
+	word-wrap: break-word;
 }
 .copyBtn{
 	position: relative;
@@ -36,5 +44,22 @@
 	line-height: 60rpx;
 	float: right;
 	text-align: right;
-}	
+}
+.swiper-containerMask{
+	position: absolute;
+	top: 0;
+	background: rgba(66, 65, 65, 0.29);
+	width: 100%;
+	height: 100%;
+}
+.tips{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 200px;
+	z-index: 103;
+}
 

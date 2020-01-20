@@ -27,7 +27,6 @@
 	height: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 }
 .myBuyeronAlready-title>view{
@@ -56,4 +55,5 @@
 	background-color: #02C2A2;
 	color: #02C2A2;
 }
+
 

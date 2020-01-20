@@ -63,7 +63,6 @@
 	line-height: 76rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 	float: left;
 }

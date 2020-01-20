@@ -10,6 +10,9 @@
 	position: relative;
 	width: 100%;
 }
+.title{
+	margin-bottom: 3vw;
+}
 .titleModule{
 	position: relative;
 	width: 80%;

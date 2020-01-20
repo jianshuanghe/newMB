@@ -19,53 +19,29 @@
 			</topBox>
 		</div>
 		<!-- 模块条组件 -->
-		<div class='moduleList' v-if='isModuleListShow'>
-			<!-- rPicker -->
-			<rPicker
-			leftText='取消'
-			centerText='管理模块'
-			rightText='保存'
-			:dataList='moduleTempList'
-			:translateY="this.VwVhToPx(2, 'vh')"
-			scrollHeight='86vh'
-			:marginBottomShow='false'
-			:scrollY='true'
-			:isAnimate='true'
-			rightColor='#02C2A2'
-			@tap-PickerCancel='tapPickerCancel'
-			@tap-PickerPreserve='tapPickerPreserve'
-			>
-				<moduleList
-				:disabled='true'
-				:scrollHeight='scrollHeight'
-				:addModuleTop='addModuleTop'
-				:dataList="content.context.tempCon.modules" 
-				:selIconList='content.context.tempCon.selIconList'
-				:moduleTempList='moduleTempList.content'
-				type='1'
-				:isDrag='true'
-				:pickerCancel='pickerCancel'
-				@tap-PreserveBotttom='tapPreserveBotttom'
-				@tab-ModuleList='tabModuleList'
-				>
-				</moduleList>
-			</rPicker>
+		<div class="moduleModify" v-if='isModuleListShow'>
+			<moduleModify
+			:dataList='dataList.context.tempCon.modules'
+			:moduleTempList='moduleTempLists'
+			:dataListY='dataList'
+			@tap-PreserveModuleModify='tapPreserveModuleModify'
+			@tap-CancelModify='tapCancelModify'
+			@tap-PreserveModify='tapPreserveModify'
+			></moduleModify>
 		</div>
+		
 	</div>
 </template>
 
 <script>
 import topBox from '@/components/mbbo/topBox/topBox';
 import rSelect from '@/components/common/RHX/rSelect/rSelect';
-import rPicker from '@/components/common/RHX/rPicker/rPicker';
-import moduleList from '@/components/common/RHX/moduleList/moduleList';
-
+import moduleModify from '@/components/common/RHX/moduleModify/moduleModify';
 export default {
 	components: {
 		topBox,
 		rSelect,
-		rPicker,
-		moduleList
+		moduleModify
 	},
 	props: [
 		'disabled', 
@@ -94,6 +70,8 @@ export default {
 		// this.content = JSON.parse(JSON.stringify(this.dataList)) // 深拷贝数组
 		this.content = this.dataList; // 不需要很拷贝数组
 		console.log(this.content, '-------------------------this.content--------------------');
+		this.moduleTempLists = this.moduleTempList.content;
+		console.log(this.moduleTempList, 'moduleTempList||');
 		this.scrollHeight = this.VwVhToPx(90, 'vh') - 20 + 'px'
 		this.addModuleTop = this.VwVhToPx(90, 'vh') - 60 + 'px'
 	},
@@ -104,6 +82,13 @@ export default {
 		fixedScroll: {
 			handler(a, b) {
 				console.log(a, b, '--------------------------------------监听valueOne变化---------------------------------------');
+			},
+			deep: true
+		},
+		moduleTempList: {
+			handler(a, b) {
+				console.log(a, b, '--------------------------------------监听moduleTempList变化---------------------------------------');
+				this.moduleTempLists = a.content;
 			},
 			deep: true
 		}
@@ -144,38 +129,7 @@ export default {
 			this.isModuleListShow = true;
 			console.log(this.isModuleListShow)
 		},
-		// 点击picker取消按钮
-		tapPickerCancel () {
-			console.log('点击picker取消按钮');
-			this.pickerCancel = false; // 记录用户触发picker取消按钮
-			console.log(this.pickerCancel, '----------------this.pickerCancel--------------')
-			this.isModuleListShow = false; // 关闭picker
-		},
-		// 点击picker确定按钮
-		tapPickerPreserve (e) {
-			console.log(e, '点击picker确定按钮');
-			this.isModuleListShow = false; // 关闭picker
-			this.dataLists.content = this.content; // 合并数据
-			let data = this.dataLists.content.context.tempCon.modules;
-			this.$emit('tap-Title', [data, '']);
-			if (uni.getStorageSync('currentList')) {
-				let currentList = uni.getStorageSync('currentList'); // 读取缓存中用户修改的数据
-				let newDate=[];
-				currentList.map((item, index)=>{
-					if(item.isShow === 1) {
-						delete item.SortNumber;
-						delete item.index;
-						delete item.isShow;
-						delete item.animation;
-						delete item.y;
-						delete item.x;
-						newDate.push(item);
-					}
-				});
-				console.log(newDate, '----------处理后的数据-----------')
-				this.$emit('tap-Title', [newDate, '']);
-			}
-		},
+		
 		// 点击模块List组件
 		tabModuleList (e) {
 			console.log(e, '++++++++++++++++++++++++++++点击模块List组件+++++++++++++++++++++++++++');
@@ -201,6 +155,25 @@ export default {
 			let scrollInto = datalist[datalist.length - 1].id;
 			this.$emit('tap-Title', [datalist, scrollInto]);
 		},
+		tapItemsModify(e){
+			this.isModuleListShow = true;
+		},
+		// 取消修改模块
+		tapCancelModify (e) {
+			console.log(e, '取消修改模块');
+			this.isModuleListShow = e[1];
+		},
+		// 确定修改模块
+		tapPreserveModify (e) {
+			console.log(e, '确定修改模块');
+			this.isModuleListShow = e[1];
+			this.$emit('tap-Title', [e[0], '']);
+		},
+		// tapPreserveModuleModify
+		tapPreserveModuleModify (e) {
+			this.isModuleListShow = e[2];
+			this.$emit('tap-Title', [e[0], e[1]]);
+		}
 	}
 };
 </script>

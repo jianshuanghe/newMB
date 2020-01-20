@@ -73,12 +73,14 @@
 		width: 100%;
 	}
 	.moduleIconLibrary{
-		position: absolute;
-		left:0;
+		position: relative;
+		margin-left: -20px;
+		margin-bottom: 0px;
+		margin-top: 23px;
 		width: 100vw;
-		height: 228upx;
+		height: 114px;
 		z-index: 100009;
-		top: 86upx;
+		/* top: 43px; */
 		background: #F9F9F9;
 	}
 	.changeIcon{

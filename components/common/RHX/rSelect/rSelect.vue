@@ -160,7 +160,7 @@
 		font-size: 32upx;
 		color: #2E2E30;
 		letter-spacing: 0;
-		text-align: center
+		text-align: right
 	}
 	.upDown{
 		position: relative;
@@ -186,7 +186,8 @@
 	.list-box{
 		position: relative;
 		width: 400upx;
-		margin: auto;
+		/* margin: auto; */
+		float: right;
 		opacity: 0.98;
 		border-radius: 4px 4px 0 0;
 		border-radius: 4px 4px 0px 0px;

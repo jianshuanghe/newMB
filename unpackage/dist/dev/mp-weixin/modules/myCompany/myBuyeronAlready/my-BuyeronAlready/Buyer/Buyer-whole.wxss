@@ -37,8 +37,7 @@
 	line-height: 42rpx;
 	padding-top: 32rpx;
 	overflow:hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	display:-webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-line-clamp:2;
@@ -85,5 +84,19 @@
 .meirenkanwo>image {
 	width: 92%;
 	height: 80%;
+}
+.scroll-v {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	
+	width: 750rpx;
+	height: 92vh;
+	padding-bottom: 0vh;
 }
 

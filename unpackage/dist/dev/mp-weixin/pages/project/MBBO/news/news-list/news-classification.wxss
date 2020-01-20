@@ -21,8 +21,8 @@
 	position: relative;
 }
 .news-classification-fen>view:nth-of-type(1){
-	width: 42rpx;
-	height: 42rpx;
+	width: 48rpx;
+	height: 48rpx;
 	margin: 44rpx auto auto auto;
 }
 .news-classification-fen>view:nth-of-type(1)>image{

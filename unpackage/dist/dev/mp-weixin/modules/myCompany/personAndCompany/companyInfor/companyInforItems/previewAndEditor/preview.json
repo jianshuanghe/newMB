@@ -3,7 +3,8 @@
     "top-box": "/components/mbbo/topBox/topBox",
     "company-infor-title": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/preview/companyInforTitle",
     "basic-infor": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/preview/previewItems/basicInfor",
-    "qualificat-cert": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/preview/previewItems/qualificatCert"
+    "qualificat-cert": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/preview/previewItems/qualificatCert",
+    "navigation": "/components/mbbo/navigation/navigation"
   },
   "component": true
 }

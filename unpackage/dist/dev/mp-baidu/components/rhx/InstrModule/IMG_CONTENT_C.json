@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "single-picture": "/components/common/RHX/singlePicture/singlePicture",
+    "delete-move-tips": "/components/common/RHX/deleteMoveTips/deleteMoveTips",
+    "manage-copy-tips": "/components/common/RHX/manageCopyTips/manageCopyTips"
+  },
+  "component": true
+}

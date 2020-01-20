@@ -79,6 +79,9 @@
 	color: #02C2A2;
 	margin-left: 20rpx;
 	line-height: 73rpx;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
 }
 .Already-details-del{
 	width: 100%;

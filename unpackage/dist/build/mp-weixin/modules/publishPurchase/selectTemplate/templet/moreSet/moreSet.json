@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-switch": "/components/common/switch/switch"
+  },
+  "component": true
+}

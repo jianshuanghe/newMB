@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "number-box": "/components/common/RHX/numberBox/numberBox"
+  },
+  "component": true
+}

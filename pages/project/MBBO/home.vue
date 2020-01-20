@@ -18,7 +18,11 @@
 		<!-- 快捷导航 -->
 		<navigation v-if="QUICKNAVCO.show"></navigation>
 		<!-- 判断用户是否第一次进入页面 显示选择关键词 -->
-		<KeyWords v-if="KeyWord" v-on:keys="keys" v-on:Refresh="Refresh"></KeyWords>
+		<KeyWords 
+		v-if="KeyWord" 
+		v-on:keys="keys" 
+		v-on:Refresh="Refresh"
+		></KeyWords>
 	</view>
 </template>
 

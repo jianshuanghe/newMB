@@ -15,7 +15,11 @@
 			<!-- #ifdef MP-WEIXIN -->  
 			<button  open-type="getUserInfo" withCredentials="true" lang="zh_CN" @getuserinfo="getPhoneNumber" class="land-btn-box" v-if="phoneIsGet">登录</button> 
 			<button  open-type="getPhoneNumber" withCredentials="true" lang="zh_CN" @getphonenumber="getPhoneNumber" class="land-btn-box" v-else>注册</button> 
-			<!-- #endif -->  
+			<!-- #endif --> 
+			 <!-- #ifdef MP-BAIDU -->
+			 <button  open-type="getUserInfo" withCredentials="true" lang="zh_CN" @getuserinfo="getPhoneNumber" class="land-btn-box" v-if="phoneIsGet">登录</button> 
+			 <button  open-type="getPhoneNumber" withCredentials="true" lang="zh_CN" @getphonenumber="getPhoneNumber" class="land-btn-box" v-else>注册</button> 
+			 <!-- #endif --> 
           </view>
         </view>
       </view>

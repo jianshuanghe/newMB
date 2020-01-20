@@ -3,7 +3,9 @@
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	z-index: 999999;
+	top: 0;
+	left: 0;
+	/* z-index: 999999; */
 }
 .mask{
 	width: 100%;
@@ -15,10 +17,9 @@
 .skipMask{
 	width: 540rpx;
 	position: absolute;
-	top: -100%;
+	top: 20%;
 	left: 50%;
 	-webkit-transform: translate(-50%, 0%);
-	    -ms-transform: translate(-50%, 0%);
 	        transform: translate(-50%, 0%);
 	z-index: 103;
 	background: #FFFFFF;
@@ -83,8 +84,7 @@
 }
 .continueBtn{
 	background: #02C2A2;
-	-webkit-box-shadow: 0 0 10px 0 rgba(2,194,162,0.40);
-	        box-shadow: 0 0 10px 0 rgba(2,194,162,0.40);
+	box-shadow: 0 0 10px 0 rgba(2,194,162,0.40);
 	border-radius: 25px;
 	border-radius: 25px;
 	position: relative;

@@ -1,0 +1,36 @@
+
+.my-about{
+	width: 100%;
+	height: 242rpx;
+	background: #FFFFFF;
+	margin-top: 20rpx;
+}
+.my-about-company{
+	margin: 0 auto;
+	width: 90%;
+	height: 120rpx;
+	border-bottom: 2rpx solid #F5F5F5;
+}
+.my-about-company>view:nth-of-type(1){
+	font-size: 28rpx;
+	color: #2E2E30;
+	line-height: 120rpx;
+	float: left;
+}
+.my-about-company>view:nth-of-type(2){
+	width: 10%;
+	height: 100%;
+	float: right;
+	line-height: 120rpx;
+	text-align: center;
+}
+.my-about-company>view:nth-of-type(2)>image{
+	width: 18rpx;
+	height: 18rpx;
+}
+.my-about-company:nth-of-type(2){
+	padding-bottom:300rpx;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL+S7o+eggS9TVk4v5oWn6IGq6ZmM5oucc3ZuMTIuMTMvMTIuMTMu5pma5LiKL3BhZ2VzL3Byb2plY3QvTUJCTy9teS9teS1saXN0L215LWFib3V0LnZ1ZT8yZGMzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6InBhZ2VzL3Byb2plY3QvTUJCTy9teS9teS1saXN0L215LWFib3V0LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLm15LWFib3V0e1xuXHR3aWR0aDogMTAwJTtcblx0aGVpZ2h0OiAyNDJycHg7XG5cdGJhY2tncm91bmQ6ICNGRkZGRkY7XG5cdG1hcmdpbi10b3A6IDIwcnB4O1xufVxuLm15LWFib3V0LWNvbXBhbnl7XG5cdG1hcmdpbjogMCBhdXRvO1xuXHR3aWR0aDogOTAlO1xuXHRoZWlnaHQ6IDEyMHJweDtcblx0Ym9yZGVyLWJvdHRvbTogMnJweCBzb2xpZCAjRjVGNUY1O1xufVxuLm15LWFib3V0LWNvbXBhbnk+dmlldzpudGgtb2YtdHlwZSgxKXtcblx0Zm9udC1zaXplOiAyOHJweDtcblx0Y29sb3I6ICMyRTJFMzA7XG5cdGxpbmUtaGVpZ2h0OiAxMjBycHg7XG5cdGZsb2F0OiBsZWZ0O1xufVxuLm15LWFib3V0LWNvbXBhbnk+dmlldzpudGgtb2YtdHlwZSgyKXtcblx0d2lkdGg6IDEwJTtcblx0aGVpZ2h0OiAxMDAlO1xuXHRmbG9hdDogcmlnaHQ7XG5cdGxpbmUtaGVpZ2h0OiAxMjBycHg7XG5cdHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbi5teS1hYm91dC1jb21wYW55PnZpZXc6bnRoLW9mLXR5cGUoMik+aW1hZ2V7XG5cdHdpZHRoOiAxOHJweDtcblx0aGVpZ2h0OiAxOHJweDtcbn1cbi5teS1hYm91dC1jb21wYW55Om50aC1vZi10eXBlKDIpe1xuXHRwYWRkaW5nLWJvdHRvbTozMDBycHg7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9*/

@@ -25,7 +25,6 @@
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
-	    -ms-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
 }
 .itemsChecked{
@@ -86,7 +85,6 @@
 .img-box .img{
 	position: relative;
 	width: 120rpx;
-	height: 160rpx;
 }
 .text-box{
 	position: relative;
@@ -163,8 +161,8 @@
 	position: absolute;
 	width: 44rpx;
 	height: 44rpx;
-	top:-12rpx;
-	right: 12rpx;
+	top: -20rpx;
+	right: 6rpx;
 }
 .delIcon{
 	position: relative;

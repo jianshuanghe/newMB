@@ -1,8 +1,7 @@
 
 .resuleTab-content{
 	background: #FFFFFF;
-	-webkit-box-shadow: 0 1px 0 0 #F5F5F5;
-	        box-shadow: 0 1px 0 0 #F5F5F5;
+	box-shadow: 0 1px 0 0 #F5F5F5;
 }
 .resuleTab{
 	position: relative;

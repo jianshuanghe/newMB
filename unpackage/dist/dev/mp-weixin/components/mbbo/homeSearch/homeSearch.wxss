@@ -18,9 +18,9 @@
 	width: 60rpx;
 }
 .search-NI-img > image {
-	width: 36rpx;
-	height: 36rpx;
-	margin-top: 12rpx;
+	width: 30rpx;
+	height: 30rpx;
+	margin-top: 16rpx;
 	margin-left: 20rpx;
 }
 .search-NI-text {

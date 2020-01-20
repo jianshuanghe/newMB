@@ -16,6 +16,7 @@
 	color: #BDBDBD;
 	letter-spacing: 0;
 	line-height: 40rpx;
+	margin-bottom: 40rpx;
 }
 .imageUpload1 {
 	width: 220rpx !important;

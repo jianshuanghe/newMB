@@ -2,7 +2,7 @@
 .addMade-box{
 	position: relative;
 	bottom: 0;
-	margin: 2vw 0;
+	padding: 2rpx 0 32rpx 0;
 }
 .addMade-btn{
 	position: relative;

@@ -49,7 +49,6 @@
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
-	    -ms-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
 }
 .itemsChecked{
@@ -137,8 +136,7 @@
 }
 .img-box .img {
 	position: relative;
-	width: 120rpx;
-	height: 160rpx;
+	width: 160rpx;
 }
 .text-box {
 	position: relative;
@@ -147,6 +145,13 @@
 }
 .selectImg {
 	position: relative;
+	width: 26rpx;
+	height: 26rpx;
+	top: 4rpx;
+}
+.selectImg3 {
+	position: relative;
+	margin-left: 1.5vw;
 	width: 26rpx;
 	height: 26rpx;
 	top: 4rpx;
@@ -169,7 +174,7 @@
 .styleClose-box {
 	position: relative;
 	width: 100%;
-	margin-bottom: 4vw;
+	margin-bottom: 6vw;
 }
 .SC-left{
 	position: relative;
@@ -199,7 +204,8 @@
 	font-family: PingFangSC-Regular;
 	font-size: 26rpx;
 	color: #2E2E30;
-	line-height: 40rpx;
+	line-height: 44rpx;
+	margin-bottom: 12rpx;
 }
 .SC-ins{
 	position: relative;

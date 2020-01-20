@@ -1,8 +1,7 @@
 
 .resuleTab-content {
 	background: #ffffff;
-	-webkit-box-shadow: 0 1px 0 0 #f5f5f5;
-	        box-shadow: 0 1px 0 0 #f5f5f5;
+	box-shadow: 0 1px 0 0 #f5f5f5;
 }
 .resuleTab {
 	position: relative;
@@ -13,8 +12,7 @@
 	position: relative;
 	width: 100%;
 	background: #FFFFFF;
-	-webkit-box-shadow: 0 1px 0 0 #F5F5F5;
-	        box-shadow: 0 1px 0 0 #F5F5F5;
+	box-shadow: 0 1px 0 0 #F5F5F5;
 }
 .RT-box {
 	position: relative;

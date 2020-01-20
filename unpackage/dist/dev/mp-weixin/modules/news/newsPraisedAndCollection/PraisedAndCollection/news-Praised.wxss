@@ -17,7 +17,7 @@
 }
 .news-Praised-con{
 	width: 100%;
-	height: 274rpx;
+	height: 246rpx;
 	background: #FFFFFF;
 }
 .news-Praised-conOne{
@@ -73,6 +73,7 @@
 	width: 100%;
 	height: 120rpx;
 	margin-top: 20rpx;
+	position: relative;
 }
 .news-Praised-body-xia-nei{
 	width: 78%;
@@ -80,8 +81,7 @@
 	color: #2E2E30;
 	line-height: 34rpx;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	display: -webkit-box;
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
@@ -92,8 +92,7 @@
 	color: #2E2E30;
 	line-height: 34rpx;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	display: -webkit-box;
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
@@ -113,6 +112,8 @@
 	font-size: 11px;
 	color: #9B9B9B;
 	clear: both;
+	bottom: 30rpx;
+	position: absolute;
 }
 .meirenkanwo{
 	width: 330rpx;

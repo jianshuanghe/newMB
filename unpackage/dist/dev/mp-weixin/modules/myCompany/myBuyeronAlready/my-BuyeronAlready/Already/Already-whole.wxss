@@ -22,8 +22,7 @@
 	line-height: 42rpx;
 	padding-top: 32rpx;
 	overflow:hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	display:-webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-line-clamp:2;

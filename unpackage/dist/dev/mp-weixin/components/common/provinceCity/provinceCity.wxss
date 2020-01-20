@@ -16,6 +16,16 @@
 	padding-right: 24rpx;
 	padding-top: 0;
 }
+.BI-pickeraa{
+	position: relative;
+	font-family: PingFang-SC-Medium;
+	font-size: 28rpx;
+	color: #D2D2D2;
+	line-height: 80rpx;
+	margin-left: -10rpx;
+	padding-right: 24rpx;
+	padding-top: 0;
+}
 .BI-pickers{
 	position: relative;
 	font-family: PingFang-SC-Medium;
@@ -36,8 +46,5 @@
 	height: 24rpx;
 	right: 0;
 	top: 28rpx;
-}
-.uni-input{
-	background: #F9F9F9 !important;
 }
 

@@ -63,10 +63,9 @@
 	font-size: 30rpx;
 	color: #2E2E30;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	display: -webkit-box;
-	padding-top: 16rpx;
+	padding-top: 26rpx;
 	-webkit-line-clamp: 1;
 	-webkit-box-orient: vertical;
 	/* -webkit-line-clamp: 1;
@@ -77,8 +76,7 @@
 	color: #9B9B9B;
 	width: 100%;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	display: -webkit-box;
 	padding-top: 16rpx;
 	-webkit-line-clamp: 2;

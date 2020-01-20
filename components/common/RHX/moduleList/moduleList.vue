@@ -39,8 +39,15 @@
 		<!-- 添加模块 -->
 		<!-- <div class="module-add" :style="{top: addModuleTop}"> -->
 		<div class="module-add" :style="{bottom: 0}">
-			<moduleAdd 
-			@tap-moduleAdd='tapModuleAdd'></moduleAdd>
+			<div class="left add-box">
+				<moduleAdd
+				@tap-moduleAdd='tapModuleAdd'></moduleAdd>
+			</div>
+			<div class="right edit-box">
+				<moduleEdit
+				@tap-moduleEdit='tapmoduleEdit'></moduleEdit>
+			</div>
+			<div class="clear"></div>
 		</div>
 		<!-- 添加模块区域列表 -->
 		<moduleAddList
@@ -68,12 +75,14 @@
 	import dragSorts from '@/components/common/RHX/dragSorts/dragSorts';
 	import dragSortsNo from '@/components/common/RHX/dragSortsNo/dragSortsNo';
 	import moduleAdd from '@/components/common/RHX/moduleAdd/moduleAdd';
+	import moduleEdit from '@/components/common/RHX/moduleEdit/moduleEdit';
 	import moduleAddList from '@/components/common/RHX/moduleAddList/moduleAddList';
 export default {
 	components: {
 		dragSorts,
 		dragSortsNo,
 		moduleAdd,
+		moduleEdit,
 		moduleAddList
 	},
 	props: [

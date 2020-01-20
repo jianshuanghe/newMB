@@ -154,8 +154,7 @@
 	font-size: 28rpx;
 	color: #2E2E30;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 }
 .Order-details-E-zi>view:nth-of-type(2){
@@ -165,8 +164,7 @@
 	display: -webkit-box;
 	-webkit-line-clamp:2;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	-webkit-box-orient: vertical;
 }
 .Order-details-E-zi>view:nth-of-type(3){
@@ -309,7 +307,7 @@
 	text-align: center;
 	line-height: 100rpx;
 	float: left;
-	background-image: -o-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
+	background-image: -webkit-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
 	background-image: linear-gradient(134deg, #15D49F 0%, #57D6CF 100%);
 }
 .Order-details-tian{

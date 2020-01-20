@@ -1,20 +1,35 @@
 
-.memberCenter-content.data-v-71eadeec{
-  position: fixed;
-  min-height: 100vh;
-  background: #F9F9F9;
+.memberCenter-content.data-v-35c1166e {
+	/* position: fixed; */
+	min-height: 100vh;
+	background: #f9f9f9;
+	position: relative;
 }
-.MCB-box.data-v-71eadeec{
-  position: fixed;
-  width: 100%;
-  height: 91vh;
-  overflow: scroll;
-  padding-bottom: 10vh;
+.MCB-box.data-v-35c1166e {
+	/* position: fixed; */
+	width: 100%;
+	height: 86vh;
+	/* overflow: scroll; */
+	padding-bottom: 10vh;
 }
-.MCB-btn.data-v-71eadeec{
-  position: fixed;
-  bottom: 0;
-  z-index: 106;
-  width: 100%;
+.MCB-btn.data-v-35c1166e {
+	position: fixed;
+	bottom: 0;
+	z-index: 106;
+	width: 100%;
+}
+.scroll-v.data-v-35c1166e {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	
+	width: 750rpx;
+	height: 86vh;
+	/* padding-bottom: 20vh; */
 }
 

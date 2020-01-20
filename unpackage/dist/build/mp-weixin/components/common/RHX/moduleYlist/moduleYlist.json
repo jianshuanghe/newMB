@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "module-yitems": "/components/common/RHX/moduleYitems/moduleYitems"
+  },
+  "component": true
+}

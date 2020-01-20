@@ -19,8 +19,8 @@
 	color: #FFFFFF;
 	letter-spacing: 0;
 	text-align: center;
-	line-height: 88rpx;
-	background-image: -o-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
+	line-height: 96rpx;
+	background-image: -webkit-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
 	background-image: linear-gradient(134deg, #15D49F 0%, #57D6CF 100%);
 }
 .delete{

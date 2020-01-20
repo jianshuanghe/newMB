@@ -1,13 +1,13 @@
 
 .my-tool {
-	min-width: 150%;
+	/* min-width: 150%; */
 	height: 280rpx;
 	background: #ffffff;
 	margin-top: 20rpx;
 }
 .my-tool-Title {
 	position: relative;
-	width: 690rpx;
+	/* width: 690upx; */
 	font-size: 30rpx;
 	color: #2e2e30;
 	font-weight: bold;
@@ -15,17 +15,18 @@
 	padding-left: 30rpx;
 }
 .my-tool-gong {
+	/* width: 118%; */
 	overflow: auto;
 }
 .scroll-view_H {
-	width: 118%;
+	width: 128%;
 	height: 180rpx;
 	float: left;
+	white-space: nowrap;
 }
 .my-tool-opportunity {
 	background: #ffffff;
-	-webkit-box-shadow: 0 0 10px 0 rgba(226, 226, 226, 0.6);
-	        box-shadow: 0 0 10px 0 rgba(226, 226, 226, 0.6);
+	box-shadow: 0 0 10px 0 rgba(226, 226, 226, 0.6);
 	border-radius: 8rpx;
 	width: 276rpx;
 	height: 132rpx;
@@ -36,7 +37,7 @@
 .my-tool-zi {
 	width: 52%;
 	height: 60%;
-	margin-top: 30rpx;
+	margin-top: 22rpx;
 	margin-left: 25rpx;
 	float: left;
 }
@@ -54,7 +55,7 @@
 	float: left;
 	width: 64rpx;
 	height: 64rpx;
-	margin-top: 40rpx;
+	margin-top: 34rpx;
 	margin-left: 20rpx;
 }
 .my-tool-img > image {

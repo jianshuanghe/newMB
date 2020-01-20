@@ -30,12 +30,10 @@
 	z-index: 1000000001;
 	bottom: 0;
 	background: #FFFFFF;
-	-webkit-box-shadow: 0 -2px 10px 0 rgba(46,46,48,0.20);
-	        box-shadow: 0 -2px 10px 0 rgba(46,46,48,0.20);
+	box-shadow: 0 -2px 10px 0 rgba(46,46,48,0.20);
 	border-radius: 20px;
 	border-radius: 0px;
 	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
 	transition: all .3s ease;
 }
 .rPicker-content{
@@ -47,8 +45,7 @@
 	width: 100%;
 	background: #fff;
 	background: #FFFFFF;
-	-webkit-box-shadow: 0 -2px 10px 0 rgba(46,46,48,0.20);
-	        box-shadow: 0 -2px 10px 0 rgba(46,46,48,0.20);
+	box-shadow: 0 -2px 10px 0 rgba(46,46,48,0.20);
 	border-radius: 20px;
 	border-radius: 0px;
 }

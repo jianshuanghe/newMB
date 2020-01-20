@@ -2,13 +2,11 @@
 .scroll-v {
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
-	    -ms-flex: 1;
 	        flex: 1;
 	
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
 	        flex-direction: column;
 	
 	width: 750rpx;
@@ -84,6 +82,7 @@
 	line-height: 96rpx;
 	padding-right: 30rpx;
 	float: right;
+	font-weight: bold;
 }
 .Purchase-order-listB{
 	width: 90%;
@@ -113,8 +112,7 @@
 	font-size: 28rpx;
 	color: #2E2E30;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 }
 .Purchase-order-listB-zi>view:nth-of-type(2){
@@ -124,15 +122,14 @@
 	display: -webkit-box;
 	-webkit-line-clamp:2;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	-webkit-box-orient: vertical;
 }
 .Purchase-order-listB-zi>view:nth-of-type(3){
 	font-size: 28rpx;
 	color: #9B9B9B;
 	position: absolute;
-	bottom: 0;
+	bottom: -12rpx;
 }
 .Purchase-order-listC{
 	width: 90%;
@@ -149,6 +146,7 @@
 }
 .Purchase-order-listC>view:nth-of-type(1)>._span{
 	color: #FF4D6A;
+	font-weight: bold;
 }
 .Purchase-order-listC>view:nth-of-type(2){
 	width:  208rpx;

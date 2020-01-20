@@ -81,24 +81,28 @@ var rightScreenData = [
 ];
 // 投放商机筛选条件
 var screenTermData1 = [
+	{
+	  'code': 'createTime desc',
+	  'vulue': '默认排序'
+	},
   {
-    'code': 'consMoney',
+    'code': 'consMoney asc',
     'vulue': '按照已消耗排序'
   },
   {
-    'code': 'converCount',
+    'code': 'converCount asc',
     'vulue': '按照转化数排序'
   },
   {
-    'code': 'clikeCount',
+    'code': 'clikeCount asc',
     'vulue': '按照点击数排序'
   },
   {
-    'code': 'infoCount',
+    'code': 'infoCount asc',
     'vulue': '按照展示数排序'
   },
   {
-    'code': 'createTime',
+    'code': 'createTime desc',
     'vulue': '按照申请时间排序'
   }
 ];

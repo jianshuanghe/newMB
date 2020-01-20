@@ -45,6 +45,7 @@
 	width: 91%;
 	height: 166rpx;
 	margin: 42rpx auto auto auto;
+	overflow: hidden;
 }
 .Purchase-listA-img>image{
 	width: 220rpx;
@@ -69,7 +70,7 @@
 	float: left;
 	font-size: 24rpx;
 	color: #9B9B9B;
-	margin-left: 100rpx;
+	margin-left: 40rpx;
 }
 .Purchase-listA-time>view:nth-of-type(2)>image{
 	width: 22rpx;
@@ -139,9 +140,10 @@
 	margin-top: 2rpx;
 	display: block;
 	float: left;
+	margin-left:10rpx;
 }
 .product-book-BA>._span{
-	margin-left: 10rpx;
+	margin-left: 28rpx;
 	display: block;
 	float: left;
 }
@@ -183,8 +185,7 @@
 	margin-left: 20rpx;
 	margin-top: 20rpx;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 }
 .Purchase-listB-header-edit>._span{
@@ -216,7 +217,7 @@
 	float: left;
 	font-size: 24rpx;
 	color: #9B9B9B;
-	margin-left: 100rpx;
+	margin-left: 40rpx;
 }
 .Purchase-listB-header-time>view:nth-of-type(2)>image{
 	width: 22rpx;

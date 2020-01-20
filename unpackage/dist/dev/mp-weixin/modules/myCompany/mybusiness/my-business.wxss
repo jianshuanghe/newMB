@@ -43,6 +43,11 @@
 	width: 100%;
 	height: 100%;
 }
+.spans{
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+	color: #D2D2D2;
+}
 .my-business-head{
 	width: 90%;
 	height: 102rpx;
@@ -65,14 +70,13 @@
 	float: right;
 }
 .my-business-con>view:nth-of-type(1){
-	max-width: 320rpx;
+	max-width: 520rpx;
 	height: 40rpx;
 	line-height: 40rpx;
 	font-size: 40rpx;
 	color: #FFFFFF;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 	padding-top: 10rpx;
 }
@@ -106,8 +110,7 @@
 	top: -50rpx;
 	left: 5%;
 	border-radius: 10rpx;
-	-webkit-box-shadow: darkgrey 2rpx 4rpx 50rpx 6rpx;
-	        box-shadow: darkgrey 2rpx 4rpx 50rpx 6rpx;/*边框阴影 */
+	box-shadow: darkgrey 0rpx 0rpx 22rpx 0rpx;/*边框阴影 */
 }
 .my-business-det-ren{
 	width: 122rpx;
@@ -133,8 +136,20 @@
 	border-radius: 4rpx;
 	position: absolute;
 	right: 30rpx;
-	top: 48rpx;
+	top: 30rpx;
 	color: #02C2A2;
+	text-align: center;
+	line-height: 54rpx;
+}
+.my-business-det-follows{
+	width: 114rpx;
+	height: 54rpx;
+	border: 2rpx solid #BDBDBD;
+	border-radius: 4rpx;
+	position: absolute;
+	right: 30rpx;
+	top: 30rpx;
+	color: #BDBDBD;
 	text-align: center;
 	line-height: 54rpx;
 }
@@ -150,7 +165,6 @@
 	height: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 }
 .my-business-Choice-title>view{

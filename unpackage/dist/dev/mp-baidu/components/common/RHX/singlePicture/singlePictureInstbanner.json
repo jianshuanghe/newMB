@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "change-img-tips": "/components/common/RHX/changeImgTips/changeImgTips",
+    "default-add": "/components/common/RHX/defaultAdd/defaultAdd"
+  },
+  "component": true
+}

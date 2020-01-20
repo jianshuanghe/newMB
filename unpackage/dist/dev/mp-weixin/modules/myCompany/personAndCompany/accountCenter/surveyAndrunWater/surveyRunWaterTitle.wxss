@@ -1,26 +1,26 @@
 
-.newsTitle-box.data-v-a106944c {
+.newsTitle-box.data-v-9ecc3284 {
 	position: relative;
 	width: 100%;
 }
-.newsTitle.data-v-a106944c {
+.newsTitle.data-v-9ecc3284 {
 	position: relative;
 	width: 100%;
 }
-.center-news.data-v-a106944c {
+.center-news.data-v-9ecc3284 {
 	position: relative;
 	width: 55%;
 	margin-left: 20%;
 }
-.news-TBox.data-v-a106944c {
+.news-TBox.data-v-9ecc3284 {
 	position: relative;
 	width: 50%;
 }
-.Tbox-items.data-v-a106944c {
+.Tbox-items.data-v-9ecc3284 {
 	position: relative;
 	width: 100%;
 }
-.Tbox-items > ._p.data-v-a106944c {
+.Tbox-items > ._p.data-v-9ecc3284 {
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
 	color: #2e2e30;
@@ -28,22 +28,22 @@
 	text-align: center;
 	line-height: 7vw;
 }
-.hengLine.data-v-a106944c {
+.hengLine.data-v-9ecc3284 {
 	position: relative;
 	width: 5vw;
 	height: 1px;
 	background: #15d49f;
 	margin: 0 auto;
 }
-.Tb-checked > ._p.data-v-a106944c {
+.Tb-checked > ._p.data-v-9ecc3284 {
 	color: #02c2a2 !important;
 }
-.allRead-box.data-v-a106944c {
+.allRead-box.data-v-9ecc3284 {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
-.allRead-box > ._p.data-v-a106944c {
+.allRead-box > ._p.data-v-9ecc3284 {
 	position: relative;
 	font-family: PingFangSC-Regular;
 	font-size: 3.5vw;

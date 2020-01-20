@@ -9,7 +9,7 @@
 }
 .kanban-box {
 	position: relative;
-	padding: 3vw;
+	padding: 1.6vw;
 	margin: auto;
 	background: #fff;
 }

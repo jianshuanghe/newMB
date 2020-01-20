@@ -4,6 +4,10 @@
 	width: 100%;
 	background: #FFFFFF;
 }
+.priceBtn {
+	position: relative;
+	width: 50%;
+}
 .jshImg{
 	position: relative;
 	width: 32rpx;
@@ -19,8 +23,8 @@
 	color: #FFFFFF;
 	letter-spacing: 0;
 	text-align: center;
-	line-height: 88rpx;
-	background-image:-o-linear-gradient(315deg, #FAD161 0%, #F77F3B 100%);
+	line-height: 96rpx;
+	background-image:-webkit-linear-gradient(315deg, #FAD161 0%, #F77F3B 100%);
 	background-image:linear-gradient(135deg, #FAD161 0%, #F77F3B 100%)
 }
 .delete{

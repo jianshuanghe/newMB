@@ -14,20 +14,20 @@
 .mainInput1{
 	position: relative;
 	width: 100%;
-	padding-left: 4vw;
+	/* padding-left: 4vw; */
 }
 .lineYInput{
 	position: absolute;
-	left: 2vw;
-	top: 2.6vw;
-	width: 6rpx;
-	height: 28rpx;
+	left: -20rpx;
+	top: 12rpx;
+	width: 3px;
+	height: 14px;
 	background: #02C2A2;
 }
 .sort{
 	position: absolute;
 	left: 2vw;
-	top: 2.6vw;
+	top: 1.5vw;
 	width: 28rpx;
 	height: 28rpx;
 	font-family: PingFangSC-Regular;

@@ -29,7 +29,7 @@
 	position: relative;
 	background: #;
 	width: 100%;
-	padding: 2vw 15px;
+	padding: 2vw 6rpx;
 }
 .items{
 	position: relative;

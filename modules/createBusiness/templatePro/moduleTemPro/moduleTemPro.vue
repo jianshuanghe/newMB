@@ -28,14 +28,17 @@
 							:disabled='statusPreviewEditor'
 							:scrollInto='scrollInto'
 							:tabYItemsIndex='tabYItemsIndex'
+							:dataListY="dataListTemp.content "
 							:dataList="dataListTemp.content.context.tempCon.modules"
+							:moduleTempList='moduleTemp'
 							:scrollX='true'
 							:column='4.5'
 							:scrollFixedShow='scrollFixedShow'
 							:fixedScroll='fixedScroll'
 							@top-Fixed='topFixed'
-							@tap-ModuleYList='tapModuleYList'>
-							</moduleYlist>
+							@tap-ModuleYList='tapModuleYList'
+							@tap-Title='tapTitle'
+							></moduleYlist>
 						</div>
 					</div>
 					<!-- 内容区 -->
@@ -69,22 +72,37 @@
 									:disabled='statusPreviewEditor'
 									:scrollInto='scrollInto'
 									:tabYItemsIndex='tabYItemsIndex'
+									:dataListY="dataListTemp.content "
 									:dataList="dataListTemp.content.context.tempCon.modules"
+									:moduleTempList='moduleTemp'
 									:scrollX='true'
 									:column='4.5'
-									:scrollFixedShow='!scrollFixedShow'
+									:scrollFixedShow='scrollFixedShow'
 									:fixedScroll='fixedScroll'
-									@tap-ScrollFixedShow='tapScrollFixedShow'
 									@top-Fixed='topFixed'
-									@tap-ModuleYList='tapModuleYList'>
-									</moduleYlist>
+									@tap-ModuleYList='tapModuleYList'
+									@tap-Title='tapTitle'
+									></moduleYlist>
 								</div>
 							</div>
 							<!-- 数据中的modules模块 -->
 							<div class="selectTemplate" v-for="(items, index) in dataListTemp.content.context.tempCon.modules" :key="index">
-								<!-- 组件 -->
-								<TITLECONTENTIMGB
-								v-if="items.type === 'TITLE_CONTENT_IMG_B'"
+								<!-- 多模块聚合渲染模板 -->
+								<moreModule
+								v-if="items.mType === 'moreModule'"
+								:basicData='dataListTemp.content.context.tempCon.modules'
+								:scrollTop='fixedScroll.scrollTop'
+								:disabled='statusPreviewEditor'
+								:defaultImg='defaultAddImg'
+								:dataList='items'
+								:moduleTempList='moduleTemp'
+								:indexNum='index'
+								:tabYItemsIndex='tabYItemsIndex'
+								@tap-ChangeTitle='tapChangeTitle'
+								></moreModule>
+								<!-- 单一模块聚合渲染模板 -->
+								<singleModule
+								v-if="items.mType === 'singleModule'"
 								:basicData='dataListTemp.content.context.tempCon.modules'
 								:scrollTop='fixedScroll.scrollTop'
 								:disabled='statusPreviewEditor'
@@ -93,261 +111,8 @@
 								:indexNum='index'
 								:tabYItemsIndex='tabYItemsIndex'
 								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TITLECONTENTIMGB='tapTITLECONTENTIMGB'></TITLECONTENTIMGB>
-								<!-- 组件 -->
-								<TITLECONTENTIMGC
-								v-if="items.type === 'TITLE_CONTENT_IMG_C'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TITLECONTENTIMGC='tapTITLECONTENTIMGC'></TITLECONTENTIMGC>
-								<!-- 组件 -->
-								<TITLEIMGA
-								v-if="items.type === 'TITLE_IMG_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TITLEIMGA='tapTITLEIMGA'></TITLEIMGA>
-								<!-- 组件 -->
-								<CONTENTB
-								v-if="items.type === 'CONTENT_B'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-CONTENTB='tapCONTENTB'></CONTENTB>
-								<!-- 组件 -->
-								<INFOB
-								v-if="items.type === 'INFO_B'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-INFOB='tapINFOB'></INFOB>
-								<!-- 组件 -->
-								<IMGA
-								v-if="items.type === 'IMG_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-IMGA='tapIMGA'></IMGA>
-								<!-- 组件 -->
-								<IMGCONTENTA
-								v-if="items.type === 'IMG_CONTENT_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-IMGCONTENTA='tapIMGCONTENTA'></IMGCONTENTA>
-								<!-- 组件 -->
-								<IMGB
-								v-if="items.type === 'IMG_B'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-IMGB='tapIMGB'></IMGB>
-								<!-- 组件 -->
-								<MONEYA
-								v-if="items.type === 'MONEY_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-MONEYA='tapMONEYA'></MONEYA>
-								<!-- 组件 -->
-								<TABLEA
-								v-if="items.type === 'TABLE_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TABLEA='tapTABLEA'></TABLEA>
-								<!-- 组件 -->
-								<SELECTB
-								v-if="items.type === 'SELECT_B'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@set-FixedShow='setFixedShowTemp'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-SELECTB='tapSELECTB'></SELECTB>
-								<!-- 组件 -->
-								<SELECTA
-								v-if="items.type === 'SELECT_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@set-FixedShow='setFixedShowTemp'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-SELECTA='tapSELECTA'></SELECTA>
-								<!-- 组件 -->
-								<TEXTA
-								v-if="items.type === 'TEXT_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:defaultImg='defaultAddImg'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TEXTA='tapTEXTA'></TEXTA>
-								<!-- 组件 产品细节 -->
-								<IMGCONTENTC
-								v-if="items.type === 'IMG_CONTENT_C'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:defaultImg='defaultAddImg'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-IMGCONTENTC='tapIMGCONTENTC'
-								></IMGCONTENTC>
-								<!-- 组件 -->
-								<MONEYB
-								v-if="items.type === 'MONEY_B'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-MONEYB='tapMONEYB'
-								></MONEYB>
-								<!-- 组件 -->
-								<TABLEC
-								v-if="items.type === 'TABLE_C'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TABLEC='tapTABLEC'
-								></TABLEC>
-								<!-- 组件 -->
-								<TABLED
-								v-if="items.type === 'TABLE_D'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TABLED='tapTABLED'
-								></TABLED>
-								<!-- 组件 -->
-								<TABLEE
-								v-if="items.type === 'TABLE_E'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-TABLEE='tapTABLEE'
-								></TABLEE>
-								<!-- 组件 -->
-								<TITLEA
-								v-if="items.type === 'TITLE_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-TITLEA='tapTITLEA'
-								></TITLEA>
-								<!-- 组件 -->
-								<FOLLOWA
-								v-if="items.type === 'FOLLOW_A'"
-								:updataTime='dataListTemp.content'
-								:disabled='statusPreviewEditor'
-								:routeParam='routeParam'
-								:dataList="dataListTemp.content"
-								>
-								</FOLLOWA>
-								<!-- 组件 -->
-								<CONTENTA
-								v-if="items.type === 'CONTENT_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-CONTENTA='tapCONTENTA'
-								></CONTENTA>
-								<!-- 组件 -->
-								<NEWSA
-								v-if="items.type === 'NEWS_A'"
-								:basicData='dataListTemp.content.context.tempCon.modules'
-								:scrollTop='fixedScroll.scrollTop'
-								:defaultImg='defaultAddImg'
-								:defaultLink='defaultAddLink'
-								:disabled='statusPreviewEditor'
-								:dataList='items'
-								:indexNum='index'
-								:tabYItemsIndex='tabYItemsIndex'
-								@set-FixedShow='setFixedShowTemp'
-								@tap-ChangeTitle='tapChangeTitle'
-								@tap-NEWSA='tapNEWSA'
-								></NEWSA>
+								></singleModule>
+								
 							</div>
 							<!-- 数据中的custModules -->
 							<div class="moduleCustYlist" v-if='tempCustRefresh && dataListTemp.content.context.tempCon.custModules'>
@@ -580,19 +345,6 @@
 	import moduleTitle from '@/components/common/RHX/moduleTitle/moduleTitle';
 	import swiperBanner from '@/components/common/RHX/swiperBanner/swiperBanner';
 	import moduleYlist from '@/components/common/RHX/moduleYlist/moduleYlist';
-	import TITLECONTENTIMGB from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_B';
-	import TITLECONTENTIMGC from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_C';
-	import TITLEIMGA from '@/components/rhx/InstrModule/TITLE_IMG_A';
-	import CONTENTB from '@/components/rhx/InstrModule/CONTENT_B';
-	import INFOB from '@/components/rhx/InstrModule/INFO_B';
-	import IMGA from '@/components/rhx/InstrModule/IMG_A';
-	import IMGCONTENTA from '@/components/rhx/InstrModule/IMG_CONTENT_A';
-	import IMGB from '@/components/rhx/InstrModule/IMG_B';
-	import MONEYA from '@/components/rhx/InstrModule/MONEY_A';
-	import TABLEA from '@/components/rhx/InstrModule/TABLE_A';
-	import SELECTB from '@/components/rhx/InstrModule/SELECT_B';
-	import SELECTA from '@/components/rhx/InstrModule/SELECT_A';
-	import TEXTA from '@/components/rhx/InstrModule/TEXT_A';
 	import madeCustTitleXModule from '@/components/common/RHX/madeCustModule/madeCustTitleXModule/madeCustTitleXModule';
 	import INPUTTABLEA from '@/components/rhx/InstrModule/INPUT_TABLE_A';
 	import INPUTCHECKA from '@/components/rhx/InstrModule/INPUT_CHECK_A';
@@ -601,17 +353,12 @@
 	import INPUTIMGA from '@/components/rhx/InstrModule/INPUT_IMG_A';
 	import INPUTTEXTA from '@/components/rhx/InstrModule/INPUT_TEXT_A';
 	import defaultAddLink from '@/static/mbcImg/publish/createBusiness/defaultAddLink.png';
-	import TABLEC from '@/components/rhx/InstrModule/TABLE_C';
-	import TABLED from '@/components/rhx/InstrModule/TABLE_D';
-	import TABLEE from '@/components/rhx/InstrModule/TABLE_E';
-	import IMGCONTENTC from '@/components/rhx/InstrModule/IMG_CONTENT_C';
-	import MONEYB from '@/components/rhx/InstrModule/MONEY_B';
-	import TITLEA from '@/components/rhx/InstrModule/TITLE_A';
-	import FOLLOWA from '@/components/rhx/InstrModule/FOLLOW_A';
-	import CONTENTA from '@/components/rhx/InstrModule/CONTENT_A';
-	import NEWSA from '@/components/rhx/InstrModule/NEWS_A';
+	
 	// 留言模块----放在最后
 	import MESA from '@/components/rhx/InstrModule/MES_A';
+	import moreModule from './moreModule/moreModule';
+	import singleModule from './singleModule/singleModule';
+	
 	import { mapMutations, mapGetters } from 'vuex';
 	//AI推送
 	import TUIJIAN from '@/components/rhx/modules/TUIJIAN';
@@ -667,19 +414,6 @@
 			moduleTitle,
 			swiperBanner,
 			moduleYlist,
-			TITLECONTENTIMGB,
-			TITLECONTENTIMGC,
-			TITLEIMGA,
-			CONTENTB,
-			INFOB,
-			IMGA,
-			IMGCONTENTA,
-			IMGB,
-			MONEYA,
-			TABLEA,
-			SELECTB,
-			SELECTA,
-			TEXTA,
 			madeCustTitleXModule,
 			INPUTTABLEA,
 			INPUTCHECKA,
@@ -687,17 +421,11 @@
 			INPUTTABLEB,
 			INPUTIMGA,
 			INPUTTEXTA,
-			TABLEC,
-			TABLED,
-			TABLEE,
-			IMGCONTENTC,
-			MONEYB,
-			TITLEA,
-			CONTENTA,
-			FOLLOWA,
-			NEWSA,
+			
 			MESA, // 留言模块----放在最后
-			TUIJIAN
+			TUIJIAN,
+			moreModule, // 多模块聚合模板
+			singleModule, // 单一模块聚合模板
 		},
 		computed: {
 			i18n() {
@@ -723,7 +451,7 @@
 			},
 			moduleDateList: {
 				handler(a, b) {
-					// console.log(a, b, '------------------moduleDateList-----------------');
+					console.log(a, b, '------------------moduleDateList-----------------');
 					this.dataListTemp = a;
 					let datalist = this.dataListTemp.content.context.tempCon.modules;
 					if (datalist.length > 0){
@@ -774,7 +502,7 @@
 					datalist.map((item, index)=>{
 						item.id = 'mb' + this.newGuid(); // 每一项添加id 用来点击目录定位到当前项，因为uni-app这样定义的
 					});
-					// console.log(datalist, '--------------datalist--------9999-------')
+					console.log(datalist, '--------------datalist--------9999-------')
 					if (datalist.length > 0){
 						this.titleText = datalist[0].iconTitle; // title默认显示数组第一项的title
 					} else {
@@ -811,9 +539,9 @@
 				this.titleH = e;
 			},
 			scroll: function(e) {
-				// console.log(e.detail.scrollTop, '--------------------++++++++++++++++++scroll+++++++++++++++++---------------')
+				console.log(e.detail.scrollTop, '--------------------++++++++++++++++++scroll+++++++++++++++++---------------')
 				this.fixedScroll.scrollTop = e.detail.scrollTop;
-				// console.log(this.fixedScroll);
+				console.log(this.fixedScroll);
 			},
 			 // 模块固定定位需要的top值
 			topFixed (e) {
@@ -835,7 +563,7 @@
 			},
 			// 点击title返回的数据
 			tapTitle(e){
-				// console.log(e, '点击title返回的数据');
+				console.log(e, '点击title返回的数据');
 				this.dataListTemp.content.context.tempCon.modules = e[0];
 				this.tempRefresh = false; // 刷新当前页面
 				this.$nextTick(function() {
@@ -867,15 +595,15 @@
 			},
 			// 定位到指定id位置
 			tapTitleScroll(e){
-				// console.log(e, '定位到指定id位置');
+				console.log(e, '定位到指定id位置');
 				this.titleText = e[0].iconTitle; // title
 				this.scrollInto = e[0].id; // 定位到指定id位置
 				this.tabYItemsIndex = e[1]; // 竖向目录点击的index,传送给横向列表，默认点亮此时对应的items项
-				// console.log(this.scrollInto, '--------------------this.scrollInto---------------------');
+				console.log(this.scrollInto, '--------------------this.scrollInto---------------------');
 			},
 			// 点击横向模块List组件
 			tapModuleYList (e) {
-				// console.log(e, '++++++++++++++++++++++++++++点击模块List组件+++++++++++++++++++++++++++');
+				console.log(e, '++++++++++++++++++++++++++++点击模块List组件+++++++++++++++++++++++++++');
 				this.titleText = e[0].iconTitle; // title
 				this.scrollInto = e[0].id; // 定位到指定id位置
 				this.tabYItemsIndex = e[1]; // 竖向目录点击的index,传送给横向列表，默认点亮此时对应的items项
@@ -895,87 +623,9 @@
 			},
 			// 根据用户滑动页面判断当前那个组件显示在最顶部，同时更换title,和横向列表展示更换子项
 			tapChangeTitle(e) {
-				// console.log(e, '根据用户滑动页面判断当前那个组件显示在最顶部，同时更换title,和横向列表展示更换子项');
+				console.log(e, '根据用户滑动页面判断当前那个组件显示在最顶部，同时更换title,和横向列表展示更换子项');
 				this.titleText = e[0].iconTitle; // title
 				this.tabYItemsIndex = e[1]; // 竖向目录点击的index,传送给横向列表，默认点亮此时对应的items项
-			},
-			// 点击模块TITLE_CONTENT_IMG_B组件
-			tapTITLECONTENTIMGB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块TITLE_CONTENT_IMG_C组件
-			tapTITLECONTENTIMGC (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块TITLE_IMG_A组件
-			tapTITLEIMGA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块CONTENT_B组件
-			tapCONTENTB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块INFO_B组件
-			tapINFOB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块IMG_A组件
-			tapIMGA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块IMG_CONTENT_A组件
-			tapIMGCONTENTA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块IMG_B组件
-			tapIMGB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块MONEY_A组件
-			tapMONEYA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块TABLE_A组件
-			tapTABLEA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块SELECT_B组件
-			tapSELECTB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块SELECT_A组件
-			tapSELECTA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块TEXT_A组件
-			tapTEXTA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
 			},
 			// 点击模块INPUT_TABLE_A组件
 			tapINPUTTABLEA (e) {
@@ -1023,50 +673,6 @@
 			tapMESA (e) {
 				// console.log(e, '所有操作后返回数据');
 				this.dataListTemp.content.context.tempCon.mesModules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			tapIMGCONTENTC(e){
-				// console.log(e,'所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块MONEY_B组件
-			tapMONEYB(e){
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块TABLE_C组件
-			tapTABLEC(e){
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块TABLE_D组件
-			tapTABLED(e){
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块TABLE_E组件
-			tapTABLEE(e){
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			tapTITLEA(e){
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			tapCONTENTA(e){
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			tapNEWSA(e){
-				// console.log(e, '所有操作后返回数据');
-				this.dataListTemp.content.context.tempCon.modules = e;
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);
 			},
 		}

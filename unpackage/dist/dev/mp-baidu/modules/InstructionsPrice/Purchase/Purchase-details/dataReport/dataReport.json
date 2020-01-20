@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "component": true,
+  "usingComponents": {
+    "top-box": "/components/mbbo/topBox/topBox",
+    "data-trend-kanban": "/modules/InstructionsPrice/Purchase/Purchase-details/dataReport/dataTrendKanban/dataTrendKanban"
+  }
+}

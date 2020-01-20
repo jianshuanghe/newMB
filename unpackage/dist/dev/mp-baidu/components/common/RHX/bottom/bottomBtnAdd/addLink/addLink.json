@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "input-box": "/components/common/RHX/inputBox/inputBox"
+  },
+  "component": true
+}

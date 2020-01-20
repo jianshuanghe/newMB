@@ -1,7 +1,10 @@
 {
+  "navigationBarTitleText": "",
   "usingComponents": {
     "w-input": "/components/common/watch-login/watch-input1",
-    "image-upload-one": "/components/common/imageUpload/imageUploadOne"
-  },
-  "component": true
+    "image-upload-one": "/components/common/imageUpload/imageUploadOne",
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation",
+    "industry": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/industryAddress/industry"
+  }
 }

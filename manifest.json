@@ -39,6 +39,9 @@
             "autoclose" : true,
             "delay" : 0
         },
+		"launchwebview": {  
+		  "render": "always"  
+		},
         "modules" : {},
         /* 模块配置 */
         "distribute" : {

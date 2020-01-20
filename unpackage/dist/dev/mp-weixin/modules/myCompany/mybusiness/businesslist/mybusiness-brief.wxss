@@ -10,8 +10,7 @@
 	width: 90%;
 	margin: 50rpx auto auto;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	display: -webkit-box;
 }
 .fold{

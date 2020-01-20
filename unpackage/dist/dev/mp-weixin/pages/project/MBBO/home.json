@@ -7,6 +7,7 @@
     "my": "/pages/project/MBBO/my/my",
     "news": "/pages/project/MBBO/news/news",
     "publish": "/components/mbbo/publish/publish",
-    "tab-bar": "/components/mbbo/homeTabBar/tab_bar"
+    "tab-bar": "/components/mbbo/homeTabBar/tab_bar",
+    "key-words": "/pages/project/MBBO/KeyWords"
   }
 }

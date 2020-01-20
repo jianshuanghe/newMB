@@ -142,7 +142,7 @@
 			}
 		},
 		created() {
-			console.log(this.dataLists, '-------------------------dataLists-----------------------')
+			console.log(this.dataLists, '----------------------哈哈---dataLists-----------------------')
 		},
 		methods: {
 			// 点击单张图片

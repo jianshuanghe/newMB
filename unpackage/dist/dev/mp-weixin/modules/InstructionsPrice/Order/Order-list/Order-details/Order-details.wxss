@@ -74,7 +74,7 @@
 }
 .Order-details-C{
 	width: 100%;
-	height: 264rpx;
+	min-height: 264rpx;
 	background: #FFFFFF;
 }
 .Order-details-C>view:nth-of-type(1){
@@ -92,20 +92,21 @@
 .Order-details-C>view:nth-of-type(2)>._span{
 	color: #02C2A2;
 }
-.Order-details-C>view:nth-of-type(3){
+.Order-details-C-time{
 	font-size: 28rpx;
 	color: #5D5D5D;
 	padding-left: 30rpx;
 	padding-top: 10rpx;
 }
-.Order-details-C>view:nth-of-type(4){
+.Order-details-C-img{
 	width: 100%;
 	height: 14rpx;
 	text-align: center;
 	line-height: 14rpx;
 	padding-top: 20rpx;
+	padding-bottom: 20rpx;
 }
-.Order-details-C>view:nth-of-type(4)>image{
+.Order-details-C-img>image{
 	width: 24rpx;
 	height: 20rpx;
 }
@@ -167,8 +168,7 @@
 	font-size: 28rpx;
 	color: #2E2E30;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
+	text-overflow:ellipsis;
 	white-space: nowrap;
 }
 .Order-details-E-zi>view:nth-of-type(2){
@@ -178,8 +178,7 @@
 	display: -webkit-box;
 	-webkit-line-clamp:2;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	   text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	-webkit-box-orient: vertical;
 }
 .Order-details-E-zi>view:nth-of-type(3){
@@ -229,6 +228,10 @@
 	color: #9B9B9B;
 }
 .Order-details-F-ji>view:nth-of-type(4){
+	font-size: 28rpx;
+	color: #9B9B9B;
+}
+.Order-details-F-ji>view:nth-of-type(5){
 	font-size: 28rpx;
 	color: #9B9B9B;
 }
@@ -303,7 +306,7 @@
 	width: 100%;
 	height: 122rpx;
 	background: #FFFFFF;
-	margin-top: 80rpx;
+	margin-top: 40rpx;
 }
 .Order-details-H-one{
 	width: 90%;
@@ -453,7 +456,7 @@
 	text-align: center;
 	line-height: 100rpx;
 	float: left;
-	background-image: -o-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
+	background-image: -webkit-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
 	background-image: linear-gradient(134deg, #15D49F 0%, #57D6CF 100%);
 }
 .Order-details-Z-thrs{
@@ -464,7 +467,7 @@
 	text-align: center;
 	line-height: 100rpx;
 	float: left;
-	background-image: -o-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
+	background-image: -webkit-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
 	background-image: linear-gradient(134deg, #15D49F 0%, #57D6CF 100%);
 }
 .Order-details-tian{
@@ -526,7 +529,7 @@
 	line-height: 100rpx;
 	font-size: 32rpx;
 	color: #FFFFFF;
-	background-image: -o-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
+	background-image: -webkit-linear-gradient(316deg, #15D49F 0%, #57D6CF 100%);
 	background-image: linear-gradient(134deg, #15D49F 0%, #57D6CF 100%);
 	float: left;
 }
@@ -538,6 +541,14 @@
 	left: 20rpx;
 	bottom: 120rpx;
 	border-radius: 8rpx;
+	z-index: 99999;
+}
+.Mask-ming{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
 }
 .lianxis>view:nth-of-type(1){
 	width: 80%;
@@ -556,5 +567,100 @@
 	line-height: 109rpx;
 	font-size: 28rpx;
 	color: #FFFFFF;
+}
+.logistics{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	background: rgba(0,0,0,0.7);
+}
+.logistics-mask{
+	width: 100%;
+	height: 736rpx;
+	background: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+}
+.logistics-mask-hea{
+	width: 100%;
+	height: 110rpx;
+	border-bottom: 2rpx solid  #E2E2E2;
+}
+.logistics-mask-hea>view:nth-of-type(1){
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 110rpx;
+	font-size: 32rpx;
+	color: #9B9B9B;
+	float: left;
+}
+.logistics-mask-hea>view:nth-of-type(2){
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	line-height: 110rpx;
+	font-size: 32rpx;
+	color: #2E2E30;
+	float: left;
+}
+.logistics-mask-hea>view:nth-of-type(3){
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 110rpx;
+	font-size: 32rpx;
+	color: #02C2A2;
+	float: left;
+}
+.logistics-mask-wu{
+	width: 92%;
+	height: 172rpx;
+	border-bottom: 2rpx solid #EFEFEF;
+	margin: 0 auto;
+}
+.logistics-mask-wu>view:nth-of-type(1){
+	font-size: 32rpx;
+	color: #2E2E30;
+	padding-top: 40rpx;
+}
+.logistics-mask-wu>view:nth-of-type(2){
+	width: 100%;
+	height: 60rpx;
+	padding-top: 10rpx;
+}
+.logistics-mask-wu>view:nth-of-type(2)>input{
+	width: 100%;
+	height: 100%;
+}
+.logistics-mask-liu{
+	width: 92%;
+	height: 220rpx;
+	margin: 30rpx auto auto auto;
+}
+.logistics-mask-liu>view:nth-of-type(1){
+	font-size: 32rpx;
+	color: #2E2E30;
+	padding-top: 10rpx;
+}
+.logistics-mask-shan{
+	width: 100%;
+	height: 96rpx;
+	border: 1px solid #EFEFEF;
+	border-radius: 4rpx;
+	text-align: center;
+	line-height: 96rpx;
+	font-size: 28rpx;
+	color: #02C2A2;
+	margin-top: 20rpx;
+}
+.Img-Upload {
+	width: 304rpx;
+	height: 80rpx;
+	position: absolute;
+	border-radius: 50%;
+	right: 220rpx;
+	bottom: 70rpx;
 }
 

@@ -1,9 +1,1 @@
-
-.survey-content.data-v-ae4073ca{
-  position: fixed;
-  height: 96vh;
-  overflow: scroll;
-  padding-bottom: 5vh;
-  -webkit-overflow-scrolling:touch;
-}
-
+.survey-content.data-v-94966d12{position:fixed;height:96vh;overflow:scroll;padding-bottom:5vh;-webkit-overflow-scrolling:touch}

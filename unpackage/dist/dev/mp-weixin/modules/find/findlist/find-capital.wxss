@@ -1,4 +1,29 @@
 
+.tian{
+	width: 100%;
+	height: 88rpx;
+}
+.my-title{
+	width: 100%;
+	height: 88rpx;
+	background: #FFFFFF;
+	border-bottom: 2rpx solid #F5F5F5;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.quickBtn-Fd{
+	width: 5%;
+	margin-left: 38rpx;
+}
+.search-Fd{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	line-height: 88rpx;
+	font-size: 28rpx;
+	color: #2E2E30;
+}
 .find-capital{
 	width: 100%;
 	min-height: 100%;
@@ -11,8 +36,7 @@
 	margin: 30rpx auto;
 	background: rgba(255,255,255,0.90);
 	border: 1px solid rgba(226,226,226,0.50);
-	-webkit-box-shadow: 0 2rpx 16rpx 0 #EBEBEB;
-	        box-shadow: 0 2rpx 16rpx 0 #EBEBEB;
+	box-shadow: 0 2rpx 16rpx 0 #EBEBEB;
 }
 .find-capital-heat{
 	width: 90%;
@@ -122,11 +146,9 @@
 	border-bottom: 2rpx solid #F5F5F5;
 	display: -webkit-box;
 	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
-	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	margin-top: 30rpx;
 }

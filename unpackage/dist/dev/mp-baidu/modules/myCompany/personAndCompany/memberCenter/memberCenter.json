@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "component": true,
+  "usingComponents": {
+    "top-box": "/components/mbbo/topBox/topBox",
+    "member-center-tips": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterTips",
+    "member-center-account": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterAccount",
+    "member-center-equity": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterEquity",
+    "membership-agreement": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/membershipAgreement",
+    "member-center-cancel-at-open": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterCancelAtOpen",
+    "member-center-at-open": "/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterAtOpen"
+  }
+}
