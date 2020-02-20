@@ -3,6 +3,7 @@
 		<div class="mode-list" :id='dataLists.id'>
 			<div class="title">
 				<rTitle
+				v-if="moduleTitleStyle === '0'"
 				:disabled='!disabled'
 				:isShowOne='true'
 				:rPadding="tabYItemsIndex === indexNum ? '6vw 20upx' : '6vw 20upx'"
@@ -19,6 +20,33 @@
 				tWidthOne="100%"
 				tHeightOne="8.466vw"
 				tPaddingOne="0 10upx"
+				tBGOne="rgba(212, 253, 247, 0.21)"
+				tBorderOne="1px solid #02C2A2"
+				tBStyleOne="dashed"
+				:isShowTwo='false'
+				@tap-Title='tabIconTitle'
+				></rTitle>
+				<rTitle
+				v-if="moduleTitleStyle === '1'"
+				:disabled='!disabled'
+				:isShowOne='true'
+				:rPadding="tabYItemsIndex === indexNum ? '70upx 20upx 30upx 20upx' : '70upx 20upx 30upx 20upx'"
+				:valueOne="dataLists.iconTitle"
+				typeOne="text" 
+				:maxlengthOne='5'
+				:focusOne='false'
+				:cursorOne='0'
+				rfontFamily="PingFangSC-Medium"
+				adjustPositionOne='adjustPosition'
+				tTAlignOne='left'
+				tColorOne='#2E2E30'
+				tFontSizeOne='36upx'
+				tLineHeightOne='8.466vw'
+				tWidthOne="100%"
+				tHeightOne="8.466vw"
+				tPaddingOne="0 10upx"
+				rfontWeight="bold"
+				rbackground="#FFFFFF"
 				tBGOne="rgba(212, 253, 247, 0.21)"
 				tBorderOne="1px solid #02C2A2"
 				tBStyleOne="dashed"
@@ -65,6 +93,18 @@
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
 				@tap-TITLECONTENTIMGD='tapTITLECONTENTIMGD'></TITLECONTENTIMGD>
+				<!-- 组件 -->
+				<TITLECONTENTVIDEOA
+				v-if="items.type === 'TITLE_CONTENT_VIDEO_A'"
+				:basicData='basicDatas'
+				:scrollTop='scrollTops'
+				:disabled='disableds'
+				:defaultImg='defaultAddImg'
+				:dataList='items'
+				:indexNum='index'
+				:tabYItemsIndexs='tabYItemsIndexs'
+				@tap-ChangeTitle='tapChangeTitle'
+				@tap-TITLECONTENTVIDEOA='tapTITLECONTENTVIDEOA'></TITLECONTENTVIDEOA>
 				<!-- 组件 -->
 				<TITLEIMGA
 				v-if="items.type === 'TITLE_IMG_A'"
@@ -344,6 +384,7 @@
 	import TITLECONTENTIMGB from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_B';
 	import TITLECONTENTIMGC from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_C';
 	import TITLECONTENTIMGD from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_D';
+	import TITLECONTENTVIDEOA from '@/components/rhx/InstrModule/TITLE_CONTENT_VIDEO_A';
 	import TITLEIMGA from '@/components/rhx/InstrModule/TITLE_IMG_A';
 	import CONTENTB from '@/components/rhx/InstrModule/CONTENT_B';
 	import INFOB from '@/components/rhx/InstrModule/INFO_B';
@@ -397,6 +438,7 @@
 		props: [
 			'basicData',
 			'scrollTop',
+			'moduleTitleStyle',
 			'disabled',
 			'defaultImg',
 			'dataList',
@@ -413,6 +455,7 @@
 			TITLECONTENTIMGB,
 			TITLECONTENTIMGC,
 			TITLECONTENTIMGD,
+			TITLECONTENTVIDEOA,
 			TITLEIMGA,
 			CONTENTB,
 			INFOB,

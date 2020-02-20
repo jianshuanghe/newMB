@@ -2,7 +2,7 @@
 	<!-- 模拟模块组件 -->
 	<div class="mode-list"  :id='dataLists.id' >
 		<!-- title -->
-		<div class="title">
+		<!-- <div class="title">
 			<rTitle
 			:disabled='!disabled'
 			:isShowOne='true'
@@ -29,7 +29,7 @@
 			:isShowTwo='false'
 			@tap-Title='tabIconTitle'
 			></rTitle>
-		</div>
+		</div> -->
 		<div class="mode-items" v-for='(item,index) in dataLists.dataList' :key='index'>
 			<!-- 产品说明 -->
 			
@@ -60,7 +60,7 @@
 			v-if='deleteMoveTipsShow && disabled'></deleteMoveTips>
 		</div>
 		<!-- 管理项目、复加此项 -->
-		<manageCopyTips
+		<!-- <manageCopyTips
 		v-if='disabled'
 		:manageCopyShow='deleteMoveTipsShow'
 		:manageType='manageType'
@@ -68,7 +68,7 @@
 		:itemsData='dataLists.dataList[0]'
 		:isManageShow='true'
 		@tap-ManageCopyTips='tapManageCopyTips'
-		></manageCopyTips>
+		></manageCopyTips> -->
 	</div>
 </template>
 

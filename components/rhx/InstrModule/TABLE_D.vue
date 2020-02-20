@@ -1,5 +1,5 @@
 <template>
-	<view class="mode-list" :id='dataLists.id'>
+	<view class="mode-list">
 		<view>
 			<rTitle
 			:disabled='!disabled'

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['ModuleDel',['$event']]]]]}}" class="moduleAdd-content _div" bindtap="__e"><view class="addText left _div">{{isDel?'移动模块':'修改模块'}}</view><view class="clear _div"></view></view>

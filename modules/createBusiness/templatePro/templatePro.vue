@@ -42,9 +42,14 @@
 </template>
 
 <script>
-	// import {isDataPuTong}from '@/static/mbcJs/dataJson/xiaomi.js';
-	// import {isDataPuTong}from '@/static/mbcJs/dataJson/dingzhi.js';
-	import {isDataPuTong}from '@/static/mbcJs/dataJson/gongcheng.js';
+	// import {isData}from '@/static/mbcJs/dataJson/putong.js';
+	// import {isData}from '@/static/mbcJs/dataJson/dingzhi.js';
+	// import {isData}from '@/static/mbcJs/dataJson/gongcheng.js';
+	// import {isData}from '@/static/mbcJs/dataJson/huagong.js';
+	// import {isData}from '@/static/mbcJs/dataJson/gangcai.js';
+	// import {isData}from '@/static/mbcJs/dataJson/zixun.js';
+	// import {isData}from '@/static/mbcJs/dataJson/shouhoufuwu.js';
+	import {isData}from '@/static/mbcJs/dataJson/FAQ.js';
 	import {moduleTemp}from '@/static/mbcJs/dataJson/moduleTemp.js';
 	import moduleTemPro from './moduleTemPro/moduleTemPro';
 	import moduleBtnPro from './moduleBtnPro/moduleBtnPro';
@@ -162,7 +167,7 @@
 			  }
 			})
 			// #endif
-			console.log(isDataPuTong, 'isDataPuTong');
+			console.log(isData, 'isData');
 		},
 		beforeDestroy () {
 			// console.log('页面销毁之前缓存数据更新-----------setImgList、setCaiGouList');
@@ -197,7 +202,7 @@
 						// console.log(response.data, '---------------response.data--------------')
 						if (response.data.ret === '200') {
 							// this.moduleDateList = response.data;
-							this.moduleDateList = isDataPuTong; // 测试
+							this.moduleDateList = isData; // 测试
 							if (Number(this.routeParam.instrucCustType)=== 1) {
 								this.getModuleTempList(id); // 根据id 拉去用户可添加的模块信息
 								this.getCustModuleTempList(id); 

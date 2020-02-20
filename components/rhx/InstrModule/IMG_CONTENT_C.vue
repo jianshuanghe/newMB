@@ -1,7 +1,7 @@
 <template>
 	<view class="body1">
 		<view class="mode-list"  :id='dataLists.id'>
-			<rTitle
+			<!-- <rTitle
 			:disabled='!disabled'
 			:isShowOne='true'
 			:rPadding="tabYItemsIndex === indexNum ? '70upx 0 30upx 20upx' : '70upx 0 30upx 20upx'"
@@ -26,7 +26,7 @@
 			tBStyleOne="dashed"
 			:isShowTwo='false'
 			@tap-Title='tabIconTitle'
-			></rTitle>
+			></rTitle> -->
 		</view>
 		<view class="content">
 			<view class="content-item" v-for="(item,index) in dataLists.dataList" :key="index">
@@ -122,7 +122,7 @@
 			</view>
 		</view>
 		<!-- 管理项目、复加此项 -->
-		<manageCopyTips
+		<!-- <manageCopyTips
 		v-if='disabled'
 		:manageCopyShow='deleteMoveTipsShow'
 		:manageType='manageType'
@@ -130,7 +130,7 @@
 		:itemsData='dataLists.dataList[0]'
 		:isManageShow='true'
 		@tap-ManageCopyTips='tapManageCopyTips'
-		></manageCopyTips>
+		></manageCopyTips> -->
 	</view>
 </template>
 

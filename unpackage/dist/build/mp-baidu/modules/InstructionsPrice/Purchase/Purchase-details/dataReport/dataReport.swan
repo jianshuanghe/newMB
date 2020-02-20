@@ -1,0 +1,1 @@
+<view class="dataReport_content _div data-v-4dffbbcc"><top-box vue-id="1" class="data-v-4dffbbcc" vue-slots="{{['default']}}"><view class="title-putIn _p data-v-4dffbbcc">采购名称</view></top-box><data-trend-kanban vue-id="2" dataid="{{this.id}}" class="data-v-4dffbbcc"></data-trend-kanban></view>

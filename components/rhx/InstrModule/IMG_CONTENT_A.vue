@@ -3,7 +3,7 @@
 	<div class="mode-list"  :id='dataLists.id' >
 		<!-- title -->
 		<div class="title">
-			<rTitle
+			<!-- <rTitle
 			:disabled='!disabled'
 			:isShowOne='true'
 			:rPadding="tabYItemsIndex === indexNum ? '70upx 20upx 14upx 20upx' : '70upx 20upx 14upx 20upx'"
@@ -28,7 +28,7 @@
 			tBStyleOne="dashed"
 			:isShowTwo='false'
 			@tap-Title='tabIconTitle'
-			></rTitle>
+			></rTitle> -->
 		</div>
 		<div class="mode-items" v-for='(item,index) in dataLists.dataList' :key='index'>
 			
@@ -89,7 +89,7 @@
 			v-if='deleteMoveTipsShow && disabled'></deleteMoveTips>
 		</div>
 		<!-- 管理项目、复加此项 -->
-		<manageCopyTips
+		<!-- <manageCopyTips
 		v-if='disabled'
 		:manageCopyShow='deleteMoveTipsShow'
 		:manageType='manageType'
@@ -97,7 +97,7 @@
 		:itemsData='dataLists.dataList[0]'
 		:isManageShow='true'
 		@tap-ManageCopyTips='tapManageCopyTips'
-		></manageCopyTips>
+		></manageCopyTips> -->
 	</div>
 </template>
 

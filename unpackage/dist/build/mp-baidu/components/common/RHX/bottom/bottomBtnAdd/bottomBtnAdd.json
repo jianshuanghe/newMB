@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "bottom-btn-add-picker": "/components/common/RHX/bottom/bottomBtnAdd/bottomBtnAddPicker",
+    "bottom-btn-add-infor": "/components/common/RHX/bottom/bottomBtnAdd/bottomBtnAddInfor"
+  },
+  "component": true
+}

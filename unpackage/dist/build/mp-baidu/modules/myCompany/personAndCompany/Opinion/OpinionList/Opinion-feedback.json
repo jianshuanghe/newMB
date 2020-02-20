@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "image-upload-more": "/components/common/imageUpload/imageUploadMore",
+    "evaluating": "/components/common/Evaluating/components/myIssue"
+  },
+  "component": true
+}

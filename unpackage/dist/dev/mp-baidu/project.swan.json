@@ -1,30 +1,23 @@
 {
-    "appid": "18243908",
-    "appInfo": {},
-    "appkey": "",
-    "condition": {
-        "swan": {
-            "current": 0,
-            "list": [
-                {
-                    "name": "",
-                    "path": "",
-                    "query": "",
-                    "id": 0
-                }
-            ]
-        }
-    },
-    "setting": {
-        "urlCheck": true
-    },
-    "libVersion": "",
-    "projectname": "陌拜",
-    "host": "baiduboxapp",
+  "appid": "18243908",
+  "appInfo": {},
+  "appkey": "",
+  "condition": {
     "swan": {
-        "baiduboxapp": {
-            "swanJsVersion": "3.140.11",
-            "extensionJsVersion": "1.9.2"
+      "current": 0,
+      "list": [
+        {
+          "name": "",
+          "path": "",
+          "query": "",
+          "id": 0
         }
+      ]
     }
+  },
+  "setting": {
+    "urlCheck": true
+  },
+  "libVersion": "",
+  "projectname": "陌拜"
 }

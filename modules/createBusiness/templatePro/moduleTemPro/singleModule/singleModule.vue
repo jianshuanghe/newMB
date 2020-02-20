@@ -10,7 +10,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -22,7 +22,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -34,7 +34,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -46,7 +46,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -70,7 +70,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -82,7 +82,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -94,7 +94,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -106,7 +106,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -118,7 +118,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -130,7 +130,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@set-FixedShow='setFixedShowTemp'
@@ -143,7 +143,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@set-FixedShow='setFixedShowTemp'
@@ -156,7 +156,7 @@
 				:scrollTop='scrollTops'
 				:disabled='disableds'
 				:defaultImg='defaultAddImg'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -167,7 +167,7 @@
 				:basicData='basicDatas'
 				:scrollTop='scrollTops'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:defaultImg='defaultAddImg'
 				:tabYItemsIndexs='tabYItemsIndexs'
@@ -180,7 +180,7 @@
 				:basicData='basicDatas'
 				:scrollTop='scrollTops'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -192,7 +192,7 @@
 				:basicData='basicDatas'
 				:scrollTop='scrollTops'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -204,7 +204,7 @@
 				:basicData='basicDatas'
 				:scrollTop='scrollTops'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -216,7 +216,7 @@
 				:basicData='basicDatas'
 				:scrollTop='scrollTops'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -228,7 +228,7 @@
 				:basicData='basicDatas'
 				:scrollTop='scrollTops'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-TITLEA='tapTITLEA'
@@ -248,7 +248,7 @@
 				:basicData='basicDatas'
 				:scrollTop='scrollTops'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
@@ -262,7 +262,7 @@
 				:defaultImg='defaultAddImg'
 				:defaultLink='defaultAddLink'
 				:disabled='disableds'
-				:dataList='items'
+				:dataList='dataLists'
 				:indexNum='index'
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@set-FixedShow='setFixedShowTemp'
@@ -334,6 +334,7 @@
 		props: [
 			'basicData',
 			'scrollTop',
+			'moduleTitleStyle',
 			'disabled',
 			'defaultImg',
 			'dataList',
@@ -394,7 +395,7 @@
 		watch: {
 			basicData: {
 				handler(a, b) {
-					// console.log(a, b, '--------------statusTemp---------------');
+					console.log(a, b, '--------------statusTemp---------------');
 					this.basicDatas = a;
 				},
 				deep: true
@@ -422,7 +423,7 @@
 			},
 			dataList: {
 				handler(a, b) {
-					console.log(a, b, '--------------dataList---------------');
+					console.log(a, b, '33');
 					this.dataLists = a;
 				},
 				deep: true

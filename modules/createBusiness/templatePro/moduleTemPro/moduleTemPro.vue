@@ -92,6 +92,7 @@
 								v-if="items.mType === 'moreModule'"
 								:basicData='dataListTemp.content.context.tempCon.modules'
 								:scrollTop='fixedScroll.scrollTop'
+								:moduleTitleStyle='dataListTemp.content.context.tempCon.moduleTitleStyle'
 								:disabled='statusPreviewEditor'
 								:defaultImg='defaultAddImg'
 								:dataList='items'
@@ -105,6 +106,7 @@
 								v-if="items.mType === 'singleModule'"
 								:basicData='dataListTemp.content.context.tempCon.modules'
 								:scrollTop='fixedScroll.scrollTop'
+								:moduleTitleStyle='dataListTemp.content.context.tempCon.moduleTitleStyle'
 								:disabled='statusPreviewEditor'
 								:defaultImg='defaultAddImg'
 								:dataList='items'

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "fixed-bg-btn": "/components/common/button/fixedBgBtn",
+    "save-preview-btn": "/components/common/button/savePreviewBtn"
+  },
+  "component": true
+}

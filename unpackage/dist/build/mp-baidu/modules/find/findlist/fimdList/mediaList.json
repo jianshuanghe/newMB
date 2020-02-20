@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "business-follow": "/components/common/businessFollow/businessFollow",
+    "list-modules": "/components/mbbo/findModules/listModules"
+  },
+  "component": true
+}

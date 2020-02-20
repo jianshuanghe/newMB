@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "save-preview-btn": "/components/common/button/savePreviewBtn",
+    "module-add-list": "/components/common/RHX/moduleAddList/moduleAddList"
+  },
+  "component": true
+}
