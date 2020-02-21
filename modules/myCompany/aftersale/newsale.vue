@@ -112,7 +112,7 @@
 import topBox from '@/components/mbbo/topBox/topBox';
 import createsale from '@/modules/myCompany/aftersale/aftersaleItems/createSale';
 import address from '@/static/mbcImg/images/business/home/aftersale/地址-黑1.png';
-import deleteImg from '@/static/mbcImg/common/pinDao/delete.png';
+// import deleteImg from '@/static/mbcImg/common/pinDao/delete.png';
 export default {
 	name: 'aftermarket',
 	components: {
@@ -122,7 +122,7 @@ export default {
 	data() {
 		return {
 			address: address,
-			deleteImg: deleteImg,
+			deleteImg: this.Static+'common/pinDao/delete.png',
 			userId:'',//用户ID
 			baiduCcode:'',//城市地址
 			aftersaleTime:'',//营业时间

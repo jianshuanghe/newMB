@@ -2,7 +2,7 @@
 	<view class="news-Message">
 		<!-- <scroll-view class="scroll-v list" scroll-y="true" @scrolltolower="loadMore()"> -->
 		<!-- 收到留言列表 -->
-		<view class="my-Buyer-header-list" @tap="gotoxi(item.id)" v-for="(item,index) in GET_NEWS.Message" :key="index">
+		<view class="my-Buyer-header-list" @tap="gotoxi(item.id)" v-for="(item,index) in this.GET_NEWS.Message" :key="index">
 			<view class="my-Buyer-header-list1">
 				<view v-if="item.readeState == 0"></view>
 			</view>
@@ -30,6 +30,7 @@
 </template>
 
 <script>
+// import logo from '@/static/mbcImg/images/shareImg.jpg';
 import { mapMutations,mapGetters } from 'vuex';
 export default {
 	data() {
@@ -38,6 +39,7 @@ export default {
 			list:[],
 			lists:[],
 			pages:'2',
+			
 		};
 	},
 	mounted() {},

@@ -14,6 +14,7 @@
 </template>
 
 <script>
+	// import right from '@/static/mbcImg/my/right.png';
 	export default {
 		data() {
 			return {
