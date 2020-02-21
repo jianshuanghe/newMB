@@ -1,8 +1,6 @@
 {
   "pages": [
     "pages/project/MBBO/home",
-    "pages/landRegistration/h5/landRegistration",
-    "pages/landRegistration/h5/forgetPassWord",
     "pages/landRegistration/mp/landRegistration"
   ],
   "subPackages": [
@@ -117,6 +115,7 @@
     "request": 20000,
     "uploadFile": 20000,
     "downloadFile": 20000
+<<<<<<< HEAD
   },
   "permission": {
     "scope.userLocation": {
@@ -125,4 +124,9 @@
   },
   "usingComponents": {},
   "sitemapLocation": "sitemap16.json"
+=======
+  },
+  "permission": {},
+  "usingComponents": {}
+>>>>>>> 1.1-mp
 }

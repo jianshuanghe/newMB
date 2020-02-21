@@ -7,10 +7,11 @@
 				:key="index"
 				@click="labelBtn(items.value, index)" 
 				class='items-box left'>
-					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
+					<checkbox :value="items.value" :checked="items.checked" v-show="false"/>
 					<div class="rRadio-items2"
 					 :class="(index + 1)%4===0 && index > 2? 'rRadio-itemsM' : 'rRadio-items2'"
-					 :style="items.checked === true ? selectStyle2 : noSelectStyle2">
+					 :style="items.checked == true ? 'color:#02C2A2;border:1px solid #02C2A2' : noSelectStyle2"
+					 >
 						<span>{{items.value}}</span>
 					</div>
 					<div class="clear"></div>
@@ -21,9 +22,6 @@
 </template>
 
 <script>
-	import check from '@/static/mbcImg/home/extendManageList/dataReport/check.png';
-	import checked from '@/static/mbcImg/home/extendManageList/dataReport/checked.png';
-	import checkedItems from '@/static/mbcImg/home/extendManageList/dataReport/checkedItems.png';
 	export default {
 		name: 'businessPutIn',
 		data() {
@@ -32,9 +30,9 @@
 				dataList: [], // 城防多选的转型后数组
 				
 				selcetDataList: [], // 盛放选中的商机
-				check: check, // type 选择按钮的未选中状态 img
-				checked: checked, // type 选择按钮的选中状态 img
-				checkedItems: checkedItems, // 子项选中对勾 img
+				check:  this.Static+'home/extendManageList/dataReport/check.png', // type 选择按钮的未选中状态 img
+				checked:  this.Static+'home/extendManageList/dataReport/checked.png', // type 选择按钮的选中状态 img
+				checkedItems:  this.Static+'home/extendManageList/dataReport/checkedItems.png', // 子项选中对勾 img
 				clickItemsIndex: '', // 记录子项点击的index
 				selectStyle2: { // 选择之后样式边框变化
 					// background: '#02C2A2',

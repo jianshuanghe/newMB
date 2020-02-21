@@ -66,10 +66,6 @@
 </template>
 
 <script>
-	import arrow from '@/static/mbcImg/my/down-arrow.png';
-	import PT from '@/static/mbcImg/my/1.png';
-	import FW from '@/static/mbcImg/my/22.png';
-	import NI from '@/static/mbcImg/my/33.png';
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
 	import { mapMutations, mapGetters } from 'vuex';
@@ -77,10 +73,10 @@
 		data() {
 			return {
 				arr:[],
-				arrow:arrow,
-				PT:PT,
-				FW:FW,
-				NI:NI,
+				arrow: this.Static+'my/down-arrow.png.png',
+				PT: this.Static+'my/1.png',
+				FW: this.Static+'my/22.png',
+				NI: this.Static+'my/33.png',
 				fold:true,
 				id:'',
 			};

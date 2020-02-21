@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 .survey-content.data-v-d69a5304{
+=======
+.survey-content.data-v-cca82198{
+>>>>>>> 1.1-mp
   position: fixed;
   height: 96vh;
   overflow: scroll;

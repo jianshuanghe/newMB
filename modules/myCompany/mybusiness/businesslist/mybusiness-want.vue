@@ -73,7 +73,7 @@
 					</view>
 					<view class="Purchase-listB-header-zi">{{ite.purcTitle|ellipsis}}</view>
 					<view class="Purchase-listB-header-edit">
-						<span v-if="ite.purcSpec!==''">{{item.purcSpec}}</span>
+						<span v-if="ite.purcSpec!==''">{{ite.purcSpec}}</span>
 						<span v-if="ite.purcInvo==0">报价不含税</span>
 						<span v-if="ite.purcInvo==1">报价含税</span>
 						<span v-if="ite.purcFrei==0">报价不含运费</span>
@@ -113,10 +113,14 @@
 				</view>
 			</view>
 		</view>
+		<view class="meirenkanwo" v-if="arr.length == 0">
+			<image :src="kong" mode=""></image>
+			暂无！
+		</view>
 		<!-- 底部按钮 -->
 		<view class="mybusiness-want-bot">
-			<view class="mybusiness-supply-Customer" @tap="phone(data.userPhone)" v-if="String(this.listid)!==String(this.id)">联系商家</view>
-			<view class="mybusiness-supply-Customer" @tap="clickBasicInforEdit" v-if="String(this.listid)==String(this.id)">编辑</view>
+			<view class="mybusiness-supply-Customer" @tap="phone(datas.userPhone)" v-if="String(listid)!==String(id)">联系商家</view>
+			<view class="mybusiness-supply-Customer" @tap="clickBasicInforEdit" v-if="String(listid)==String(id)">编辑</view>
 			<!-- <view class="mybusiness-want-contact">联系商家</view> -->
 		</view>
 	</view>
@@ -124,38 +128,25 @@
 
 <script>
 	import { mapMutations, mapGetters } from 'vuex';
-	import Images from '@/static/mbcImg/my/Images.png';
-	import Image from '@/static/mbcImg/my/Image.png';
-	//看過 電話 聊天 點讚..
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phones from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	//結束
-	import wa from '@/static/mbcImg/my/w-a.png';
-	import wb from '@/static/mbcImg/my/w-b.png';
-	import wc from '@/static/mbcImg/my/w-c.png';
-	import wd from '@/static/mbcImg/my/w-d.png';
-	import xia from '@/static/mbcImg/my/xia.png';
 	export default {
 		data() {
 			return {
-				Images:Images,
-				Image:Image,
-				zan:zan,
-				look:look,
-				phones:phones,
-				liu:liu,
-				shou:shou,
-				fen:fen,
+				Images:this.Static+'my/Images.png',
+				Image:this.Static+'my/Image.png',
+				zan:this.Static+'my/zan.png',
+				look:this.Static+'my/look.png',
+				phones:this.Static+'my/phone.png',
+				liu:this.Static+'my/liu.png',
+				shou:this.Static+'my/shou.png',
+				fen:this.Static+'my/fen.png',
 				arr:[],
-				wa:wa,
-				wb:wb,
-				wc:wc,
-				wd:wd,
-				xia:xia,
+				wa:this.Static+'my/w-a.png',
+				wb:this.Static+'my/w-b.png',
+				wc:this.Static+'my/w-c.png',
+				wd:this.Static+'my/w-d.png',
+				xia:this.Static+'my/xia.png',
+				id:'',
+				kong:this.Static+'my/kong.png',
 			}
 		},
 		
@@ -177,7 +168,7 @@
 			// console.log(this.arr)
 			this.Purchas();
 		},
-		props:['listid','data'],
+		props:['listid','datas'],
 		mounted(){
 			
 		},
@@ -341,6 +332,21 @@
 		background: #FFFFFF;
 		margin-top: 20upx;
 		position: relative;
+	}
+	.meirenkanwo{
+		width: 330upx;
+		height: 280upx;
+		display: block;
+		margin: 0 auto auto auto;
+		font-size: 28upx;
+		text-align: center;
+		color: #9B9B9B;
+		clear: both;
+	}
+	.meirenkanwo>image {
+		width: 92%;
+		height: 80%;
+		padding-top: 120upx;
 	}
 	.wimage{
 		width: 100upx;

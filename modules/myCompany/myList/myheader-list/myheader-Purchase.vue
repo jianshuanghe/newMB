@@ -27,13 +27,12 @@
 
 <script>
 	import { mapMutations, mapGetters } from 'vuex';
-	import del from '@/static/mbcImg/my/del.png'
 	export default {
 		data() {
 			return {
 				lists:[],
 				hidens:2,
-				del:del,
+				del: this.Static+'my/del.png',
 				nums:0,
 				edits:'',
 				blurType: '1', // 代表默认失去焦点事件，2代表点击添加时失去焦点事件

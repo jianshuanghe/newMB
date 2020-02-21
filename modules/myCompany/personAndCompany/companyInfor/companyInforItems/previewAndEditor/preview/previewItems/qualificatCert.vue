@@ -3,73 +3,73 @@
 		<div class="BIF-top">
 			<view class="BIF-top-box">
 				<view class="BIF-top-box-img">
-					<image :src="this.UserData.compLogo"></image>
+					<image :src="UserData.compLogo"></image>
 				</view>
 				<view class="BIF-top-box-zi">
-					<p>{{this.UserData.compName|ellipsis}}</p>
+					<p>{{UserData.compName|ellipsis}}</p>
 					<p>
-						<image :src="renzheng" v-if="this.UserData.authState==2"></image>
-						<image :src="weirenzheng" v-if="this.UserData.authState!=2"></image>
+						<image :src="renzheng" v-if="UserData.authState==2"></image>
+						<image :src="weirenzheng" v-if="UserData.authState!=2"></image>
 					</p>
-					<p v-if="this.UserData.userType==0">品牌商</p>
-					<p v-if="this.UserData.userType==1">经销商</p>
-					<p v-if="this.UserData.userType==2">厂家</p>
-					<p v-if="this.UserData.userType==3">其他</p>
+					<p v-if="UserData.userType==0">品牌商</p>
+					<p v-if="UserData.userType==1">经销商</p>
+					<p v-if="UserData.userType==2">厂家</p>
+					<p v-if="UserData.userType==3">其他</p>
 				</view>
 			</view>
 		</div>
 		<view class="BIF-content">
 			<view class="BIF-content-one">
-				<span>品牌名称:</span><span style="color: #2E2E30;margin-left: 10upx;">{{this.UserData.authBrandName}}</span>
+				<span>品牌名称:</span><span style="color: #2E2E30;margin-left: 10upx;">{{UserData.authBrandName}}</span>
 			</view>
 			<view class="BIF-content-ones">
-				<view>推广内容:</view><view style="color: #2E2E30;margin-left: 10upx;">{{this.UserData.authBrandContent}}</view>
+				<view>推广内容:</view><view style="color: #2E2E30;margin-left: 10upx;">{{UserData.authBrandContent}}</view>
 				<view class="clear"></view>
 			</view>
 			<view class="BIF-content-one">
 				<span>主体类型:</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.authCompType==0">个体</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.authCompType==1">企业</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.authCompType==0">个体</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.authCompType==1">企业</span>
 			</view>
 			<view class="BIF-content-one">
 				<span>主体身份:</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.userType==0">品牌商</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.userType==1">经销商</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.userType==2">厂家</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.userType==3">其他</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.userType==0">品牌商</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.userType==1">经销商</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.userType==2">厂家</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.userType==3">其他</span>
 			</view>
 			<view class="BIF-content-one" style="border-bottom: 2upx solid #F5F5F5;padding-bottom: 20upx;">
-				<span>统一社会信用代码:</span><span style="color: #2E2E30;margin-left: 10upx;">{{this.UserData.authQualNum}}</span>
+				<span>统一社会信用代码:</span><span style="color: #2E2E30;margin-left: 10upx;">{{UserData.authQualNum}}</span>
 			</view>
 		</view>
 		<view class="BIF-contents">
 			<view class="BIF-content-one">营业执照:</view>
-			<view class="BIF-contents-image" style="margin-left: 175upx;"><image :src="this.UserData.authQualImg" mode=""></image></view>
+			<view class="BIF-contents-image" style="margin-left: 175upx;"><image :src="UserData.authQualImg" mode=""></image></view>
 			<view class="BIF-content-one">
-				<span>有 效 期:</span><span style="color: #2E2E30;margin-left: 10upx;">{{this.UserData.qualTime|formatDate}}</span>
+				<span>有 效 期:</span><span style="color: #2E2E30;margin-left: 10upx;">{{UserData.qualTime|formatDate}}</span>
 			</view>
 			<view class="BIF-content-one" style="margin-top: -20upx;border-bottom: 2upx solid #F5F5F5;padding-bottom: 10upx;">
-				<span>注 册 地:</span><span style="color: #2E2E30;margin-left: 10upx;">{{this.UserData.regPcodeStr}}-{{this.UserData.regCcodeStr}}-{{this.UserData.regAcodeStr}}</span>
+				<span>注 册 地:</span><span style="color: #2E2E30;margin-left: 10upx;">{{UserData.regPcodeStr}}-{{UserData.regCcodeStr}}-{{UserData.regAcodeStr}}</span>
 			</view>
 		</view>
 		<view class="BIF-con">
 			<view class="BIF-content-one">法人身份证:</view>
-			<view class="BIF-contents-image" style="float:left;margin-left: 175upx;"><image :src="this.UserData.authLegalNum" mode=""></image></view>
-			<view class="BIF-contents-image" style="float:left;margin-left: 20upx;"><image :src="this.UserData.authLegalNum01" mode=""></image></view>
+			<view class="BIF-contents-image" style="float:left;margin-left: 175upx;"><image :src="UserData.authLegalNum" mode=""></image></view>
+			<view class="BIF-contents-image" style="float:left;margin-left: 20upx;"><image :src="UserData.authLegalNum01" mode=""></image></view>
 		</view>
 		<view class="BIF-bottom">
 			<view class="BIF-content-one" style="height: 60upx;padding-top: 10upx;">
-				<span>审核说明:</span><span style="color: #2E2E30;margin-left: 10upx;">{{this.UserData.authContent}}</span>
+				<span>审核说明:</span><span style="color: #2E2E30;margin-left: 10upx;">{{UserData.authContent}}</span>
 			</view>
 			<view class="BIF-content-one" style="height: 60upx;">
 				<span>审核结果:</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.authState==0">未提交审核</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.authState==1">等待认证</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.authState==2">认证成功</span>
-				<span style="color: #2E2E30;margin-left: 10upx;" v-if="this.UserData.authState==3">认证失败</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.authState==0">未提交审核</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.authState==1">等待认证</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.authState==2">认证成功</span>
+				<span style="color: #2E2E30;margin-left: 10upx;" v-if="UserData.authState==3">认证失败</span>
 			</view>
 			<view class="BIF-content-one" style="height: 60upx;">
-				<span>审核时间:</span><span style="color: #2E2E30;margin-left: 10upx;">{{this.UserData.authTimeStr}}</span>
+				<span>审核时间:</span><span style="color: #2E2E30;margin-left: 10upx;">{{UserData.authTimeStr}}</span>
 			</view>
 		</view>
 		<view style="height: 140upx;"></view>
@@ -82,8 +82,6 @@
 </template>
 
 <script>
-	import renzheng from '@/static/mbcImg/my/renzheng.png';
-	import weirenzheng from '@/static/mbcImg/my/weirenzheng.png';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		name: 'qualificatCert',
@@ -93,8 +91,8 @@
 		data() {
 			return {
 				UserData:[],
-				renzheng:renzheng,
-				weirenzheng:weirenzheng,
+				renzheng: this.Static+'my/renzheng.png',
+				weirenzheng: this.Static+'my/weirenzheng.png',
 			}
 		},
 		created() {

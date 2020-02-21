@@ -1,11 +1,19 @@
 
+<<<<<<< HEAD
 .content-BunessDetails.data-v-2ce34412 {
+=======
+.content-BunessDetails.data-v-59f57148 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: #f6f6f6;
 }
+<<<<<<< HEAD
 .detailsPutIn-Box-Cont.data-v-2ce34412 {
+=======
+.detailsPutIn-Box-Cont.data-v-59f57148 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	min-height: 97vh;

@@ -91,7 +91,6 @@ import uCharts from '@/components/common/u-charts/u-charts.js';
 import { isJSON } from '@/common/checker.js';
 var _self;
 var canvaLineA = null;
-import rightArrow from '@/static/mbcImg/home/extendManageList/rightArrow.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	components: {},
@@ -141,7 +140,7 @@ export default {
 			cHeight: '',
 			pixelRatio: 1,
 			textarea: '',
-			rightArrow: rightArrow,
+			rightArrow:  this.Static+'home/extendManageList/rightArrow.png',
 			itemList:[],
 			LineA: {
 				categories: ['2019-09-17', '2019-09-18'],

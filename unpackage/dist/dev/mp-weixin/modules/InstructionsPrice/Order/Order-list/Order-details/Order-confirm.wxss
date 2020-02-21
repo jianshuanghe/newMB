@@ -103,7 +103,12 @@
 	font-size: 28rpx;
 	color: #2E2E30;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 }
 .Supply-order-listB-zi>view:nth-of-type(2){
@@ -193,9 +198,17 @@
 	height: 200rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+>>>>>>> 1.1-mp
 	        justify-content: space-between;
 	margin-top: 20rpx;
 }
@@ -269,7 +282,12 @@
 	display: -webkit-box;
 	-webkit-line-clamp:2;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow: ellipsis;
+=======
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+>>>>>>> 1.1-mp
 	-webkit-box-orient: vertical;
 	clear: both;
 }
@@ -328,9 +346,17 @@
 	line-height: 80rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+>>>>>>> 1.1-mp
 	        justify-content: space-between;
 	font-size: 28rpx;
 	color: #9B9B9B;

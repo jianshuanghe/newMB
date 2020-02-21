@@ -21,16 +21,14 @@
 </template>
 
 <script>
-	import selected from '@/static/mbcImg/images/business/home/personCenter/勾选-选中.png'
-	import select from '@/static/mbcImg/images/business/home/personCenter/勾选-未选择.png'
 export default {
 	name: 'membershipAgreement',
 	components: {},
 	props: ['userDatas'],
 	data() {
 		return {
-			selected:selected,
-			select:select,
+			selected: this.Static+'images/business/home/personCenter/勾选-选中.png',
+			select: this.Static+'images/business/home/personCenter/勾选-未选择.png',
 			vipSelect:true,//单选未选中  当vipSelect为false是说明用户选中，可以提交了
 			vipSelected:false,//单选已经选中
 		};

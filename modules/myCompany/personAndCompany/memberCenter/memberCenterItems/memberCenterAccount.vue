@@ -134,8 +134,6 @@
 </template>
 
 <script>
-import vipBackground from '@/static/mbcImg/images/business/home/personCenter/银卡.png';
-import userLogo from '@/static/mbcImg/my/sasf.png';
 // import { mapMutations, mapGetters } from 'vuex';
 // import { Toast } from 'mint-ui';
 // import axios from 'axios';
@@ -149,8 +147,8 @@ export default {
 	data() {
 		return {
 			user:[],
-			userLogo:userLogo,
-			vipBackground: vipBackground, //会员背景图片
+			userLogo: this.Static+'my/sasf.png',
+			vipBackground:  this.Static+'images/business/home/personCenter/银卡.png', //会员背景图片
 			overdueDay: '', // 过期天数
 			effectiveTime: '', // 有效时间
 			progress:'',

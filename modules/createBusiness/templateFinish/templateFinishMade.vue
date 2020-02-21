@@ -174,17 +174,14 @@
 import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 import madeAddress from './madeAddress.vue';
 import navigation from '@/components/mbbo/navigation/navigation.vue';
-import selectEd from '@/static/mbcImg/publish/createBusiness/selectEd.png';
-import select from '@/static/mbcImg/publish/createBusiness/select.png';
-import right from '@/static/mbcImg/my/right.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	data() {
 		return {
-			right: right,
-			selectEd: selectEd, // 勾选圆框 黑色
-			select: select, // 未勾选圆框 白色
-			agreementImg: select,
+			right:  this.Static+'my/right.png',
+			selectEd:  this.Static+'publish/createBusiness/selectEd.png', // 勾选圆框 黑色
+			select:  this.Static+'publish/createBusiness/select.png', // 未勾选圆框 白色
+			agreementImg:  this.Static+'publish/createBusiness/select.png',
 			list: null,
 			tapIndex: 0,
 			dataLists:null, // 链接上的参数

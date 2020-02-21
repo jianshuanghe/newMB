@@ -24,12 +24,11 @@
 
 <script>
 	import { mapMutations,mapGetters } from 'vuex';
-	import kong from '@/static/mbcImg/my/kong.png';
 	export default {
 		data() {
 			return {
 				list:[],
-				kong:kong,
+				kong:this.Static+'my/kong.png',
 			}
 		},
 		created() {

@@ -33,6 +33,7 @@
 						<provinceCity
 						column="-1" 
 						v-on:clickCity="clickCity"
+						:value="listData.paramsPC.text" 
 						></provinceCity>
 					</view>
 				</view>
@@ -62,18 +63,14 @@
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from '@/components/mbbo/navigation/navigation.vue';
 	import { mapMutations, mapGetters } from 'vuex';
-	import xuanzhong from '@/static/mbcImg/my/16.png'
-	import weixuan from '@/static/mbcImg/my/15.png'
-	import ming from '@/static/mbcImg/my/17.png'
-	import dili from '@/static/mbcImg/my/18.png';
 	import provinceCity from '@/components/common/provinceCity/provinceCity.vue';
 	export default {
 		data() {
 			return {
-				weixuan:weixuan,
-				xuanzhong:xuanzhong,
-				ming:ming,
-				dili:dili,
+				weixuan: this.Static+'my/15.png',
+				xuanzhong: this.Static+'my/16.png',
+				ming: this.Static+'my/17.png',
+				dili: this.Static+'my/18.png',
 				picker: "",
 				zitis: false,
 				num:'1',//控制按钮是否选中 1位选中 0位未选中
@@ -81,6 +78,41 @@
 				name:'',
 				addres:'',
 				arr:[],
+				info: {
+					idStringAddress: '', // 用户地址省市区和详细地址拼接
+					idString: '', // 地址显示省市区
+					addrPcode: '', // 省
+					addrCcode: '', // 市
+					addrAcode: '', // 区
+					idaddress: '' // 详细地址
+				},
+				province: [], // 全国省
+				city: [], // 全国市
+				county: [], // 全国县区
+				listData: {
+					// 省市S
+					multiArray: [
+					],
+					multiIndex: [0, 0],
+					areaPorC: {}, // 获取缓存的省市
+					province: { // 用户选择的省份
+						index: 0, // 记录用户选择省份index
+						text: '', // 页面显示字段
+						pcode: '' // 传给后台参数
+					},
+					city: { // 用户选择的城市
+						text: '', // 页面显示字段
+						ccode: '' // 传给后台参数
+					},
+					paramsPC: { // 用于接口数据省和市
+						ptext: '', // 页面显示字段
+						pcode: '' ,// 传给后台参数
+						ctext: '', // 页面显示字段
+						ccode: '' // 传给后台参数
+					},
+					// 省市E
+					dizhi:''
+				}
 			};
 		},
 		components: {

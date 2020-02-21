@@ -46,18 +46,15 @@
 </template>
 
 <script>
-	import biao from '@/static/mbcImg/my/biao.png';
-	import ding from '@/static/mbcImg/my/ding.png';
-	import kong from '@/static/mbcImg/my/kong.png';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
 				List:['全部','待确认','待发货','待收货','已完成','已关闭'],
 				numa:0,
-				biao:biao,
-				ding:ding,
-				kong:kong,
+				biao: this.Static+'my/biao.png',
+				ding: this.Static+'my/ding.png',
+				kong: this.Static+'my/kong.png',
 				gong:[],
 				shu:[],
 				pages:'1',
@@ -90,6 +87,7 @@
 		methods: {
 			loadMore:function(){
 				if(this.numa==0){
+					this.pages='2';
 					if (uni.getStorageSync('landRegist')) {
 						let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 						console.log(landRegistLG.user.id);
@@ -109,7 +107,7 @@
 								console.log(response.data);
 								// console.log(111111111111111111111111111111111111)
 								
-								this.pages++;
+								
 								if(response.data.content.list.length==0){
 									uni.showToast({
 										title: '没有数据啦',
@@ -118,6 +116,7 @@
 									});
 									return false;
 								}else{
+									this.pages++;
 									response.data.content.list.map((item,index)=>{
 										this.shu.push(item)
 									})
@@ -136,6 +135,7 @@
 						});
 					}
 				}else if(this.numa==1){
+					this.pages='2';
 					if (uni.getStorageSync('landRegist')) {
 						let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 						console.log(landRegistLG.user.id);
@@ -161,6 +161,7 @@
 									});
 									return false;
 								}else{
+									this.pages++;
 									response.data.content.list.map((item,index)=>{
 										this.shu.push(item)
 									})
@@ -179,6 +180,7 @@
 						});
 					}
 				}else if(this.numa==2){
+					this.pages='2';
 					if (uni.getStorageSync('landRegist')) {
 						let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 						console.log(landRegistLG.user.id);
@@ -204,6 +206,7 @@
 									});
 									return false;
 								}else{
+									this.pages++;
 									response.data.content.list.map((item,index)=>{
 										this.shu.push(item)
 									})
@@ -222,6 +225,7 @@
 						});
 					}
 				}else if(this.numa==3){
+					this.pages='2';
 					if (uni.getStorageSync('landRegist')) {
 						let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 						console.log(landRegistLG.user.id);
@@ -247,6 +251,7 @@
 									});
 									return false;
 								}else{
+									this.pages++;
 									response.data.content.list.map((item,index)=>{
 										this.shu.push(item)
 									})
@@ -265,6 +270,7 @@
 						});
 					}
 				}else if(this.numa==4){
+					this.pages='2';
 					if (uni.getStorageSync('landRegist')) {
 						let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 						console.log(landRegistLG.user.id);
@@ -290,6 +296,7 @@
 									});
 									return false;
 								}else{
+									this.pages++;
 									response.data.content.list.map((item,index)=>{
 										this.shu.push(item)
 									})
@@ -308,6 +315,7 @@
 						});
 					}
 				}else if(this.numa==5){
+					this.pages='2';
 					if (uni.getStorageSync('landRegist')) {
 						let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 						console.log(landRegistLG.user.id);
@@ -333,6 +341,7 @@
 									});
 									return false;
 								}else{
+									this.pages++;
 									response.data.content.list.map((item,index)=>{
 										this.shu.push(item)
 									})
@@ -351,7 +360,6 @@
 						});
 					}
 				}
-				
 			},
 			gotoGood(index) {
 				this.numa = index;

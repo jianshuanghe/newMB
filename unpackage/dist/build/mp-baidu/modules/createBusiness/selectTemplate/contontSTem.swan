@@ -1,1 +1,0 @@
-<view class="contontSTem-content _div"><block s-if="{{SELECTTEMPLATERHX.tabItems===1}}"><total vue-id="1"></total></block><block s-if="{{SELECTTEMPLATERHX.tabItems===2}}"><product vue-id="2"></product></block><block s-if="{{SELECTTEMPLATERHX.tabItems===3}}"><made vue-id="3"></made></block><block s-if="{{SELECTTEMPLATERHX.tabItems===4}}"><infor vue-id="4"></infor></block></view>

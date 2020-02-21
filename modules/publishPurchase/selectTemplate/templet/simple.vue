@@ -100,10 +100,6 @@
 </template>
 
 <script>
-import touXiang from '@/static/mbcImg/images/business/home/extendManageList/touxiang.png';
-import xing from '@/static/mbcImg/common/xinghao.png';
-import check from '@/static/mbcImg/home/extendManageList/dataReport/check1.png';
-import checked from '@/static/mbcImg/home/extendManageList/dataReport/checked.png';
 import wInput from '@/components/common/watch-login/watch-input.vue';
 import rTitle from '@/components/common/RHX/rTitle/rTitle';
 import imageUploadMore from '@/components/common/imageUpload/imageUploadMore.vue';
@@ -117,9 +113,9 @@ export default {
 	},
 	data() {
 		return {
-			xing: xing,
-			check: check, // type 选择按钮的未选中状态 img
-			checked: checked, // type 选择按钮的选中状态 img
+			xing:  this.Static+'common/xinghao.png',
+			check:  this.Static+'home/extendManageList/dataReport/check1.png', // type 选择按钮的未选中状态 img
+			checked:  this.Static+'home/extendManageList/dataReport/checked.png', // type 选择按钮的选中状态 img
 			check1: false,
 			caiGouList:{}, // 采购列表数据
 			listData: {}, // 附件数据列表

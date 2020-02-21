@@ -49,14 +49,12 @@
 </template>
 
 <script>
-	import logo from '@/static/mbcImg/my/logo.png';
-	import kong from '@/static/mbcImg/my/kong.png';
 	export default {
 		data() {
 			return {
-				logo:logo,
+				logo: this.Static+'my/logo.png',
 				list:[],
-				kong:kong,
+				kong: this.Static+'my/kong.png',
 			}
 		},
 		mounted() {

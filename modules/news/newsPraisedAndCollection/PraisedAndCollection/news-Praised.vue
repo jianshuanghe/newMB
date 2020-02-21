@@ -2,7 +2,7 @@
 	<view class="news-Praised">
 		<!-- 消息 已获赞 -->
 		<view class="news-Praised-title">
-			共收到<span>{{nums}}</span>个赞
+			共收到<span>{{nums||'0'}}</span>个赞
 		</view>
 		<view class="news-Praised-con" v-for="(item,index) in list" :key="index">
 			<view class="news-Praised-conOne">
@@ -61,24 +61,18 @@
 </template>
 
 <script>
-	import logo from '@/static/mbcImg/my/logo.png';
-	import zan1 from '@/static/mbcImg/news/zan1.png';
-	import zan2 from '@/static/mbcImg/news/zan2.png';
-	import ce from '@/static/mbcImg/my/2.png';
-	import kong from '@/static/mbcImg/my/kong.png';
-	import comp from '@/static/mbcImg/my/comp.png';
 	export default {
 		data() {
 			return {
-				logo:logo,
-				zan1:zan1,
-				zan2:zan2,
+				logo:this.Static+'my/logo.png',
+				zan1:this.Static+'news/zan1.png',
+				zan2:this.Static+'news/zan2.png',
 				num:0,
-				ce:ce,
+				ce:this.Static+'my/2.png',
 				list:[],
 				nums:'',
-				kong:kong,
-				comp:comp,
+				kong:this.Static+'my/kong.png',
+				comp:this.Static+'my/comp.png',
 			}
 		},
 		mounted() {

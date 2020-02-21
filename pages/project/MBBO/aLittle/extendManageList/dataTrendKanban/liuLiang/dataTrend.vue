@@ -90,9 +90,6 @@ import uCharts from '@/components/common/u-charts/u-charts.js';
 import { isJSON } from '@/common/checker.js';
 var _self;
 var canvaLineA = null;
-import rightArrow from '@/static/mbcImg/home/extendManageList/rightArrow.png';
-import Image from '@/static/mbcImg/my/Image.png';
-import downarrow from '@/static/mbcImg/my/down-arrow.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	components: {
@@ -100,8 +97,8 @@ export default {
 	},
 	data() {
 		return {
-			Image:Image,
-			downarrow:downarrow,
+			Image: this.Static+'my/Image.png',
+			downarrow: this.Static+'my/down-arrow.png',
 			clickItemsIndex: 7, // 默认展示综合
 			customTime: {
 				// 自定义时间
@@ -175,7 +172,6 @@ export default {
 			cHeight: '',
 			pixelRatio: 1,
 			textarea: '',
-			rightArrow: rightArrow,
 			itemList: [],
 			flowList:[],
 			timess:[],//盛放昨天 今天 近七日 近30天数据
@@ -556,7 +552,7 @@ export default {
 					gridType: 'solid', // x轴网格为实线
 					itemCount: 4,
 					scrollShow: false, // 不显示滚动条
-					scrollAlign: 'left'
+					scrollAlign: 'right'
 				},
 				yAxis: {
 					disabled: true, // 不绘制y轴

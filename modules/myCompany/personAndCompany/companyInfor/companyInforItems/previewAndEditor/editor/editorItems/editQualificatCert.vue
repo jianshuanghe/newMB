@@ -93,8 +93,8 @@
 								<div class="right-Box-MI">
 									<div class="img-MI left">
 										<view class="BI-text-right">
-											<view class="BI-picker" v-if="logo==''&&this.list.authQualImg==''">{{i18n.defaultText.defaul_imgPutIn}}</view>
-											<image class="BI-picker-Img" v-if="logo==''&&this.list.authQualImg!=''" :src="this.list.authQualImg"></image>
+											<view class="BI-picker" v-if="logo==''&&list.authQualImg==''">{{i18n.defaultText.defaul_imgPutIn}}</view>
+											<image class="BI-picker-Img" v-if="logo==''&&list.authQualImg!=''" :src="list.authQualImg"></image>
 											<view class="Img-logo">
 												<!-- 图片上传 -->
 												<view class="Img-Upload">
@@ -151,9 +151,9 @@
 							<p class="">{{i18n.leftText.youXiaoQi}}</p>
 						</div>
 						<div class="MI-hao" @tap="screenDataPopup()">
-							<div class="MII-nih" v-if="this.Effec==''&&this.list.qualTime==undefined&&this.times==''">请选择</div>
-							<div class="MII-nih" style="color:black;" v-if="this.Effec!=''">{{Effec}}</div>
-							<div class="MII-nih" style="color:black;" v-if="this.Effec==''&&this.list.qualTime!=''&&this.times!==''">{{times|formatDate}}</div>
+							<div class="MII-nih" v-if="Effec==''&&list.qualTime==undefined&&times==''">请选择</div>
+							<div class="MII-nih" style="color:black;" v-if="Effec!=''">{{Effec}}</div>
+							<div class="MII-nih" style="color:black;" v-if="Effec==''&&list.qualTime!=''&&times!==''">{{times|formatDate}}</div>
 							<div class="MII-image"><image :src="lineRightArrow"></image></div>
 						</div>
 						<div class="clear"></div>
@@ -166,9 +166,9 @@
 							<p class="">{{i18n.leftText.zhuCe}}</p>
 						</div>
 						<div class="MI-hao" @tap="area()">
-							<div class="MII-nih" v-if="this.placker==''&&this.list.regAcodeStr==undefined">请选择</div>
-							<div class="MII-nih" style="color:black;" v-if="this.placker!=''">{{placker}}</div>
-							<div class="MII-nih" style="color:black;" v-if="this.placker==undefined&&this.list.regAcodeStr!=''">{{dili}}</div>
+							<div class="MII-nih" v-if="placker==''&&list.regAcodeStr==undefined">请选择</div>
+							<div class="MII-nih" style="color:black;" v-if="placker!=''">{{placker}}</div>
+							<div class="MII-nih" style="color:black;" v-if="placker==undefined&&list.regAcodeStr!=''||placker==''">{{dili}}</div>
 							<div class="MII-image"><image :src="lineRightArrow"></image></div>
 						</div>
 						<div class="clear"></div>
@@ -253,15 +253,12 @@
 			</div>
 		</div>
 		<div class="BIF-bottom">
-			<div class="BIF-btn" @click="clickSaveQualificatCert"><p class="">保存并提交审核</p></div>
+			<div class="BIF-btn" @click="clickSaveQualificatCert">保存并提交审核</div>
 		</div>
 	</div>
 </template>
 
 <script>
-import touXiang from '@/static/mbcImg/images/business/home/extendManageList/touxiang.png';
-import lineRightArrow from '@/static/mbcImg/images/common/line-right-arrow.png';
-import xing from '@/static/mbcImg/images/common/xing.png';
 import wInput from '@/components/common/watch-login/watch-input1.vue';
 import imageUploadOne from '@/components/common/imageUpload/imageUploadOne.vue';
 import imageUploadMore from '@/components/common/imageUpload/imageUploadMore.vue';
@@ -276,9 +273,9 @@ export default {
 	data() {
 		return {
 			touxiang: '',
-			touxiang1: touXiang,
-			lineRightArrow: lineRightArrow,
-			xing: xing,
+			touxiang1:  this.Static+'images/business/home/extendManageList/touxiang.png',
+			lineRightArrow:  this.Static+'images/common/line-right-arrow.png',
+			xing:  this.Static+'images/common/xing.png',
 			text: '',
 			timeOutEvent: 0, // 定时器
 			previewImgShow: false, // 预览组件显示，默认为false
@@ -342,6 +339,15 @@ export default {
 	props:['listid'],
 	created() {
 		
+		
+	},
+	computed: {
+		i18n () {
+		  return this.$t('qualificatCert')  
+		},
+		...mapGetters(['GET_MY'])
+	},
+	mounted() {
 		if(this.listid==1){
 			this.isImgShow = true;
 			this.isImgShows = true;
@@ -352,16 +358,6 @@ export default {
 			this.Effec=this.GET_MY.Effective;
 			this.getmy();
 		}
-		
-	},
-	computed: {
-		i18n () {
-		  return this.$t('qualificatCert')  
-		},
-		...mapGetters(['GET_MY'])
-	},
-	mounted() {
-		
 	},
 	watch: {
 		GET_MY: {
@@ -457,6 +453,7 @@ export default {
 						this.dili2=this.list.regCcode
 						this.dili3=this.list.regAcode
 						this.dili4=this.list.regAddr
+						console.log(this.dili)
 						//身份证正反面
 						let img=[];
 						img.push(this.list.authLegalNum)
@@ -1132,22 +1129,25 @@ export default {
 .BIF-bottom {
 	position: fixed;
 	width: 100%;
-	padding: 1.5vw 4vw 1.5vw 4vw;
+	height: 113upx;
+	/* padding: 1.5vw 4vw 1.5vw 4vw; */
 	bottom: 0;
 	z-index: 105;
 	background: #fff;
 }
 .BIF-btn {
 	position: relative;
-	width: 100%;
+	width: 90%;
+	height: 80%;
 	background: #02c2a2;
+	margin: 10upx auto auto auto;
 	border-radius: 2px;
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
 	color: #ffffff;
 	text-align: center;
 	letter-spacing: 0;
-	line-height: 12vw;
+	line-height: 88upx;
 }
 .error-tips-EBI {
 	position: absolute;
@@ -1191,6 +1191,9 @@ export default {
 	position:absolute;
 	right:0;
 	top:0;
+	/* #ifdef MP-WEIXIN */
+	line-height: 104upx;
+	/* #endif */
 }
 .MII-image>image{
 	width:100%;
@@ -1199,5 +1202,8 @@ export default {
 .MII-nih{
 	margin-right:34upx;
 	color: #d2d2d2;
+	/* #ifdef MP-WEIXIN */
+	line-height: 116upx;
+	/* #endif */
 }
 </style>

@@ -5,7 +5,12 @@
 		width: 100vw;
 		height: 100rpx;
 		background: rgba(255,255,255,1);
+<<<<<<< HEAD
 		box-shadow: 0 -1px 0 0 #F5F5F5;
+=======
+		-webkit-box-shadow: 0 -1px 0 0 #F5F5F5;
+		        box-shadow: 0 -1px 0 0 #F5F5F5;
+>>>>>>> 1.1-mp
 }
 .btnItems{
 		position: relative;

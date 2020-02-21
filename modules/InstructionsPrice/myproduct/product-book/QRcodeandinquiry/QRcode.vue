@@ -20,7 +20,6 @@
 </template>
 
 <script>
-	import ce from '@/static/mbcImg/my/2.png';
 	export default {
 		props:['data'],
 		data() {

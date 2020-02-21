@@ -12,8 +12,6 @@
 </template>
 
 <script>
-	import pageStatus1 from '@/static/mbcImg/publish/createBusiness/pageStatus1.png';
-	import pageStatus2 from '@/static/mbcImg/publish/createBusiness/pageStatus2.png';
 	export default {
 		components: {
 		},
@@ -22,8 +20,8 @@
 			],
 		data() {
 			return {
-				pageStatus1: pageStatus1,
-				pageStatus2: pageStatus2,
+				pageStatus1:  this.Static+'publish/createBusiness/pageStatus1.png',
+				pageStatus2:  this.Static+'publish/createBusiness/pageStatus2.png',
 			};
 		},
 		created() {},

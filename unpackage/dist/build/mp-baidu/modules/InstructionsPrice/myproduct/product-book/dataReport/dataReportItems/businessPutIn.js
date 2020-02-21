@@ -1,1 +1,0 @@
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["modules/InstructionsPrice/myproduct/product-book/dataReport/dataReportItems/businessPutIn"],{b4c5:function(t,o,s){"use strict";s.r(o);var u,e,l=s("2877"),a={},n=Object(l["a"])(a,u,e,!1,null,null,null);o["default"]=n.exports}}]);

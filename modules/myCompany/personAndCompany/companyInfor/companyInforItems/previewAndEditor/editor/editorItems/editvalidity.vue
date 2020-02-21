@@ -8,6 +8,7 @@
 				</view>
 				<view class="editvalidity-onesB">永久</view>
 			</view>
+			
 			<view class="editvalidity-ones">
 				<view class="editvalidity-onesA" @tap="ima()">
 					<image :src="wei" v-if="imag==0"></image>
@@ -15,7 +16,7 @@
 				</view>
 				<view class="editvalidity-onesB">短期</view>
 				<view class="editvalidity-onesC">
-					<picker @change="bindDateChange" mode="date" :value="date" :start="startDate" fields="day">
+					<picker @change="bindDateChange" :value="date" mode="date" :start="startDate">
 						<view class="zitie">{{date}}</view>
 					</picker>
 				</view>
@@ -29,9 +30,6 @@
 </template>
 
 <script>
-	import wei from '@/static/mbcImg/my/15.png';
-	import xuan from '@/static/mbcImg/my/16.png';
-	import lineRightArrow from '@/static/mbcImg/images/common/line-right-arrow.png';
 	export default {
 		
 		data() {
@@ -39,13 +37,14 @@
 				format: true
 			})
 			return {
-				wei:wei,
-				xuan:xuan,
-				lineRightArrow:lineRightArrow,
-				date: currentDate,
+				wei: this.Static+'my/15.png',
+				xuan: this.Static+'my/16.png',
+				lineRightArrow: this.Static+'images/common/line-right-arrow.png',
 				tou:false,
 				images:0,
 				imag:1,
+				array:[],
+				date:currentDate
 			}
 		},
 		mounted() {
@@ -81,11 +80,12 @@
 				return `${year}-${month}-${day}`;
 			},
 			bindDateChange: function(e) {
-				// console.log(e)
+				console.log(e)
 				this.date = e.target.value
 				console.log(this.date)
 			},
 			baoadd(){
+				console.log(this.date)
 				if(this.images==1){
 					console.log('选择永久')
 					this.$store.commit('setEffective','永久');

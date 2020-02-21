@@ -114,7 +114,7 @@
 
 <script>
 import wInput from '@/components/common/watch-login/watch-input.vue';
-import logo from '@/static/mbcImg/images/business/home/landRegistration/logo.png';
+// import logo from '@/static/mbcImg/images/business/home/landRegistration/logo.png';
 export default {
 	name: 'landRegistration',
 	components: {
@@ -123,7 +123,7 @@ export default {
 	data() {
 		return {
 			browserType: '', // 判断浏览器
-			logo: logo,
+			logo: this.Static+'images/business/home/landRegistration/logo.png',
 			loadingShow: false, // loading
 			isOvertime: false,
 			phoneLand: {

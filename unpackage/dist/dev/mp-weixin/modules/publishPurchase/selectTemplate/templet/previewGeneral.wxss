@@ -1,9 +1,17 @@
 
+<<<<<<< HEAD
 .top-box-title.data-v-283a627e{
     position: relative;
     height: 12vw;
 }
 .quickBtn-search.data-v-283a627e{
+=======
+.top-box-title.data-v-f1429798{
+    position: relative;
+    height: 12vw;
+}
+.quickBtn-search.data-v-f1429798{
+>>>>>>> 1.1-mp
     position: fixed;
     width: 100vw;
     padding: 2vw 4vw;
@@ -11,6 +19,7 @@
     z-index: 997;
     height: 12vw;
     background: #FFFFFF;
+<<<<<<< HEAD
     box-shadow: 0 1px 0 0 #F5F5F5;
 }
 .quickBtn-Fd.data-v-283a627e{
@@ -18,18 +27,36 @@
     width: 6%;
 }
 .search-Fd.data-v-283a627e{
+=======
+    -webkit-box-shadow: 0 1px 0 0 #F5F5F5;
+            box-shadow: 0 1px 0 0 #F5F5F5;
+}
+.quickBtn-Fd.data-v-f1429798{
+    position: relative;
+    width: 6%;
+}
+.search-Fd.data-v-f1429798{
+>>>>>>> 1.1-mp
     position: relative;
     width: 94%;
 	text-align: center;
 }
+<<<<<<< HEAD
 .title-putIn.data-v-283a627e{
+=======
+.title-putIn.data-v-f1429798{
+>>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     text-align: center;
     line-height: 7vw;
     font-size: 3.733vw;
 }
+<<<<<<< HEAD
 .right-title.data-v-283a627e{
+=======
+.right-title.data-v-f1429798{
+>>>>>>> 1.1-mp
     position: absolute;
     right: 0;
     font-family: PingFangSC-Regular;
@@ -40,7 +67,11 @@
     line-height: 7vw;
     top: 0;
 }
+<<<<<<< HEAD
 .right-title-select.data-v-283a627e{
+=======
+.right-title-select.data-v-f1429798{
+>>>>>>> 1.1-mp
 	  position: absolute;
 	  right: 16rpx;
 	  font-family: PingFangSC-Regular;
@@ -51,14 +82,22 @@
 	  line-height: 7vw;
 	  top: 16rpx;
 }
+<<<<<<< HEAD
 .select-title.data-v-283a627e{
+=======
+.select-title.data-v-f1429798{
+>>>>>>> 1.1-mp
 	  position: absolute;
 	  top: 72rpx;
 	  right: 0rpx;
 	  width:16vw;
 	  background: #02C2A2;
 }
+<<<<<<< HEAD
 .select-title>._p.data-v-283a627e{
+=======
+.select-title>._p.data-v-f1429798{
+>>>>>>> 1.1-mp
 	  right: 0;
 	  font-family: PingFangSC-Regular;
 	  font-size: 3.5vw;
@@ -68,7 +107,11 @@
 	  line-height: 7vw;
 	  top: 0;
 }
+<<<<<<< HEAD
 .rightBotTriangle.data-v-283a627e{
+=======
+.rightBotTriangle.data-v-f1429798{
+>>>>>>> 1.1-mp
 	  position: absolute;
 	  width: 12rpx;
 	  height: 12rpx;
@@ -82,16 +125,31 @@
 	padding: 2rpx 0;
 	display: -webkit-inline-box;
 	display: -webkit-inline-flex;
+<<<<<<< HEAD
 	display: inline-flex;
 	-webkit-flex-wrap: nowrap;
 	        flex-wrap: nowrap;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
+=======
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+>>>>>>> 1.1-mp
 	        justify-content: center
 }
 .uni-countdown__splitor {
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
+<<<<<<< HEAD
+=======
+	    -ms-flex-pack: center;
+>>>>>>> 1.1-mp
 	        justify-content: center;
 	line-height: 44rpx;
 	padding: 0 5rpx;
@@ -135,6 +193,10 @@
 	margin: 0 auto;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
+=======
+	display: -ms-flexbox;
+>>>>>>> 1.1-mp
 	display: flex;
 	top: 12rpx;
 	margin-bottom: 8rpx;

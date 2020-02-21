@@ -67,6 +67,10 @@
     line-height: 80rpx;
 	margin-left: 10rpx;
     -webkit-flex-wrap: nowrap;
+<<<<<<< HEAD
+=======
+        -ms-flex-wrap: nowrap;
+>>>>>>> 1.1-mp
             flex-wrap: nowrap;
 
     white-space: nowrap;

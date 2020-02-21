@@ -1,1 +1,0 @@
-<view class="replaceIcon-content _div"><image class="replaceIcon" style="{{'width:'+(iconWidth)+';'+('height:'+(iconHeight)+';')+('padding:'+(iconPadding)+';')}}" src="{{isSelect?iconSrc.selected:iconSrc.notSelected}}" data-event-opts="{{[['tap',[['replaceIcon',['$event']]]]]}}" bindtap="__e"></image></view>

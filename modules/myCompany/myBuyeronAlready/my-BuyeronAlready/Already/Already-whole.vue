@@ -1,7 +1,7 @@
 <template>
 	<!-- 全部 -->
 	<view class="Buyer-whole">
-		<view class="my-Buyer-header-list" @tap="gotoxi(item.id)" v-for="(item,index) in this.GET_NEWS.Alr" :key="index">
+		<view class="my-Buyer-header-list" @tap="gotoxi(item.id)" v-for="(item,index) in GET_NEWS.Alr" :key="index">
 			<view class="my-Buyer-header-list2">
 				<view class="my-Buyer-header-list2-zi">{{item.instrucTitl}}</view>
 				<view class="my-Buyer-header-list2-nei">{{item.msgContent}}</view>
@@ -12,7 +12,7 @@
 			</view>
 			<view class="cler"></view>
 		</view>
-		<view class="meirenkanwo" v-if="this.GET_NEWS.Alr.length === 0">
+		<view class="meirenkanwo" v-if="GET_NEWS.Alr.length === 0">
 			<image :src="kong" mode=""></image>
 			您还没有留言！
 		</view>
@@ -21,11 +21,10 @@
 
 <script>
 	import { mapMutations,mapGetters } from 'vuex';
-	import kong from '@/static/mbcImg/my/kong.png';
 	export default {
 		data() {
 			return {
-				kong:kong,
+				kong:this.Static+'my/kong.png',
 			}
 		},
 		

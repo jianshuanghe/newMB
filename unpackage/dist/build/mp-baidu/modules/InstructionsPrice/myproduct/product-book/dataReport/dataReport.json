@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "component": true,
-  "usingComponents": {
-    "top-box": "/components/mbbo/topBox/topBox",
-    "business-put-in": "/modules/InstructionsPrice/myproduct/product-book/dataReport/dataReportItems/businessPutIn",
-    "data-trend-kanban": "/modules/InstructionsPrice/myproduct/product-book/dataReport/dataTrendKanban/dataTrendKanban"
-  }
-}

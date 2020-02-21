@@ -48,7 +48,6 @@
 </template>
 
 <script>
-	import delsss from '@/static/mbcImg/publish/createBusiness/delsss.png';
 	import purchaseNumber from '@/components/common/RHX/madeCustModule/purchaseNumber/purchaseNumber';
 	import rTitle from '@/components/common/RHX/rTitle/rTitle';
 	import manageCopyTips from '@/components/common/RHX/manageCopyTips/manageCopyTips';
@@ -73,7 +72,7 @@
 		data() {
 			return {
 				indexs: -1,
-				delsss: delsss,
+				delsss:  this.Static+'publish/createBusiness/delsss.png',
 				selectExist: true, // 上面是否存在图片选择和演示选择，如果存在，采购数量显示选择状态，不存在显示输入状态
 				basicDatas: this.basicData, // 原始数据
 				defaultAddImg: this.defaultImg,

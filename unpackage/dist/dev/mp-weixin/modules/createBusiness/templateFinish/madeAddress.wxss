@@ -67,6 +67,10 @@
 	line-height: 76rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
+=======
+	display: -ms-flexbox;
+>>>>>>> 1.1-mp
 	display: flex;
 	float: left;
 }

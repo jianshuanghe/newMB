@@ -1,10 +1,15 @@
 
+<<<<<<< HEAD
 .dataReport_content.data-v-71c7d374 {
+=======
+.dataReport_content.data-v-76c0ec2a {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: #f6f6f6;
 }
+<<<<<<< HEAD
 .title-putIn.data-v-71c7d374{
 	margin-top: 5rpx;
 }
@@ -13,6 +18,16 @@
 	width: 2vw;
 }
 .rightArrow.data-v-71c7d374 {
+=======
+.title-putIn.data-v-76c0ec2a{
+	margin-top: 5rpx;
+}
+.right-arrow.data-v-76c0ec2a {
+	position: relative;
+	width: 2vw;
+}
+.rightArrow.data-v-76c0ec2a {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 3.2vw;
 	top: 0.6vw;

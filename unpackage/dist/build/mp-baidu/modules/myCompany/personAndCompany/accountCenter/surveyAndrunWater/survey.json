@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "survey-account": "/modules/myCompany/personAndCompany/accountCenter/surveyAndrunWater/surveyItems/surveyAccount",
-    "report-from": "/modules/myCompany/personAndCompany/accountCenter/surveyAndrunWater/surveyItems/reportFrom"
-  },
-  "component": true
-}

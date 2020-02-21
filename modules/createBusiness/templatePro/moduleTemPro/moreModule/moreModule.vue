@@ -220,7 +220,7 @@
 
 <script>
 	
-	import defaultAddImg from '@/static/mbcImg/publish/createBusiness/defaultAdd.png';
+	// import defaultAddImg from '@/static/mbcImg/publish/createBusiness/defaultAdd.png';
 	import pageStatus from '@/components/common/RHX/pageStatus/pageStatus';
 	import moduleTitle from '@/components/common/RHX/moduleTitle/moduleTitle';
 	import swiperBanner from '@/components/common/RHX/swiperBanner/swiperBanner';
@@ -243,7 +243,7 @@
 	import INPUTTABLEB from '@/components/rhx/InstrModule/INPUT_TABLE_B';
 	import INPUTIMGA from '@/components/rhx/InstrModule/INPUT_IMG_A';
 	import INPUTTEXTA from '@/components/rhx/InstrModule/INPUT_TEXT_A';
-	import defaultAddLink from '@/static/mbcImg/publish/createBusiness/defaultAddLink.png';
+	// import defaultAddLink from '@/static/mbcImg/publish/createBusiness/defaultAddLink.png';
 	
 	import IMGCONTENTC from '@/components/rhx/InstrModule/IMG_CONTENT_C';
 	import TITLEA from '@/components/rhx/InstrModule/TITLE_A';
@@ -266,6 +266,7 @@
 				tabYItemsIndexs: this.tabYItemsIndex,
 				deleteMoveTipsShow: false, // 控制deleteMoveTips组件显示隐藏
 				moduleTemp: this.moduleTempList,
+				defaultAddLink: this.Static+'publish/createBusiness/defaultAddLink.png',
 				manageType: 0, // 0展示管理 和 复制； 1只展示复制
 			};
 		},

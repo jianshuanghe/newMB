@@ -1,33 +1,57 @@
 
+<<<<<<< HEAD
 .empty-box-cent.data-v-5cefe663{
+=======
+.empty-box-cent.data-v-87d78fce{
+>>>>>>> 1.1-mp
 		position: absolute;
 		height: 100vh;
 		background: #fff;
 		width: 750rpx;
 		left: 0;
 }
+<<<<<<< HEAD
 .empty-content.data-v-5cefe663{
+=======
+.empty-content.data-v-87d78fce{
+>>>>>>> 1.1-mp
     position: relative;
     width: 750rpx;
     padding-top: 24vw;
 }
+<<<<<<< HEAD
 .empty.data-v-5cefe663{
+=======
+.empty.data-v-87d78fce{
+>>>>>>> 1.1-mp
     position: relative;
     width: 37.86vw;
     height: 32.26vw;
     margin: auto;
 }
+<<<<<<< HEAD
 .empty>._img.data-v-5cefe663{
+=======
+.empty>._img.data-v-87d78fce{
+>>>>>>> 1.1-mp
     position: relative;
     width: 100%;
 	height: 100%;
 }
+<<<<<<< HEAD
 .emptyBlankText.data-v-5cefe663{
+=======
+.emptyBlankText.data-v-87d78fce{
+>>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 5vw;
 }
+<<<<<<< HEAD
 .emptyBlankText>._p.data-v-5cefe663{
+=======
+.emptyBlankText>._p.data-v-87d78fce{
+>>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     font-size: 4vw;

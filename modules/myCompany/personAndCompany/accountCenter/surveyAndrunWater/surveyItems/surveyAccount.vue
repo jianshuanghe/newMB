@@ -45,7 +45,6 @@
 </template>
 
 <script>
-import questionImg from '@/static/mbcImg/images/business/home/extendManageList/question.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'surveyAccount',
@@ -54,7 +53,7 @@ export default {
 	},
 	data() {
 		return {
-			questionImg: questionImg,
+			questionImg:  this.Static+'images/business/home/extendManageList/question.png',
 			UserData: [],
 			arr: [],
 			availableAmount: '', // 可用余额

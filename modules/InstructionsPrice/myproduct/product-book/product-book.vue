@@ -13,44 +13,44 @@
 		<view class="product-book-header">
 			<view class="product-book-A" @tap='goToTemplatePro'>
 				<view class="product-book-image">
-					<image :src="this.GET_MY.detailed.bannerImg" mode="center" ></image>
+					<image :src="GET_MY.detailed.bannerImg" mode="center" ></image>
 					<!-- 未上线 -->
-					<image :src="yi" class="tishis" v-if="this.GET_MY.detailed.instrucState === '0'"></image>
+					<image :src="yi" class="tishis" v-if="GET_MY.detailed.instrucState === '0'"></image>
 					<!-- 已上线 -->
-					<image :src="shag" class="tishis" v-if="this.GET_MY.detailed.instrucState === '1'"></image>
+					<image :src="shag" class="tishis" v-if="GET_MY.detailed.instrucState === '1'"></image>
 					<!-- 已下架 -->
-					<image :src="xia" class="tishis" v-if="this.GET_MY.detailed.instrucState === '2'"></image>
+					<image :src="xia" class="tishis" v-if="GET_MY.detailed.instrucState === '2'"></image>
 				</view>
 				<view class="product-book-zi">
-					<view class="product-book-ding">{{this.GET_MY.detailed.instrucTitle|ellipsis}}</view>
-					<view class="product-book-zhong">{{this.GET_MY.detailed.instrucIntro}}</view>
-					<view class="product-book-time">更新于 {{this.GET_MY.detailed.updateTime}}</view>
+					<view class="product-book-ding">{{GET_MY.detailed.instrucTitle|ellipsis}}</view>
+					<view class="product-book-zhong">{{GET_MY.detailed.instrucIntro||'暂无'}}</view>
+					<view class="product-book-time">更新于 {{GET_MY.detailed.updateTime}}</view>
 				</view>
 			</view>
 			<view class="product-book-B" @tap="gotodataReport()">
 				<view class="product-book-BA one">
 					<image :src="look"></image>
-					<span>{{this.GET_MY.detailed.pv}}</span>
+					<span>{{GET_MY.detailed.pv}}</span>
 				</view>
 				<view class="product-book-BA">
 					<image :src="phone"></image>
-					<span>{{this.GET_MY.detailed.telCount}}</span>
+					<span>{{GET_MY.detailed.telCount}}</span>
 				</view>
 				<view class="product-book-BA">
 					<image :src="liu"></image>
-					<span>{{this.GET_MY.detailed.msgCnt}}</span>
+					<span>{{GET_MY.detailed.msgCnt}}</span>
 				</view>
 				<view class="product-book-BA">
 					<image :src="zan"></image>
-					<span>{{this.GET_MY.detailed.likeCn}}</span>
+					<span>{{GET_MY.detailed.likeCn}}</span>
 				</view>
 				<view class="product-book-BA shou">
 					<image :src="shou"></image>
-					<span>{{this.GET_MY.detailed.followCount}}</span>
+					<span>{{GET_MY.detailed.followCount}}</span>
 				</view>
 				<view class="product-book-BA right shou">
 					<image :src="fen"></image>
-					<span>{{this.GET_MY.detailed.shareCnt}}</span>
+					<span>{{GET_MY.detailed.shareCnt}}</span>
 				</view>
 			</view>
 		</view>
@@ -64,13 +64,13 @@
 		</view> -->
 		<view class="qrShare-list">
 			<rQrCode 
-			:dataList="this.GET_MY.detailed.qrImgs" 
+			:dataList="GET_MY.detailed.qrImgs" 
 			:longTapSave='true'
 			:previewImage='true'
 			:isSaveBtn='false'
 			nextMargin='100px'
 			marginLeft='38%'
-			:qrState="this.GET_MY.detailed.instrucState"
+			:qrState="GET_MY.detailed.instrucState"
 			@tap-RQrCode='tapRQrCode'
 			></rQrCode>
 		</view>
@@ -79,55 +79,55 @@
 		</view>
 		<!-- 頁面底部功能按鍵 -->
 		<view class="QRcode-sub">
-			<view  @tap='goToTemplatePro' v-if="this.GET_MY.detailed.isPut!==1">
+			<view  @tap='goToTemplatePro' v-if="GET_MY.detailed.isPut!==1">
 				<view>
 					<image :src="bian"></image>
 				</view>
 				<view>编辑</view>
 			</view>
-			<view v-if="this.GET_MY.detailed.isPut == 1">
+			<view v-if="GET_MY.detailed.isPut == 1">
 				<view style="background: #F5F5F5;">
 					<image :src="bian2"></image>
 				</view>
 				<view style="color: #D2D2D2;">编辑</view>
 			</view>
-			<view @tap="gotoedit(id)" v-if="this.GET_MY.detailed.isPut!==1">
+			<view @tap="gotoedit(id)" v-if="GET_MY.detailed.isPut!==1">
 				<view>
 					<image :src="wan"></image>
 				</view>
 				<view>完善</view>
 			</view>
-			<view  v-if="this.GET_MY.detailed.isPut == 1">
+			<view  v-if="GET_MY.detailed.isPut == 1">
 				<view style="background: #F5F5F5;">
 					<image :src="wan2"></image>
 				</view>
 				<view style="color: #D2D2D2;">完善</view>
 			</view>
-			<view @tap="xiajiaadd()" v-if="this.GET_MY.detailed.instrucState == 1 && this.GET_MY.detailed.isPut !== 1">
+			<view @tap="xiajiaadd()" v-if="GET_MY.detailed.instrucState == 1 && GET_MY.detailed.isPut !== 1">
 				<view>
 					<image :src="xias"></image>
 				</view>
 				<view>下架</view>
 			</view>
-			<view v-if="this.GET_MY.detailed.isPut == 1">
+			<view v-if="GET_MY.detailed.isPut == 1">
 				<view style="background: #F5F5F5;">
 					<image :src="shan2"></image>
 				</view>
 				<view style="color: #D2D2D2;">下架</view>
 			</view>
-			<view @tap="fabuadd()" v-if="this.GET_MY.detailed.instrucState == 2 || this.GET_MY.detailed.instrucState == 0">
+			<view @tap="fabuadd()" v-if="GET_MY.detailed.instrucState == 2 || GET_MY.detailed.instrucState == 0">
 				<view>
 					<image :src="add"></image>
 				</view>
 				<view>发布</view>
 			</view>
-			<view v-if="this.GET_MY.detailed.instrucState == 1&&this.GET_MY.detailed.isPut == 0" @tap="tuig">
+			<view v-if="GET_MY.detailed.instrucState == 1&&GET_MY.detailed.isPut == 0" @tap="tuig">
 				<view>
 					<image :src="tui"></image>
 				</view>
 				<view>推广</view>
 			</view>
-			<view v-if="this.GET_MY.detailed.instrucState == 2||this.GET_MY.detailed.instrucState == 0 || this.GET_MY.detailed.isPut == 1">
+			<view v-if="GET_MY.detailed.instrucState == 2||GET_MY.detailed.instrucState == 0 || GET_MY.detailed.isPut == 1">
 				<view style="background: #F5F5F5;">
 					<image :src="tui2"></image>
 				</view>
@@ -145,13 +145,13 @@
 				</view>
 				<view style="color: #D2D2D2;">分享</view>
 			</view> -->
-			<view @tap="deleadd()" v-if="this.GET_MY.detailed.isPut !== 1">
+			<view @tap="deleadd()" v-if="GET_MY.detailed.isPut !== 1">
 				<view>
 					<image :src="shan"></image>
 				</view>
 				<view>删除</view>
 			</view>
-			<view v-if="this.GET_MY.detailed.isPut == 1">
+			<view v-if="GET_MY.detailed.isPut == 1">
 				<view style="background: #F5F5F5;">
 					<image :src="shan2"></image>
 				</view>
@@ -203,32 +203,6 @@
 	import QRcode from './QRcodeandinquiry/QRcode';
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
-	//看過 電話 聊天 點讚
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phone from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	//結束
-	import yi from '@/static/mbcImg/my/yi.png';
-	import add from '@/static/mbcImg/my/add.png';
-	import shag from '@/static/mbcImg/my/shag.png';
-	import xia from '@/static/mbcImg/my/xia.png';
-	import wei from '@/static/mbcImg/my/wei.png';
-	import peng from '@/static/mbcImg/my/peng.png';
-	import ce from '@/static/mbcImg/my/2.png';
-	import bian from '@/static/mbcImg/my/bianji.png';
-	import bian2 from '@/static/mbcImg/my/72209.png';
-	import wan from '@/static/mbcImg/my/wanshang.png';
-	import wan2 from '@/static/mbcImg/my/noadd.png';
-	import xias from '@/static/mbcImg/my/xiajia.png';
-	import tui from '@/static/mbcImg/my/tuiguang.png';
-	import tui2 from '@/static/mbcImg/my/tuiguang2.png';
-	import feng from '@/static/mbcImg/my/fengxiang.png';
-	import feng2 from '@/static/mbcImg/my/fengxiang2.png';
-	import shan from '@/static/mbcImg/my/shanchu.png';
-	import shan2 from '@/static/mbcImg/my/44.png';
 	import { mapMutations,mapGetters } from 'vuex';
 	import rQrCode from '@/components/common/RHX/rQrCode/rQrCode';
 	export default {
@@ -242,30 +216,30 @@
 					mode: 'center',
 					text: 'center：不缩放图片，只显示图片的中间区域'
 				}],
-				zan:zan,
-				look:look,
-				phone:phone,
-				liu:liu,
-				shou:shou,
-				fen:fen,
+				zan: this.Static+'my/zan.png',
+				look: this.Static+'my/look.png',
+				phone: this.Static+'my/phone.png',
+				liu: this.Static+'my/liu.png',
+				shou: this.Static+'my/shou.png',
+				fen: this.Static+'my/fen.png',
 				lists:[],
-				yi:yi,
-				add:add,
-				shag:shag,
-				xia:xia,
-				wei:wei,
-				peng:peng,
-				bian:bian,
-				bian2:bian2,
-				wan:wan,
-				wan2:wan2,
-				xias:xias,
-				tui:tui,
-				tui2:tui2,
-				feng:feng,
-				feng2:feng2,
-				shan:shan,
-				shan2:shan2,
+				yi: this.Static+'my/yi.png',
+				add: this.Static+'my/add.png',
+				shag: this.Static+'my/shag.png',
+				xia: this.Static+'my/xia.png',
+				wei: this.Static+'my/wei.png',
+				peng: this.Static+'my/peng.png',
+				bian: this.Static+'my/bianji.png',
+				bian2: this.Static+'my/72209.png',
+				wan: this.Static+'my/wanshang.png',
+				wan2: this.Static+'my/xiajia.png',
+				xias: this.Static+'my/xiajia.png',
+				tui: this.Static+'my/tuiguang.png',
+				tui2: this.Static+'my/tuiguang2.png',
+				feng: this.Static+'my/fengxiang.png',
+				feng2: this.Static+'my/fengxiang2.png',
+				shan: this.Static+'my/shanchu.png',
+				shan2: this.Static+'my/44.png',
 				Mask:0,
 				id:'',
 				idd:'',
@@ -284,6 +258,11 @@
 			
 		},
 		created() {
+			
+			
+		},
+		mounted(){
+			// this.GET_MY.detailed=this.dataList;
 			console.log(this.GET_MY.detailed,'11111111111111111111111111111',this.data)
 		},
 		filters: {

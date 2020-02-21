@@ -21,23 +21,17 @@
 </template>
 
 <script>
-	import logo from '@/static/mbcImg/my/logo.png'
-	import renzheng from '@/static/mbcImg/my/renzheng.png'
-	import rightArrow from '@/static/mbcImg/my/rightArrow.png'
-	import VIP from '@/static/mbcImg/my/VIP.png'
-	import sasf from '@/static/mbcImg/my/sasf.png'
-	import weirenzheng from '@/static/mbcImg/my/weirenzheng.png'
 	import { mapMutations,mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				logo:logo,
-				rightArrow:rightArrow,
-				renzheng:renzheng,
+				logo: this.Static+'my/logo.png',
+				rightArrow: this.Static+ 'my/rightArrow.png',
+				renzheng: this.Static+ 'my/renzheng.png',
 				list:[],
-				VIP:VIP,
-				sasf:sasf,
-				weirenzheng:weirenzheng,
+				VIP: this.Static+'my/VIP.png',
+				sasf: this.Static+'my/sasf.png',
+				weirenzheng: this.Static+'my/weirenzheng.png',
 			}
 		},
 		mounted() {

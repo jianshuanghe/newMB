@@ -1,9 +1,17 @@
 
+<<<<<<< HEAD
 .content-extend.data-v-41e36180 {
 	position: relative;
 	margin-bottom: 10vw;
 }
 .extentBox-tian.data-v-41e36180{
+=======
+.content-extend.data-v-74f2c16c {
+	position: relative;
+	margin-bottom: 10vw;
+}
+.extentBox-tian.data-v-74f2c16c{
+>>>>>>> 1.1-mp
 	width: 100%;
 	height: 20vw;
 }

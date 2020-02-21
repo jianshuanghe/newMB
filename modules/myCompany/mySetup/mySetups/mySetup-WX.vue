@@ -10,7 +10,7 @@
 				<div class="items-RB">
 					<!--微信绑定-->
 					<div class="" v-if="!UserWxId">
-						<div class="input-RB"><wInput name="mobile" placeholder="请输入要绑定的微信账" keyboard="number" :show-clear="false" v-model="UserData"></wInput></div>
+						<div class="input-RB"><wInput name="mobile" placeholder="请输入要绑定的微信" keyboard="number" :show-clear="false" v-model="UserData"></wInput></div>
 						<div :class="UserData ? 'btn-RB' : 'btn-RB2'" @click="clickUpData(2)"><p class="">保存</p></div>
 					</div>
 					<!--微信解绑-->
@@ -201,6 +201,10 @@ export default {
 	width: 100%;
 }
 .items-RB {
+	position: relative;
+	width: 100%;
+}
+.items-RB>div {
 	position: relative;
 	width: 100%;
 }

@@ -34,7 +34,12 @@
 	color: #2E2E30;
 	line-height: 35rpx;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 }
 .find-Purchase-head-two>view:nth-of-type(2){
@@ -44,7 +49,12 @@
 	color: #9B9B9B;
 	line-height: 35rpx;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 }
 .find-Purchase-head-thr{
@@ -65,9 +75,17 @@
 	min-height: 200rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+>>>>>>> 1.1-mp
 	        justify-content: space-between;
 }
 .find-Purchase-con-one{
@@ -101,6 +119,10 @@
 	height: 40rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
+=======
+	display: -ms-flexbox;
+>>>>>>> 1.1-mp
 	display: flex;
 	margin-top: 20rpx;
 }
@@ -201,9 +223,17 @@
 	height: 166rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-pack:  justify;
 	-webkit-justify-content:  space-between;
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:  justify;
+	-webkit-justify-content:  space-between;
+	    -ms-flex-pack:  justify;
+>>>>>>> 1.1-mp
 	        justify-content:  space-between;
 }
 .find-Purchase-con-img>image{
@@ -321,6 +351,10 @@
 	width:50%;
 	/* padding: 1.5vw 0 1vw 0; */
 	-webkit-transform: scale(0.9);
+<<<<<<< HEAD
+=======
+	    -ms-transform: scale(0.9);
+>>>>>>> 1.1-mp
 	        transform: scale(0.9);
 	margin-left: -3.5vw;
 	margin-top: -30rpx;

@@ -1,1 +1,0 @@
-<view class="addMade-content _div"><view class="addMade _div"><made-list bind:tapMadeList="__e" vue-id="1" data-event-opts="{{[['^tapMadeList',[['tapMadeList']]]]}}"></made-list><view class="addMade-box _div"><view data-event-opts="{{[['tap',[['goToTemplatePro',['$event']]]]]}}" class="addMade-btn _div" bindtap="__e">+ 添加新的定制模版</view></view></view></view>

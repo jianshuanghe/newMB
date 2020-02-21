@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 .putInBus-content.data-v-3949775c {
+=======
+.putInBus-content.data-v-cfecdadc {
+>>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;
 	height: 100vh;
@@ -7,7 +11,11 @@
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 }
+<<<<<<< HEAD
 .putBusinessItems-Box-cont.data-v-3949775c {
+=======
+.putBusinessItems-Box-cont.data-v-cfecdadc {
+>>>>>>> 1.1-mp
 	padding-top: 1.5vw;
 	position: fixed;
 	height: 95vh;
@@ -15,7 +23,11 @@
 	padding-bottom: 30vw;
 	-webkit-overflow-scrolling: touch;
 }
+<<<<<<< HEAD
 .tianc.data-v-3949775c{
+=======
+.tianc.data-v-cfecdadc{
+>>>>>>> 1.1-mp
 	width: 100%;
 	height: 70rpx;
 }

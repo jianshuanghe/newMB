@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "选择模版(1/4)",
-  "component": true,
-  "usingComponents": {
-    "top-s-tem": "/modules/createBusiness/selectTemplate/topSTem",
-    "navigation": "/components/mbbo/navigation/navigation",
-    "contont-s-tem": "/modules/createBusiness/selectTemplate/contontSTem"
-  }
-}

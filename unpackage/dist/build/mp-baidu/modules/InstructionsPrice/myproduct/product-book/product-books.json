@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "component": true,
-  "usingComponents": {
-    "book": "/modules/InstructionsPrice/myproduct/product-book/product-book"
-  }
-}

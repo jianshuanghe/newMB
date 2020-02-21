@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 .content.data-v-0c235f70 {
+=======
+.content.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	position: relative;
 	/* padding: 0vw 4vw; */
 	background: #fff;
@@ -7,6 +11,7 @@
 	width: 100%;
 	margin-top: 40rpx;
 }
+<<<<<<< HEAD
 .goods-box.data-v-0c235f70 {
 	position: relative;
 	width: 100%;
@@ -16,10 +21,22 @@
 	float: left;
 }
 .describe-img.data-v-0c235f70 {
+=======
+.goods-box.data-v-41fb520c {
+	position: relative;
+	width: 100%;
+}
+.describe-text.data-v-41fb520c {
+	width: 67%;
+	float: left;
+}
+.describe-img.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	width: 226rpx;
 	height: 166rpx;
 	float: right;
 }
+<<<<<<< HEAD
 .describe-img > ._img.data-v-0c235f70 {
 	width: 100%;
 	height: 100%;
@@ -29,6 +46,17 @@
 	width: 100%;
 }
 .title-box > ._p.data-v-0c235f70 {
+=======
+.describe-img > ._img.data-v-41fb520c {
+	width: 100%;
+	height: 100%;
+}
+.title-box.data-v-41fb520c {
+	position: relative;
+	width: 100%;
+}
+.title-box > ._p.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	font-size: 4.5vw;
@@ -40,7 +68,11 @@
 	white-space: nowrap;
 	font-weight: blod;
 }
+<<<<<<< HEAD
 .location.data-v-0c235f70 {
+=======
+.location.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 90%;
 	/* padding: 1.5vw 0 1vw 0; */
@@ -48,17 +80,29 @@
 	        transform: scale(0.9);
 	margin-left: -3.5vw;
 }
+<<<<<<< HEAD
 .icon.data-v-0c235f70 {
 	position: relative;
 	width: 4vw;
 }
 .icon > ._img.data-v-0c235f70 {
+=======
+.icon.data-v-41fb520c {
+	position: relative;
+	width: 4vw;
+}
+.icon > ._img.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 3vw;
 	height: 4.5vw;
 	margin-top: 0.8vw;
 }
+<<<<<<< HEAD
 .loca-text.data-v-0c235f70 {
+=======
+.loca-text.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	font-family: PingFang-SC-Medium;
 	width: 103%;
 	position: relative;
@@ -70,11 +114,19 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+<<<<<<< HEAD
 .price.data-v-0c235f70 {
 	position: relative;
 	width: 100%;
 }
 .price > ._p.data-v-0c235f70 {
+=======
+.price.data-v-41fb520c {
+	position: relative;
+	width: 100%;
+}
+.price > ._p.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	font-family: PingFang-SC-Bold;
 	position: relative;
 	width: 100%;
@@ -84,11 +136,19 @@
 	margin-top: 10rpx;
 	font-weight: bold;
 }
+<<<<<<< HEAD
 .member-price.data-v-0c235f70{
 	position: relative;
 	width: 100%;
 }
 .member-price > ._p.data-v-0c235f70 {
+=======
+.member-price.data-v-41fb520c{
+	position: relative;
+	width: 100%;
+}
+.member-price > ._p.data-v-41fb520c {
+>>>>>>> 1.1-mp
 	font-family: PingFang-SC-Bold;
 	position: relative;
 	width: 100%;

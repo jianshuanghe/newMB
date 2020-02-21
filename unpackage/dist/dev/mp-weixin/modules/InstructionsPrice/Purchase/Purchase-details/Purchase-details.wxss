@@ -85,7 +85,7 @@
 	color: #9B9B9B;
 	float: left;
 }
-.Purchase-listA-time>view:nth-of-type(2){
+.Purchase-listA-timea{
 	float: left;
 	width: 270rpx;
 	height: 42rpx;
@@ -93,38 +93,38 @@
 	color: #9B9B9B;
 	margin-left: 60rpx;
 }
-.Purchase-listA-time>view:nth-of-type(2)>image{
+.Purchase-listA-timea>image{
 	width: 22rpx;
 	height: 22rpx;
 	display: block;
 	float: left;
 	margin-top: 6rpx;
 }
-.Purchase-listA-time>view:nth-of-type(2)>._span{
+.Purchase-listA-timea>._span{
 	display: block;
 	float: left;
 	margin-top: -5rpx;
 	margin-left: 10rpx;
 }
-.Purchase-listA-time>view:nth-of-type(3){
+.Purchase-listA-timeb{
 	float: right;
 	font-size: 24rpx;
 	color: #9B9B9B;
 }
-.Purchase-listA-time>view:nth-of-type(3)>image{
+.Purchase-listA-timeb>image{
 	width: 22rpx;
 	height: 22rpx;
 	display: block;
 	float: left;
 	margin-top: 6rpx;
 }
-.Purchase-listA-time>view:nth-of-type(3)>._span{
+.Purchase-listA-timeb>._span{
 	display: block;
 	float: left;
 	margin-top: -5rpx;
 	margin-left: 10rpx;
 }
-.Purchase-listA-time>view:nth-of-type(3)>._span>._span{
+.Purchase-listA-timeb>._span>._span{
 	color: #02C2A2;
 }
 .myproduct-list-edit{
@@ -206,6 +206,10 @@
 	display: flex;
 	-webkit-box-pack:center;
 	-webkit-justify-content:center;
+<<<<<<< HEAD
+=======
+	    -ms-flex-pack:center;
+>>>>>>> 1.1-mp
 	        justify-content:center;
 }
 .QRcode-sub>view{

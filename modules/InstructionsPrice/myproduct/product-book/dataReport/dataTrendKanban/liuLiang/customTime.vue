@@ -34,7 +34,6 @@
 </template>
 
 <script>
-	import close from '@/static/mbcImg/home/extendManageList/publishClose.png';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		components: {},
@@ -43,7 +42,7 @@
 				format: true
 			})
 			return {
-				close: close,
+				close:  this.Static+'home/extendManageList/publishClose.png',
 				customTime2:{ // 自定义时间
 					show: false, // 默认不显示
 					selectTime: false // 默认没有选择时间

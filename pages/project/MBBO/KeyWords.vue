@@ -80,25 +80,20 @@
 <script>
 	// import tjCheckBox from '@/components/common/RHX/tjCheckBox/tjCheckBox';
 	import tjCheckBox from './tjCheckBox';
-	import caigou from '@/static/mbcImg/guanjianci/caigou.png';
-	import tuijian from '@/static/mbcImg/guanjianci/tuijian.png';
-	import gongying from '@/static/mbcImg/guanjianci/gongying.png';
-	import searchClose from '@/static/mbcImg/common/searchClose.png';
-	import del from '@/static/mbcImg/my/del.png'
 	export default {
 		name: 'KeyWords',
 		data() {
 			return {
 				selected:[],
-				searchClose:searchClose,
-				caigou:caigou,
-				gongying:gongying,
-				tuijian:tuijian,
+				searchClose: this.Static+'common/searchClose.png',
+				caigou: this.Static+'guanjianci/caigou.png',
+				gongying: this.Static+'guanjianci/gongying.png',
+				tuijian: this.Static+'guanjianci/tuijian.png',
 				// caigou:caigou,
 				selectList: [],
 				purcKeys:[],//采购数据
 				instKeys:[],//供应数据
-				del:del,
+				del: this.Static+'my/del.png',
 				hiden:2,
 				num:0,
 				edit:'',

@@ -23,7 +23,6 @@
 </template>
 
 <script>
-	import teled from '@/static/mbcImg/common/userBehavior/teled.png';
 	export default {
 		name: 'businessFollow',
 		props:{
@@ -63,7 +62,7 @@
 		},
 		data() {
 			return {
-				teled: teled,
+				teled:  this.Static+'common/userBehavior/teled.png',
 				activeIndex:"0"
 			};
 		},

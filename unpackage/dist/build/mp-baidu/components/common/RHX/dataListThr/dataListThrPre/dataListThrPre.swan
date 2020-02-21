@@ -1,1 +1,0 @@
-<view class="body1 table"><block s-for="{{dataLists.dataList}}" s-for-item="item" s-for-index="index" s-key="index"><block s-if="{{item.key!=='- -'||item.value!=='- -'}}"><view class="oneList"><view class="listkey"><label class="_span">{{item.key}}</label></view><view class="listvalue"><label class="_span">{{item.value}}</label></view></view></block></block></view>

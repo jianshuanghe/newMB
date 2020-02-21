@@ -39,17 +39,16 @@
 </template>
 
 <script>
-	import qrCode1 from '@/static/mbcImg/publish/purchase/qrCode1.png';
-	import qrCode2 from '@/static/mbcImg/publish/purchase/qrCode2.png';
 	export default {
 		data() {
 			return {
 				tabIndex: 0,
 				dataLists:this.dataList,
 				longTaps: true,
+				
 				qrCodeList: [
-					qrCode1,
-					qrCode2
+					 this.Static+'publish/purchase/qrCode1.png',
+					 this.Static+'publish/purchase/qrCode2.png'
 				]
 			};
 		},

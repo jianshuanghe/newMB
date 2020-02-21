@@ -1,1 +1,0 @@
-<view class="content _div"><view data-event-opts="{{[['tap',[['tapModuleModify']]]]}}" class="moduleYitems-content _div" bindtap="__e"><view class="moduleYitems _div"><image class="moduleYitems" src="{{modifyModule}}"></image></view><view class="items-text _div">修改模块</view></view></view>

@@ -31,7 +31,7 @@
 								<div class="img-MI EBI-img-MI left">
 									<view class="BI-text-right">
 										<wInput
-											v-model="dizhi"
+											v-model="GET_MY.headers.addressDetail"
 											:placeholder="i18n.defaultText.defaul_input"
 										></wInput>
 									</view>
@@ -58,8 +58,6 @@
 </template>
 
 <script>
-import lineRightArrow from '@/static/mbcImg/images/common/line-right-arrow.png';
-import xing from '@/static/mbcImg/images/common/xing.png';
 import { mapMutations, mapGetters } from 'vuex';
 import wInput from '@/components/common/watch-login/watch-input1.vue';
 import provinceCity from '@/components/common/provinceCity/provinceCity.vue';
@@ -72,8 +70,8 @@ export default {
 	data() {
 		return {
 			text: '',
-			lineRightArrow: lineRightArrow,
-			xing: xing,
+			lineRightArrow:  this.Static+'images/common/line-right-arrow.png',
+			xing:  this.Static+'images/common/xing.png',
 			addressDetail: '',
 			info: {
 				idStringAddress: '', // 用户地址省市区和详细地址拼接
@@ -110,7 +108,7 @@ export default {
 					ccode: '' // 传给后台参数
 				},
 				// 省市E
-				dizhi:'请输入'
+				dizhi:''
 			}
 		};
 	},
@@ -118,6 +116,9 @@ export default {
 		console.log(this.GET_MY.headers)
 		this.dizhi=this.GET_MY.headers.addressDetail;
 		this.listData.paramsPC.text=this.GET_MY.headers.addrStr;
+	},
+	onLoad:function(){
+		
 	},
 	mounted() {
 		
@@ -169,7 +170,7 @@ export default {
 					addrPcode: this.arr.pcode, // 省
 					addrCcode: this.arr.ccode, // 市
 					addrTcode: this.arr.tcode, // 区
-					idaddress: this.info.idaddress, // 详细地址
+					idaddress: this.GET_MY.headers.addressDetail, // 详细地址
 				}
 				this.$store.commit('setclickCity', obj); // 更新vuex setAddShow
 			}

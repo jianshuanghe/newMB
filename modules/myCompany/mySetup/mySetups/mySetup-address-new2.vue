@@ -63,18 +63,14 @@
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from '@/components/mbbo/navigation/navigation.vue';
 	import { mapMutations, mapGetters } from 'vuex';
-	import xuanzhong from '@/static/mbcImg/my/16.png'
-	import weixuan from '@/static/mbcImg/my/15.png'
-	import ming from '@/static/mbcImg/my/17.png'
-	import dili from '@/static/mbcImg/my/18.png';
 	import provinceCity from '@/components/common/provinceCity/provinceCity.vue';
 	export default {
 		data() {
 			return {
-				weixuan:weixuan,
-				xuanzhong:xuanzhong,
-				ming:ming,
-				dili:dili,
+				weixuan: this.Static+'my/15.png',
+				xuanzhong: this.Static+'my/16.png',
+				ming: this.Static+'my/17.png',
+				dili: this.Static+'my/18.png',
 				picker: "",
 				zitis: false,
 				num:'1',//控制按钮是否选中 1位选中 0位未选中

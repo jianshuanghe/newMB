@@ -61,39 +61,25 @@
 </template>
 
 <script>
-	import c from '@/static/mbcImg/my/c.png';
-	import yi from '@/static/mbcImg/my/yi.png';
-	import shag from '@/static/mbcImg/my/shag.png';
-	import xia from '@/static/mbcImg/my/xia.png';
-	import you from '@/static/mbcImg/my/xiajiao.png';
-	import kong from '@/static/mbcImg/my/kong.png';
-	//看過 電話 聊天 點讚..
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phone from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	//結束
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				c:c,
-				yi:yi,
-				shag:shag,
-				xia:xia,
-				zan:zan,
-				look:look,
-				phone:phone,
-				liu:liu,
-				shou:shou,
-				fen:fen,
-				kong:kong,
+				c: this.Static+'my/c.png',
+				yi: this.Static+'my/yi.png',
+				shag: this.Static+'my/shag.png',
+				xia: this.Static+'my/xia.png',
+				zan: this.Static+'my/zan.png',
+				look: this.Static+'my/look.png',
+				phone: this.Static+'my/phone.png',
+				liu: this.Static+'my/liu.png',
+				shou: this.Static+'my/shou.png',
+				fen: this.Static+'my/fen.png',
+				kong: this.Static+'my/kong.png',
+				you: this.Static+'my/xiajiao.png',
 				titles:['全部','已发布','待发布','已下架'],
 				nums:0, //0为全部 1为已发布 2为待发布 3为已下架
 				hiden:0, //0为隐藏 1为显示
-				you:you,
 				tap:0, //控制事件重复触发
 				message:'全部',
 				coloe:'0',

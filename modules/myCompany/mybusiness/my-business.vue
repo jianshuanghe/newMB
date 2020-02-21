@@ -48,19 +48,19 @@
 			<view class="my-business-Choice-title">
 				<view v-for="(item,index) in list" :key="index" :class="num==index?'changeColor':''" @tap="gotoGood(index)">
 				{{item.name}}
-					<div class="my-business-Choice-num">
-						{{item.num}}
+					<div class="my-business-Choice-num" v-if="item.name!=='简介'">
+						{{item.num || '0'}}
 					</div>
 				</view>
 			</view>
 		</view>
-		<brief v-if="num === 0" :data='this.lists' :listid="this.id"></brief>
+		<brief v-if="num === 0" :datas='lists' :listid="id"></brief>
 		<!-- 求购 -->
-		<want v-if="num === 1" :listid="this.id" :data='this.lists'></want>
+		<want v-if="num === 1" :listid="id" :datas='ists'></want>
 		<!-- 供应 -->
-		<supply v-if="num === 2" :listid="this.id" :data='this.lists'></supply>
+		<supply v-if="num === 2" :listid="id" :datas='lists'></supply>
 		<!-- 资讯 -->
-		<information v-if="num === 3" :listid="this.id":data='this.lists'></information>
+		<information v-if="num === 3" :listid="id":datas='lists'></information>
 		<navigation v-if="QUICKNAVCO.show"></navigation>
 	</view>
 </template>
@@ -68,23 +68,18 @@
 <script>
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
-	import back from "../../../static/mbcImg/my/2.png";
 	import information from "./businesslist/mybusiness-information"
 	import want from "./businesslist/mybusiness-want"
 	import supply from "./businesslist/mybusiness-supply"
 	import brief from "./businesslist/mybusiness-brief"
-	import renzheng from '@/static/mbcImg/my/renzheng.png'
-	import hea from '@/static/mbcImg/my/hea.png'
-	import weirenzheng from '@/static/mbcImg/my/weirenzheng.png'
-	import erweimamo from '@/static/mbcImg/my/erweimamo.png'
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				renzheng:renzheng,
-				hea:hea,
-				weirenzheng:weirenzheng,
-				erweimamo:erweimamo,
+				renzheng:this.Static+'my/renzheng.png',
+				hea:this.Static+'my/hea.png',
+				weirenzheng:this.Static+'my/weirenzheng.png',
+				erweimamo:this.Static+'my/erweimamo.png',
 				lists:[],
 				list:[
 					{
@@ -104,7 +99,7 @@
 						num: ''
 					},
 					],
-				back:back,
+				back:this.Static+'my/2.png',
 				num:0,//默认显示简介
 				id:'',
 				myid:'',
@@ -166,9 +161,6 @@
 			});
 			this.id=options.id
 			console.log(this.id)
-			
-		},
-		created(){
 			this.Personal();
 			// 求购
 			this.Purchas();
@@ -176,6 +168,10 @@
 			this.inf();
 			//供应
 			this.product();
+			
+		},
+		created(){
+			
 			this.shareEachPage(); // 分享
 		},
 		methods:{
@@ -257,12 +253,13 @@
 					let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 					console.log(landRegistLG.user.id);
 					this.myid=landRegistLG.user.id
+					let idlist=this.id;
 					// let params = {}; // 请求总数居时 参数为空
 					uni.showLoading({ // 展示loading
 						title: '加载中'
 					});
 					uni.request({
-						url: this.api2 + '/rest-rp/user/'+this.id+'?lookUserId='+landRegistLG.user.id, //接口地址。
+						url: this.api2 + '/rest-rp/user/'+idlist+'?lookUserId='+landRegistLG.user.id, //接口地址。
 						// data: params,
 						method: 'GET',
 						header: {

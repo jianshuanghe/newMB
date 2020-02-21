@@ -109,13 +109,12 @@
 <script>
 import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 import navigation from "@/components/mbbo/navigation/navigation.vue";
-import right from '@/static/mbcImg/my/right.png';
 import imageUploadOne from '@/components/common/imageUpload/imageUploadOne.vue'
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	data() {
 		return {
-			right: right,
+			right:  this.Static+'my/right.png',
 			Listdata: [],
 			imageData: '',
 			logo: '',

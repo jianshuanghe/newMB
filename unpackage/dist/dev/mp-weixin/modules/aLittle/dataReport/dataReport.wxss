@@ -1,15 +1,27 @@
 
+<<<<<<< HEAD
 .dataReport_content.data-v-4e8b1d32 {
+=======
+.dataReport_content.data-v-597558e8 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: #f6f6f6;
 }
+<<<<<<< HEAD
 .right-arrow.data-v-4e8b1d32 {
 	position: relative;
 	width: 2vw;
 }
 .rightArrow.data-v-4e8b1d32 {
+=======
+.right-arrow.data-v-597558e8 {
+	position: relative;
+	width: 2vw;
+}
+.rightArrow.data-v-597558e8 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 3.2vw;
 	top: 0.6vw;

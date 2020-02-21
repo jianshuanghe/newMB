@@ -30,8 +30,8 @@
 				</view>
 				<view class="Purchase-listA-time">
 					<view>{{list.createTimeStr}}</view>
-					<view><image :src="Images" v-if="list.purcCcodeStr!=''"></image><span>{{list.purcCcodeStr|ellipsiss}}</span></view>
-					<view><image :src="Image" v-if="list.purcEndTimeStr!=''"></image><span><span>{{list.purcEndTimeStr}}</span></span></view>
+					<view class="Purchase-listA-timea" v-if="list.purcCcodeStr!=''"><image :src="Images" v-if="list.purcCcodeStr!=''"></image><span>{{list.purcCcodeStr|ellipsiss}}</span></view>
+					<view class="Purchase-listA-timeb"><image :src="Image" v-if="list.purcEndTimeStr!=''"></image><span><span>{{list.purcEndTimeStr}}</span></span></view>
 				</view>
 			</div>
 			<view class="myproduct-list-edit" @tap="gotodataReport()">
@@ -194,38 +194,7 @@
 <script>
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
-	import Images from '@/static/mbcImg/my/Images.png';
-	import Image from '@/static/mbcImg/my/Image.png';
-	//看過 電話 聊天 點讚..
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phone from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	import wa from '@/static/mbcImg/my/w-a.png';
-	import wb from '@/static/mbcImg/my/w-b.png';
-	import wc from '@/static/mbcImg/my/w-c.png';
-	import wd from '@/static/mbcImg/my/w-d.png';
-	//結束
-	import yi from '@/static/mbcImg/my/yi.png';
-	import add from '@/static/mbcImg/my/add.png';
-	import shag from '@/static/mbcImg/my/shag.png';
-	import xia from '@/static/mbcImg/my/xia.png';
-	import wei from '@/static/mbcImg/my/wei.png';
-	import peng from '@/static/mbcImg/my/peng.png';
-	import bian from '@/static/mbcImg/my/bianji.png';
-	import bian2 from '@/static/mbcImg/my/72209.png';
-	import wan from '@/static/mbcImg/my/wanshang.png';
-	import xias from '@/static/mbcImg/my/xiajia.png';
-	import tui from '@/static/mbcImg/my/fuicon.png';
-	import feng from '@/static/mbcImg/my/fengxiang.png';
-	import feng2 from '@/static/mbcImg/my/fengxiang2.png';
-	import shan from '@/static/mbcImg/my/shanchu.png';
-	import shan2 from '@/static/mbcImg/my/44.png';
-	import stopicon from '@/static/mbcImg/my/stopicon.png';
-	import stop from '@/static/mbcImg/my/stop.png';
-	import fabu from '@/static/mbcImg/my/fabu.png';
+
 	import QRcode from './QRcode';
 	import rQrCode from '@/components/common/RHX/rQrCode/rQrCode';
 	import { mapMutations, mapGetters } from 'vuex';
@@ -233,40 +202,40 @@
 		data() {
 			return {
 				list:[],
-				Images:Images,
-				Image:Image,
-				zan:zan,
-				look:look,
-				phone:phone,
-				liu:liu,
-				shou:shou,
-				fen:fen,
+				Images: this.Static+'my/Images.png',
+				Image: this.Static+'my/Image.png',
+				zan: this.Static+'my/zan.png',
+				look: this.Static+'my/look.png',
+				phone: this.Static+'my/phone.png',
+				liu: this.Static+'my/liu.png',
+				shou: this.Static+'my/shou.png',
+				fen: this.Static+'my/fen.png',
 				zi:'我是采购名称的标题二十个字限制阿萨德阿萨德',
-				yi:yi,
-				add:add,
-				shag:shag,
-				xia:xia,
-				wei:wei,
-				peng:peng,
-				bian:bian,
-				bian2:bian2,
-				wan:wan,
-				xias:xias,
-				tui:tui,
-				feng:feng,
-				feng2:feng2,
-				shan:shan,
-				shan2:shan2,
-				stopicon:stopicon,
-				stop:stop,
+				yi: this.Static+'my/yi.png',
+				add: this.Static+'my/add.png',
+				shag: this.Static+'my/shag.png',
+				xia: this.Static+'my/xia.png',
+				wei: this.Static+'my/wei.png',
+				peng: this.Static+'my/peng.png',
+				bian: this.Static+'my/bianji.png',
+				bian2: this.Static+'my/72209.png',
+				wan: this.Static+'my/wanshang.png',
+				xias: this.Static+'my/xiajia.png',
+				tui: this.Static+'my/fuicon.png',
+				feng: this.Static+'my/fengxiang.png',
+				feng2: this.Static+'my/fengxiang2.png',
+				shan: this.Static+'my/shanchu.png',
+				shan2: this.Static+'my/44.png',
+				stopicon: this.Static+'my/stopicon.png',
+				stop: this.Static+'my/stop.png',
 				Mask:0,
 				id:'',
-				wa:wa,
-				wb:wb,
-				wc:wc,
-				wd:wd,
+				wa: this.Static+'my/w-a.png',
+				wb: this.Static+'my/w-b.png',
+				wc: this.Static+'my/w-c.png',
+				wd: this.Static+'my/w-d.png',
 				qrImgs:[],//二维码
-				fabu:fabu,
+				fabu: this.Static+'my/fabu.png',
 			}
 		},
 		components:{
@@ -294,6 +263,13 @@
 			  if (!value) return ''
 			  if (value.length > 8) {
 				return value.slice(0,8) + '...'
+			  }
+			  return value
+			},
+			ellip (value) {
+			  if (!value) return ''
+			  if (value.length > 12) {
+				return value.slice(0,12) + '...'
 			  }
 			  return value
 			}
@@ -933,7 +909,7 @@
 		color: #9B9B9B;
 		float: left;
 	}
-	.Purchase-listA-time>view:nth-of-type(2){
+	.Purchase-listA-timea{
 		float: left;
 		width: 270upx;
 		height: 42upx;
@@ -941,38 +917,38 @@
 		color: #9B9B9B;
 		margin-left: 60upx;
 	}
-	.Purchase-listA-time>view:nth-of-type(2)>image{
+	.Purchase-listA-timea>image{
 		width: 22upx;
 		height: 22upx;
 		display: block;
 		float: left;
 		margin-top: 6upx;
 	}
-	.Purchase-listA-time>view:nth-of-type(2)>span{
+	.Purchase-listA-timea>span{
 		display: block;
 		float: left;
 		margin-top: -5upx;
 		margin-left: 10upx;
 	}
-	.Purchase-listA-time>view:nth-of-type(3){
+	.Purchase-listA-timeb{
 		float: right;
 		font-size: 24upx;
 		color: #9B9B9B;
 	}
-	.Purchase-listA-time>view:nth-of-type(3)>image{
+	.Purchase-listA-timeb>image{
 		width: 22upx;
 		height: 22upx;
 		display: block;
 		float: left;
 		margin-top: 6upx;
 	}
-	.Purchase-listA-time>view:nth-of-type(3)>span{
+	.Purchase-listA-timeb>span{
 		display: block;
 		float: left;
 		margin-top: -5upx;
 		margin-left: 10upx;
 	}
-	.Purchase-listA-time>view:nth-of-type(3)>span>span{
+	.Purchase-listA-timeb>span>span{
 		color: #02C2A2;
 	}
 	.myproduct-list-edit{

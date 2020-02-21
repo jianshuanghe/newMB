@@ -47,9 +47,6 @@
 </template>
 
 <script>
-import upArrow from '@/static/mbcImg/home/extendManageList/putInBusiness/up-arrow.png';
-import downArrow from '@/static/mbcImg/home/extendManageList/putInBusiness/down-arrow.png';
-import check from '@/static/mbcImg/home/extendManageList/putInBusiness/check.png';
 import { screenTermData1, screenTermData2, screenTermData3 } from '@/static/mbcJs/code.js';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
@@ -57,10 +54,10 @@ export default {
 	props:['opsitionid'],
 	data() {
 		return {
-			arrow1: downArrow,
-			arrow2: downArrow,
-			arrow3: downArrow,
-			check: check,
+			arrow1:  this.Static+'home/extendManageList/putInBusiness/down-arrow.png',
+			arrow2:  this.Static+'home/extendManageList/putInBusiness/down-arrow.png',
+			arrow3:  this.Static+'home/extendManageList/putInBusiness/down-arrow.png',
+			check:  this.Static+'home/extendManageList/putInBusiness/check.png',
 			filterTitle1: '排序',
 			filterTitle2: '投放位置',
 			filterTitle3: '状态',

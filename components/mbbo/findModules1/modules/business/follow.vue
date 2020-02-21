@@ -175,42 +175,32 @@
 </template>
 
 <script>
-	//看過 電話 聊天 點讚..
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phone from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	import zanss from '@/static/mbcImg/my/zanss.png';
-	import looks from '@/static/mbcImg/my/looks.png';
-	import phones from '@/static/mbcImg/my/phones.png';
-	import lius from '@/static/mbcImg/my/lius.png';
-	import shous from '@/static/mbcImg/my/shous.png';
-	import fens from '@/static/mbcImg/my/fens.png';
-	
-	//結束
-	import time from '@/static/mbcImg/my/Image.png';
-	import locat from '@/static/mbcImg/my/Images.png';
-	
 	export default {
 		data() {
 			return {
-				zan: zan,
-				look: look,
-				phone: phone,
-				liu: liu,
-				shou: shou,
-				fen: fen,
-				zanss: zanss,
-				looks: looks,
-				phones: phones,
-				lius: lius,
-				shous: shous,
-				fens: fens,
+				zan:  this.Static+'my/zan.png',
+				look:  this.Static+'my/look.png',
+				phone:  this.Static+'my/phone.png',
+				liu:  this.Static+'my/liu.png',
+				shou:  this.Static+'my/shou.png',
+				fen:  this.Static+'my/fen.png',
+				zanss:  this.Static+'my/zanss.png',
+				looks:  this.Static+'my/looks.png',
+				phones:  this.Static+'my/phones.png',
+				lius:  this.Static+'my/lius.png',
+				shous:  this.Static+'my/shous.png',
+				fens:  this.Static+'my/fens.png',
 				arr: [],
-				time:time,
-				locat:locat,
+				time: this.Static+'my/Image.png',
+				locat: this.Static+'my/Images.png',
+				floow:'',
+				floowdata:'',
+				likes:'0',
+				likenum:'',
+				shouc:'0',
+				shoucnum:'',
+				hea: this.Static+'my/hea.png',
+				bigpick: this.Static+'my/bigpick.png',
 			};
 		},
 		components:{

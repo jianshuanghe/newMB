@@ -182,9 +182,9 @@
 </template>
 
 <script>
-	import copy from '@/static/mbcImg/publish/createBusiness/copy.png';
-	import manage from '@/static/mbcImg/publish/createBusiness/manage.png';
-	import manageSuccess from '@/static/mbcImg/publish/createBusiness/manageSuccess.png';
+	// import copy from '@/static/mbcImg/publish/createBusiness/copy.png';
+	// import manage from '@/static/mbcImg/publish/createBusiness/manage.png';
+	// import manageSuccess from '@/static/mbcImg/publish/createBusiness/manageSuccess.png';
 	import savePreviewBtn from '@/components/common/button/savePreviewBtn.vue';
 	import moduleAddList from '@/components/common/RHX/moduleAddList/moduleAddList';
 	export default {
@@ -201,11 +201,11 @@
 			],
 		data() {
 			return {
-				copy: copy,
-				manage: manage,
+				copy: this.Static+'publish/createBusiness/copy.png',
+				manage: this.Static+'publish/createBusiness/manage.png',
 				TipsShow: true,
 				moduleAddListShow: false, // 是否展示添加模块列表
-				manageSuccess: manageSuccess,
+				manageSuccess: this.Static+'publish/createBusiness/manageSuccess.png',
 				manageShow: this.manageCopyShow,
 				manageTypes: this.manageType,
 				dataLists: this.dataList,

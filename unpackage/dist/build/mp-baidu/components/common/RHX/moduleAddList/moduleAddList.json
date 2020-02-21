@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "r-check-box": "/components/common/RHX/rCheckBox/rCheckBox",
-    "r-picker": "/components/common/RHX/rPicker/rPicker",
-    "fixed-bg-btn": "/components/common/button/fixedBgBtn"
-  },
-  "component": true
-}

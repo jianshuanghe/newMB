@@ -115,40 +115,25 @@
 
 <script>
 	import { mapMutations, mapGetters } from 'vuex';
-	import Images from '@/static/mbcImg/my/Images.png';
-	import Image from '@/static/mbcImg/my/Image.png';
-	//看過 電話 聊天 點讚..
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phone from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	//結束
-	import wa from '@/static/mbcImg/my/w-a.png';
-	import wb from '@/static/mbcImg/my/w-b.png';
-	import wc from '@/static/mbcImg/my/w-c.png';
-	import wd from '@/static/mbcImg/my/w-d.png';
-	import yiover from '@/static/mbcImg/my/yiover.png';
-	import xia from '@/static/mbcImg/my/xia.png';
+
 	export default {
 		data() {
 			return {
-				Images:Images,
-				Image:Image,
-				zan:zan,
-				look:look,
-				phone:phone,
-				liu:liu,
-				shou:shou,
-				fen:fen,
+				Images: this.Static+'my/Images.png',
+				Image: this.Static+'my/Image.png',
+				zan: this.Static+'my/zan.png',
+				look: this.Static+'my/look.png',
+				phone: this.Static+'my/phone.png',
+				liu: this.Static+'my/liu.png',
+				shou: this.Static+'my/shou.png',
+				fen: this.Static+'my/fen.png',
 				arr:[],
-				wa:wa,
-				wb:wb,
-				wc:wc,
-				wd:wd,
-				yiover:yiover,
-				xia:xia,
+				wa: this.Static+'my/w-a.png',
+				wb: this.Static+'my/w-b.png',
+				wc: this.Static+'my/w-c.png',
+				wd: this.Static+'my/w-d.png',
+				yiover: this.Static+'my/yiover.png',
+				xia: this.Static+'my/xia.png',
 			}
 		},
 		

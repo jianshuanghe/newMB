@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "business-tel-picker": "/components/common/RHX/bottom/businessTelPicker/businessTelPicker"
-  },
-  "component": true
-}

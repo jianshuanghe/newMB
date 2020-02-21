@@ -10,7 +10,11 @@
 		"minified": true
 	},
 	"compileType": "miniprogram",
+<<<<<<< HEAD
 	"libVersion": "2.9.2",
+=======
+	"libVersion": "2.7.0",
+>>>>>>> 1.1-mp
 	"appid": "wxfe5497e8a3f7578a",
 	"projectname": "陌拜",
 	"simulatorType": "wechat",

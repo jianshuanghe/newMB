@@ -1,1 +1,0 @@
-<view class="BTSBtn-box _div"><image class="BTSImg _img" src="{{imgSrc}}" alt></image><view class="BTSText _p">{{name}}</view></view>

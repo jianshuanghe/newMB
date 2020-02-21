@@ -206,7 +206,7 @@
 
 <script>
 	
-	import defaultAddImg from '@/static/mbcImg/publish/createBusiness/defaultAdd.png';
+	// import defaultAddImg from '@/static/mbcImg/publish/createBusiness/defaultAdd.png';
 	import pageStatus from '@/components/common/RHX/pageStatus/pageStatus';
 	import moduleTitle from '@/components/common/RHX/moduleTitle/moduleTitle';
 	import swiperBanner from '@/components/common/RHX/swiperBanner/swiperBanner';
@@ -225,7 +225,7 @@
 	import INPUTTABLEB from '@/components/rhx/InstrModule/INPUT_TABLE_B';
 	import INPUTIMGA from '@/components/rhx/InstrModule/INPUT_IMG_A';
 	import INPUTTEXTA from '@/components/rhx/InstrModule/INPUT_TEXT_A';
-	import defaultAddLink from '@/static/mbcImg/publish/createBusiness/defaultAddLink.png';
+	// import defaultAddLink from '@/static/mbcImg/publish/createBusiness/defaultAddLink.png';
 	import TABLEC from '@/components/rhx/InstrModule/TABLE_C';
 	import TABLED from '@/components/rhx/InstrModule/TABLE_D';
 	import TABLEE from '@/components/rhx/InstrModule/TABLE_E';
@@ -250,6 +250,8 @@
 				dataLists: this.dataList,
 				indexNums: this.indexNum,
 				tabYItemsIndexs: this.tabYItemsIndex,
+				defaultAddImg: this.Static+'publish/createBusiness/defaultAdd.png',
+				defaultAddLink: this.Static+'publish/createBusiness/defaultAddLink.png',
 				deleteMoveTipsShow: false, // 控制deleteMoveTips组件显示隐藏
 				manageType: 0, // 0展示管理 和 复制； 1只展示复制
 			};

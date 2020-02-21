@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 .content-quickBtn.data-v-29c16cde{
+=======
+.content-quickBtn.data-v-534c18d8{
+>>>>>>> 1.1-mp
     position: fixed;
     /* width: 100%; */
     /* margin-top: 1.5vw; */
@@ -7,12 +11,20 @@
 	z-index: 999;
 	margin-right: 2vw;
 }
+<<<<<<< HEAD
 .quickBtn.data-v-29c16cde{
+=======
+.quickBtn.data-v-534c18d8{
+>>>>>>> 1.1-mp
     position: relative;
     width: 7vw;
     height: 5vw;
 }
+<<<<<<< HEAD
 .quickBtn>._img.data-v-29c16cde{
+=======
+.quickBtn>._img.data-v-534c18d8{
+>>>>>>> 1.1-mp
     position: relative;
     width: 40rpx;
     height: 40rpx;

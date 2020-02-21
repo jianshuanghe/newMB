@@ -24,12 +24,11 @@
 </template>
 
 <script>
-	import right from '@/static/mbcImg/my/right.png';
 	import { mapMutations,mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				right: right,
+				right: this.Static+ 'my/right.png',
 			};
 		},
 		mounted() {},

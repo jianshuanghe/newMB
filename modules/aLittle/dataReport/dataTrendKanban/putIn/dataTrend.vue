@@ -87,7 +87,6 @@ import uCharts from '@/components/common/u-charts/u-charts.js';
 import { isJSON } from '@/common/checker.js';
 var _self;
 var canvaLineA = null;
-import rightArrow from '@/static/mbcImg/home/extendManageList/rightArrow.png';
 import { mapMutations, mapGetters } from 'vuex';
 import customTime from '../liuLiang/customTime';
 export default {
@@ -161,7 +160,7 @@ export default {
 			cHeight: '',
 			pixelRatio: 1,
 			textarea: '',
-			rightArrow: rightArrow,
+			rightArrow:  this.Static+'home/extendManageList/rightArrow.png',
 			itemList2:[],
 			LineA: {
 				categories: ['2019-09-17', '2019-09-18', '2019-09-19', '2019-09-20', '2019-09-21'],
@@ -575,7 +574,7 @@ export default {
 					gridType: 'solid', // x轴网格为实线
 					itemCount: 4,
 					scrollShow: false, // 不显示滚动条
-					scrollAlign: 'left'
+					scrollAlign: 'right'
 				},
 				yAxis: {
 					disabled: true, // 不绘制y轴

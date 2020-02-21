@@ -60,7 +60,7 @@
 					</swiper-item>
 				</swiper>
 			</div>
-			<div class="nihao" v-if="this.datasea=='kong'">
+			<div class="nihao" v-if="datasea=='kong'">
 				<image :src="nocon" mode=""></image>
 				<span>没有相关内容</span>
 			</div>
@@ -75,31 +75,26 @@
 import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 import homeSearch from '@/components/mbbo/homeSearch/homeSearch.vue';
 import mediaList from './fimdList/mediaList.vue';
-import pinDaoBtn from '@/static/mbcImg/common/pinDao/pinDaoBtn.png';
-import channelClose from '@/static/mbcImg/common/pinDao/close.png';
-import chanelDelete from '@/static/mbcImg/common/pinDao/delete.png';
 import message from './fimdList/message';
 import navigation from '@/components/mbbo/navigation/navigation.vue';
-import nocon from '@/static/mbcImg/my/nocon.png';
-import souseach from '@/static/mbcImg/my/souseach.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	data() {
 		return {
-			souseach:souseach,
+			souseach: this.Static+'my/souseach.png',
 			searchLS: '',
 			arr: [],
 			list: [],
 			durationTime: 300, // swiper动画时间
-			channelClose: channelClose, // 关闭频道按钮
-			chanelDelete: chanelDelete, // 编辑删除频道子项
-			pinDaoBtn: pinDaoBtn, // 频道按钮
+			channelClose:  this.Static+'common/pinDao/close.png', // 关闭频道按钮
+			chanelDelete:  this.Static+'common/pinDao/delete.png', // 编辑删除频道子项
+			pinDaoBtn:  this.Static+'common/pinDao/pinDaoBtn.png', // 频道按钮
 			pinDaoShow: false, // 展示频道组件，默认不显示
 			editOrFinish: 0, // 0频道未编辑模式，1代表进入频道编辑模式
 			array: {},
 			Leaving: '0',
 			shousuo:false,
-			nocon:nocon,
+			nocon: this.Static+'my/nocon.png',
 			newsList: [
 				{
 					data: this.array,
@@ -1521,6 +1516,7 @@ export default {
 .search-NI-img {
 	position: relative;
 	width: 60upx;
+	z-index: 999;
 }
 .search-NI-img > image {
 	width: 30upx;
@@ -1528,6 +1524,7 @@ export default {
 	margin-top: 26upx;
 	margin-left: 100upx;
 	z-index: 100;
+	
 }
 .search-NI-text {
 	position: relative;
@@ -1552,6 +1549,9 @@ export default {
 	width: 100%;
 	height: 100%;
 	line-height: 30upx;
+	/* #ifdef MP-WEIXIN */
+	margin-top: -5upx;
+	/* #endif */	
 }
 .inputSearch {
 	line-height: 60upx;

@@ -1,16 +1,28 @@
 
+<<<<<<< HEAD
 .content.data-v-ce6267b0 {
+=======
+.content.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	padding: 2vw 0vw;
 	background: #fff;
 	min-height: 630rpx;
 	margin-bottom: 1.5vw;
 }
+<<<<<<< HEAD
 .title-box.data-v-ce6267b0 {
 	position: relative;
 	width: 100%;
 }
 .title-box > ._p.data-v-ce6267b0 {
+=======
+.title-box.data-v-187aedb2 {
+	position: relative;
+	width: 100%;
+}
+.title-box > ._p.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	font-size: 4.5vw;
@@ -18,14 +30,23 @@
 	color: #2e2e30;
 	font-family: PingFang-SC-Medium;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
 .location.data-v-ce6267b0 {
+=======
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.location.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	/* padding: 1.5vw 0 1vw 0; */
 	-webkit-transform: scale(0.9);
+<<<<<<< HEAD
 	        transform: scale(0.9);
 	margin-left: -4.5vw;
 }
@@ -34,12 +55,27 @@
 	width: 4vw;
 }
 .location .icon > ._img.data-v-ce6267b0 {
+=======
+	    -ms-transform: scale(0.9);
+	        transform: scale(0.9);
+	margin-left: -4.5vw;
+}
+.location .icon.data-v-187aedb2 {
+	position: relative;
+	width: 4vw;
+}
+.location .icon > ._img.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 3vw;
 	height: 3.5vw;
 	margin-top: 0vw;
 }
+<<<<<<< HEAD
 .loca-text.data-v-ce6267b0 {
+=======
+.loca-text.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	font-family: PingFang-SC-Medium;
 	width: 90%;
 	position: relative;
@@ -47,17 +83,29 @@
 	line-height: 5vw;
 	color: #9b9b9b;
 }
+<<<<<<< HEAD
 .ensure.data-v-ce6267b0 {
+=======
+.ensure.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 1vw;
 }
+<<<<<<< HEAD
 .ensure .ensure-item.data-v-ce6267b0 {
+=======
+.ensure .ensure-item.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	margin-bottom: 1vw;
 	margin-right: 1.6vw;
 }
+<<<<<<< HEAD
 .ensure .ensure-item > ._p.data-v-ce6267b0 {
+=======
+.ensure .ensure-item > ._p.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	/* width: 93%; */
 	font-size: 3.2vw;
@@ -66,21 +114,36 @@
 	padding: 0.2vw 0.5vw 0.2vw 0.5vw;
 	/* margin-right: 1.5vw; */
 	-webkit-transform: scale(0.8);
+<<<<<<< HEAD
 	transform: scale(0.8);
 }
 .color.data-v-ce6267b0 {
+=======
+	-ms-transform: scale(0.8);
+	    transform: scale(0.8);
+}
+.color.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	background: #fff7e5;
 	font-size: 20rpx;
 	color: #fe9d08;
 }
+<<<<<<< HEAD
 .banner-box.data-v-ce6267b0 {
+=======
+.banner-box.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	height: 45vw;
 	margin-top: 2vw;
 	margin-bottom: 2vw;
 }
+<<<<<<< HEAD
 .banner-box > ._img.data-v-ce6267b0 {
+=======
+.banner-box > ._img.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
 	/* display: table-cell;
@@ -92,11 +155,19 @@
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%); */
 }
+<<<<<<< HEAD
 .banner-bottom.data-v-ce6267b0 {
 	width: 100%;
 	height: 40rpx;
 }
 .banner-bottom-one.data-v-ce6267b0 {
+=======
+.banner-bottom.data-v-187aedb2 {
+	width: 100%;
+	height: 40rpx;
+}
+.banner-bottom-one.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	height: 40rpx;
 	width: 60rpx;
 	text-align: center;
@@ -107,14 +178,22 @@
 	float: left;
 	border-radius: 4rpx;
 }
+<<<<<<< HEAD
 .banner-bottom-two.data-v-ce6267b0 {
+=======
+.banner-bottom-two.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	font-size: 22rpx;
 	color: #9b9b9b;
 	float: left;
 	line-height: 40rpx;
 	margin-left: 20rpx;
 }
+<<<<<<< HEAD
 .product-book-BA.data-v-ce6267b0 {
+=======
+.product-book-BA.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	width: 13.5%;
 	height: 26rpx;
 	margin-top: 20rpx;
@@ -125,6 +204,7 @@
 	float: left;
 	margin-left: 22rpx;
 }
+<<<<<<< HEAD
 .right.data-v-ce6267b0 {
 	border: 0;
 }
@@ -132,11 +212,24 @@
 	margin-left: 0;
 }
 .shou > image.data-v-ce6267b0 {
+=======
+.right.data-v-187aedb2 {
+	border: 0;
+}
+.one.data-v-187aedb2 {
+	margin-left: 0;
+}
+.shou > image.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	width: 24rpx !important;
 	height: 24rpx !important;
 	margin-top: 0rpx !important;
 }
+<<<<<<< HEAD
 .product-book-BA > image.data-v-ce6267b0 {
+=======
+.product-book-BA > image.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	width: 24rpx;
 	height: 20rpx;
 	margin-top: 2rpx;
@@ -144,7 +237,11 @@
 	float: left;
 	margin-left: 10rpx;
 }
+<<<<<<< HEAD
 .product-book-BA > ._span.data-v-ce6267b0 {
+=======
+.product-book-BA > ._span.data-v-187aedb2 {
+>>>>>>> 1.1-mp
 	margin-left: 20rpx;
 	display: block;
 	float: left;

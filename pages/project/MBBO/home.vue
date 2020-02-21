@@ -91,18 +91,6 @@ export default {
 			this.upTitle(2);
 		}
 		this.$store.commit('setAuthShow', false); // 更新setAuthShow
-		// this.queryParams = optionParams;
-		// if (uni.getStorageSync('UUID') && uni.getStorageSync('UUID') === this.queryParams.uuid) { // 存在UUID，说明是本手机触发的微信登录 校验uuid一致性
-		//   let landRegist = {
-		//     sign: this.queryParams.token,
-		//     user: {
-		//       id: Number(this.queryParams.userId)
-		//     }
-		//   };
-		//   uni.setStorageSync('landRegist', JSON.stringify(landRegist)); // 缓存用户登录信息
-		// }
-		// console.log(this.$route.query, '连接参数！');
-		// this.Key();
 		
 	},
 	created() {

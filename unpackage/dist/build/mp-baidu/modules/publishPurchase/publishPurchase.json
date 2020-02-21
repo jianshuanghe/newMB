@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "发布采购",
-  "component": true,
-  "usingComponents": {
-    "navigation": "/components/mbbo/navigation/navigation",
-    "contont-edit": "/modules/publishPurchase/selectTemplate/contontEdit",
-    "contont-preview": "/modules/publishPurchase/selectTemplate/contontPreview"
-  }
-}

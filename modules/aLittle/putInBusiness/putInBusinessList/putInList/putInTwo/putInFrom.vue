@@ -68,17 +68,14 @@
 </template>
 
 <script>
-import check from '@/static/mbcImg/home/extendManageList/check.png';
-import checked from '@/static/mbcImg/home/extendManageList/checked.png';
-import radioed from '@/static/mbcImg/home/extendManageList/radioed.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'reportFrom',
 	data() {
 		return {
-			check: check,
-			checked: checked,
-			radioed: radioed,
+			check:  this.Static+'home/extendManageList/check.png',
+			checked:  this.Static+'home/extendManageList/checked.png',
+			radioed:  this.Static+'home/extendManageList/radioed.png',
 			arr: [],
 			itemsPutInArea: [
 				{

@@ -1,21 +1,37 @@
 
+<<<<<<< HEAD
 .content.data-v-7446fab4 {
+=======
+.content.data-v-0572172c {
+>>>>>>> 1.1-mp
 	position: relative;
 	/* width: 100vw;
 	padding: 4vw 4vw; */
 	background: #fff;
 	margin-bottom: 1.5vw;
 }
+<<<<<<< HEAD
 .contact-box.data-v-7446fab4 {
+=======
+.contact-box.data-v-0572172c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding-bottom: 3vw;
 }
+<<<<<<< HEAD
 .cont-text.data-v-7446fab4 {
 	position: relative;
 	width: 70%;
 }
 .cont-title.data-v-7446fab4 {
+=======
+.cont-text.data-v-0572172c {
+	position: relative;
+	width: 70%;
+}
+.cont-title.data-v-0572172c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	font-size: 4.5vw;
@@ -24,10 +40,18 @@
 	letter-spacing: 0;
 	line-height: 9vw;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
 .cont-describe.data-v-7446fab4 {
+=======
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.cont-describe.data-v-0572172c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	ont-family: PingFang-SC-Medium;
@@ -41,11 +65,19 @@
 	overflow: hidden;
 	max-height: 9.6vw;
 }
+<<<<<<< HEAD
 .cont.data-v-7446fab4 {
 	position: relative;
 	width: 30%;
 }
 .lianxi-box.data-v-7446fab4 {
+=======
+.cont.data-v-0572172c {
+	position: relative;
+	width: 30%;
+}
+.lianxi-box.data-v-0572172c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 78%;
 	border: 1px solid #02c2a2;
@@ -54,7 +86,11 @@
 	border-radius: 1vw;
 	margin-top: 5vw;
 }
+<<<<<<< HEAD
 .lianxi-box > ._p.data-v-7446fab4 {
+=======
+.lianxi-box > ._p.data-v-0572172c {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	text-align: right;

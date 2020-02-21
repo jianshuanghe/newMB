@@ -110,11 +110,6 @@
 <script>
   import topBox from '@/components/mbbo/topBox/topBox';
   import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
-  import logo from '@/static/mbcImg/images/business/home/personCenter/logo.png';
-  import recruit from '@/static/mbcImg/images/business/home/personCenter/recruit.png';
-  import company from '@/static/mbcImg/images/business/home/personCenter/company.png';
-  import map from '@/static/mbcImg/images/business/home/personCenter/map.png';
-  import location from '@/static/mbcImg/my/location.jpg';
   import navigation from '@/components/mbbo/navigation/navigation.vue';
   import { mapMutations, mapGetters } from 'vuex';
     export default {
@@ -126,11 +121,11 @@
         },
         data () {
           return {
-            logo: logo,
-            company: company,
-            recruit: recruit,
-            map: map,
-			location:location,
+            logo:  this.Static+'images/business/home/personCenter/logo.png',
+            company:  this.Static+'images/business/home/personCenter/company.png',
+            recruit:  this.Static+'images/business/home/personCenter/recruit.png',
+            map:  this.Static+'images/business/home/personCenter/map.png',
+			location: this.Static+'my/location.jpg',
           };
         },
         created () {

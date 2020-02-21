@@ -31,16 +31,14 @@
 <script>
 	import Evaluating from '@/components/common/Evaluating/components/myIssue.vue';
 	import assembly from './Opinion-assembly.vue';
-	import downArrow from '@/static/mbcImg/my/downArrow.png';
-	import nocon from '@/static/mbcImg/my/nocon.png';
 	export default {
 		data() {
 			return {
-				downArrow:downArrow,
+				downArrow: this.Static+'my/downArrow.png',
 				txtVal: 0,
 				desc: '',
 				remnane: 0,
-				nocon:nocon,
+				nocon: this.Static+'my/nocon.png',
 				listData: {
 					imageData: [],
 					serverUrl: 'https://img01.iambuyer.com/imgup/upLoad/fileUpload' // 图片上传地址

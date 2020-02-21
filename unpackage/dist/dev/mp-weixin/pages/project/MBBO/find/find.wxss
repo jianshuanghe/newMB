@@ -111,6 +111,10 @@
 	height: 11vw;
 	background: #fff;
 }
+.kongjian{
+	width: 100%;
+	height: 11vw;
+}
 .quickBtn-Fd {
 	position: relative;
 	width: 5%;
@@ -169,6 +173,10 @@
 	height: 88rpx;
 	background: #fff;
 	overflow-x:hidden;
+<<<<<<< HEAD
+=======
+	overflow-x: auto;
+>>>>>>> 1.1-mp
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;

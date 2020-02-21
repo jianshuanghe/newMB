@@ -14,15 +14,12 @@
 </template>
 
 <script>
-import rightArrow from '@/static/mbcImg/home/extendManageList/rightArrow.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	components: {},
 	data() {
 		return {
-			
-			rightArrow: rightArrow
-			
+			rightArrow:  this.Static+'home/extendManageList/rightArrow.png',
 		};
 	},
 	computed: {

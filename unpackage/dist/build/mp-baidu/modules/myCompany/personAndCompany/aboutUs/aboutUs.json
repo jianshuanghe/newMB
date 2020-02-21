@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "component": true,
-  "usingComponents": {
-    "top-box": "/components/mbbo/topBox/topBox",
-    "navigation": "/components/mbbo/navigation/navigation",
-    "quick-btn": "/components/mbbo/quickBtn/quickBtn"
-  }
-}

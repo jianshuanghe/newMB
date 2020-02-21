@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "edit": "/components/common/RHX/madeModule/placeDelivery/editOrPreview/edit/edit",
-    "preview": "/components/common/RHX/madeModule/placeDelivery/editOrPreview/preview/preview"
-  },
-  "component": true
-}

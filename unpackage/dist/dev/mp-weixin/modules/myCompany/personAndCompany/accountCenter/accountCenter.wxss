@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 .accountCenter-content.data-v-468d93d8 {
+=======
+.accountCenter-content.data-v-73b8731e {
+>>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;
 	min-height: 100vh;

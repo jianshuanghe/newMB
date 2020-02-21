@@ -2,18 +2,8 @@
 	<view class="view">
 		<view class="list-cell view" hover-class="uni-list-cell-hover" @click="bindClick">
 			<view class="media-list view">
-				<!-- <businessFollow></businessFollow> -->
-				<!-- <view class="view" :class="{'media-image-right': options.article_type === 2, 'media-image-left': options.article_type === 1}">
-					<text class="media-title" :class="{'media-title2': options.article_type === 1 || options.article_type === 2}">{{options.title}}</text>
-					<view v-if="options.image_list || options.image_url" class="image-section view" :class="{'image-section-right': options.article_type === 2, 'image-section-left': options.article_type === 1}">
-						<image class="image-list1" :class="{'image-list2': options.article_type === 1 || options.article_type === 2}"
-						 v-if="options.image_url" :src="options.image_url"></image>
-						<image class="image-list3" v-if="options.image_list" :src="source.url" v-for="(source, i) in options.image_list"
-						 :key="i" />
-					</view>
-				</view> -->
 				<view class="media-foot view">
-					<listModules :options="options" :typelist='typelist'></listModules>
+					<listModules :options="options" :typelist='typelist' style="width: 100%;"></listModules>
 				</view>
 			</view>
 		</view>

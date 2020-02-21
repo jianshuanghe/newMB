@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "cust-title-x-list": "/components/common/RHX/madeCustModule/madeCustTitleXModule/custTitleXList/custTitleXList",
-    "r-picker": "/components/common/RHX/rPicker/rPicker",
-    "module-list": "/components/common/RHX/moduleList/moduleList"
-  },
-  "component": true
-}

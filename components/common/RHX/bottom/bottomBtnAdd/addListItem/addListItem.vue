@@ -18,9 +18,6 @@
 </template>
 
 <script>
-	import down from '@/static/mbcImg/my/Image2.png';
-	import up from '@/static/mbcImg/my/Image3.png';
-	import	noClickImg from '@/static/mbcImg/my/Image4.png';
 	export default {
 		components: {
 		},
@@ -33,10 +30,10 @@
 		],
 		data() {
 			return {
-				noClickImg: noClickImg, // 不可点击按钮箭头
-				imgSjUp: up, // 朝上箭头
-				down:down, // 朝下箭头
-				imgSjDown: down, // 默认朝下箭头
+				noClickImg:  this.Static+'my/biao.png', // 不可点击按钮箭头
+				imgSjUp:  this.Static+'my/Image3.png', // 朝上箭头
+				down: this.Static+'my/Image2.png', // 朝下箭头
+				imgSjDown:  this.Static+'my/Image2.png', // 默认朝下箭头
 				active: -1, // 用户点击items
 				noAllAddStyle: { // 不可添加项展示样式
 					color: '#9B9B9B',

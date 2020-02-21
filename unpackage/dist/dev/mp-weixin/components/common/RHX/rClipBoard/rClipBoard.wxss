@@ -21,7 +21,12 @@
 	letter-spacing: 0;
 	line-height: 60rpx;
 	overflow:hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	display:-webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-line-clamp:2;
@@ -58,6 +63,10 @@
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
+<<<<<<< HEAD
+=======
+	    -ms-transform: translate(-50%, -50%);
+>>>>>>> 1.1-mp
 	        transform: translate(-50%, -50%);
 	width: 200px;
 	z-index: 103;

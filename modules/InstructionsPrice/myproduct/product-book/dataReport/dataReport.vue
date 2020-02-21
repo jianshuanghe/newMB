@@ -7,33 +7,35 @@
 				<span class="right-arrow"><img :src="rightArrow" alt="" class="rightArrow" /></span>
 			</p> -->
 		</topBox>
-		<businessPutIn v-if="GET_ALITTLE.businessPutIn.show"></businessPutIn>
-		<dataTrendKanban :dataid="this.id"></dataTrendKanban>
+		<!-- <businessPutIn v-if="GET_ALITTLE.businessPutIn.show"></businessPutIn> -->
+		<dataTrendKanban :dataid="id"></dataTrendKanban>
 	</div>
 </template>
 
 <script>
 import topBox from '@/components/mbbo/topBox/topBox';
-import businessPutIn from './dataReportItems/businessPutIn';
+// import businessPutIn from './dataReportItems/businessPutIn';
 import dataTrendKanban from './dataTrendKanban/dataTrendKanban';
-import rightArrow from '@/static/mbcImg/home/extendManageList/rightArrow4.png';
 import { mapMutations, mapGetters } from 'vuex';
 export default {
 	name: 'dataReport',
 	components: {
 		topBox,
-		businessPutIn,
+		// businessPutIn,
 		dataTrendKanban
 	},
 	data() {
 		return {
-			rightArrow: rightArrow,
+			rightArrow:  this.Static+'home/extendManageList/rightArrow.png',
 			id:'',
 		};
 	},
 	onLoad:function(val){
 		console.log(val)
 		this.id=val.id
+	},
+	created(){
+		console.log('123')
 	},
 	computed: {
 		...mapGetters(['GET_ALITTLE'])

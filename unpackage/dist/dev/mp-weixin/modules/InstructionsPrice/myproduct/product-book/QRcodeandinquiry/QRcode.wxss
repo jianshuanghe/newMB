@@ -1,9 +1,14 @@
 
+<<<<<<< HEAD
 .QRcode.data-v-3dddc743{
+=======
+.QRcode.data-v-9cb88066{
+>>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
 	margin-top: 40rpx;
 }
+<<<<<<< HEAD
 .QRcode-imj.data-v-3dddc743{
 	width: 100%;
 	height: 508rpx;
@@ -12,11 +17,25 @@
 	height: 508rpx;
 }
 .swiper-slide.data-v-3dddc743{
+=======
+.QRcode-imj.data-v-9cb88066{
+	width: 100%;
+	height: 508rpx;
+}
+.swiper-box.data-v-9cb88066{
+	height: 508rpx;
+}
+.swiper-slide.data-v-9cb88066{
+>>>>>>> 1.1-mp
 	width: 360rpx;
 	height: 508rpx;
 	/* margin-left: 30%; */
 }
+<<<<<<< HEAD
 .swiper-slide>image.data-v-3dddc743{
+=======
+.swiper-slide>image.data-v-9cb88066{
+>>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
 }

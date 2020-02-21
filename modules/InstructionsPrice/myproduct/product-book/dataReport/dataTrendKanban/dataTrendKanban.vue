@@ -11,9 +11,9 @@
 			<!-- 数据表 -->
 			<div class="Data-box">
 				<!-- 流量数据 -->
-				<dataTrendLiuLiang v-if='GET_ALITTLE.liuLiangOrPutInTitle2 === 1' :shujuid='this.dataid'></dataTrendLiuLiang>
+				<dataTrendLiuLiang v-if='GET_ALITTLE.liuLiangOrPutInTitle2 === 1' :shujuid='dataid'></dataTrendLiuLiang>
 				<!-- 投放数据 -->
-				<dataTrendPutIn v-if='GET_ALITTLE.liuLiangOrPutInTitle2 === 2' :shujuid='this.dataid'></dataTrendPutIn>
+				<dataTrendPutIn v-if='GET_ALITTLE.liuLiangOrPutInTitle2 === 2' :shujuid='dataid'></dataTrendPutIn>
 			</div>
 		</view>
 	</view>

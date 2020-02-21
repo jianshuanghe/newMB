@@ -18,8 +18,8 @@
 				<view class="myheader-portrait-con-zi">{{i18n.title14}}</view>
 				<!-- 请填写 -->
 				<view class="myheader-portrait-con-juti">
-					<span class="Pleasefillin" v-if="this.GET_MY.headers.userPhone==''">{{i18n.title4}}</span>
-					<span v-if="this.GET_MY.headers.userPhone!=''">{{this.GET_MY.headers.userPhone}}</span>
+					<span class="Pleasefillin" v-if="GET_MY.headers.userPhone==''">{{i18n.title4}}</span>
+					<span v-if="GET_MY.headers.userPhone!=''">{{GET_MY.headers.userPhone}}</span>
 				</view>
 				<view class="myheader-portrait-con-img"><image :src="right"></image></view>
 			</view>
@@ -30,8 +30,8 @@
 				<view class="myheader-portrait-con-zi">{{i18n.title15}}</view>
 				<!-- 请填写 -->
 				<view class="myheader-portrait-con-juti">
-					<span class="Pleasefillin" v-if="this.GET_MY.headers.userEmail==''">{{i18n.title4}}</span>
-					<span v-if="this.GET_MY.headers.userEmail!=''">{{this.GET_MY.headers.userEmail}}</span>
+					<span class="Pleasefillin" v-if="GET_MY.headers.userEmail==''">{{i18n.title4}}</span>
+					<span v-if="GET_MY.headers.userEmail!=''">{{GET_MY.headers.userEmail}}</span>
 				</view>
 				<view class="myheader-portrait-con-img"><image :src="right"></image></view>
 			</view>
@@ -42,8 +42,8 @@
 				<view class="myheader-portrait-con-zi">{{i18n.title16}}</view>
 				<!-- 请填写 -->
 				<view class="myheader-portrait-con-juti">
-					<span class="Pleasefillin" v-if="this.GET_MY.headers.wxId==''">{{i18n.title4}}</span>
-					<span v-if="this.GET_MY.headers.wxId!=''">{{this.GET_MY.headers.wxId}}</span>
+					<span class="Pleasefillin" v-if="GET_MY.headers.wxId==''">{{i18n.title4}}</span>
+					<span v-if="GET_MY.headers.wxId!=''">{{GET_MY.headers.wxId}}</span>
 				</view>
 				<view class="myheader-portrait-con-img"><image :src="right"></image></view>
 			</view>
@@ -69,12 +69,11 @@
 <script>
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from "@/components/mbbo/navigation/navigation.vue";
-	import right from '@/static/mbcImg/my/right.png';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				right: right
+				right:  this.Static+'my/right.png'
 			};
 		},
 		components: {

@@ -66,7 +66,12 @@
 	margin-top: 40rpx;
 	line-height: 25rpx;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 }
 .FI-t-ins{

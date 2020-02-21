@@ -35,6 +35,21 @@
 	margin-top: 20rpx;
 	position: relative;
 }
+.meirenkanwo{
+	width: 330rpx;
+	height: 280rpx;
+	display: block;
+	margin: 0 auto auto auto;
+	font-size: 28rpx;
+	text-align: center;
+	color: #9B9B9B;
+	clear: both;
+}
+.meirenkanwo>image {
+	width: 92%;
+	height: 80%;
+	padding-top: 120rpx;
+}
 .wimage{
 	width: 100rpx;
 	height: 100rpx;

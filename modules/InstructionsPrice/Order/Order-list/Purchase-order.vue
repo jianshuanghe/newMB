@@ -48,18 +48,15 @@
 </template>
 
 <script>
-	import biao from '@/static/mbcImg/my/biao.png';
-	import ding from '@/static/mbcImg/my/ding.png';
-	import kong from '@/static/mbcImg/my/kong.png';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
 				List:['全部','待确认','待发货','待收货','已完成','已关闭'],
 				numa:0,
-				biao:biao,
-				ding:ding,
-				kong:kong,
+				biao: this.Static+'my/biao.png',
+				ding: this.Static+'my/ding.png',
+				kong: this.Static+'my/kong.png',
 				shu:[],
 				pages:'1',
 			}

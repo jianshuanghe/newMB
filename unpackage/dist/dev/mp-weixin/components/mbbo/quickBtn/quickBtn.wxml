@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="content-quickBtn _div data-v-29c16cde"><view data-event-opts="{{[['tap',[['clickQuickBtn',['$event']]]]]}}" class="quickBtn _div data-v-29c16cde" bindtap="__e"><image class="img _img data-v-29c16cde" src="{{daohang}}" alt></image></view></view>
+=======
+<view class="content-quickBtn _div data-v-534c18d8"><view data-event-opts="{{[['tap',[['clickQuickBtn',['$event']]]]]}}" class="quickBtn _div data-v-534c18d8" bindtap="__e"><image class="img _img data-v-534c18d8" src="{{daohang}}" alt></image></view></view>
+>>>>>>> 1.1-mp

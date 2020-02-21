@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "top-box": "/components/mbbo/topBox/topBox",
-    "r-select": "/components/common/RHX/rSelect/rSelect",
-    "module-modify": "/components/common/RHX/moduleModify/moduleModify"
-  },
-  "component": true
-}

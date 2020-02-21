@@ -1,5 +1,5 @@
 <template>
-	<view class="news-Unread" v-if="this.num == 1 && this.shu.allCount !== 0">
+	<view class="news-Unread" v-if="numberss">
 		<view class="news-Unread-weidu">
 			您有{{shu.allCount}}条消息未读<image :src="dels" @tap="del"></image>
 		</view>
@@ -7,7 +7,6 @@
 </template>
 
 <script>
-	import dels from '@/static/mbcImg/my/ti.png';
 	import {
 		mapMutations,
 		mapGetters
@@ -16,8 +15,9 @@
 		data() {
 			return {
 				num:1,
-				dels:dels,
-				shu:[]
+				dels: this.Static+'/my/ti.png',
+				shu:[],
+				numberss:false,
 			}
 		},
 		components: {
@@ -28,6 +28,11 @@
 				handler(a, b) {
 					console.log(a, b)
 					this.shu = a.num;
+					if(this.num == 1 && this.shu.allCount != 0&& this.shu.allCount !=undefined){
+						setTimeout(() => {
+							this.numberss=true;
+						}, 500);
+					}
 					console.log(this.shu)
 				},
 				deep: true

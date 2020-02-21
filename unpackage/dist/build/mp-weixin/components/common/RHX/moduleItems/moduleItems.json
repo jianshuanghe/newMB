@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "module-bar": "/components/common/RHX/moduleBar/moduleBar"
-  },
-  "component": true
-}

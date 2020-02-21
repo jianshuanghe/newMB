@@ -2,7 +2,7 @@
 	<view class="product-books">
 		<!-- 我的說明書詳情 -->
 		<book 
-		:data="this.id"
+		:data="id"
 		:dataList='lists'
 		></book>
 	</view>
@@ -16,6 +16,7 @@
 		data() {
 			return {
 				lists:[],
+				id:'',
 			}
 		},
 		components:{
@@ -24,9 +25,10 @@
 		onLoad(ops) {
 			this.id=ops.id
 			console.log(this.id)
+			this.book();
 		},
 		created() {
-			this.book();
+			
 		},
 		filters: {
 			

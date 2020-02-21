@@ -19,14 +19,13 @@
 </template>
 
 <script>
-      import rightArrow3 from '@/static/mbcImg/images/business/home/extendManageList/rightArrow3.png';
       export default {
         name: 'memberCenterTips',
         components: {
         },
         data () {
           return {
-            rightArrow: rightArrow3 // 右侧箭头
+            rightArrow:  this.Static+'images/business/home/extendManageList/rightArrow3.png' // 右侧箭头
           };
         },
         methods: {

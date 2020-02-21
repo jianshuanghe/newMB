@@ -3,9 +3,23 @@
 }
 .userImage {
 	position: relative;
+<<<<<<< HEAD
 	width: 104rpx;
 	height: 30rpx;
 	top: 8rpx;
+=======
+	width: 124rpx;
+	height: 36rpx;
+	top: 8rpx;
+	padding-left: 10rpx;
+}
+.userImagse {
+	position: relative;
+	width: 124rpx;
+	height: 36rpx;
+	top: 8rpx;
+	padding-left: 10rpx;
+>>>>>>> 1.1-mp
 }
 .closeTitle {
 	position: fixed;

@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "w-input": "/components/common/watch-login/watch-input",
-    "image-upload-more": "/components/common/imageUpload/imageUploadMore"
-  },
-  "component": true
-}

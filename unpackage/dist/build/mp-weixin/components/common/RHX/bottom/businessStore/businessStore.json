@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "business-store-picker": "/components/common/RHX/bottom/businessStorePicker/businessStorePicker"
-  },
-  "component": true
-}

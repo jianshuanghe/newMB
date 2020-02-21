@@ -1,11 +1,16 @@
 
+<<<<<<< HEAD
 .content.data-v-3899f984 {
+=======
+.content.data-v-28dcea48 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw;
 	background: #fff;
 	margin-bottom: 1.5vw;
 }
+<<<<<<< HEAD
 .Statistics-box.data-v-3899f984 {
 	position: relative;
 	width: 100%;
@@ -15,6 +20,17 @@
 	width: 33.33333%;
 }
 .num.data-v-3899f984 {
+=======
+.Statistics-box.data-v-28dcea48 {
+	position: relative;
+	width: 100%;
+}
+.Statistics-item.data-v-28dcea48 {
+	position: relative;
+	width: 33.33333%;
+}
+.num.data-v-28dcea48 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -23,7 +39,11 @@
 	color: #02c2a2;
 	line-height: 6vw;
 }
+<<<<<<< HEAD
 .text.data-v-3899f984 {
+=======
+.text.data-v-28dcea48 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	text-align: center;

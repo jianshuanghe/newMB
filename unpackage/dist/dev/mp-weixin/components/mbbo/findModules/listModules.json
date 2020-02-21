@@ -1,15 +1,11 @@
 {
   "usingComponents": {
-    "business-follow": "/components/common/businessFollow/businessFollow",
-    "banner": "/components/mbbo/findModules/modules/business/banner",
-    "goods-one": "/components/mbbo/findModules/modules/business/goodsOne",
-    "goods-two": "/components/mbbo/findModules/modules/business/goodsTwo",
-    "goods-three": "/components/mbbo/findModules/modules/business/goodsThree",
-    "goods-four": "/components/mbbo/findModules/modules/business/goodsFour",
-    "contact-business": "/components/mbbo/findModules/modules/business/contactBusiness",
     "business-service": "/components/mbbo/findModules/modules/business/businessService",
     "capital": "/components/mbbo/findModules/modules/business/capital",
+<<<<<<< HEAD
     "behavior": "/components/common/userBehavior/behavior",
+=======
+>>>>>>> 1.1-mp
     "information": "/components/mbbo/findModules/modules/business/information",
     "purchase": "/components/mbbo/findModules/modules/business/Purchase",
     "supply": "/components/mbbo/findModules/modules/business/supply",

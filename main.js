@@ -14,7 +14,7 @@ import {landRegistra} from './static/mbcJs/landRegistra';
 import {getDate} from './static/mbcJs/getDate';
 import {returnDateNum} from './static/mbcJs/returnDateNum';
 import {generateUUID} from './static/mbcJs/uuid';
-import {province, city, county} from './static/mbcJs/areaCity';
+
 import {keyText} from './static/mbcJs/dataJson/keyText';
 import {getSystemInfo} from './static/mbcJs/getSystemInfo';
 import {VwVhToPx} from './static/mbcJs/VwVhToPx';
@@ -64,12 +64,6 @@ Vue.prototype.getDate = getDate
 Vue.prototype.returnDateNum = returnDateNum
 
 Vue.prototype.generateUUID = generateUUID
-
-Vue.prototype.province = province
-
-Vue.prototype.city = city
-
-Vue.prototype.county = county
 
 Vue.prototype.keyText = keyText
 

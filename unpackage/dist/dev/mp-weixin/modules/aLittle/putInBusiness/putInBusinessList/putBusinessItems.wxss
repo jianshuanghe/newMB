@@ -1,32 +1,56 @@
 
+<<<<<<< HEAD
 .content-putIn.data-v-4c1ce4d4 {
+=======
+.content-putIn.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-bottom: 2vw;
 }
+<<<<<<< HEAD
 .putIn-box.data-v-4c1ce4d4 {
+=======
+.putIn-box.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	overflow: hidden;
 }
+<<<<<<< HEAD
 .scroll-view_H.data-v-4c1ce4d4 {
+=======
+.scroll-view_H.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	width: 195%;
 	/* height: 180upx; */
 	/* float: left; */
 	white-space: nowrap;
 }
+<<<<<<< HEAD
 .putIn-top.data-v-4c1ce4d4 {
+=======
+.putIn-top.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw;
 	background: #fff;
 }
+<<<<<<< HEAD
 .title-putIn.data-v-4c1ce4d4 {
+=======
+.title-putIn.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	height: 50rpx;
 	float: left;
 }
+<<<<<<< HEAD
 .title-putIn > ._p.data-v-4c1ce4d4 {
+=======
+.title-putIn > ._p.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	font-family: PingFang-SC-Bold;
@@ -37,7 +61,11 @@
 	overflow: hidden;
 	white-space: nowrap;
 }
+<<<<<<< HEAD
 .status-putIn > ._span.data-v-4c1ce4d4 {
+=======
+.status-putIn > ._span.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: absolute;
 	top: -3vw;
 	right: -16vw;
@@ -51,6 +79,7 @@
 	line-height: 18vw;
 	text-align: center;
 }
+<<<<<<< HEAD
 .status1.data-v-4c1ce4d4 {
 	background-image: -webkit-linear-gradient(229deg, #ffd137 0%, #fab100 100%);
 	background-image: linear-gradient(-139deg, #ffd137 0%, #fab100 100%);
@@ -67,11 +96,33 @@
 	background: #9b9b9b;
 }
 .xiaohao-putIn.data-v-4c1ce4d4 {
+=======
+.status1.data-v-a3d49fc0 {
+	background-image: -o-linear-gradient(229deg, #ffd137 0%, #fab100 100%);
+	background-image: linear-gradient(-139deg, #ffd137 0%, #fab100 100%);
+}
+.status2.data-v-a3d49fc0 {
+	background-image: -o-linear-gradient(46deg, #15d49f 0%, #57d6cf 100%);
+	background-image: linear-gradient(44deg, #15d49f 0%, #57d6cf 100%);
+}
+.status3.data-v-a3d49fc0 {
+	background-image: -o-linear-gradient(228deg, #ff4d4d 0%, #ff824d 100%);
+	background-image: linear-gradient(-138deg, #ff4d4d 0%, #ff824d 100%);
+}
+.status4.data-v-a3d49fc0 {
+	background: #9b9b9b;
+}
+.xiaohao-putIn.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	clear: both;
 }
+<<<<<<< HEAD
 .xiaohao-putIn > ._p.data-v-4c1ce4d4:nth-of-type(1) {
+=======
+.xiaohao-putIn > ._p.data-v-a3d49fc0:nth-of-type(1) {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 40%;
 	font-family: PingFangSC-Regular;
@@ -79,7 +130,11 @@
 	color: #9b9b9b;
 	line-height: 7vw;
 }
+<<<<<<< HEAD
 .xiaohao-putIn > ._p.data-v-4c1ce4d4:nth-of-type(2) {
+=======
+.xiaohao-putIn > ._p.data-v-a3d49fc0:nth-of-type(2) {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 60%;
 	font-family: PingFangSC-Regular;
@@ -87,53 +142,89 @@
 	color: #9b9b9b;
 	line-height: 7vw;
 }
+<<<<<<< HEAD
 .num-putIn.data-v-4c1ce4d4 {
 	color: #00c6a1;
 	margin-left: 1.5vw;
 }
 .dataNum-putIn.data-v-4c1ce4d4 {
+=======
+.num-putIn.data-v-a3d49fc0 {
+	color: #00c6a1;
+	margin-left: 1.5vw;
+}
+.dataNum-putIn.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw 0;
 	background: #fff;
 }
+<<<<<<< HEAD
 .numBox-putIn.data-v-4c1ce4d4 {
+=======
+.numBox-putIn.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	/* width: 100%; */
 	overflow: auto;
 }
+<<<<<<< HEAD
 .numBox-putIn-Box.data-v-4c1ce4d4 {
+=======
+.numBox-putIn-Box.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding: 2vw 0 0vw 0;
 }
+<<<<<<< HEAD
 .numPutIn-items.data-v-4c1ce4d4 {
+=======
+.numPutIn-items.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 11%;
 	margin-left: 22rpx;
 }
+<<<<<<< HEAD
 .items1-putIn.data-v-4c1ce4d4 {
+=======
+.items1-putIn.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	font-family: PingFang-SC-Medium;
 	font-size: 3.73vw;
 	color: #2e2e30;
 	letter-spacing: 0;
 	line-height: 5vw;
 }
+<<<<<<< HEAD
 .items2-putIn.data-v-4c1ce4d4 {
+=======
+.items2-putIn.data-v-a3d49fc0 {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Light;
 	font-size: 3.2vw;
 	color: #9b9b9b;
 	letter-spacing: 0;
 	line-height: 4vw;
 }
+<<<<<<< HEAD
 .rights.data-v-4c1ce4d4{
+=======
+.rights.data-v-a3d49fc0{
+>>>>>>> 1.1-mp
 	width: 92rpx;
 	height: 36rpx;
 	float: left;
 	margin-top: 12rpx;
 	margin-left: 20rpx;
 }
+<<<<<<< HEAD
 .rights>image.data-v-4c1ce4d4{
+=======
+.rights>image.data-v-a3d49fc0{
+>>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
 }

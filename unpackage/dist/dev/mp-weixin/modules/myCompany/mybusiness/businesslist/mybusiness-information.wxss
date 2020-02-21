@@ -5,6 +5,9 @@
 	background: #FFFFFF;
 	padding-bottom: 120rpx;
 }
+.top-s{
+	margin-top: 40rpx;
+}
 .mybusiness-information-box{
 	width: 90%;
 	height: 300rpx;

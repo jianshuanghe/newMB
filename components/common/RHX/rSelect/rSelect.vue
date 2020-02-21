@@ -49,8 +49,6 @@
 </template>
 
 <script>
-	import downSJ from '@/static/mbcImg/publish/createBusiness/upSJ.png';
-	import upSJ from '@/static/mbcImg/publish/createBusiness/downSJ.png';
 	export default {
 		components: {
 		},
@@ -65,9 +63,9 @@
 		data() {
 			return {
 				animationData:{},
-				upSJ: upSJ,
-				downSJ: downSJ,
-				upDownImg: upSJ,
+				upSJ:  this.Static+'publish/createBusiness/downSJ.png',
+				downSJ:  this.Static+'publish/createBusiness/upSJ.png',
+				upDownImg:  this.Static+'publish/createBusiness/downSJ.png',
 				selectShow: false, // 是否展示select
 				dataLists: this.dataList
 			};

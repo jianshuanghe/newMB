@@ -73,8 +73,6 @@
 </template>
 
 <script>
-	import del from '@/static/mbcImg/publish/createBusiness/del.png';
-	import sort from '@/static/mbcImg/publish/createBusiness/sort.png';
 	import replaceIcon from '@/components/common/RHX/replaceIcon/replaceIcon';
 	import inputBox from '@/components/common/RHX/inputBox/inputBox';
 	export default {
@@ -114,8 +112,8 @@
 			'tBStyleOne'],
 		data() {
 			return {
-				del: del,
-				sort: sort,
+				sort: this.Static+'publish/createBusiness/sort.png',
+				del:  this.Static+'publish/createBusiness/del.png',
 				valueOneText: this.valueOne,
 				dataLists: this.dataList
 			};

@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
-    "navigation": "/components/mbbo/navigation/navigation",
-    "q-rcode": "/modules/InstructionsPrice/Purchase/Purchase-details/QRcode",
-    "r-qr-code": "/components/common/RHX/rQrCode/rQrCode"
-  }
-}

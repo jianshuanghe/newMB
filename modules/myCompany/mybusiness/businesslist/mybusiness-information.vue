@@ -12,7 +12,7 @@
 				</view>
 			</view>
 			<!-- 底部按钮 -->
-			<view class="myproduct-list-edit">
+			<view class="myproduct-list-edit" :class="item.bannerImg!==''?'top-s':''">
 				<view class="product-book-BA one">
 					<image :src="look"></image>
 					<span>{{item.pv}}</span>
@@ -45,38 +45,28 @@
 		</view>
 		<!-- 底部按钮 -->
 		<view class="mybusiness-supply-bot">
-			<view class="mybusiness-supply-Customer" @tap="phone(data.userPhone)" v-if="String(this.listid)!==String(this.id)">联系商家</view>
-			<view class="mybusiness-supply-Customer" @tap="clickBasicInforEdit" v-if="String(this.listid)==String(this.id)">编辑</view>
+			<view class="mybusiness-supply-Customer" @tap="phone(datas.userPhone)" v-if="String(listid)!==String(id)">联系商家</view>
+			<view class="mybusiness-supply-Customer" @tap="clickBasicInforEdit" v-if="String(listid)==String(id)">编辑</view>
 			<!-- <view class="mybusiness-supply-contact">联系商家</view> -->
 		</view>
 	</view>
 </template>
 
 <script>
-	import Location from '@/static/mbcImg/my/Image.png';
-	//看過 電話 聊天 點讚..
-	import zan from '@/static/mbcImg/my/zan.png';
-	import look from '@/static/mbcImg/my/look.png';
-	import phones from '@/static/mbcImg/my/phone.png';
-	import liu from '@/static/mbcImg/my/liu.png';
-	import shou from '@/static/mbcImg/my/shou.png';
-	import fen from '@/static/mbcImg/my/fen.png';
-	//結束
 	import { mapMutations, mapGetters } from 'vuex';
-	import kong from '@/static/mbcImg/my/kong.png';
 	export default {
 		data() {
 			return {
-				Location:Location,
+				Location:this.Static+'my/Image.png',
 				activeIndex:"0",
 				lists:[],
-				zan:zan,
-				look:look,
-				kong:kong,
-				phones:phones,
-				liu:liu,
-				shou:shou,
-				fen:fen,
+				zan:this.Static+'my/zan.png',
+				look:this.Static+'my/look.png',
+				phones:this.Static+'my/phone.png',
+				liu:this.Static+'my/liu.png',
+				shou:this.Static+'my/shou.png',
+				fen:this.Static+'my/fen.png',
+				kong:this.Static+'my/kong.png',
 			}
 		},
 		watch: {
@@ -99,7 +89,7 @@
 			console.log(this.id,this.listid);
 			this.inf();
 		},
-		props:['listid','data'],
+		props:['listid','datas'],
 		filters: {
 			formatDate: function(value) {
 				let date = new Date(value);
@@ -239,6 +229,9 @@
 		min-height: 50%;
 		background: #FFFFFF;
 		padding-bottom: 120upx;
+	}
+	.top-s{
+		margin-top: 40upx;
 	}
 	.mybusiness-information-box{
 		width: 90%;

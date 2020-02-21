@@ -27,12 +27,11 @@
 </template>
 
 <script>
-	import close from '@/static/mbcImg/my/close.png';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
-				close:close,
+				close: this.Static+'my/close.png',
 				name:'',
 				phone:'',
 				liu:'',

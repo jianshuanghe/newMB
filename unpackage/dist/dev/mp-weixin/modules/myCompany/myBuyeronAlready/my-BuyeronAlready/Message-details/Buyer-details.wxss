@@ -81,7 +81,12 @@
 	line-height: 106rpx;
 	font-weight: bold;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 }
 .Buyer-details-GL>view:nth-of-type(2){
@@ -92,7 +97,12 @@
 	margin-left: 20rpx;
 	line-height: 60rpx;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 }
 .Buyer-details-del{

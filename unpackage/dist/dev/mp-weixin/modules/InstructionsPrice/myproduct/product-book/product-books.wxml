@@ -1,1 +1,1 @@
-<view class="product-books"><book vue-id="1" data="{{this.id}}" dataList="{{lists}}" bind:__l="__l"></book></view>
+<view class="product-books"><book vue-id="1" data="{{id}}" dataList="{{lists}}" bind:__l="__l"></book></view>

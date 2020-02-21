@@ -1,1 +1,0 @@
-<view class="custTitleAdd-content _div"><view class="custTitleAdd _div"><view data-event-opts="{{[['tap',[['addCustModule',['$event']]]]]}}" class="add-btn _div" bindtap="__e"><view class="addtext _div">管理模块</view></view></view></view>

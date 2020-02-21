@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 .companyInfor-content.data-v-adc948d0{
+=======
+.companyInfor-content.data-v-7d3f7e22{
+>>>>>>> 1.1-mp
   position: relative;
   width: 100%;
 }

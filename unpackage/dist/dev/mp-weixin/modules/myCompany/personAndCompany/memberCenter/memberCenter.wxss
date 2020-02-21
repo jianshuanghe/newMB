@@ -1,31 +1,56 @@
 
+<<<<<<< HEAD
 .memberCenter-content.data-v-35c1166e {
+=======
+.memberCenter-content.data-v-08a00df8 {
+>>>>>>> 1.1-mp
 	/* position: fixed; */
 	min-height: 100vh;
 	background: #f9f9f9;
 	position: relative;
 }
+<<<<<<< HEAD
 .MCB-box.data-v-35c1166e {
+=======
+.MCB-box.data-v-08a00df8 {
+>>>>>>> 1.1-mp
 	/* position: fixed; */
 	width: 100%;
 	height: 86vh;
 	/* overflow: scroll; */
+<<<<<<< HEAD
 	padding-bottom: 10vh;
 }
 .MCB-btn.data-v-35c1166e {
+=======
+	/* padding-bottom: 10vh; */
+}
+.MCB-btn.data-v-08a00df8 {
+>>>>>>> 1.1-mp
 	position: fixed;
 	bottom: 0;
 	z-index: 106;
 	width: 100%;
 }
+<<<<<<< HEAD
 .scroll-v.data-v-35c1166e {
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
+=======
+.scroll-v.data-v-08a00df8 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+>>>>>>> 1.1-mp
 	        flex: 1;
 	
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
+<<<<<<< HEAD
+=======
+	    -ms-flex-direction: column;
+>>>>>>> 1.1-mp
 	        flex-direction: column;
 	
 	width: 750rpx;

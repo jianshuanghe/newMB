@@ -9,12 +9,11 @@
 </template>
 
 <script>
-import souseach from '@/static/mbcImg/my/souseach.png';
 export default {
 	data() {
 		return {
 			value: '商机名称',
-			souseach: souseach,
+			souseach:  this.Static+'my/souseach.png',
 		};
 	},
 	methods: {}

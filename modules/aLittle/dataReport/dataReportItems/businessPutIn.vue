@@ -67,10 +67,6 @@
 </template>
 
 <script>
-import check from '@/static/mbcImg/home/extendManageList/dataReport/check.png';
-import checked from '@/static/mbcImg/home/extendManageList/dataReport/checked.png';
-import checkedItems from '@/static/mbcImg/home/extendManageList/dataReport/checkedItems.png';
-import close from '@/static/mbcImg/home/extendManageList/dataReport/close.png';
 // import { Loading } from 'vux';
 // import axios from 'axios';
 // import { Toast } from 'mint-ui';
@@ -119,11 +115,11 @@ export default {
 			businessDataList: [], // 盛放选中的商机
 			check1: false,
 			check2: true, // 默认状态选择自定翼
-			check: check, // type 选择按钮的未选中状态 img
-			checked: checked, // type 选择按钮的选中状态 img
-			checkedItems: checkedItems, // 子项选中对勾 img
+			check:  this.Static+'home/extendManageList/dataReport/check.png', // type 选择按钮的未选中状态 img
+			checked:  this.Static+'home/extendManageList/dataReport/checked.png', // type 选择按钮的选中状态 img
+			checkedItems:  this.Static+'home/extendManageList/dataReport/checkedItems.png', // 子项选中对勾 img
 			arr: [], // 定义样式
-			close: close, // img
+			close:  this.Static+'home/extendManageList/dataReport/close.png', // img
 			checkAll: false, // 记录全选状态 默认为false
 			clickItemsIndex: '', // 记录子项点击的index
 			dataTrendKanban: {
@@ -540,7 +536,7 @@ export default {
 	height: 4.8vw;
 }
 .checkedItemsBg {
-	background: url(../../../../static/mbcImg/home/extendManageList/dataReport/checkedItems.png) no-repeat center center;
+	background: url('http://style.iambuyer.com/mbc/home/extendManageList/dataReport/checkedItems.png') no-repeat center center;
 	background-size: 100% 100%;
 }
 .checked-bsp-img > img {

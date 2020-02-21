@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "立即定制",
-  "component": true,
-  "usingComponents": {
-    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
-    "navigation": "/components/mbbo/navigation/navigation",
-    "made-address": "/modules/createBusiness/templateFinish/madeAddress"
-  }
-}

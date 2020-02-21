@@ -41,7 +41,12 @@
 	line-height: 32rpx;
 	max-width: 252rpx;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 	font-weight: bold;
 }
@@ -66,7 +71,12 @@
 	margin-top: 40rpx;
 	line-height: 25rpx;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 }
 .FI-t-ins{
@@ -75,7 +85,12 @@
 	color: #9B9B9B;
 	line-height: 24rpx;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	white-space: nowrap;
 	margin-top: 20rpx;
 }
@@ -140,7 +155,12 @@
 	    position: absolute;
 	    top: 50%;
 	    left: 50%;
+<<<<<<< HEAD
 	    transform: translate(-50%, -50%);
+=======
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+>>>>>>> 1.1-mp
 	    -webkit-transform: translate(-50%, -50%);
 }
 .FI-cont-imgMoreTwo{
@@ -162,7 +182,12 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
+<<<<<<< HEAD
 	transform: translate(-50%, -50%);
+=======
+	-ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+>>>>>>> 1.1-mp
 	-webkit-transform: translate(-50%, -50%);
 }
 .FI-modules{

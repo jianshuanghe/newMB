@@ -1,9 +1,14 @@
 
+<<<<<<< HEAD
 .B-check-items.data-v-32c55d4f {
+=======
+.B-check-items.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding: 12rpx 3vw;
 }
+<<<<<<< HEAD
 .check-items.data-v-32c55d4f {
 	position: relative;
 	width: 100%;
@@ -17,42 +22,85 @@
 	margin-right: 20rpx;
 }
 .check-img > ._img.data-v-32c55d4f {
+=======
+.check-items.data-v-aec525f6 {
+	position: relative;
+	width: 100%;
+}
+.items-ch-box.data-v-aec525f6 {
+	position: relative;
+	width: 100%;
+}
+.check-img.data-v-aec525f6 {
+	position: relative;
+	margin-right: 20rpx;
+}
+.check-img > ._img.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 4vw;
 	height: 4vw;
 }
+<<<<<<< HEAD
 .check-text.data-v-32c55d4f {
 	position: relative;
 	width: 80%;
 }
 .check-text > ._p.data-v-32c55d4f {
+=======
+.check-text.data-v-aec525f6 {
+	position: relative;
+	width: 80%;
+}
+.check-text > ._p.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 24rpx;
 	color: #2e2e30;
 	letter-spacing: 0;
 	line-height: 40rpx;
 }
+<<<<<<< HEAD
 .uni-textarea > textarea.data-v-32c55d4f {
 	margin-left: 4%;
 }
 .info.data-v-32c55d4f {
+=======
+.uni-textarea > textarea.data-v-aec525f6 {
+	margin-left: 4%;
+}
+.info.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	font-size: 24rpx;
 	color: #d2d2d2;
 }
+<<<<<<< HEAD
 .BI-text-right.data-v-32c55d4f {
 	position: relative;
 	width: 100%;
 }
 .BI-picker.data-v-32c55d4f {
+=======
+.BI-text-right.data-v-aec525f6 {
+	position: relative;
+	width: 100%;
+}
+.BI-picker.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	font-family: PingFang-SC-Medium;
 	font-size: 28rpx;
 	color: #d2d2d2;
 	overflow: hidden;
+<<<<<<< HEAD
 	text-overflow: clip;
+=======
+	-o-text-overflow: clip;
+	   text-overflow: clip;
+>>>>>>> 1.1-mp
 	white-space: pre;
 	word-break: keep-all;
 	letter-spacing: 0;
@@ -64,19 +112,34 @@
 	text-align: right;
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
+<<<<<<< HEAD
+=======
+	-ms-flex: 1;
+>>>>>>> 1.1-mp
 	flex: 1;
 	text-align: right;
 	margin-left: 0px;
 }
+<<<<<<< HEAD
 .BI-pickered.data-v-32c55d4f {
 	color: #2e2e30 !important;
 }
 .MI-left-EBI-TextArea.data-v-32c55d4f {
+=======
+.BI-pickered.data-v-aec525f6 {
+	color: #2e2e30 !important;
+}
+.MI-left-EBI-TextArea.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	min-height: 8vw;
 }
+<<<<<<< HEAD
 .MI-left-EBI-TextArea > ._p.data-v-32c55d4f {
+=======
+.MI-left-EBI-TextArea > ._p.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative !important;
 	line-height: 0 !important;
 	font-family: PingFangSC-Light;
@@ -86,7 +149,11 @@
 	margin-left: 4vw;
 	margin-bottom: 1vw;
 }
+<<<<<<< HEAD
 .MI-left-EBI-TextArea > ._img.data-v-32c55d4f {
+=======
+.MI-left-EBI-TextArea > ._img.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 2vw;
 	height: 2vw;
@@ -96,7 +163,11 @@
 	left: 0;
 	display: inline-block;
 }
+<<<<<<< HEAD
 .MI-left-EBI-TextArea > ._p.data-v-32c55d4f {
+=======
+.MI-left-EBI-TextArea > ._p.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: absolute;
 	font-family: PingFangSC-Light;
 	font-size: 3.733vw;
@@ -104,43 +175,71 @@
 	line-height: 15vw;
 	margin-left: 4vw;
 }
+<<<<<<< HEAD
 .Img-Upload.data-v-32c55d4f {
+=======
+.Img-Upload.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	width: 120rpx;
 	height: 80rpx;
 	position: absolute;
 	right: 28rpx;
 	top: -20rpx;
 }
+<<<<<<< HEAD
 .BI-picker-Img.data-v-32c55d4f {
+=======
+.BI-picker-Img.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	width: 80rpx;
 	height: 80rpx;
 	position: absolute;
 	right: 28rpx;
 	top: -20rpx;
 }
+<<<<<<< HEAD
 .editBasicInfor-content.data-v-32c55d4f {
+=======
+.editBasicInfor-content.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #f9f9f9;
 	padding-bottom: 10vh;
 }
+<<<<<<< HEAD
 .editBasicInfor.data-v-32c55d4f {
+=======
+.editBasicInfor.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #f9f9f9;
 	-webkit-overflow-scrolling: touch;
 }
+<<<<<<< HEAD
 .editBasicInfor-box.data-v-32c55d4f {
 	position: relative;
 	width: 100%;
 }
 .topTips.data-v-32c55d4f {
+=======
+.editBasicInfor-box.data-v-aec525f6 {
+	position: relative;
+	width: 100%;
+}
+.topTips.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #f9f9f9;
 	padding: 0 4vw 0 4vw;
 }
+<<<<<<< HEAD
 .topTips > ._p.data-v-32c55d4f {
+=======
+.topTips > ._p.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	font-family: PingFangSC-Light;
@@ -149,37 +248,65 @@
 	line-height: 8vw;
 	text-align: center;
 }
+<<<<<<< HEAD
 .EBI-textArea.data-v-32c55d4f {
+=======
+.EBI-textArea.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #fff;
 	padding: 0 4vw 0 4vw;
 }
+<<<<<<< HEAD
 .textAarea-box.data-v-32c55d4f {
 	position: relative;
 	width: 100%;
 }
 .introduce2.data-v-32c55d4f {
+=======
+.textAarea-box.data-v-aec525f6 {
+	position: relative;
+	width: 100%;
+}
+.introduce2.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 96%;
 	margin-left: 4%;
 }
+<<<<<<< HEAD
 .MI-box.data-v-32c55d4f {
+=======
+.MI-box.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding: 0vw 4vw 0 4vw;
 	background: #fff;
 }
+<<<<<<< HEAD
 .MI-items.data-v-32c55d4f {
 	position: relative;
 	width: 100%;
 }
 .MI-left-EBI.data-v-32c55d4f {
+=======
+.MI-items.data-v-aec525f6 {
+	position: relative;
+	width: 100%;
+}
+.MI-left-EBI.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 22%;
 	height: 11vw;
 }
+<<<<<<< HEAD
 .MI-left-EBI > ._img.data-v-32c55d4f {
+=======
+.MI-left-EBI > ._img.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 2vw;
 	height: 2vw;
@@ -189,13 +316,18 @@
 	left: -8rpx;
 	display: inline-block;
 }
+<<<<<<< HEAD
 .MI-left-EBI > ._p.data-v-32c55d4f {
+=======
+.MI-left-EBI > ._p.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: absolute;
 	font-family: PingFangSC-Light;
 	font-size: 3.733vw;
 	color: #2e2e30;
 	line-height: 11vw;
 }
+<<<<<<< HEAD
 .MI-right.data-v-32c55d4f {
 	position: relative;
 	width: 78%;
@@ -213,25 +345,59 @@
 	width: 80% !important;
 }
 .img-MIDW.data-v-32c55d4f {
+=======
+.MI-right.data-v-aec525f6 {
+	position: relative;
+	width: 78%;
+}
+.right-Box-MI.data-v-aec525f6 {
+	position: relative;
+	width: 100%;
+}
+.img-MI.data-v-aec525f6 {
+	position: relative;
+	width: 90%;
+}
+.img-MINUM.data-v-aec525f6 {
+	position: relative;
+	width: 80% !important;
+}
+.img-MIDW.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 20% !important;
 	padding-left: 2vw;
 }
+<<<<<<< HEAD
 .EBI-img-MI.data-v-32c55d4f {
 	width: 100% !important;
 }
 .img-MI .touxiang.data-v-32c55d4f {
+=======
+.EBI-img-MI.data-v-aec525f6 {
+	width: 100% !important;
+}
+.img-MI .touxiang.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	float: right;
 }
+<<<<<<< HEAD
 .imgTouXiang.data-v-32c55d4f {
+=======
+.imgTouXiang.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 10.66vw;
 	height: 10.66vw;
 	margin-top: 2.1vw;
 }
+<<<<<<< HEAD
 .imgKongText.data-v-32c55d4f {
+=======
+.imgKongText.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	font-family: PingFang-SC-Medium;
@@ -241,20 +407,35 @@
 	text-align: right;
 	line-height: 15vw;
 }
+<<<<<<< HEAD
 .arrow-img-MI.data-v-32c55d4f {
 	position: relative;
 	width: 10%;
 }
 .arrow-img-MI > ._img.data-v-32c55d4f {
+=======
+.arrow-img-MI.data-v-aec525f6 {
+	position: relative;
+	width: 10%;
+}
+.arrow-img-MI > ._img.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 2vw;
 	height: 2vw;
 	margin-top: 6.5vw;
 	float: right;
 }
+<<<<<<< HEAD
 .perInfoItemR.data-v-32c55d4f {
 	width: 100%;
 	text-overflow: ellipsis;
+=======
+.perInfoItemR.data-v-aec525f6 {
+	width: 100%;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+>>>>>>> 1.1-mp
 	overflow: hidden;
 	white-space: nowrap;
 	font-family: PingFangSC-Regular;
@@ -269,7 +450,11 @@
 	margin-right: 1vw;
 	float: left;
 }
+<<<<<<< HEAD
 .intro-MI.data-v-32c55d4f {
+=======
+.intro-MI.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
 	color: #d2d2d2;
@@ -277,8 +462,14 @@
 	text-align: right;
 	line-height: 15vw;
 }
+<<<<<<< HEAD
 .intro-MI2.data-v-32c55d4f {
 	text-overflow: ellipsis;
+=======
+.intro-MI2.data-v-aec525f6 {
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+>>>>>>> 1.1-mp
 	overflow: hidden;
 	white-space: nowrap;
 	font-family: PingFangSC-Regular;
@@ -288,7 +479,11 @@
 	text-align: right;
 	line-height: 15vw;
 }
+<<<<<<< HEAD
 .BIF-bottom.data-v-32c55d4f {
+=======
+.BIF-bottom.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;
 	padding: 1.5vw 4vw 1.5vw 4vw;
@@ -296,7 +491,11 @@
 	z-index: 105;
 	background: #fff;
 }
+<<<<<<< HEAD
 .BIF-btn.data-v-32c55d4f {
+=======
+.BIF-btn.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #02c2a2;
@@ -308,7 +507,11 @@
 	letter-spacing: 0;
 	line-height: 12vw;
 }
+<<<<<<< HEAD
 .error-tips-EBI.data-v-32c55d4f {
+=======
+.error-tips-EBI.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: absolute;
 	top: 10vw;
 	left: 4vw;
@@ -317,27 +520,46 @@
 	color: #ff4d6a;
 	line-height: 4vw;
 }
+<<<<<<< HEAD
 .tips-EQI.data-v-32c55d4f {
+=======
+.tips-EQI.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	height: 9vw;
 }
+<<<<<<< HEAD
 .tips-EQI > ._p.data-v-32c55d4f {
+=======
+.tips-EQI > ._p.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Light;
 	font-size: 3.7vw;
 	color: #9b9b9b;
 	line-height: 8vw;
 }
+<<<<<<< HEAD
 .EBI-uploadImg.data-v-32c55d4f {
+=======
+.EBI-uploadImg.data-v-aec525f6 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 3vw;
 	height: 100%;
 }
+<<<<<<< HEAD
 .waterMark.data-v-32c55d4f{
 		background: #F9F9F9;
 }
 .text.data-v-32c55d4f{
+=======
+.waterMark.data-v-aec525f6{
+		background: #F9F9F9;
+}
+.text.data-v-aec525f6{
+>>>>>>> 1.1-mp
 		font-family: PingFangSC-Regular;
 		font-size: 24rpx;
 		color: #bdbdbd;
@@ -345,7 +567,11 @@
 		line-height: 80rpx;
 		padding: 10vh 0 0;
 }
+<<<<<<< HEAD
 .kongBai.data-v-32c55d4f{
+=======
+.kongBai.data-v-aec525f6{
+>>>>>>> 1.1-mp
 		height: 2vw;
 		width: 100%;
 }

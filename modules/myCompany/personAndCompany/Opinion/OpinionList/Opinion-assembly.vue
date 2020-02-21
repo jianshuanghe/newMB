@@ -34,16 +34,13 @@
 
 <script>
 	import Evaluating from '@/components/common/Evaluating/components/myIssue.vue';
-	import up from '@/static/mbcImg/my/up-arrow.png'
-	import deletes from '@/static/mbcImg/my/delete.png'
-	
 	export default {
 		props: ['inputName','feedNum'],
 		data() {
 			return {
 				zi:'机扫打飞机扫打飞机扫打飞机公司的附近公飞机扫打飞机扫打飞机扫打飞机公司的附近公飞机扫打飞机扫打飞机扫打飞机公司的附近公飞',
-				up:up,
-				deletes:deletes,
+				up: this.Static+'my/up-arrow.png.png',
+				deletes: this.Static+'my/delete.png',
 				problem:[],
 				xin:'',
 				arr:[],

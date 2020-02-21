@@ -32,14 +32,13 @@
 </template>
 
 <script>
-	import defaultAddImg from '@/static/mbcImg/publish/createBusiness/defaultAdd.png';
 	import bottom from '@/components/common/RHX/bottom/bottom';
 	import { mapMutations , mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
 				
-				defaultAddImg: defaultAddImg,
+				defaultAddImg:  this.Static+'publish/createBusiness/defaultAdd.png',
 				businessTemListsContent: null,
 				statusPreviewEditor: this.isEditTemp, // 模板状态 默认true编辑状态， false预览状态
 				busiCantAddShow: false, // 默认不展示，编辑状态展示此模块-----------商家、联系、添加按钮

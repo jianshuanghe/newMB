@@ -49,8 +49,6 @@
 	// #ifdef MP-WEIXIN || MP-TOUTIAO || MP-BAIDU || MP-ALIPAY
 		console.log('引入小程序图片压缩组件');
 	// #endif
-	import close from '@/static/mbcImg/common/deldat.png';
-	import jiaadd from '@/static/mbcImg/my/jiaadd.png';
 	export default {
 		name:'robby-image-upload',
 		props: ['value','enableDel','enableAdd','enableDrag','serverUrl','formData','limit','fileKeyName','showUploadProgress', 'typeImg'],
@@ -71,8 +69,8 @@
 				dragIndex: null,
 				targetImageIndex: null,
 				imageList: [],
-				close:close,
-				jiaadd:jiaadd,
+				close: this.Static+'common/deldat.png',
+				jiaadd: this.Static+'my/jiaadd.png',
 			}
 		},
 		mounted: function(){

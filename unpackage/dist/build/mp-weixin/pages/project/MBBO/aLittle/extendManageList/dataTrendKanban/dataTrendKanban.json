@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "trend-title": "/pages/project/MBBO/aLittle/extendManageList/dataTrendKanban/trendTitle",
-    "liu-liang-or-put-in-title": "/pages/project/MBBO/aLittle/extendManageList/dataTrendKanban/liuLiangOrPutInTitle",
-    "data-trend-liu-liang": "/pages/project/MBBO/aLittle/extendManageList/dataTrendKanban/liuLiang/dataTrend",
-    "data-trend-put-in": "/pages/project/MBBO/aLittle/extendManageList/dataTrendKanban/putIn/dataTrend"
-  },
-  "component": true
-}

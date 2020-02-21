@@ -1,31 +1,52 @@
 
+<<<<<<< HEAD
 .reportFrom-content.data-v-307448d4 {
 	position: relative;
 	width: 100%;
 }
 .reportFrom-box.data-v-307448d4 {
+=======
+.reportFrom-content.data-v-45e660ec {
+	position: relative;
+	width: 100%;
+}
+.reportFrom-box.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #fff;
 }
+<<<<<<< HEAD
 .RF-title.data-v-307448d4 {
+=======
+.RF-title.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding: 1vw 4vw 1vw 4vw;
 	margin-bottom: 2vw;
 }
+<<<<<<< HEAD
 .RF-title > ._p.data-v-307448d4 {
+=======
+.RF-title > ._p.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	font-family: PingFang-SC-Bold;
 	font-size: 4.266vw;
 	color: #2e2e30;
 	line-height: 5vw;
 }
+<<<<<<< HEAD
 .reportFrom.data-v-307448d4 {
+=======
+.reportFrom.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	border-left: 1px solid #d2d2d2;
 	border-right: 1px solid #d2d2d2;
 }
+<<<<<<< HEAD
 .RF-top.data-v-307448d4 {
 	position: relative;
 	width: 100%;
@@ -35,11 +56,26 @@
 	background: #fafafa;
 }
 .RF-item.data-v-307448d4 {
+=======
+.RF-top.data-v-45e660ec {
+	position: relative;
+	width: 100%;
+}
+.RF-bg.data-v-45e660ec {
+	position: relative;
+	background: #fafafa;
+}
+.RF-item.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 50%;
 	border-top: 1px solid #d2d2d2;
 }
+<<<<<<< HEAD
 .RF-item > ._p.data-v-307448d4 {
+=======
+.RF-item > ._p.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 99%;
 	font-family: PingFang-SC-Regular;
@@ -48,6 +84,7 @@
 	line-height: 10.4vw;
 	padding: 0 1vw 0 3vw;
 }
+<<<<<<< HEAD
 .borderRight.data-v-307448d4 {
 	border-right: 1px solid #d2d2d2;
 }
@@ -56,6 +93,16 @@
 	width: 100%;
 }
 .findMore-RF > ._p.data-v-307448d4 {
+=======
+.borderRight.data-v-45e660ec {
+	border-right: 1px solid #d2d2d2;
+}
+.findMore-RF.data-v-45e660ec {
+	position: relative;
+	width: 100%;
+}
+.findMore-RF > ._p.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -64,7 +111,11 @@
 	color: #9b9b9b;
 	line-height: 10.4vw;
 }
+<<<<<<< HEAD
 .lineBoxTop.data-v-307448d4 {
+=======
+.lineBoxTop.data-v-45e660ec {
+>>>>>>> 1.1-mp
 	border-top: 1px solid #d2d2d2;
 }
 

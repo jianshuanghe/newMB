@@ -7,8 +7,6 @@
 </template>
 
 <script>
-	import quickBtn from '@/static/mbcImg/images/common/quickBtn.png';
-	import daohang from '@/static/mbcImg/my/daohang.png';
 	import { mapMutations } from 'vuex';
     export default {
         name: 'quickBtn',
@@ -16,7 +14,7 @@
         },
         data () {
           return {
-				daohang: daohang,
+				daohang:  this.Static+'my/daohang.png',
 				quickNav:{
 					show: false
 				}

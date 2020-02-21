@@ -110,7 +110,12 @@
 	top: -50rpx;
 	left: 5%;
 	border-radius: 10rpx;
+<<<<<<< HEAD
 	box-shadow: darkgrey 0rpx 0rpx 22rpx 0rpx;/*边框阴影 */
+=======
+	-webkit-box-shadow: darkgrey 0rpx 0rpx 22rpx 0rpx;
+	        box-shadow: darkgrey 0rpx 0rpx 22rpx 0rpx;/*边框阴影 */
+>>>>>>> 1.1-mp
 }
 .my-business-det-ren{
 	width: 122rpx;

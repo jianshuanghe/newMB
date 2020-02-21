@@ -93,7 +93,6 @@
 <script>
 	import rTitle from '@/components/common/RHX/rTitle/rTitle';
 	import inputBox from './inputBox';
-	import dels from '@/static/mbcImg/my/dels.png';
 	export default {
 		components: {
 			rTitle,
@@ -101,7 +100,7 @@
 		},
 		data() {
 			return {
-				dels: dels, // 删除图片
+				dels: this.Static+'my/dels.png', // 删除图片
 				dataLists: this.dataList,
 				itemsDatas: this.itemsData,
 			};

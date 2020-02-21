@@ -1,7 +1,7 @@
 <template>
 	<view class="news-Collection">
 		<view class="news-Collection-title">
-			您的商机已被收藏<span>{{nums}}</span>次
+			您的商机已被收藏<span>{{nums||'0'}}</span>次
 		</view>
 		<view class="news-Collection-con" v-for="(item,index) in list" :key="index">
 			<view class="news-Collection-conOne">
@@ -35,23 +35,17 @@
 </template>
 
 <script>
-	import logo from '@/static/mbcImg/my/logo.png'
-	import ce from '@/static/mbcImg/my/2.png'
-	import shouc from '@/static/mbcImg/news/shouc.png'
-	import zan2 from '@/static/mbcImg/news/zan2.png';
-	import kong from '@/static/mbcImg/my/kong.png';
-	import comp from '@/static/mbcImg/my/comp.png';
 	export default {
 		data() {
 			return {
-				logo:logo,
-				ce:ce,
-				shouc:shouc,
-				zan2:zan2,
+				logo:this.Static+'my/logo.png',
+				ce:this.Static+'my/2.png',
+				shouc:this.Static+'news/shouc.png',
+				zan2:this.Static+'news/zan2.png',
 				list:[],
 				nums:'',
-				kong:kong,
-				comp:comp,
+				kong:this.Static+'my/kong.png',
+				comp:this.Static+'my/comp.png',
 			}
 		},
 		mounted() {

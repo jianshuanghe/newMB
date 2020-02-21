@@ -43,11 +43,11 @@ export default {
 		}
 	},
 	created() {
-		if (this.$route.query.personTitle) {
-			// 定位当前处于状态
-			let personTitle = Number(this.$route.query.personTitle);
-			this.clickNewsType(personTitle);
-		}
+		// if (this.$route.query.personTitle) {
+		// 	// 定位当前处于状态
+		// 	let personTitle = Number(this.$route.query.personTitle);
+		// 	this.clickNewsType(personTitle);
+		// }
 	},
 	onLoad:function(){
 		uni.setNavigationBarTitle({//标题 已收藏

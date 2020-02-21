@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 .preview-content.data-v-17e5af1c {
+=======
+.preview-content.data-v-65c45b08 {
+>>>>>>> 1.1-mp
 	position: relative;
 	min-height: 100vh;
 	background: #f9f9f9;

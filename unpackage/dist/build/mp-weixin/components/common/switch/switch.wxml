@@ -1,1 +1,0 @@
-<view class="switch-box _div"><view data-event-opts="{{[['tap',[['clickSwitch',[1]]]]]}}" class="{{['left _div',index===1?'switch-left':'switch-right']}}" bindtap="__e">是</view><view data-event-opts="{{[['tap',[['clickSwitch',[0]]]]]}}" class="{{['left _div',index===0?'switch-left':'switch-right']}}" bindtap="__e">否</view><view class="clear _div"></view></view>

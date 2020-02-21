@@ -41,15 +41,12 @@
 	import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
 	import navigation from '@/components/mbbo/navigation/navigation.vue';
 	import { mapMutations, mapGetters } from 'vuex';
-	import xuanzhong from '@/static/mbcImg/my/16.png'
-	import weixuan from '@/static/mbcImg/my/15.png'
-	import bot from '@/static/mbcImg/my/bot.png'
 	export default {
 		data() {
 			return {
-				weixuan:weixuan,
-				xuanzhong:xuanzhong,
-				bot:bot,
+				weixuan:  this.Static+'my/15.png',
+				xuanzhong:  this.Static+'my/16.png',
+				bot:  this.Static+'my/bot.png',
 				list:[],
 				add:[],
 			};

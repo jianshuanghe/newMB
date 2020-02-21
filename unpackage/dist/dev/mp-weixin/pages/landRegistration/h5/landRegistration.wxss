@@ -1,44 +1,77 @@
 
+<<<<<<< HEAD
 .landRegistration-content.data-v-24989f93 {
+=======
+.landRegistration-content.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
 	height: 100vh;
 	background: #fff;
 }
+<<<<<<< HEAD
 .landRegistration.data-v-24989f93 {
+=======
+.landRegistration.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	padding: 18rpx 40rpx;
 	background: #fff;
 }
+<<<<<<< HEAD
 .phone-passWord-LR.data-v-24989f93 {
+=======
+.phone-passWord-LR.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 12vw;
 }
+<<<<<<< HEAD
 .phonw-LR.data-v-24989f93 {
+=======
+.phonw-LR.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 6vw;
 }
+<<<<<<< HEAD
 .top-PLR.data-v-24989f93 {
 	position: relative;
 	width: 100%;
 }
 .top-PLR > ._p.data-v-24989f93 {
+=======
+.top-PLR.data-v-406d459d {
+	position: relative;
+	width: 100%;
+}
+.top-PLR > ._p.data-v-406d459d {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Semibold;
 	font-size: 6.4vw;
 	color: #2e2e30;
 	line-height: 10vw;
 }
+<<<<<<< HEAD
 .LR-cont.data-v-24989f93 {
+=======
+.LR-cont.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 8vw;
 }
+<<<<<<< HEAD
 .inputPhone-PLR.data-v-24989f93 {
+=======
+.inputPhone-PLR.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 }
+<<<<<<< HEAD
 .inputYan-PLR.data-v-24989f93 {
 	position: relative;
 	width: 100%;
@@ -52,56 +85,108 @@
 	width: 40%;
 }
 .yazm.data-v-24989f93 {
+=======
+.inputYan-PLR.data-v-406d459d {
+	position: relative;
+	width: 100%;
+	margin-top: 4vw;
+}
+.yan-left-PLR.data-v-406d459d {
+	position: relative;
+	width: 60%;
+}
+.ma-right-PLR.data-v-406d459d {
+	position: relative;
+	width: 40%;
+}
+.yazm.data-v-406d459d {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Light;
 	font-size: 4vw;
 	color: #ccc;
 	line-height: 12vw;
 	text-align: right;
 }
+<<<<<<< HEAD
 .re-yazm.data-v-24989f93 {
+=======
+.re-yazm.data-v-406d459d {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Light;
 	font-size: 4vw;
 	color: #02c2a2;
 	padding-top: 2vw;
 	text-align: right;
 }
+<<<<<<< HEAD
 .switchPassWorld.data-v-24989f93 {
 	position: relative;
 	width: 100%;
 }
 .switchPassWorld > ._p.data-v-24989f93 {
+=======
+.switchPassWorld.data-v-406d459d {
+	position: relative;
+	width: 100%;
+}
+.switchPassWorld > ._p.data-v-406d459d {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Light;
 	font-size: 3.5vw;
 	color: #02c2a2;
 	line-height: 12vw;
 	width: 50%;
 }
+<<<<<<< HEAD
 .passWord-LR.data-v-24989f93 {
 	position: relative;
 	width: 100%;
 }
 .top-PWLR.data-v-24989f93 {
+=======
+.passWord-LR.data-v-406d459d {
+	position: relative;
+	width: 100%;
+}
+.top-PWLR.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 33.6vw;
 	margin-top: 6vw;
 	margin: auto;
 }
+<<<<<<< HEAD
 .top-PWLR > ._img.data-v-24989f93 {
 	position: relative;
 	width: 100%;
 }
 .landBtn.data-v-24989f93 {
+=======
+.top-PWLR > ._img.data-v-406d459d {
+	position: relative;
+	width: 100%;
+}
+.landBtn.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 8vw;
 }
+<<<<<<< HEAD
 .land-btn-box.data-v-24989f93 {
+=======
+.land-btn-box.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	height: 12vw;
 	margin-bottom: 6vw;
 }
+<<<<<<< HEAD
 .land-btn-box > ._p.data-v-24989f93 {
+=======
+.land-btn-box > ._p.data-v-406d459d {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 4.266vw;
 	color: #ffffff;
@@ -110,7 +195,11 @@
 	line-height: 12vw;
 	background: #02c2a2;
 }
+<<<<<<< HEAD
 .wx-land.data-v-24989f93 {
+=======
+.wx-land.data-v-406d459d {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 4.266vw;
 	color: #02c2a2 !important;
@@ -120,15 +209,26 @@
 	border: 1px solid #e2e2e2;
 	background: #fff !important;
 }
+<<<<<<< HEAD
 .text-Right.data-v-24989f93 {
 	text-align: right;
 }
 .skipLand.data-v-24989f93 {
+=======
+.text-Right.data-v-406d459d {
+	text-align: right;
+}
+.skipLand.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 4vw;
 }
+<<<<<<< HEAD
 .skipLand > ._p.data-v-24989f93 {
+=======
+.skipLand > ._p.data-v-406d459d {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	text-align: center;

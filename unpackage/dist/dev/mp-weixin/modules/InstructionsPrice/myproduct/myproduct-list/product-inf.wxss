@@ -17,9 +17,17 @@
 	padding-top: 50rpx;
 	width: 100%;
 	min-height: 56rpx;
+<<<<<<< HEAD
 	text-overflow: -o-ellipsis-lastline;
 	overflow: hidden;
 	text-overflow: ellipsis;
+=======
+	-o-text-overflow: -o-ellipsis-lastline;
+	   text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+>>>>>>> 1.1-mp
 	display: -webkit-box;
 	-webkit-line-clamp: 2;
 	line-clamp: 2;

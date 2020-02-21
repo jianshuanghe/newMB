@@ -1,1 +1,0 @@
-<view data-event-opts="{{[['tap',[['ModuleAdd',['$event']]]]]}}" class="moduleAdd-content _div" bindtap="__e"><image class="moduleAddIcon left" src="{{moduleAddIcon}}"></image><view class="addText left _div">添加模块</view><view class="clear _div"></view></view>

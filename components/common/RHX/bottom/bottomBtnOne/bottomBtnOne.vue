@@ -139,10 +139,6 @@ import savePreviewBtn from '@/components/common/button/savePreviewBtn.vue';
 import businessStore from '@/components/common/RHX/bottom/businessStore/businessStore';
 import businessTel from '@/components/common/RHX/bottom/businessTel/businessTel';
 import bottomBtnAdd from '@/components/common/RHX/bottom/bottomBtnAdd/bottomBtnAdd';
-import ficon from '@/static/mbcImg/my/ficon.png';
-import fticon from '@/static/mbcImg/my/fticon.png';
-import love from '@/static/mbcImg/publish/purchase/store.png';
-import loved from '@/static/mbcImg/publish/purchase/stored.png';
 export default {
 	components: {
 		fixedBgBtn,
@@ -168,11 +164,11 @@ export default {
 			storeShow: false, // 商家信息
 			telShow: false, // 联系电话
 			addBtnShow: false, // 添加按钮
-			ficon: ficon,
-			fticon: fticon,
-			ftticon: love,
-			loved:loved,
-			love:love,
+			ficon:  this.Static+'my/ficon.png',
+			fticon:  this.Static+'my/fticon.png',
+			ftticon: this.Static+'publish/purchase/store.png',
+			loved:this.Static+'publish/purchase/stored.png',
+			love:this.Static+'publish/purchase/store.png',
 			addBtnList: {
 				addBtnSHow: true, // 添加按钮模块是否展示，默认展示
 				activeAdd: -1, // 记录用户点击哪个按钮

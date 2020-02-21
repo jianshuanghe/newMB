@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 .drag-sort.data-v-3bb4ad1e {
   width: 100%;
 }
 .drag-sort-item.data-v-3bb4ad1e {
+=======
+.drag-sort.data-v-0b0e1dd4 {
+  width: 100%;
+}
+.drag-sort-item.data-v-0b0e1dd4 {
+>>>>>>> 1.1-mp
   position: absolute !important;
   display: -webkit-box;
   display: -webkit-flex;
@@ -17,7 +24,11 @@
   /* border-radius: 5px; */
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 .drag-sort-item .item.data-v-3bb4ad1e {
+=======
+.drag-sort-item .item.data-v-0b0e1dd4 {
+>>>>>>> 1.1-mp
   position: relative;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -25,7 +36,11 @@
   font-size: 16px;
   padding: 0 40rpx;
 }
+<<<<<<< HEAD
 .drag-sort-item .close.data-v-3bb4ad1e {
+=======
+.drag-sort-item .close.data-v-0b0e1dd4 {
+>>>>>>> 1.1-mp
   position: absolute;
   right: -10rpx;
   top: -10rpx;
@@ -34,11 +49,19 @@
   height: 30rpx;
   opacity: 0.8;
 }
+<<<<<<< HEAD
 .drag-sort-item .close image.data-v-3bb4ad1e {
   width: 100%;
   height: 100%;
 }
 .drag-sort-item .touch-tight.data-v-3bb4ad1e {
+=======
+.drag-sort-item .close image.data-v-0b0e1dd4 {
+  width: 100%;
+  height: 100%;
+}
+.drag-sort-item .touch-tight.data-v-0b0e1dd4 {
+>>>>>>> 1.1-mp
   width: 24px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -47,11 +70,19 @@
   -webkit-justify-content: center;
           justify-content: center;
 }
+<<<<<<< HEAD
 .touch.data-v-3bb4ad1e {
   height: 100%;
   width: 50px;
 }
 .active.data-v-3bb4ad1e {
+=======
+.touch.data-v-0b0e1dd4 {
+  height: 100%;
+  width: 50px;
+}
+.active.data-v-0b0e1dd4 {
+>>>>>>> 1.1-mp
   background: #FFFFFF;
   box-shadow: 0 0 4px 0 #E2E2E2;
   z-index: 99;

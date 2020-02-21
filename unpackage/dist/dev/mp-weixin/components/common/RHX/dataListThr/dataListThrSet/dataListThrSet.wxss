@@ -2,13 +2,25 @@
 .body1{
 		display: -webkit-box;
 		display: -webkit-flex;
+<<<<<<< HEAD
+=======
+		display: -ms-flexbox;
+>>>>>>> 1.1-mp
 		display: flex;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: column;
+<<<<<<< HEAD
 		        flex-direction: column;
 		-webkit-box-align: center;
 		-webkit-align-items: center;
+=======
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 		        align-items: center;
 }
 .table{
@@ -20,9 +32,17 @@
 .oneList{
 		display: -webkit-box;
 		display: -webkit-flex;
+<<<<<<< HEAD
 		display: flex;
 		-webkit-box-align: center;
 		-webkit-align-items: center;
+=======
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 		        align-items: center;
 		height: 80rpx;
 		position: relative;
@@ -38,18 +58,34 @@
 		border-right: 1rpx solid #D2D2D2;
 		display: -webkit-box;
 		display: -webkit-flex;
+<<<<<<< HEAD
 		display: flex;
 		-webkit-box-align: center;
 		-webkit-align-items: center;
+=======
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 		        align-items: center;
 }
 .listvalue{
 		height: 100%;
 		display: -webkit-box;
 		display: -webkit-flex;
+<<<<<<< HEAD
 		display: flex;
 		-webkit-box-align: center;
 		-webkit-align-items: center;
+=======
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 		        align-items: center;
 		margin-left: 19rpx;
 		color: #2E2E30;
