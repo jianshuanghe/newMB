@@ -2,6 +2,7 @@
   "dependencies": {
     "js-base64": "^2.5.1",
     "jweixin-module": "^1.4.1",
+    "lrz": "^4.9.40",
     "md5": "^2.2.1",
     "vue-echarts-v3": "^2.0.1",
     "vue-i18n": "^8.14.1"
