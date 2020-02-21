@@ -1,12 +1,11 @@
 <template>
 	<!-- 模拟模块组件 -->
 	<div class="mode-list"  :id='dataLists.id' >
-		<!-- title -->
+		
 		<div class="mode-items" v-for='(item,index) in dataLists.dataList' :key='index'>
 			<!-- 产品说明 -->
 			<div class="titleTwo">
 				<rTitle
-				styleType='3'
 				:dataList='dataLists.dataList'
 				:itemsData='dataLists.dataList[0]'
 				:indexNum='index'
@@ -28,36 +27,51 @@
 				tBorderOne="1px solid #02C2A2"
 				tBStyleOne="dashed"
 				:tLineYSHow='false'
-				:isShowTwo='false'
+				:isShowTwo='true'
+				:valueTwo='item.content'
+				keyNameTwo='content'
+				tColorTwo='#2E2E30'
+				tWidthTwo="100%"
+				tTMarginTwo='2vw 0'
+				tHeightTwo=""
+				:autoHeightTwo='true'
+				tPaddingTwo=""
+				tLineHeightTwo='5vw'
+				tBGTwo="rgba(212, 253, 247, 0.21)"
+				tBorderTwo="1px solid #02C2A2"
+				tBStyleTwo="dashed"
 				@tap-index='tapIndex'
 				@tap-Title='tapTitleContent'
 				></rTitle>
 			</div>
-			<!-- 视频组件 -->
-			<rVideo
+			<!-- 单张图片组件 -->
+			<singlePicture
 			:disabled='disabled'
-			:dataList='dataLists.dataList[0]'
+			:dataList='dataLists.dataList'
 			:itemsData='dataLists.dataList[0]'
 			:indexNum='index'
 			:defaultImg='defaultAddImg'
-			videoWidth='100%'
-			videoHeight='24.55vw'
+			:imgSrc='item.imgUrl'
+			mode='widthFix'
+			lazyLoad=true
+			pictureWidth='100%'
+			pictureHeight='78.666vw'
 			@tap-index='tapIndex'
-			@tap-Video='tapVideo'
+			@tap-Picture='tabPicture'
 			:deleteMoveShow='deleteMoveTipsShow'
-			></rVideo>
+			></singlePicture>
 		</div>
 	</div>
 </template>
 
 <script>
-	import rVideo from '@/components/common/RHX/rVideo/rVideo';
+	import singlePicture from '@/components/common/RHX/singlePicture/singlePicture';
 	import rTitle from '@/components/common/RHX/rTitle/rTitle';
 	import manageCopyTips from '@/components/common/RHX/manageCopyTips/manageCopyTips';
 	import deleteMoveTips from '@/components/common/RHX/deleteMoveTips/deleteMoveTips';
 	export default {
 		components: {
-			rVideo,
+			singlePicture,
 			rTitle,
 			manageCopyTips,
 			deleteMoveTips
@@ -94,9 +108,9 @@
 			}
 		},
 		methods: {
-			// 点击视频
-			tapVideo (e) {
-				console.log(e, '操作视频');
+			// 点击单张图片
+			tabPicture (e) {
+				console.log(e, '操作单张图片返回值');
 				console.log(this.basicDatas, this.dataLists.type, this.dataLists);
 				this.dataLists.dataList = e;
 				let data = this.mergeBasicData(this.basicDatas, this.dataLists.type, this.dataLists, this.indexNum); // 合并数据

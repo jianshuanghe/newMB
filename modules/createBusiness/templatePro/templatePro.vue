@@ -42,14 +42,14 @@
 </template>
 
 <script>
-	// import {isData}from '@/static/mbcJs/dataJson/putong.js';
+	import {isData}from '@/static/mbcJs/dataJson/putong.js';
 	// import {isData}from '@/static/mbcJs/dataJson/dingzhi.js';
 	// import {isData}from '@/static/mbcJs/dataJson/gongcheng.js';
 	// import {isData}from '@/static/mbcJs/dataJson/huagong.js';
 	// import {isData}from '@/static/mbcJs/dataJson/gangcai.js';
 	// import {isData}from '@/static/mbcJs/dataJson/zixun.js';
 	// import {isData}from '@/static/mbcJs/dataJson/shouhoufuwu.js';
-	import {isData}from '@/static/mbcJs/dataJson/FAQ.js';
+	// import {isData}from '@/static/mbcJs/dataJson/FAQ.js';
 	import {moduleTemp}from '@/static/mbcJs/dataJson/moduleTemp.js';
 	import moduleTemPro from './moduleTemPro/moduleTemPro';
 	import moduleBtnPro from './moduleBtnPro/moduleBtnPro';

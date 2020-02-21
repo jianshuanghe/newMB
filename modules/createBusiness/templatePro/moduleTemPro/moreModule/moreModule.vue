@@ -30,7 +30,7 @@
 				v-if="moduleTitleStyle === '1'"
 				:disabled='!disabled'
 				:isShowOne='true'
-				:rPadding="tabYItemsIndex === indexNum ? '70upx 20upx 30upx 20upx' : '70upx 20upx 30upx 20upx'"
+				:rPadding="tabYItemsIndex === indexNum ? '70upx 20upx 6upx 20upx' : '70upx 20upx 6upx 20upx'"
 				:valueOne="dataLists.iconTitle"
 				typeOne="text" 
 				:maxlengthOne='5'
@@ -94,6 +94,18 @@
 				@tap-ChangeTitle='tapChangeTitle'
 				@tap-TITLECONTENTIMGD='tapTITLECONTENTIMGD'></TITLECONTENTIMGD>
 				<!-- 组件 -->
+				<TITLECONTENTIMGE
+				v-if="items.type === 'TITLE_CONTENT_IMG_E'"
+				:basicData='basicDatas'
+				:scrollTop='scrollTops'
+				:disabled='disableds'
+				:defaultImg='defaultAddImg'
+				:dataList='items'
+				:indexNum='index'
+				:tabYItemsIndexs='tabYItemsIndexs'
+				@tap-ChangeTitle='tapChangeTitle'
+				@tap-TITLECONTENTIMGE='tapTITLECONTENTIMGE'></TITLECONTENTIMGE>
+				<!-- 组件 -->
 				<TITLECONTENTVIDEOA
 				v-if="items.type === 'TITLE_CONTENT_VIDEO_A'"
 				:basicData='basicDatas'
@@ -129,19 +141,7 @@
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
 				@tap-CONTENTB='tapCONTENTB'></CONTENTB>
-				<!-- 组件 -->
-				<INFOB
-				v-if="items.type === 'INFO_B'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-INFOB='tapINFOB'></INFOB>
-				<!-- 组件 -->
+				
 				<IMGA
 				v-if="items.type === 'IMG_A'"
 				:basicData='basicDatas'
@@ -165,80 +165,7 @@
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
 				@tap-IMGCONTENTA='tapIMGCONTENTA'></IMGCONTENTA>
-				<!-- 组件 -->
-				<IMGB
-				v-if="items.type === 'IMG_B'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-IMGB='tapIMGB'></IMGB>
-				<!-- 组件 -->
-				<MONEYA
-				v-if="items.type === 'MONEY_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-MONEYA='tapMONEYA'></MONEYA>
-				<!-- 组件 -->
-				<TABLEA
-				v-if="items.type === 'TABLE_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TABLEA='tapTABLEA'></TABLEA>
-				<!-- 组件 -->
-				<SELECTB
-				v-if="items.type === 'SELECT_B'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@set-FixedShow='setFixedShowTemp'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-SELECTB='tapSELECTB'></SELECTB>
-				<!-- 组件 -->
-				<SELECTA
-				v-if="items.type === 'SELECT_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@set-FixedShow='setFixedShowTemp'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-SELECTA='tapSELECTA'></SELECTA>
-				<!-- 组件 -->
-				<TEXTA
-				v-if="items.type === 'TEXT_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TEXTA='tapTEXTA'></TEXTA>
+				
 				<!-- 组件 产品细节 -->
 				<IMGCONTENTC
 				v-if="items.type === 'IMG_CONTENT_C'"
@@ -252,54 +179,7 @@
 				@tap-ChangeTitle='tapChangeTitle'
 				@tap-IMGCONTENTC='tapIMGCONTENTC'
 				></IMGCONTENTC>
-				<!-- 组件 -->
-				<MONEYB
-				v-if="items.type === 'MONEY_B'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-MONEYB='tapMONEYB'
-				></MONEYB>
-				<!-- 组件 -->
-				<TABLEC
-				v-if="items.type === 'TABLE_C'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TABLEC='tapTABLEC'
-				></TABLEC>
-				<!-- 组件 -->
-				<TABLED
-				v-if="items.type === 'TABLE_D'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TABLED='tapTABLED'
-				></TABLED>
-				<!-- 组件 -->
-				<TABLEE
-				v-if="items.type === 'TABLE_E'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TABLEE='tapTABLEE'
-				></TABLEE>
+				
 				<!-- 组件 -->
 				<TITLEA
 				v-if="items.type === 'TITLE_A'"
@@ -311,42 +191,7 @@
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-TITLEA='tapTITLEA'
 				></TITLEA>
-				<!-- 组件 -->
-				<FOLLOWA
-				v-if="items.type === 'FOLLOW_A'"
-				:updataTime='dataListTemp.content'
-				:disabled='disableds'
-				:routeParam='routeParam'
-				:dataList="dataListTemp.content"
-				>
-				</FOLLOWA>
-				<!-- 组件 -->
-				<CONTENTA
-				v-if="items.type === 'CONTENT_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-CONTENTA='tapCONTENTA'
-				></CONTENTA>
-				<!-- 组件 -->
-				<NEWSA
-				v-if="items.type === 'NEWS_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:defaultImg='defaultAddImg'
-				:defaultLink='defaultAddLink'
-				:disabled='disableds'
-				:dataList='items'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@set-FixedShow='setFixedShowTemp'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-NEWSA='tapNEWSA'
-				></NEWSA>
+				
 				
 				<!-- 删除、上移、下移 -->
 				<deleteMoveTips
@@ -384,18 +229,13 @@
 	import TITLECONTENTIMGB from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_B';
 	import TITLECONTENTIMGC from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_C';
 	import TITLECONTENTIMGD from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_D';
+	import TITLECONTENTIMGE from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_E';
 	import TITLECONTENTVIDEOA from '@/components/rhx/InstrModule/TITLE_CONTENT_VIDEO_A';
 	import TITLEIMGA from '@/components/rhx/InstrModule/TITLE_IMG_A';
 	import CONTENTB from '@/components/rhx/InstrModule/CONTENT_B';
-	import INFOB from '@/components/rhx/InstrModule/INFO_B';
 	import IMGA from '@/components/rhx/InstrModule/IMG_A';
 	import IMGCONTENTA from '@/components/rhx/InstrModule/IMG_CONTENT_A';
-	import IMGB from '@/components/rhx/InstrModule/IMG_B';
-	import MONEYA from '@/components/rhx/InstrModule/MONEY_A';
-	import TABLEA from '@/components/rhx/InstrModule/TABLE_A';
-	import SELECTB from '@/components/rhx/InstrModule/SELECT_B';
-	import SELECTA from '@/components/rhx/InstrModule/SELECT_A';
-	import TEXTA from '@/components/rhx/InstrModule/TEXT_A';
+	
 	import madeCustTitleXModule from '@/components/common/RHX/madeCustModule/madeCustTitleXModule/madeCustTitleXModule';
 	import INPUTTABLEA from '@/components/rhx/InstrModule/INPUT_TABLE_A';
 	import INPUTCHECKA from '@/components/rhx/InstrModule/INPUT_CHECK_A';
@@ -404,15 +244,9 @@
 	import INPUTIMGA from '@/components/rhx/InstrModule/INPUT_IMG_A';
 	import INPUTTEXTA from '@/components/rhx/InstrModule/INPUT_TEXT_A';
 	import defaultAddLink from '@/static/mbcImg/publish/createBusiness/defaultAddLink.png';
-	import TABLEC from '@/components/rhx/InstrModule/TABLE_C';
-	import TABLED from '@/components/rhx/InstrModule/TABLE_D';
-	import TABLEE from '@/components/rhx/InstrModule/TABLE_E';
+	
 	import IMGCONTENTC from '@/components/rhx/InstrModule/IMG_CONTENT_C';
-	import MONEYB from '@/components/rhx/InstrModule/MONEY_B';
 	import TITLEA from '@/components/rhx/InstrModule/TITLE_A';
-	import FOLLOWA from '@/components/rhx/InstrModule/FOLLOW_A';
-	import CONTENTA from '@/components/rhx/InstrModule/CONTENT_A';
-	import NEWSA from '@/components/rhx/InstrModule/NEWS_A';
 	// 留言模块----放在最后
 	import MESA from '@/components/rhx/InstrModule/MES_A';
 	import manageCopyTips from '@/components/common/RHX/manageCopyTips/manageCopyTipsTwo';
@@ -455,18 +289,12 @@
 			TITLECONTENTIMGB,
 			TITLECONTENTIMGC,
 			TITLECONTENTIMGD,
+			TITLECONTENTIMGE,
 			TITLECONTENTVIDEOA,
 			TITLEIMGA,
 			CONTENTB,
-			INFOB,
 			IMGA,
 			IMGCONTENTA,
-			IMGB,
-			MONEYA,
-			TABLEA,
-			SELECTB,
-			SELECTA,
-			TEXTA,
 			madeCustTitleXModule,
 			INPUTTABLEA,
 			INPUTCHECKA,
@@ -474,15 +302,8 @@
 			INPUTTABLEB,
 			INPUTIMGA,
 			INPUTTEXTA,
-			TABLEC,
-			TABLED,
-			TABLEE,
 			IMGCONTENTC,
-			MONEYB,
 			TITLEA,
-			CONTENTA,
-			FOLLOWA,
-			NEWSA,
 			MESA, // 留言模块----放在最后
 			TUIJIAN,
 			manageCopyTips,
@@ -615,6 +436,12 @@
 				this.basicDatas = e;
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);
 			},
+			// 点击模块TITLE_CONTENT_IMG_E组件
+			tapTITLECONTENTIMGE (e) {
+				// console.log(e, '所有操作后返回数据');
+				this.basicDatas = e;
+				this.$emit('tap-ModuleTemPro', this.dataListTemp);
+			},
 			// 点击模块TITLE_IMG_A组件
 			tapTITLEIMGA (e) {
 				// console.log(e, '所有操作后返回数据');
@@ -627,12 +454,6 @@
 				this.basicDatas = e;
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);
 			},
-			// 点击模块INFO_B组件
-			tapINFOB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
 			// 点击模块IMG_A组件
 			tapIMGA (e) {
 				// console.log(e, '所有操作后返回数据');
@@ -641,36 +462,6 @@
 			},
 			// 点击模块IMG_CONTENT_A组件
 			tapIMGCONTENTA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块IMG_B组件
-			tapIMGB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块MONEY_A组件
-			tapMONEYA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块TABLE_A组件
-			tapTABLEA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块SELECT_B组件
-			tapSELECTB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块SELECT_A组件
-			tapSELECTA (e) {
 				// console.log(e, '所有操作后返回数据');
 				this.basicDatas = e;
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);
@@ -731,30 +522,6 @@
 			},
 			tapIMGCONTENTC(e){
 				// console.log(e,'所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块MONEY_B组件
-			tapMONEYB(e){
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块TABLE_C组件
-			tapTABLEC(e){
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块TABLE_D组件
-			tapTABLED(e){
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			//点击模块TABLE_E组件
-			tapTABLEE(e){
-				// console.log(e, '所有操作后返回数据');
 				this.basicDatas = e;
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);
 			},

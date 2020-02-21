@@ -120,12 +120,30 @@ let isData = {
 						"content": "更新于 2018-05-06 12:04:10",
 						"videoImgUrl": "http://style.iambuyer.com/img/temp-news-imgs/content01.png",
 						"videoUrl": "https://dcloud-img.oss-cn-hangzhou.aliyuncs.com/guide/uniapp/%E7%AC%AC1%E8%AE%B2%EF%BC%88uni-app%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D%EF%BC%89-%20DCloud%E5%AE%98%E6%96%B9%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B@20181126.mp4",
-						"infoCount": "35"
+						"infoCount": "35",
+						"imgUrl": "https://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-imgs-01.jpg"
+					},
+					{
+						"title": "为什么部分小米笔记本在安静的时候可以听到电流声音？",
+						"content": "更新于 2018-05-06 12:04:10",
+						"videoImgUrl": "",
+						"videoUrl": "",
+						"infoCount": "36",
+						"imgUrl": "https://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-imgs-01.jpg"
+					},
+					{
+						"title": "为什么部分小米笔记本在安静的时候可以听到电流声音？",
+						"content": "更新于 2018-05-06 12:04:10",
+						"videoImgUrl": "",
+						"videoUrl": "",
+						"infoCount": "37",
+						"imgUrl": ""
 					}
 				]
 			},
 			{
 				"iconTitle": "售后网点",
+				
 				"mType": "singleModule",
 				"search": "1",  // 1:展示搜索
 				"filter": "0", // 筛选条件 0: 距离最近

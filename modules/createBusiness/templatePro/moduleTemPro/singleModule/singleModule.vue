@@ -3,55 +3,7 @@
 		<div class="mode-list" :id='dataLists.id'>
 			<!-- 数据中的modules模块 -->
 			<div class="mode-items" >
-				<!-- 组件 -->
-				<TITLECONTENTIMGB
-				v-if="dataLists.type === 'TITLE_CONTENT_IMG_B'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='dataLists'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TITLECONTENTIMGB='tapTITLECONTENTIMGB'></TITLECONTENTIMGB>
-				<!-- 组件 -->
-				<TITLECONTENTIMGC
-				v-if="dataLists.type === 'TITLE_CONTENT_IMG_C'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='dataLists'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TITLECONTENTIMGC='tapTITLECONTENTIMGC'></TITLECONTENTIMGC>
-				<!-- 组件 -->
-				<TITLEIMGA
-				v-if="dataLists.type === 'TITLE_IMG_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='dataLists'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-TITLEIMGA='tapTITLEIMGA'></TITLEIMGA>
-				<!-- 组件 -->
-				<CONTENTB
-				v-if="dataLists.type === 'CONTENT_B'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='dataLists'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-CONTENTB='tapCONTENTB'></CONTENTB>
-				<!-- 组件 -->
+				
 				<INFOB
 				v-if="dataLists.type === 'INFO_B'"
 				:basicData='basicDatas'
@@ -63,30 +15,7 @@
 				:tabYItemsIndexs='tabYItemsIndexs'
 				@tap-ChangeTitle='tapChangeTitle'
 				@tap-INFOB='tapINFOB'></INFOB>
-				<!-- 组件 -->
-				<IMGA
-				v-if="dataLists.type === 'IMG_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='dataLists'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-IMGA='tapIMGA'></IMGA>
-				<!-- 组件 -->
-				<IMGCONTENTA
-				v-if="dataLists.type === 'IMG_CONTENT_A'"
-				:basicData='basicDatas'
-				:scrollTop='scrollTops'
-				:disabled='disableds'
-				:defaultImg='defaultAddImg'
-				:dataList='dataLists'
-				:indexNum='index'
-				:tabYItemsIndexs='tabYItemsIndexs'
-				@tap-ChangeTitle='tapChangeTitle'
-				@tap-IMGCONTENTA='tapIMGCONTENTA'></IMGCONTENTA>
+				
 				<!-- 组件 -->
 				<IMGB
 				v-if="dataLists.type === 'IMG_B'"
@@ -282,13 +211,7 @@
 	import moduleTitle from '@/components/common/RHX/moduleTitle/moduleTitle';
 	import swiperBanner from '@/components/common/RHX/swiperBanner/swiperBanner';
 	import moduleYlist from '@/components/common/RHX/moduleYlist/moduleYlist';
-	import TITLECONTENTIMGB from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_B';
-	import TITLECONTENTIMGC from '@/components/rhx/InstrModule/TITLE_CONTENT_IMG_C';
-	import TITLEIMGA from '@/components/rhx/InstrModule/TITLE_IMG_A';
-	import CONTENTB from '@/components/rhx/InstrModule/CONTENT_B';
 	import INFOB from '@/components/rhx/InstrModule/INFO_B';
-	import IMGA from '@/components/rhx/InstrModule/IMG_A';
-	import IMGCONTENTA from '@/components/rhx/InstrModule/IMG_CONTENT_A';
 	import IMGB from '@/components/rhx/InstrModule/IMG_B';
 	import MONEYA from '@/components/rhx/InstrModule/MONEY_A';
 	import TABLEA from '@/components/rhx/InstrModule/TABLE_A';
@@ -346,13 +269,7 @@
 			moduleTitle,
 			swiperBanner,
 			moduleYlist,
-			TITLECONTENTIMGB,
-			TITLECONTENTIMGC,
-			TITLEIMGA,
-			CONTENTB,
 			INFOB,
-			IMGA,
-			IMGCONTENTA,
 			IMGB,
 			MONEYA,
 			TABLEA,
@@ -451,44 +368,8 @@
 			...mapMutations({
 				setMoreSet: 'setMoreSet'
 			}),
-			// 点击模块TITLE_CONTENT_IMG_B组件
-			tapTITLECONTENTIMGB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块TITLE_CONTENT_IMG_C组件
-			tapTITLECONTENTIMGC (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块TITLE_IMG_A组件
-			tapTITLEIMGA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块CONTENT_B组件
-			tapCONTENTB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
 			// 点击模块INFO_B组件
 			tapINFOB (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块IMG_A组件
-			tapIMGA (e) {
-				// console.log(e, '所有操作后返回数据');
-				this.basicDatas = e;
-				this.$emit('tap-ModuleTemPro', this.dataListTemp);
-			},
-			// 点击模块IMG_CONTENT_A组件
-			tapIMGCONTENTA (e) {
 				// console.log(e, '所有操作后返回数据');
 				this.basicDatas = e;
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);

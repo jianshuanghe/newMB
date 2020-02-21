@@ -57,6 +57,7 @@
 		<div class="rTitle" v-if='isShowOne' :style="{padding: rPadding,fontWeight: rfontWeight,background:rbackground,fontFamily:rfontFamily}">
 			<inputBox
 				v-if='isInputShow'
+				:styleType='styleType'
 				:value="valueOneText"
 				:type="typeOne"
 				:isPassword='false'
@@ -91,6 +92,7 @@
 		<div class="rTitleTwo"  v-if='isShowTwo' :style="{padding: rPaddingTwo,fontFamily:rfontFamilyTwo,fontWeight: rfontWeightTwo}">
 			<textareaBox
 			v-if='isTextAreaShow'
+			:styleType='styleType'
 			:disabled='disabled'
 			:value="valueTwoText"
 			:type="typeTwo"
@@ -130,6 +132,7 @@
 			textareaBox
 		},
 		props: [
+			'styleType',
 			'dataList',
 			'itemsData',
 			'rPadding',

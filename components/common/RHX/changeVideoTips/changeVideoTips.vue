@@ -73,14 +73,15 @@ export default {
 		},
 		// 替换图片
 		changeVideo: function() {
-			console.log('触发替换');
+			console.log('触发替换视频');
 			_self = this;
 			uni.chooseVideo({
 				count: 1,
+				maxDuration: 60,
 				sourceType: ['camera', 'album'], 
 				success: function(e) {
 					console.log(e, '上传视频');
-					var imagePathArr = e.tempFilePaths;
+					var imagePathArr = e.tempFilePath;
 					// #ifdef H5
 						console.log('进入H5图片压缩');
 						lrz(imagePathArr[0],{quality: 0.6})

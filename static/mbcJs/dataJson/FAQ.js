@@ -149,13 +149,21 @@ let isData = {
 					},
 					"dataList": [
 						{
-							"type": "IMG_B",
+							"type": "TITLE_CONTENT_IMG_E",
 							"dataList": [{
 								"title": "使用指南",
 								"content": "小米笔记本的触摸板是跷跷板结构，将传统笔记本中的左右按键和触摸版合二为一，在占用更少空间的基础上，可以实现左右键功能。",
 								"imgUrl": "http://style.iambuyer.com/img/temp-news-imgs/content04.png",
 							}]
 						},
+						{
+							"type": "TITLE_CONTENT_IMG_E",
+							"dataList": [{
+								"title": "使用指南",
+								"content": "小米笔记本的触摸板是跷跷板结构，将传统笔记本中的左右按键和触摸版合二为一，在占用更少空间的基础上，可以实现左右键功能。",
+								"imgUrl": "http://style.iambuyer.com/img/temp-news-imgs/content04.png",
+							}]
+						}
 					]
 				}],
 				"userActionBtn": {
