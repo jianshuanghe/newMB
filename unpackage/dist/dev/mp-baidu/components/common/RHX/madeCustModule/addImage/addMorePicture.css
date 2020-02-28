@@ -1,0 +1,517 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------默认样式start------------------------------------------ */
+.imageUploadContainer{
+	padding: 10rpx 0rpx;
+	margin: 10rpx 0rpx;
+}
+.dragging{
+	-webkit-transform: scale(0);
+	    -ms-transform: scale(0);
+	        transform: scale(0)
+}
+.imageUploadList{
+	width: 100%;
+	min-height: 148rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.imageUploadList view:nth-of-type(1){
+	margin-left: 0;
+}
+.imageUpload{
+	width: 148rpx;
+	line-height: 150rpx;
+	text-align: center;
+	font-size: 150rpx;
+	color: #D9D9D9;
+	border: 1px solid #D9D9D9;
+	border-radius: 8rpx;
+	height: 148rpx;
+	margin-left: 12rpx;
+	margin-top: -10rpx;
+}
+.imageItem{
+	width: 148rpx;
+	width: 148rpx;
+	margin-right: 12rpx;
+}
+.imageDel{
+	position: relative;
+	left: 120rpx;
+	bottom: 185rpx;
+	background-color: rgba(0,0,0,0.5);
+	width: 36rpx;
+	height: 27rpx;
+	text-align: center;
+	line-height: 14rpx;
+	border-radius: 50%;
+	color: white!important;
+	font-size: 30rpx;
+	padding-bottom: 2rpx;
+}
+.imageItem image, .moveImage{
+	width: 148rpx;
+	height: 148rpx;
+	border-radius: 8rpx;
+}
+.moveImage{
+	position: absolute;
+}
+.uni-swiper{
+	height: 100% !important;
+}
+.imageDel{
+	width: 32rpx;
+	height: 30rpx;
+	border-radius: 50%;
+	line-height: 26rpx;
+	margin-top: 4rpx;
+	margin-left: 4rpx;
+}
+/* ---------------------------------------------采购样式------------------------------------------------------- */
+.imageUpload1 {
+	width: 220rpx !important;
+	height: 220rpx !important;
+	margin-left: 12rpx;
+	line-height: 180rpx !important;
+	text-align: center;
+	font-size: 80rpx !important;
+	color: #D9D9D9;
+	border: 0px !important;
+	border-radius: 8rpx;
+	background: #F9F9F9;
+}
+.imageUpload1 .text{
+	position: absolute;
+	font-family: PingFangSC-Regular;
+	font-size: 20rpx;
+	color: #BDBDBD;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 20rpx;
+	top: 220rpx;
+	width: 220rpx;
+}
+.imageItem1{
+	width: 208rpx;
+	width: 208rpx;
+	margin-right: 12rpx;
+	margin-bottom: 34rpx;
+}
+.imageDel1{
+	position: relative;
+	left: 120rpx;
+	bottom: 185rpx;
+	background-color: rgba(0,0,0,0.5);
+	width: 36rpx;
+	height: 27rpx;
+	text-align: center;
+	line-height: 14rpx;
+	border-radius: 50%;
+	color: white!important;
+	font-size: 30rpx;
+	padding-bottom: 2rpx;
+}
+.imageItem1 image, .moveImage1{
+	width: 208rpx;
+	height: 208rpx;
+	border-radius: 8rpx;
+}
+.moveImage1{
+	position: absolute;
+}
+.uni-swiper1{
+	height: 100% !important;
+}
+.imageDel1{
+	width: 32rpx;
+	height: 30rpx;
+	border-radius: 50%;
+	line-height: 26rpx;
+	margin-top: -50rpx;
+	margin-left: 64rpx !important;
+}
+/* --------------------------------------------------说明书样式start------------------------------------------------------- */
+/*---------------------------------------------------二维码样式-------------------------------------------------------------*/
+.imageUpload10 {
+	width: 314rpx !important;
+	height: 314rpx !important;
+	margin-left: 12rpx;
+	line-height: 262rpx !important;
+	text-align: center;
+	font-size: 80rpx !important;
+	color: #D9D9D9;
+	border: 0px !important;
+	border-radius: 8rpx;
+	background: #F9F9F9;
+	margin-top: -18rpx;
+}
+.text10{
+	position: absolute;
+	font-family: PingFangSC-Regular;
+	font-size: 20rpx;
+	color: #BDBDBD;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 20rpx;
+	top: 212rpx;
+	width: 304rpx;
+}
+.imageDel10{
+	position: relative;
+	left: 280rpx;
+	bottom: 348rpx;
+	background-color: rgba(0,0,0,0.5);
+	width: 36rpx;
+	height: 36rpx;
+	text-align: center;
+	line-height: 30rpx;
+	border-radius: 50%;
+	color: white!important;
+	font-size: 30rpx;
+	padding-bottom: 2rpx;
+}
+/*---------------------------------------------------二维码样式-------------------------------------------------------------*/
+
+
+
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/components/common/RHX/madeCustModule/addImage/addMorePicture.js.map*/

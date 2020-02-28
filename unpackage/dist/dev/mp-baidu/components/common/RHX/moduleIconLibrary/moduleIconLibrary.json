@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "replace-icon": "/components/common/RHX/replaceIcon/replaceIcon",
+    "input-box": "/components/common/RHX/inputBox/inputBox"
+  },
+  "component": true
+}

@@ -50,11 +50,11 @@
 				<!-- 收藏 -->
 				<view class="product-book-BA shou" v-if="shouc==0" @tap="shoucang(item.id,item.type)">
 					<image :src="shou"></image>
-					<span>{{shoucnum}}</span>
+					<span>{{shoucnum||'0'}}</span>
 				</view>
 				<view class="product-book-BA shou" v-if="shouc==1" @tap='shoucangs(item.id,item.type)'>
 					<image :src="shous"></image>
-					<span>{{shoucnum}}</span>
+					<span>{{shoucnum||'0'}}</span>
 				</view>
 				<!-- 分享 -->
 				<view class="product-book-BA right shou" v-if="item.isShare==0" @tap="gongying(item)">
@@ -561,7 +561,7 @@ export default {
 .information-hea-img {
 	min-width: 226upx;
 	height: 166upx;
-	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+	background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
 	background-size: 100% 100%;
 }
 .information-hea-img > image {

@@ -2,7 +2,7 @@
 	<view class="main-list oBorder">
 		<!-- 文本框 -->
 		<!-- 没有border -->
-		<div class="input-items" :style="{width: inputWidth}" v-if='!typeInput'>
+		<div class="input-items" :style="{width: inputWidth}" v-if='!typeInput'  >
 			<input 
 				class="main-input" 
 				:value="value" 

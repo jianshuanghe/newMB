@@ -1,24 +1,24 @@
 
-.memberCenter-content.data-v-08a00df8 {
+.memberCenter-content.data-v-1048e92e {
 	/* position: fixed; */
 	min-height: 100vh;
 	background: #f9f9f9;
 	position: relative;
 }
-.MCB-box.data-v-08a00df8 {
+.MCB-box.data-v-1048e92e {
 	/* position: fixed; */
 	width: 100%;
 	height: 86vh;
 	/* overflow: scroll; */
 	/* padding-bottom: 10vh; */
 }
-.MCB-btn.data-v-08a00df8 {
+.MCB-btn.data-v-1048e92e {
 	position: fixed;
 	bottom: 0;
 	z-index: 106;
 	width: 100%;
 }
-.scroll-v.data-v-08a00df8 {
+.scroll-v.data-v-1048e92e {
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
 	    -ms-flex: 1;

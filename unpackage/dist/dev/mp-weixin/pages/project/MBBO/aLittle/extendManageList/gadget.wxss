@@ -1,21 +1,21 @@
 
-.content.data-v-182bc351 {
+.content.data-v-65cf2a02 {
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw;
 	background: #fff;
 	margin-bottom: 1.5vw;
 }
-.gadget-box.data-v-182bc351 {
+.gadget-box.data-v-65cf2a02 {
 	position: relative;
 	width: 100%;
 	padding-bottom: 2vw;
 }
-.gadget-title.data-v-182bc351 {
+.gadget-title.data-v-65cf2a02 {
 	position: relative;
 	width: 100%;
 }
-.gadget-title > ._p.data-v-182bc351 {
+.gadget-title > ._p.data-v-65cf2a02 {
 	position: relative;
 	width: 100%;
 	font-family: PingFang-SC-Bold;
@@ -23,42 +23,42 @@
 	color: #2e2e30;
 	line-height: 6vw;
 }
-.gadget-cont.data-v-182bc351 {
+.gadget-cont.data-v-65cf2a02 {
 	position: relative;
 	width: 100%;
 }
-.gadget-toufang.data-v-182bc351 {
+.gadget-toufang.data-v-65cf2a02 {
 	position: relative;
 	width: 33.3333%;
 }
-.conten-box.data-v-182bc351 {
+.conten-box.data-v-65cf2a02 {
 	position: relative;
 	width: 100%;
 }
-.img.data-v-182bc351 {
+.img.data-v-65cf2a02 {
 	position: relative;
 	width: 30%;
 	padding-left: 5%;
 	margin: auto;
 }
-.img > ._img.data-v-182bc351 {
+.img > ._img.data-v-65cf2a02 {
 	position: relative;
 	width: 6vw;
 	height: 6vw;
 	margin-top: 2vw;
 }
-.text.data-v-182bc351 {
+.text.data-v-65cf2a02 {
 	position: relative;
 	width: 100%;
 }
-.title.data-v-182bc351 {
+.title.data-v-65cf2a02 {
 	font-family: PingFang-SC-Bold;
 	font-size: 3.7vw;
 	color: #2e2e30;
 	line-height: 5vw;
 	text-align: center;
 }
-.text-box.data-v-182bc351 {
+.text-box.data-v-65cf2a02 {
 	font-family: PingFang-SC-Medium;
 	font-size: 3.2vw;
 	color: #9b9b9b;

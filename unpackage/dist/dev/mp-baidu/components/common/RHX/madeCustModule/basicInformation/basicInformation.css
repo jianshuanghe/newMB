@@ -1,0 +1,55 @@
+
+.basicInformation-content{
+	position: relative;
+	width: 100%;
+	margin-bottom: 2vw;
+}
+.basicInformation{
+	position: relative;
+	width: 90%;
+	left: 4rpx;
+}
+.basicInformation1{
+	position: relative;
+	width: 100%;
+}
+.name-box{
+	position: relative;
+	width: 21%;
+	margin-top: 2vw;
+}
+.value-box{
+	position: relative;
+	width: 58%;
+}
+.delete-box{
+	position: absolute;
+	width: 10%;
+	right: 0;
+	top: 20rpx;
+}
+.delete{
+	position: relative;
+	width: 44rpx;
+	height: 44rpx;
+	float: right;
+}
+.delIcon{
+	position: relative;
+	width: 44rpx;
+	height: 44rpx;
+}
+.textShow{
+	padding-right: 2.5vw;
+	text-align: justify;
+	font-family: PingFangSC-Regular;
+	font-size: 28rpx;
+	color: #2E2E30;
+}
+.zw{
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/components/common/RHX/madeCustModule/basicInformation/basicInformation.js.map*/

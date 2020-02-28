@@ -12,10 +12,13 @@
         <!--登录按钮-->
         <view class="landBtn">
           <view class="">
-			<!-- #ifdef MP-WEIXIN -->  
+			<!-- #ifdef MP-WEIXIN -->
 			<button  open-type="getUserInfo" withCredentials="true" lang="zh_CN" @getuserinfo="getPhoneNumber" class="land-btn-box" v-if="phoneIsGet">登录</button> 
 			<button  open-type="getPhoneNumber" withCredentials="true" lang="zh_CN" @getphonenumber="getPhoneNumber" class="land-btn-box" v-else>注册</button> 
-			<!-- #endif -->  
+			<!-- #endif -->
+			<!-- #ifdef MP-BAIDU -->
+			<button  open-type="getPhoneNumber" @getphonenumber="getPhoneNumber" withCredentials="true" lang="zh_CN" class="land-btn-box" v-if="phoneIsGet">登录</button>
+			<!-- #endif -->
           </view>
         </view>
       </view>
@@ -36,11 +39,12 @@
         },
         created () {
 			// 隐藏分享
-			uni.hideShareMenu()
+			// uni.hideShareMenu();
         },
         mounted () {
           console.log(this.api2, '全局数据');
 		   this.getSessionKey();
+		   
         },
         methods: {
 			getSessionKey () { // 缓存用户sessionkey
@@ -50,51 +54,86 @@
 					scopes: 'auth_base',
 					success: function (loginRes) {
 						console.log(loginRes, '微信返回的code mounted');
-						uni.request({ // 获取key
-							url: _this.api2 + '/rest-rp/mbUser/wxMiniSessionKey?code=' + loginRes.code, //接口地址。
-							data: {},
-							header: {
-							},
-							success: (response) => {
-								console.log(response.data);
-								if (String(response.data.ret) === '200') {
-									let sessionKey = response.data.content;
-									console.log(sessionKey, 'sessionKey')
-									uni.setStorageSync('sessionKey', sessionKey); // 缓存用户sessionKey
-								} else {
+						// #ifdef MP-WEIXIN
+							uni.request({ // 获取key
+								url: _this.api2 + '/rest-rp/mbUser/wxMiniSessionKey?code=' + loginRes.code, //接口地址。
+								data: {},
+								header: {
+								},
+								success: (response) => {
+									console.log(response.data);
+									if (String(response.data.ret) === '200') {
+										let sessionKey = response.data.content;
+										console.log(sessionKey, 'sessionKey')
+										uni.setStorageSync('sessionKey', sessionKey); // 缓存用户sessionKey
+									} else {
+										uni.hideLoading(); // 隐藏 loading
+										uni.showToast({
+											title: response.data.msg,
+											icon: 'none',
+											duration: 500
+										});
+									}
+								},
+								fail: (error) => {
 									uni.hideLoading(); // 隐藏 loading
 									uni.showToast({
-										title: response.data.msg,
+										title: '网络繁忙，请稍后',
 										icon: 'none',
-										duration: 500
+										duration: 1000
 									});
+									console.log(error, '网络繁忙，请稍后');
 								}
-							},
-							fail: (error) => {
-								uni.hideLoading(); // 隐藏 loading
-								uni.showToast({
-									title: '网络繁忙，请稍后',
-									icon: 'none',
-									duration: 1000
-								});
-								console.log(error, '网络繁忙，请稍后');
-							}
-						});
+							});
+						// #endif
+						// #ifdef MP-BAIDU
+							uni.request({ // 获取key
+								url: _this.api2 + '/rest-rp/mbUser/baiduMiniSessionKey?code=' + loginRes.code, //接口地址。
+								data: {},
+								header: {
+								},
+								success: (response) => {
+									console.log(response.data);
+									if (String(response.data.ret) === '200') {
+										let sessionKey = response.data.content;
+										console.log(sessionKey, 'sessionKey')
+										uni.setStorageSync('sessionKey', sessionKey); // 缓存用户sessionKey
+									} else {
+										uni.hideLoading(); // 隐藏 loading
+										uni.showToast({
+											title: response.data.msg,
+											icon: 'none',
+											duration: 500
+										});
+									}
+								},
+								fail: (error) => {
+									uni.hideLoading(); // 隐藏 loading
+									uni.showToast({
+										title: '网络繁忙，请稍后',
+										icon: 'none',
+										duration: 1000
+									});
+									console.log(error, '网络繁忙，请稍后');
+								}
+							});
+						// #endif
 					}
 				}); 
 			},
 			bindGetUserInfo: function(e) {    
                 console.log(e); 
             },
-			getPhoneNumber: function(e) {    
-                console.log(e);    
+			getPhoneNumber:function(e) {
+				console.log(e)
                 if (e.detail.errMsg == 'getPhoneNumber:fail user deny') {    
                     console.log('用户拒绝提供手机号');  
                 } else {    
                     console.log('用户同意提供手机号');
+					console.log(e)
 					let evData = JSON.stringify(e.detail.encryptedData);
 					let evIv = JSON.stringify(e.detail.iv); 
-					console.log(evData, evIv, '带你花------------');
+					console.log(evData, evIv, '带你花------------11');
 					this.clickMpLand(evData, evIv);
                 }    
 
@@ -122,12 +161,97 @@
 				// #ifdef MP-TOUTIAO
 					_this.mpTtLand();
 				// #endif
-				// #ifdef  MP-BAIDU
-					_this.mpBdLand();
+				// #ifdef MP-BAIDU
+					uni.checkSession({
+						success () {
+							//session_key 未过期，并且在本生命周期一直有效
+							_this.mpBDLand(evData, evIv);
+						},
+						fail () {
+							// session_key 已经失效，需要重新执行登录流程
+							console.log('session_key已经过期！');
+							_this.getSessionKey(); //重新登录
+						}
+					})
 				// #endif
 				// #ifdef MP-ALIPAY
 					_this.mpApLand();
 				// #endif
+			},
+			mpBDLand(evData, evIv){
+				console.log('百度小程序登录');
+				uni.showLoading({ // 展示loading
+					title: '登陆中···'
+				});
+				let _this = this;
+				uni.getUserInfo({ // 拉取用户信息
+					success: function (user) {
+						console.log(user, '拉取到的用户信息');
+						let sessionKey = uni.getStorageSync('sessionKey'); // 读取缓存的用户sessionKey
+						console.log(sessionKey);
+						let params = { // 登录参数
+							openId:sessionKey.openid,
+							baiduUserEncryptedData:user.data,
+							sessionKey:sessionKey.session_key,
+							baiduPhoneEncryptedData: JSON.parse(evData),
+						};
+						console.log(params,'-------------------------------------------')
+						uni.request({
+							url: _this.api2 + '/rest-rp/mbUser/baiduMiniLogin', //接口地址。
+							data: params,
+							method: 'POST',
+							header: {},
+							success: (response) => {
+								console.log(response.data);
+								if (String(response.data.ret) === '200') {
+									let landRegist = {
+										randomKey: response.data.content.randomKey,
+										token: response.data.content.token,
+										user: {
+											id: response.data.content.userId
+										}
+									};
+									uni.setStorageSync('landRegist', JSON.stringify(landRegist));// 缓存用户登录信息
+									_this.getUserData();
+								} else if (String(response.data.ret) === '400') {
+									uni.hideLoading(); // 隐藏 loading
+									_this.phoneIsGet = false; // 显示获取手机号
+									uni.showToast({
+										title: '请同意获取手机号注册，再登录！',
+										icon: 'none',
+										duration: 500
+									});
+								} else if (String(response.data.ret) === '500') {
+									uni.hideLoading(); // 隐藏 loading
+									console.log(response.data, '---------------------response.data---------------------')
+									console.log('------------------------5000-----------------------')
+									uni.showToast({
+										title: '网络开小差了，请再次点击登录！',
+										icon: 'none',
+										duration: 500
+									});
+									// _this.getWxMiniLogin(params);
+								} else {
+									uni.hideLoading(); // 隐藏 loading
+									uni.showToast({
+										title: response.data.msg,
+										icon: 'none',
+										duration: 500
+									});
+								}
+							},
+							fail: (error) => {
+								uni.hideLoading(); // 隐藏 loading
+								uni.showToast({
+									title: '网络繁忙，请稍后',
+									icon: 'none',
+									duration: 1000
+								});
+								console.log(error, '网络繁忙，请稍后');
+							}
+						});
+					}
+				})
 			},
 			mpWxLand (evData, evIv) {
 				console.log('微信小程序登录');

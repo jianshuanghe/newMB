@@ -1,0 +1,68 @@
+
+.my-tool {
+	/* min-width: 150%; */
+	height: 280rpx;
+	background: #ffffff;
+	margin-top: 20rpx;
+}
+.my-tool-Title {
+	position: relative;
+	/* width: 690upx; */
+	font-size: 30rpx;
+	color: #2e2e30;
+	font-weight: bold;
+	padding-top: 20rpx;
+	padding-left: 30rpx;
+}
+.my-tool-gong {
+	/* width: 118%; */
+	overflow: auto;
+}
+.scroll-view_H {
+	width: 128%;
+	height: 180rpx;
+	float: left;
+	white-space: nowrap;
+}
+.my-tool-opportunity {
+	background: #ffffff;
+	-webkit-box-shadow: 0 0 10px 0 rgba(226, 226, 226, 0.6);
+	        box-shadow: 0 0 10px 0 rgba(226, 226, 226, 0.6);
+	border-radius: 8rpx;
+	width: 276rpx;
+	height: 132rpx;
+	margin-top: 30rpx;
+	margin-left: 30rpx;
+	float: left;
+}
+.my-tool-zi {
+	width: 52%;
+	height: 60%;
+	margin-top: 22rpx;
+	margin-left: 25rpx;
+	float: left;
+}
+.my-tool-zi > view:nth-of-type(1) {
+	font-size: 28rpx;
+	color: #2e2e30;
+	font-weight: bold;
+}
+.my-tool-zi > view:nth-of-type(2) {
+	font-size: 24rpx;
+	color: #9b9b9b;
+	margin-top: -5rpx;
+}
+.my-tool-img {
+	float: left;
+	width: 64rpx;
+	height: 64rpx;
+	margin-top: 34rpx;
+	margin-left: 20rpx;
+}
+.my-tool-img > image {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/pages/project/MBBO/my/my-list/my-tool.js.map*/

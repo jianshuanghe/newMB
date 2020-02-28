@@ -1,0 +1,22 @@
+
+.moduleAddList-content{
+	position: relative;
+	width: 100%;
+}
+.scroll-H{
+	padding-bottom: 20vh;
+}
+.add-text{
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 88rpx;
+	background: #02C2A2;
+	-webkit-box-shadow: 0 1px 6px 0 rgba(2,194,162,0.30);
+	        box-shadow: 0 1px 6px 0 rgba(2,194,162,0.30);
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/pickerButton/pickerButtonPicker.js.map*/

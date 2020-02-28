@@ -1,0 +1,111 @@
+
+.skipMask-content{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	/* z-index: 999999; */
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+.skipMask{
+	width: 540rpx;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);
+	    -ms-transform: translate(-50%, 0%);
+	        transform: translate(-50%, 0%);
+	z-index: 103;
+	background: #FFFFFF;
+	border-radius: 10px;
+	border-radius: 10px;
+}
+.top{
+	position: relative;
+	width: 100%;
+}
+.skipMaskBg{
+	position: relative;
+	width: 540rpx;
+	height: 280rpx;
+}
+.topBox{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 540rpx;
+	height: 280rpx;
+	padding: 100rpx 0;
+}
+.textOne{
+	font-family: PingFangSC-Semibold;
+	font-size: 40rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40rpx;
+}
+.textTwo{
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40rpx;
+}
+.bottom{
+	position: relative;
+	width: 540rpx;
+	height: 288rpx;
+}
+.noTips{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #9B9B9B;
+	text-align: center;
+	line-height: 60rpx;
+}
+.noTipsImg{
+	position: relative;
+	width: 24rpx;
+	height: 24rpx;
+	margin-right: 2vw;
+}
+.text{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #9B9B9B;
+	text-align: center;
+	line-height: 60rpx;
+}
+.continueBtn{
+	background: #02C2A2;
+	-webkit-box-shadow: 0 0 10px 0 rgba(2,194,162,0.40);
+	        box-shadow: 0 0 10px 0 rgba(2,194,162,0.40);
+	border-radius: 25px;
+	border-radius: 25px;
+	position: relative;
+	width: 460rpx;
+	height: 100rpx;
+	font-family: PingFangSC-Semibold;
+	font-size: 28rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 100rpx;
+	margin: auto;
+}
+.insistSkip{
+	font-family: PingFangSC-Regular;
+	font-size: 28rpx;
+	color: #02C2A2;
+	text-align: center;
+	line-height: 120rpx;
+}
+
+
+/*# sourceMappingURL=../../../../.sourcemap/mp-baidu/modules/createBusiness/templateFinish/skipMask.js.map*/

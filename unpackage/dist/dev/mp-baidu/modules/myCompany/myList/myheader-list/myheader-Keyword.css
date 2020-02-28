@@ -1,0 +1,125 @@
+
+.hiden{
+	display: none;
+}
+.myheader-Keyword{
+	width: 100%;
+	min-height: 100%;
+	background: #FFFFFF;
+}
+.myheader-Keyword-biao{
+	width: 100%;
+	height: 140rpx;
+	padding-top: 80rpx;
+	text-align: center;
+}
+.myheader-Keyword-biao>view:nth-of-type(1){
+	font-size: 36rpx;
+	color: #2E2E30;
+	font-weight: bold;
+}
+.myheader-Keyword-biao>view:nth-of-type(2){
+	font-size: 24rpx;
+	color: #9B9B9B;
+}
+.myheader-Keyword-industry{
+	width: 90%;
+	min-height: 100rpx;
+	margin: 20rpx auto;
+}
+.myheader-Keyword-Tips{
+	width: 84%;
+	height: 40rpx;
+	margin: 0 auto;
+	font-size: 28rpx;
+	color: #2E2E30;
+}
+.myheader-Keyword-Label{
+	padding: 10rpx 50rpx 10rpx 50rpx;
+	border: 2rpx solid #E2E2E2;
+	border-radius: 35rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 26rpx;
+	position: relative;
+}
+.myheader-Keyword-Label>image{
+	width: 36rpx;
+	height: 36rpx;
+	top: -15rpx;
+	right: 0rpx;
+	position: absolute;
+}
+.myheader-Keyword-Labels{
+	padding: 10rpx 50rpx 10rpx 50rpx;
+	border: 2rpx solid #E2E2E2;
+	border-radius: 35rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 26rpx;
+
+	color: #FAB000;
+}
+.myheader-Keyword-Labela{
+	padding: 10rpx 50rpx 10rpx 50rpx;
+	border: 2rpx solid #E2E2E2;
+	border-radius: 35rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 26rpx;
+	color: #02C2A2;
+	width: 130rpx;
+	height: 45rpx;
+	line-height: 45rpx;
+	position: relative;
+}
+.myheader-Keyword-Labela>input{
+	width: 100%;
+	height: 100%;
+}
+.myheader-btn{
+	width: 90%;
+	height: 90rpx;
+	background: #02C2A2;
+	text-align: center;
+	line-height: 90rpx;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	position:fixed;
+	bottom: 20rpx;
+	left: 5%;
+}
+.myheader-Keyword-box{
+	padding-bottom: 300rpx;
+}
+.topsss{
+	width: 84%;
+	height: 40rpx;
+	/* margin: 40upx auto auto!important; */
+	/* margin-top: 100upx; */
+	margin: 0rpx auto auto auto;
+	padding-top: 80rpx;
+	font-size: 28rpx;
+	color: #2E2E30;
+	clear: both;
+}
+.myheader-Keyword-Labelss{
+	padding: 10rpx 50rpx 10rpx 50rpx;
+	border: 2rpx solid #E2E2E2;
+	border-radius: 35rpx;
+	display: block;
+	float: left;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	font-size: 26rpx;
+	color: #FAB000;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/modules/myCompany/myList/myheader-list/myheader-Keyword.js.map*/

@@ -1,0 +1,16 @@
+
+.mode-list{
+	position: relative;
+	width: 100%;
+	background: #FFFF;
+	padding: 18rpx 24rpx 2rpx 24rpx;
+	margin-bottom: 32rpx;
+}
+.mode-items{
+	position: relative;
+	width: 100%;
+	margin-top: vw;
+}
+
+
+/*# sourceMappingURL=../../../../.sourcemap/mp-baidu/components/rhx/InstrModule/SELECT_A.js.map*/

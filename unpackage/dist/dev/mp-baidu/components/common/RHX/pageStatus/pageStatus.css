@@ -1,0 +1,21 @@
+
+.pageStatus-content{
+	position: relative;
+	width: 100%;
+}
+.pageStatus{
+	position: relative;
+	width: 100%;
+}
+.status{
+	position: fixed;
+	width: 100%;
+}
+.statusImg{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/pageStatus/pageStatus.js.map*/

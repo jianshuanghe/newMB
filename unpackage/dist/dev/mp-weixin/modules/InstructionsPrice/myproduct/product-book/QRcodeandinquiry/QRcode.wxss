@@ -1,22 +1,22 @@
 
-.QRcode.data-v-9cb88066{
+.QRcode.data-v-3b3cc884{
 	width: 100%;
 	height: 100%;
 	margin-top: 40rpx;
 }
-.QRcode-imj.data-v-9cb88066{
+.QRcode-imj.data-v-3b3cc884{
 	width: 100%;
 	height: 508rpx;
 }
-.swiper-box.data-v-9cb88066{
+.swiper-box.data-v-3b3cc884{
 	height: 508rpx;
 }
-.swiper-slide.data-v-9cb88066{
+.swiper-slide.data-v-3b3cc884{
 	width: 360rpx;
 	height: 508rpx;
 	/* margin-left: 30%; */
 }
-.swiper-slide>image.data-v-9cb88066{
+.swiper-slide>image.data-v-3b3cc884{
 	width: 100%;
 	height: 100%;
 }

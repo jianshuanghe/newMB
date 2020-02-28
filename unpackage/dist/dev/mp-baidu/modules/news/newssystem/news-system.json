@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation"
+  },
+  "component": true
+}

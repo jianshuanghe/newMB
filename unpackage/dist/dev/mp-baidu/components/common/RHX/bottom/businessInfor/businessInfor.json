@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation",
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "single-picture": "/components/common/RHX/singlePicture/singlePicture",
+    "province-city": "/components/common/provinceCity/provinceCity"
+  },
+  "component": true
+}

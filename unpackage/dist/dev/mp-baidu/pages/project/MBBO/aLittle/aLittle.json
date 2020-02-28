@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "account": "/pages/project/MBBO/aLittle/extendManageList/account",
+    "statistics": "/pages/project/MBBO/aLittle/extendManageList/Statistics",
+    "data-trend-kanban": "/pages/project/MBBO/aLittle/extendManageList/dataTrendKanban/dataTrendKanban",
+    "gadget": "/pages/project/MBBO/aLittle/extendManageList/gadget"
+  },
+  "component": true
+}

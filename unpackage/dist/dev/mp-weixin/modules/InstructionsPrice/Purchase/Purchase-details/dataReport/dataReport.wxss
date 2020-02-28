@@ -1,18 +1,18 @@
 
-.dataReport_content.data-v-76c0ec2a {
+.dataReport_content.data-v-5dbe8e59 {
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: #f6f6f6;
 }
-.title-putIn.data-v-76c0ec2a{
+.title-putIn.data-v-5dbe8e59{
 	margin-top: 5rpx;
 }
-.right-arrow.data-v-76c0ec2a {
+.right-arrow.data-v-5dbe8e59 {
 	position: relative;
 	width: 2vw;
 }
-.rightArrow.data-v-76c0ec2a {
+.rightArrow.data-v-5dbe8e59 {
 	position: relative;
 	width: 3.2vw;
 	top: 0.6vw;

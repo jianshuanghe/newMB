@@ -1,0 +1,1 @@
+<view class="dataReport_content _div data-v-1274a38e"><top-box vue-id="1" class="data-v-1274a38e" vue-slots="{{['default']}}"><view class="title-putIn _p data-v-1274a38e">投放数据分析</view></top-box><data-trend-kanban vue-id="2" dataid="{{id}}" class="data-v-1274a38e"></data-trend-kanban></view>

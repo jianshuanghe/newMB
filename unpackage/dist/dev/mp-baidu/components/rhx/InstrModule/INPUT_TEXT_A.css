@@ -1,0 +1,34 @@
+
+.mode-list{
+	position: relative;
+	width: 100%;
+	background: #FFFF;
+	padding: 18rpx 24rpx 32rpx 24rpx;
+	margin-bottom: 20rpx;
+}
+.mode-items{
+	position: relative;
+	width: 100%;
+}
+.titleModule{
+	position: relative;
+	width: 80%;
+}
+.deleteModule{
+	position: absolute;
+	width: 20%;
+	top: 4vw;
+	right: 30rpx;
+}
+.deteteIcon{
+	position: relative;
+	float: right;
+	width: 30rpx;
+	height: 34rpx;
+}
+.title{
+	margin-bottom: 3vw;
+}
+
+
+/*# sourceMappingURL=../../../../.sourcemap/mp-baidu/components/rhx/InstrModule/INPUT_TEXT_A.js.map*/

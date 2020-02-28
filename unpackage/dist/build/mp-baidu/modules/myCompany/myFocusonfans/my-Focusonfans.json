@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "component": true,
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "my-focus": "/modules/myCompany/myFocusonfans/FocusonFans/my-Focus",
+    "my-fans": "/modules/myCompany/myFocusonfans/FocusonFans/my-Fans",
+    "navigation": "/components/mbbo/navigation/navigation"
+  }
+}

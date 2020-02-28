@@ -1,0 +1,30 @@
+
+.addButton-content{
+	position: relative;
+	width: 100%;
+	padding: 5vw 0;
+}
+.addButton{
+	position: relative;
+	width: 100%;
+}
+.manageCopyTips{
+	position: relative;
+	width: 440rpx;
+	margin: 0 auto;
+}
+.manage-box{
+	width: 190rpx;
+}
+.copy-box{
+	position: relative;
+	width: 190rpx;
+}
+.copy-manage-box{
+	position: relative;
+	width: 190rpx;
+	margin: auto;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/addButton/addButton.js.map*/

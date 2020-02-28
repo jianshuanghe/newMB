@@ -1,9 +1,9 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
 
 /***/ 0:
-/*!****************************!*\
-  !*** E:/MB/mb-yun/main.js ***!
-  \****************************/
+/*!***************************!*\
+  !*** E:/MB/newMB/main.js ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1708,9 +1708,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 100:
-/*!*************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FaLittle%2FputInBusiness%2FputInBusinessList%2FbunesinessDetails%2FbunesinessDetails"} ***!
-  \*************************************************************************************************************************************/
+/*!************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FaLittle%2FputInBusiness%2FputInBusinessList%2FbunesinessDetails%2FbunesinessDetails"} ***!
+  \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1725,9 +1725,9 @@ createPage(_bunesinessDetails.default);
 /***/ }),
 
 /***/ 108:
-/*!*********************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FaLittle%2FputInBusiness%2FputInBusinessList%2FputInList%2FputInList"} ***!
-  \*********************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FaLittle%2FputInBusiness%2FputInBusinessList%2FputInList%2FputInList"} ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1742,9 +1742,9 @@ createPage(_putInList.default);
 /***/ }),
 
 /***/ 11:
-/*!***************************************************************!*\
-  !*** E:/MB/mb-yun/node_modules/vue-i18n/dist/vue-i18n.esm.js ***!
-  \***************************************************************/
+/*!**************************************************************!*\
+  !*** E:/MB/newMB/node_modules/vue-i18n/dist/vue-i18n.esm.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3690,9 +3690,9 @@ VueI18n;exports.default = _default;
 /***/ }),
 
 /***/ 116:
-/*!***********************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FaLittle%2FdataReport%2FdataReport"} ***!
-  \***********************************************************************************/
+/*!**********************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FaLittle%2FdataReport%2FdataReport"} ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3707,9 +3707,9 @@ createPage(_dataReport.default);
 /***/ }),
 
 /***/ 12:
-/*!***********************************!*\
-  !*** E:/MB/mb-yun/store/index.js ***!
-  \***********************************/
+/*!**********************************!*\
+  !*** E:/MB/newMB/store/index.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3734,9 +3734,9 @@ store;exports.default = _default;
 /***/ }),
 
 /***/ 124:
-/*!***********************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FpublishPurchase%2FpublishPurchase"} ***!
-  \***********************************************************************************/
+/*!**********************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FpublishPurchase%2FpublishPurchase"} ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4702,9 +4702,9 @@ var index_esm = {
 /***/ }),
 
 /***/ 130:
-/*!***************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FpublishPurchase%2FselectTemplate%2FpublishPurchaseFinish%2FpublishPurchaseFinishShare"} ***!
-  \***************************************************************************************************************************************/
+/*!**************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FpublishPurchase%2FselectTemplate%2FpublishPurchaseFinish%2FpublishPurchaseFinishShare"} ***!
+  \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4719,9 +4719,9 @@ createPage(_publishPurchaseFinishShare.default);
 /***/ }),
 
 /***/ 138:
-/*!*********************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FcreateBusiness%2FselectTemplate"} ***!
-  \*********************************************************************************/
+/*!********************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FcreateBusiness%2FselectTemplate"} ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4736,9 +4736,9 @@ createPage(_selectTemplate.default);
 /***/ }),
 
 /***/ 14:
-/*!*******************************************!*\
-  !*** E:/MB/mb-yun/store/modules/state.js ***!
-  \*******************************************/
+/*!******************************************!*\
+  !*** E:/MB/newMB/store/modules/state.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4756,9 +4756,9 @@ state;exports.default = _default;
 /***/ }),
 
 /***/ 144:
-/*!********************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FcreateBusiness%2FtemplatePro%2FtemplatePro"} ***!
-  \********************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FcreateBusiness%2FtemplatePro%2FtemplatePro"} ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4773,9 +4773,9 @@ createPage(_templatePro.default);
 /***/ }),
 
 /***/ 15:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/COMMON/state.js ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/store/modules/COMMON/state.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4798,9 +4798,9 @@ state;exports.default = _default;
 /***/ }),
 
 /***/ 152:
-/*!**************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FcreateBusiness%2FtemplateFinish%2FtemplateFinish"} ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FcreateBusiness%2FtemplateFinish%2FtemplateFinish"} ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4815,9 +4815,9 @@ createPage(_templateFinish.default);
 /***/ }),
 
 /***/ 16:
-/*!***********************************************!*\
-  !*** E:/MB/mb-yun/store/modules/RHX/state.js ***!
-  \***********************************************/
+/*!**********************************************!*\
+  !*** E:/MB/newMB/store/modules/RHX/state.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4876,9 +4876,9 @@ state;exports.default = _default;
 /***/ }),
 
 /***/ 160:
-/*!*******************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FcreateBusiness%2FtemplateFinish%2FtemplateFinishShare"} ***!
-  \*******************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FcreateBusiness%2FtemplateFinish%2FtemplateFinishShare"} ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4893,9 +4893,9 @@ createPage(_templateFinishShare.default);
 /***/ }),
 
 /***/ 168:
-/*!******************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FcreateBusiness%2FtemplateFinish%2FtemplateFinishMade"} ***!
-  \******************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FcreateBusiness%2FtemplateFinish%2FtemplateFinishMade"} ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4910,9 +4910,9 @@ createPage(_templateFinishMade.default);
 /***/ }),
 
 /***/ 17:
-/*!************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/MBBO/state.js ***!
-  \************************************************/
+/*!***********************************************!*\
+  !*** E:/MB/newMB/store/modules/MBBO/state.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5049,9 +5049,9 @@ state;exports.default = _default;
 /***/ }),
 
 /***/ 176:
-/*!************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FcreateBusiness%2FwebView%2FwebView"} ***!
-  \************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FcreateBusiness%2FwebView%2FwebView"} ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5066,9 +5066,9 @@ createPage(_webView.default);
 /***/ }),
 
 /***/ 18:
-/*!***********************************************!*\
-  !*** E:/MB/mb-yun/store/modules/mutations.js ***!
-  \***********************************************/
+/*!**********************************************!*\
+  !*** E:/MB/newMB/store/modules/mutations.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5085,9 +5085,9 @@ var _mutations3 = _interopRequireDefault(__webpack_require__(/*! ./MBBO/mutation
 /***/ }),
 
 /***/ 182:
-/*!****************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2Fnews%2FnewsList%2FnewsList"} ***!
-  \****************************************************************************/
+/*!***************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2Fnews%2FnewsList%2FnewsList"} ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5102,9 +5102,9 @@ createPage(_newsList.default);
 /***/ }),
 
 /***/ 188:
-/*!***********************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fmyproduct-shu"} ***!
-  \***********************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fmyproduct-shu"} ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5119,9 +5119,9 @@ createPage(_myproductShu.default);
 /***/ }),
 
 /***/ 1880:
-/*!************************************************************************!*\
-  !*** E:/MB/mb-yun/components/common/Evaluating/static/imgs/st_pic.png ***!
-  \************************************************************************/
+/*!***********************************************************************!*\
+  !*** E:/MB/newMB/components/common/Evaluating/static/imgs/st_pic.png ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5130,9 +5130,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABx
 /***/ }),
 
 /***/ 1881:
-/*!*************************************************************************!*\
-  !*** E:/MB/mb-yun/components/common/Evaluating/static/imgs/st_star.png ***!
-  \*************************************************************************/
+/*!************************************************************************!*\
+  !*** E:/MB/newMB/components/common/Evaluating/static/imgs/st_star.png ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5141,9 +5141,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAe
 /***/ }),
 
 /***/ 1882:
-/*!********************************************************************************!*\
-  !*** E:/MB/mb-yun/components/common/Evaluating/static/imgs/st_star_active.png ***!
-  \********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** E:/MB/newMB/components/common/Evaluating/static/imgs/st_star_active.png ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5152,9 +5152,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAe
 /***/ }),
 
 /***/ 19:
-/*!******************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/COMMON/mutations.js ***!
-  \******************************************************/
+/*!*****************************************************!*\
+  !*** E:/MB/newMB/store/modules/COMMON/mutations.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5178,9 +5178,9 @@ mutations;exports.default = _default;
 /***/ }),
 
 /***/ 196:
-/*!**************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fproduct-book%2Fproduct-books"} ***!
-  \**************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fproduct-book%2Fproduct-books"} ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11144,9 +11144,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 20:
-/*!***************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/RHX/mutations.js ***!
-  \***************************************************/
+/*!**************************************************!*\
+  !*** E:/MB/newMB/store/modules/RHX/mutations.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11184,9 +11184,9 @@ mutations;exports.default = _default;
 /***/ }),
 
 /***/ 204:
-/*!************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fproduct-book%2FdataReport%2FdataReport"} ***!
-  \************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fproduct-book%2FdataReport%2FdataReport"} ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11201,9 +11201,9 @@ createPage(_dataReport.default);
 /***/ }),
 
 /***/ 21:
-/*!****************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/MBBO/mutations.js ***!
-  \****************************************************/
+/*!***************************************************!*\
+  !*** E:/MB/newMB/store/modules/MBBO/mutations.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11415,9 +11415,9 @@ mutations;exports.default = _default;
 /***/ }),
 
 /***/ 212:
-/*!*************************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fproduct-book%2FQRcodeandinquiry%2FQRcode-list%2FQRcodelist-edit"} ***!
-  \*************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2Fmyproduct%2Fproduct-book%2FQRcodeandinquiry%2FQRcode-list%2FQRcodelist-edit"} ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11432,9 +11432,9 @@ createPage(_QRcodelistEdit.default);
 /***/ }),
 
 /***/ 22:
-/*!*********************************************!*\
-  !*** E:/MB/mb-yun/store/modules/actions.js ***!
-  \*********************************************/
+/*!********************************************!*\
+  !*** E:/MB/newMB/store/modules/actions.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11446,9 +11446,9 @@ createPage(_QRcodelistEdit.default);
 /***/ }),
 
 /***/ 220:
-/*!***********************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder"} ***!
-  \***********************************************************************************/
+/*!**********************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder"} ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11463,9 +11463,9 @@ createPage(_Order.default);
 /***/ }),
 
 /***/ 228:
-/*!************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-details"} ***!
-  \************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-details"} ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11480,9 +11480,9 @@ createPage(_OrderDetails.default);
 /***/ }),
 
 /***/ 23:
-/*!*********************************************!*\
-  !*** E:/MB/mb-yun/store/modules/getters.js ***!
-  \*********************************************/
+/*!********************************************!*\
+  !*** E:/MB/newMB/store/modules/getters.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11499,9 +11499,9 @@ var _getters3 = _interopRequireDefault(__webpack_require__(/*! ./MBBO/getters.js
 /***/ }),
 
 /***/ 236:
-/*!*************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-detailsh"} ***!
-  \*************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-detailsh"} ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11516,9 +11516,9 @@ createPage(_OrderDetailsh.default);
 /***/ }),
 
 /***/ 24:
-/*!****************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/COMMON/getters.js ***!
-  \****************************************************/
+/*!***************************************************!*\
+  !*** E:/MB/newMB/store/modules/COMMON/getters.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11537,9 +11537,9 @@ getters;exports.default = _default;
 /***/ }),
 
 /***/ 244:
-/*!************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-confirm"} ***!
-  \************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-confirm"} ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11554,9 +11554,9 @@ createPage(_OrderConfirm.default);
 /***/ }),
 
 /***/ 25:
-/*!*************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/RHX/getters.js ***!
-  \*************************************************/
+/*!************************************************!*\
+  !*** E:/MB/newMB/store/modules/RHX/getters.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11573,9 +11573,9 @@ getters;exports.default = _default;
 /***/ }),
 
 /***/ 252:
-/*!*************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-details2"} ***!
-  \*************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FOrder%2FOrder-list%2FOrder-details%2FOrder-details2"} ***!
+  \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11590,9 +11590,9 @@ createPage(_OrderDetails.default);
 /***/ }),
 
 /***/ 26:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/store/modules/MBBO/getters.js ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/store/modules/MBBO/getters.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11624,9 +11624,9 @@ getters;exports.default = _default;
 /***/ }),
 
 /***/ 260:
-/*!***********************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FEdit-instructions%2FEdit-instructions"} ***!
-  \***********************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FEdit-instructions%2FEdit-instructions"} ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11641,9 +11641,9 @@ createPage(_EditInstructions.default);
 /***/ }),
 
 /***/ 268:
-/*!*****************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FPurchase%2FPurchase"} ***!
-  \*****************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FPurchase%2FPurchase"} ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11658,9 +11658,9 @@ createPage(_Purchase.default);
 /***/ }),
 
 /***/ 27:
-/*!***********************************!*\
-  !*** E:/MB/mb-yun/common/lang.js ***!
-  \***********************************/
+/*!**********************************!*\
+  !*** E:/MB/newMB/common/lang.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11674,9 +11674,9 @@ var _enUS = _interopRequireDefault(__webpack_require__(/*! ./language/en-US/en-U
 /***/ }),
 
 /***/ 276:
-/*!********************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FPurchase%2FPurchase-details%2FPurchase-details"} ***!
-  \********************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FPurchase%2FPurchase-details%2FPurchase-details"} ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11691,9 +11691,9 @@ createPage(_PurchaseDetails.default);
 /***/ }),
 
 /***/ 28:
-/*!***************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/zh-CN.js ***!
-  \***************************************************/
+/*!**************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/zh-CN.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11738,9 +11738,9 @@ var _default = { tab_bar: _tab_bar.default, Home_title: _title.default, navigati
 /***/ }),
 
 /***/ 284:
-/*!***************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FInstructionsPrice%2FPurchase%2FPurchase-details%2FdataReport%2FdataReport"} ***!
-  \***************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FInstructionsPrice%2FPurchase%2FPurchase-details%2FdataReport%2FdataReport"} ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11755,9 +11755,9 @@ createPage(_dataReport.default);
 /***/ }),
 
 /***/ 29:
-/*!************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/common/tab_bar.js ***!
-  \************************************************************/
+/*!***********************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/common/tab_bar.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11772,9 +11772,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 292:
-/*!*******************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2Ffind%2Ffindlist%2Ffind-search"} ***!
-  \*******************************************************************************/
+/*!******************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2Ffind%2Ffindlist%2Ffind-search"} ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11820,9 +11820,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 30:
-/*!**********************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/common/title.js ***!
-  \**********************************************************/
+/*!*********************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/common/title.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11837,9 +11837,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 300:
-/*!******************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2Ffind%2Ffindlist%2Ffind-cloud"} ***!
-  \******************************************************************************/
+/*!*****************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2Ffind%2Ffindlist%2Ffind-cloud"} ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11854,9 +11854,9 @@ createPage(_findCloud.default);
 /***/ }),
 
 /***/ 308:
-/*!********************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2Ffind%2Ffindlist%2Ffind-capital"} ***!
-  \********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2Ffind%2Ffindlist%2Ffind-capital"} ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11871,9 +11871,9 @@ createPage(_findCapital.default);
 /***/ }),
 
 /***/ 31:
-/*!***************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/common/navigation.js ***!
-  \***************************************************************/
+/*!**************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/common/navigation.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11890,9 +11890,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 316:
-/*!*******************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader"} ***!
-  \*******************************************************************************/
+/*!******************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader"} ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11907,9 +11907,9 @@ createPage(_myheader.default);
 /***/ }),
 
 /***/ 32:
-/*!***************************************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/aLittle/extendManageList/extendManageList.js ***!
-  \***************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/aLittle/extendManageList/extendManageList.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12240,9 +12240,9 @@ var customTime = {
 /***/ }),
 
 /***/ 324:
-/*!**************************************************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforItems%2FpreviewAndEditor%2Feditor%2FeditorItems%2Feditvalidity"} ***!
-  \**************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforItems%2FpreviewAndEditor%2Feditor%2FeditorItems%2Feditvalidity"} ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12257,9 +12257,9 @@ createPage(_editvalidity.default);
 /***/ }),
 
 /***/ 33:
-/*!*****************************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/publishPurchase/publish/publish.js ***!
-  \*****************************************************************************/
+/*!****************************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/publishPurchase/publish/publish.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12272,9 +12272,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 332:
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforItems%2FpreviewAndEditor%2Feditor%2FeditorItems%2FindustryAddress%2Faddress"} ***!
-  \***************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforItems%2FpreviewAndEditor%2Feditor%2FeditorItems%2FindustryAddress%2Faddress"} ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12289,9 +12289,9 @@ createPage(_address.default);
 /***/ }),
 
 /***/ 34:
-/*!**************************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/find/findModules/listModules.js ***!
-  \**************************************************************************/
+/*!*************************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/find/findModules/listModules.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12307,9 +12307,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 340:
-/*!****************************************************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforItems%2FpreviewAndEditor%2Feditor%2FeditorItems%2FeditBasicInfor"} ***!
-  \****************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforItems%2FpreviewAndEditor%2Feditor%2FeditorItems%2FeditBasicInfor"} ***!
+  \***************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12324,9 +12324,9 @@ createPage(_editBasicInfor.default);
 /***/ }),
 
 /***/ 348:
-/*!********************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-Personal"} ***!
-  \********************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-Personal"} ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12341,9 +12341,9 @@ createPage(_myheaderPersonal.default);
 /***/ }),
 
 /***/ 35:
-/*!*******************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/find/find.js ***!
-  \*******************************************************/
+/*!******************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/find/find.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12365,9 +12365,9 @@ var channel = {
 /***/ }),
 
 /***/ 356:
-/*!**********************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-interested"} ***!
-  \**********************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-interested"} ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12382,9 +12382,9 @@ createPage(_myheaderInterested.default);
 /***/ }),
 
 /***/ 36:
-/*!******************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/myCompany/First-page.js ***!
-  \******************************************************************/
+/*!*****************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/myCompany/First-page.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12434,9 +12434,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 364:
-/*!*******************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-Keyword"} ***!
-  \*******************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-Keyword"} ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12451,9 +12451,9 @@ createPage(_myheaderKeyword.default);
 /***/ }),
 
 /***/ 37:
-/*!************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/news/news-page.js ***!
-  \************************************************************/
+/*!***********************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/news/news-page.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12470,9 +12470,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 372:
-/*!********************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-Purchase"} ***!
-  \********************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2Fmyheader-Purchase"} ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12487,9 +12487,9 @@ createPage(_myheaderPurchase.default);
 /***/ }),
 
 /***/ 38:
-/*!*******************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/myCompany/my-personal.js ***!
-  \*******************************************************************/
+/*!******************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/myCompany/my-personal.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12575,9 +12575,9 @@ var _default = {
 /***/ }),
 
 /***/ 380:
-/*!***********************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2FKeyWords"} ***!
-  \***********************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyList%2Fmyheader-list%2FKeyWords"} ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12592,9 +12592,9 @@ createPage(_KeyWords.default);
 /***/ }),
 
 /***/ 388:
-/*!********************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyFocusonfans%2Fmy-Focusonfans"} ***!
-  \********************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyFocusonfans%2Fmy-Focusonfans"} ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12609,9 +12609,9 @@ createPage(_myFocusonfans.default);
 /***/ }),
 
 /***/ 39:
-/*!********************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/myCompany/my-functions.js ***!
-  \********************************************************************/
+/*!*******************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/myCompany/my-functions.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12630,9 +12630,9 @@ var _default = {
 /***/ }),
 
 /***/ 396:
-/*!************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInfor"} ***!
-  \************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInfor"} ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12647,9 +12647,9 @@ createPage(_companyInfor.default);
 /***/ }),
 
 /***/ 4:
-/*!*******************************!*\
-  !*** E:/MB/mb-yun/pages.json ***!
-  \*******************************/
+/*!******************************!*\
+  !*** E:/MB/newMB/pages.json ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12659,9 +12659,9 @@ createPage(_companyInfor.default);
 /***/ }),
 
 /***/ 40:
-/*!******************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/myCompany/basicInfor.js ***!
-  \******************************************************************/
+/*!*****************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/myCompany/basicInfor.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12692,9 +12692,9 @@ var qualificationType = [
 /***/ }),
 
 /***/ 404:
-/*!**************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyCollectiononBrowseonPoints%2Fmy-CollectiononBrowseonPoints"} ***!
-  \**************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyCollectiononBrowseonPoints%2Fmy-CollectiononBrowseonPoints"} ***!
+  \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12709,9 +12709,9 @@ createPage(_myCollectiononBrowseonPoints.default);
 /***/ }),
 
 /***/ 41:
-/*!**********************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/myCompany/qualificatCert.js ***!
-  \**********************************************************************/
+/*!*********************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/myCompany/qualificatCert.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12779,9 +12779,9 @@ var qualificationType = [
 /***/ }),
 
 /***/ 412:
-/*!****************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforEdit"} ***!
-  \****************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FcompanyInfor%2FcompanyInforEdit"} ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12796,9 +12796,9 @@ createPage(_companyInforEdit.default);
 /***/ }),
 
 /***/ 42:
-/*!*************************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/zh-CN/InstructionsPrice/Howtoshow.js ***!
-  \*************************************************************************/
+/*!************************************************************************!*\
+  !*** E:/MB/newMB/common/language/zh-CN/InstructionsPrice/Howtoshow.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12822,9 +12822,9 @@ var _default = {
 /***/ }),
 
 /***/ 420:
-/*!**************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2Fmybusiness%2Fmy-business"} ***!
-  \**************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2Fmybusiness%2Fmy-business"} ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12839,9 +12839,9 @@ createPage(_myBusiness.default);
 /***/ }),
 
 /***/ 428:
-/*!************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FmemberCenter%2FmemberCenter"} ***!
-  \************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FmemberCenter%2FmemberCenter"} ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12856,9 +12856,9 @@ createPage(_memberCenter.default);
 /***/ }),
 
 /***/ 43:
-/*!***************************************************!*\
-  !*** E:/MB/mb-yun/common/language/en-US/en-US.js ***!
-  \***************************************************/
+/*!**************************************************!*\
+  !*** E:/MB/newMB/common/language/en-US/en-US.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12870,9 +12870,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 436:
-/*!*****************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FmemberCenter%2FmemberCenterItems%2FbuyMember%2FbuyMember"} ***!
-  \*****************************************************************************************************************************************/
+/*!****************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FmemberCenter%2FmemberCenterItems%2FbuyMember%2FbuyMember"} ***!
+  \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12887,9 +12887,9 @@ createPage(_buyMember.default);
 /***/ }),
 
 /***/ 44:
-/*!************************************************************!*\
-  !*** E:/MB/mb-yun/common/language/en-US/common/tab_bar.js ***!
-  \************************************************************/
+/*!***********************************************************!*\
+  !*** E:/MB/newMB/common/language/en-US/common/tab_bar.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12904,9 +12904,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 444:
-/*!********************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2Fmy-Setup"} ***!
-  \********************************************************************************/
+/*!*******************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2Fmy-Setup"} ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12921,9 +12921,9 @@ createPage(_mySetup.default);
 /***/ }),
 
 /***/ 45:
-/*!****************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/api.js ***!
-  \****************************************/
+/*!***************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/api.js ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12948,9 +12948,9 @@ if (false) {}
 /***/ }),
 
 /***/ 452:
-/*!**************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FaccountCenter%2FaccountCenter"} ***!
-  \**************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FaccountCenter%2FaccountCenter"} ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12965,9 +12965,9 @@ createPage(_accountCenter.default);
 /***/ }),
 
 /***/ 46:
-/*!**********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/endParams.js ***!
-  \**********************************************/
+/*!*********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/endParams.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12978,9 +12978,9 @@ createPage(_accountCenter.default);
 /***/ }),
 
 /***/ 460:
-/*!************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-phone"} ***!
-  \************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-phone"} ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12995,9 +12995,9 @@ createPage(_mySetupPhone.default);
 /***/ }),
 
 /***/ 468:
-/*!***********************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-pass"} ***!
-  \***********************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-pass"} ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13012,9 +13012,9 @@ createPage(_mySetupPass.default);
 /***/ }),
 
 /***/ 47:
-/*!********************************************!*\
-  !*** E:/MB/mb-yun/node_modules/md5/md5.js ***!
-  \********************************************/
+/*!*******************************************!*\
+  !*** E:/MB/newMB/node_modules/md5/md5.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13183,9 +13183,9 @@ createPage(_mySetupPass.default);
 /***/ }),
 
 /***/ 476:
-/*!**************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FaboutUs%2FaboutUs"} ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FaboutUs%2FaboutUs"} ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13200,9 +13200,9 @@ createPage(_aboutUs.default);
 /***/ }),
 
 /***/ 48:
-/*!************************************************!*\
-  !*** E:/MB/mb-yun/node_modules/crypt/crypt.js ***!
-  \************************************************/
+/*!***********************************************!*\
+  !*** E:/MB/newMB/node_modules/crypt/crypt.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13307,9 +13307,9 @@ createPage(_aboutUs.default);
 /***/ }),
 
 /***/ 484:
-/*!**************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FOpinion%2FOpinion"} ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FpersonAndCompany%2FOpinion%2FOpinion"} ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13324,9 +13324,9 @@ createPage(_Opinion.default);
 /***/ }),
 
 /***/ 49:
-/*!****************************************************!*\
-  !*** E:/MB/mb-yun/node_modules/charenc/charenc.js ***!
-  \****************************************************/
+/*!***************************************************!*\
+  !*** E:/MB/newMB/node_modules/charenc/charenc.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13368,9 +13368,9 @@ module.exports = charenc;
 /***/ }),
 
 /***/ 492:
-/*!**************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-mailbox"} ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-mailbox"} ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13417,9 +13417,9 @@ function isSlowBuffer (obj) {
 /***/ }),
 
 /***/ 500:
-/*!*********************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-WX"} ***!
-  \*********************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-WX"} ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13434,9 +13434,9 @@ createPage(_mySetupWX.default);
 /***/ }),
 
 /***/ 508:
-/*!**************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-address"} ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-address"} ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13451,9 +13451,9 @@ createPage(_mySetupAddress.default);
 /***/ }),
 
 /***/ 51:
-/*!*****************************************************!*\
-  !*** E:/MB/mb-yun/node_modules/js-base64/base64.js ***!
-  \*****************************************************/
+/*!****************************************************!*\
+  !*** E:/MB/newMB/node_modules/js-base64/base64.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13698,9 +13698,9 @@ function (global) {
 /***/ }),
 
 /***/ 516:
-/*!******************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-address-new"} ***!
-  \******************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-address-new"} ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13715,9 +13715,9 @@ createPage(_mySetupAddressNew.default);
 /***/ }),
 
 /***/ 52:
-/*!************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/browserType.js ***!
-  \************************************************/
+/*!***********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/browserType.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13740,9 +13740,9 @@ function isWeiXin() {
 /***/ }),
 
 /***/ 524:
-/*!*******************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-address-new2"} ***!
-  \*******************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmySetup%2FmySetups%2FmySetup-address-new2"} ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13757,9 +13757,9 @@ createPage(_mySetupAddressNew.default);
 /***/ }),
 
 /***/ 53:
-/*!*********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/pageNums.js ***!
-  \*********************************************/
+/*!********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/pageNums.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13771,9 +13771,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.pageNums =
 /***/ }),
 
 /***/ 532:
-/*!**************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyBuyeronAlready%2Fmy-BuyeronAlready"} ***!
-  \**************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyBuyeronAlready%2Fmy-BuyeronAlready"} ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13788,9 +13788,9 @@ createPage(_myBuyeronAlready.default);
 /***/ }),
 
 /***/ 54:
-/*!*********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/dateTime.js ***!
-  \*********************************************/
+/*!********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/dateTime.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13800,9 +13800,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 540:
-/*!**************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyBuyeronAlready%2Fmy-BuyeronAlready%2FMessage-details%2FAlready-details"} ***!
-  \**************************************************************************************************************************************/
+/*!*************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyBuyeronAlready%2Fmy-BuyeronAlready%2FMessage-details%2FAlready-details"} ***!
+  \*************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13817,9 +13817,9 @@ createPage(_AlreadyDetails.default);
 /***/ }),
 
 /***/ 548:
-/*!************************************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FmyCompany%2FmyBuyeronAlready%2Fmy-BuyeronAlready%2FMessage-details%2FBuyer-details"} ***!
-  \************************************************************************************************************************************/
+/*!***********************************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FmyCompany%2FmyBuyeronAlready%2Fmy-BuyeronAlready%2FMessage-details%2FBuyer-details"} ***!
+  \***********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13834,9 +13834,9 @@ createPage(_BuyerDetails.default);
 /***/ }),
 
 /***/ 55:
-/*!*******************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/static.js ***!
-  \*******************************************/
+/*!******************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/static.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13849,9 +13849,9 @@ exports.dImg = dImg;var origin = 'https://so.iambuyer.com';exports.origin = orig
 /***/ }),
 
 /***/ 556:
-/*!*************************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2Fnews%2FnewsPraisedAndCollection%2Fnews-PraisedAndCollection"} ***!
-  \*************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2Fnews%2FnewsPraisedAndCollection%2Fnews-PraisedAndCollection"} ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13866,9 +13866,9 @@ createPage(_newsPraisedAndCollection.default);
 /***/ }),
 
 /***/ 56:
-/*!*************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/landRegistra.js ***!
-  \*************************************************/
+/*!************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/landRegistra.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13974,9 +13974,9 @@ function landRegistra() {
 /***/ }),
 
 /***/ 564:
-/*!*************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2Fnews%2Fnewssystem%2Fnews-systemlist"} ***!
-  \*************************************************************************************/
+/*!************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2Fnews%2Fnewssystem%2Fnews-systemlist"} ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13991,9 +13991,9 @@ createPage(_newsSystemlist.default);
 /***/ }),
 
 /***/ 57:
-/*!********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/getDate.js ***!
-  \********************************************/
+/*!*******************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/getDate.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14023,9 +14023,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.getDate = 
 /***/ }),
 
 /***/ 572:
-/*!***************************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2Fnews%2Fnewssystem%2Fsystem-feeling%2Fnews-feeling"} ***!
-  \***************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2Fnews%2Fnewssystem%2Fsystem-feeling%2Fnews-feeling"} ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14040,9 +14040,9 @@ createPage(_newsFeeling.default);
 /***/ }),
 
 /***/ 58:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/returnDateNum.js ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/returnDateNum.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14059,9 +14059,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.returnDate
 /***/ }),
 
 /***/ 59:
-/*!*****************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/uuid.js ***!
-  \*****************************************/
+/*!****************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/uuid.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14084,9 +14084,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.returnDate
 /***/ }),
 
 /***/ 60:
-/*!*****************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/dataJson/keyText.js ***!
-  \*****************************************************/
+/*!****************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/dataJson/keyText.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14116,9 +14116,9 @@ function keyText(e) {// 遍历keyText数据，监听到有输入框的，将输�
 /***/ }),
 
 /***/ 61:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/getSystemInfo.js ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/getSystemInfo.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14139,9 +14139,9 @@ function getSystemInfo() {
 /***/ }),
 
 /***/ 618:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/home.png ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/home.png ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14150,9 +14150,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 619:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/find.png ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/find.png ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14161,9 +14161,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 62:
-/*!*********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/VwVhToPx.js ***!
-  \*********************************************/
+/*!********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/VwVhToPx.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14182,9 +14182,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 620:
-/*!*******************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/published.png ***!
-  \*******************************************************/
+/*!******************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/published.png ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14193,9 +14193,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABKCAYAAAAc
 /***/ }),
 
 /***/ 621:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/news.png ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/news.png ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14204,9 +14204,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 622:
-/*!************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/my.png ***!
-  \************************************************/
+/*!***********************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/my.png ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14215,9 +14215,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 623:
-/*!***************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/homed.png ***!
-  \***************************************************/
+/*!**************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/homed.png ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14226,9 +14226,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 624:
-/*!****************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/finded.png ***!
-  \****************************************************/
+/*!***************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/finded.png ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14237,9 +14237,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 625:
-/*!****************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/newsed.png ***!
-  \****************************************************/
+/*!***************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/newsed.png ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14248,9 +14248,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAYAAAAa
 /***/ }),
 
 /***/ 626:
-/*!**************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcImg/tabBar/myed.png ***!
-  \**************************************************/
+/*!*************************************************!*\
+  !*** E:/MB/newMB/static/mbcImg/tabBar/myed.png ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14259,9 +14259,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABX
 /***/ }),
 
 /***/ 63:
-/*!********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/newGuid.js ***!
-  \********************************************/
+/*!*******************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/newGuid.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14276,9 +14276,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.newGuid = 
 /***/ }),
 
 /***/ 64:
-/*!******************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/scrollTitleChange.js ***!
-  \******************************************************/
+/*!*****************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/scrollTitleChange.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14306,9 +14306,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.newGuid = 
 /***/ }),
 
 /***/ 65:
-/*!***************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/mergeBasicData.js ***!
-  \***************************************************/
+/*!**************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/mergeBasicData.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14332,9 +14332,9 @@ function mergeBasicData(data, type, newsItems, indexNum) {
 /***/ }),
 
 /***/ 66:
-/*!**********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/urlCrypto.js ***!
-  \**********************************************/
+/*!*********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/urlCrypto.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14368,9 +14368,9 @@ function urlCrypto(params, type) {
 /***/ }),
 
 /***/ 664:
-/*!*****************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/code.js ***!
-  \*****************************************/
+/*!****************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/code.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14555,9 +14555,9 @@ var runWaterData = [
 /***/ }),
 
 /***/ 67:
-/*!***********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/madeParams.js ***!
-  \***********************************************/
+/*!**********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/madeParams.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14590,9 +14590,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.madeParams
 /***/ }),
 
 /***/ 68:
-/*!****************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/platformAccount.js ***!
-  \****************************************************/
+/*!***************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/platformAccount.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14703,9 +14703,9 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ 70);
 /***/ }),
 
 /***/ 693:
-/*!***********************************************************!*\
-  !*** E:/MB/mb-yun/components/common/u-charts/u-charts.js ***!
-  \***********************************************************/
+/*!**********************************************************!*\
+  !*** E:/MB/newMB/components/common/u-charts/u-charts.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20348,9 +20348,9 @@ if ( true && typeof module.exports === "object") {
 /***/ }),
 
 /***/ 694:
-/*!**************************************!*\
-  !*** E:/MB/mb-yun/common/checker.js ***!
-  \**************************************/
+/*!*************************************!*\
+  !*** E:/MB/newMB/common/checker.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21160,9 +21160,9 @@ if (hadRuntime) {
 /***/ }),
 
 /***/ 72:
-/*!***********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/focusStore.js ***!
-  \***********************************************/
+/*!**********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/focusStore.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21305,9 +21305,9 @@ focusStore(_x) {return _focusStore.apply(this, arguments);}function _focusStore(
 /***/ }),
 
 /***/ 73:
-/*!****************************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/shareEachPage/shareEachPage.js ***!
-  \****************************************************************/
+/*!***************************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/shareEachPage/shareEachPage.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21459,9 +21459,9 @@ function _H5Share() {_H5Share = _asyncToGenerator( /*#__PURE__*/_regenerator.def
 /***/ }),
 
 /***/ 74:
-/*!*************************************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/shareEachPage/H5Share/shareSdkConfig.js ***!
-  \*************************************************************************/
+/*!************************************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/shareEachPage/H5Share/shareSdkConfig.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21543,9 +21543,9 @@ function shareSdkConfig() {
 /***/ }),
 
 /***/ 75:
-/*!************************************************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/shareEachPage/H5Share/shareH5params.js ***!
-  \************************************************************************/
+/*!***********************************************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/shareEachPage/H5Share/shareH5params.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21561,9 +21561,9 @@ var shareH5params = {
 /***/ }),
 
 /***/ 76:
-/*!*************************************************************!*\
-  !*** E:/MB/mb-yun/node_modules/jweixin-module/out/index.js ***!
-  \*************************************************************/
+/*!************************************************************!*\
+  !*** E:/MB/newMB/node_modules/jweixin-module/out/index.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21573,9 +21573,9 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 /***/ }),
 
 /***/ 77:
-/*!*********************************************!*\
-  !*** E:/MB/mb-yun/static/mbcJs/resetURL.js ***!
-  \*********************************************/
+/*!********************************************!*\
+  !*** E:/MB/newMB/static/mbcJs/resetURL.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21600,9 +21600,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.resetURL =
 /***/ }),
 
 /***/ 78:
-/*!*********************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"pages%2Fproject%2FMBBO%2Fhome"} ***!
-  \*********************************************************************/
+/*!********************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"pages%2Fproject%2FMBBO%2Fhome"} ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21617,9 +21617,9 @@ createPage(_home.default);
 /***/ }),
 
 /***/ 84:
-/*!****************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"pages%2FlandRegistration%2Fmp%2FlandRegistration"} ***!
-  \****************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"pages%2FlandRegistration%2Fmp%2FlandRegistration"} ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21634,9 +21634,9 @@ createPage(_landRegistration.default);
 /***/ }),
 
 /***/ 850:
-/*!***************************************************************!*\
-  !*** E:/MB/mb-yun/components/common/provinceCity/areaCity.js ***!
-  \***************************************************************/
+/*!**************************************************************!*\
+  !*** E:/MB/newMB/components/common/provinceCity/areaCity.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36256,9 +36256,9 @@ exports.city = city;var county = [
 /***/ }),
 
 /***/ 92:
-/*!*****************************************************************************************!*\
-  !*** E:/MB/mb-yun/main.js?{"page":"modules%2FaLittle%2FputInBusiness%2FputInBusiness"} ***!
-  \*****************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** E:/MB/newMB/main.js?{"page":"modules%2FaLittle%2FputInBusiness%2FputInBusiness"} ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

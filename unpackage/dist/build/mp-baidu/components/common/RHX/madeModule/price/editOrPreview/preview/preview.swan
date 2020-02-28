@@ -1,0 +1,1 @@
+<view class="preview-content _div"><view class="preview _div"><r-from vue-id="1" dataList="{{data}}"></r-from></view></view>

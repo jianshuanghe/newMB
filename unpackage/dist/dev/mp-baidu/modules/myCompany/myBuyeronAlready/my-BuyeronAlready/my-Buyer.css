@@ -1,0 +1,60 @@
+
+.my-Buyer{
+	width: 100%;
+	min-height: 100%;
+}
+.my-Buyer-header{
+	width: 100%;
+	height: 72rpx;
+	border-bottom: 2rpx solid #F5F5F5;
+	position: fixed;
+	top: 88rpx;
+	background: #FFFFFF;
+	z-index: 100;
+}
+.my-Buyer-headerone{
+	width: 60%;
+	height: 100%;
+	margin-left: 20rpx;
+	float: left;
+}
+.my-Buyer-headerone>._span{
+	font-size: 24rpx;
+	color: #9B9B9B;
+	/* line-height: 72upx; */
+	float: left;
+	margin-left: 40rpx;
+	margin-top: 18rpx;
+}
+.changeColors{
+	padding: 0rpx 16rpx 0rpx 16rpx;
+	background: #E2E2E2;
+	border-radius: 26rpx;
+	color: #2E2E30!important;
+}
+.my-Buyer-headertwo{
+	width: 20%;
+	height: 100%;
+	float:right;
+	font-size: 24rpx;
+	color: #9B9B9B;
+	text-align: center;
+	line-height: 72rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.my-Buyer-headertwo>image{
+	width: 18rpx;
+	height: 24rpx;
+	margin-top: 24rpx;
+	display: block;
+}
+.my-Buyer-headertwo>._span{
+	margin-left: 10rpx;
+}
+
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/my-Buyer.js.map*/

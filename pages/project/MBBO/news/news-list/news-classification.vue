@@ -63,6 +63,12 @@
 						setTimeout(() => {
 							this.feng=true;
 						}, 500);
+					}else if(this.shu.noticeCount==0){
+						this.xitong=false;
+					}else if(this.shu.likeFollowMesgCount==0){
+						this.zansh=false;
+					}else if(this.shu.fansMesgCount == 0){
+						this.feng=false;
 					}
 					
 				},

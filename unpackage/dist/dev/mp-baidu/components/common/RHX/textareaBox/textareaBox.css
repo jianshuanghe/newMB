@@ -1,0 +1,28 @@
+
+.textAarea-box{
+	position: relative;
+	width: 100%;
+}
+.Textarea{
+	position: relative;
+}
+.mainTextarea{
+	position: relative;
+	width: 100%;
+}
+.info{
+	position: absolute;
+	top: 60%;
+	right: 0;
+}
+uni-textarea {
+	min-height: 10vw;
+}
+.maxNum{
+	top: 42px;
+	position: absolute;
+	right: 0;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/textareaBox/textareaBox.js.map*/

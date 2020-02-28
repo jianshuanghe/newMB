@@ -1,0 +1,55 @@
+
+.total-content{
+	position: fixed;
+	width: 750rpx;
+	background: #fff;
+}
+.scroll-Y {
+	height: 100vh;
+	padding-bottom: 100rpx;
+}
+.scroll-view_H {
+	white-space: nowrap;
+	width: 100%;
+}
+.uni-scroll-view{
+	height: 90vh;
+}
+.scroll-view-item {
+	height: 90vh;
+	line-height: 300rpx;
+	text-align: center;
+	font-size: 36rpx;
+}
+.scrollContent{
+	padding-bottom:10vh;
+}
+.scroll-view-item_H {
+	display: inline-block;
+	width: 100%;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+	font-size: 36rpx;
+}
+.loading-more {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding-top: 20rpx;
+	padding-bottom: 50rpx;
+	text-align: center;
+	margin-bottom: 50rpx;
+}
+.loading-more-text {
+	font-size: 28rpx;
+	color: #999;
+}
+
+
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/modules/createBusiness/selectTemplate/selectList/made/made.js.map*/

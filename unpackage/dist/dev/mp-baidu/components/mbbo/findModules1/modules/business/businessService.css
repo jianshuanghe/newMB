@@ -1,0 +1,103 @@
+
+.content.data-v-e38c1d24 {
+	position: relative;
+	/* padding: 0vw 4vw; */
+	background: #fff;
+	margin-bottom: 1.5vw;
+	width: 100%;
+}
+.goods-box.data-v-e38c1d24 {
+	position: relative;
+	width: 100%;
+}
+.describe-text.data-v-e38c1d24 {
+	width: 67%;
+	float: left;
+}
+.describe-img.data-v-e38c1d24 {
+	width: 226rpx;
+	height: 166rpx;
+	float: right;
+}
+.describe-img > ._img.data-v-e38c1d24 {
+	width: 100%;
+	height: 100%;
+}
+.title-box.data-v-e38c1d24 {
+	position: relative;
+	width: 100%;
+}
+.title-box > ._p.data-v-e38c1d24 {
+	position: relative;
+	width: 100%;
+	font-size: 4.5vw;
+	line-height: 6.5vw;
+	color: #2e2e30;
+	font-family: PingFang-SC-Medium;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: blod;
+}
+.location.data-v-e38c1d24 {
+	position: relative;
+	width: 90%;
+	/* padding: 1.5vw 0 1vw 0; */
+	-webkit-transform: scale(0.9);
+	    -ms-transform: scale(0.9);
+	        transform: scale(0.9);
+	margin-left: -3.5vw;
+}
+.icon.data-v-e38c1d24 {
+	position: relative;
+	width: 4vw;
+}
+.icon > ._img.data-v-e38c1d24 {
+	position: relative;
+	width: 3vw;
+	height: 4.5vw;
+	margin-top: 0.8vw;
+}
+.loca-text.data-v-e38c1d24 {
+	font-family: PingFang-SC-Medium;
+	width: 103%;
+	position: relative;
+	font-size: 3.2vw;
+	line-height: 5vw;
+	margin-left: 5rpx;
+	color: #9b9b9b;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.price.data-v-e38c1d24 {
+	position: relative;
+	width: 100%;
+}
+.price > ._p.data-v-e38c1d24 {
+	font-family: PingFang-SC-Bold;
+	position: relative;
+	width: 100%;
+	font-size: 3.5vw;
+	line-height: 5vw;
+	color: #2e2e30;
+	margin-top: 10rpx;
+	font-weight: bold;
+}
+.member-price.data-v-e38c1d24{
+	position: relative;
+	width: 100%;
+}
+.member-price > ._p.data-v-e38c1d24 {
+	font-family: PingFang-SC-Bold;
+	position: relative;
+	width: 100%;
+	font-size: 20rpx;
+	color: #FAB100;
+	line-height: 5vw;
+}
+
+
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/components/mbbo/findModules1/modules/business/businessService.js.map*/

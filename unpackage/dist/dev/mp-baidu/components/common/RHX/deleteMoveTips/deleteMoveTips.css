@@ -1,0 +1,24 @@
+
+.deleteMoveTips-content{
+	width: 100%;
+}
+.deleteMoveTips-mask{
+	position: absolute;
+	top: 0;
+	background: rgba(66, 65, 65, 0.29);
+	z-index: 102;
+}
+.deleteMoveTips{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 200px;
+	z-index: 103;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/deleteMoveTips/deleteMoveTips.js.map*/

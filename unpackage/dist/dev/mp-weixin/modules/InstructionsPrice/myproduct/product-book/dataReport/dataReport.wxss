@@ -1,15 +1,15 @@
 
-.dataReport_content.data-v-4cbe7f5d {
+.dataReport_content.data-v-1274a38e {
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: #f6f6f6;
 }
-.right-arrow.data-v-4cbe7f5d {
+.right-arrow.data-v-1274a38e {
 	position: relative;
 	width: 2vw;
 }
-.rightArrow.data-v-4cbe7f5d {
+.rightArrow.data-v-1274a38e {
 	position: relative;
 	width: 3.2vw;
 	top: 0.6vw;

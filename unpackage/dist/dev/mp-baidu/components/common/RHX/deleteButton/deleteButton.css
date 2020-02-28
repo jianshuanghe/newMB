@@ -1,0 +1,47 @@
+
+.deleteButton-content{
+	position: relative;
+	width: 100%;
+}
+.deleteButton{
+	position: relative;
+	width: 100%;
+}
+.dataList{
+	position: relative;
+	width: 100%;
+}
+.items{
+	position: relative;
+	width: 150rpx;
+	height: 80rpx;
+	margin-right: 20rpx;
+	background: #FFFFFF;
+	border: 1px solid #D2D2D2;
+	border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 20rpx;
+}
+.text{
+	font-family: PingFangSC-Regular;
+	font-size: 26rpx;
+	color: #2E2E30;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 80rpx;
+}
+.delete{
+	position: absolute;
+	width: 44rpx;
+	height: 44rpx;
+	top: -22rpx;
+	right: -18rpx;
+}
+.delIcon{
+	position: relative;
+	width: 44rpx;
+	height: 44rpx;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/deleteButton/deleteButton.js.map*/

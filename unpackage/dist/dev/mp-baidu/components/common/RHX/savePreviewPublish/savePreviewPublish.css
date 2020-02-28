@@ -1,0 +1,29 @@
+
+.editBtn-box{
+	position: fixed;
+	bottom: 0;
+	z-index: 105;
+	width: 100%;
+	background: #2E2E30;
+	height: 100rpx;
+	opacity: 0.9;
+}
+.editBtn{
+	position: relative;
+	width: 100%;
+}
+.saveBtn{
+	position: relative;
+	width: 33.333%;
+}
+.previewBtn{
+	position: relative;
+	width: 33.333%;
+}
+.publishBtn{
+	position: relative;
+	width: 33.333%;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/savePreviewPublish/savePreviewPublish.js.map*/

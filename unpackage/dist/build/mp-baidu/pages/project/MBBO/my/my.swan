@@ -1,0 +1,1 @@
+<view class="my"><my-title vue-id="1"></my-title><headers vue-id="2"></headers><functions vue-id="3"></functions><sell vue-id="4"></sell><buy vue-id="5"></buy><tool vue-id="6"></tool><information vue-id="7"></information><about vue-id="8"></about></view>

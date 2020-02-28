@@ -1,0 +1,40 @@
+
+.moduleIconLibrary-content{
+	width: 100%;
+}
+.moduleIconLibrary{
+	position: absolute;
+	left:0;
+	width: 100vw;
+	height: 228rpx;
+	z-index: 100009;
+	top: 86rpx;
+	background: #F9F9F9;
+}
+.changeIcon{
+	position: relative;
+	width: 100%;
+}
+.title{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #9B9B9B;
+	letter-spacing: 0;
+	line-height: 92rpx;
+	text-align: left;
+	padding-left: 40rpx;
+}
+.icon-box{
+	position: relative;
+	width: 100%;
+}
+.icomItems{
+	position: relative;
+	width: 32rpx;
+	margin-left: 40rpx;
+	height: 32rpx;
+	margin-bottom: 20rpx;
+}
+
+
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/moduleIconLibrary/moduleIconLibrary.js.map*/

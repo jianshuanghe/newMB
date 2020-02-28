@@ -1,0 +1,23 @@
+
+.mode-list{
+	position: relative;
+	width: 100%;
+	background: #FFFF;
+}
+.mode-items{
+	position: relative;
+	width: 100%;
+}
+.icon-Input{
+	padding: 0rpx 24rpx 2rpx 24rpx;
+}
+.titleTwo{
+	position: relative;
+	width: 96%;
+	margin-left: 2%;
+	padding: 0rpx 24rpx 2rpx 24rpx;
+	margin-bottom: 2vw;
+}
+
+
+/*# sourceMappingURL=../../../../.sourcemap/mp-baidu/components/rhx/InstrModule/INFO_B.js.map*/

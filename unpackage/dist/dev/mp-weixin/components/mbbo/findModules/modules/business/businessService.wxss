@@ -1,5 +1,5 @@
 
-.content.data-v-41fb520c {
+.content.data-v-6384572a {
 	position: relative;
 	/* padding: 0vw 4vw; */
 	background: #fff;
@@ -7,28 +7,28 @@
 	width: 100%;
 	margin-top: 40rpx;
 }
-.goods-box.data-v-41fb520c {
+.goods-box.data-v-6384572a {
 	position: relative;
 	width: 100%;
 }
-.describe-text.data-v-41fb520c {
+.describe-text.data-v-6384572a {
 	width: 67%;
 	float: left;
 }
-.describe-img.data-v-41fb520c {
+.describe-img.data-v-6384572a {
 	width: 226rpx;
 	height: 166rpx;
 	float: right;
 }
-.describe-img > ._img.data-v-41fb520c {
+.describe-img > ._img.data-v-6384572a {
 	width: 100%;
 	height: 100%;
 }
-.title-box.data-v-41fb520c {
+.title-box.data-v-6384572a {
 	position: relative;
 	width: 100%;
 }
-.title-box > ._p.data-v-41fb520c {
+.title-box > ._p.data-v-6384572a {
 	position: relative;
 	width: 100%;
 	font-size: 4.5vw;
@@ -41,7 +41,7 @@
 	white-space: nowrap;
 	font-weight: blod;
 }
-.location.data-v-41fb520c {
+.location.data-v-6384572a {
 	position: relative;
 	width: 90%;
 	/* padding: 1.5vw 0 1vw 0; */
@@ -50,17 +50,17 @@
 	        transform: scale(0.9);
 	margin-left: -3.5vw;
 }
-.icon.data-v-41fb520c {
+.icon.data-v-6384572a {
 	position: relative;
 	width: 4vw;
 }
-.icon > ._img.data-v-41fb520c {
+.icon > ._img.data-v-6384572a {
 	position: relative;
 	width: 3vw;
 	height: 4.5vw;
 	margin-top: 0.8vw;
 }
-.loca-text.data-v-41fb520c {
+.loca-text.data-v-6384572a {
 	font-family: PingFang-SC-Medium;
 	width: 103%;
 	position: relative;
@@ -73,11 +73,11 @@
 	   text-overflow: ellipsis;
 	white-space: nowrap;
 }
-.price.data-v-41fb520c {
+.price.data-v-6384572a {
 	position: relative;
 	width: 100%;
 }
-.price > ._p.data-v-41fb520c {
+.price > ._p.data-v-6384572a {
 	font-family: PingFang-SC-Bold;
 	position: relative;
 	width: 100%;
@@ -87,11 +87,11 @@
 	margin-top: 10rpx;
 	font-weight: bold;
 }
-.member-price.data-v-41fb520c{
+.member-price.data-v-6384572a{
 	position: relative;
 	width: 100%;
 }
-.member-price > ._p.data-v-41fb520c {
+.member-price > ._p.data-v-6384572a {
 	font-family: PingFang-SC-Bold;
 	position: relative;
 	width: 100%;

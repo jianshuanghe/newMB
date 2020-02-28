@@ -1,0 +1,123 @@
+
+.information {
+	width: 100%;
+	min-height: 160rpx;
+	margin-top: 30rpx;
+}
+.information-hea {
+	position: relative;
+	width: 100%;
+	min-height: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.information-hea-ON {
+	width: 100%;
+	height: 80rpx;
+	font-size: 34rpx;
+	color: #2e2e30;
+	line-height: 46rpx;
+	height: 94rpx;
+	/* overflow: hidden; */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.information-hea-img {
+	min-width: 226rpx;
+	height: 166rpx;
+	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+	background-size: 100% 100%;
+}
+.information-hea-img > image {
+	width: 100%;
+	height: 100%;
+}
+.information-hea-TS {
+	position: absolute;
+	bottom: 0rpx;
+}
+.information-hea-TS > view:nth-of-type(1) {
+	width: 52rpx;
+	height: 28rpx;
+	text-align: center;
+	line-height: 28rpx;
+	border: 2rpx solid #3893ff;
+	border-radius: 4rpx;
+	font-size: 20rpx;
+	color: #3893ff;
+	float: left;
+}
+.information-hea-TS > view:nth-of-type(2) {
+	font-size: 22rpx;
+	color: #9b9b9b;
+	float: left;
+	margin-left: 10rpx;
+	margin-top: -4rpx;
+}
+.information-hea-TS > view:nth-of-type(3) {
+	font-size: 22rpx;
+	color: #9b9b9b;
+	float: left;
+	margin-left: 30rpx;
+	margin-top: -4rpx;
+}
+.product-book-BA {
+	width: 13.5%;
+	height: 26rpx;
+	margin-top: 30rpx;
+	line-height: 26rpx;
+	font-size: 24rpx;
+	color: #9b9b9b;
+	border-right: 2rpx solid #e2e2e2;
+	float: left;
+	margin-left: 22rpx;
+}
+.right {
+	border: 0;
+}
+.one {
+	margin-left: 0;
+}
+.shou > image {
+	width: 24rpx !important;
+	height: 24rpx !important;
+	margin-top: 0rpx !important;
+}
+.product-book-BA > image {
+	width: 24rpx;
+	height: 20rpx;
+	margin-top: 2rpx;
+	display: block;
+	float: left;
+	margin-left: 10rpx;
+}
+.product-book-BA > ._span {
+	margin-left: 20rpx;
+	display: block;
+	float: left;
+}
+.meirenkanwo{
+		width: 330rpx;
+		height: 280rpx;
+		display: block;
+		margin: 120rpx auto auto auto;
+		font-size: 28rpx;
+		text-align: center;
+		color: #9B9B9B;
+		clear: both;
+}
+.meirenkanwo>image {
+		width: 92%;
+		height: 80%;
+}
+
+
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/components/mbbo/findModules1/modules/business/information.js.map*/

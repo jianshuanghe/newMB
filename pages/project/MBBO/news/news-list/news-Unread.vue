@@ -32,6 +32,8 @@
 						setTimeout(() => {
 							this.numberss=true;
 						}, 500);
+					}else{
+						this.numberss=false;
 					}
 					console.log(this.shu)
 				},

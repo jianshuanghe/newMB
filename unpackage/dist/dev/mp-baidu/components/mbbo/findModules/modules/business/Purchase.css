@@ -1,0 +1,279 @@
+
+.find-Purchase{
+	width: 100%;
+	min-height: 200rpx;
+}
+.widthas{
+	width: 300rpx!important;
+}
+.find-Purchase-head{
+	width: 100%;
+	height: 70rpx;
+	margin-top: 30rpx;
+}
+.huise{
+	color: #BDBDBD!important;
+}
+.find-Purchase-head-one{
+	width: 68rpx;
+	height: 68rpx;
+	border-radius: 50%;
+	float: left;
+}
+.find-Purchase-head-one>image{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.find-Purchase-head-two{
+	width: 67%;
+	height: 100%;
+	float: left;
+	margin-left: 20rpx;
+}
+.classtop{
+	margin-top: 18rpx;
+}
+.find-Purchase-head-two>view:nth-of-type(1){
+	width: 100%;
+	height: 50%;
+	font-size: 28rpx;
+	color: #2E2E30;
+	line-height: 35rpx;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.find-Purchase-head-two>view:nth-of-type(2){
+	width: 100%;
+	height: 50%;
+	font-size: 22rpx;
+	color: #9B9B9B;
+	line-height: 35rpx;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.find-Purchase-head-thr{
+	width: 20%;
+	height: 100%;
+	line-height: 70rpx;
+	float: right;
+	text-align: center;
+	font-size: 28rpx;
+	color: #2E2E30;
+}
+.find-Purchase-head-thr>._span{
+	color: #02C2A2;
+	padding-right: 10rpx;
+}
+.find-Purchase-con{
+	width: 100%;
+	min-height: 170rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.find-Purchase-con-one{
+	width: 100%;
+	min-height: 160rpx;
+	position:relative;
+}
+.find-Purchase-con-two{
+	min-width: 226rpx;
+	height: 166rpx;
+	margin-top: 30rpx;
+}
+.find-Purchase-con-two>image{
+	width: 100%;
+	height: 100%;
+	background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+	background-size: 100% 100%;
+}
+.find-Purchase-conA{
+	width: 100%;
+	height: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 30rpx;
+}
+.find-Purchase-conA>view:nth-of-type(1){
+	width: 95%;
+	height: 100%;
+	line-height: 40rpx;
+	font-size: 34rpx;
+	color: #2E2E30;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.find-Purchase-conA>view:nth-of-type(2){
+	width: 25%;
+	height: 100%;
+	font-size: 28rpx;
+	color: #02C2A2;
+	text-align: center;
+	line-height: 40rpx;
+}
+.find-Purchase-conB{
+	width: 100%;
+	height: 42rpx;
+	overflow: hidden;
+	margin-top: 16rpx;
+}
+.find-Purchase-conB>view{
+	padding: 0rpx 10rpx 0rpx 10rpx;
+	background: #FFF7E5;
+	border-radius: 4rpx;
+	font-size: 20rpx;
+	color: #FE9D08;
+	float: left;
+	text-align: center;
+	margin-left: 10rpx;
+}
+.find-Purchase-conB>view:nth-of-type(1){
+	margin-left: 0;
+}
+.find-Purchase-conC{
+	width: 100%;
+	height: 30rpx;
+	font-size: 22rpx;
+	color: #9B9B9B;
+	line-height: 30rpx;
+	margin-top: 16rpx;
+}
+.find-Purchase-conC>image:nth-of-type(1){
+	height: 22rpx;
+	width: 20rpx;
+	display: block;
+	float: left;
+	margin-top: 5rpx;
+}
+.find-Purchase-conC>._span:nth-of-type(1){
+	display: block;
+	float: left;
+	margin-left: 5rpx;
+}
+.find-Purchase-conC>image:nth-of-type(2){
+	height: 20rpx;
+	width: 20rpx;
+	display: block;
+	float: left;
+	margin-top: 4rpx;
+	margin-left: 10rpx;
+}
+.find-Purchase-conC>._span:nth-of-type(2){
+	display: block;
+	float: left;
+	margin-left: 5rpx;
+}
+.find-Purchase-conD{
+	width: 100%;
+	height: 35rpx;
+	/* position: absolute;
+	bottom: 0; */
+	margin-top: 16rpx;
+}
+.find-Purchase-conD>view:nth-of-type(1){
+	width: 52rpx;
+	height: 28rpx;
+	border: 2rpx solid #FAB100;
+	border-radius: 4rpx;
+	text-align: center;
+	line-height: 28rpx;
+	font-size: 20rpx;
+	color: #FAB100;
+	float: left;
+}
+.find-Purchase-conD>view:nth-of-type(2){
+	float: left;
+	font-size: 22rpx;
+	color: #9B9B9B;
+	line-height: 35rpx;
+	margin-left: 20rpx;
+}
+.find-Purchase-con-img{
+	width: 100%;
+	height: 166rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:  justify;
+	-webkit-justify-content:  space-between;
+	    -ms-flex-pack:  justify;
+	        justify-content:  space-between;
+	margin-top: 16rpx;
+}
+.find-Purchase-con-img>image{
+	width: 220rpx;
+	height: 166rpx;
+	margin-left: 20rpx;
+	background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+	background-size: 100% 100%;
+}
+.find-Purchase-con-img>image:nth-of-type(1){
+	margin-left: 0;
+}
+.product-book-BA {
+	width: 16.5%;
+	height: 26rpx;
+	margin-top: 20rpx;
+	line-height: 26rpx;
+	font-size: 24rpx;
+	color: #9b9b9b;
+	border-right: 2rpx solid #e2e2e2;
+	float: left;
+	margin-left: 22rpx;
+}
+.right {
+	border: 0;
+}
+.one {
+	margin-left: 20rpx;
+}
+.shou > image {
+	width: 24rpx !important;
+	height: 24rpx !important;
+	margin-top: 0rpx !important;
+}
+.product-book-BA > image {
+	width: 24rpx;
+	height: 20rpx;
+	margin-top: 2rpx;
+	display: block;
+	float: left;
+	margin-left: 10rpx;
+}
+.product-book-BA > ._span {
+	margin-left: 20rpx;
+	display: block;
+	float: left;
+}
+.meirenkanwo{
+	width: 330rpx;
+	height: 280rpx;
+	display: block;
+	margin: 120rpx auto auto auto;
+	font-size: 28rpx;
+	text-align: center;
+	color: #9B9B9B;
+	clear: both;
+}
+.meirenkanwo>image {
+	width: 92%;
+	height: 80%;
+}
+
+
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/components/mbbo/findModules/modules/business/Purchase.js.map*/

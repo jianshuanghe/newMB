@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "data-list-thr-pre": "/components/common/RHX/dataListThr/dataListThrPre/dataListThrPre",
+    "data-list-thr-set": "/components/common/RHX/dataListThr/dataListThrSet/dataListThrSet"
+  },
+  "component": true
+}

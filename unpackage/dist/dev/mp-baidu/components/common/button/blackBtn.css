@@ -1,0 +1,20 @@
+
+.blackBtn-box{
+	position: relative;
+	width: 100%;
+	background: #2E2E30;
+	margin: 0 14rpx;
+}
+.text{
+	position: relative;
+	width: 100%;
+	font-family: PingFangSC-Light;
+	font-size: 26rpx;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 66rpx;
+}
+
+
+/*# sourceMappingURL=../../../../.sourcemap/mp-baidu/components/common/button/blackBtn.js.map*/
