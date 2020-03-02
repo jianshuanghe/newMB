@@ -1,0 +1,1 @@
+<view class="issue"><view class="issue-head"><view class="issue-head-star-box"><block s-for="{{starsMax}}" s-for-item="item" s-for-index="index" s-key="index"><image class="{{[Score===index+1?'active':'']}}" src="{{index+1>Score?starDefault:starActive}}" data-event-opts="{{[['tap',[['setScore',[index+1]]]]]}}" bindtap="__e"></image></block></view></view></view>

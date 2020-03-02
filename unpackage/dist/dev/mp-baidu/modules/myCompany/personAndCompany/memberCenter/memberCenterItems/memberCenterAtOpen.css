@@ -1,24 +1,43 @@
 
+<<<<<<< HEAD
 .memberCenterAtOpen-content.data-v-72783f36 {
+=======
+.memberCenterAtOpen-content.data-v-36f1db44 {
+>>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;
 	z-index: 999;
 	bottom: 0;
 }
+<<<<<<< HEAD
 .memberCenterAtOpen.data-v-72783f36 {
+=======
+.memberCenterAtOpen.data-v-36f1db44 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 2vw;
 }
+<<<<<<< HEAD
 .MCO-btn-box1.data-v-72783f36 {
+=======
+.MCO-btn-box1.data-v-36f1db44 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #FFFFFF;
 }
+<<<<<<< HEAD
 .MCO-btn.data-v-72783f36 {
 	width: 100%;
 	height: 100rpx;
 	background-image: -webkit-linear-gradient(316deg, #15d49f 0%, #57d6cf 100%);
+=======
+.MCO-btn.data-v-36f1db44 {
+	width: 100%;
+	height: 100rpx;
+	background-image: -o-linear-gradient(316deg, #15d49f 0%, #57d6cf 100%);
+>>>>>>> 1.1-mp
 	background-image: linear-gradient(134deg, #15d49f 0%, #57d6cf 100%);
 	font-family: PingFangSC-Semibold;
 	font-size: 36rpx;
@@ -26,6 +45,7 @@
 	line-height: 36rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
@@ -35,6 +55,20 @@
 	        align-items: center;
 }
 .MCO-btn-price.data-v-72783f36 {
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.MCO-btn-price.data-v-36f1db44 {
+>>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 24rpx;
 	color: #ffffff;
@@ -44,4 +78,8 @@
 }
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL25ld01CL21vZHVsZXMvbXlDb21wYW55L3BlcnNvbkFuZENvbXBhbnkvbWVtYmVyQ2VudGVyL21lbWJlckNlbnRlckl0ZW1zL21lbWJlckNlbnRlckF0T3Blbi52dWU/Mjg2MiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoibW9kdWxlcy9teUNvbXBhbnkvcGVyc29uQW5kQ29tcGFueS9tZW1iZXJDZW50ZXIvbWVtYmVyQ2VudGVySXRlbXMvbWVtYmVyQ2VudGVyQXRPcGVuLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLm1lbWJlckNlbnRlckF0T3Blbi1jb250ZW50LmRhdGEtdi03Mjc4M2YzNiB7XHJcblx0cG9zaXRpb246IGZpeGVkO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdHotaW5kZXg6IDk5OTtcclxuXHRib3R0b206IDA7XG59XG4ubWVtYmVyQ2VudGVyQXRPcGVuLmRhdGEtdi03Mjc4M2YzNiB7XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdG1hcmdpbi10b3A6IDJ2dztcbn1cbi5NQ08tYnRuLWJveDEuZGF0YS12LTcyNzgzZjM2IHtcclxuXHRwb3NpdGlvbjogcmVsYXRpdmU7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0YmFja2dyb3VuZDogI0ZGRkZGRjtcbn1cbi5NQ08tYnRuLmRhdGEtdi03Mjc4M2YzNiB7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0aGVpZ2h0OiAxMDBycHg7XHJcblx0YmFja2dyb3VuZC1pbWFnZTogLXdlYmtpdC1saW5lYXItZ3JhZGllbnQoMzE2ZGVnLCAjMTVkNDlmIDAlLCAjNTdkNmNmIDEwMCUpO1xyXG5cdGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgxMzRkZWcsICMxNWQ0OWYgMCUsICM1N2Q2Y2YgMTAwJSk7XHJcblx0Zm9udC1mYW1pbHk6IFBpbmdGYW5nU0MtU2VtaWJvbGQ7XHJcblx0Zm9udC1zaXplOiAzNnJweDtcclxuXHRjb2xvcjogI0ZGRkZGRjtcclxuXHRsaW5lLWhlaWdodDogMzZycHg7XHJcblx0ZGlzcGxheTogLXdlYmtpdC1ib3g7XHJcblx0ZGlzcGxheTogLXdlYmtpdC1mbGV4O1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcblx0LXdlYmtpdC1ib3gtcGFjazogY2VudGVyO1xyXG5cdC13ZWJraXQtanVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcblx0ICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuXHQtd2Via2l0LWJveC1hbGlnbjogY2VudGVyO1xyXG5cdC13ZWJraXQtYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuXHQgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG4uTUNPLWJ0bi1wcmljZS5kYXRhLXYtNzI3ODNmMzYge1xyXG5cdGZvbnQtZmFtaWx5OiBQaW5nRmFuZ1NDLVJlZ3VsYXI7XHJcblx0Zm9udC1zaXplOiAyNHJweDtcclxuXHRjb2xvcjogI2ZmZmZmZjtcclxuXHRsZXR0ZXItc3BhY2luZzogMDtcclxuXHRsaW5lLWhlaWdodDogMjRycHg7XHJcblx0dGV4dC1kZWNvcmF0aW9uOiBsaW5lLXRocm91Z2g7XG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0=*/
+=======
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/modules/myCompany/personAndCompany/memberCenter/memberCenterItems/memberCenterAtOpen.js.map*/
+>>>>>>> 1.1-mp

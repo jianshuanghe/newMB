@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .reportFrom-content.data-v-307448d4 {
 	position: relative;
 	width: 100%;
@@ -12,14 +13,25 @@
 }
 .reportFrom-box.data-v-45e660ec {
 >>>>>>> 1.1-mp
+=======
+.reportFrom-content.data-v-7e38e68e {
+	position: relative;
+	width: 100%;
+}
+.reportFrom-box.data-v-7e38e68e {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .RF-title.data-v-307448d4 {
 =======
 .RF-title.data-v-45e660ec {
+>>>>>>> 1.1-mp
+=======
+.RF-title.data-v-7e38e68e {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -27,9 +39,13 @@
 	margin-bottom: 2vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .RF-title > ._p.data-v-307448d4 {
 =======
 .RF-title > ._p.data-v-45e660ec {
+>>>>>>> 1.1-mp
+=======
+.RF-title > ._p.data-v-7e38e68e {
 >>>>>>> 1.1-mp
 	font-family: PingFang-SC-Bold;
 	font-size: 4.266vw;
@@ -37,15 +53,20 @@
 	line-height: 5vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .reportFrom.data-v-307448d4 {
 =======
 .reportFrom.data-v-45e660ec {
+>>>>>>> 1.1-mp
+=======
+.reportFrom.data-v-7e38e68e {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	border-left: 1px solid #d2d2d2;
 	border-right: 1px solid #d2d2d2;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .RF-top.data-v-307448d4 {
 	position: relative;
@@ -58,23 +79,34 @@
 .RF-item.data-v-307448d4 {
 =======
 .RF-top.data-v-45e660ec {
+=======
+.RF-top.data-v-7e38e68e {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 }
-.RF-bg.data-v-45e660ec {
+.RF-bg.data-v-7e38e68e {
 	position: relative;
 	background: #fafafa;
 }
+<<<<<<< HEAD
 .RF-item.data-v-45e660ec {
+>>>>>>> 1.1-mp
+=======
+.RF-item.data-v-7e38e68e {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 50%;
 	border-top: 1px solid #d2d2d2;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .RF-item > ._p.data-v-307448d4 {
 =======
 .RF-item > ._p.data-v-45e660ec {
+>>>>>>> 1.1-mp
+=======
+.RF-item > ._p.data-v-7e38e68e {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 99%;
@@ -84,6 +116,7 @@
 	line-height: 10.4vw;
 	padding: 0 1vw 0 3vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .borderRight.data-v-307448d4 {
 	border-right: 1px solid #d2d2d2;
@@ -95,13 +128,20 @@
 .findMore-RF > ._p.data-v-307448d4 {
 =======
 .borderRight.data-v-45e660ec {
+=======
+.borderRight.data-v-7e38e68e {
+>>>>>>> 1.1-mp
 	border-right: 1px solid #d2d2d2;
 }
-.findMore-RF.data-v-45e660ec {
+.findMore-RF.data-v-7e38e68e {
 	position: relative;
 	width: 100%;
 }
+<<<<<<< HEAD
 .findMore-RF > ._p.data-v-45e660ec {
+>>>>>>> 1.1-mp
+=======
+.findMore-RF > ._p.data-v-7e38e68e {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -112,9 +152,13 @@
 	line-height: 10.4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .lineBoxTop.data-v-307448d4 {
 =======
 .lineBoxTop.data-v-45e660ec {
+>>>>>>> 1.1-mp
+=======
+.lineBoxTop.data-v-7e38e68e {
 >>>>>>> 1.1-mp
 	border-top: 1px solid #d2d2d2;
 }

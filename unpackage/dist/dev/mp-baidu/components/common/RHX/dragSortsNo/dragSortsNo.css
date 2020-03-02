@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .drag-sort.data-v-68c146da {
   width: 100%;
 }
@@ -6,12 +7,28 @@
   min-height: 60px;
   -webkit-box-align: center;
   -webkit-align-items: center;
+=======
+.drag-sort.data-v-7bb34776 {
+  width: 100%;
+}
+.drag-sort-item.data-v-7bb34776 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+>>>>>>> 1.1-mp
           align-items: center;
   width: 100%;
   text-align: center;
   background-color: #FFFFFF;
   color: #fff;
   /* border-radius: 5px; */
+<<<<<<< HEAD
   box-sizing: border-box;
 }
 .drag-sort-item .item.data-v-68c146da {
@@ -23,6 +40,21 @@
   padding: 34rpx 40rpx 0 40rpx;
 }
 .drag-sort-item .close.data-v-68c146da {
+=======
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.drag-sort-item .item.data-v-7bb34776 {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 16px;
+  padding: 0 40rpx;
+}
+.drag-sort-item .close.data-v-7bb34776 {
+>>>>>>> 1.1-mp
   position: absolute;
   right: -10rpx;
   top: -10rpx;
@@ -31,6 +63,7 @@
   height: 30rpx;
   opacity: 0.8;
 }
+<<<<<<< HEAD
 .drag-sort-item .close image.data-v-68c146da {
   width: 100%;
   height: 100%;
@@ -51,8 +84,37 @@
 .active.data-v-68c146da {
   background: #FFFFFF;
   box-shadow: 0 0 4px 0 #E2E2E2;
+=======
+.drag-sort-item .close image.data-v-7bb34776 {
+  width: 100%;
+  height: 100%;
+}
+.drag-sort-item .touch-tight.data-v-7bb34776 {
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.touch.data-v-7bb34776 {
+  height: 100%;
+  width: 50px;
+}
+.active.data-v-7bb34776 {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 0 4px 0 #E2E2E2;
+          box-shadow: 0 0 4px 0 #E2E2E2;
+>>>>>>> 1.1-mp
   z-index: 99;
 }
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL25ld01CL2NvbXBvbmVudHMvY29tbW9uL1JIWC9kcmFnU29ydHNOby9kcmFnU29ydHNOby52dWU/MjIzMSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHdCQUF3QjtBQUN4QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6ImNvbXBvbmVudHMvY29tbW9uL1JIWC9kcmFnU29ydHNOby9kcmFnU29ydHNOby5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZHJhZy1zb3J0LmRhdGEtdi02OGMxNDZkYSB7XG4gIHdpZHRoOiAxMDAlO1xufVxuLmRyYWctc29ydC1pdGVtLmRhdGEtdi02OGMxNDZkYSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgbWluLWhlaWdodDogNjBweDtcbiAgLXdlYmtpdC1ib3gtYWxpZ246IGNlbnRlcjtcbiAgLXdlYmtpdC1hbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIHdpZHRoOiAxMDAlO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7XG4gIGNvbG9yOiAjZmZmO1xuICAvKiBib3JkZXItcmFkaXVzOiA1cHg7ICovXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG59XG4uZHJhZy1zb3J0LWl0ZW0gLml0ZW0uZGF0YS12LTY4YzE0NmRhIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAtd2Via2l0LWJveC1mbGV4OiAxO1xuICAtd2Via2l0LWZsZXg6IDE7XG4gICAgICAgICAgZmxleDogMTtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBwYWRkaW5nOiAzNHJweCA0MHJweCAwIDQwcnB4O1xufVxuLmRyYWctc29ydC1pdGVtIC5jbG9zZS5kYXRhLXYtNjhjMTQ2ZGEge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHJpZ2h0OiAtMTBycHg7XG4gIHRvcDogLTEwcnB4O1xuICB3aWR0aDogMzBycHg7XG4gIHotaW5kZXg6IDk5O1xuICBoZWlnaHQ6IDMwcnB4O1xuICBvcGFjaXR5OiAwLjg7XG59XG4uZHJhZy1zb3J0LWl0ZW0gLmNsb3NlIGltYWdlLmRhdGEtdi02OGMxNDZkYSB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG4uZHJhZy1zb3J0LWl0ZW0gLnRvdWNoLXRpZ2h0LmRhdGEtdi02OGMxNDZkYSB7XG4gIHdpZHRoOiAyNHB4O1xuICBkaXNwbGF5OiAtd2Via2l0LWJveDtcbiAgZGlzcGxheTogLXdlYmtpdC1mbGV4O1xuICBkaXNwbGF5OiBmbGV4O1xuICAtd2Via2l0LWJveC1wYWNrOiBjZW50ZXI7XG4gIC13ZWJraXQtanVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG4udG91Y2guZGF0YS12LTY4YzE0NmRhIHtcbiAgaGVpZ2h0OiAxMDAlO1xuICB3aWR0aDogNTBweDtcbn1cbi5hY3RpdmUuZGF0YS12LTY4YzE0NmRhIHtcbiAgYmFja2dyb3VuZDogI0ZGRkZGRjtcbiAgYm94LXNoYWRvdzogMCAwIDRweCAwICNFMkUyRTI7XG4gIHotaW5kZXg6IDk5O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==*/
+=======
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/dragSortsNo/dragSortsNo.js.map*/
+>>>>>>> 1.1-mp

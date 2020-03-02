@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .memberCenterAtOpen-content.data-v-2497e749 {
 =======
 .memberCenterAtOpen-content.data-v-cc693e5a {
+>>>>>>> 1.1-mp
+=======
+.memberCenterAtOpen-content.data-v-36f1db44 {
 >>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;
@@ -10,14 +14,19 @@
 	bottom: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .memberCenterAtOpen.data-v-2497e749 {
 =======
 .memberCenterAtOpen.data-v-cc693e5a {
+>>>>>>> 1.1-mp
+=======
+.memberCenterAtOpen.data-v-36f1db44 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 2vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .MCO-btn-box1.data-v-2497e749 {
 	position: relative;
@@ -46,11 +55,14 @@
 .MCO-btn-price.data-v-2497e749 {
 =======
 .MCO-btn-box1.data-v-cc693e5a {
+=======
+.MCO-btn-box1.data-v-36f1db44 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #FFFFFF;
 }
-.MCO-btn.data-v-cc693e5a {
+.MCO-btn.data-v-36f1db44 {
 	width: 100%;
 	height: 100rpx;
 	background-image: -o-linear-gradient(316deg, #15d49f 0%, #57d6cf 100%);
@@ -72,7 +84,11 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
+<<<<<<< HEAD
 .MCO-btn-price.data-v-cc693e5a {
+>>>>>>> 1.1-mp
+=======
+.MCO-btn-price.data-v-36f1db44 {
 >>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 24rpx;

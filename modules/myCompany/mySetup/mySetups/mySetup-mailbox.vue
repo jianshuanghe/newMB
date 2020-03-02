@@ -9,7 +9,10 @@
 			<div class="RB-cont">
 				<!--邮箱-->
 				<div class="items-RB">
-					<div class="input-RB"><wInput name="mobile" placeholder="请输入邮箱地址" keyboard="number" :show-clear="false" v-model="UserData"></wInput></div>
+					<div class="input-RB">
+						<!-- <wInput name="mobile" placeholder="请输入邮箱地址" keyboard="number" :show-clear="false" v-model="UserData"></wInput> -->
+						<input type="text"  placeholder="请输入邮箱地址" v-model="UserData"/>
+					</div>
 					<div :class="UserData ? 'btn-RB' : 'btn-RB2'" @click="clickUpData()"><p class="">保存</p></div>
 				</div>
 			</div>
@@ -31,7 +34,8 @@ export default {
             confirmBtn: '确定',
             cancelBtn: '取消',
             confirmTitle: '提示',
-            confirmText: '是否要解除微信绑定?'
+            confirmText: '是否要解除微信绑定?',
+			width:'100%'
 		};
 	},
 	components: {

@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .screenPutIn-box.data-v-30720073 {
 	position: relative;
 	width: 100%;
@@ -15,24 +16,32 @@
 .sc-putIn-top-box.data-v-30720073 {
 =======
 .screenPutIn-box.data-v-498159a9 {
+=======
+.screenPutIn-box.data-v-c197e9d0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 }
-.screenPutIn.data-v-498159a9 {
+.screenPutIn.data-v-c197e9d0 {
 	position: relative;
 	width: 100%;
 }
-.sc-PutIn-top.data-v-498159a9 {
+.sc-PutIn-top.data-v-c197e9d0 {
 	position: relative;
 	width: 100%;
 }
+<<<<<<< HEAD
 .sc-putIn-top-box.data-v-498159a9 {
+>>>>>>> 1.1-mp
+=======
+.sc-putIn-top-box.data-v-c197e9d0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw;
 	background: #fff;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .sc-top-item.data-v-30720073 {
 	position: relative;
@@ -45,14 +54,21 @@
 .ietms-sc > ._p.data-v-30720073 {
 =======
 .sc-top-item.data-v-498159a9 {
+=======
+.sc-top-item.data-v-c197e9d0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 33.3333%;
 }
-.ietms-sc.data-v-498159a9 {
+.ietms-sc.data-v-c197e9d0 {
 	position: relative;
 	width: 100%;
 }
+<<<<<<< HEAD
 .ietms-sc > ._p.data-v-498159a9 {
+>>>>>>> 1.1-mp
+=======
+.ietms-sc > ._p.data-v-c197e9d0 {
 >>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 3.5vw;
@@ -60,6 +76,7 @@
 	line-height: 5vw;
 	text-align: center;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .class-a.data-v-30720073 {
 	color: #15d49f !important;
@@ -71,22 +88,33 @@
 .sc-top-Icon > ._img.data-v-30720073 {
 =======
 .class-a.data-v-498159a9 {
+=======
+.class-a.data-v-c197e9d0 {
+>>>>>>> 1.1-mp
 	color: #15d49f !important;
 }
-.sc-top-Icon.data-v-498159a9 {
+.sc-top-Icon.data-v-c197e9d0 {
 	position: relative;
 	width: 3vw;
 }
+<<<<<<< HEAD
 .sc-top-Icon > ._img.data-v-498159a9 {
+>>>>>>> 1.1-mp
+=======
+.sc-top-Icon > ._img.data-v-c197e9d0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 3vw;
 	height: 3vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .sc-PutIn-bottom.data-v-30720073 {
 =======
 .sc-PutIn-bottom.data-v-498159a9 {
+>>>>>>> 1.1-mp
+=======
+.sc-PutIn-bottom.data-v-c197e9d0 {
 >>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;
@@ -96,15 +124,20 @@
 	/* top: 0; */
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .sc-putIn-bottom-box.data-v-30720073 {
 =======
 .sc-putIn-bottom-box.data-v-498159a9 {
+>>>>>>> 1.1-mp
+=======
+.sc-putIn-bottom-box.data-v-c197e9d0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
 	padding: 2vw 4vw;
 	background: #fff;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .sc-bottom-item.data-v-30720073 {
 	position: relative;
@@ -117,20 +150,28 @@
 .sc-bottom-item-text > ._p.data-v-30720073 {
 =======
 .sc-bottom-item.data-v-498159a9 {
+=======
+.sc-bottom-item.data-v-c197e9d0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 }
-.sc-bottom-item-text.data-v-498159a9 {
+.sc-bottom-item-text.data-v-c197e9d0 {
 	position: relative;
 	width: 90%;
 }
+<<<<<<< HEAD
 .sc-bottom-item-text > ._p.data-v-498159a9 {
+>>>>>>> 1.1-mp
+=======
+.sc-bottom-item-text > ._p.data-v-c197e9d0 {
 >>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
 	color: #2e2e30;
 	line-height: 11vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .check-bottom.data-v-30720073 {
 	position: relative;
@@ -143,6 +184,13 @@
 	width: 10%;
 }
 .check-bottom > ._img.data-v-498159a9 {
+>>>>>>> 1.1-mp
+=======
+.check-bottom.data-v-c197e9d0 {
+	position: relative;
+	width: 10%;
+}
+.check-bottom > ._img.data-v-c197e9d0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 4vw;

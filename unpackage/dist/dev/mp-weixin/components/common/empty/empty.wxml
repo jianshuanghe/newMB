@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <view class="empty-box-cent data-v-5cefe663"><view class="empty-content data-v-5cefe663"><view class="empty data-v-5cefe663"><image class="img _img data-v-5cefe663" src="{{empty}}" alt></image></view><view class="emptyBlankText data-v-5cefe663"><view class="_p data-v-5cefe663"><slot></slot></view></view></view></view>
 =======
 <view class="empty-box-cent data-v-87d78fce"><view class="empty-content data-v-87d78fce"><view class="empty data-v-87d78fce"><image class="img _img data-v-87d78fce" src="{{empty}}" alt></image></view><view class="emptyBlankText data-v-87d78fce"><view class="_p data-v-87d78fce"><slot></slot></view></view></view></view>
+>>>>>>> 1.1-mp
+=======
+<view class="empty-box-cent data-v-39023670"><view class="empty-content data-v-39023670"><view class="empty data-v-39023670"><image class="img _img data-v-39023670" src="{{empty}}" alt></image></view><view class="emptyBlankText data-v-39023670"><view class="_p data-v-39023670"><slot></slot></view></view></view></view>
 >>>>>>> 1.1-mp

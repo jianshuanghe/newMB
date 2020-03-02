@@ -7,7 +7,8 @@
 			</view>
 			<view class="password-one-inp" style="margin: 10upx auto auto auto;">
 				<input type="text" placeholder="请输入验证码" maxlength="4" v-model="Code"/>
-				<span @tap="getcode">获取验证码</span>
+				<span @tap="getcode" v-if="Verification">获取验证码</span>
+				<span style='color: #BDBDBD;' v-if="!Verification">重新获取({{numwor}})</span>
 			</view>
 			<view class="password-one-add" v-if="this.phone==''||this.Code==''">提交</view>
 			<view class="password-one-adds" v-if="this.phone!==''&&this.Code!==''" @tap="addti()">提交</view>
@@ -35,6 +36,8 @@
 				Code:'',
 				password:'',
 				passwords:'',
+				numwor:60,
+				Verification:true,
 			};
 		},
 		components: {
@@ -208,7 +211,19 @@
 									icon: 'none',
 									duration: 1000
 								});
-								return false;
+								// return false;
+								let that=this;
+								let time = 60;
+								that.Verification=false;
+								let sendTimer = setInterval(function() {
+									time--;
+									that.numwor = time ;
+									if (time < 0) {
+										that.numwor = 60;
+										that.Verification=true;
+										clearInterval(sendTimer);
+									}
+								}, 1000);
 							}
 							
 						},

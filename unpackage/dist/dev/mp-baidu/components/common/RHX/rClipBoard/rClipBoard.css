@@ -21,7 +21,12 @@
 	letter-spacing: 0;
 	line-height: 60rpx;
 	overflow:hidden;
+<<<<<<< HEAD
 	text-overflow:ellipsis;
+=======
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+>>>>>>> 1.1-mp
 	display:-webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-line-clamp:2;
@@ -58,10 +63,18 @@
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
+<<<<<<< HEAD
+=======
+	    -ms-transform: translate(-50%, -50%);
+>>>>>>> 1.1-mp
 	        transform: translate(-50%, -50%);
 	width: 200px;
 	z-index: 103;
 }
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL25ld01CL2NvbXBvbmVudHMvY29tbW9uL1JIWC9yQ2xpcEJvYXJkL3JDbGlwQm9hcmQudnVlP2Y3MzgiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiJjb21wb25lbnRzL2NvbW1vbi9SSFgvckNsaXBCb2FyZC9yQ2xpcEJvYXJkLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLnJDbGlwQm9hcmQtY29udGVudHtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHR3aWR0aDogMTAwJTtcbn1cbi5yQ2xpcEJvYXJke1xuXHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdHdpZHRoOiAxMDAlO1xufVxuLnRpdGxle1xuXHRmb250LWZhbWlseTogUGluZ0ZhbmdTQy1SZWd1bGFyO1xuXHRmb250LXNpemU6IDI4cnB4O1xuXHRjb2xvcjogIzJFMkUzMDtcblx0bGV0dGVyLXNwYWNpbmc6IDA7XG5cdGxpbmUtaGVpZ2h0OiA2MHJweDtcbn1cbi5jb3B5VGV4dHtcblx0Zm9udC1mYW1pbHk6IFBpbmdGYW5nU0MtUmVndWxhcjtcblx0Zm9udC1zaXplOiAyOHJweDtcblx0Y29sb3I6ICMyRTJFMzA7XG5cdGxldHRlci1zcGFjaW5nOiAwO1xuXHRsaW5lLWhlaWdodDogNjBycHg7XG5cdG92ZXJmbG93OmhpZGRlbjtcblx0dGV4dC1vdmVyZmxvdzplbGxpcHNpcztcblx0ZGlzcGxheTotd2Via2l0LWJveDtcblx0LXdlYmtpdC1ib3gtb3JpZW50OnZlcnRpY2FsO1xuXHQtd2Via2l0LWxpbmUtY2xhbXA6Mjtcblx0d2hpdGUtc3BhY2U6IG5vcm1hbDtcblx0d29yZC1icmVhazogYnJlYWstYWxsO1xuXHR3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG59XG4uY29weUJ0bntcblx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHR3aWR0aDogMTAwJTtcblx0aGVpZ2h0OiA2MHJweDtcbn1cbi5idG57XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0d2lkdGg6IDQwJTtcblx0Zm9udC1mYW1pbHk6IFBpbmdGYW5nU0MtUmVndWxhcjtcblx0Zm9udC1zaXplOiAyOHJweDtcblx0Y29sb3I6ICMwMkMyQTI7XG5cdGxldHRlci1zcGFjaW5nOiAwO1xuXHRsaW5lLWhlaWdodDogNjBycHg7XG5cdGZsb2F0OiByaWdodDtcblx0dGV4dC1hbGlnbjogcmlnaHQ7XG59XG4uc3dpcGVyLWNvbnRhaW5lck1hc2t7XG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcblx0dG9wOiAwO1xuXHRiYWNrZ3JvdW5kOiByZ2JhKDY2LCA2NSwgNjUsIDAuMjkpO1xuXHR3aWR0aDogMTAwJTtcblx0aGVpZ2h0OiAxMDAlO1xufVxuLnRpcHN7XG5cdHRleHQtYWxpZ246IGNlbnRlcjtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHR0b3A6IDUwJTtcblx0bGVmdDogNTAlO1xuXHQtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuXHQgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuXHR3aWR0aDogMjAwcHg7XG5cdHotaW5kZXg6IDEwMztcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
+=======
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/components/common/RHX/rClipBoard/rClipBoard.js.map*/
+>>>>>>> 1.1-mp

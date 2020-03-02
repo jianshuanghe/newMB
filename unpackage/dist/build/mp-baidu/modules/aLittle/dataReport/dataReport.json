@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "投放数据分析",
+  "component": true,
+  "usingComponents": {
+    "top-box": "/components/mbbo/topBox/topBox",
+    "business-put-in": "/modules/aLittle/dataReport/dataReportItems/businessPutIn",
+    "data-trend-kanban": "/modules/aLittle/dataReport/dataTrendKanban/dataTrendKanban"
+  }
+}

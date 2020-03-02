@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .reportFrom-content.data-v-5973ce6a {
 	position: relative;
 	width: 100%;
@@ -12,14 +13,25 @@
 }
 .reportFrom-box.data-v-0bd30581 {
 >>>>>>> 1.1-mp
+=======
+.reportFrom-content.data-v-b3072ca0 {
+	position: relative;
+	width: 100%;
+}
+.reportFrom-box.data-v-b3072ca0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .RF-title.data-v-5973ce6a {
 =======
 .RF-title.data-v-0bd30581 {
+>>>>>>> 1.1-mp
+=======
+.RF-title.data-v-b3072ca0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -27,15 +39,20 @@
 	margin-bottom: 2vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .RF-title > ._p.data-v-5973ce6a {
 =======
 .RF-title > ._p.data-v-0bd30581 {
+>>>>>>> 1.1-mp
+=======
+.RF-title > ._p.data-v-b3072ca0 {
 >>>>>>> 1.1-mp
 	font-family: PingFang-SC-Bold;
 	font-size: 4.266vw;
 	color: #2e2e30;
 	line-height: 5vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .reportFrom.data-v-5973ce6a {
 	position: relative;
@@ -52,27 +69,38 @@
 .RF-item.data-v-5973ce6a {
 =======
 .reportFrom.data-v-0bd30581 {
+=======
+.reportFrom.data-v-b3072ca0 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 }
-.RF-top.data-v-0bd30581 {
+.RF-top.data-v-b3072ca0 {
 	position: relative;
 	width: 100%;
 }
-.RF-bg.data-v-0bd30581 {
+.RF-bg.data-v-b3072ca0 {
 	position: relative;
 	background: #fafafa;
 }
+<<<<<<< HEAD
 .RF-item.data-v-0bd30581 {
+>>>>>>> 1.1-mp
+=======
+.RF-item.data-v-b3072ca0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 25%;
 	border-top: 1px solid #d2d2d2;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .RF-item > ._p.data-v-5973ce6a {
 =======
 .RF-item > ._p.data-v-0bd30581 {
+>>>>>>> 1.1-mp
+=======
+.RF-item > ._p.data-v-b3072ca0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 99%;
@@ -82,6 +110,7 @@
 	line-height: 10.4vw;
 	padding: 0 1vw 0 3vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .borderRight.data-v-5973ce6a {
 	border-right: 1px solid #d2d2d2;
@@ -93,13 +122,20 @@
 .findMore-RF > ._p.data-v-5973ce6a {
 =======
 .borderRight.data-v-0bd30581 {
+=======
+.borderRight.data-v-b3072ca0 {
+>>>>>>> 1.1-mp
 	border-right: 1px solid #d2d2d2;
 }
-.findMore-RF.data-v-0bd30581 {
+.findMore-RF.data-v-b3072ca0 {
 	position: relative;
 	width: 100%;
 }
+<<<<<<< HEAD
 .findMore-RF > ._p.data-v-0bd30581 {
+>>>>>>> 1.1-mp
+=======
+.findMore-RF > ._p.data-v-b3072ca0 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -110,9 +146,13 @@
 	line-height: 10.4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .lineBoxTop.data-v-5973ce6a {
 =======
 .lineBoxTop.data-v-0bd30581 {
+>>>>>>> 1.1-mp
+=======
+.lineBoxTop.data-v-b3072ca0 {
 >>>>>>> 1.1-mp
 	border-top: 1px solid #d2d2d2;
 }

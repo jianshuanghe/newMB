@@ -1,31 +1,54 @@
 
+<<<<<<< HEAD
 .memberCenter-content.data-v-67b4255b {
+=======
+.memberCenter-content.data-v-1048e92e {
+>>>>>>> 1.1-mp
 	/* position: fixed; */
 	min-height: 100vh;
 	background: #f9f9f9;
 	position: relative;
 }
+<<<<<<< HEAD
 .MCB-box.data-v-67b4255b {
+=======
+.MCB-box.data-v-1048e92e {
+>>>>>>> 1.1-mp
 	/* position: fixed; */
 	width: 100%;
 	height: 86vh;
 	/* overflow: scroll; */
 	/* padding-bottom: 10vh; */
 }
+<<<<<<< HEAD
 .MCB-btn.data-v-67b4255b {
+=======
+.MCB-btn.data-v-1048e92e {
+>>>>>>> 1.1-mp
 	position: fixed;
 	bottom: 0;
 	z-index: 106;
 	width: 100%;
 }
+<<<<<<< HEAD
 .scroll-v.data-v-67b4255b {
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
+=======
+.scroll-v.data-v-1048e92e {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+>>>>>>> 1.1-mp
 	        flex: 1;
 	
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
+<<<<<<< HEAD
+=======
+	    -ms-flex-direction: column;
+>>>>>>> 1.1-mp
 	        flex-direction: column;
 	
 	width: 750rpx;
@@ -34,4 +57,8 @@
 }
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL25ld01CL21vZHVsZXMvbXlDb21wYW55L3BlcnNvbkFuZENvbXBhbnkvbWVtYmVyQ2VudGVyL21lbWJlckNlbnRlci52dWU/Y2E4MSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7QUFDQSxvQkFBb0I7QUFDcEI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLG9CQUFvQjtBQUNwQjtBQUNBO0FBQ0EscUJBQXFCO0FBQ3JCLHlCQUF5QjtBQUN6QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQSx5QkFBeUI7QUFDekIiLCJmaWxlIjoibW9kdWxlcy9teUNvbXBhbnkvcGVyc29uQW5kQ29tcGFueS9tZW1iZXJDZW50ZXIvbWVtYmVyQ2VudGVyLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLm1lbWJlckNlbnRlci1jb250ZW50LmRhdGEtdi02N2I0MjU1YiB7XHJcblx0LyogcG9zaXRpb246IGZpeGVkOyAqL1xyXG5cdG1pbi1oZWlnaHQ6IDEwMHZoO1xyXG5cdGJhY2tncm91bmQ6ICNmOWY5Zjk7XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xufVxuLk1DQi1ib3guZGF0YS12LTY3YjQyNTViIHtcclxuXHQvKiBwb3NpdGlvbjogZml4ZWQ7ICovXHJcblx0d2lkdGg6IDEwMCU7XHJcblx0aGVpZ2h0OiA4NnZoO1xyXG5cdC8qIG92ZXJmbG93OiBzY3JvbGw7ICovXHJcblx0LyogcGFkZGluZy1ib3R0b206IDEwdmg7ICovXG59XG4uTUNCLWJ0bi5kYXRhLXYtNjdiNDI1NWIge1xyXG5cdHBvc2l0aW9uOiBmaXhlZDtcclxuXHRib3R0b206IDA7XHJcblx0ei1pbmRleDogMTA2O1xyXG5cdHdpZHRoOiAxMDAlO1xufVxuLnNjcm9sbC12LmRhdGEtdi02N2I0MjU1YiB7XHJcblx0LXdlYmtpdC1ib3gtZmxleDogMTtcclxuXHQtd2Via2l0LWZsZXg6IDE7XHJcblx0ICAgICAgICBmbGV4OiAxO1xyXG5cdFxyXG5cdC13ZWJraXQtYm94LW9yaWVudDogdmVydGljYWw7XHJcblx0LXdlYmtpdC1ib3gtZGlyZWN0aW9uOiBub3JtYWw7XHJcblx0LXdlYmtpdC1mbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG5cdCAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuXHRcclxuXHR3aWR0aDogNzUwcnB4O1xyXG5cdGhlaWdodDogODZ2aDtcclxuXHQvKiBwYWRkaW5nLWJvdHRvbTogMjB2aDsgKi9cbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ==*/
+=======
+/*# sourceMappingURL=../../../../../.sourcemap/mp-baidu/modules/myCompany/personAndCompany/memberCenter/memberCenter.js.map*/
+>>>>>>> 1.1-mp

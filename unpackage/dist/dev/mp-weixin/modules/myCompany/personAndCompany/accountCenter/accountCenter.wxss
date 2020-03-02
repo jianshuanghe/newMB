@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .accountCenter-content.data-v-468d93d8 {
 =======
 .accountCenter-content.data-v-73b8731e {
+>>>>>>> 1.1-mp
+=======
+.accountCenter-content.data-v-fbeb4f62 {
 >>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .defaultAdd-box.data-v-2a6ab8da {
   position: relative;
   width: 100%;
@@ -10,14 +11,21 @@
 .bannerImg.data-v-2a6ab8da {
 =======
 .defaultAdd-box.data-v-edaa57e0 {
+=======
+.defaultAdd-box.data-v-4776227f {
+>>>>>>> 1.1-mp
   position: relative;
   width: 100%;
 }
-.defaultAdd.data-v-edaa57e0 {
+.defaultAdd.data-v-4776227f {
   position: relative;
   width: 100%;
 }
+<<<<<<< HEAD
 .bannerImg.data-v-edaa57e0 {
+>>>>>>> 1.1-mp
+=======
+.bannerImg.data-v-4776227f {
 >>>>>>> 1.1-mp
   position: relative;
   width: 100%;

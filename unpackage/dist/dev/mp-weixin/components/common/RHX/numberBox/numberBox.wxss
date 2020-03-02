@@ -29,7 +29,7 @@
 =======
 /* #ifdef APP-NVUE */
 /* #endif */
-.uni-numbox.data-v-3d49e0d4 {
+.uni-numbox.data-v-4db52dc5 {
   /* #ifndef APP-NVUE */
 >>>>>>> 1.1-mp
   display: -webkit-box;
@@ -45,9 +45,13 @@
   width: 100%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .uni-numbox__value.data-v-12019ee0 {
 =======
 .uni-numbox__value.data-v-3d49e0d4 {
+>>>>>>> 1.1-mp
+=======
+.uni-numbox__value.data-v-4db52dc5 {
 >>>>>>> 1.1-mp
   background-color: #ffffff;
   width: 200rpx;
@@ -61,9 +65,13 @@
   border-right-width: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .uni-numbox__minus.data-v-12019ee0 {
 =======
 .uni-numbox__minus.data-v-3d49e0d4 {
+=======
+.uni-numbox__minus.data-v-4db52dc5 {
+>>>>>>> 1.1-mp
   /* #ifndef APP-NVUE */
 >>>>>>> 1.1-mp
   display: -webkit-box;
@@ -93,9 +101,13 @@
   border-right-width: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .uni-numbox__plus.data-v-12019ee0 {
 =======
 .uni-numbox__plus.data-v-3d49e0d4 {
+=======
+.uni-numbox__plus.data-v-4db52dc5 {
+>>>>>>> 1.1-mp
   /* #ifndef APP-NVUE */
 >>>>>>> 1.1-mp
   display: -webkit-box;
@@ -123,6 +135,7 @@
   border-left-width: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .uni-numbox--text.data-v-12019ee0 {
   font-size: 40rpx;
   color: #333;
@@ -134,6 +147,13 @@
   color: #333;
 }
 .uni-numbox--disabled.data-v-3d49e0d4 {
+>>>>>>> 1.1-mp
+=======
+.uni-numbox--text.data-v-4db52dc5 {
+  font-size: 40rpx;
+  color: #333;
+}
+.uni-numbox--disabled.data-v-4db52dc5 {
 >>>>>>> 1.1-mp
   color: #c0c0c0;
 }

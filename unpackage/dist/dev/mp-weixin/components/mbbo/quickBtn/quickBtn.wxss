@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .content-quickBtn.data-v-29c16cde{
 =======
 .content-quickBtn.data-v-534c18d8{
+>>>>>>> 1.1-mp
+=======
+.content-quickBtn.data-v-8b9e9e7a{
 >>>>>>> 1.1-mp
     position: fixed;
     /* width: 100%; */
@@ -12,18 +16,26 @@
 	margin-right: 2vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .quickBtn.data-v-29c16cde{
 =======
 .quickBtn.data-v-534c18d8{
+>>>>>>> 1.1-mp
+=======
+.quickBtn.data-v-8b9e9e7a{
 >>>>>>> 1.1-mp
     position: relative;
     width: 7vw;
     height: 5vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .quickBtn>._img.data-v-29c16cde{
 =======
 .quickBtn>._img.data-v-534c18d8{
+>>>>>>> 1.1-mp
+=======
+.quickBtn>._img.data-v-8b9e9e7a{
 >>>>>>> 1.1-mp
     position: relative;
     width: 40rpx;

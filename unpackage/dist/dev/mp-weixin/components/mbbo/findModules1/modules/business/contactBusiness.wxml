@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <view class="content _div data-v-7446fab4"><view class="contact-box _div data-v-7446fab4"><view class="cont-text left _div data-v-7446fab4"><view class="cont-title _p data-v-7446fab4">{{msgDatas.title}}</view><view class="cont-describe _p data-v-7446fab4">{{msgDatas.content||'这里是说明书介绍这里是说明书介绍这里是说明书介绍这里是说明书介绍'}}</view></view><view class="cont left _div data-v-7446fab4"><view class="lianxi-box _div data-v-7446fab4"><view class="_p data-v-7446fab4">{{i18n.lianxi}}</view></view></view><view class="clear _div data-v-7446fab4"></view></view><view class="line _div data-v-7446fab4"></view></view>
 =======
 <view class="content _div data-v-0572172c"><view class="contact-box _div data-v-0572172c"><view class="cont-text left _div data-v-0572172c"><view class="cont-title _p data-v-0572172c">{{msgDatas.title}}</view><view class="cont-describe _p data-v-0572172c">{{msgDatas.content||'这里是说明书介绍这里是说明书介绍这里是说明书介绍这里是说明书介绍'}}</view></view><view class="cont left _div data-v-0572172c"><view class="lianxi-box _div data-v-0572172c"><view class="_p data-v-0572172c">{{i18n.lianxi}}</view></view></view><view class="clear _div data-v-0572172c"></view></view><view class="line _div data-v-0572172c"></view></view>
+>>>>>>> 1.1-mp
+=======
+<view class="content _div data-v-1509b5ce"><view class="contact-box _div data-v-1509b5ce"><view class="cont-text left _div data-v-1509b5ce"><view class="cont-title _p data-v-1509b5ce">{{msgDatas.title}}</view><view class="cont-describe _p data-v-1509b5ce">{{msgDatas.content||'这里是说明书介绍这里是说明书介绍这里是说明书介绍这里是说明书介绍'}}</view></view><view class="cont left _div data-v-1509b5ce"><view class="lianxi-box _div data-v-1509b5ce"><view class="_p data-v-1509b5ce">{{i18n.lianxi}}</view></view></view><view class="clear _div data-v-1509b5ce"></view></view><view class="line _div data-v-1509b5ce"></view></view>
 >>>>>>> 1.1-mp

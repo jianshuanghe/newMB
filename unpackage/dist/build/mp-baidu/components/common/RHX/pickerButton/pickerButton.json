@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "picker-button-picker": "/components/common/RHX/pickerButton/pickerButtonPicker"
+  },
+  "component": true
+}

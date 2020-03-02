@@ -1,22 +1,31 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCY-content.data-v-4c451cf1{
 =======
 .MCY-content.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.MCY-content.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     background: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCY-Box.data-v-4c451cf1{
 =======
 .MCY-Box.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.MCY-Box.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     padding: 4vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .MCY-top.data-v-4c451cf1{
     position: relative;
@@ -29,14 +38,21 @@
 .title-MCY>._p.data-v-4c451cf1{
 =======
 .MCY-top.data-v-7d0ed30a{
+=======
+.MCY-top.data-v-5e9f10ec{
+>>>>>>> 1.1-mp
     position: relative;
     width: 100%;
 }
-.title-MCY.data-v-7d0ed30a{
+.title-MCY.data-v-5e9f10ec{
     position: relative;
     width: 100%;
 }
+<<<<<<< HEAD
 .title-MCY>._p.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.title-MCY>._p.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     font-family: PingFangSC-Semibold;
     font-size: 5.33vw;
@@ -45,27 +61,39 @@
     line-height: 12vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCY-cont.data-v-4c451cf1{
 =======
 .MCY-cont.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.MCY-cont.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-bottom: 5vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCY-items.data-v-4c451cf1{
 =======
 .MCY-items.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.MCY-items.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     padding: 4vw 0 2vw 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCY-left.data-v-4c451cf1{
 =======
 .MCY-left.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.MCY-left.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     position: relative;
     width: 12.66vw;
@@ -75,9 +103,13 @@
     margin-right: 3vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCY-left>._img.data-v-4c451cf1{
 =======
 .MCY-left>._img.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.MCY-left>._img.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     position: absolute;
     top:50%;
@@ -93,6 +125,7 @@
     height: 11vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCY-right.data-v-4c451cf1{
     position: relative;
     width: 80%;
@@ -105,6 +138,13 @@
 }
 .title-MCY-items.data-v-7d0ed30a{
 >>>>>>> 1.1-mp
+=======
+.MCY-right.data-v-5e9f10ec{
+    position: relative;
+    width: 80%;
+}
+.title-MCY-items.data-v-5e9f10ec{
+>>>>>>> 1.1-mp
     font-family: PingFang-SC-Bold;
     font-size: 3.733vw;
     color: #2E2E30;
@@ -112,9 +152,13 @@
     line-height: 8vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .text-MCY-items.data-v-4c451cf1{
 =======
 .text-MCY-items.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.text-MCY-items.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
     font-family: PingFang-SC-Regular;
     font-size: 3.2vw;
@@ -122,9 +166,13 @@
     line-height: 4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .toVipFH.data-v-4c451cf1{
 =======
 .toVipFH.data-v-7d0ed30a{
+>>>>>>> 1.1-mp
+=======
+.toVipFH.data-v-5e9f10ec{
 >>>>>>> 1.1-mp
 	  font-family: PingFangSC-Medium;
 	  font-size: 24rpx;

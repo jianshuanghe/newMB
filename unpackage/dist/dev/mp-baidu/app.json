@@ -1,8 +1,11 @@
 {
   "pages": [
     "pages/project/MBBO/home",
+<<<<<<< HEAD
     "pages/landRegistration/h5/landRegistration",
     "pages/landRegistration/h5/forgetPassWord",
+=======
+>>>>>>> 1.1-mp
     "pages/landRegistration/mp/landRegistration"
   ],
   "subPackages": [

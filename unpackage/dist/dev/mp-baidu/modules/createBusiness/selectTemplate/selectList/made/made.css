@@ -35,9 +35,17 @@
 .loading-more {
 	-webkit-box-align: center;
 	-webkit-align-items: center;
+<<<<<<< HEAD
 	        align-items: center;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
+=======
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+>>>>>>> 1.1-mp
 	        justify-content: center;
 	padding-top: 20rpx;
 	padding-bottom: 50rpx;
@@ -50,4 +58,8 @@
 }
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL25ld01CL21vZHVsZXMvY3JlYXRlQnVzaW5lc3Mvc2VsZWN0VGVtcGxhdGUvc2VsZWN0TGlzdC9tYWRlL21hZGUudnVlPzdiMGUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6Im1vZHVsZXMvY3JlYXRlQnVzaW5lc3Mvc2VsZWN0VGVtcGxhdGUvc2VsZWN0TGlzdC9tYWRlL21hZGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4udG90YWwtY29udGVudHtcblx0cG9zaXRpb246IGZpeGVkO1xuXHR3aWR0aDogNzUwcnB4O1xuXHRiYWNrZ3JvdW5kOiAjZmZmO1xufVxuLnNjcm9sbC1ZIHtcblx0aGVpZ2h0OiAxMDB2aDtcblx0cGFkZGluZy1ib3R0b206IDEwMHJweDtcbn1cbi5zY3JvbGwtdmlld19IIHtcblx0d2hpdGUtc3BhY2U6IG5vd3JhcDtcblx0d2lkdGg6IDEwMCU7XG59XG4udW5pLXNjcm9sbC12aWV3e1xuXHRoZWlnaHQ6IDkwdmg7XG59XG4uc2Nyb2xsLXZpZXctaXRlbSB7XG5cdGhlaWdodDogOTB2aDtcblx0bGluZS1oZWlnaHQ6IDMwMHJweDtcblx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHRmb250LXNpemU6IDM2cnB4O1xufVxuLnNjcm9sbENvbnRlbnR7XG5cdHBhZGRpbmctYm90dG9tOjEwdmg7XG59XG4uc2Nyb2xsLXZpZXctaXRlbV9IIHtcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXHR3aWR0aDogMTAwJTtcblx0aGVpZ2h0OiAzMDBycHg7XG5cdGxpbmUtaGVpZ2h0OiAzMDBycHg7XG5cdHRleHQtYWxpZ246IGNlbnRlcjtcblx0Zm9udC1zaXplOiAzNnJweDtcbn1cbi5sb2FkaW5nLW1vcmUge1xuXHQtd2Via2l0LWJveC1hbGlnbjogY2VudGVyO1xuXHQtd2Via2l0LWFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdCAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcblx0LXdlYmtpdC1ib3gtcGFjazogY2VudGVyO1xuXHQtd2Via2l0LWp1c3RpZnktY29udGVudDogY2VudGVyO1xuXHQgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuXHRwYWRkaW5nLXRvcDogMjBycHg7XG5cdHBhZGRpbmctYm90dG9tOiA1MHJweDtcblx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHRtYXJnaW4tYm90dG9tOiA1MHJweDtcbn1cbi5sb2FkaW5nLW1vcmUtdGV4dCB7XG5cdGZvbnQtc2l6ZTogMjhycHg7XG5cdGNvbG9yOiAjOTk5O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==*/
+=======
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/modules/createBusiness/selectTemplate/selectList/made/made.js.map*/
+>>>>>>> 1.1-mp

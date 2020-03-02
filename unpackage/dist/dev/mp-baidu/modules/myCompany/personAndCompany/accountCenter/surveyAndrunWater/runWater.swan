@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="runWater _div data-v-338e45e3"><run-water-account vue-id="1" class="data-v-338e45e3"></run-water-account></view>
+=======
+<view class="runWater _div data-v-362f7bd6"><run-water-account vue-id="1" class="data-v-362f7bd6"></run-water-account></view>
+>>>>>>> 1.1-mp

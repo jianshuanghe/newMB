@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .landRegistration-content.data-v-cf3abf06{
 =======
 .landRegistration-content.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.landRegistration-content.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 750rpx;
@@ -10,32 +14,45 @@
     background: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .landRegistration.data-v-cf3abf06{
 =======
 .landRegistration.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.landRegistration.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     padding: 18rpx 40rpx;
     background: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .phone-passWord-LR.data-v-cf3abf06{
 =======
 .phone-passWord-LR.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.phone-passWord-LR.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 12vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .phonw-LR.data-v-cf3abf06{
 =======
 .phonw-LR.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.phonw-LR.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 6vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .top-PLR.data-v-cf3abf06{
     position: relative;
@@ -49,38 +66,58 @@
 }
 .top-PLR>._p.data-v-979172f2{
 >>>>>>> 1.1-mp
+=======
+.top-PLR.data-v-59be2390{
+    position: relative;
+    width: 100%;
+}
+.top-PLR>._p.data-v-59be2390{
+>>>>>>> 1.1-mp
     font-family: PingFangSC-Semibold;
     font-size: 6.4vw;
     color: #2E2E30;
     line-height: 10vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .LR-cont.data-v-cf3abf06{
 =======
 .LR-cont.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.LR-cont.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 8vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .inputPhone-PLR.data-v-cf3abf06{
 =======
 .inputPhone-PLR.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.inputPhone-PLR.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 5vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .inputYan-PLR.data-v-cf3abf06{
 =======
 .inputYan-PLR.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.inputYan-PLR.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 6vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .yan-left-PLR.data-v-cf3abf06{
     position: relative;
@@ -93,14 +130,21 @@
 .yazm.data-v-cf3abf06{
 =======
 .yan-left-PLR.data-v-979172f2{
+=======
+.yan-left-PLR.data-v-59be2390{
+>>>>>>> 1.1-mp
     position: relative;
     width: 60%;
 }
-.ma-right-PLR.data-v-979172f2{
+.ma-right-PLR.data-v-59be2390{
     position: relative;
     width: 40%;
 }
+<<<<<<< HEAD
 .yazm.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.yazm.data-v-59be2390{
 >>>>>>> 1.1-mp
     font-family: PingFangSC-Light;
     font-size: 4vw;
@@ -109,9 +153,13 @@
     text-align: right;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .re-yazm.data-v-cf3abf06{
 =======
 .re-yazm.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.re-yazm.data-v-59be2390{
 >>>>>>> 1.1-mp
     font-family: PingFangSC-Light;
     font-size: 4vw;
@@ -119,6 +167,7 @@
     line-height: 12vw;
     text-align: right;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .switchPassWorld.data-v-cf3abf06{
     position: relative;
@@ -132,12 +181,20 @@
 }
 .switchPassWorld>._p.data-v-979172f2{
 >>>>>>> 1.1-mp
+=======
+.switchPassWorld.data-v-59be2390{
+    position: relative;
+    width: 100%;
+}
+.switchPassWorld>._p.data-v-59be2390{
+>>>>>>> 1.1-mp
     font-family: PingFangSC-Light;
     font-size: 3.5vw;
     color: #02C2A2;
     line-height: 12vw;
     width: 50%;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .passWord-LR.data-v-cf3abf06{
     position: relative;
@@ -151,24 +208,39 @@
 }
 .top-PWLR.data-v-979172f2{
 >>>>>>> 1.1-mp
+=======
+.passWord-LR.data-v-59be2390{
+    position: relative;
+    width: 100%;
+}
+.top-PWLR.data-v-59be2390{
+>>>>>>> 1.1-mp
     position: relative;
     width: 150rpx;
     margin-top: 6vw;
     margin: auto;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .top-PWLR>image.data-v-cf3abf06{
 =======
 .top-PWLR>image.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.top-PWLR>image.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 150rpx;
     width: 100%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nameLand.data-v-cf3abf06{
 =======
 .nameLand.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.nameLand.data-v-59be2390{
 >>>>>>> 1.1-mp
 	 font-family: PingFang-SC-Medium;
 	 font-size: 36rpx;
@@ -179,18 +251,26 @@
 	 margin-top: 30rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .landBtn.data-v-cf3abf06{
 =======
 .landBtn.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.landBtn.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 100rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .land-btn-box.data-v-cf3abf06{
 =======
 .land-btn-box.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.land-btn-box.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 550rpx;
@@ -208,9 +288,13 @@
 	border-radius: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .land-btn-box>._p.data-v-cf3abf06{
 =======
 .land-btn-box>._p.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.land-btn-box>._p.data-v-59be2390{
 >>>>>>> 1.1-mp
     font-family: PingFangSC-Regular;
     font-size: 32rpx;
@@ -222,9 +306,13 @@
 	border-radius: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .wx-land.data-v-cf3abf06{
 =======
 .wx-land.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.wx-land.data-v-59be2390{
 >>>>>>> 1.1-mp
     font-family: PingFangSC-Regular;
     font-size: 4.266vw;
@@ -236,6 +324,7 @@
     background: #fff !important;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .text-Right.data-v-cf3abf06{
     text-align: right;
 }
@@ -246,14 +335,24 @@
 }
 .skipLand.data-v-979172f2{
 >>>>>>> 1.1-mp
+=======
+.text-Right.data-v-59be2390{
+    text-align: right;
+}
+.skipLand.data-v-59be2390{
+>>>>>>> 1.1-mp
     position: relative;
     width: 100%;
     margin-top: 4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .skipLand>._p.data-v-cf3abf06{
 =======
 .skipLand>._p.data-v-979172f2{
+>>>>>>> 1.1-mp
+=======
+.skipLand>._p.data-v-59be2390{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;

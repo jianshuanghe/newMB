@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="empty-box-cent data-v-0b6e4116"><view class="empty-content data-v-0b6e4116"><view class="empty data-v-0b6e4116"><image class="img _img data-v-0b6e4116" src="{{empty}}" alt></image></view><view class="emptyBlankText data-v-0b6e4116"><view class="_p data-v-0b6e4116"><slot></slot></view></view></view></view>
+=======
+<view class="empty-box-cent data-v-39023670"><view class="empty-content data-v-39023670"><view class="empty data-v-39023670"><image class="img _img data-v-39023670" src="{{empty}}" alt></image></view><view class="emptyBlankText data-v-39023670"><view class="_p data-v-39023670"><slot></slot></view></view></view></view>
+>>>>>>> 1.1-mp

@@ -2,7 +2,12 @@
   "usingComponents": {
     "top-box": "/components/mbbo/topBox/topBox",
     "r-select": "/components/common/RHX/rSelect/rSelect",
+<<<<<<< HEAD
     "module-modify": "/components/common/RHX/moduleModify/moduleModify"
+=======
+    "r-picker": "/components/common/RHX/rPicker/rPicker",
+    "module-list": "/components/common/RHX/moduleList/moduleList"
+>>>>>>> 1.1-mp
   },
   "component": true
 }

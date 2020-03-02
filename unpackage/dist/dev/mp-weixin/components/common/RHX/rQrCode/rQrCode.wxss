@@ -1,13 +1,18 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .QRcode.data-v-69eeff1c{
 =======
 .QRcode.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.QRcode.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
 	margin-top: 40rpx;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .QRcode-imj.data-v-69eeff1c{
 	width: 100%;
@@ -19,13 +24,20 @@
 .swiper-slide.data-v-69eeff1c{
 =======
 .QRcode-imj.data-v-74d93ad2{
+=======
+.QRcode-imj.data-v-30c06efe{
+>>>>>>> 1.1-mp
 	width: 100%;
 	min-height: 508rpx;
 }
-.swiper-box.data-v-74d93ad2{
+.swiper-box.data-v-30c06efe{
 	height: 508rpx;
 }
+<<<<<<< HEAD
 .swiper-slide.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.swiper-slide.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	width: 360rpx;
 	height: 508rpx;
@@ -33,9 +45,13 @@
 	background: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .swiper-slide>image.data-v-69eeff1c{
 =======
 .swiper-slide>image.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.swiper-slide>image.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	width: 100%;
 	height: 360rpx;
@@ -78,27 +94,39 @@
 	h */eight: 100vh;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .saveBtn.data-v-69eeff1c{
 =======
 .saveBtn.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.saveBtn.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin: 40rpx 0;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .saveBtn-files.data-v-69eeff1c{
 =======
 .saveBtn-files.data-v-74d93ad2{
 >>>>>>> 1.1-mp
+=======
+.saveBtn-files.data-v-30c06efe{
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin: 40rpx 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .save-box-fiels.data-v-69eeff1c{
 =======
 .save-box-fiels.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.save-box-fiels.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 12px;
@@ -108,9 +136,13 @@
 	text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .save-box.data-v-69eeff1c{
 =======
 .save-box.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.save-box.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 160rpx;
@@ -127,9 +159,13 @@
 	line-height: 56rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .swiper-containerMask.data-v-69eeff1c{
 =======
 .swiper-containerMask.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.swiper-containerMask.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	position: absolute;
 	top: 0;
@@ -138,9 +174,13 @@
 	height: 100%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .tips.data-v-69eeff1c{
 =======
 .tips.data-v-74d93ad2{
+>>>>>>> 1.1-mp
+=======
+.tips.data-v-30c06efe{
 >>>>>>> 1.1-mp
 	text-align: center;
 	position: absolute;

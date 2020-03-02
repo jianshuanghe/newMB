@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "place-delivery": "/components/common/RHX/madeModule/placeDelivery/placeDelivery",
+    "r-title": "/components/common/RHX/rTitle/rTitle",
+    "manage-copy-tips": "/components/common/RHX/manageCopyTips/manageCopyTips",
+    "delete-move-tips": "/components/common/RHX/deleteMoveTips/deleteMoveTips"
+  },
+  "component": true
+}

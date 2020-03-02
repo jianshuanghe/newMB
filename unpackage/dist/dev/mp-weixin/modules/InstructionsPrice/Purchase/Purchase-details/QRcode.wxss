@@ -1,13 +1,18 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .QRcode.data-v-6fb8fd19{
 =======
 .QRcode.data-v-9fb761ba{
+>>>>>>> 1.1-mp
+=======
+.QRcode.data-v-725274d4{
 >>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
 	margin-top: 40rpx;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .QRcode-imj.data-v-6fb8fd19{
 	width: 100%;
@@ -19,19 +24,27 @@
 .swiper-slide.data-v-6fb8fd19{
 =======
 .QRcode-imj.data-v-9fb761ba{
+=======
+.QRcode-imj.data-v-725274d4{
+>>>>>>> 1.1-mp
 	width: 100%;
 	height: 508rpx;
 }
-.swiper-box.data-v-9fb761ba{
+.swiper-box.data-v-725274d4{
 	height:600rpx;
 }
+<<<<<<< HEAD
 .swiper-slide.data-v-9fb761ba{
+>>>>>>> 1.1-mp
+=======
+.swiper-slide.data-v-725274d4{
 >>>>>>> 1.1-mp
 	width: 360rpx;
 	height: 558rpx;
 	position: relative;
 	/* margin-left: 30%; */
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .swiper-slide>image.data-v-6fb8fd19{
 	width: 100%;
@@ -44,6 +57,13 @@
 	height:508rpx;
 }
 .baocuntuimg.data-v-9fb761ba{
+>>>>>>> 1.1-mp
+=======
+.swiper-slide>image.data-v-725274d4{
+	width: 100%;
+	height:508rpx;
+}
+.baocuntuimg.data-v-725274d4{
 >>>>>>> 1.1-mp
 	width: 160rpx;
 	height: 56rpx;

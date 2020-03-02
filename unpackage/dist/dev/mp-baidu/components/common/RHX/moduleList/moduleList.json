@@ -3,7 +3,10 @@
     "drag-sorts": "/components/common/RHX/dragSorts/dragSorts",
     "drag-sorts-no": "/components/common/RHX/dragSortsNo/dragSortsNo",
     "module-add": "/components/common/RHX/moduleAdd/moduleAdd",
+<<<<<<< HEAD
     "module-edit": "/components/common/RHX/moduleEdit/moduleEdit",
+=======
+>>>>>>> 1.1-mp
     "module-add-list": "/components/common/RHX/moduleAddList/moduleAddList"
   },
   "component": true

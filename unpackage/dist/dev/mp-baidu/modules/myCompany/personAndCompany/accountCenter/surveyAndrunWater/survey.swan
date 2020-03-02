@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="survey-content _div data-v-be0b9e9e"><survey-account vue-id="1" class="data-v-be0b9e9e"></survey-account><report-from vue-id="2" class="data-v-be0b9e9e"></report-from></view>
+=======
+<view class="survey-content _div data-v-feacdd3a"><survey-account vue-id="1" class="data-v-feacdd3a"></survey-account><report-from vue-id="2" class="data-v-feacdd3a"></report-from></view>
+>>>>>>> 1.1-mp

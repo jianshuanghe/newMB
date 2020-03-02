@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "put-in-from": "/modules/aLittle/putInBusiness/putInBusinessList/putInList/putInTwo/putInFrom"
+  },
+  "component": true
+}

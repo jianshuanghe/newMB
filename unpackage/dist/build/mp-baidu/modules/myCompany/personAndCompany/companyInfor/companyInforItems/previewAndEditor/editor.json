@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "address-bs": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/industryAddress/address",
+    "top-box": "/components/mbbo/topBox/topBox",
+    "edit-basic-infor": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/editBasicInfor",
+    "edit-qualificat-cert": "/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/editQualificatCert",
+    "navigation": "/components/mbbo/navigation/navigation"
+  },
+  "component": true
+}

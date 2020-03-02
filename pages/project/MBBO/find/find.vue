@@ -155,7 +155,7 @@ export default {
 		return {
 			//滚动条位置
 			scrollTop:0, //
-			old: {  
+			old: {
 				scrollTop: 0
 			},
 			durationTime: 300, // swiper动画时间

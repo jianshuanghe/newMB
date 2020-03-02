@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .content-BunessDetails.data-v-2ce34412 {
 =======
 .content-BunessDetails.data-v-59f57148 {
+>>>>>>> 1.1-mp
+=======
+.content-BunessDetails.data-v-77cd64b7 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -10,9 +14,13 @@
 	background: #f6f6f6;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .detailsPutIn-Box-Cont.data-v-2ce34412 {
 =======
 .detailsPutIn-Box-Cont.data-v-59f57148 {
+>>>>>>> 1.1-mp
+=======
+.detailsPutIn-Box-Cont.data-v-77cd64b7 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+<<<<<<< HEAD
     "module-yitems": "/components/common/RHX/moduleYitems/moduleYitems",
     "items-add": "/components/common/RHX/moduleYitemsSet/itemsAdd",
     "items-del": "/components/common/RHX/moduleYitemsSet/itemsDel",
@@ -8,6 +9,9 @@
     "r-picker": "/components/common/RHX/rPicker/rPicker",
     "module-list": "/components/common/RHX/moduleListDel/moduleList",
     "module-modify": "/components/common/RHX/moduleModify/moduleModify"
+=======
+    "module-yitems": "/components/common/RHX/moduleYitems/moduleYitems"
+>>>>>>> 1.1-mp
   },
   "component": true
 }

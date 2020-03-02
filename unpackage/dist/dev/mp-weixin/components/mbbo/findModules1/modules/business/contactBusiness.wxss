@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .content.data-v-7446fab4 {
 =======
 .content.data-v-0572172c {
+>>>>>>> 1.1-mp
+=======
+.content.data-v-1509b5ce {
 >>>>>>> 1.1-mp
 	position: relative;
 	/* width: 100vw;
@@ -11,14 +15,19 @@
 	margin-bottom: 1.5vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .contact-box.data-v-7446fab4 {
 =======
 .contact-box.data-v-0572172c {
+>>>>>>> 1.1-mp
+=======
+.contact-box.data-v-1509b5ce {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding-bottom: 3vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .cont-text.data-v-7446fab4 {
 	position: relative;
@@ -31,6 +40,13 @@
 	width: 70%;
 }
 .cont-title.data-v-0572172c {
+>>>>>>> 1.1-mp
+=======
+.cont-text.data-v-1509b5ce {
+	position: relative;
+	width: 70%;
+}
+.cont-title.data-v-1509b5ce {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -50,7 +66,11 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+<<<<<<< HEAD
 .cont-describe.data-v-0572172c {
+>>>>>>> 1.1-mp
+=======
+.cont-describe.data-v-1509b5ce {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -66,6 +86,7 @@
 	max-height: 9.6vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .cont.data-v-7446fab4 {
 	position: relative;
 	width: 30%;
@@ -78,6 +99,13 @@
 }
 .lianxi-box.data-v-0572172c {
 >>>>>>> 1.1-mp
+=======
+.cont.data-v-1509b5ce {
+	position: relative;
+	width: 30%;
+}
+.lianxi-box.data-v-1509b5ce {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 78%;
 	border: 1px solid #02c2a2;
@@ -87,9 +115,13 @@
 	margin-top: 5vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .lianxi-box > ._p.data-v-7446fab4 {
 =======
 .lianxi-box > ._p.data-v-0572172c {
+>>>>>>> 1.1-mp
+=======
+.lianxi-box > ._p.data-v-1509b5ce {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;

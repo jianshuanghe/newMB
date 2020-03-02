@@ -1,14 +1,19 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .memberCenterAccount-contnet.data-v-95cd2a9e {
 =======
 .memberCenterAccount-contnet.data-v-3355bb32 {
+>>>>>>> 1.1-mp
+=======
+.memberCenterAccount-contnet.data-v-240413d4 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
 	padding: 30rpx 4vw;
 	background: #f9f9f9;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .memberCenterAccount-box.data-v-95cd2a9e {
 	position: relative;
@@ -21,6 +26,13 @@
 	width: 100%;
 }
 .memberCenterAccount.data-v-3355bb32 {
+>>>>>>> 1.1-mp
+=======
+.memberCenterAccount-box.data-v-240413d4 {
+	position: relative;
+	width: 100%;
+}
+.memberCenterAccount.data-v-240413d4 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -36,7 +48,11 @@
 	        box-shadow: 0 4rpx 20rpx 0 rgba(124, 122, 135, 0.35);
 	border-radius: 24rpx;
 }
+<<<<<<< HEAD
 .MCA-person-box.data-v-3355bb32 {
+>>>>>>> 1.1-mp
+=======
+.MCA-person-box.data-v-240413d4 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -45,9 +61,13 @@
 	color: #FFFFFF;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MCA-person-box-Img.data-v-95cd2a9e {
 =======
 .MCA-person-box-Img.data-v-3355bb32 {
+>>>>>>> 1.1-mp
+=======
+.MCA-person-box-Img.data-v-240413d4 {
 >>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
@@ -55,6 +75,7 @@
 	z-index: 0;
 }
 /* -----------------------------------------------未申请会员》》会员中心 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 .vip-state.data-v-95cd2a9e {
 	display: -webkit-box;
@@ -67,6 +88,9 @@
 .vip-state ._div.data-v-95cd2a9e{
 =======
 .vip-state.data-v-3355bb32 {
+=======
+.vip-state.data-v-240413d4 {
+>>>>>>> 1.1-mp
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -76,7 +100,11 @@
 	    -ms-flex-pack: end;
 	        justify-content: flex-end;
 }
+<<<<<<< HEAD
 .vip-state ._div.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.vip-state ._div.data-v-240413d4{
 >>>>>>> 1.1-mp
 	border-radius: 0 12px 0 12px;
 	border-radius: 0px 12px 0px 12px;
@@ -126,28 +154,33 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.vip-state .close.data-v-3355bb32 {
+.vip-state .close.data-v-240413d4 {
 	background: #02c2a2;
 }
-.vip-state .open.data-v-3355bb32{
+.vip-state .open.data-v-240413d4{
 	width: 112rpx;
 	height: 44rpx;
 }
-.vip-state .expired.data-v-3355bb32{
+.vip-state .expired.data-v-240413d4{
 	background: #ABAEB9;
 }
-.vip-state .pay.data-v-3355bb32{
+.vip-state .pay.data-v-240413d4{
 	background: #FAB100;
 }
-.vip-kind.data-v-3355bb32{
+.vip-kind.data-v-240413d4{
 	margin-top: 16rpx;
 }
+<<<<<<< HEAD
 .vip-kind ._div.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.vip-kind ._div.data-v-240413d4{
 >>>>>>> 1.1-mp
 	font-size: 60rpx;
 	line-height: 60rpx;
 	margin-left: 40rpx;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .price.data-v-95cd2a9e{
 	margin-top: 64rpx;
@@ -161,15 +194,26 @@
 }
 .price ._span.data-v-3355bb32:nth-child(1){
 >>>>>>> 1.1-mp
+=======
+.price.data-v-240413d4{
+	margin-top: 64rpx;
+	height: 36rpx;
+}
+.price ._span.data-v-240413d4:nth-child(1){
+>>>>>>> 1.1-mp
 	font-size: 36rpx;
 	letter-spacing: 0;
 	line-height: 36rpx;
 	padding-left: 34rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .price ._span.data-v-95cd2a9e:nth-child(2){
 =======
 .price ._span.data-v-3355bb32:nth-child(2){
+>>>>>>> 1.1-mp
+=======
+.price ._span.data-v-240413d4:nth-child(2){
 >>>>>>> 1.1-mp
 	font-size: 24rpx;
 	letter-spacing: 0;
@@ -178,9 +222,13 @@
 	text-decoration:line-through;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .privilege.data-v-95cd2a9e{
 =======
 .privilege.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.privilege.data-v-240413d4{
 >>>>>>> 1.1-mp
 	margin-top: 20rpx;
 	font-size: 28rpx;
@@ -189,9 +237,13 @@
 	padding-left: 40rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .savemoney.data-v-95cd2a9e{
 =======
 .savemoney.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.savemoney.data-v-240413d4{
 >>>>>>> 1.1-mp
 	margin-top: 20rpx;
 	font-size: 28rpx;
@@ -201,9 +253,13 @@
 	font-family: PingFangSC-Regular;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .buybtn.data-v-95cd2a9e{
 =======
 .buybtn.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.buybtn.data-v-240413d4{
 >>>>>>> 1.1-mp
 	position: absolute;
 	top: 252rpx;
@@ -240,7 +296,11 @@
 	        align-items: center;
 }
 /* ***********************************************已是会员》》已付款界面 */
+<<<<<<< HEAD
 .vipUser.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.vipUser.data-v-240413d4{
 >>>>>>> 1.1-mp
 	padding-top: 16rpx;
 	padding-left: 40rpx;
@@ -254,21 +314,30 @@
 	display: -ms-flexbox;
 	display: flex;
 }
+<<<<<<< HEAD
 .vipUserImg.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.vipUserImg.data-v-240413d4{
 >>>>>>> 1.1-mp
 	width: 100rpx;
 	height: 100rpx;
 	border-radius: 50%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .vipUserImg ._img.data-v-95cd2a9e{
 =======
 .vipUserImg ._img.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.vipUserImg ._img.data-v-240413d4{
 >>>>>>> 1.1-mp
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .vipUserContent.data-v-95cd2a9e{
 	margin-left: 10rpx;
@@ -281,9 +350,12 @@
 	-webkit-align-items: center;
 =======
 .vipUserContent.data-v-3355bb32{
+=======
+.vipUserContent.data-v-240413d4{
+>>>>>>> 1.1-mp
 	margin-left: 10rpx;
 }
-.vipUserContent ._div.data-v-3355bb32:nth-child(1){
+.vipUserContent ._div.data-v-240413d4:nth-child(1){
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -301,9 +373,13 @@
 	height: 40rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .vipUserContent>._div:nth-child(1)>._div.data-v-95cd2a9e:nth-child(2){
 =======
 .vipUserContent>._div:nth-child(1)>._div.data-v-3355bb32:nth-child(2){
+>>>>>>> 1.1-mp
+=======
+.vipUserContent>._div:nth-child(1)>._div.data-v-240413d4:nth-child(2){
 >>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 24rpx;
@@ -338,13 +414,18 @@
 	        justify-content: center;
 	margin-left: 10rpx;
 }
+<<<<<<< HEAD
 .vipUserContent>._div.data-v-3355bb32:nth-child(2){
+>>>>>>> 1.1-mp
+=======
+.vipUserContent>._div.data-v-240413d4:nth-child(2){
 >>>>>>> 1.1-mp
 	font-size: 28rpx;
 	letter-spacing: 0;
 	line-height: 28rpx;
 	margin-top: 20rpx;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .time.data-v-95cd2a9e{
 	margin-top: 31rpx;
@@ -360,6 +441,9 @@
 .progress.data-v-95cd2a9e{
 =======
 .time.data-v-3355bb32{
+=======
+.time.data-v-240413d4{
+>>>>>>> 1.1-mp
 	margin-top: 31rpx;
 	margin-left: 40rpx;
 	margin-right: 40rpx;
@@ -372,10 +456,14 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.time-youxiao.data-v-3355bb32{
+.time-youxiao.data-v-240413d4{
 	font-size: 20rpx;
 }
+<<<<<<< HEAD
 .progress.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.progress.data-v-240413d4{
 >>>>>>> 1.1-mp
 	width: 420rpx;
 	height: 8rpx;
@@ -384,18 +472,26 @@
 	border-radius: 4rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .progressEnd.data-v-95cd2a9e{
 =======
 .progressEnd.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.progressEnd.data-v-240413d4{
 >>>>>>> 1.1-mp
 	height: 100%;
 	background: #FFFFFF;
 	border-radius: 4rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .save.data-v-95cd2a9e{
 =======
 .save.data-v-3355bb32{
+>>>>>>> 1.1-mp
+=======
+.save.data-v-240413d4{
 >>>>>>> 1.1-mp
 	font-size: 28rpx;
 	letter-spacing: 0;

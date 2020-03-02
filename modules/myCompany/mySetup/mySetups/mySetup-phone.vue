@@ -39,12 +39,12 @@
 			<view class="MGT"></view>
 			<view class="input-PB">
 				<view class="input-PB-box" v-show="isShow">
-					<wInput v-model="phoneLand.phone" type="number" maxlength="11" placeholder="请输入要绑定的手机号"></wInput>
+					<wInput :inputWidth="width" v-model="phoneLand.phone" type="number" maxlength="11" placeholder="请输入要绑定的手机号"></wInput>
 					<view class="line"></view>
 				</view>
 				<!--验证码-->
 				<view class="input-PB-box" v-if="!isShow">
-					<view class="yan-left-PLR left"><wInput v-model="phoneLand.code" type="number" maxlength="4" placeholder="请输入验证码"></wInput></view>
+					<view class="yan-left-PLR left"><wInput :inputWidth="width" v-model="phoneLand.code" type="number" maxlength="4" placeholder="请输入验证码"></wInput></view>
 					<view class="ma-right-PLR left">
 						<view :class="{ yazm: isOvertime, 're-yazm': !isOvertime }" @click="sendMessage">{{ word }}</view>
 					</view>
@@ -71,6 +71,7 @@ export default {
 	data() {
 		return {
 			UserData: {},
+			width:'100%',
 			phoneLand: {
 				// 账号登录
 				phone: '',

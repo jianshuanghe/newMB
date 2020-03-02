@@ -1,6 +1,10 @@
 {
   "usingComponents": {
+<<<<<<< HEAD
     "r-check-box": "/components/common/RHX/rCheckBox/rCheckBox",
+=======
+    "r-radio": "/components/common/RHX/rRadio/rRadio",
+>>>>>>> 1.1-mp
     "r-picker": "/components/common/RHX/rPicker/rPicker",
     "fixed-bg-btn": "/components/common/button/fixedBgBtn"
   },

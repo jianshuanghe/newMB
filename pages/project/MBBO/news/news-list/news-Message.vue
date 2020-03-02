@@ -109,7 +109,7 @@ export default {
 						console.log(response.data);
 						// this.list=response.data.content
 						// this.$store.commit('setMation', this.List); // 更新vuex
-						this.Message();
+						this.Messagess();
 						this.Unread();
 						console.log('to已发留言详情')
 						uni.navigateTo({
@@ -150,6 +150,41 @@ export default {
 						console.log(response.data);
 						this.lists = response.data.content.list;
 						this.pages++;
+						console.log(this.pages)
+						this.$store.commit('setnews', this.lists);
+						// this.lists = response.data.content.instKeys
+					},
+					fail: (error) => {
+						uni.hideLoading(); // 隐藏 loading
+						uni.showToast({
+							title: '网络繁忙，请稍后',
+							icon: 'none',
+							duration: 1000
+						});
+						console.log(error, '网络繁忙，请稍后');
+					}
+				});
+			}
+		},// 消息列表
+		Messagess(){
+			if (uni.getStorageSync('landRegist')) {
+				let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
+				console.log(landRegistLG.user.id);
+				// let params = {}; // 请求总数居时 参数为空
+				uni.showLoading({ // 展示loading
+					title: '加载中'
+				});
+				uni.request({
+					url: this.api2 + '/rest-rp/msg/selectList?userId='+landRegistLG.user.id+'&page=1', //接口地址。
+					// data: params,
+					method: 'GET',
+					header: {
+						Authorization: "Bearer " + landRegistLG.token //将token放到请求头中
+					},
+					success: (response) => {
+						uni.hideLoading();
+						console.log(response.data);
+						this.lists = response.data.content.list;
 						console.log(this.pages)
 						this.$store.commit('setnews', this.lists);
 						// this.lists = response.data.content.instKeys

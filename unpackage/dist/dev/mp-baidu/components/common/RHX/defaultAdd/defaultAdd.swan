@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="defaultAdd-box _div data-v-c7a24366"><view data-event-opts="{{[['tap',[['addImage',['$event']]]]]}}" class="defaultAdd _div data-v-c7a24366" bindtap="__e"><image class="bannerImg data-v-c7a24366" style="{{'width:'+(widthStyle)+';'+('height:'+(heightStyle)+';')}}" src="{{imgDefaultSrc}}"></image></view><img-ya-suo vue-id="1" maxwh="{{800}}" quality="{{0.6}}" data-ref="imgYaSuo" class="data-v-c7a24366 vue-ref"></img-ya-suo></view>
+=======
+<view class="defaultAdd-box _div data-v-4776227f"><view data-event-opts="{{[['tap',[['addImage',['$event']]]]]}}" class="defaultAdd _div data-v-4776227f" bindtap="__e"><image class="bannerImg data-v-4776227f" style="{{'width:'+(widthStyle)+';'+('height:'+(heightStyle)+';')}}" src="{{imgDefaultSrc}}"></image></view><img-ya-suo vue-id="1" maxwh="{{800}}" quality="{{0.6}}" data-ref="imgYaSuo" class="data-v-4776227f vue-ref"></img-ya-suo></view>
+>>>>>>> 1.1-mp

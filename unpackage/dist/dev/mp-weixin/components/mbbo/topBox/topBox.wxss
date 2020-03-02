@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .top-box-title.data-v-283a627e{
     position: relative;
     height: 12vw;
@@ -11,6 +12,13 @@
     height: 12vw;
 }
 .quickBtn-search.data-v-f1429798{
+>>>>>>> 1.1-mp
+=======
+.top-box-title.data-v-a26d3e3a{
+    position: relative;
+    height: 12vw;
+}
+.quickBtn-search.data-v-a26d3e3a{
 >>>>>>> 1.1-mp
     position: fixed;
     width: 100vw;
@@ -26,6 +34,7 @@
     position: relative;
     width: 6%;
 }
+<<<<<<< HEAD
 .search-Fd.data-v-283a627e{
 =======
 .quickBtn-Fd.data-v-f1429798{
@@ -34,14 +43,25 @@
 }
 .search-Fd.data-v-f1429798{
 >>>>>>> 1.1-mp
+=======
+.quickBtn-Fd.data-v-a26d3e3a{
+    position: relative;
+    width: 6%;
+}
+.search-Fd.data-v-a26d3e3a{
+>>>>>>> 1.1-mp
     position: relative;
     width: 94%;
 	text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .title-putIn.data-v-283a627e{
 =======
 .title-putIn.data-v-f1429798{
+>>>>>>> 1.1-mp
+=======
+.title-putIn.data-v-a26d3e3a{
 >>>>>>> 1.1-mp
     position: relative;
     width: 100%;
@@ -50,9 +70,13 @@
     font-size: 3.733vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .right-title.data-v-283a627e{
 =======
 .right-title.data-v-f1429798{
+>>>>>>> 1.1-mp
+=======
+.right-title.data-v-a26d3e3a{
 >>>>>>> 1.1-mp
     position: absolute;
     right: 0;
@@ -65,9 +89,13 @@
     top: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .right-title-select.data-v-283a627e{
 =======
 .right-title-select.data-v-f1429798{
+>>>>>>> 1.1-mp
+=======
+.right-title-select.data-v-a26d3e3a{
 >>>>>>> 1.1-mp
 	  position: absolute;
 	  right: 16rpx;
@@ -80,9 +108,13 @@
 	  top: 16rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .select-title.data-v-283a627e{
 =======
 .select-title.data-v-f1429798{
+>>>>>>> 1.1-mp
+=======
+.select-title.data-v-a26d3e3a{
 >>>>>>> 1.1-mp
 	  position: absolute;
 	  top: 72rpx;
@@ -91,9 +123,13 @@
 	  background: #02C2A2;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .select-title>._p.data-v-283a627e{
 =======
 .select-title>._p.data-v-f1429798{
+>>>>>>> 1.1-mp
+=======
+.select-title>._p.data-v-a26d3e3a{
 >>>>>>> 1.1-mp
 	  right: 0;
 	  font-family: PingFangSC-Regular;
@@ -105,9 +141,13 @@
 	  top: 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .rightBotTriangle.data-v-283a627e{
 =======
 .rightBotTriangle.data-v-f1429798{
+>>>>>>> 1.1-mp
+=======
+.rightBotTriangle.data-v-a26d3e3a{
 >>>>>>> 1.1-mp
 	  position: absolute;
 	  width: 12rpx;

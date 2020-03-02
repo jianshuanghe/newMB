@@ -10,13 +10,13 @@
 				<div class="items-RB">
 					<!--微信绑定-->
 					<div class="" v-if="!UserWxId">
-						<div class="input-RB"><wInput name="mobile" placeholder="请输入要绑定的微信" keyboard="number" :show-clear="false" v-model="UserData"></wInput></div>
+						<div class="input-RB"><wInput :inputWidth="width" name="mobile" placeholder="请输入要绑定的微信" keyboard="number" :show-clear="false" v-model="UserData"></wInput></div>
 						<div :class="UserData ? 'btn-RB' : 'btn-RB2'" @click="clickUpData(2)"><p class="">保存</p></div>
 					</div>
 					<!--微信解绑-->
 					<div class="" v-if="UserWxId">
 						<div class="input-RB">
-							<wInput name="mobile" disabled placeholder="" keyboard="number" :show-clear="false" v-model="UserData"></wInput>
+							<wInput :inputWidth="width" name="mobile" disabled placeholder="" keyboard="number" :show-clear="false" v-model="UserData"></wInput>
 						</div>
 						<div :class="UserData ? 'btn-RB' : 'btn-RB2'" @click="clickUpData(3)"><p class="">解除绑定</p></div>
 					</div>
@@ -37,6 +37,7 @@ export default {
 		return {
 			UserData: '',
 			UserWxId: true, // 判断用户是否存在微信id
+			width:'100%'
 		};
 	},
 	components: {

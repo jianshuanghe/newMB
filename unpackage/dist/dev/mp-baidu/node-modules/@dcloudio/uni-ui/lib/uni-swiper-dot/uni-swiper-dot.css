@@ -2,7 +2,12 @@
 .uni-swiper__warp {
 		position: relative;
 		width: 100%;
+<<<<<<< HEAD
 		box-sizing: border-box;
+=======
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+>>>>>>> 1.1-mp
 		overflow: hidden;
 }
 .uni-swiper__dots-box {
@@ -10,6 +15,7 @@
 		bottom: 20rpx;
 		display: -webkit-box;
 		display: -webkit-flex;
+<<<<<<< HEAD
 		display: flex;
 		-webkit-box-pack: center;
 		-webkit-justify-content: center;
@@ -18,16 +24,38 @@
 		-webkit-align-items: center;
 		        align-items: center;
 		box-sizing: box-sizing;
+=======
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-sizing: box-sizing;
+		        box-sizing: box-sizing;
+>>>>>>> 1.1-mp
 		width: 100%;
 }
 .uni-swiper__dots-item {
 		-webkit-flex-shrink: 0;
+<<<<<<< HEAD
+=======
+		    -ms-flex-negative: 0;
+>>>>>>> 1.1-mp
 		        flex-shrink: 0;
 		width: 16rpx;
 		border-radius: 50%;
 		margin-left: 12rpx;
 		background: rgba(0, 0, 0, .3);
 		-webkit-transition: all 0.2s linear;
+<<<<<<< HEAD
+=======
+		-o-transition: all 0.2s linear;
+>>>>>>> 1.1-mp
 		transition: all 0.2s linear;
 }
 .uni-swiper__dots-item:first-child {
@@ -47,33 +75,67 @@
 		height: 80rpx;
 		-webkit-box-pack: start;
 		-webkit-justify-content: flex-start;
+<<<<<<< HEAD
 		        justify-content: flex-start;
 		background: rgba(0, 0, 0, 0.2);
 		box-sizing: box-sizing;
+=======
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		background: rgba(0, 0, 0, 0.2);
+		-webkit-box-sizing: box-sizing;
+		        box-sizing: box-sizing;
+>>>>>>> 1.1-mp
 		overflow: hidden;
 }
 .uni-swiper__dots-nav-item {
 		overflow: hidden;
+<<<<<<< HEAD
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		font-size: 28rpx;
 		color: #fff;
 		box-sizing: box-sizing;
+=======
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		white-space: nowrap;
+		font-size: 28rpx;
+		color: #fff;
+		-webkit-box-sizing: box-sizing;
+		        box-sizing: box-sizing;
+>>>>>>> 1.1-mp
 		margin: 0 30rpx;
 }
 .uni-swiper__dots-indexes {
 		display: -webkit-box;
 		display: -webkit-flex;
+<<<<<<< HEAD
 		display: flex;
 		-webkit-box-pack: center;
 		-webkit-justify-content: center;
 		        justify-content: center;
 		-webkit-box-align: center;
 		-webkit-align-items: center;
+=======
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 		        align-items: center;
 		color: #fff;
 		font-size: 24rpx;
 }
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL25ld01CL25vZGVfbW9kdWxlcy9AZGNsb3VkaW8vdW5pLXVpL2xpYi91bmktc3dpcGVyLWRvdC91bmktc3dpcGVyLWRvdC52dWU/Y2U4MSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6Im5vZGUtbW9kdWxlcy9AZGNsb3VkaW8vdW5pLXVpL2xpYi91bmktc3dpcGVyLWRvdC91bmktc3dpcGVyLWRvdC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi51bmktc3dpcGVyX193YXJwIHtcblx0XHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdFx0d2lkdGg6IDEwMCU7XG5cdFx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcblx0XHRvdmVyZmxvdzogaGlkZGVuO1xufVxuLnVuaS1zd2lwZXJfX2RvdHMtYm94IHtcblx0XHRwb3NpdGlvbjogYWJzb2x1dGU7XG5cdFx0Ym90dG9tOiAyMHJweDtcblx0XHRkaXNwbGF5OiAtd2Via2l0LWJveDtcblx0XHRkaXNwbGF5OiAtd2Via2l0LWZsZXg7XG5cdFx0ZGlzcGxheTogZmxleDtcblx0XHQtd2Via2l0LWJveC1wYWNrOiBjZW50ZXI7XG5cdFx0LXdlYmtpdC1qdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcblx0XHQgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuXHRcdC13ZWJraXQtYm94LWFsaWduOiBjZW50ZXI7XG5cdFx0LXdlYmtpdC1hbGlnbi1pdGVtczogY2VudGVyO1xuXHRcdCAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcblx0XHRib3gtc2l6aW5nOiBib3gtc2l6aW5nO1xuXHRcdHdpZHRoOiAxMDAlO1xufVxuLnVuaS1zd2lwZXJfX2RvdHMtaXRlbSB7XG5cdFx0LXdlYmtpdC1mbGV4LXNocmluazogMDtcblx0XHQgICAgICAgIGZsZXgtc2hyaW5rOiAwO1xuXHRcdHdpZHRoOiAxNnJweDtcblx0XHRib3JkZXItcmFkaXVzOiA1MCU7XG5cdFx0bWFyZ2luLWxlZnQ6IDEycnB4O1xuXHRcdGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgLjMpO1xuXHRcdC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDAuMnMgbGluZWFyO1xuXHRcdHRyYW5zaXRpb246IGFsbCAwLjJzIGxpbmVhcjtcbn1cbi51bmktc3dpcGVyX19kb3RzLWl0ZW06Zmlyc3QtY2hpbGQge1xuXHRcdG1hcmdpbjogMDtcbn1cbi51bmktc3dpcGVyX19kb3RzLWRlZmF1bHQge1xuXHRcdGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cbi51bmktc3dpcGVyX19kb3RzLWxvbmcge1xuXHRcdGJvcmRlci1yYWRpdXM6IDEwMHJweDtcbn1cbi51bmktc3dpcGVyX19kb3RzLWJhciB7XG4gICAgYm9yZGVyLXJhZGl1czogMTAwcnB4O1xufVxuLnVuaS1zd2lwZXJfX2RvdHMtbmF2IHtcblx0XHRib3R0b206IDA7XG5cdFx0aGVpZ2h0OiA4MHJweDtcblx0XHQtd2Via2l0LWJveC1wYWNrOiBzdGFydDtcblx0XHQtd2Via2l0LWp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcblx0XHQgICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcblx0XHRiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuMik7XG5cdFx0Ym94LXNpemluZzogYm94LXNpemluZztcblx0XHRvdmVyZmxvdzogaGlkZGVuO1xufVxuLnVuaS1zd2lwZXJfX2RvdHMtbmF2LWl0ZW0ge1xuXHRcdG92ZXJmbG93OiBoaWRkZW47XG5cdFx0dGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7XG5cdFx0d2hpdGUtc3BhY2U6IG5vd3JhcDtcblx0XHRmb250LXNpemU6IDI4cnB4O1xuXHRcdGNvbG9yOiAjZmZmO1xuXHRcdGJveC1zaXppbmc6IGJveC1zaXppbmc7XG5cdFx0bWFyZ2luOiAwIDMwcnB4O1xufVxuLnVuaS1zd2lwZXJfX2RvdHMtaW5kZXhlcyB7XG5cdFx0ZGlzcGxheTogLXdlYmtpdC1ib3g7XG5cdFx0ZGlzcGxheTogLXdlYmtpdC1mbGV4O1xuXHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0LXdlYmtpdC1ib3gtcGFjazogY2VudGVyO1xuXHRcdC13ZWJraXQtanVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG5cdFx0ICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcblx0XHQtd2Via2l0LWJveC1hbGlnbjogY2VudGVyO1xuXHRcdC13ZWJraXQtYWxpZ24taXRlbXM6IGNlbnRlcjtcblx0XHQgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdFx0Y29sb3I6ICNmZmY7XG5cdFx0Zm9udC1zaXplOiAyNHJweDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
+=======
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot.js.map*/
+>>>>>>> 1.1-mp

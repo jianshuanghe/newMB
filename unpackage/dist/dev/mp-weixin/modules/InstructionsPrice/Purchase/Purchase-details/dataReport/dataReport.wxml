@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <view class="dataReport_content _div data-v-71c7d374"><top-box vue-id="1" class="data-v-71c7d374" bind:__l="__l" vue-slots="{{['default']}}"><view class="title-putIn _p data-v-71c7d374">采购名称</view></top-box><data-trend-kanban vue-id="2" dataid="{{this.id}}" class="data-v-71c7d374" bind:__l="__l"></data-trend-kanban></view>
 =======
 <view class="dataReport_content _div data-v-76c0ec2a"><top-box vue-id="1" class="data-v-76c0ec2a" bind:__l="__l" vue-slots="{{['default']}}"><view class="title-putIn _p data-v-76c0ec2a">采购名称</view></top-box><data-trend-kanban vue-id="2" dataid="{{this.id}}" class="data-v-76c0ec2a" bind:__l="__l"></data-trend-kanban></view>
+>>>>>>> 1.1-mp
+=======
+<view class="dataReport_content _div data-v-5dbe8e59"><top-box vue-id="1" class="data-v-5dbe8e59" bind:__l="__l" vue-slots="{{['default']}}"><view class="title-putIn _p data-v-5dbe8e59">采购名称</view></top-box><data-trend-kanban vue-id="2" dataid="{{this.id}}" class="data-v-5dbe8e59" bind:__l="__l"></data-trend-kanban></view>
 >>>>>>> 1.1-mp

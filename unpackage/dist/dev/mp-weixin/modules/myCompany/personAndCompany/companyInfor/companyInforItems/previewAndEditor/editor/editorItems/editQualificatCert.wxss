@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .uni-textarea >textarea.data-v-83f382a2{
 			margin-left: 4%;
 }
@@ -10,14 +11,24 @@
 }
 .info.data-v-7dad898e{
 >>>>>>> 1.1-mp
+=======
+.uni-textarea >textarea.data-v-29a1ddac{
+			margin-left: 4%;
+}
+.info.data-v-29a1ddac{
+>>>>>>> 1.1-mp
 			position: absolute;
 			bottom: 0;right: 0;font-size:24rpx;
 			color: #d2d2d2;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .BI-text-right.data-v-83f382a2 {
 =======
 .BI-text-right.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.BI-text-right.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 		position: relative;
 		width: 100%;
@@ -25,9 +36,13 @@
 		margin-bottom: 44rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .BI-picker.data-v-83f382a2 {
 =======
 .BI-picker.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.BI-picker.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 		position: relative;
 		font-family: PingFang-SC-Medium;
@@ -51,6 +66,7 @@
 		margin-left: 0px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .BI-pickered.data-v-83f382a2 {
 		color: #2e2e30 !important;
 }
@@ -61,14 +77,24 @@
 }
 .MI-left-EBI-TextArea.data-v-7dad898e{
 >>>>>>> 1.1-mp
+=======
+.BI-pickered.data-v-29a1ddac {
+		color: #2e2e30 !important;
+}
+.MI-left-EBI-TextArea.data-v-29a1ddac{
+>>>>>>> 1.1-mp
 		position: relative;
 		width: 100%;
 		min-height: 8vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MI-left-EBI-TextArea>._p.data-v-83f382a2{
 =======
 .MI-left-EBI-TextArea>._p.data-v-7dad898e{
+>>>>>>> 1.1-mp
+=======
+.MI-left-EBI-TextArea>._p.data-v-29a1ddac{
 >>>>>>> 1.1-mp
 		position: relative !important;
 		line-height: 0 !important;
@@ -80,9 +106,13 @@
 		margin-bottom: 1VW;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MI-left-EBI-TextArea > ._img.data-v-83f382a2 {
 =======
 .MI-left-EBI-TextArea > ._img.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.MI-left-EBI-TextArea > ._img.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 		position: relative;
 		width: 2vw;
@@ -94,9 +124,13 @@
 		display: inline-block;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MI-left-EBI-TextArea > ._p.data-v-83f382a2 {
 =======
 .MI-left-EBI-TextArea > ._p.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.MI-left-EBI-TextArea > ._p.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 		position: absolute;
 		font-family: PingFangSC-Light;
@@ -106,9 +140,13 @@
 		margin-left: 4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .Img-Upload.data-v-83f382a2 {
 =======
 .Img-Upload.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.Img-Upload.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 		width: 120rpx;
 		height: 80rpx;
@@ -117,9 +155,13 @@
 		top: -20rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .BI-picker-Img.data-v-83f382a2 {
 =======
 .BI-picker-Img.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.BI-picker-Img.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 		width: 80rpx;
 		height: 80rpx;
@@ -127,6 +169,7 @@
 		right: 28rpx;
 		top: -20rpx;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .asdbad.data-v-83f382a2{
 		width:30%!important;
@@ -140,14 +183,25 @@
 }
 .editBasicInfor-content.data-v-7dad898e {
 >>>>>>> 1.1-mp
+=======
+.asdbad.data-v-29a1ddac{
+		width:30%!important;
+		float:left;
+}
+.editBasicInfor-content.data-v-29a1ddac {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	background: #f9f9f9;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .editBasicInfor.data-v-83f382a2 {
 =======
 .editBasicInfor.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.editBasicInfor.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -156,18 +210,26 @@
 	-webkit-overflow-scrolling: touch;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .editBasicInfor-box.data-v-83f382a2 {
 =======
 .editBasicInfor-box.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.editBasicInfor-box.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-bottom: 35vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .topTips.data-v-83f382a2 {
 =======
 .topTips.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.topTips.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -175,9 +237,13 @@
 	padding: 0 4vw 0 4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .topTips > ._p.data-v-83f382a2 {
 =======
 .topTips > ._p.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.topTips > ._p.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -188,9 +254,13 @@
 	text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .EBI-textArea.data-v-83f382a2 {
 =======
 .EBI-textArea.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.EBI-textArea.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -198,14 +268,19 @@
 	padding: 0 4vw 0 4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .textAarea-box.data-v-83f382a2 {
 =======
 .textAarea-box.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.textAarea-box.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	margin-top: 1vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .introduce2.data-v-83f382a2 {
 	position: relative;
@@ -219,11 +294,19 @@
 }
 .MI-box.data-v-7dad898e {
 >>>>>>> 1.1-mp
+=======
+.introduce2.data-v-29a1ddac {
+	position: relative;
+	width: 96%;
+}
+.MI-box.data-v-29a1ddac {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding: 0vw 4vw 0 4vw;
 	background: #fff;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .MI-items.data-v-83f382a2 {
 	position: relative;
@@ -237,14 +320,25 @@
 }
 .MI-left-EBI.data-v-7dad898e {
 >>>>>>> 1.1-mp
+=======
+.MI-items.data-v-29a1ddac {
+	position: relative;
+	width: 100%;
+}
+.MI-left-EBI.data-v-29a1ddac {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 50%;
 	height: 11vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MI-left-EBI > ._img.data-v-83f382a2 {
 =======
 .MI-left-EBI > ._img.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.MI-left-EBI > ._img.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 2vw;
@@ -256,9 +350,13 @@
 	display: inline-block;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MI-left-EBI > ._p.data-v-83f382a2 {
 =======
 .MI-left-EBI > ._p.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.MI-left-EBI > ._p.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: absolute;
 	font-family: PingFangSC-Light;
@@ -267,6 +365,7 @@
 	line-height: 15vw;
 	margin-left: 4vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .MI-right.data-v-83f382a2 {
 	position: relative;
@@ -286,30 +385,41 @@
 .img-MI .touxiang.data-v-83f382a2 {
 =======
 .MI-right.data-v-7dad898e {
+=======
+.MI-right.data-v-29a1ddac {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 50%;
 }
-.right-Box-MI.data-v-7dad898e {
+.right-Box-MI.data-v-29a1ddac {
 	position: relative;
 	width: 100%;
 }
-.img-MI.data-v-7dad898e {
+.img-MI.data-v-29a1ddac {
 	position: relative;
 	width: 90%;
 }
-.EBI-img-MI.data-v-7dad898e {
+.EBI-img-MI.data-v-29a1ddac {
 	width: 100% !important;
 }
+<<<<<<< HEAD
 .img-MI .touxiang.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.img-MI .touxiang.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	float: right;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .imgTouXiang.data-v-83f382a2 {
 =======
 .imgTouXiang.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.imgTouXiang.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 10.66vw;
@@ -317,9 +427,13 @@
 	margin-top: 2.1vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .imgKongText.data-v-83f382a2 {
 =======
 .imgKongText.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.imgKongText.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -330,6 +444,7 @@
 	text-align: right;
 	line-height: 15vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .arrow-img-MI.data-v-83f382a2 {
 	position: relative;
@@ -343,6 +458,13 @@
 }
 .arrow-img-MI > ._img.data-v-7dad898e {
 >>>>>>> 1.1-mp
+=======
+.arrow-img-MI.data-v-29a1ddac {
+	position: relative;
+	width: 10%;
+}
+.arrow-img-MI > ._img.data-v-29a1ddac {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 2vw;
 	height: 2vw;
@@ -350,9 +472,13 @@
 	float: right;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .perInfoItemR.data-v-83f382a2 {
 =======
 .perInfoItemR.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.perInfoItemR.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	width: 100%;
 	text-overflow: ellipsis;
@@ -371,9 +497,13 @@
 	float: left;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .intro-MI.data-v-83f382a2 {
 =======
 .intro-MI.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.intro-MI.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	font-family: PingFangSC-Regular;
 	font-size: 3.733vw;
@@ -383,10 +513,14 @@
 	line-height: 15vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .intro-MI2.data-v-83f382a2 {
 	text-overflow: ellipsis;
 =======
 .intro-MI2.data-v-7dad898e {
+=======
+.intro-MI2.data-v-29a1ddac {
+>>>>>>> 1.1-mp
 	-o-text-overflow: ellipsis;
 	   text-overflow: ellipsis;
 >>>>>>> 1.1-mp
@@ -400,9 +534,13 @@
 	line-height: 15vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .BIF-bottom.data-v-83f382a2 {
 =======
 .BIF-bottom.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.BIF-bottom.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: fixed;
 	width: 100%;
@@ -413,9 +551,13 @@
 	background: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .BIF-btn.data-v-83f382a2 {
 =======
 .BIF-btn.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.BIF-btn.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 90%;
@@ -431,9 +573,13 @@
 	line-height: 88rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .error-tips-EBI.data-v-83f382a2 {
 =======
 .error-tips-EBI.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.error-tips-EBI.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: absolute;
 	top: 10vw;
@@ -444,9 +590,13 @@
 	line-height: 4vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .tips-EQI.data-v-83f382a2 {
 =======
 .tips-EQI.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.tips-EQI.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -454,9 +604,13 @@
 	height: 9vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .tips-EQI > ._p.data-v-83f382a2 {
 =======
 .tips-EQI > ._p.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.tips-EQI > ._p.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	font-family: PingFangSC-Light;
 	font-size: 3.7vw;
@@ -464,9 +618,13 @@
 	line-height: 8vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .EBI-uploadImg.data-v-83f382a2 {
 =======
 .EBI-uploadImg.data-v-7dad898e {
+>>>>>>> 1.1-mp
+=======
+.EBI-uploadImg.data-v-29a1ddac {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
@@ -474,9 +632,13 @@
 	height: 100%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MI-hao.data-v-83f382a2{
 =======
 .MI-hao.data-v-7dad898e{
+>>>>>>> 1.1-mp
+=======
+.MI-hao.data-v-29a1ddac{
 >>>>>>> 1.1-mp
 	width:70%;
 	height:106rpx;
@@ -486,9 +648,13 @@
 	line-height:106rpx;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .MII-image.data-v-83f382a2{
 =======
 .MII-image.data-v-7dad898e{
+>>>>>>> 1.1-mp
+=======
+.MII-image.data-v-29a1ddac{
 >>>>>>> 1.1-mp
 	width:14rpx;
 	height:100%;
@@ -499,6 +665,7 @@
 	line-height: 104rpx;
 	
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .MII-image>image.data-v-83f382a2{
 	width:100%;
@@ -511,6 +678,13 @@
 	height:14rpx;
 }
 .MII-nih.data-v-7dad898e{
+>>>>>>> 1.1-mp
+=======
+.MII-image>image.data-v-29a1ddac{
+	width:100%;
+	height:14rpx;
+}
+.MII-nih.data-v-29a1ddac{
 >>>>>>> 1.1-mp
 	margin-right:34rpx;
 	color: #d2d2d2;

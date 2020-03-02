@@ -3,7 +3,10 @@
   "component": true,
   "usingComponents": {
     "top-box": "/components/mbbo/topBox/topBox",
+<<<<<<< HEAD
     "business-put-in": "/modules/InstructionsPrice/myproduct/product-book/dataReport/dataReportItems/businessPutIn",
+=======
+>>>>>>> 1.1-mp
     "data-trend-kanban": "/modules/InstructionsPrice/myproduct/product-book/dataReport/dataTrendKanban/dataTrendKanban"
   }
 }

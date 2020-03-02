@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分享二维码(4/4)",
+  "component": true,
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation",
+    "r-qr-code": "/components/common/RHX/rQrCode/rQrCode",
+    "r-clip-board": "/components/common/RHX/rClipBoard/rClipBoard"
+  }
+}

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <view class="editor-content _div data-v-16afad34"><view class="_div data-v-16afad34"><block s-if="{{true}}"><view class="editor-qualificatCert _div data-v-16afad34"><top-box vue-id="1" class="data-v-16afad34" vue-slots="{{['default']}}"><view class="title-putIn _p data-v-16afad34">编辑认证信息</view></top-box><edit-qualificat-cert vue-id="2" listid="{{this.listid}}" class="data-v-16afad34"></edit-qualificat-cert></view></block></view><block s-if="{{QUICKNAVCO.show}}"><navigation vue-id="3" class="data-v-16afad34"></navigation></block></view>
+=======
+<view class="editor-content _div data-v-5fb3e618"><view class="_div data-v-5fb3e618"><block s-if="{{true}}"><view class="editor-qualificatCert _div data-v-5fb3e618"><top-box vue-id="1" class="data-v-5fb3e618" vue-slots="{{['default']}}"><view class="title-putIn _p data-v-5fb3e618">编辑认证信息</view></top-box><edit-qualificat-cert vue-id="2" listid="{{this.listid}}" class="data-v-5fb3e618"></edit-qualificat-cert></view></block></view><block s-if="{{QUICKNAVCO.show}}"><navigation vue-id="3" class="data-v-5fb3e618"></navigation></block></view>
+>>>>>>> 1.1-mp

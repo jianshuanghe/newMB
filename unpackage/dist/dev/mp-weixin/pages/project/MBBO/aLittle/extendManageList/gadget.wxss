@@ -1,8 +1,12 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .content.data-v-349e7172 {
 =======
 .content.data-v-182bc351 {
+>>>>>>> 1.1-mp
+=======
+.content.data-v-65cf2a02 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100vw;
@@ -11,14 +15,19 @@
 	margin-bottom: 1.5vw;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .gadget-box.data-v-349e7172 {
 =======
 .gadget-box.data-v-182bc351 {
+>>>>>>> 1.1-mp
+=======
+.gadget-box.data-v-65cf2a02 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	padding-bottom: 2vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .gadget-title.data-v-349e7172 {
 	position: relative;
@@ -32,6 +41,13 @@
 }
 .gadget-title > ._p.data-v-182bc351 {
 >>>>>>> 1.1-mp
+=======
+.gadget-title.data-v-65cf2a02 {
+	position: relative;
+	width: 100%;
+}
+.gadget-title > ._p.data-v-65cf2a02 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	font-family: PingFang-SC-Bold;
@@ -39,6 +55,7 @@
 	color: #2e2e30;
 	line-height: 6vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .gadget-cont.data-v-349e7172 {
 	position: relative;
@@ -55,18 +72,25 @@
 .img.data-v-349e7172 {
 =======
 .gadget-cont.data-v-182bc351 {
+=======
+.gadget-cont.data-v-65cf2a02 {
+>>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 }
-.gadget-toufang.data-v-182bc351 {
+.gadget-toufang.data-v-65cf2a02 {
 	position: relative;
 	width: 33.3333%;
 }
-.conten-box.data-v-182bc351 {
+.conten-box.data-v-65cf2a02 {
 	position: relative;
 	width: 100%;
 }
+<<<<<<< HEAD
 .img.data-v-182bc351 {
+>>>>>>> 1.1-mp
+=======
+.img.data-v-65cf2a02 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 30%;
@@ -74,15 +98,20 @@
 	margin: auto;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .img > ._img.data-v-349e7172 {
 =======
 .img > ._img.data-v-182bc351 {
+>>>>>>> 1.1-mp
+=======
+.img > ._img.data-v-65cf2a02 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 6vw;
 	height: 6vw;
 	margin-top: 2vw;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .text.data-v-349e7172 {
 	position: relative;
@@ -96,6 +125,13 @@
 }
 .title.data-v-182bc351 {
 >>>>>>> 1.1-mp
+=======
+.text.data-v-65cf2a02 {
+	position: relative;
+	width: 100%;
+}
+.title.data-v-65cf2a02 {
+>>>>>>> 1.1-mp
 	font-family: PingFang-SC-Bold;
 	font-size: 3.7vw;
 	color: #2e2e30;
@@ -103,9 +139,13 @@
 	text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .text-box.data-v-349e7172 {
 =======
 .text-box.data-v-182bc351 {
+>>>>>>> 1.1-mp
+=======
+.text-box.data-v-65cf2a02 {
 >>>>>>> 1.1-mp
 	font-family: PingFang-SC-Medium;
 	font-size: 3.2vw;

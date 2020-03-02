@@ -2,13 +2,25 @@
 .body1{
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
+=======
+	display: -ms-flexbox;
+>>>>>>> 1.1-mp
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
+<<<<<<< HEAD
 	        flex-direction: column;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
+=======
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 	        align-items: center;
 }
 .table{
@@ -20,9 +32,17 @@
 .oneList{
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 	        align-items: center;
 	height: 80rpx;
 	position: relative;
@@ -39,18 +59,34 @@
 	border-right: 1px solid #D2D2D2;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 	        align-items: center;
 }
 .listvalue{
 	height: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
+<<<<<<< HEAD
 	display: flex;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
+=======
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+>>>>>>> 1.1-mp
 	        align-items: center;
 	margin-left: 19rpx;
 	color: #2E2E30;
@@ -58,4 +94,8 @@
 }
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRTov5oWn6IGqL25ld01CL2NvbXBvbmVudHMvY29tbW9uL1JIWC9kYXRhTGlzdFRoci9kYXRhTGlzdFRoclByZS9kYXRhTGlzdFRoclByZS52dWU/MGQwZiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6ImNvbXBvbmVudHMvY29tbW9uL1JIWC9kYXRhTGlzdFRoci9kYXRhTGlzdFRoclByZS9kYXRhTGlzdFRoclByZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5ib2R5MXtcblx0ZGlzcGxheTogLXdlYmtpdC1ib3g7XG5cdGRpc3BsYXk6IC13ZWJraXQtZmxleDtcblx0ZGlzcGxheTogZmxleDtcblx0LXdlYmtpdC1ib3gtb3JpZW50OiB2ZXJ0aWNhbDtcblx0LXdlYmtpdC1ib3gtZGlyZWN0aW9uOiBub3JtYWw7XG5cdC13ZWJraXQtZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcblx0ICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuXHQtd2Via2l0LWJveC1hbGlnbjogY2VudGVyO1xuXHQtd2Via2l0LWFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdCAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi50YWJsZXtcblx0Ym9yZGVyOiAxcHggc29saWQgI0QyRDJEMjtcblx0Ym9yZGVyLXJhZGl1czogNHJweDtcblx0d2lkdGg6IDgyLjQlO1xuXHRtYXJnaW4tbGVmdDogNDBycHg7XG59XG4ub25lTGlzdHtcblx0ZGlzcGxheTogLXdlYmtpdC1ib3g7XG5cdGRpc3BsYXk6IC13ZWJraXQtZmxleDtcblx0ZGlzcGxheTogZmxleDtcblx0LXdlYmtpdC1ib3gtYWxpZ246IGNlbnRlcjtcblx0LXdlYmtpdC1hbGlnbi1pdGVtczogY2VudGVyO1xuXHQgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdGhlaWdodDogODBycHg7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0d2lkdGg6IDEwMCU7XG5cdGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjRDJEMkQyO1xuXHRmb250LWZhbWlseTogUGluZ0ZhbmdTQy1MaWdodDtcbn1cbi5saXN0a2V5e1xuXHR3aWR0aDogMjAwcnB4O1xuXHRoZWlnaHQ6IDEwMCU7XG5cdGNvbG9yOiAjOUI5QjlCO1xuXHRtYXJnaW4tbGVmdDogMjBycHg7XG5cdGZvbnQtc2l6ZTogMjhycHg7XG5cdGJvcmRlci1yaWdodDogMXB4IHNvbGlkICNEMkQyRDI7XG5cdGRpc3BsYXk6IC13ZWJraXQtYm94O1xuXHRkaXNwbGF5OiAtd2Via2l0LWZsZXg7XG5cdGRpc3BsYXk6IGZsZXg7XG5cdC13ZWJraXQtYm94LWFsaWduOiBjZW50ZXI7XG5cdC13ZWJraXQtYWxpZ24taXRlbXM6IGNlbnRlcjtcblx0ICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLmxpc3R2YWx1ZXtcblx0aGVpZ2h0OiAxMDAlO1xuXHRkaXNwbGF5OiAtd2Via2l0LWJveDtcblx0ZGlzcGxheTogLXdlYmtpdC1mbGV4O1xuXHRkaXNwbGF5OiBmbGV4O1xuXHQtd2Via2l0LWJveC1hbGlnbjogY2VudGVyO1xuXHQtd2Via2l0LWFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdCAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcblx0bWFyZ2luLWxlZnQ6IDE5cnB4O1xuXHRjb2xvcjogIzJFMkUzMDtcblx0Zm9udC1zaXplOiAyOHJweDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
+=======
+/*# sourceMappingURL=../../../../../../.sourcemap/mp-baidu/components/common/RHX/dataListThr/dataListThrPre/dataListThrPre.js.map*/
+>>>>>>> 1.1-mp

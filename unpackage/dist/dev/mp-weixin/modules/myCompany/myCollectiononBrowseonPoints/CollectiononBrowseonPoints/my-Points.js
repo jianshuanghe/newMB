@@ -7,15 +7,22 @@
   \**********************************************************************************************************************************/
 =======
 /***/ 958:
+<<<<<<< HEAD
 /*!************************************************************************************************************!*\
   !*** E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue ***!
   \************************************************************************************************************/
+>>>>>>> 1.1-mp
+=======
+/*!***********************************************************************************************************!*\
+  !*** E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue ***!
+  \***********************************************************************************************************/
 >>>>>>> 1.1-mp
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* harmony import */ var _my_Points_vue_vue_type_template_id_99587ed6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./my-Points.vue?vue&type=template&id=99587ed6& */ 1113);
 /* harmony import */ var _my_Points_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./my-Points.vue?vue&type=script&lang=js& */ 1115);
@@ -24,6 +31,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _F_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ 14);
 =======
 /* harmony import */ var _my_Points_vue_vue_type_template_id_3f34246a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./my-Points.vue?vue&type=template&id=3f34246a& */ 959);
+=======
+/* harmony import */ var _my_Points_vue_vue_type_template_id_03843d8c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./my-Points.vue?vue&type=template&id=03843d8c& */ 959);
+>>>>>>> 1.1-mp
 /* harmony import */ var _my_Points_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./my-Points.vue?vue&type=script&lang=js& */ 961);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _my_Points_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _my_Points_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 /* harmony import */ var _my_Points_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./my-Points.vue?vue&type=style&index=0&lang=css& */ 963);
@@ -45,8 +55,13 @@ var component = Object(_F_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_l
 =======
 var component = Object(_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _my_Points_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+<<<<<<< HEAD
   _my_Points_vue_vue_type_template_id_3f34246a___WEBPACK_IMPORTED_MODULE_0__["render"],
   _my_Points_vue_vue_type_template_id_3f34246a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+>>>>>>> 1.1-mp
+=======
+  _my_Points_vue_vue_type_template_id_03843d8c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _my_Points_vue_vue_type_template_id_03843d8c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
 >>>>>>> 1.1-mp
   false,
   null,
@@ -58,9 +73,13 @@ var component = Object(_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_
 /* hot reload */
 if (false) { var api; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 component.options.__file = "E:/慧聪/代码/SVN/慧聪陌拜svn12.13/12.13.晚上/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue"
 =======
 component.options.__file = "E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue"
+>>>>>>> 1.1-mp
+=======
+component.options.__file = "E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue"
 >>>>>>> 1.1-mp
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
@@ -73,15 +92,22 @@ component.options.__file = "E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseo
   \*****************************************************************************************************************************************************************/
 =======
 /***/ 959:
+<<<<<<< HEAD
 /*!*******************************************************************************************************************************************!*\
   !*** E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=template&id=3f34246a& ***!
   \*******************************************************************************************************************************************/
+>>>>>>> 1.1-mp
+=======
+/*!******************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=template&id=03843d8c& ***!
+  \******************************************************************************************************************************************/
 >>>>>>> 1.1-mp
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* harmony import */ var _F_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_custom_block_loader_index_js_ref_0_1_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_my_Points_vue_vue_type_template_id_99587ed6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-custom-block-loader??ref--0-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./my-Points.vue?vue&type=template&id=99587ed6& */ 1114);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _F_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_F_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_custom_block_loader_index_js_ref_0_1_F_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_my_Points_vue_vue_type_template_id_99587ed6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
@@ -92,6 +118,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_my_Points_vue_vue_type_template_id_3f34246a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_my_Points_vue_vue_type_template_id_3f34246a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+>>>>>>> 1.1-mp
+=======
+/* harmony import */ var _G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_my_Points_vue_vue_type_template_id_03843d8c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./my-Points.vue?vue&type=template&id=03843d8c& */ 960);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_my_Points_vue_vue_type_template_id_03843d8c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_G_HBuilderX_2_1_3_20190723_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_my_Points_vue_vue_type_template_id_03843d8c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 >>>>>>> 1.1-mp
 
 
@@ -105,9 +137,15 @@ __webpack_require__.r(__webpack_exports__);
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 =======
 /***/ 960:
+<<<<<<< HEAD
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=template&id=3f34246a& ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+>>>>>>> 1.1-mp
+=======
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=template&id=03843d8c& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 >>>>>>> 1.1-mp
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -154,9 +192,15 @@ render._withStripped = true
   \***********************************************************************************************************************************************************/
 =======
 /***/ 961:
+<<<<<<< HEAD
 /*!*************************************************************************************************************************************!*\
   !*** E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************************************************/
+>>>>>>> 1.1-mp
+=======
+/*!************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************/
 >>>>>>> 1.1-mp
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -184,9 +228,15 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 962:
+<<<<<<< HEAD
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+>>>>>>> 1.1-mp
+=======
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 >>>>>>> 1.1-mp
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -755,9 +805,15 @@ var MAX_CACHE_PAGE = 3;var _default =
   \*******************************************************************************************************************************************************************/
 =======
 /***/ 963:
+<<<<<<< HEAD
 /*!*********************************************************************************************************************************************!*\
   !*** E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=style&index=0&lang=css& ***!
   \*********************************************************************************************************************************************/
+>>>>>>> 1.1-mp
+=======
+/*!********************************************************************************************************************************************!*\
+  !*** E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************/
 >>>>>>> 1.1-mp
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -785,9 +841,15 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 964:
+<<<<<<< HEAD
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/MB/mb-yun/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=style&index=0&lang=css& ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+>>>>>>> 1.1-mp
+=======
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!E:/MB/newMB/modules/myCompany/myCollectiononBrowseonPoints/CollectiononBrowseonPoints/my-Points.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 >>>>>>> 1.1-mp
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

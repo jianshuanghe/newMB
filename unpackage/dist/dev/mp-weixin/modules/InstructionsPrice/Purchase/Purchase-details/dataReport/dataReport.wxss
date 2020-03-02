@@ -1,14 +1,19 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dataReport_content.data-v-71c7d374 {
 =======
 .dataReport_content.data-v-76c0ec2a {
+>>>>>>> 1.1-mp
+=======
+.dataReport_content.data-v-5dbe8e59 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background: #f6f6f6;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .title-putIn.data-v-71c7d374{
 	margin-top: 5rpx;
@@ -20,13 +25,20 @@
 .rightArrow.data-v-71c7d374 {
 =======
 .title-putIn.data-v-76c0ec2a{
+=======
+.title-putIn.data-v-5dbe8e59{
+>>>>>>> 1.1-mp
 	margin-top: 5rpx;
 }
-.right-arrow.data-v-76c0ec2a {
+.right-arrow.data-v-5dbe8e59 {
 	position: relative;
 	width: 2vw;
 }
+<<<<<<< HEAD
 .rightArrow.data-v-76c0ec2a {
+>>>>>>> 1.1-mp
+=======
+.rightArrow.data-v-5dbe8e59 {
 >>>>>>> 1.1-mp
 	position: relative;
 	width: 3.2vw;

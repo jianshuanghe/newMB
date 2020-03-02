@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "component": true,
+  "usingComponents": {
+    "w-input": "/components/common/watch-login/watch-input",
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation"
+  }
+}

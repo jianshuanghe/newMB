@@ -94,6 +94,7 @@
         "permission" : {}
     },
     "mp-baidu" : {
-        "appid" : "18243908"
+        "appid" : "18243908",
+        "usingComponents" : true
     }
 }

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "r-from": "/components/common/RHX/rFrom/rFrom"
+  },
+  "component": true
+}
