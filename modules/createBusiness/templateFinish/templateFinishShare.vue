@@ -18,6 +18,7 @@
 					nextMargin='118px'
 					marginLeft='38%'
 					tempType='1'
+					:qrState="dataLists.instrucState"
 					@tap-RQrCode='tapRQrCode'
 					></rQrCode>
 				</div>
