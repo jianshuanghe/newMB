@@ -468,9 +468,15 @@ export default {
 							if (response.data.ret === '200') {
 								uni.hideLoading();
 								// console.log(response.data.content);
-								uni.navigateTo({
-									url: 'modules/InstructionsPrice/myproduct/myproduct-shu'
-								});
+								if (params.instrucState === '0') {
+									uni.navigateTo({
+										url: '/modules/InstructionsPrice/myproduct/myproduct-shu'
+									});
+								} else {
+									uni.navigateTo({
+										url: '/modules/createBusiness/templateFinish/templateFinishShare?urlParams=' + this.urlCrypto(response.data.content, 0)
+									});
+								}
 							}  else if (response.data.ret === '202') {
 								uni.hideLoading(); // 隐藏 loading
 								uni.removeStorageSync('landRegist');

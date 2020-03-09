@@ -181,6 +181,7 @@
 </template>
 
 <script>
+	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
@@ -274,6 +275,14 @@
 					this.shoucnum=item.followCount;
 				}
 			})
+		},
+		watch:{
+			GET_MY:{
+				handler (a, b) {
+					console.log(a,b,'2222222')
+				},
+				deep: true
+			}
 		},
 		methods: {
 			guanzhu(e){//关注

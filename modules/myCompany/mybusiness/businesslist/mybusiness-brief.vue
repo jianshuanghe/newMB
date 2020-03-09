@@ -11,7 +11,7 @@
 			<view class="brief-newcode" v-if="datas.wechatQrImg!==''">
 				<view class="brief-newcode-one">
 					<view>微信公众号</view>
-					<view>长按识别二维码或<span @tap="addpick(datas.wechatQrImg)">保存图片</span></view>
+					<view>长按识别二维码</view>
 				</view>
 				<view class="brief-newcode-two">
 					<image :src="datas.wechatQrImg"></image>
