@@ -659,6 +659,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var _vuex = __webpack_require__(/*! vuex */ 13);function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var industry = function industry() {return __webpack_require__.e(/*! import() | modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/industryAddress/industry */ "modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/industryAddress/industry").then(__webpack_require__.bind(null, /*! ./industryAddress/industry */ 909));};var wInput = function wInput() {return __webpack_require__.e(/*! import() | components/common/watch-login/watch-input1 */ "components/common/watch-login/watch-input1").then(__webpack_require__.bind(null, /*! @/components/common/watch-login/watch-input1.vue */ 902));};var imageUploadOne = function imageUploadOne() {return __webpack_require__.e(/*! import() | components/common/imageUpload/imageUploadOne */ "components/common/imageUpload/imageUploadOne").then(__webpack_require__.bind(null, /*! @/components/common/imageUpload/imageUploadOne.vue */ 838));};var quickBtn = function quickBtn() {return Promise.all(/*! import() | components/mbbo/quickBtn/quickBtn */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/mbbo/quickBtn/quickBtn")]).then(__webpack_require__.bind(null, /*! @/components/mbbo/quickBtn/quickBtn.vue */ 735));};var navigation = function navigation() {return __webpack_require__.e(/*! import() | components/mbbo/navigation/navigation */ "components/mbbo/navigation/navigation").then(__webpack_require__.bind(null, /*! @/components/mbbo/navigation/navigation.vue */ 580));};var _default =
 {
   name: 'editBasicInfor',
@@ -872,6 +873,13 @@ var _vuex = __webpack_require__(/*! vuex */ 13);function _objectSpread(target) {
           duration: 1000 });
 
         return false;
+      } else if (!/^1[3456789]\d{9}$/.test(this.GET_MY.headers.contactTelphone)) {
+        uni.showToast({
+          title: '手机号格式有误，请重输',
+          icon: 'none',
+          duration: 1000 });
+
+        return false;
       } else if (this.GET_MY.headers.contactEmail !== '') {
         if (!/^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/.test(this.GET_MY.headers.contactEmail)) {
           uni.showToast({
@@ -902,6 +910,7 @@ var _vuex = __webpack_require__(/*! vuex */ 13);function _objectSpread(target) {
         uni.showLoading({ // 展示loading
           title: '加载中' });
 
+        console.log(params);
         uni.request({
           url: this.api2 + '/rest-rp/user/' + landRegistLG.user.id, //接口地址。
           data: params,
@@ -1020,8 +1029,8 @@ var _vuex = __webpack_require__(/*! vuex */ 13);function _objectSpread(target) {
     addImages: function addImages(e) {
       console.log(e, '添加图片');
       if (e.allImages) {// 上传成功
-        this.logoo = e.allImages[0].imgName;
-        this.logoos = e.allImages[0].imgUrl;
+        this.logoo = e.allImages.imgName;
+        this.logoos = e.allImages.imgUrl;
         console.log(this.logo);
       }
     } }) };exports.default = _default;
