@@ -17,35 +17,35 @@
 		// },
 		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		// 我的网点
-		{
-			"path": "modules/myCompany/aftersale/aftersale",
-			"style": {
-				// #ifdef H5
-					"navigationStyle":"custom",
-				// #endif
-				"navigationBarTitleText": ""
-			}
-		},
-		// 新建网点
-		{
-			"path": "modules/myCompany/aftersale/newsale",
-			"style": {
-				// #ifdef H5
-					"navigationStyle":"custom",
-				// #endif
-				"navigationBarTitleText": "新建网点"
-			}
-		},
-		//定位地址
-		{
-			"path": "modules/myCompany/aftersale/mapsale",
-			"style": {
-				// #ifdef H5
-					"navigationStyle":"custom",
-				// #endif
-				"navigationBarTitleText": "定位地址"
-			}
-		},
+		// {
+		// 	"path": "modules/myCompany/aftersale/aftersale",
+		// 	"style": {
+		// 		// #ifdef H5
+		// 			"navigationStyle":"custom",
+		// 		// #endif
+		// 		"navigationBarTitleText": ""
+		// 	}
+		// },
+		// // 新建网点
+		// {
+		// 	"path": "modules/myCompany/aftersale/newsale",
+		// 	"style": {
+		// 		// #ifdef H5
+		// 			"navigationStyle":"custom",
+		// 		// #endif
+		// 		"navigationBarTitleText": "新建网点"
+		// 	}
+		// },
+		// //定位地址
+		// {
+		// 	"path": "modules/myCompany/aftersale/mapsale",
+		// 	"style": {
+		// 		// #ifdef H5
+		// 			"navigationStyle":"custom",
+		// 		// #endif
+		// 		"navigationBarTitleText": "定位地址"
+		// 	}
+		// },
 		{
 			"path": "pages/project/MBBO/home",
 			"style": {
