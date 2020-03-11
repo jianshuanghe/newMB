@@ -117,6 +117,5 @@
     "downloadFile": 20000
   },
   "permission": {},
-  "usingComponents": {},
-  "sitemapLocation": "sitemap3.json"
+  "usingComponents": {}
 }

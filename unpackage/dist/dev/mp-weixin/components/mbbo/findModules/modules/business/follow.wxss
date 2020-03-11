@@ -90,7 +90,7 @@
 	min-width: 226rpx;
 	height: 166rpx;
 	margin-top: 30rpx;
-	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+	background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
 	background-size: 100% 100%;
 }
 .find-Purchase-con-two>image{
@@ -119,15 +119,19 @@
 	margin-top: 30rpx;
 }
 .find-Purchase-conA>view:nth-of-type(1){
-	width: 95%;
 	height: 100%;
 	line-height: 52rpx;
 	font-size: 34rpx;
 	color: #2E2E30;
+	-o-text-overflow: -o-ellipsis-lastline;
+	   text-overflow: -o-ellipsis-lastline;
 	overflow: hidden;
-	-o-text-overflow:ellipsis;
-	   text-overflow:ellipsis;
-	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
 .find-Purchase-conA>view:nth-of-type(2){
 	width: 25%;
@@ -231,7 +235,7 @@
 	width: 220rpx;
 	height: 166rpx;
 	margin-left: 20rpx;
-	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+	background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
 	background-size: 100% 100%;
 }
 .find-Purchase-con-img>image:nth-of-type(1){
@@ -300,7 +304,7 @@
 	width: 100%;
 	height: 340rpx;
 	margin-top: 16rpx;
-	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+	background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
 	background-size: 100% 100%;
 }
 .find-Purchase-con-image>image{

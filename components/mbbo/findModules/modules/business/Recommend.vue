@@ -17,7 +17,7 @@
 				<view class="find-Purchase-con-one">
 					<view class="find-Purchase-conA" v-if="item.title!==''">
 						<view v-if="item.type!=='news'">{{item.title }}</view>
-						<view v-if="item.type=='news'">{{item.title|elli}}</view>
+						<view v-if="item.type=='news'">{{item.title}}</view>
 						<view v-if="item.purcState==1&&item.type=='purc'">采购中</view>
 						<view v-if="item.purcState==0&&item.type=='purc'" style="color: #9B9B9B;">待发布</view>
 						<view v-if="item.purcState==2&&item.type=='purc'" style="color: #9B9B9B;">已停止</view>
@@ -181,6 +181,7 @@
 </template>
 
 <script>
+	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		data() {
 			return {
@@ -274,6 +275,14 @@
 					this.shoucnum=item.followCount;
 				}
 			})
+		},
+		watch:{
+			GET_MY:{
+				handler (a, b) {
+					console.log(a,b,'2222222')
+				},
+				deep: true
+			}
 		},
 		methods: {
 			guanzhu(e){//关注
@@ -879,7 +888,7 @@
 		min-width: 226upx;
 		height: 166upx;
 		margin-top: 30upx;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-two>image{
@@ -1015,7 +1024,7 @@
 		width: 220upx;
 		height: 166upx;
 		margin-left: 20upx;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-img>image:nth-of-type(1){
@@ -1083,7 +1092,7 @@
 		width: 100%;
 		height: 340upx;
 		margin-top: 16upx;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
         background-size: 100% 100%;
 	}
 	.find-Purchase-con-image>image{

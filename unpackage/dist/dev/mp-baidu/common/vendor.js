@@ -13127,11 +13127,11 @@ exports.api3 = api3;if (true) {
   // api3 = 'https://img01.iambuyer.com'; // 图片
   //测试
   // api1 = 'https://api.iambuyer.com.cn';
-  // api2 = 'https://open.iambuyer.com.cn/invest-rest';
+  // api2 = 'https://zhaojie0001.mynatapp.cc';
   // api3 = 'https://img01.iambuyer.com.cn';
   //正式
   exports.api1 = api1 = 'https://api.iambuyer.com.cn';
-  exports.api2 = api2 = 'https://zhaojie0001.mynatapp.cc';
+  exports.api2 = api2 = 'https://api.ruhexiu.com';
   exports.api3 = api3 = 'https://img01.iambuyer.com.cn'; // 图片
 }
 

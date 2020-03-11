@@ -130,6 +130,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 var _default =
 {
   name: '',
@@ -143,11 +146,12 @@ var _default =
   },
   created: function created() {
     // 隐藏分享
-    uni.hideShareMenu();
+    // uni.hideShareMenu();
   },
   mounted: function mounted() {
     console.log(this.api2, '全局数据');
     this.getSessionKey();
+
   },
   methods: {
     getSessionKey: function getSessionKey() {// 缓存用户sessionkey
@@ -157,6 +161,7 @@ var _default =
         scopes: 'auth_base',
         success: function success(loginRes) {
           console.log(loginRes, '微信返回的code mounted');
+
           uni.request({ // 获取key
             url: _this.api2 + '/rest-rp/mbUser/wxMiniSessionKey?code=' + loginRes.code, //接口地址。
             data: {},
@@ -187,6 +192,39 @@ var _default =
               console.log(error, '网络繁忙，请稍后');
             } });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         } });
 
     },
@@ -199,9 +237,10 @@ var _default =
         console.log('用户拒绝提供手机号');
       } else {
         console.log('用户同意提供手机号');
+        console.log(e);
         var evData = JSON.stringify(e.detail.encryptedData);
         var evIv = JSON.stringify(e.detail.iv);
-        console.log(evData, evIv, '带你花------------');
+        console.log(evData, evIv, '带你花------------11');
         this.clickMpLand(evData, evIv);
       }
 
@@ -234,6 +273,91 @@ var _default =
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    },
+    mpBDLand: function mpBDLand(evData, evIv) {
+      console.log('百度小程序登录');
+      uni.showLoading({ // 展示loading
+        title: '登陆中···' });
+
+      var _this = this;
+      uni.getUserInfo({ // 拉取用户信息
+        success: function success(user) {
+          console.log(user, '拉取到的用户信息');
+          var sessionKey = uni.getStorageSync('sessionKey'); // 读取缓存的用户sessionKey
+          console.log(sessionKey);
+          var params = { // 登录参数
+            openId: sessionKey.openid,
+            baiduUserEncryptedData: user.data,
+            sessionKey: sessionKey.session_key,
+            baiduPhoneEncryptedData: JSON.parse(evData) };
+
+          console.log(params, '-------------------------------------------');
+          uni.request({
+            url: _this.api2 + '/rest-rp/mbUser/baiduMiniLogin', //接口地址。
+            data: params,
+            method: 'POST',
+            header: {},
+            success: function success(response) {
+              console.log(response.data);
+              if (String(response.data.ret) === '200') {
+                var landRegist = {
+                  randomKey: response.data.content.randomKey,
+                  token: response.data.content.token,
+                  user: {
+                    id: response.data.content.userId } };
+
+
+                uni.setStorageSync('landRegist', JSON.stringify(landRegist)); // 缓存用户登录信息
+                _this.getUserData();
+              } else if (String(response.data.ret) === '400') {
+                uni.hideLoading(); // 隐藏 loading
+                _this.phoneIsGet = false; // 显示获取手机号
+                uni.showToast({
+                  title: '请同意获取手机号注册，再登录！',
+                  icon: 'none',
+                  duration: 500 });
+
+              } else if (String(response.data.ret) === '500') {
+                uni.hideLoading(); // 隐藏 loading
+                console.log(response.data, '---------------------response.data---------------------');
+                console.log('------------------------5000-----------------------');
+                uni.showToast({
+                  title: '网络开小差了，请再次点击登录！',
+                  icon: 'none',
+                  duration: 500 });
+
+                // _this.getWxMiniLogin(params);
+              } else {
+                uni.hideLoading(); // 隐藏 loading
+                uni.showToast({
+                  title: response.data.msg,
+                  icon: 'none',
+                  duration: 500 });
+
+              }
+            },
+            fail: function fail(error) {
+              uni.hideLoading(); // 隐藏 loading
+              uni.showToast({
+                title: '网络繁忙，请稍后',
+                icon: 'none',
+                duration: 1000 });
+
+              console.log(error, '网络繁忙，请稍后');
+            } });
+
+        } });
 
     },
     mpWxLand: function mpWxLand(evData, evIv) {

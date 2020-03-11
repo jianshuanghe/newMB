@@ -546,12 +546,13 @@
 		width: 102upx;
 		height: 100%;
 		border: 4upx solid #FFFFFF;
-		border-radius: 4upx;
+		border-radius: 50%;
 		float: left;
 	}
 	.my-business-Img>image{
 		width: 100%;
 		height: 100%;
+		border-radius: 50%;
 	}
 	.my-business-con{
 		width: 80%;
@@ -619,28 +620,28 @@
 		color: #5D5D5D;
 	}
 	.my-business-det-follow{
-		width: 114upx;
-		height: 54upx;
+		width: 120upx;
+		height: 48upx;
 		border: 2upx solid #02C2A2;
-		border-radius: 4upx;
+		border-radius: 24upx;
 		position: absolute;
 		right: 30upx;
 		top: 30upx;
 		color: #02C2A2;
 		text-align: center;
-		line-height: 54upx;
+		line-height: 48upx;
 	}
 	.my-business-det-follows{
-		width: 114upx;
-		height: 54upx;
+		width: 120upx;
+		height: 48upx;
 		border: 2upx solid #BDBDBD;
-		border-radius: 4upx;
+		border-radius: 24upx;
 		position: absolute;
 		right: 30upx;
 		top: 30upx;
 		color: #BDBDBD;
 		text-align: center;
-		line-height: 54upx;
+		line-height: 48upx;
 	}
 	.my-business-Choice{
 		width: 100%;

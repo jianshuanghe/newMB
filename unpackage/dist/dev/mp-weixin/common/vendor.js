@@ -863,7 +863,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -10662,7 +10662,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -10683,14 +10683,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -10766,7 +10766,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -12934,14 +12934,19 @@ exports.api1 = api1;var api2 = ''; // 业务
 exports.api2 = api2;var api3 = ''; // 图片
 // uEnvDev
 exports.api3 = api3;if (true) {
-  // api1 = 'http://10.158.41.45:8090'; // 短信
-  exports.api1 = api1 = 'http://192.168.131.204:8090'; // 短信
-  exports.api2 = api2 = 'http://192.168.131.166:8080'; // 业务
-  exports.api3 = api3 = 'https://img01.iambuyer.com'; // 图片
-  // api1 = 'https://api.iambuyer.com';
-  // api2 = 'https://open.iambuyer.com/invest-rest';
-  // api3 = 'https://img01.iambuyer.com';
+  // api1 = 'http://192.168.131.204:8090'; // 短信
+  // api2 = 'https://hc360cyd.mynatapp.cc'; // 业务
+  // api3 = 'https://img01.iambuyer.com'; // 图片
+  //测试
+  // api1 = 'https://api.iambuyer.com.cn';
+  // api2 = 'https://zhaojie0001.mynatapp.cc';
+  // api3 = 'https://img01.iambuyer.com.cn';
+  //正式
+  exports.api1 = api1 = 'https://api.iambuyer.com.cn';
+  exports.api2 = api2 = 'https://api.ruhexiu.com';
+  exports.api3 = api3 = 'https://img01.iambuyer.com.cn'; // 图片
 }
+
 // uEnvProd
 if (false) {}
 
@@ -13842,9 +13847,9 @@ createPage(_BuyerDetails.default);
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.origin = exports.dImg = exports.Static = void 0;
-var Static = 'http://style.iambuyer.com/mbc/'; // 静态资源地址
-exports.Static = Static;var dImg = 'https://style.iambuyer.com/imbc/mbcImg/common/MBC.png'; // 默认图片地址
-exports.dImg = dImg;var origin = 'https://so.iambuyer.com';exports.origin = origin;
+var Static = 'http://style.iambuyer.com.cn/mbc/'; // 静态资源地址
+exports.Static = Static;var dImg = 'http://style.iambuyer.com.cn/imbc/mbcImg/common/MBC.png'; // 默认图片地址
+exports.dImg = dImg;var origin = 'http://so.iambuyer.com.cn';exports.origin = origin;
 
 /***/ }),
 

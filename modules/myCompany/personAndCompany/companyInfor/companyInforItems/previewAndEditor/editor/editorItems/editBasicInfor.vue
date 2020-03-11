@@ -183,6 +183,7 @@
 										<wInput
 											v-model="GET_MY.headers.contactTelphone"
 											placeholder="点击填写"
+											maxlength="11"
 										></wInput>
 									</view>
 								</div>
@@ -448,6 +449,13 @@ export default {
 					duration: 1000
 				});
 				return false;
+			}else if(!(/^1[3456789]\d{9}$/.test(this.GET_MY.headers.contactTelphone))){
+				uni.showToast({
+					title: '手机号格式有误，请重输',
+					icon: 'none',
+					duration: 1000
+				});
+				return false;
 			}else if(this.GET_MY.headers.contactEmail!==''){
 				if(!/^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/.test(this.GET_MY.headers.contactEmail)){
 					uni.showToast({
@@ -478,6 +486,7 @@ export default {
 					uni.showLoading({ // 展示loading
 						title: '加载中'
 					});
+					console.log(params)
 					uni.request({
 						url: this.api2 + '/rest-rp/user/'+landRegistLG.user.id, //接口地址。
 						data: params,
@@ -596,8 +605,8 @@ export default {
 		addImages: function(e) {
 			console.log(e, '添加图片')
 			if (e.allImages) { // 上传成功
-				this.logoo = (e.allImages[0].imgName);
-				this.logoos = (e.allImages[0].imgUrl)
+				this.logoo = (e.allImages.imgName);
+				this.logoos = (e.allImages.imgUrl)
 				console.log(this.logo)
 			}
 		},

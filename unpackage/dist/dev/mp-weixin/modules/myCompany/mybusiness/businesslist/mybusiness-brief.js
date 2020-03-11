@@ -165,6 +165,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 var _default =
 {
   props: ['datas', 'listid'],
@@ -195,10 +201,35 @@ var _default =
     handleFold: function handleFold() {
       this.fold = !this.fold;
     },
-    phone: function phone(e) {
+    playphone: function playphone(e) {
       uni.makePhoneCall({
         phoneNumber: e //仅为示例
       });
+    },
+    addpick: function addpick(e) {
+      console.log(e);
+      uni.downloadFile({
+        url: e,
+        success: function success(res) {
+          if (res.statusCode === 200) {
+            uni.saveImageToPhotosAlbum({
+              filePath: res.tempFilePath,
+              success: function success() {
+                uni.showToast({
+                  title: "保存成功",
+                  icon: "none" });
+
+              },
+              fail: function fail() {
+                uni.showToast({
+                  title: "保存失败，请稍后重试",
+                  icon: "none" });
+
+              } });
+
+          }
+        } });
+
     },
     copyBT: function copyBT(e) {
       uni.setClipboardData({

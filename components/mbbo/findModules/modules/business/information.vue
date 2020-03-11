@@ -561,7 +561,7 @@ export default {
 .information-hea-img {
 	min-width: 226upx;
 	height: 166upx;
-	background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+	background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
 	background-size: 100% 100%;
 }
 .information-hea-img > image {
