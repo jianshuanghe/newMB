@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"accountCenter-content.",[1],"data-v-24a13860 { position: fixed; width: 100%; min-height: 100vh; background: #cccccc14; }\n",],undefined,{path:"./modules/myCompany/personAndCompany/accountCenter/accountCenter.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/myCompany/personAndCompany/accountCenter/accountCenter.wxml') } }));

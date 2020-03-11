@@ -26,6 +26,7 @@
 			@tap-Publish='tapPublish'
 			@bottomTap='bottomTap'
 			@botPhone='botPhone'
+			@tap-Consult-Bot='tapConsultBot'
 		></bottom>
 		<!-- <div class="nijap" @tap="asd()"></div> -->
 	</div>
@@ -231,6 +232,10 @@
 			tapPublish () {
 				// console.log('用户触发发布按钮');
 				this.submitData('1');
+			},
+			// 用户触发立即咨询按钮
+			tapConsultBot(e){
+				this.$emit('tap-Consult', e);
 			},
 			// 提交说明书
 			submitData (type) {

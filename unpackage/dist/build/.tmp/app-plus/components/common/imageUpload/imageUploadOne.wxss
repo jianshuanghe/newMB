@@ -1,0 +1,80 @@
+
+.imageUploadContainer{
+	float: right;
+}
+.dragging{
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2)
+}
+.imageUploadList{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.imageItem, .imageUpload{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius:50% ;
+}
+.imageUploads{
+	width: 300rpx;
+	height: 80rpx;
+	border-radius:50% ;
+}
+.imageDel{
+	position: relative;
+	left: 60rpx;
+	bottom: 110rpx;
+	background-color: rgba(0,0,0,0.5);
+	width: 36rpx;
+	text-align: center;
+	line-height: 34rpx;
+	border-radius: 50%;
+	color: white;
+	font-size: 30rpx;
+	padding-bottom: 2rpx;
+}
+.imageDels{
+	position: relative;
+	left: 194rpx;
+	bottom: 240rpx;
+	background-color: rgba(0,0,0,0.5);
+	width: 36rpx;
+	text-align: center;
+	line-height: 34rpx;
+	border-radius: 50%;
+	color: white;
+	font-size: 30rpx;
+	padding-bottom: 2rpx;
+}
+.imageItem image, .moveImage{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 8rpx;
+}
+.imageUpload{
+	line-height: 86rpx;
+	text-align: center;
+	font-size: 150rpx;
+	color: #D9D9D9;
+	border: 1px solid #D9D9D9;
+	border-radius: 8rpx;
+	opacity: 0;
+	z-index: 50;
+}
+.imageUploads{
+	line-height: 86rpx;
+	text-align: center;
+	font-size: 150rpx;
+	color: #D9D9D9;
+	border: 1px solid #D9D9D9;
+	border-radius: 8rpx;
+	opacity: 0;
+	z-index: 50;
+}
+.moveImage{
+	position: absolute;
+}
+

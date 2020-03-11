@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "input-box": "/components/common/RHX/inputBox/inputBox",
+    "textarea-box": "/components/common/RHX/textareaBox/textareaBox"
+  },
+  "component": true
+}

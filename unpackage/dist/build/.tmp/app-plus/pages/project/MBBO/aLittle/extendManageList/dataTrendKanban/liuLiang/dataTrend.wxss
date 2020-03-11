@@ -1,0 +1,283 @@
+
+.time-items {
+	position: relative;
+	padding: 3vw;
+	margin: auto;
+	padding-top: 2vw;
+	background: #fff;
+}
+.RTI-box {
+	position: relative;
+	width: 17%;
+	/* margin-left: 32upx; */
+}
+.time-items-box>view:nth-of-type(5){
+	margin-left: 30rpx!important;
+	/* width: 170upx; */
+}
+.RTI-boxIte {
+	position: relative;
+	width: 27% !important;
+}
+.line-YY{
+	position: absolute;
+    right: 4vw;
+    height: 52%;
+    width: 2rpx;
+    background: rgba(14, 14, 14, 0.12);
+    top: 16rpx;
+}
+.active-tapRTI {
+	color: #2e2e30 !important;
+	font-weight: bold;
+	background: #e2e2e2!important;
+	border-radius: 26rpx;
+	/* padding-left: 20upx;
+	padding-right: 20upx; */
+}
+.RTI-box-top {
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #9b9b9b;
+	line-height: 44rpx;
+	text-align: center;
+}
+.RTI-box-top>image{
+	width: 24rpx;
+	height: 24rpx;
+	padding-top: 10rpx;
+	display: block;
+	float: left;
+	padding-left: 10rpx;
+}
+.RTI-box-bot {
+	margin-top: 10rpx;
+	background: #02c2a2;
+	border-radius: 100px;
+	position: relative;
+	width: 40rpx;
+	height: 4rpx;
+	margin: auto;
+}
+uni-picker {
+	display: inline-block !important;
+}
+.line-box {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 2vw;
+	padding-bottom: 4vw;
+}
+/*样式的width和height一定要与定义的cWidth和cHeight相对应*/
+.qiun-charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #ffffff;
+}
+.charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #ffffff;
+}
+.scroll-view_H {
+	white-space: nowrap;
+	width: 207vw;
+	height: 10vw;
+}
+.scroll-view-item {
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+	font-size: 36rpx;
+}
+.scroll-view-item_H {
+	display: inline-block;
+	width: 100%;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+	font-size: 36rpx;
+}
+.content {
+	position: relative;
+	width: 100vw;
+	margin-top: 2vw;
+}
+.data-box {
+	position: relative;
+}
+.kanban-box {
+	position: relative;
+	padding: 0vw 3vw 0vw 3vw;
+	margin: auto;
+	padding-top: 6vw;
+	background: #fff;
+}
+.title-box {
+	position: relative;
+	width: 100%;
+}
+.title {
+	position: relative;
+}
+.title > ._p {
+	position: relative;
+	width: 100%;
+	font-family: PingFang-SC-Bold;
+	font-size: 4.26vw;
+	color: #2e2e30;
+	line-height: 6vw;
+}
+.screen-date {
+	position: relative;
+	width: 100%;
+	/* float: right; */
+}
+.screen-date > ._p {
+	position: relative;
+	width: 100%;
+	ont-family: PingFangSC-Regular;
+	font-size: 3.2vw;
+	color: #9b9b9b;
+	text-align: center;
+	line-height: 6vw;
+}
+.screen-item2 {
+	color: #02c2a2;
+	padding-left: 10rpx;
+}
+.screen-item1 {
+	color: #ff4d6a;
+	/* text-decoration: underline; */
+}
+.screen-image1{
+	padding-left: 6rpx;
+	padding-right: 10rpx;
+}
+.screen-image1>image{
+	width: 24rpx;
+	height: 22rpx;
+}
+.vs {
+	color: #000 !important;
+}
+.right-arrow {
+	position: relative;
+	width: 2vw;
+	height: 2vw;
+}
+.tongji-box {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.item-tj {
+	width: 100vw;
+	line-height: 2rem;
+	overflow: auto;
+}
+.tongji-item {
+	position: relative;
+	width: 23vw;
+}
+.tongji-item {
+	min-width: 23vw !important;
+}
+.items-YY {
+	position: relative;
+	width: 80%;
+}
+.tj-num {
+	font-family: PingFangSC-Medium;
+	font-size: 4.26vw;
+	color: #2e2e30;
+	letter-spacing: 0;
+	line-height: 5vw;
+}
+.tj-text {
+	position: relative;
+	width: 100%;
+	ont-family: PingFangSC-Regular;
+	font-size: 3.2vw;
+	color: #9b9b9b;
+	line-height: 6vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.trend {
+	position: relative;
+	width: 100%;
+	padding: 5vw 0vw  0vw  0vw;
+	background: #fff;
+	/* margin-bottom: 1.5vw; */
+	/* margin-left: 304upx; */
+}
+.trend > view {
+	position: relative;
+	width: 100%;
+	margin-top: 2vw;
+}
+.echartLine {
+	height: 300px;
+}
+.echartTab ._span.on {
+	background: #02c2a2;
+	color: #fff;
+}
+.echartTab ._span {
+	height: 24px;
+	line-height: 24px;
+	width: 33.33333333%;
+	border-radius: 34px;
+}
+.echartTab {
+	height: 24px;
+	background: #d4fdf7;
+	border-radius: 34px;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	text-align: center;
+	font-family: PingFangSC-Medium;
+	font-size: 12px;
+	color: #2e2e30;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	margin: 15px;
+}
+.rightArrow {
+	position: relative;
+	width: 2.5vw;
+	height: 2.5vw;
+}
+.screenBtn {
+	position: absolute;
+	right: 0;
+	width: 11vw;
+	height: 5vw;
+	margin-top: -5vw;
+	opacity: 0;
+}
+.leftBTN {
+	left: 1.5vw;
+}
+.rightBTN {
+	right: -1.5vw;
+}
+.screenBtn1 {
+	position: absolute;
+	width: 12vw;
+	height: 6vw;
+	/* margin-top: -5vw; */
+	opacity: 0;
+}
+picker {
+	display: inline-block !important;
+}
+

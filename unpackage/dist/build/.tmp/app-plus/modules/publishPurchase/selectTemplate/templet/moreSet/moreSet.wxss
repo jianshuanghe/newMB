@@ -1,0 +1,149 @@
+
+.switch-box{
+	position: relative;
+	width: 160rpx;
+	height: 60rpx;
+	margin-top: 30rpx;
+	background: #EFEFEF;
+	border-radius: 4rpx;
+	float: right;
+	font-family: PingFangSC-Regular;
+	font-size: 28rpx;
+	letter-spacing: 0;
+	line-height: 60rpx;
+	text-align: center;
+}
+.switch-left{
+	position: relative;
+	width: 80rpx;
+	height: 60rpx;
+	background: #02C2A2;
+	border-radius: 4rpx;
+	color: #FFFFFF;
+}
+.switch-right{
+	position: relative;
+	width: 80rpx;
+	color: #9B9B9B;
+}
+.moreSet-content{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: #f9f9f9;
+	top: 0;
+	z-index: 998;
+}
+.rightMH{
+	position: relative;
+	float: right;
+}
+.closeTitle{
+	top: 0;
+	height: 88rpx;
+	width: 750rpx;
+	background: #FFFFFF;
+	box-shadow: 0 1px 0 0 #F5F5F5;
+	font-family: PingFangSC-Medium;
+	font-size: 32rpx;
+	color: #2E2E30;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 88rpx;
+	z-index: 99;
+}
+.close{
+	position: absolute;
+	top: 28rpx;
+	width: 32rpx;
+	height: 32rpx;
+	left: 30rpx;
+}
+.moreSet{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	padding:0 3vw;
+	margin-top: 2vw;
+}
+.moreSet-items{
+	position: relative;
+	width: 100%;
+}
+.MS-left{
+	position: relative;
+	width: 50%;
+}
+.MS-left>._p{
+	font-family: PingFangSC-Regular;
+	font-size: 28rpx;
+	color: #2E2E30;
+	line-height: 120rpx;
+}
+.MS-right{
+	position: relative;
+	width: 50%;
+}
+.right-box{
+	position: relative;
+	float: right;
+	width: 100%;
+}
+.right-text{
+	position: relative;
+	font-family: PingFangSC-Regular;
+	font-size: 28rpx;
+	color: #2E2E30;
+	text-align: right;
+	line-height: 120rpx;
+}
+.right-quick-arrow {
+	position: relative;
+	width: 9%;
+	margin-left: 16rpx;
+}
+.right-quick-arrow > ._img {
+	position: relative;
+	width: 18rpx;
+	margin-top: 7vw;
+	height: 18rpx;
+	float: right;
+}
+.BIF-bottom {
+	position: fixed;
+	width: 100%;
+	padding: 1.5vw 4vw 1.5vw 4vw;
+	bottom: 0;
+	z-index: 105;
+	background: #fff;
+}
+.BIF-btn {
+	position: relative;
+	width: 100%;
+	background: #02c2a2;
+	border-radius: 2px;
+	font-family: PingFangSC-Regular;
+	font-size: 3.733vw;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 12vw;
+}
+.waterMark{
+	position: absolute;
+	bottom: 19vw;
+	width: 100%;
+	background: #F9F9F9;
+}
+.textMark{
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #bdbdbd;
+	text-align: center;
+	line-height: 80rpx;
+	padding: 10vh 0 0;
+}
+.uni-picker-container .uni-picker-action.uni-picker-action-confirm{
+	color: #02c2a2 !important;
+}
+

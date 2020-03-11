@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "custom-time": "/modules/InstructionsPrice/Purchase/Purchase-details/dataReport/dataTrendKanban/liuLiang/customTime"
+  },
+  "component": true
+}

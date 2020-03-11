@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cust-title-add": "/components/common/RHX/madeCustModule/madeCustTitleXModule/custTitleAdd/custTitleAdd"
+  },
+  "component": true
+}

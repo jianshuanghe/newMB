@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "business-service": "/components/mbbo/findModules/modules/business/businessService",
+    "capital": "/components/mbbo/findModules/modules/business/capital",
+    "information": "/components/mbbo/findModules/modules/business/information",
+    "purchase": "/components/mbbo/findModules/modules/business/Purchase",
+    "supply": "/components/mbbo/findModules/modules/business/supply",
+    "recommend": "/components/mbbo/findModules/modules/business/Recommend",
+    "follow": "/components/mbbo/findModules/modules/business/follow"
+  },
+  "component": true
+}

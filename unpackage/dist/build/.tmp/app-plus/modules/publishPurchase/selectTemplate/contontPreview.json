@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "preview-simple": "/modules/publishPurchase/selectTemplate/templet/previewSimple",
+    "preview-general": "/modules/publishPurchase/selectTemplate/templet/previewGeneral"
+  },
+  "component": true
+}

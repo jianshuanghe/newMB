@@ -248,6 +248,10 @@
 	.oBorder{
 	    border: none;
 	}
+	.input-items{
+		position: relative;
+		width: 100%;
+	}
 	.input-items1{
 		position: relative;
 		width: 100%;

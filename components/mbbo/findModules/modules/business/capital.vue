@@ -200,6 +200,7 @@
 		position: relative;
 		width: 100%;
 		margin-top: 26upx;
+		
 	}
 	.FI-cont .ImageBox1{
 		position: relative;

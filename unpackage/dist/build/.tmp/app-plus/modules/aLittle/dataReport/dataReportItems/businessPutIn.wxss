@@ -1,0 +1,206 @@
+
+.content-quick.data-v-322fe1f7 {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: 99999;
+	top: 0;
+}
+.mask-popup.data-v-322fe1f7 {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: rgba(19, 9, 9, 0.59);
+}
+.BPI-box.data-v-322fe1f7 {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.business-putIn-box.data-v-322fe1f7 {
+	position: relative;
+	width: 86.933vw;
+	float: right;
+	background: #fff;
+	height: 100vh;
+}
+.buSiPi-top.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+	padding: 0 5vw 0 5vw;
+}
+.BSP-title.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+}
+.BSP-title.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+}
+.BSP-title > ._p.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+	font-family: PingFang-SC-Medium;
+	font-size: 3.733vw;
+	color: #2e2e30;
+	letter-spacing: 0;
+	line-height: 10vw;
+}
+.BSP-check.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+}
+.B-check-items.data-v-322fe1f7 {
+	position: relative;
+	width: 30%;
+}
+.check-items.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+}
+.items-ch-box.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+}
+.check-img.data-v-322fe1f7 {
+	position: relative;
+	width: 20%;
+}
+.check-img > ._img.data-v-322fe1f7 {
+	position: relative;
+	width: 4vw;
+	height: 4vw;
+	margin-top: 4vw;
+}
+.check-text.data-v-322fe1f7 {
+	position: relative;
+	width: 80%;
+}
+.check-text > ._p.data-v-322fe1f7 {
+	font-family: PingFang-SC-Medium;
+	font-size: 3.5vw;
+	color: #5d5d5d;
+	letter-spacing: 0;
+	line-height: 12vw;
+}
+.BSP-items.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+	padding: 4vw 1vw 0 5vw;
+	overflow: scroll;
+	max-height: 85vh;
+	-webkit-overflow-scrolling: touch;
+}
+.MIL-item.data-v-322fe1f7 {
+	position: relative;
+	width: 50%;
+}
+.items-bsp-check.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+	margin-bottom: 2vw;
+}
+.bsp-items.data-v-322fe1f7 {
+	position: relative;
+	width: 90%;
+	border-radius: 2px;
+}
+.checkedItems.data-v-322fe1f7 {
+	background: #12f3cd40 !important;
+	color: #02c2a2 !important;
+}
+.checkAll ._p.data-v-322fe1f7 {
+	background: #12f3cd40 !important;
+	color: #02c2a2 !important;
+}
+.bsp-items > ._p.data-v-322fe1f7 {
+	padding: 0 2vw 0 2vw;
+	background: #f9f9f9;
+	color: #5d5d5d;
+	font-family: PingFang-SC-Medium;
+	font-size: 3.5vw;
+	letter-spacing: 0;
+	line-height: 9vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.checked-bsp-img.data-v-322fe1f7 {
+	position: absolute;
+	bottom: 0;
+	right: 0vw;
+	width: 4.8vw;
+	height: 4.8vw;
+}
+.checkedItemsBg.data-v-322fe1f7 {
+	background: url('http://style.iambuyer.com/mbc/home/extendManageList/dataReport/checkedItems.png') no-repeat center center;
+	background-size: 100% 100%;
+}
+.checked-bsp-img > ._img.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+	display: none;
+}
+.BSP-button.data-v-322fe1f7 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 106;
+	background: #fff;
+}
+.btn-bsp.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+	padding: 0 0vw 0 5vw;
+}
+.close-bsp.data-v-322fe1f7 {
+	position: relative;
+	width: 5%;
+}
+.close-img.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+}
+.close-img > ._img.data-v-322fe1f7 {
+	position: relative;
+	width: 4.16vw;
+	height: 4.16vw;
+	margin-top: 3vw;
+}
+.reset-bsp.data-v-322fe1f7 {
+	position: relative;
+	width: 40%;
+}
+.reset-box.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+}
+.reset-box > ._p.data-v-322fe1f7 {
+	position: relative;
+	font-family: PingFangSC-Regular;
+	font-size: 3.733vw;
+	color: #2e2e30;
+	letter-spacing: 0;
+	line-height: 10vw;
+	text-align: center;
+}
+.confirm-bsp.data-v-322fe1f7 {
+	position: relative;
+	width: 45%;
+	float: left;
+}
+.confirm-box.data-v-322fe1f7 {
+	position: relative;
+	width: 100%;
+	background: #02c2a2;
+}
+.confirm-box > ._p.data-v-322fe1f7 {
+	position: relative;
+	font-family: PingFangSC-Regular;
+	font-size: 3.733vw;
+	color: #fff;
+	letter-spacing: 0;
+	line-height: 10vw;
+	text-align: center;
+}
+

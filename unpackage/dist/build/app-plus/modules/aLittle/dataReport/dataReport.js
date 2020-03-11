@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"dataReport_content.",[1],"data-v-1e450de8 { position: relative; width: 100%; min-height: 100vh; background: #f6f6f6; }\n.",[1],"right-arrow.",[1],"data-v-1e450de8 { position: relative; width: 2vw; }\n.",[1],"rightArrow.",[1],"data-v-1e450de8 { position: relative; width: 3.2vw; top: 0.6vw; }\n",],undefined,{path:"./modules/aLittle/dataReport/dataReport.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/aLittle/dataReport/dataReport.wxml') } }));

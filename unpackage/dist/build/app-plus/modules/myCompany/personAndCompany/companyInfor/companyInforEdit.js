@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"companyInfor-content.",[1],"data-v-5ee3c080{ position: relative; width: 100%; }\n",],undefined,{path:"./modules/myCompany/personAndCompany/companyInfor/companyInforEdit.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/myCompany/personAndCompany/companyInfor/companyInforEdit.wxml') } }));

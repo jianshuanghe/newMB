@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "whole": "/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/Already/Already-whole",
+    "product": "/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/Already/Already-product",
+    "information": "/modules/myCompany/myBuyeronAlready/my-BuyeronAlready/Already/Already-information"
+  },
+  "component": true
+}

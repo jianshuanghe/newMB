@@ -1,0 +1,15 @@
+
+.mode-list{
+	position: relative;
+	width: 100%;
+	background: #FFFF;
+}
+.Title-Boxs{
+	padding: 0 3.2vw;
+}
+.mode-items{
+	position: relative;
+	width: 100%;
+	padding-bottom: 40rpx;
+}
+
