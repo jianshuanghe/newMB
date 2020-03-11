@@ -85,7 +85,7 @@
 					let URL = this.addBtnLists.btnLeft.url;
 					let url = URL.slice(0,8);
 					console.log(url);
-					if (String(this.addBtnLists.btnLeft.type) !== '1') {
+					if (String(this.addBtnLists.btnLeft.type) !== '1' && String(this.addBtnLists.btnLeft.type) !== '3') {
 						if(url.indexOf('https://') != -1 || url.indexOf('http://') != -1){
 							console.log('链接填写正确');
 							this.addBtnLists.btnLeft.type = this.addType;
@@ -124,8 +124,8 @@
 					};
 					let URL = this.addBtnLists.btnRight.url;
 					let url = URL.slice(0,8);
-					console.log(url);
-					if (String(this.addBtnLists.btnRight.type) !== '1') {
+					console.log(url, this.addBtnLists.btnRight.type);
+					if (String(this.addBtnLists.btnRight.type) !== '1' && String(this.addBtnLists.btnLeft.type) !== '3') {
 						if(url.indexOf('https://') != -1 || url.indexOf('http://') != -1){
 							console.log('链接填写正确');
 							this.addBtnLists.btnRight.type = this.addType;

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "module-icon-library": "/components/common/RHX/moduleIconLibrary/moduleIconLibrary",
+    "module-items": "/components/common/RHX/moduleItems/moduleItems"
+  },
+  "component": true
+}

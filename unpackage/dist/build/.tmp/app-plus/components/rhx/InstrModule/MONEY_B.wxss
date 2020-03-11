@@ -1,0 +1,24 @@
+
+.mode-list{
+	background: #FFFFFF;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.money{
+	margin-left: 40rpx;
+	font-family: PingFangSC-Medium;
+	font-size: 36rpx;
+	color: #FF3A2E;
+	letter-spacing: 0;
+	line-height: 36rpx;
+}
+.content-money{
+	max-width: 30%;
+}
+

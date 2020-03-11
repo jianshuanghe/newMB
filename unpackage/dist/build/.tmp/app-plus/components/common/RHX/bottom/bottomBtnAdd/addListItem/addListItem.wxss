@@ -1,0 +1,55 @@
+
+.addListItem-content{
+	position: relative;
+	width: 100%;
+	margin-top: 4vw;
+}
+.addListItem{
+	position: relative;
+	width: 100%;
+}
+.items{
+	position: relative;
+	width: 33.333%;
+	padding: 0 2vw;
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #02C2A2;
+	text-align: center;
+	line-height: 80rpx;
+	margin-bottom: 4vw;
+}
+.itemsText-img{
+	position: relative;
+	width: 100%;
+	padding: 0 2vw;
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #02C2A2;
+	text-align: center;
+	line-height: 80rpx;
+	background: #FFFFFF;
+	border: 2rpx solid #02C2A2;
+	border-style: dashed;
+}
+.itemsText-img1{
+	position: relative;
+	width: 100%;
+	padding: 0 2vw;
+	font-family: PingFangSC-Regular;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 80rpx;
+	background: #02C2A2 ;
+	border: 2rpx solid #02C2A2;
+	border-style: '';
+}
+.JianTou{
+	position: absolute;
+	width: 18rpx;
+	height: 12rpx;
+	top: 36rpx;
+	right: 16rpx;
+}
+

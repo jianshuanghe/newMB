@@ -1,0 +1,8 @@
+
+.accountCenter-content.data-v-24a13860 {
+	position: fixed;
+	width: 100%;
+	min-height: 100vh;
+	background: #cccccc14;
+}
+

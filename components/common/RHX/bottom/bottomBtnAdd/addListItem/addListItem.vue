@@ -30,7 +30,7 @@
 		],
 		data() {
 			return {
-				noClickImg:  this.Static+'my/biao.png', // 不可点击按钮箭头
+				noClickImg:  this.Static+'my/Image4.png', // 不可点击按钮箭头
 				imgSjUp:  this.Static+'my/Image3.png', // 朝上箭头
 				down: this.Static+'my/Image2.png', // 朝下箭头
 				imgSjDown:  this.Static+'my/Image2.png', // 默认朝下箭头
@@ -41,6 +41,11 @@
 					borderStyle: 'dashed'
 				},
 				addListItem: [ // value: 0 URL  1、立即定制 2、立即购买 3、立即咨询 4、立即询价
+					{
+						name: '立即咨询',
+						value: 3,
+						allowAdd: true, // 是否允许添加
+					},
 					{
 						name: '立即定制',
 						value: 1,
@@ -91,13 +96,14 @@
 				// 	console.log(item.type, '筛选出已添加的按钮类型');
 				// })
 				for (let i in e) {
-					// console.log(e[i].type, '子项');
-					if (typeof(e[i]) !== 'object' && e[i].length > 0) {
+					console.log(e[i].type, '子项');
+					if (e[i].type !== 'undefined') {
 						console.log(e[i].type, '筛选出已添加的按钮类型');
 						if (this.activeAdd !== e[i].add) { // 不是当前编辑下的按钮
 							if (e[i].name !== ''){
 								this.addListItem.map((items, index)=>{
 									if (items.value === e[i].type) {
+										console.log(items, '查看')
 										items.allowAdd = false; // 此项不允许添加
 									}
 								})
@@ -168,9 +174,15 @@
 					if (this.addBtnList.btnLeft) {
 						this.addBtnList.btnLeft.type = this.active;
 					}
+					if (this.addBtnList.btnLeft.type === 3) {
+						this.addBtnList.btnLeft.name = '立即咨询'
+					}
 				} else if (this.addBtnList.activeAdd === 1) { // 右侧按钮
 					if (this.addBtnList.btnRight) {
 						this.addBtnList.btnRight.type = this.active;
+					}
+					if (this.addBtnList.btnRight.type === 3) {
+						this.addBtnList.btnRight.name = '立即咨询'
 					}
 				}
 				console.log(this.active, '---------------this.active---------------');

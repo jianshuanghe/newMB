@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"myproduct-shu{ width: 100%; min-height: 100%; background: #FFFFFF; }\n",],undefined,{path:"./modules/InstructionsPrice/myproduct/myproduct-shu.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/InstructionsPrice/myproduct/myproduct-shu.wxml') } }));

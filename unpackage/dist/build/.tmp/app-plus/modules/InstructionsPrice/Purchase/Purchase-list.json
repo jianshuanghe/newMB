@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "purchaseagg-a": "/modules/InstructionsPrice/Purchase/Purchase-agg/Purchase-aggA",
+    "purchaseagg-b": "/modules/InstructionsPrice/Purchase/Purchase-agg/Purchase-aggB",
+    "purchaseagg-c": "/modules/InstructionsPrice/Purchase/Purchase-agg/Purchase-aggC",
+    "purchaseagg-d": "/modules/InstructionsPrice/Purchase/Purchase-agg/Purchase-aggD",
+    "purchaseagg-e": "/modules/InstructionsPrice/Purchase/Purchase-agg/Purchase-aggE",
+    "purchaseagg-f": "/modules/InstructionsPrice/Purchase/Purchase-agg/Purchase-aggF"
+  },
+  "component": true
+}

@@ -1,0 +1,25 @@
+
+.manageCopyTips-content{
+	position: relative;
+	width: 100%;
+	margin-top: 40rpx;
+	margin-bottom: 30rpx;
+}
+.manageCopyTips{
+	position: relative;
+	width: 440rpx;
+	margin: 0 auto;
+}
+.manage-box{
+	width: 190rpx;
+}
+.copy-box{
+	position: relative;
+	width: 190rpx;
+}
+.copy-manage-box{
+	position: relative;
+	width: 190rpx;
+	margin: auto;
+}
+

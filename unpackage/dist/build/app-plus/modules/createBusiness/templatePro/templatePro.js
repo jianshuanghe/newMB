@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"templatePro-content{ position: relative; width: 100%; }\n.",[1],"templatePro{ position: relative; width: 100%; }\n",],undefined,{path:"./modules/createBusiness/templatePro/templatePro.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/createBusiness/templatePro/templatePro.wxml') } }));

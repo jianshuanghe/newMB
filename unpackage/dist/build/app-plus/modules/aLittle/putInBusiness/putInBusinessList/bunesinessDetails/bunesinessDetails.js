@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content-BunessDetails.",[1],"data-v-851afcb2 { position: relative; width: 100%; min-height: 100vh; background: #f6f6f6; }\n.",[1],"detailsPutIn-Box-Cont.",[1],"data-v-851afcb2 { position: relative; width: 100%; min-height: 97vh; }\n",],undefined,{path:"./modules/aLittle/putInBusiness/putInBusinessList/bunesinessDetails/bunesinessDetails.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/aLittle/putInBusiness/putInBusinessList/bunesinessDetails/bunesinessDetails.wxml') } }));

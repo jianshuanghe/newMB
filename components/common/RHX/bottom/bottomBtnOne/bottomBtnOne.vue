@@ -139,6 +139,7 @@ import savePreviewBtn from '@/components/common/button/savePreviewBtn.vue';
 import businessStore from '@/components/common/RHX/bottom/businessStore/businessStore';
 import businessTel from '@/components/common/RHX/bottom/businessTel/businessTel';
 import bottomBtnAdd from '@/components/common/RHX/bottom/bottomBtnAdd/bottomBtnAdd';
+
 export default {
 	components: {
 		fixedBgBtn,
@@ -149,7 +150,7 @@ export default {
 		savePreviewBtn,
 		businessStore,
 		businessTel,
-		bottomBtnAdd
+		bottomBtnAdd,
 	},
 	props: ['disabled', 'idTemp', 'forcePreview', 'bbottom', 'routeParam', 'defaultAddImg', 'businessTemList', 'moduleDateList', 'moduleTempList'],
 	data() {
@@ -222,6 +223,8 @@ export default {
 				} else {
 					this.ftticon = this.love;
 				}
+				
+				this.judgeBtnShowType(!this.disabled)
 			},
 			deep: true
 		},
@@ -250,6 +253,7 @@ export default {
 			this.addBtnList.btnRight.url = userActionBtn.rightBtn.btnLink;
 			this.addBtnList.btnRight.custId = userActionBtn.rightBtn.custId;
 		}
+		
 	},
 	methods: {
 		tapReferBusiness(e){
@@ -277,6 +281,10 @@ export default {
 				uni.navigateTo({
 					url: '/modules/createBusiness/webView/webView?url=' + e.url
 				});
+			} else if (e.type === 3) {
+				console.log('立即咨询');
+				// this.addConsultShow = true;
+				this.$emit('tap-Consult-Btn', true);
 			}
 		},
 		tapStorePreview() {
@@ -334,6 +342,7 @@ export default {
 				// let LDel = this.addBtnList.btnLeft.delShow; // 左侧按钮删除按钮显示情况
 				let RName = this.addBtnList.btnRight.name; // 右侧按钮name值
 				// let RDel = this.addBtnList.btnRight.delShow; // 右侧按钮删除按钮显示情况
+				console.log(LName, RName, '判断左右是否存在按钮')
 				if (LName === '' && RName === '') {
 					// 左右都不填写
 					this.addBtnList.addBtnSHow = false; // 添加按钮组件整体不展示， 商机、电话、收藏铺满

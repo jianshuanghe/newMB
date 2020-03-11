@@ -18,6 +18,7 @@
 				:bbottom='bbottom'
 				:routeParam='routeParam'
 				:forcePreview='forcePreview'
+				@tap-Consult-Btn='tapConsultBtn'
 				@tap-RUpDataBusiness='tapRUpDataBusiness'
 				@tap-BottomBtnOne='tapBottomBtnOne'
 				@tap-BottomNum='tapBottomNum'
@@ -270,6 +271,10 @@
 			},
 			bottomPhone:function(asd){
 				this.$emit('botPhone',asd)
+			},
+			// 立即咨询组件
+			tapConsultBtn (e) {
+				this.$emit('tap-Consult-Bot',e)
 			},
 			// 用户操作完上层按钮返回的数据
 			tapBottomBtnOne(e) {

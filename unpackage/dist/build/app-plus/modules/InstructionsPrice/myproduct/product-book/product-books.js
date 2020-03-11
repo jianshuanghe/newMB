@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"product-books{ width: 100%; min-height: 100%; }\n",],undefined,{path:"./modules/InstructionsPrice/myproduct/product-book/product-books.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/InstructionsPrice/myproduct/product-book/product-books.wxml') } }));

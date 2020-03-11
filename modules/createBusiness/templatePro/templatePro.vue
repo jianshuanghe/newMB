@@ -20,24 +20,35 @@
 			@tap-SetFixedTemp='tapSetFixedTemp'
 			@tap-ModuleTemPro='tapModuleTemPro'></moduleTemPro>
 			<!-- 底部按钮区域 -->
-			<moduleBtnPro
-			:bottomLoca='bottomLoca'
-			:isEditTemp='isEditTemp'
-			:statusTemp='statusTemp'
-			:sourceTemp='sourceTemp'
-			:idTemp='Number(idTemp)'
-			:routeParam='routeParam'
-			:moduleTempList='moduleTempList'
-			:businessTemList='businessTemList'
-			:moduleDateList='moduleDateList'
-			:setFixedShow='setFixedShow'
-			:isNewsAShow='isNewsAShow'
-			@tap-UpDataBusiness='tapUpDataBusiness'
-			@tap-ModuleBtnPro='tapModuleBtnPro'></moduleBtnPro>
+			<div class="moduleBtnPro" :class="loadEnd ? 'show' : 'hide'">
+				<moduleBtnPro
+				:bottomLoca='bottomLoca'
+				:isEditTemp='isEditTemp'
+				:statusTemp='statusTemp'
+				:sourceTemp='sourceTemp'
+				:idTemp='Number(idTemp)'
+				:routeParam='routeParam'
+				:moduleTempList='moduleTempList'
+				:businessTemList='businessTemList'
+				:moduleDateList='moduleDateList'
+				:setFixedShow='setFixedShow'
+				:isNewsAShow='isNewsAShow'
+				@tap-Consult='tapConsult'
+				@tap-UpDataBusiness='tapUpDataBusiness'
+				@tap-ModuleBtnPro='tapModuleBtnPro'></moduleBtnPro>
+			</div>
 		</div>
 		
 		<!-- 快捷导航 -->
 		<navigation v-if="QUICKNAVCO.show"></navigation>
+		
+		<!-- 立即咨询 -->
+		<div class="addConsult-cont" v-if='addConsultShow'>
+			<addConsult
+			:routeParam='routeParam'
+			@tap-Consult='tapConsult'
+			></addConsult>
+		</div>
 	</div>
 </template>
 
@@ -45,6 +56,7 @@
 	import moduleTemPro from './moduleTemPro/moduleTemPro';
 	import moduleBtnPro from './moduleBtnPro/moduleBtnPro';
 	import navigation from '@/components/mbbo/navigation/navigation.vue';
+	import addConsult from '@/components/common/RHX/bottom/bottomBtnAdd/addConsult/addConsult';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
 		name: 'editQualificatCert',
@@ -52,6 +64,7 @@
 			moduleTemPro,
 			moduleBtnPro,
 			navigation,
+			addConsult
 		},
 		data() {
 			return {
@@ -72,6 +85,8 @@
 				moduleTempList: null, // 当前添加模块的数据------此数据是真实接口返回的数据
 				moduleCustTempList: null, // 特殊模板下拉去添加模块的数据----此数据真实接口返回
 				moduleAIDateList: null, // AI列表数据
+				loadEnd: false, // 判断是否加载完数据
+				addConsultShow: false, // 立即咨询组件
 			};
 		},
 		onLoad (optionParams) {
@@ -104,11 +119,11 @@
 				};
 				this.shareEachPage(); // 分享
 			} else if (this.sourceTemp === 1) { // 来源我的说明书列表，此处获取说明书详情
-				this.getBusinessList(this.routeParam.creatorId); // 拉去商家信息数据
 				this.getInstructionsList(this.routeParam);
+				this.getBusinessList(this.routeParam.creatorId); // 拉去商家信息数据
 			} else if (this.sourceTemp === 2) { // 来源平台，此处获取说明书详情
-				this.getBusinessList(this.routeParam.creatorId); // 拉去商家信息数据
 				this.getInstructionsList(this.routeParam);
+				this.getBusinessList(this.routeParam.creatorId); // 拉去商家信息数据
 				if (this.routeParam.sourceScan === 1) { // 是否来源扫码
 					if (uni.getStorageSync('landRegist')) {    
 						let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
@@ -192,6 +207,10 @@
 						// console.log(response.data, '---------------response.data--------------')
 						if (response.data.ret === '200') {
 							this.moduleDateList = response.data;
+							// console.log(this.moduleDateList.content.context.tempCon.userActionBtn.middleBtn, '---------------------8888888888--------------')
+							// let middleBtn = this.moduleDateList.content.context.tempCon.userActionBtn.middleBtn;
+							// middleBtn.btnType = 3;
+							// middleBtn.btnName = ''
 							if (Number(this.routeParam.instrucCustType)=== 1) {
 								this.getModuleTempList(id); // 根据id 拉去用户可添加的模块信息
 								this.getCustModuleTempList(id); 
@@ -407,6 +426,7 @@
 							setTimeout(() => {
 								_this.pageStatus = false,
 								uni.hideLoading(); // 隐藏 loading
+								this.loadEnd = true; // 加载完成
 							}, 150);
 						}  else if (response.data.ret === '202') {
 							uni.removeStorageSync('landRegist');
@@ -540,7 +560,8 @@
 						if (response.data.ret === '200') {
 							uni.hideLoading(); // 隐藏 loading
 							this.businessTemList = response.data;
-							this.loadEnd = true; // 加载完成
+							// this.loadEnd = true; // 加载完成
+							console.log('----------------------------================------------------')
 						} else if (response.data.ret === '202') {
 							uni.removeStorageSync('landRegist');
 							uni.removeStorageSync('clickItems');
@@ -609,6 +630,11 @@
 				this.sourceTemp = e.sourceTemp; // 从哪里进来的：0代表：模板列表，1代表：，2代表，3代表：.....
 				// this.moduleDateList = e.moduleDateList; // 当前模板的数据---------此数据是真实接口返回的数据
 			},
+			// 立即咨询组件
+			tapConsult(e) {
+				console.log('立即咨询组件');
+				this.addConsultShow = e;
+			}
 		}
 	};
 </script>

@@ -1,0 +1,11 @@
+
+.moduleItems-content{
+	position: relative;
+	width: 100%;
+	background: #fff;
+}
+.moduleItems{
+	position: relative;
+	width: 100%;
+}
+
