@@ -7,6 +7,11 @@
 			<view>直接留言</view>
 			<view>如您有任何疑问或者想咨询业务相关，请在下方留言，我们会尽快给您反馈哦～</view>
 		</view>
+		<view class="find-message-names">
+			<view>留言</view>
+			<view><textarea v-model="liu" maxlength="300" @blur='onBlurss' @confirm='onConfirmss' placeholder="请留下您相对我们说的话..."  placeholder-style="color: #BDBDBD;"/></view>
+			<view>{{liu.length}}/300</view>
+		</view>
 		<view class="find-message-name">
 			<view>姓名</view>
 			<view><input v-model="name" @blur='onBlur' @confirm='onConfirm' type="text" placeholder="如何称呼您？" placeholder-style="color: #BDBDBD;"/></view>
@@ -14,11 +19,6 @@
 		<view class="find-message-name">
 			<view>电话</view>
 			<view><input type="text" v-model="phone" @blur='onBlurs' @confirm='onConfirms' maxlength="11" placeholder="请留下您的联系方式..." placeholder-style="color: #BDBDBD;"/></view>
-		</view>
-		<view class="find-message-names">
-			<view>留言</view>
-			<view><textarea v-model="liu" maxlength="300" @blur='onBlurss' @confirm='onConfirmss' placeholder="请留下您相对我们说的话..."  placeholder-style="color: #BDBDBD;"/></view>
-			<view>{{liu.length}}/300</view>
 		</view>
 		<view class="find-message-but">
 			<view @tap="tijiao()">提交留言</view>
