@@ -561,7 +561,7 @@ export default {
 .information-hea-img {
 	min-width: 226upx;
 	height: 166upx;
-	background-image: url('../../../../../static/mbcImg/tabBar/background.png');
+	background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 	background-size: 100% 100%;
 }
 .information-hea-img > image {

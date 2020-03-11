@@ -42,7 +42,7 @@
 						<view>{{item.createTimeStr}}</view>
 					</view>
 				</view>
-				<view class="find-Purchase-con-two" v-if="item.instStyleType==1||item.instStyleType==3">
+				<view class="find-Purchase-con-two" @tap="gongying(item)" v-if="item.instStyleType==1||item.instStyleType==3">
 					<image :src="item.banner01" v-if="item.instStyleType==1"></image>
 					<view v-if="item.instStyleType==3" @tap="playphone(item.userPhone)">立即联系</view>
 				</view>
