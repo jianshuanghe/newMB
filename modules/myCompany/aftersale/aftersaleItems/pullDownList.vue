@@ -39,8 +39,8 @@ export default {
 			isUp:false,
 			cityList:this.cityLists,
 			currentIndex : 0,
-			addrName:'',
-			dataCount:''
+			addrName:this.cityLists[0].baiduAddrName,
+			dataCount:this.cityLists[0].dataCount
 		};
 	},
 	watch:{
@@ -68,6 +68,8 @@ export default {
 			console.log('我切换了城市',this.cityList[index]);
 			this.addrName = this.cityList[index].baiduAddrName;
 			this.dataCount = this.cityList[index].dataCount;
+			this.isUp = false;
+			this.isDown = true;
 			this.$emit('changeCityCode',this.cityList[index].baiduAddrCode)
 		}
 	},

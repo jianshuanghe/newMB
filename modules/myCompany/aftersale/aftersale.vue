@@ -78,7 +78,7 @@ export default {
 			bianji:bianji,
 			cityList:null,//我的售后网点-城市列表
 			list:null,//我的售后网点列表,
-			cityCode:'130'
+			cityCode:''
 		};
 	},
 	methods: {
@@ -88,10 +88,6 @@ export default {
 				let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 				console.log(landRegistLG.user.id);
 				// let params = {}; // 请求总数居时 参数为空
-				uni.showLoading({
-					// 展示loading
-					title: '加载中'
-				});
 				uni.request({
 					url:  this.api2 + '/rest-rp/aftersale/cityList?userId=760', //接口地址。
 					// data: params,
@@ -100,12 +96,10 @@ export default {
 						Authorization: 'Bearer ' + landRegistLG.token //将token放到请求头中
 					},
 					success: response => {
-						uni.hideLoading();
 						console.log(response.data.content,'下拉导航');
 						this.cityList = response.data.content;
 					},
 					fail: error => {
-						uni.hideLoading(); // 隐藏 loading
 						uni.showToast({
 							title: '网络繁忙，请稍后',
 							icon: 'none',
@@ -122,23 +116,18 @@ export default {
 				let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
 				console.log(landRegistLG.user.id);
 				// let params = {}; // 请求总数居时 参数为空
-				uni.showLoading({ // 展示loading
-					title: '加载中'
-				});
 				uni.request({
-					url:  this.api2 + '/rest-rp/aftersale/list?userId=760&page=1&ctiyCode='+this.cityCode, //接口地址。
+					url:  this.api2 + '/rest-rp/aftersale/list?userId=760&page=1&cityCode='+this.cityCode, //接口地址。
 					// data: params,
 					method: 'GET',
 					header: {
 						Authorization: "Bearer " + landRegistLG.token //将token放到请求头中
 					},
 					success: (response) => {
-						uni.hideLoading();
 						console.log(response.data.content.list,'我的售后网点列表');
 						this.list = response.data.content.list;
 					},
 					fail: (error) => {
-						uni.hideLoading(); // 隐藏 loading
 						uni.showToast({
 							title: '网络繁忙，请稍后',
 							icon: 'none',
@@ -158,7 +147,7 @@ export default {
 	created() {
 		this.aftersaleList();// 我的售后网点列表
 		this.getcitylist();// 我的售后网点-城市列表
-	}
+	},
 };
 </script>
 

@@ -20,10 +20,11 @@
 						</view>
 				</view>
 				<view class="list-item">
-					<view class="list-item-name">所在地区</view>
+					<view class="list-item-name">地址</view>
 					<view style="display: flex; align-items: center;" @click="clickMap">
-						<image class="address" :src="address"></image>
+						<image class="addressImg" :src="addressImg"></image>
 						<textarea
+						:value="address"
 						type="text" 
 						placeholder="点击选择" 
 						auto-height 
@@ -34,21 +35,19 @@
 						/>
 					</view>
 				</view>
-				<view class="list-item">
+				<!-- <view class="list-item">
 					<view class="list-item-name">详细地址</view>
-					<view style="display: flex; align-items: center;" @click="clickMap">
-						<!-- <image class="address" :src="address"></image> -->
+					<view style="display: flex; align-items: center;">
 						<textarea
 						type="text" 
 						placeholder="请输入详细地址" 
 						auto-height 
 						maxlength="50"
-						disabled
 						placeholder-style="font-family: PingFangSC-Regular;font-size: 28upx;color: #BDBDBD;letter-spacing: 0;line-height: 36upx;"
 						style="width: 500upx;font-family: PingFangSC-Regular;font-size: 14px;color: #2E2E30;letter-spacing: 0;line-height: 18px;"
 						/>
 					</view>
-				</view>
+				</view> -->
 				<view class="list-item">
 					<view class="list-item-name">联系电话</view>
 					<view>
@@ -111,7 +110,7 @@
 <script>
 import topBox from '@/components/mbbo/topBox/topBox';
 import createsale from '@/modules/myCompany/aftersale/aftersaleItems/createSale';
-import address from '@/static/mbcImg/images/business/home/aftersale/地址-黑1.png';
+import addressImg from '@/static/mbcImg/images/business/home/aftersale/地址-黑1.png';
 import deleteImg from '@/static/mbcImg/common/pinDao/delete.png';
 export default {
 	name: 'aftermarket',
@@ -121,10 +120,11 @@ export default {
 	},
 	data() {
 		return {
-			address: address,
+			addressImg: addressImg,
 			deleteImg: deleteImg,
+			address:'',//地址
 			userId:'',//用户ID
-			baiduCcode:'',//城市地址
+			baiduAddrCode:'',//百度城市码
 			aftersaleTime:'',//营业时间
 			aftersaleSerivce:[],//服务
 			aftersalePhone:'',//电话
@@ -140,7 +140,7 @@ export default {
 		clickMap(){
 			console.log('跳转地图');
 			uni.navigateTo({
-			    url: './mapsale'
+			    url: './mapsale?address='+this.address+''
 			});
 		},
 		// 更改名称
@@ -168,8 +168,57 @@ export default {
 		blurSer(e){
 			console.log(e)
 			this.service.push(e);
+		},
+		//保存按钮
+		toNewsale(){
+			console.log('点击了保存按钮',this.address);
+			let params = {
+				"aftersaleAddr":this.address,
+				"aftersaleLatitude":this.aftersaleLatitude,
+				"aftersaleLongitude":this.aftersaleLongitude,
+				"aftersaleName":this.aftersaleName,
+				"aftersalePhone":this.aftersalePhone,
+				"aftersaleSerivce":this.service,
+				"aftersaleTime":this.aftersaleTime,
+				"baiduCcode":this.baiduAddrCode,
+				"userId":'760'
+			}; // 请求总数居时 参数为空
+			if (!uni.getStorageSync('landRegist')) {
+				this.landRegistra(); // 判断登录状态
+			} else if (uni.getStorageSync('landRegist')) {
+				let landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
+				console.log(landRegistLG.user.id);
+				uni.request({
+					url:  this.api2 + '/rest-rp/aftersale/add', //接口地址。
+					data: params,
+					method: 'POST',
+					header: {
+						Authorization: "Bearer " + landRegistLG.token //将token放到请求头中
+					},
+					success: (res) => {
+						console.log(res)
+						uni.navigateTo({
+							url: './aftersale'
+						});
+					},
+					fail: (error) => {
+						uni.showToast({
+							title: '网络繁忙，请稍后',
+							icon: 'none',
+							duration: 1000
+						});
+						console.log(error, '网络繁忙，请稍后');
+					}
+				})
+			}
+			
 		}
 		
+	},
+	onShow() {
+		console.log('页面显示了');
+		let pages = getCurrentPages();
+		console.log(pages,'返回的页面的数据')
 	},
 	created() {
 		
@@ -201,7 +250,7 @@ export default {
 	height: 36upx;
 	margin-right: 30upx;
 }
-.address {
+.addressImg {
 	width: 32upx;
 	height: 32upx;
 	margin-right: 10upx;
