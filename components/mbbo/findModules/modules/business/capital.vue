@@ -206,6 +206,10 @@
 		width: 100%;
 		height: 340upx;
 	},
+	.ImageBox1{
+		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
+		background-size: 100% 100%;
+	}
 	.FI-cont .ImageBox1>image{
 		width: 100%;
 		height: 100%;
