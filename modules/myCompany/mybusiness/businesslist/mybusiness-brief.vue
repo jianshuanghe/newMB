@@ -1,36 +1,42 @@
 <template>
 	<view class="mybusiness-brief">
 		<!-- 简介 -->
-		<view class="mybusiness-brief-con" :class="fold ? 'fold' : 'unfold'">
+		<view class="qiye-jie" v-if="datas.companyIntro!==''">企业介绍</view>
+		<view v-if="datas.companyIntro!==''" class="mybusiness-brief-con" :class="fold ? 'fold' : 'unfold'">
 			{{datas.companyIntro}}
 		</view>
-		<view class="show" @tap="handleFold" v-if="fold">查看更多 <image :src="downArrow"></image></view>
-		<view class="show" @tap="handleFold" v-if="!fold">收起全部<image :src="uparrow"></image></view>
-		<view class="mybusiness-brief-code">
-			<view class="mybusiness-brief-codes">
-				<view class="mybusiness-brief-codes-one">
-					<view class="mybusiness-brief-codes-er">
-						<image :src="erweima" class="erweima"></image>
-						<view class="mybusiness-brief-codes-er-img">
-							<image :src="datas.wechatQrImg" v-if="datas.wechatQrImg!==''"></image>
-							<image :src="erweimamo" mode="" v-if="datas.wechatQrImg==''"></image>
-						</view>
-					</view>
+		<view class="show" @tap="handleFold" v-if="fold&&datas.companyIntro!==''">查看更多 <image :src="downArrow"></image></view>
+		<view class="show" @tap="handleFold" v-if="!fold&&datas.companyIntro!==''">收起全部<image :src="uparrow"></image></view>
+		<view class="mybusiness-brief-code" :class="datas.companyIntro==''?'codex':''" v-if="datas.wechatQrImg!==''||datas.contactTelphone==''||datas.addressDetail!==''||datas.contactEmail!==''">
+			<view class="brief-newcode" v-if="datas.wechatQrImg!==''">
+				<view class="brief-newcode-one">
+					<view>微信公众号</view>
+					<view>长按识别二维码</view>
 				</view>
-				<view class="mybusiness-brief-codes-two">
-					长按识别图中二维码<br/>
-					若无法识别，请复制链接在微信中打开
+				<view class="brief-newcode-two">
+					<image :src="datas.wechatQrImg"></image>
 				</view>
 			</view>
-			<view class="mybusiness-brief-Tips">
-				<view>{{datas.contactTelphone}}</view>
-				<view>{{datas.contactEmail}}</view>
-				<view>
-					<text>{{datas.addressDetail}}</text>
-					<!-- 复制功能在h5中不适用 -->
-					<!-- #ifdef MP -->
-					<span class="mybusiness-brief-Tipss" @tap="copyBT(datas.addressDetail);">复制</span>
-					<!-- #endif -->
+			<view class="brief-newcode" v-if="datas.contactTelphone!==''">
+				<view class="brief-newcode-one">
+					<view>练习电话</view>
+					<view>{{datas.contactTelphone}}<span style="padding-left: 20upx;" @tap="playphone(datas.contactTelphone)">拨打电话</span></view>
+				</view>
+			</view>
+			<view class="brief-newcode" v-if="datas.contactEmail!==''">
+				<view class="brief-newcode-one">
+					<view>联系邮箱</view>
+					<view>{{datas.contactEmail}}</view>
+				</view>
+			</view>
+			<view class="brief-newcode" v-if="datas.addressDetail!==''">
+				<view class="brief-newcode-one">
+					<view>联系地址</view>
+					<view>{{datas.addressDetail}}
+						<!-- #ifdef MP -->
+						<span style="padding-left: 20upx;" @tap="copyBT(datas.addressDetail);">复制地址</span>
+						<!-- #endif -->
+					</view>
 				</view>
 			</view>
 		</view>
@@ -73,10 +79,52 @@
 			handleFold(){
 				this.fold = !this.fold
 			},
-			phone(e){
+			playphone(e){
 				uni.makePhoneCall({
 					phoneNumber: e //仅为示例
 				});
+			},
+			addpick(e){
+				console.log(e)
+				if (this.isSaveBtn === true) {
+					this.dataLists.map((items, index)=>{
+						let url = "https://" + items.split('://')[1];
+						items = url;
+						if (Number(index) === Number(this.tabIndex)) {
+							uni.downloadFile({
+								url: items,
+								success: function (res) {
+									console.log(res, '||||||||||||||')
+									// h5
+									// #ifdef H5
+									var url = res.tempFilePath;                            // 获取图片地址
+									var a = document.createElement('a');          // 创建一个a节点插入的document
+									var event = new MouseEvent('click')           // 模拟鼠标click点击事件
+									a.download = '说明书二维码'                  // 设置a节点的download属性值
+									a.href = url;                                 // 将图片的src赋值给a节点的href
+									a.dispatchEvent(event);
+									uni.showToast({
+										"title":"保存成功",
+										duration:1000
+									})
+									// #endif
+									// #ifdef MP-WEIXIN || MP-TOUTIAO || MP-BAIDU || MP-ALIPAY
+									// 小程序
+									uni.saveImageToPhotosAlbum({        // 保存图片到本地
+										filePath: res.tempFilePath,     // 图片临时路径
+										success: function () { 
+											uni.showToast({
+												"title":"保存成功",
+												duration:1000
+											})
+										},
+									})
+									// #endif
+								}
+							});
+						}
+					});
+				};
 			},
 			copyBT(e){
 				uni.setClipboardData({
@@ -101,7 +149,7 @@
 		font-size: 14px;
 		color: #5D5D5D;
 		width: 90%;
-		margin: 50upx auto auto;
+		margin: 10upx auto auto;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		display: -webkit-box;
@@ -124,7 +172,12 @@
 	}
 	.mybusiness-brief-code{
 		width: 100%;
-		height: 1000upx;
+		min-height: 300upx;
+		margin-top: 90upx;
+		padding-bottom: 100upx;
+	}
+	.codex{
+		margin-top: 20upx;
 	}
 	.mybusiness-brief-codes{
 		width: 480upx;
@@ -199,5 +252,51 @@
 		color: #FFFFFF;
 		text-align: center;
 		line-height: 90upx;
+	}
+	.brief-newcode{
+		width: 90%;
+		height: 78px;
+		margin: 0 auto;
+	}
+	.brief-newcode-one{
+		width: 60%;
+		height: 100%;
+		float: left;
+	}
+	.brief-newcode-one>view:nth-of-type(1){
+		font-size: 32upx;
+		color: #2E2E30;
+		padding-top: 25upx;
+		font-weight: bold;
+	}
+	.brief-newcode-one>view:nth-of-type(2){
+		font-size: 28upx;
+		color: #2E2E30;
+	}
+	.brief-newcode-one>view:nth-of-type(2)>span{
+		color: #02C2A2;
+	}
+	.qiye-jie{
+		width: 90%;
+		height: 32upx;
+		font-size: 32upx;
+		color: #2E2E30;
+		line-height: 32upx;
+		margin: 40upx auto auto auto;
+		font-weight: bold;
+	}
+	.brief-newcode-two{
+		width: 156upx;
+		height: 156upx;
+		float: right;
+		background-image: url('http://style.iambuyer.com/mbc/news/erweima.png');
+		background-size: 100% 100%;
+		text-align: center;
+		line-height: 156upx;
+	}
+	.brief-newcode-two>image{
+		width: 85%;
+		height: 85%;
+		padding-top: 12upx;
 	}
 </style>

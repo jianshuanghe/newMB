@@ -1,0 +1,1 @@
+<view class="Trend-content"><view class="title-box"><view class="title left"><view class="_p">{{i18n.zongLan_title}}</view></view><view class="clear"></view></view></view>

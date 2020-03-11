@@ -8,7 +8,7 @@
 	font-size: 14px;
 	color: #5D5D5D;
 	width: 90%;
-	margin: 50rpx auto auto;
+	margin: 10rpx auto auto;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -31,7 +31,12 @@
 }
 .mybusiness-brief-code{
 	width: 100%;
-	height: 1000rpx;
+	min-height: 300rpx;
+	margin-top: 90rpx;
+	padding-bottom: 100rpx;
+}
+.codex{
+	margin-top: 20rpx;
 }
 .mybusiness-brief-codes{
 	width: 480rpx;
@@ -105,5 +110,51 @@
 	color: #FFFFFF;
 	text-align: center;
 	line-height: 90rpx;
+}
+.brief-newcode{
+	width: 90%;
+	height: 78px;
+	margin: 0 auto;
+}
+.brief-newcode-one{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.brief-newcode-one>view:nth-of-type(1){
+	font-size: 32rpx;
+	color: #2E2E30;
+	padding-top: 25rpx;
+	font-weight: bold;
+}
+.brief-newcode-one>view:nth-of-type(2){
+	font-size: 28rpx;
+	color: #2E2E30;
+}
+.brief-newcode-one>view:nth-of-type(2)>._span{
+	color: #02C2A2;
+}
+.qiye-jie{
+	width: 90%;
+	height: 32rpx;
+	font-size: 32rpx;
+	color: #2E2E30;
+	line-height: 32rpx;
+	margin: 40rpx auto auto auto;
+	font-weight: bold;
+}
+.brief-newcode-two{
+	width: 156rpx;
+	height: 156rpx;
+	float: right;
+	background-image: url('http://style.iambuyer.com/mbc/news/erweima.png');
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 156rpx;
+}
+.brief-newcode-two>image{
+	width: 85%;
+	height: 85%;
+	padding-top: 12rpx;
 }
 

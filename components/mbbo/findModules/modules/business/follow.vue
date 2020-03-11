@@ -19,7 +19,7 @@
 					<view class="find-Purchase-conA" v-if="item.title!==''">
 						<view v-if="item.type=='purc'&&item.purcStyleType!=1">{{item.title}}</view>
 						<view v-if="item.type=='purc'&&item.purcStyleType==1">{{item.title|ellipsis}}</view>
-						<view v-if="item.type=='news'">{{item.title|ellipsis}}</view>
+						<view v-if="item.type=='news'">{{item.title}}</view>
 						<view v-if="item.type!=='purc'&&item.type!=='news'" style="width: 100%;">{{item.title}}</view>
 <!-- 						<view v-if="item.purcState==1&&item.type=='purc'">采购中</view>
 						<view v-if="item.purcState==0&&item.type=='purc'" style="color: #9B9B9B;">待发布</view>
@@ -866,7 +866,7 @@
 		min-width: 226upx;
 		height: 166upx;
 		margin-top: 30upx;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-two>image{
@@ -892,14 +892,17 @@
 		margin-top: 30upx;
 	}
 	.find-Purchase-conA>view:nth-of-type(1){
-		width: 95%;
 		height: 100%;
 		line-height: 52upx;
 		font-size: 34upx;
 		color: #2E2E30;
+		text-overflow: -o-ellipsis-lastline;
 		overflow: hidden;
-		text-overflow:ellipsis;
-		white-space: nowrap;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+		-webkit-box-orient: vertical;
 		
 	}
 	.find-Purchase-conA>view:nth-of-type(2){
@@ -999,7 +1002,7 @@
 		width: 220upx;
 		height: 166upx;
 		margin-left: 20upx;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-img>image:nth-of-type(1){
@@ -1066,7 +1069,7 @@
 		width: 100%;
 		height: 340upx;
 		margin-top: 16upx;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-image>image{

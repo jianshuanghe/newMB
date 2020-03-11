@@ -1,0 +1,14 @@
+
+.singlePicture-content {
+	position: relative;
+	width: 100%;
+}
+.singlePicture{
+	position: relative;
+	width: 100%;
+}
+.picture{
+	position: relative;
+	width: 100%;
+}
+

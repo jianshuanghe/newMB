@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "投放商机",
+  "usingComponents": {
+    "top-box": "/components/mbbo/topBox/topBox",
+    "put-in-one": "/modules/aLittle/putInBusiness/putInBusinessList/putInList/putInOne/putInOne",
+    "put-in-two": "/modules/aLittle/putInBusiness/putInBusinessList/putInList/putInTwo/putInTwo",
+    "navigation": "/components/mbbo/navigation/navigation"
+  }
+}

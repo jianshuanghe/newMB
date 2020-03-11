@@ -11,10 +11,10 @@
 						<view class="list_zixun_intro">{{item.instrucTitle}}</view>
 						<view class="list_zixun_time">
 							<view class="" style="width: 40upx; height: 40upx;">
-								<image style="width: 100%; height: 100%;" :src="defaultImg"></image>
+								<image style="width: 100%; height: 100%;" :src="item.compLogo"></image>
 							</view>
 							<span class="list_zixun_r">
-								如何秀
+								{{item.compName}}
 							</span>
 							<span class="list_zixun_n">{{item.updateTime}}</span>
 						</view>

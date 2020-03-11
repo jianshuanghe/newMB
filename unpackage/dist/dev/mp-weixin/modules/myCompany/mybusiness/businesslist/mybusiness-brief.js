@@ -346,10 +346,19 @@ var _erweimamo = _interopRequireDefault(__webpack_require__(/*! @/static/mbcImg/
 //
 //
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _default = { props: ['data', 'listid'], data: function data() {return { fold: true, erweima: _erweima.default, downArrow: _downArrow.default, uparrow: _upArrow.default, erweimamo: _erweimamo.default, list: [], id: '' };}, created: function created() {var landRegistLG = JSON.parse(uni.getStorageSync('landRegist')); // 读取缓存的用户信息
     this.id = landRegistLG.user.id;console.log(this.id, this.listid);}, methods: { clickBasicInforEdit: function clickBasicInforEdit() {console.log('基本信息编辑');uni.navigateTo({ url: '/modules/myCompany/personAndCompany/companyInfor/companyInforItems/previewAndEditor/editor/editorItems/editBasicInfor' });}, handleFold: function handleFold() {this.fold = !this.fold;}, phone: function phone(e) {uni.makePhoneCall({ phoneNumber: e //仅为示例
       });}, copyBT: function copyBT() {uni.setClipboardData({ data: '北京市昌平区沙河镇七里渠慧聪园总部基地', success: function success() {console.log('复制成功');} });} } };exports.default = _default;
 =======
+=======
+//
+//
+//
+//
+//
+//
+>>>>>>> 1.1-mp
 var _default =
 {
   props: ['datas', 'listid'],
@@ -380,10 +389,35 @@ var _default =
     handleFold: function handleFold() {
       this.fold = !this.fold;
     },
-    phone: function phone(e) {
+    playphone: function playphone(e) {
       uni.makePhoneCall({
         phoneNumber: e //仅为示例
       });
+    },
+    addpick: function addpick(e) {
+      console.log(e);
+      uni.downloadFile({
+        url: e,
+        success: function success(res) {
+          if (res.statusCode === 200) {
+            uni.saveImageToPhotosAlbum({
+              filePath: res.tempFilePath,
+              success: function success() {
+                uni.showToast({
+                  title: "保存成功",
+                  icon: "none" });
+
+              },
+              fail: function fail() {
+                uni.showToast({
+                  title: "保存失败，请稍后重试",
+                  icon: "none" });
+
+              } });
+
+          }
+        } });
+
     },
     copyBT: function copyBT(e) {
       uni.setClipboardData({

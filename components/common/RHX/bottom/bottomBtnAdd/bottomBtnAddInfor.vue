@@ -22,6 +22,7 @@
 			@tap-AddMade='tapAddMade'
 			v-if='addType === 1'></addMade>
 		</div>
+		
 	</div>
 </template>
 
@@ -33,7 +34,7 @@
 		components: {
 			addListItem,
 			addLink,
-			addMade
+			addMade,
 		},
 		props: [
 			'activeAdd',

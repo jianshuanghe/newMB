@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "appid": "18243908",
   "appInfo": {},
   "appkey": "",
@@ -23,34 +24,34 @@
   "projectname": "陌拜"
 =======
     "appInfo": {},
+=======
+>>>>>>> 1.1-mp
     "appid": "18243908",
+    "appInfo": {},
     "appkey": "",
     "condition": {
         "swan": {
             "current": 0,
             "list": [
                 {
-                    "id": 0,
                     "name": "",
                     "path": "",
-                    "query": ""
+                    "query": "",
+                    "id": 0
                 }
             ]
         }
     },
-    "host": "baiduboxapp",
-    "libVersion": "",
-    "preview": {
-        "packageId": 435069
-    },
-    "projectname": "陌拜",
     "setting": {
         "urlCheck": true
     },
+    "libVersion": "",
+    "projectname": "陌拜",
+    "host": "baiduboxapp",
     "swan": {
         "baiduboxapp": {
-            "extensionJsVersion": "1.10.2",
-            "swanJsVersion": "3.150.6"
+            "swanJsVersion": "3.150.6",
+            "extensionJsVersion": "1.10.2"
         }
     }
 >>>>>>> 1.1-mp

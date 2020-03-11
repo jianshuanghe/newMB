@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation",
+    "all": "/modules/InstructionsPrice/myproduct/myproduct-list/product-all",
+    "customized": "/modules/InstructionsPrice/myproduct/myproduct-list/product-Customized",
+    "inf": "/modules/InstructionsPrice/myproduct/myproduct-list/product-inf",
+    "product": "/modules/InstructionsPrice/myproduct/myproduct-list/product-product"
+  },
+  "component": true
+}

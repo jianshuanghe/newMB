@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/common/RHX/madeCustModule/remarks/remarks"],{1971:function(t,n,e){"use strict";e.r(n);var a=e("6acb"),o=e("8622");for(var u in o)"default"!==u&&function(t){e.d(n,t,function(){return o[t]})}(u);e("dcf0");var s=e("2877"),i=Object(s["a"])(o["default"],a["a"],a["b"],!1,null,null,null);n["default"]=i.exports},"5d95":function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var a=function(){return e.e("components/common/RHX/rTitle/rTitle").then(e.bind(null,"2a03"))},o={props:["disabled","itemsData","indexNum","dataList"],data:function(){return{dataLists:this.dataList}},components:{rTitle:a},computed:{},watch:{dataList:{handler:function(n,e){console.log(t(n,e,"--------------------------------------dataList---------------------------------------"," at components\\common\\RHX\\madeCustModule\\remarks\\remarks.vue:64")),this.dataLists=n},deep:!0}},created:function(){},mounted:function(){},methods:{tapTitleTwo:function(n){console.log(t(n," at components\\common\\RHX\\madeCustModule\\remarks\\remarks.vue:76")),this.dataLists.content=n[1],this.$emit("tap-StyleSelectionList",this.dataLists)}}};n.default=o}).call(this,e("0de9")["default"])},"6acb":function(t,n,e){"use strict";var a=function(){var t=this,n=t.$createElement;t._self._c},o=[];e.d(n,"a",function(){return a}),e.d(n,"b",function(){return o})},8622:function(t,n,e){"use strict";e.r(n);var a=e("5d95"),o=e.n(a);for(var u in a)"default"!==u&&function(t){e.d(n,t,function(){return a[t]})}(u);n["default"]=o.a},db41:function(t,n,e){},dcf0:function(t,n,e){"use strict";var a=e("db41"),o=e.n(a);o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/common/RHX/madeCustModule/remarks/remarks-create-component',
+    {
+        'components/common/RHX/madeCustModule/remarks/remarks-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("1971"))
+        })
+    },
+    [['components/common/RHX/madeCustModule/remarks/remarks-create-component']]
+]);

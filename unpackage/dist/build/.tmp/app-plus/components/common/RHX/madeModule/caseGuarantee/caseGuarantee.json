@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "delete-button": "/components/common/RHX/deleteButton/deleteButton"
+  },
+  "component": true
+}

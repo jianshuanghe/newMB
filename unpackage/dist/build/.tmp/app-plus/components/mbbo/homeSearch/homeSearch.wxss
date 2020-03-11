@@ -1,0 +1,48 @@
+
+.homeSerach {
+	position: fixed;
+	padding: 16rpx 0 20rpx 0;
+	z-index: 100;
+	top: 0;
+	background: #ffffff;
+}
+.search_box-No {
+	position: relative;
+	margin-left: 70rpx;
+	background: #f6f6f6;
+	border-radius: 30rpx;
+	height: 60rpx;
+}
+.search-NI-img {
+	position: relative;
+	width: 60rpx;
+}
+.search-NI-img > image {
+	width: 30rpx;
+	height: 30rpx;
+	margin-top: 16rpx;
+	margin-left: 20rpx;
+}
+.search-NI-text {
+	position: relative;
+	width: 560rpx;
+	margin-left: 10rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.search-NI-text > ._p {
+	position: relative;
+	width: 100%;
+	ont-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #bdbdbd;
+}
+.inputSearch {
+	line-height: 60rpx;
+	height: 60rpx;
+	/* margin-top: 0.8vw; */
+	width: 98%;
+	border: none;
+	outline: none;
+}
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "number-step": "/components/common/RHX/madeCustModule/purchaseNumber/numberStep",
+    "edit-pusrchase": "/components/common/RHX/madeCustModule/purchaseNumber/editPusrchase"
+  },
+  "component": true
+}

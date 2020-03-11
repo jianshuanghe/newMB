@@ -1,0 +1,1 @@
+<view class="piacker-box _div"><view data-event-opts="{{[['tap',[['cancel',['$event']]]],['touchmove',[['',['$event']]]]]}}" class="mask _div" bindtap="__e" catchtouchmove="__e"></view></view>

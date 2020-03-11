@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "quick-btn": "/components/mbbo/quickBtn/quickBtn",
+    "navigation": "/components/mbbo/navigation/navigation",
+    "collection": "/modules/news/newsPraisedAndCollection/PraisedAndCollection/news-Collection",
+    "praised": "/modules/news/newsPraisedAndCollection/PraisedAndCollection/news-Praised"
+  }
+}

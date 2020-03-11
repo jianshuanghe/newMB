@@ -161,15 +161,12 @@ var render = function() {
   var l0 = _vm.__map(_vm.arr, function(item, index) {
     var f0 = _vm._f("ellipsis")(item.title)
 
-    var f1 = _vm._f("ellipsis")(item.title)
-
-    var f2 = _vm._f("ellipsiss")(item.slogan)
+    var f1 = _vm._f("ellipsiss")(item.slogan)
 
     return {
       $orig: _vm.__get_orig(item),
       f0: f0,
-      f1: f1,
-      f2: f2
+      f1: f1
     }
   })
 

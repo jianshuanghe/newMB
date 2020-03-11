@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"news-systemlist{ width: 100%; min-height: 100%; }\n",],undefined,{path:"./modules/news/newssystem/news-systemlist.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./modules/news/newssystem/news-systemlist.wxml') } }));

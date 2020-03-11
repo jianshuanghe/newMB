@@ -3,10 +3,10 @@
 		<view class="follow" v-if="!disabled">
 			<!-- logo -->
 			<view class="logo">
-				<image v-if="userData.compLogo" :src="userData.compLogo" style="width: 100%; height: 100%;"></image>
-				<image v-else-if="userData.headImg" :src="userData.headImg" style="width: 100%; height: 100%;"></image>
+				<image v-if="userData.compLogo" :src="userData.compLogo" style="width: 100%; height: 100%;border-radius: 50%;"></image>
+				<image v-else-if="userData.headImg" :src="userData.headImg" style="width: 100%; height: 100%;border-radius: 50%;"></image>
 				<!-- 默认头像 -->
-				<image v-else :src="defaultImg" style="width: 100%; height: 100%;"></image>
+				<image v-else :src="defaultImg" style="width: 100%; height: 100%;border-radius: 50%;"></image>
 			</view>
 			<!-- 名称和更新时间 -->
 			<view class="content">
@@ -48,7 +48,7 @@
 			return{
 				list:[],
 				upDataTime:this.updataTime,
-				defaultImg: this.Static+'publish/createBusiness/defaultImg.png',
+				defaultImg: this.Static+'my/hea.png',
 				userData:this.dataList.userRetVO,
 				focusText: ''
 			}

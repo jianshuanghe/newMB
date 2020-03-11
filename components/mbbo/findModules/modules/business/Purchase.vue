@@ -46,7 +46,8 @@
 					</view>
 				</view>
 				<view class="find-Purchase-con-two" v-if="item.banner03==''&&item.banner01!==''">
-					<image :src="item.banner01" mode=""></image>
+					<image :src="item.banner01|| '../../../../../static/mbcImg/tabBar/113.png'" mode=""></image>
+					<!-- :class="item.banner03==''&&item.banner01!==''?'on':''" -->
 				</view>
 			</view>
 			<view class="myproduct-list-edit">
@@ -551,6 +552,9 @@
 </script>
 
 <style>
+	.on{
+		background: #FFFFFF;
+	}
 	.find-Purchase{
 		width: 100%;
 		min-height: 200upx;
@@ -638,8 +642,8 @@
 	.find-Purchase-con-two>image{
 		width: 100%;
 		height: 100%;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
-		background-size: 100% 100%;
+		/* background-image: url('../../../../../static/mbcImg/tabBar/background.png');
+		background-size: 100% 100%; */
 	}
 	.find-Purchase-conA{
 		width: 100%;
@@ -754,7 +758,7 @@
 		width: 220upx;
 		height: 166upx;
 		margin-left: 20upx;
-		background-image: url('http://style.iambuyer.com.cn/mbc/my/bigpick.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-img>image:nth-of-type(1){

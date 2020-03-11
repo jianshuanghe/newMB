@@ -9,10 +9,10 @@ if (process.env.NODE_ENV === 'development') {
     // api3 = 'https://img01.iambuyer.com'; // 图片
 	//测试
 	// api1 = 'https://api.iambuyer.com.cn';
-	// api2 = 'https://open.iambuyer.com.cn/invest-rest';
+	// api2 = 'https://zhaojie0001.mynatapp.cc';
 	// api3 = 'https://img01.iambuyer.com.cn';
 	//正式
-	api1 = 'https://api.iambuyer.com.cn';
+	api1 = 'http://192.168.131.204:8090';
 	api2 = 'https://zhaojie0001.mynatapp.cc';
 	api3 = 'https://img01.iambuyer.com.cn'; // 图片
 }
@@ -23,8 +23,8 @@ if (process.env.NODE_ENV === 'production') {
 	// api2 = 'https://hc360cyd.mynatapp.cc'; // 业务
 	// api3 = 'https://img01.iambuyer.com'; // 图片
     
-	api1 = 'https://api.iambuyer.com.cn';
+	api1 = 'https://api.iambuyer.com';
     api2 = 'https://api.ruhexiu.com';
-	api3 = 'https://img01.iambuyer.com.cn'; // 图片
+	api3 = 'https://img01.iambuyer.com'; // 图片
 }
 export {api1, api2, api3};

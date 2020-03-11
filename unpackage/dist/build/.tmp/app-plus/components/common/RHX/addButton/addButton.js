@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/common/RHX/addButton/addButton"],{"122a":function(t,n,a){},"2cf0":function(t,n,a){"use strict";var e=function(){var t=this,n=t.$createElement;t._self._c},o=[];a.d(n,"a",function(){return e}),a.d(n,"b",function(){return o})},"56fc":function(t,n,a){"use strict";a.r(n);var e=a("ce51"),o=a.n(e);for(var c in e)"default"!==c&&function(t){a.d(n,t,function(){return e[t]})}(c);n["default"]=o.a},"60f5":function(t,n,a){"use strict";a.r(n);var e=a("2cf0"),o=a("56fc");for(var c in o)"default"!==c&&function(t){a.d(n,t,function(){return o[t]})}(c);a("a7c4");var u=a("2877"),i=Object(u["a"])(o["default"],e["a"],e["b"],!1,null,null,null);n["default"]=i.exports},a7c4:function(t,n,a){"use strict";var e=a("122a"),o=a.n(e);o.a},ce51:function(t,n,a){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e=function(){return a.e("components/common/button/savePreviewBtn").then(a.bind(null,"28d7"))},o={props:["name","dataList","itemsData","manageCopyShow","manageType"],data:function(){return{copy:this.Static+"publish/createBusiness/copy.png",dataLists:this.dataList}},components:{savePreviewBtn:e},computed:{i18n:function(){return this.$t("navigation")}},watch:{dataList:{handler:function(n,a){console.log(t(n,a,"--------------------------------------监听数管理变化---------------------------------------"," at components\\common\\RHX\\addButton\\addButton.vue:51")),this.dataLists=n},deep:!0}},created:function(){},methods:{clickCopy:function(){console.log(t("触发复制按钮"," at components\\common\\RHX\\addButton\\addButton.vue:60")),this.$emit("tap-ManageCopyTips",[this.dataLists,!0])}}};n.default=o}).call(this,a("0de9")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/common/RHX/addButton/addButton-create-component',
+    {
+        'components/common/RHX/addButton/addButton-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("60f5"))
+        })
+    },
+    [['components/common/RHX/addButton/addButton-create-component']]
+]);

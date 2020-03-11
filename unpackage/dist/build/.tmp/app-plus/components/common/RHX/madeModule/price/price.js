@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/common/RHX/madeModule/price/price"],{"2e2a":function(e,t,n){"use strict";n.r(t);var i=n("6ae5"),o=n("3708");for(var a in o)"default"!==a&&function(e){n.d(t,e,function(){return o[e]})}(a);var c=n("2877"),r=Object(c["a"])(o["default"],i["a"],i["b"],!1,null,null,null);t["default"]=r.exports},3708:function(e,t,n){"use strict";n.r(t);var i=n("e7be"),o=n.n(i);for(var a in i)"default"!==a&&function(e){n.d(t,e,function(){return i[e]})}(a);t["default"]=o.a},"6ae5":function(e,t,n){"use strict";var i=function(){var e=this,t=e.$createElement;e._self._c},o=[];n.d(t,"a",function(){return i}),n.d(t,"b",function(){return o})},e7be:function(e,t,n){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var i=function(){return n.e("components/common/RHX/madeModule/price/editOrPreview/edit/edit").then(n.bind(null,"c353"))},o=function(){return n.e("components/common/RHX/madeModule/price/editOrPreview/preview/preview").then(n.bind(null,"70ed"))},a={components:{edit:i,preview:o},props:["disabled","deleteMoveShow","dataList"],data:function(){return{dataLists:this.dataList}},created:function(){},watch:{dataList:{handler:function(t,n){console.log(e(t,n,"-----------dataList----------"," at components\\common\\RHX\\madeModule\\price\\price.vue:47")),this.dataLists=t},deep:!0}},methods:{tapUpDataEdit:function(t){console.log(e(t,"更新编辑模块数据"," at components\\common\\RHX\\madeModule\\price\\price.vue:56")),this.dataLists=t,this.$emit("tap-PriceDetails",this.dataLists)}}};t.default=a}).call(this,n("0de9")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/common/RHX/madeModule/price/price-create-component',
+    {
+        'components/common/RHX/madeModule/price/price-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("2e2a"))
+        })
+    },
+    [['components/common/RHX/madeModule/price/price-create-component']]
+]);

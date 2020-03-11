@@ -159,14 +159,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   var l0 = _vm.__map(_vm.arr, function(item, index) {
-    var f0 = _vm._f("elli")(item.title)
-
-    var f1 = _vm._f("ellipsiss")(item.slogan)
+    var f0 = _vm._f("ellipsiss")(item.slogan)
 
     return {
       $orig: _vm.__get_orig(item),
-      f0: f0,
-      f1: f1
+      f0: f0
     }
   })
 
@@ -849,7 +846,7 @@ var _default =
                 _this2.$store.commit('setHome', 1);
                 _this2.$store.commit('setLandRegist', 0);
                 uni.showToast({
-                  title: '登录已过期，请重新登录',
+                  title: '登录已过期,请重新登录',
                   icon: 'none',
                   duration: 1000 });
 

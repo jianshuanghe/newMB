@@ -867,7 +867,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -11541,7 +11541,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -11562,14 +11562,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -11645,7 +11645,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -14032,7 +14032,32 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAxZJREFUSA21lU9oE0EUxk0bA+bQiChtcirBoiKCBxWLrZB6EJFYRSkVJJD+QUQKoh485uDBo0cxaQoWQYoWK+YgaAtaaMWA9SDiJeqhtYIU25RI05D4++LusvlT2wYcmH0z773v+2bnzc5u2fKfm2Mj/NFodB95nQ6HYz/Wa2C+FwqFj4zH+vv7Pxm+CvNPgVgsdgLEHYgOVSBtDoSTTG/19fW9srmLw6oCIyMjrnQ6fS+fz4cBw19IYB87nc5Jt9s9J2Qmk/Hlcrk2YheIncZiHPGGhoYrXV1dWVOoQgDybYuLiy9IaAfwvr6+/nI4HH5nAqrZoaGhw4jdJ3aQ/sbj8ZxE5Ldy6/Swt6WlpThzkT9tbGxsW49cWOU0NTUdE0ZYg0OhUgGKeYlX7cY/7fP5uoPBYKaYZTy0Daz2ALZiYcoVRlhxiEswa4u07yh/xudzuVx7Q6HQFyXYG0XXXj9npRcp6CN7zBzH43E/tdOpmqMee6yVLC8vnwLcTI9WIxcBxLvsVuPy1tPTkxKHuMRpCeDoVHJdXd3DctBm5yaHOC0BXusIK0yzgunNEpbnw/FWXOJ0mkEcXhRnsQXTt5YF2DI4OBgoj4P/QG0W4MhTZHF5LQGS3fSSU1OFwPyABhAZKI9DOImv3fCLy20XmMdh3jNGTqnhVCT4wnV1eEoj1ixhjf5yzVvHlCP4kmAHX66PD0diNbfh4WHvysrKLATjVpGZJFiZg1c/WzOzAcxms53iEqddYBRHjsD1ZDK5tVYRYeG4IS76qCVA9b/hiBFsmZmZuVmrgLBw7BaXOC0BgzCC1Y/kNjUJGr4NG2GEFQc9ImCJAH+mHxT5HP5VEkc561eVtJGmXGHIXRWHuISzTpGdhJUcJ/kJvp2c7Sl6xO/3jwcCAe2r1SYmJpypVKqD3Ai9lcBPcs+zNa/NpKoCCnItN/MTucuweEcBXGCsa6T4R8P66Ech3oFVG+OPd40j/rU4Mx5rCphJvHorRzeEwBnIRGo1fHP4nnG5Pejt7Z2yArbBugK2XL3VdlNE5Kz2lz1ebfwHflhy6KVc5LAAAAAASUVORK5CYII="
+=======
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.api3 = exports.api2 = exports.api1 = void 0;
+var api1 = ''; // 短信
+exports.api1 = api1;var api2 = ''; // 业务
+exports.api2 = api2;var api3 = ''; // 图片
+// uEnvDev
+exports.api3 = api3;if (true) {
+  // api1 = 'http://192.168.131.204:8090'; // 短信
+  // api2 = 'https://hc360cyd.mynatapp.cc'; // 业务
+  // api3 = 'https://img01.iambuyer.com'; // 图片
+  //测试
+  // api1 = 'https://api.iambuyer.com.cn';
+  // api2 = 'https://zhaojie0001.mynatapp.cc';
+  // api3 = 'https://img01.iambuyer.com.cn';
+  //正式
+  exports.api1 = api1 = 'https://api.iambuyer.com.cn';
+  exports.api2 = api2 = 'https://api.ruhexiu.com';
+  exports.api3 = api3 = 'https://img01.iambuyer.com.cn'; // 图片
+}
+
+// uEnvProd
+if (false) {}
+>>>>>>> 1.1-mp
 
 /***/ }),
 
@@ -15184,6 +15209,7 @@ createPage(_myheaderPersonal.default);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 频道
 var channel = {
   title: '所有频道',
@@ -15197,6 +15223,12 @@ var channel = {
 {
   // 频道
   channel: channel };exports.default = _default;
+=======
+Object.defineProperty(exports, "__esModule", { value: true });exports.origin = exports.dImg = exports.Static = void 0;
+var Static = 'http://style.iambuyer.com.cn/mbc/'; // 静态资源地址
+exports.Static = Static;var dImg = 'http://style.iambuyer.com.cn/imbc/mbcImg/common/MBC.png'; // 默认图片地址
+exports.dImg = dImg;var origin = 'http://so.iambuyer.com.cn';exports.origin = origin;
+>>>>>>> 1.1-mp
 
 /***/ }),
 
