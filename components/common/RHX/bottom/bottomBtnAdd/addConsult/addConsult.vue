@@ -48,7 +48,18 @@
 				this.getmy();
 			}
 		},
-		mounted() {},
+		watch: {
+			routeParam: {
+				handler(a, b) {
+					console.log(a, b, '-------------------this.routeParam 咨询--------------------')
+					// this.showTypeAdd(a);
+				},
+				deep: true
+			},
+		},
+		mounted() {
+			console.log(this.routeParam, '-------this.routeParam 咨询-------')
+		},
 		methods:{
 			getmy() {
 				if (uni.getStorageSync('landRegist')) {
@@ -239,7 +250,7 @@
 						let UUID = uni.getStorageSync('UUID'); // 读取缓存的用户信息
 						console.log(UUID);
 						let params = {
-							instrucId: this.GET_FIND.message.id, // id
+							instrucId: this.routeParam.instrucId, // id
 							mobile: this.phone, // 电话
 							userName: this.name, // 姓名
 							msgContent: this.liu, // 留言内容

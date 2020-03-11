@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'development') {
 	// api2 = 'https://zhaojie0001.mynatapp.cc';
 	// api3 = 'https://img01.iambuyer.com.cn';
 	//正式
-	api1 = 'https://api.iambuyer.com.cn';
+	api1 = 'http://192.168.131.204:8090';
 	api2 = 'https://zhaojie0001.mynatapp.cc';
 	api3 = 'https://img01.iambuyer.com.cn'; // 图片
 }
