@@ -888,7 +888,7 @@
 		min-width: 226upx;
 		height: 166upx;
 		margin-top: 30upx;
-		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-two>image{
@@ -1024,7 +1024,7 @@
 		width: 220upx;
 		height: 166upx;
 		margin-left: 20upx;
-		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-img>image:nth-of-type(1){
@@ -1092,7 +1092,7 @@
 		width: 100%;
 		height: 340upx;
 		margin-top: 16upx;
-		background-image: url('http://style.iambuyer.com/mbc/my/bigpick.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
         background-size: 100% 100%;
 	}
 	.find-Purchase-con-image>image{
