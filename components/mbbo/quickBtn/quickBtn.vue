@@ -38,7 +38,7 @@
     /* width: 100%; */
     /* margin-top: 1.5vw; */
 	top: 25upx;
-	z-index: 999;
+	z-index: 99999999;
 	margin-right: 2vw;
   }
   .quickBtn{

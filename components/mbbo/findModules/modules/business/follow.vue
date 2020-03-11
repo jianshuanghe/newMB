@@ -866,7 +866,7 @@
 		min-width: 226upx;
 		height: 166upx;
 		margin-top: 30upx;
-		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-two>image{
@@ -1002,7 +1002,7 @@
 		width: 220upx;
 		height: 166upx;
 		margin-left: 20upx;
-		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-img>image:nth-of-type(1){

@@ -42,7 +42,7 @@
 						<view>{{item.createTimeStr}}</view>
 					</view>
 				</view>
-				<view class="find-Purchase-con-two" v-if="item.instStyleType==1||item.instStyleType==3">
+				<view class="find-Purchase-con-two" @tap="gongying(item)" v-if="item.instStyleType==1||item.instStyleType==3">
 					<image :src="item.banner01" v-if="item.instStyleType==1"></image>
 					<view v-if="item.instStyleType==3" @tap="playphone(item.userPhone)">立即联系</view>
 				</view>
@@ -657,7 +657,7 @@
 	.find-Purchase-con-two>image{
 		width: 100%;
 		height: 100%;
-		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-two>view{
@@ -790,7 +790,7 @@
 		width: 220upx;
 		height: 166upx;
 		margin-left: 20upx;
-		background-image: url('../../../../../static/mbcImg/tabBar/background.png');
+		background-image: url('../../../../../static/mbcImg/tabBar/113.png');
 		background-size: 100% 100%;
 	}
 	.find-Purchase-con-img>image:nth-of-type(1){
