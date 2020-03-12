@@ -73,6 +73,11 @@
 </template>
 
 <script>
+<<<<<<< HEAD
+=======
+	import del from '@/static/mbcImg/jiegou/createBusiness/del.png';
+	import sort from '@/static/mbcImg/jiegou/createBusiness/sort.png';
+>>>>>>> 1.1-Optimize
 	import replaceIcon from '@/components/common/RHX/replaceIcon/replaceIcon';
 	import inputBox from '@/components/common/RHX/inputBox/inputBox';
 	export default {

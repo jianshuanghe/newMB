@@ -90,7 +90,27 @@
 		</div>
 		<!-- 样式选择  -->
 		<div class="checkBox6" v-if= "dataType === '5'" >
-			<checkbox-group @change="checkboxChange">
+			<checkbox-group @change="checkboxChange" v-if="itemsData && itemsData.mType === 'moreModule'">
+				<label 
+				v-for="(items, index) in dataLists" 
+				:key="index"
+				@click="labelBtn(items.value, index)" 
+				v-if="items.itemData.moduleAggregation === '1' "
+				class='items-box2 left'>
+					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
+					<div class="rRadio-items6 left" :style="current === index ? selectStyle : noSelectStyle">
+						<image class="items-img" :src="items.itemData.moduleImg" mode='aspectFit'></image>
+						<image
+						class="selectImg6" 
+						:src="items.checked === true ? selectEd : select"
+						></image>
+					</div>
+					
+				</label>
+				
+				<div class="clear"></div>
+			</checkbox-group>
+			<checkbox-group @change="checkboxChange" v-if="!itemsData || itemsData.mType !== 'moreModule'">
 				<label 
 				v-for="(items, index) in dataLists" 
 				:key="index"
@@ -104,6 +124,7 @@
 						:src="items.checked === true ? selectEd : select"
 						></image>
 					</div>
+					
 				</label>
 				
 				<div class="clear"></div>
@@ -113,10 +134,19 @@
 </template>
 
 <script>
+<<<<<<< HEAD
+=======
+	import check from '@/static/mbcImg/home/extendManageList/dataReport/check.png';
+	import checked from '@/static/mbcImg/home/extendManageList/dataReport/checked.png';
+	import checkedItems from '@/static/mbcImg/home/extendManageList/dataReport/checkedItems.png';
+	import selectEd from '@/static/mbcImg/jiegou/selectEd.png';
+	import select from '@/static/mbcImg/publish/createBusiness/select.png';
+>>>>>>> 1.1-Optimize
 	export default {
 		name: 'businessPutIn',
 		props: [
-			'disabled', 
+			'disabled',
+			'itemsData',
 			'dataList',
 			'dataListselectList',
 			'type',
@@ -146,11 +176,12 @@
 		watch: {},
 		created() {
 			this.resetData(this.dataList);
+			console.log(this.itemsData, '模块原有数据')
 		},
 		watch: {
 			dataList: {
 				handler(a, b) {
-					console.log(a, b, '--------------------------------------dataList---------------------------------------');
+					console.log(a, b, '----------------------------------1111----dataList---------------------------------------');
 					this.resetData(a);
 				},
 				deep: true
@@ -160,6 +191,7 @@
 		methods: {
 			// 重置数组数据，符合多选格式
 			resetData(e) {
+				console.log(e, '重置数据')
 				this.dataLists = [];
 				let checkData = []; // 组件返回值
 				e.map((items, index)=>{
@@ -232,6 +264,7 @@
 				if (this.selcetDataList.join(',').indexOf(name) > -1) {
 					this.selcetDataList.map((items, key) => {
 						console.log(this.dataLists, '-------------0--------------')
+						console.log(items, '---------items-----------')
 						this.dataLists[index].checked = true;
 					});
 				} else {
@@ -241,7 +274,7 @@
 			},
 			checkboxChange: function(e) {
 				this.selcetDataList = e.detail.value; // 获取选中的值
-				console.log(this.selcetDataList, '--------------------selcetDataList-----------------------');
+				console.log(this.selcetDataList, '--------------------selcetDataList21321321-----------------------');
 				let checkData = []; // 组件返回值
 				
 				if (this.dataType === '3' || this.dataType === '4') {
@@ -282,12 +315,15 @@
 								
 							]
 						};;
-					console.log(JSON.stringify(this.dataLists))
-					console.log(this.dataLists, '--------------this.dataLists----------------')
+					// console.log(JSON.stringify(this.dataLists))
+					// console.log(this.dataLists, '--------------this.dataLists----------------')
 					this.dataLists.map((items, index)=>{
-						if (items.moduleAggregation === '0') { // 不可聚合
-							dataItems.mType = 'singleModule';
-						};
+						console.log( items.itemData.moduleAggregation, '形式1')
+						if (String(items.itemData.moduleAggregation) === '0') { // 不可聚合
+							data.mType = 'singleModule';
+							console.log('出现不可聚合元素')
+						}
+						console.log(this.selcetDataList, '000000000000')
 						this.selcetDataList.map((item,key)=>{
 							console.log(items.itemData, item, '----------------items.title-------------')
 							if (items.itemData.type === item){
@@ -313,6 +349,13 @@
 </script>
 
 <style>
+	.noSelect5{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
 	.checkBox-box{
 		position: relative;
 		width: 100%;

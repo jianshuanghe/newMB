@@ -211,7 +211,7 @@
 		:manageType='manageType'
 		:dataList='dataLists.dataList'
 		:moduleTempList='moduleTemp.content'
-		:itemsData='dataLists.dataList[0]'
+		:itemsData='dataLists'
 		:isManageShow='true'
 		@tap-ManageCopyTips='tapManageCopyTips'
 		></manageCopyTips>

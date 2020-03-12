@@ -84,7 +84,7 @@ export default {
 			iconLibraryShow: false, // 判断当前组件是否有icon库展示
 			dataLists: this.dataList,
 			isSelect: -1, // 用户选择的项
-			iconSrc:  this.Static+'publish/purchase/delete.png',
+			iconSrc: this.Static+ 'publish/purchase/delete.png',
 			old:{ // 用来记录用户上次行为
 				tapIndex: -1
 			},
