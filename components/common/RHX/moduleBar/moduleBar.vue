@@ -71,13 +71,9 @@
 		</div>
 	</div>
 </template>
-
 <script>
-<<<<<<< HEAD
-=======
 	import del from '@/static/mbcImg/jiegou/createBusiness/del.png';
 	import sort from '@/static/mbcImg/jiegou/createBusiness/sort.png';
->>>>>>> 1.1-Optimize
 	import replaceIcon from '@/components/common/RHX/replaceIcon/replaceIcon';
 	import inputBox from '@/components/common/RHX/inputBox/inputBox';
 	export default {
@@ -117,8 +113,8 @@
 			'tBStyleOne'],
 		data() {
 			return {
-				sort: this.Static+'publish/createBusiness/sort.png',
-				del:  this.Static+'publish/createBusiness/del.png',
+				del: del,
+				sort: sort,
 				valueOneText: this.valueOne,
 				dataLists: this.dataList
 			};
