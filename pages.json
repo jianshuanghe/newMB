@@ -1,20 +1,20 @@
 {
 	"pages": [
-		{
-			"path": "pages/project/MBBO/guidPageRHX",
-			"style": {
-				// #ifdef H5
-					"navigationStyle":"custom",
-				// #endif
-				"navigationBarTitleText": "陌拜商机",
-				"app-plus": {
-					"bounce":"none",
-					"app-plus": {
-						"bounce":"none"
-					}
-				}
-			}
-		},
+		// {
+		// 	"path": "pages/project/MBBO/guidPageRHX",
+		// 	"style": {
+		// 		// #ifdef H5
+		// 			"navigationStyle":"custom",
+		// 		// #endif
+		// 		"navigationBarTitleText": "陌拜商机",
+		// 		"app-plus": {
+		// 			"bounce":"none",
+		// 			"app-plus": {
+		// 				"bounce":"none"
+		// 			}
+		// 		}
+		// 	}
+		// },
 		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		// 我的网点
 		// {

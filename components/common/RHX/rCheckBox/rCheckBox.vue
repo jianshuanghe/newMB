@@ -95,9 +95,10 @@
 				v-for="(items, index) in dataLists" 
 				:key="index"
 				@click="labelBtn(items.value, index)" 
-				v-if="items.itemData.moduleAggregation === '1' "
+				
 				class='items-box2 left'>
 					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
+					<div class="rRadioTitle">{{items.styleName}}</div>
 					<div class="rRadio-items6 left" :style="current === index ? selectStyle : noSelectStyle">
 						<image class="items-img" :src="items.itemData.moduleImg" mode='aspectFit'></image>
 						<image
@@ -117,6 +118,7 @@
 				@click="labelBtn(items.value, index)" 
 				class='items-box2 left'>
 					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
+					<div class="rRadioTitle">{{items.styleName}}</div>
 					<div class="rRadio-items6 left" :style="current === index ? selectStyle : noSelectStyle">
 						<image class="items-img" :src="items.itemData.moduleImg" mode='aspectFit'></image>
 						<image
@@ -341,6 +343,15 @@
 </script>
 
 <style>
+	.rRadioTitle{
+		position: relative;
+		width: 100%;
+		font-family: PingFang-SC-Medium;
+		color: #2E2E30;
+		letter-spacing: 0;
+		font-size: 24upx;
+		line-height: 40upx;
+	}
 	.noSelect5{
 		position: absolute;
 		width: 100%;
