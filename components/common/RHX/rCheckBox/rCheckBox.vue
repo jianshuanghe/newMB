@@ -134,9 +134,9 @@
 </template>
 
 <script>
-	import check from '@/static/mbcImg/home/extendManageList/dataReport/check.png';
-	import checked from '@/static/mbcImg/home/extendManageList/dataReport/checked.png';
-	import checkedItems from '@/static/mbcImg/home/extendManageList/dataReport/checkedItems.png';
+	import check from '@/static/mbcImg/jiegou/extendManageList/dataReport/check.png';
+	import checked from '@/static/mbcImg/jiegou/extendManageList/dataReport/checked.png';
+	import checkedItems from '@/static/mbcImg/jiegou/extendManageList/dataReport/checkedItems.png';
 	import selectEd from '@/static/mbcImg/jiegou/selectEd.png';
 	import select from '@/static/mbcImg/publish/createBusiness/select.png';
 	export default {
