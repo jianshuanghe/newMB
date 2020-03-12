@@ -201,8 +201,8 @@
 					success: response => {
 						// console.log(response.data, '---------------response.data--------------')
 						if (response.data.ret === '200') {
-							// this.moduleDateList = response.data;
-							this.moduleDateList = isData; // 测试
+							this.moduleDateList = response.data;
+							// this.moduleDateList = isData; // 测试
 							if (Number(this.routeParam.instrucCustType)=== 1) {
 								this.getModuleTempList(id); // 根据id 拉去用户可添加的模块信息
 								this.getCustModuleTempList(id); 
@@ -271,8 +271,8 @@
 						// console.log(response.data, '---------------response.data--------------')
 						if (response.data.ret === '200') {
 							uni.hideLoading(); // 隐藏 loading
-							// this.moduleTempList = response.data;
-							this.moduleTempList = moduleTemp; // 测试使用
+							this.moduleTempList = response.data;
+							// this.moduleTempList = moduleTemp; // 测试使用
 							this.loadEnd = true; // 加载完成
 						} else if (response.data.ret === '202') {
 							uni.removeStorageSync('landRegist');

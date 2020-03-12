@@ -73,8 +73,8 @@
 </template>
 
 <script>
-	import del from '@/static/mbcImg/publish/createBusiness/del.png';
-	import sort from '@/static/mbcImg/publish/createBusiness/sort.png';
+	import del from '@/static/mbcImg/jiegou/createBusiness/del.png';
+	import sort from '@/static/mbcImg/jiegou/createBusiness/sort.png';
 	import replaceIcon from '@/components/common/RHX/replaceIcon/replaceIcon';
 	import inputBox from '@/components/common/RHX/inputBox/inputBox';
 	export default {

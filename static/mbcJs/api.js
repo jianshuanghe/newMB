@@ -8,8 +8,8 @@ if (process.env.NODE_ENV === 'development') {
     // api1 = 'http://192.168.131.204:8090'; // 短信
     // api2 = 'https://hc360cyd.mynatapp.cc'; // 业务
     // api3 = 'https://img01.iambuyer.com'; // 图片
-	api1 = 'https://api.iambuyer.com';
-	api2 = 'https://api.ruhexiu.com';
+	api1 = 'http://192.168.131.204:8090';
+	api2 = 'https://zhaojie0001.mynatapp.cc';
 	api3 = 'https://img01.iambuyer.com';
 }
 // uEnvProd

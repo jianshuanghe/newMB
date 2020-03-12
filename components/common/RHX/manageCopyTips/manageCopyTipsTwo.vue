@@ -165,6 +165,7 @@
 		centerText='新增样式'
 		tips='请勾选其中一项!'
 		rightText='保存'
+		:itemsData='itemsData'
 		:dataList='moduleTempList'
 		:translateY="this.VwVhToPx(2, 'vh')"
 		scrollHeight='90vh'

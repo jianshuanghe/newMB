@@ -37,6 +37,7 @@
 					<!-- 单选框 -->
 					<rCheckBox
 					:dataList='dataList'
+					:itemsData='itemsData'
 					:marginBottomShow='marginBottomShow'
 					dataType='5'
 					@tap-CheckBox='tapCheckBox'
@@ -73,6 +74,7 @@
 			'centerText',
 			'rightText',
 			'tips',
+			'itemsData',
 			'pickerTop',
 			'translateY',
 			'rightColor',
