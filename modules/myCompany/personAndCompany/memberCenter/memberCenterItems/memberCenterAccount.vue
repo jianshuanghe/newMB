@@ -148,7 +148,7 @@ export default {
 		return {
 			user:[],
 			userLogo: this.Static+'my/sasf.png',
-			vipBackground:  this.Static+'images/business/home/personCenter/银卡.png', //会员背景图片
+			vipBackground:  this.Static+'images/business/home/personCenter/Memberback.png', //会员背景图片
 			overdueDay: '', // 过期天数
 			effectiveTime: '', // 有效时间
 			progress:'',
