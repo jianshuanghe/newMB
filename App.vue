@@ -27,7 +27,7 @@
 				data: {
 					appid: plus.runtime.appid,
 					version: plus.runtime.version,
-					imei: plus.device.imei
+					imei: plus.device.imei,
 				},
 				success: (res) => {
 					console.log('success', res);
