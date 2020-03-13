@@ -95,10 +95,10 @@
 				v-for="(items, index) in dataLists" 
 				:key="index"
 				@click="labelBtn(items.value, index)" 
-				
+				v-if="items.itemData.moduleAggregation === '1'"
 				class='items-box2 left'>
 					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
-					<div class="rRadioTitle">{{items.styleName}}</div>
+					<div class="rRadioTitle">{{items.itemData.styleName}}</div>
 					<div class="rRadio-items6 left" :style="current === index ? selectStyle : noSelectStyle">
 						<image class="items-img" :src="items.itemData.moduleImg" mode='aspectFit'></image>
 						<image
@@ -118,7 +118,7 @@
 				@click="labelBtn(items.value, index)" 
 				class='items-box2 left'>
 					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
-					<div class="rRadioTitle">{{items.styleName}}</div>
+					<div class="rRadioTitle">{{items.itemData.styleName}}</div>
 					<div class="rRadio-items6 left" :style="current === index ? selectStyle : noSelectStyle">
 						<image class="items-img" :src="items.itemData.moduleImg" mode='aspectFit'></image>
 						<image
@@ -139,7 +139,7 @@
 	import checked from '@/static/mbcImg/jiegou/extendManageList/dataReport/checked.png';
 	import checkedItems from '@/static/mbcImg/jiegou/extendManageList/dataReport/checkedItems.png';
 	import selectEd from '@/static/mbcImg/jiegou/selectEd.png';
-	import select from '@/static/mbcImg/publish/createBusiness/select.png';
+	// import select from '@/static/mbcImg/publish/createBusiness/select.png';
 	export default {
 		name: 'businessPutIn',
 		props: [
@@ -158,7 +158,7 @@
 				checked: checked, // type 选择按钮的选中状态 img
 				checkedItems: checkedItems, // 子项选中对勾 img
 				selectEd: selectEd, // 勾选圆框 黑色
-				select: select, // 未勾选圆框 白色
+				select: this.Static+'publish/createBusiness/select.png', // 未勾选圆框 白色
 				clickItemsIndex: '', // 记录子项点击的index
 				selectStyle2: { // 选择之后样式边框变化
 					background: '#02C2A2',

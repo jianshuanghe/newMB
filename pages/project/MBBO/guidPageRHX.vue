@@ -15,7 +15,7 @@
 			<div class="guidContent">
 				<div class="title1 top0">为企业提供基于二维码营销的数字化场景工具</div>
 				<div class="title2">可在线轻松制作产品说明书、宣传册、名片、pc官网、短视频等九大应用场景并生成二维码，通过二维码快速拓展私域流量，提升营销、售后等管理效率。</div>
-				<div class="box1"  @click="goToCreateBusiness">
+				<div class="box1 teshuM"  @click="goToCreateBusiness">
 					<image class="img1" :src='img1'></image>
 				</div>
 				<div class="title1-1 center-p">仅四步完成创建</div>
@@ -26,14 +26,20 @@
 					完整的产品生态助力企业发展
 					<div class="title2-2">8个平台，9大场景，帮助企业全方位提升销售和管理效率</div>
 				</div>
-				<div class="box1">
+				<div class="box1 teshuM1">
 					<image class="img1" :src='img3'></image>
 				</div>
 				<div class="icon1">
 					<image class="img2"  :src='img4'></image>
 				</div>
-				<div class="icon2">
-					<image class="img3"  :src='img5'></image>
+				<div class="icon2_1">
+					<image class="img3_1"  :src='img5_1'></image>
+				</div>
+				<div class="icon2_2">
+					<image class="img3_2"  :src='img5_2'></image>
+				</div>
+				<div class="icon2_3">
+					<image class="img3_3"  :src='img5_3'></image>
 				</div>
 				<div class="title1-1 center-p">
 					丰富的应用场景
@@ -41,7 +47,7 @@
 				</div>
 				<div class="list-box">
 					<div class="items" :class="index%2 === 0 ? 'left' : 'right'" v-for="(items, index) in list" :key="index">
-						<img :src="items.img" alt="" class="items_img" @click="goToCreateBusiness">
+						<img :src="items.img" alt="" class="items_img" @click="goToCreateBusiness(items.id)">
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -74,10 +80,18 @@
 	import img2 from '@/static/mbcImg/jiegou/img2.jpg';
 	import img3 from '@/static/mbcImg/jiegou/img3.jpg';
 	import img4 from '@/static/mbcImg/jiegou/img4.jpg';
-	import img5 from '@/static/mbcImg/jiegou/img5.jpg';
+	import img5_1 from '@/static/mbcImg/jiegou/img5.1.jpg';
+	import img5_2 from '@/static/mbcImg/jiegou/img5.2.jpg';
+	import img5_3 from '@/static/mbcImg/jiegou/img5.3.jpg';
 	import img6 from '@/static/mbcImg/jiegou/img6.jpg';
 	import img7 from '@/static/mbcImg/jiegou/img7.jpg';
+	import img8 from '@/static/mbcImg/jiegou/img8.jpg';
 	import img1_1 from '@/static/mbcImg/jiegou/img1.1.jpg';
+	import img1_2 from '@/static/mbcImg/jiegou/img1.2.jpg';
+	import img1_3 from '@/static/mbcImg/jiegou/img1.3.jpg';
+	import img1_4 from '@/static/mbcImg/jiegou/img1.4.jpg';
+	import img1_5 from '@/static/mbcImg/jiegou/img1.5.jpg';
+	import img1_6 from '@/static/mbcImg/jiegou/img1.6.jpg';
 	import imgLogo from '@/static/mbcImg/jiegou/imgLogo.jpg';
 	import { mapMutations, mapGetters } from 'vuex';
 	export default {
@@ -90,23 +104,23 @@
 					},
 					{
 						id: 2,
-						img: img1_1
+						img: img1_2
 					},
 					{
 						id: 3,
-						img: img1_1
+						img: img1_3
 					},
 					{
 						id: 4,
-						img: img1_1
+						img: img1_4
 					},
 					{
 						id: 5,
-						img: img1_1
+						img: img1_5
 					},
 					{
 						id: 6,
-						img: img1_1
+						img: img1_6
 					}
 				],
 				listQrCode: [
@@ -116,14 +130,16 @@
 					},
 					{
 						id: 1,
-						img: img7
+						img: img8
 					}
 				],
 				img1: img1,
 				img2: img2,
 				img3: img3,
 				img4: img4,
-				img5: img5,
+				img5_1: img5_1,
+				img5_2: img5_2,
+				img5_3: img5_3,
 				img6: img6,
 				img7: img7,
 				imgLogo: imgLogo
@@ -143,11 +159,13 @@
 		created() {
 		},
 		methods:{
-			goToCreateBusiness () {
+			goToCreateBusiness (e) {
 				console.log('to选择模版(1/4)');
-				uni.navigateTo({
-					url: '/modules/createBusiness/selectTemplate'
-				});
+				if (e < 4){
+					uni.navigateTo({
+						url: '/modules/createBusiness/selectTemplate'
+					});
+				}
 			},
 			previewImageS (e, key) {
 				console.log(e, '附件地址');
@@ -177,6 +195,9 @@
 </script>
 
 <style>
+	.teshuM{
+		margin: 104px auto 160px !important;
+	}
 	.logoCont{
 		position: relative;
 		width: 123px;
@@ -186,7 +207,7 @@
 	.imgLogo{
 		position: relative;
 		width: 123px;
-		height: 28px;
+		height: 24px;
 	}
 	.list-box{
 		position: relative;
@@ -234,7 +255,7 @@
 	}
 	.title1{
 		font-family: PingFangSC-Semibold;
-		font-size: 18px;
+		font-size: 17px;
 		color: #2E2E30;
 		letter-spacing: 0;
 		line-height: 24px;
@@ -262,7 +283,7 @@
 		line-height: 22px;
 		position: relative;
 		widows: 100%;
-		padding: 20px 0;
+		padding: 0px 0;
 	}
 	.title2-2{
 		font-family: PingFangSC-Light;
@@ -283,6 +304,13 @@
 		width: 308upx;
 		height: 308upx;
 		margin: 30px auto;
+	}
+	.teshuM1{
+		position: relative;
+		width: 360upx !important;
+	}
+	.teshuM1 .img1{
+		width: 360upx !important;
 	}
 	.img1{
 		position: relative;
@@ -313,6 +341,36 @@
 		position: relative;
 		width: 100%;
 		height: 435px;
+	}
+	.icon2_1{
+		position: relative;
+		width: 100%;
+		margin: 45px 0 0 0;
+	}
+	.img3_1{
+		position: relative;
+		width: 100%;
+		height: 370px;
+	}
+	.icon2_2{
+		position: relative;
+		width: 100%;
+		margin: 45px 0 0 0;
+	}
+	.img3_2{
+		position: relative;
+		width: 100%;
+		height: 480px;
+	}
+	.icon2_3{
+		position: relative;
+		width: 100%;
+		margin: 45px 0 0 0;
+	}
+	.img3_3{
+		position: relative;
+		width: 100%;
+		height: 290px;
 	}
 	.img4{
 		position: relative;
