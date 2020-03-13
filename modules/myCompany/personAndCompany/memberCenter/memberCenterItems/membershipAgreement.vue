@@ -27,8 +27,8 @@ export default {
 	props: ['userDatas'],
 	data() {
 		return {
-			selected: this.Static+'images/business/home/personCenter/勾选-选中.png',
-			select: this.Static+'images/business/home/personCenter/勾选-未选择.png',
+			selected: this.Static+'images/business/home/personCenter/ChecklistYes.png',
+			select: this.Static+'images/business/home/personCenter/ChecklistNo.png',
 			vipSelect:true,//单选未选中  当vipSelect为false是说明用户选中，可以提交了
 			vipSelected:false,//单选已经选中
 		};

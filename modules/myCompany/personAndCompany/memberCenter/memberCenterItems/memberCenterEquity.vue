@@ -83,11 +83,11 @@
         data () {
           return {
             vip1:  this.Static+'images/business/home/personCenter/5+1.png',
-            vip2:  this.Static+'images/business/home/personCenter/说明书.png',
-            vip3:  this.Static+'images/business/home/personCenter/平台.png',
-			vip4:  this.Static+'images/business/home/personCenter/撮合.png',
-			vip5:  this.Static+'images/business/home/personCenter/场景.png',
-			vip6:  this.Static+'images/business/home/personCenter/数据.png',
+            vip2:  this.Static+'images/business/home/personCenter/Instructions.png',
+            vip3:  this.Static+'images/business/home/personCenter/platform.png',
+			vip4:  this.Static+'images/business/home/personCenter/MatchUp.png',
+			vip5:  this.Static+'images/business/home/personCenter/scene.png',
+			vip6:  this.Static+'images/business/home/personCenter/data.png',
           };
         },
         created () {},
