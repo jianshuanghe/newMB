@@ -117,13 +117,19 @@
 				:key="index"
 				@click="labelBtn(items.value, index)" 
 				class='items-box2 left'>
-					<checkbox :value="items.value" :checked="items.checked" v-show="false" />
+					<checkbox :value="items.value" :checked="items.checked" :disabled="items.disabled" v-show="false" />
 					<div class="rRadioTitle">{{items.itemData.styleName}}</div>
 					<div class="rRadio-items6 left" :style="current === index ? selectStyle : noSelectStyle">
 						<image class="items-img" :src="items.itemData.moduleImg" mode='aspectFit'></image>
 						<image
 						class="selectImg6" 
+						v-if='!items.disabled'
 						:src="items.checked === true ? selectEd : select"
+						></image>
+						<image
+						class="selectImg6" 
+						v-if='items.disabled'
+						:src="selectNo"
 						></image>
 					</div>
 					
@@ -139,7 +145,8 @@
 	import checked from '@/static/mbcImg/jiegou/extendManageList/dataReport/checked.png';
 	import checkedItems from '@/static/mbcImg/jiegou/extendManageList/dataReport/checkedItems.png';
 	import selectEd from '@/static/mbcImg/jiegou/selectEd.png';
-	// import select from '@/static/mbcImg/publish/createBusiness/select.png';
+	import select from '@/static/mbcImg/jiegou/select.png';
+	import selectNo from '@/static/mbcImg/jiegou/selectNo.png';
 	export default {
 		name: 'businessPutIn',
 		props: [
@@ -158,7 +165,8 @@
 				checked: checked, // type 选择按钮的选中状态 img
 				checkedItems: checkedItems, // 子项选中对勾 img
 				selectEd: selectEd, // 勾选圆框 黑色
-				select: this.Static+'publish/createBusiness/select.png', // 未勾选圆框 白色
+				select: select, // 未勾选圆框 白色
+				selectNo: selectNo,
 				clickItemsIndex: '', // 记录子项点击的index
 				selectStyle2: { // 选择之后样式边框变化
 					background: '#02C2A2',
@@ -170,7 +178,9 @@
 			};
 		},
 		components: {},
-		computed: {},
+		computed: {
+			
+		},
 		watch: {},
 		created() {
 			this.resetData(this.dataList);
@@ -239,7 +249,11 @@
 						console.log('样式选择！');
 						let item = {
 							itemData: items,
-							value: items.type,
+							disabled: false,
+							value: JSON.stringify({
+								type: items.type,
+								moduleAggregation: items.moduleAggregation
+							}),
 							checked: false
 						};
 						this.dataLists.push(item);
@@ -271,11 +285,10 @@
 				}
 			},
 			checkboxChange: function(e) {
-				this.selcetDataList = e.detail.value; // 获取选中的值
-				console.log(this.selcetDataList, '--------------------selcetDataList21321321-----------------------');
+				console.log(e, '用户选中的内容');
 				let checkData = []; // 组件返回值
-				
 				if (this.dataType === '3' || this.dataType === '4') {
+					this.selcetDataList = e.detail.value; // 获取选中的值
 					console.log('图片选择');
 					let data=[];
 					console.log(JSON.stringify(this.dataLists))
@@ -299,8 +312,17 @@
 					});
 					this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
 				} else if (this.dataType === '5') {
-					console.log('添加新样式');
-					let data={
+					this.selcetDataList = e.detail.value;
+					let xzArr = e.detail.value;
+					if (JSON.parse(xzArr[0]).moduleAggregation === '1') {
+						this.dataLists.map((items, index)=>{
+							if (items.itemData.moduleAggregation === '0') {
+								items.disabled = true;
+							}
+						});
+						this.selcetDataList = xzArr;
+						console.log('添加新样式');
+						let data={
 							"iconTitle": "新增模块",
 							"mType": "moreModule",
 							"moduleImg" : "http://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-public-module/temp-xiaomi-public-module-06.jpg",
@@ -312,25 +334,53 @@
 							"dataList": [
 								
 							]
-						};;
-					// console.log(JSON.stringify(this.dataLists))
-					// console.log(this.dataLists, '--------------this.dataLists----------------')
-					this.dataLists.map((items, index)=>{
-						console.log( items.itemData.moduleAggregation, '形式1')
-						if (String(items.itemData.moduleAggregation) === '0') { // 不可聚合
-							data.mType = 'singleModule';
-							console.log('出现不可聚合元素')
-						}
-						console.log(this.selcetDataList, '000000000000')
-						this.selcetDataList.map((item,key)=>{
-							console.log(items.itemData, item, '----------------items.title-------------')
-							if (items.itemData.type === item){
-								data.dataList.push(items.itemData);
+						};
+						this.dataLists.map((items, index)=>{
+							console.log( items.itemData.moduleAggregation, '形式1')
+							console.log(this.selcetDataList, '000000000000')
+							this.selcetDataList.map((item,key)=>{
+								console.log(items.itemData, item, '----------------items.title-------------')
+								if (items.itemData.type === JSON.parse(item).type){
+									data.dataList.push(items.itemData);
+								}
+							})
+						});
+						this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
+					} else {
+						this.dataLists.map((items, index)=>{
+							if (items.itemData.moduleAggregation === '1') {
+								items.disabled = true;
 							}
-						})
-					});
-					this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
+						});
+						this.selcetDataList = xzArr;
+						console.log('添加新样式');
+						let data={
+							"iconTitle": "新增模块",
+							"mType": "singleModule",
+							"moduleImg" : "http://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-public-module/temp-xiaomi-public-module-06.jpg",
+							"icon": {
+								"notSelected" : "https://style.iambuyer.com/img/icon/fenzu_0.png",
+								"selected" : "https://style.iambuyer.com/img/icon/fenzu_1.png",
+								"catalog_white":"https://style.iambuyer.com/img/icon/fenzu_2.png"
+							},
+							"dataList": [
+								
+							]
+						};
+						this.dataLists.map((items, index)=>{
+							console.log( items.itemData.moduleAggregation, '形式1')
+							console.log(this.selcetDataList, '000000000000')
+							this.selcetDataList.map((item,key)=>{
+								console.log(items.itemData, item, '----------------items.title-------------')
+								if (items.itemData.type === JSON.parse(item).type){
+									data = items.itemData;
+								}
+							})
+						});
+						this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
+					}
 				} else {
+					this.selcetDataList = e.detail.value; // 获取选中的值
 					this.dataLists.map((items, index)=>{
 						this.selcetDataList.map((item,key)=>{
 							if (items.value === item){

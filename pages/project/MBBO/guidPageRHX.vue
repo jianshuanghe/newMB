@@ -15,7 +15,7 @@
 			<div class="guidContent">
 				<div class="title1 top0">为企业提供基于二维码营销的数字化场景工具</div>
 				<div class="title2">可在线轻松制作产品说明书、宣传册、名片、pc官网、短视频等九大应用场景并生成二维码，通过二维码快速拓展私域流量，提升营销、售后等管理效率。</div>
-				<div class="box1 teshuM"  @click="goToCreateBusiness">
+				<div class="box1 teshuM"  @click="goToCreateBusiness(1)">
 					<image class="img1" :src='img1'></image>
 				</div>
 				<div class="title1-1 center-p">仅四步完成创建</div>

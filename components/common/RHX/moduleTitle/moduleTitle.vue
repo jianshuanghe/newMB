@@ -74,9 +74,11 @@ export default {
 		console.log(this.moduleTempList, 'moduleTempList||');
 		this.scrollHeight = this.VwVhToPx(90, 'vh') - 20 + 'px'
 		this.addModuleTop = this.VwVhToPx(90, 'vh') - 60 + 'px'
+		console.log(this.titleText, 'llskks2')
 	},
 	mounted() {
 		this.titleHeight();
+		console.log(this.titleText, 'llskks3')
 	},
 	watch: {
 		fixedScroll: {

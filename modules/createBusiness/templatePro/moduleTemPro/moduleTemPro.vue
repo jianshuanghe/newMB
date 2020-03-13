@@ -453,6 +453,7 @@
 					this.dataListTemp = a;
 					let datalist = this.dataListTemp.content.context.tempCon.modules;
 					if (datalist.length > 0){
+						console.log(this.titleText, 'llskks')
 						this.titleText = datalist[0].iconTitle; // title默认显示数组第一项的title
 					} else {
 						this.titleText = '编辑模板'; // title默认显示数组第一项的title
@@ -503,6 +504,7 @@
 					console.log(datalist, '--------------datalist--------9999-------')
 					if (datalist.length > 0){
 						this.titleText = datalist[0].iconTitle; // title默认显示数组第一项的title
+						console.log(this.titleText, 'llskks')
 					} else {
 						this.titleText = '编辑模板'; // title默认显示数组第一项的title
 					}
@@ -521,7 +523,8 @@
 							item.id = 'cust' + this.newGuid(); // 每一项添加id 用来点击目录定位到当前项，因为uni-app这样定义的
 						});
 						if (datalist.length > 0){
-							this.titleText = datalist[0].iconTitle; // title默认显示数组第一项的title
+							// this.titleText = datalist[0].iconTitle; // title默认显示数组第一项的title
+							console.log(this.titleText, 'llskks')
 						} else {
 							this.titleText = '编辑模板'; // title默认显示数组第一项的title
 						}
@@ -552,6 +555,7 @@
 					this.titleText = '定制信息'
 				} else {
 					this.titleText = this.titleText
+					console.log(this.titleText, 'llskks')
 				}
 			},
 			// 判断代替横向模块的部分是否展示
@@ -571,6 +575,7 @@
 				let datalist = this.dataListTemp.content.context.tempCon.modules;
 				if (datalist.length > 0){
 					this.titleText = datalist[0].iconTitle; // title默认显示数组第一项的title
+					console.log(this.titleText, 'llskks')
 				} else {
 					this.titleText = '编辑模板'; // title默认显示数组第一项的title
 				}
@@ -587,6 +592,7 @@
 				let datalist = this.dataListTemp.content.context.tempCon.custModules;
 				if (datalist.length > 0){
 					this.titleText = datalist[0].iconTitle; // title默认显示数组第一项的title
+					console.log(this.titleText, 'llskks')
 				} else {
 					this.titleText = '编辑模板'; // title默认显示数组第一项的title
 				}
@@ -595,6 +601,7 @@
 			tapTitleScroll(e){
 				console.log(e, '定位到指定id位置');
 				this.titleText = e[0].iconTitle; // title
+				console.log(this.titleText, 'llskks')
 				this.scrollInto = e[0].id; // 定位到指定id位置
 				this.tabYItemsIndex = e[1]; // 竖向目录点击的index,传送给横向列表，默认点亮此时对应的items项
 				console.log(this.scrollInto, '--------------------this.scrollInto---------------------');
@@ -603,6 +610,7 @@
 			tapModuleYList (e) {
 				console.log(e, '++++++++++++++++++++++++++++点击模块List组件+++++++++++++++++++++++++++');
 				this.titleText = e[0].iconTitle; // title
+				console.log(this.titleText, 'llskks')
 				this.scrollInto = e[0].id; // 定位到指定id位置
 				this.tabYItemsIndex = e[1]; // 竖向目录点击的index,传送给横向列表，默认点亮此时对应的items项
 			},
@@ -623,6 +631,7 @@
 			tapChangeTitle(e) {
 				console.log(e, '根据用户滑动页面判断当前那个组件显示在最顶部，同时更换title,和横向列表展示更换子项');
 				this.titleText = e[0].iconTitle; // title
+				console.log(e[0].iconTitle, 'llskks1')
 				this.tabYItemsIndex = e[1]; // 竖向目录点击的index,传送给横向列表，默认点亮此时对应的items项
 			},
 			// 点击模块INPUT_TABLE_A组件

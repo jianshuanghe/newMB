@@ -90,7 +90,9 @@
 				radioValue: {}, // 单选选中的值
 			};
 		},
-		created() {},
+		created() {
+			console.log(this.dataList, '添加模块时，进入的数据')
+		},
 		methods: {
 			// 添加模块
 			ModuleAdd() {
