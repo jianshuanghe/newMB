@@ -45,6 +45,11 @@ const state = {
 			},
 			listData: '' // 列表数据
 		},
+	},
+	CustomerServiceOutlets:{//售后网点
+		count:'',
+		cityList:[]
 	}
+	
 };
 export default state;

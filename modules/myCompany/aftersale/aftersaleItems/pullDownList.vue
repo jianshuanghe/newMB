@@ -1,5 +1,5 @@
 <template>
-	<view v-if="this.cityLists.length>1">
+	<view v-if="this.cityList.length>1">
 		<view class="allCities">
 			<view class="title">{{addrName}}<text>({{dataCount}})</text></view>
 			<view @click="taptitleImg">

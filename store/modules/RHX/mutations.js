@@ -24,6 +24,14 @@ const mutations = {
     console.log(info, 'setSTemInforRHX');
     state.selectTemplateRHX.infor = info;
   },
-  
+  //---------------------------售后网点------------------------------
+  setServiceOutletCount (state,info){//网点数量
+	  console.log(info,'setServiceOutletCount');
+	  state.CustomerServiceOutlets.count = info;
+  },
+  setServiceOutletCity (state,info){//网点列表
+	  console.log(info,'setServiceOutletCity');
+	  state.CustomerServiceOutlets.cityList = info;
+  }
 };
 export default mutations;
