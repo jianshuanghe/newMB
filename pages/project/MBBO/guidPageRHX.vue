@@ -86,6 +86,7 @@
 	import img6 from '@/static/mbcImg/jiegou/img6.jpg';
 	import img7 from '@/static/mbcImg/jiegou/img7.jpg';
 	import img8 from '@/static/mbcImg/jiegou/img8.jpg';
+	import img9 from '@/static/mbcImg/jiegou/img9.jpg';
 	import img1_1 from '@/static/mbcImg/jiegou/img1.1.jpg';
 	import img1_2 from '@/static/mbcImg/jiegou/img1.2.jpg';
 	import img1_3 from '@/static/mbcImg/jiegou/img1.3.jpg';
@@ -131,6 +132,11 @@
 					{
 						id: 1,
 						img: img8
+					},
+					
+					{
+						id: 1,
+						img: img9
 					}
 				],
 				img1: img1,

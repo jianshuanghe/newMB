@@ -314,70 +314,76 @@
 				} else if (this.dataType === '5') {
 					this.selcetDataList = e.detail.value;
 					let xzArr = e.detail.value;
-					if (JSON.parse(xzArr[0]).moduleAggregation === '1') {
-						this.dataLists.map((items, index)=>{
-							if (items.itemData.moduleAggregation === '0') {
-								items.disabled = true;
-							}
-						});
-						this.selcetDataList = xzArr;
-						console.log('添加新样式');
-						let data={
-							"iconTitle": "新增模块",
-							"mType": "moreModule",
-							"moduleImg" : "http://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-public-module/temp-xiaomi-public-module-06.jpg",
-							"icon": {
-								"notSelected" : "https://style.iambuyer.com/img/icon/fenzu_0.png",
-								"selected" : "https://style.iambuyer.com/img/icon/fenzu_1.png",
-								"catalog_white":"https://style.iambuyer.com/img/icon/fenzu_2.png"
-							},
-							"dataList": [
-								
-							]
-						};
-						this.dataLists.map((items, index)=>{
-							console.log( items.itemData.moduleAggregation, '形式1')
-							console.log(this.selcetDataList, '000000000000')
-							this.selcetDataList.map((item,key)=>{
-								console.log(items.itemData, item, '----------------items.title-------------')
-								if (items.itemData.type === JSON.parse(item).type){
-									data.dataList.push(items.itemData);
+					if (xzArr.length > 0) {
+						if (JSON.parse(xzArr[0]).moduleAggregation === '1') {
+							this.dataLists.map((items, index)=>{
+								if (items.itemData.moduleAggregation === '0') {
+									items.disabled = true;
 								}
-							})
-						});
-						this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
+							});
+							this.selcetDataList = xzArr;
+							console.log('添加新样式');
+							let data={
+								"iconTitle": "新增模块",
+								"mType": "moreModule",
+								"moduleImg" : "http://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-public-module/temp-xiaomi-public-module-06.jpg",
+								"icon": {
+									"notSelected" : "https://style.iambuyer.com/img/icon/fenzu_0.png",
+									"selected" : "https://style.iambuyer.com/img/icon/fenzu_1.png",
+									"catalog_white":"https://style.iambuyer.com/img/icon/fenzu_2.png"
+								},
+								"dataList": [
+									
+								]
+							};
+							this.dataLists.map((items, index)=>{
+								console.log( items.itemData.moduleAggregation, '形式1')
+								console.log(this.selcetDataList, '000000000000')
+								this.selcetDataList.map((item,key)=>{
+									console.log(items.itemData, item, '----------------items.title-------------')
+									if (items.itemData.type === JSON.parse(item).type){
+										data.dataList.push(items.itemData);
+									}
+								})
+							});
+							this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
+						} else {
+							this.dataLists.map((items, index)=>{
+								if (items.itemData.moduleAggregation === '1') {
+									items.disabled = true;
+								}
+							});
+							this.selcetDataList = xzArr;
+							console.log('添加新样式');
+							let data={
+								"iconTitle": "新增模块",
+								"mType": "singleModule",
+								"moduleImg" : "http://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-public-module/temp-xiaomi-public-module-06.jpg",
+								"icon": {
+									"notSelected" : "https://style.iambuyer.com/img/icon/fenzu_0.png",
+									"selected" : "https://style.iambuyer.com/img/icon/fenzu_1.png",
+									"catalog_white":"https://style.iambuyer.com/img/icon/fenzu_2.png"
+								},
+								"dataList": [
+									
+								]
+							};
+							this.dataLists.map((items, index)=>{
+								console.log( items.itemData.moduleAggregation, '形式1')
+								console.log(this.selcetDataList, '000000000000')
+								this.selcetDataList.map((item,key)=>{
+									console.log(items.itemData, item, '----------------items.title-------------')
+									if (items.itemData.type === JSON.parse(item).type){
+										data = items.itemData;
+									}
+								})
+							});
+							this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
+						}
 					} else {
 						this.dataLists.map((items, index)=>{
-							if (items.itemData.moduleAggregation === '1') {
-								items.disabled = true;
-							}
+							items.disabled = false;
 						});
-						this.selcetDataList = xzArr;
-						console.log('添加新样式');
-						let data={
-							"iconTitle": "新增模块",
-							"mType": "singleModule",
-							"moduleImg" : "http://style.iambuyer.com/img/temp-xiaomi-imgs/temp-xiaomi-public-module/temp-xiaomi-public-module-06.jpg",
-							"icon": {
-								"notSelected" : "https://style.iambuyer.com/img/icon/fenzu_0.png",
-								"selected" : "https://style.iambuyer.com/img/icon/fenzu_1.png",
-								"catalog_white":"https://style.iambuyer.com/img/icon/fenzu_2.png"
-							},
-							"dataList": [
-								
-							]
-						};
-						this.dataLists.map((items, index)=>{
-							console.log( items.itemData.moduleAggregation, '形式1')
-							console.log(this.selcetDataList, '000000000000')
-							this.selcetDataList.map((item,key)=>{
-								console.log(items.itemData, item, '----------------items.title-------------')
-								if (items.itemData.type === JSON.parse(item).type){
-									data = items.itemData;
-								}
-							})
-						});
-						this.$emit('tap-CheckBox', data); // 将用户选择下来的子项返给前台
 					}
 				} else {
 					this.selcetDataList = e.detail.value; // 获取选中的值

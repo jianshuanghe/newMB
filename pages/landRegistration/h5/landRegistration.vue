@@ -540,8 +540,13 @@ export default {
 							});
 							uni.navigateBack({ delta: 1 });
 							setTimeout(() => {
+								let herfUrl = '/pages/project/MBBO/home';
+								if (uni.getStorageSync('localUrl')) {
+									let localUrl = uni.getStorageSync('localUrl').split('#')[1]
+									herfUrl = localUrl;
+								}
 								uni.navigateTo({
-									url: '/pages/project/MBBO/home'
+									url: herfUrl
 								});
 							}, 500);
 						}
