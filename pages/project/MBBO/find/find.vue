@@ -1182,37 +1182,30 @@ export default {
 				this.adefault='follow';
 				this.pages='1';
 				this.finddatass(this.adefault,this.pages);
-				this.goTop();
 			}else if(e.detail.current==1){
 				this.adefault='push';
 				this.pages='1';
 				this.finddatass(this.adefault,this.pages);
-				this.goTop();
 			}else if(e.detail.current==2){
 				this.adefault='inst';
 				this.pages='1';
 				this.finddatass(this.adefault,this.pages);
-				this.goTop();
 			}else if(e.detail.current==3){
 				this.adefault='purc';
 				this.pages='1';
 				this.finddatass(this.adefault,this.pages);
-				this.goTop();
 			}else if(e.detail.current==4){
 				this.adefault='news';
 				this.pages='1';
 				this.finddatass(this.adefault,this.pages);
-				this.goTop();
 			}else if(e.detail.current==5){
 				this.adefault='compService';
 				this.pages='1';
 				this.finddatass(this.adefault,this.pages);
-				this.goTop();
 			}else if(e.detail.current==6){
 				this.adefault='invest';
 				this.pages='1';
 				this.finddatass(this.adefault,this.pages);
-				this.goTop();
 			}
 		},
 		//动画结束后执行
