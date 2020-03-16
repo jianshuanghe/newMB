@@ -163,6 +163,10 @@
 			...mapGetters(['QUICKNAVCO'])
 		},
 		created() {
+			this.shareEachPage(); // 分享
+			uni.setNavigationBarTitle({
+				title: '陌拜-如何秀'
+			});
 		},
 		methods:{
 			goToCreateBusiness (e) {
