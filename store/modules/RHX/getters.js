@@ -3,6 +3,8 @@
  */
 const getters = {
 	// --------------------------------选择模版(1/4)------------------------------
-	SELECTTEMPLATERHX: state => state.selectTemplateRHX
+	SELECTTEMPLATERHX: state => state.selectTemplateRHX,
+	//------------------------------售后网点------------------------------------
+	CUSTOMERSERVICEOUTLETS:state =>state.CustomerServiceOutlets
 };
 export default getters;

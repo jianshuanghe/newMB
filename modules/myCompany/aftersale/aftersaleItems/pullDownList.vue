@@ -1,5 +1,5 @@
 <template>
-	<view v-if="this.cityLists.length>1">
+	<view v-if="this.cityList.length>1">
 		<view class="allCities">
 			<view class="title">{{addrName}}<text>({{dataCount}})</text></view>
 			<view @click="taptitleImg">
@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import downImg from '@/static/mbcImg/images/business/home/aftersale/导航-下拉.png';
-import upImg from '@/static/mbcImg/images/business/home/aftersale/导航-收起.png';
+import downImg from '@/static/mbcImg/images/business/home/aftersale/down.png';
+import upImg from '@/static/mbcImg/images/business/home/aftersale/up.png';
 export default {
 	name: 'pullDownList',
 	components: {
