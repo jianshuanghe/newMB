@@ -47,7 +47,7 @@ export default {
 }
 .search-NI-text {
 	position: relative;
-	width: 560upx;
+	width: 500upx;
 	margin-left: 10upx;
 	height: 60upx;
 	line-height: 60upx;

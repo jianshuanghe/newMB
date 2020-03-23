@@ -1,11 +1,28 @@
 <template>
 	<view class="tabs">
 		<!-- 搜索 -->
+		<!--  #ifdef  H5 -->
+		<div class="quickBtn-search">
+			<div class="quickBtn-Fd left"><quickBtn></quickBtn></div>
+			<block class="browserType" v-if="browserType === true">
+				<div class="search-Fd left" @tap="clickSearch"><homeSearch></homeSearch></div>
+				<div class="qrCode-Fd left"><qrScan></qrScan></div>
+			</block>
+			<block class="browserType" v-else>
+				<div class="search-Fd left" @tap="clickSearch"><homeSearch></homeSearch></div>
+			</block>
+			
+			<div class="clear"></div>
+		</div>
+		<!--  #endif -->
+		<!--  #ifdef  MP-WEIXIN || MP-TOUTIAO || MP-BAIDU || MP-ALIPAY -->
 		<div class="quickBtn-search">
 			<div class="quickBtn-Fd left"><quickBtn></quickBtn></div>
 			<div class="search-Fd left" @tap="clickSearch"><homeSearch></homeSearch></div>
+			<div class="qrCode-Fd left"><qrScan></qrScan></div>
 			<div class="clear"></div>
 		</div>
+		<!--  #endif -->
 		<view class="kongjian">
 			
 		</view>
@@ -128,6 +145,7 @@
 </template>
 <script>
 import quickBtn from '@/components/mbbo/quickBtn/quickBtn.vue';
+import qrScan from '@/components/mbbo/qrScan/qrScan.vue';
 import homeSearch from '@/components/mbbo/homeSearch/homeSearch.vue';
 import mediaList from './fimdList/mediaList.vue';
 // import pinDaoBtn from '@/static/mbcImg/common/pinDao/pinDaoBtn.png';
@@ -147,12 +165,14 @@ var listData = [
 export default {
 	components: {
 		quickBtn,
+		qrScan,
 		homeSearch,
 		mediaList,
 		message,
 	},
 	data() {
 		return {
+			browserType: false,
 			//滚动条位置
 			scrollTop:0, //
 			old: {
@@ -281,6 +301,9 @@ export default {
 		this.pages='1';
 		this.finddata(this.adefault,this.pages);
 		this.shareEachPage(); // 分享
+		// #ifdef H5
+			uni.getStorageSync('browserType') === 'WX' ? this.browserType = true : this.browserType = false;
+		// #endif
 	},
 	mounted() {
 		
@@ -1438,6 +1461,10 @@ export default {
 	margin-left: 20upx;
 }
 .search-Fd {
+	position: relative;
+	margin-left: 20upx;
+}
+.qrCode-Fd {
 	position: relative;
 	margin-left: 20upx;
 }

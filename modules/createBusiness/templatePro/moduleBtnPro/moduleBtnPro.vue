@@ -266,9 +266,13 @@
 					paramsUrl=[params, 1]; // 0发布， 1跟新
 				};
 				uni.setStorageSync('urlParamsTemp', JSON.stringify(this.urlCrypto(paramsUrl, 0))); // 缓存用户登录信息
-				uni.navigateTo({
-					url: '/modules/createBusiness/templateFinish/templateFinish?'
-				});
+				if (this.routeParam.isPC && this.routeParam.isPC === 1) {
+					window.parent.postMessage(JSON.stringify(this.urlCrypto(paramsUrl, 0)),'http://localhost:8080/');
+				} else {
+					uni.navigateTo({
+						url: '/modules/createBusiness/templateFinish/templateFinish?'
+					});
+				}
 			},
 		}
 	};

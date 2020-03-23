@@ -12,9 +12,10 @@
 					</div>
 					<div class="price">
 						<p class="price-text">¥{{itme.moneyStr}}/{{i18n.month}}</p>
-					</div>
-					<div class="member-price">
-						<p class="member-price-text">会员最低价 ¥{{itme.vipMoneyStr}}/{{i18n.month}}</p>
+						
+						<div class="member-price">
+							<p class="member-price-text">会员价 ¥{{itme.vipMoneyStr}}/{{i18n.month}}</p>
+						</div>
 					</div>
 				</div>
 				<div class="describe-img left"><img :src="itme.banner01" alt="" class="" /></div>
@@ -140,22 +141,27 @@ export default {
 .price > p {
 	font-family: PingFang-SC-Bold;
 	position: relative;
-	width: 100%;
-	font-size: 3.5vw;
+	/* width: 100%; */
+	font-family: PingFangSC-Regular;
+	font-size: 32upx;
+	color: #2E2E30;
 	line-height: 5vw;
 	color: #2e2e30;
 	margin-top: 10upx;
 	font-weight: bold;
+	display: inline-block;
 }
 .member-price{
 	position: relative;
-	width: 100%;
+	display: inline-block;
+	float: right;
 }
 .member-price > p {
 	font-family: PingFang-SC-Bold;
 	position: relative;
 	width: 100%;
-	font-size: 20upx;
+	font-size: 24upx;
+	margin-top: 10upx;
 	color: #FAB100;
 	line-height: 5vw;
 }
