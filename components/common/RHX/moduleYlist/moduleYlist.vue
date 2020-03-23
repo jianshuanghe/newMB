@@ -73,8 +73,8 @@
 			tips='请勾选其中一项!'
 			rightText='保存'
 			:dataList='moduleTempLists'
-			:translateY="this.VwVhToPx(2, 'vh')"
-			scrollHeight='90vh'
+			:translateY="this.VwVhToPx(4, 'vh')"
+			scrollHeight='86vh'
 			:marginBottomShow='true'
 			:scrollY='true'
 			rightColor='#02C2A2'
@@ -94,7 +94,7 @@
 			centerText='删除模块'
 			rightText='保存'
 			dataList=''
-			:translateY="this.VwVhToPx(2, 'vh')"
+			:translateY="this.VwVhToPx(4, 'vh')"
 			scrollHeight='86vh'
 			:marginBottomShow='false'
 			:scrollY='true'
@@ -106,7 +106,7 @@
 				<moduleList
 				:disabled='true'
 				:isEditInput='false'
-				scrollHeight='90vh'
+				scrollHeight='86vh'
 				:addModuleTop='addModuleTop'
 				:dataList="dataListsM" 
 				selIconList=''
@@ -315,11 +315,13 @@
 				console.log(e, '点击添加模块按钮');
 				this.moduleAddListShow = true; // 展示添加模块列表
 				this.isAnimateModule = false; // 取消模块管理动画
+				this.$emit('set-FixedShow', false);
 				console.log(this.isAnimateModule, '----------------------isAnimateModule---------------------')
 			},
 			// 点击picker取消
 			tapCancelAdd (e) {
 				console.log('点击picker取消');
+				this.$emit('set-FixedShow', true);
 				this.moduleAddListShow = false; // 取消展示添加模块列表
 			},
 			// 点击picker确定
@@ -332,6 +334,7 @@
 				this.dataLists.push(e);
 				console.log(this.dataLists, '---------------tap-PreserveBotttom---------------');
 				this.distributeId(this.dataLists);
+				this.$emit('set-FixedShow', true);
 			},
 			// 点击添加模块底部确定-----fixed----按钮
 			tapPreserveBotttomFixedAdd () {
@@ -353,6 +356,7 @@
 				console.log(this.dataList, '往删除模块里传的数据！');
 				this.dataLists = this.dataList;
 				this.isModuleListShow = true;
+				this.$emit('set-FixedShow', false);
 				console.log(this.isModuleListShow)
 			},
 			// 点击picker取消按钮
@@ -361,6 +365,7 @@
 				this.pickerCancel = false; // 记录用户触发picker取消按钮
 				console.log(this.pickerCancel, '----------------this.pickerCancel--------------')
 				this.dataListsM = JSON.parse(JSON.stringify(this.dataList));
+				this.$emit('set-FixedShow', true);
 				this.isModuleListShow = false; // 关闭picker
 			},
 			// 点击picker确定按钮
@@ -395,17 +400,20 @@
 			// -------------------------------------------------------修改模块---------------------------------------------------------------
 			tapItemsModify(e){
 				this.moduleModifyShow = true;
+				this.$emit('set-FixedShow', false);
 			},
 			// 取消修改模块
 			tapCancelModify (e) {
 				console.log(e, '取消修改模块');
 				this.moduleModifyShow = e[1];
+				this.$emit('set-FixedShow', true);
 			},
 			// 确定修改模块
 			tapPreserveModify (e) {
 				console.log(e, '确定修改模块');
 				this.moduleModifyShow = e[1];
 				this.$emit('tap-Title', [e[0], '']);
+				this.$emit('set-FixedShow', true);
 			},
 			// tapPreserveModuleModify
 			tapPreserveModuleModify (e) {

@@ -8,7 +8,7 @@
 			centerText='管理模块'
 			rightText='保存'
 			:dataList='moduleTempList'
-			:translateY="this.VwVhToPx(2, 'vh')"
+			:translateY="this.VwVhToPx(4, 'vh')"
 			scrollHeight='100vh'
 			:marginBottomShow='false'
 			:scrollY='true'

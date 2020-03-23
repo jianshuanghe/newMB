@@ -313,17 +313,20 @@
 				console.log(e, '点击添加模块按钮');
 				this.moduleAddListShow = true; // 展示添加模块列表
 				this.isAnimateModule = false; // 取消模块管理动画
+				this.$emit('tap-FixedBtnBotShow', false);
 				console.log(this.isAnimateModule, '----------------------isAnimateModule---------------------')
 			},
 			// 点击picker取消
 			tapCancel (e) {
 				console.log('点击picker取消');
 				this.moduleAddListShow = false; // 取消展示添加模块列表
+				this.$emit('tap-FixedBtnBotShow', true);
 			},
 			// 点击picker确定
 			tapPreserve (e) {
 				console.log(e, '点击picker确定');
 				console.log(this.dataLists)
+				this.$emit('tap-FixedBtnBotShow', true);
 				// this.$emit('tap-PreserveBotttom', e); // 将选中的值返回给父组件
 				this.moduleAddListShow = false; // 取消展示添加模块列表
 				this.dataLists = this.dataLists.concat(e.dataList);

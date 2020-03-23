@@ -35,6 +35,7 @@
 							:column='4.5'
 							:scrollFixedShow='scrollFixedShow'
 							:fixedScroll='fixedScroll'
+							@set-FixedShow='setFixedShowTemp'
 							@top-Fixed='topFixed'
 							@tap-ModuleYList='tapModuleYList'
 							@tap-Title='tapTitle'
@@ -79,6 +80,7 @@
 									:column='4.5'
 									:scrollFixedShow='scrollFixedShow'
 									:fixedScroll='fixedScroll'
+									@set-FixedShow='setFixedShowTemp'
 									@top-Fixed='topFixed'
 									@tap-ModuleYList='tapModuleYList'
 									@tap-Title='tapTitle'
@@ -99,6 +101,7 @@
 								:moduleTempList='moduleTemp'
 								:indexNum='index'
 								:tabYItemsIndex='tabYItemsIndex'
+								@set-FixedShow='setFixedShowTemp'
 								@tap-ChangeTitle='tapChangeTitle'
 								></moreModule>
 								<!-- 单一模块聚合渲染模板 -->
@@ -111,6 +114,7 @@
 								:defaultImg='defaultAddImg'
 								:dataList='items'
 								:indexNum='index'
+								@set-FixedShow='setFixedShowTemp'
 								:tabYItemsIndex='tabYItemsIndex'
 								@tap-ChangeTitle='tapChangeTitle'
 								></singleModule>

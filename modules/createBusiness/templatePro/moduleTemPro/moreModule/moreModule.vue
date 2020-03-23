@@ -213,6 +213,7 @@
 		:moduleTempList='moduleTemp.content'
 		:itemsData='dataLists'
 		:isManageShow='true'
+		@tap-FixedBtnBotShow = 'tapFixedBtnBotShow'
 		@tap-ManageCopyTips='tapManageCopyTips'
 		></manageCopyTips>
 	</div>
@@ -390,6 +391,9 @@
 			...mapMutations({
 				setMoreSet: 'setMoreSet'
 			}),
+			tapFixedBtnBotShow (e) {
+				this.$emit('set-FixedShow', e);
+			},
 			// 顶部标题修改
 			tabIconTitle(e) {
 				console.log(e,'顶部标题修改');
