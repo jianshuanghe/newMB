@@ -198,7 +198,22 @@
 				@tap-ChangeTitle='tapChangeTitle'
 				@tap-NEWSA='tapNEWSA'
 				></NEWSA>
+				<!-- 组件 -->
+				<LISTFSA
+				v-if="dataLists.type ==='LIST_FS_A'"
+				:basicData='basicDatas'
+				:scrollTop='scrollTops'
+				:indexNum='index'
+				:disabled='disableds'
+				:dataList='dataLists'
+				:tabYItemsIndexs='tabYItemsIndexs'
+				@tap-ChangeTitle='tapChangeTitle'
+				@tap-LISTFSA='tapLISTFSA'
+				></LISTFSA>
+				<!-- 组件 -->
+				<LISTFSB
 				
+				></LISTFSB>
 			</div>
 		</div>
 	</div>
@@ -235,6 +250,8 @@
 	import FOLLOWA from '@/components/rhx/InstrModule/FOLLOW_A';
 	import CONTENTA from '@/components/rhx/InstrModule/CONTENT_A';
 	import NEWSA from '@/components/rhx/InstrModule/NEWS_A';
+	import LISTFSA from '@/components/rhx/InstrModule/LIST_FS_A';
+	import LISTFSB from '@/components/rhx/InstrModule/LIST_FS_B';
 	// 留言模块----放在最后
 	import MESA from '@/components/rhx/InstrModule/MES_A';
 	import { mapMutations, mapGetters } from 'vuex';
@@ -243,7 +260,7 @@
 	export default {
 		data() {
 			return {
-				basicDatas: this.basicData,
+				basicDatas: this.basicData,//所有数据
 				scrollTops: this.scrollTop,
 				disableds: this.disabled,
 				defaultImgs: this.defaultImg,
@@ -294,6 +311,8 @@
 			CONTENTA,
 			FOLLOWA,
 			NEWSA,
+			LISTFSA,
+			LISTFSB,
 			MESA, // 留言模块----放在最后
 			TUIJIAN,
 		},
@@ -500,6 +519,11 @@
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);
 			},
 			tapNEWSA(e){
+				// console.log(e, '所有操作后返回数据');
+				this.basicDatas = e;
+				this.$emit('tap-ModuleTemPro', this.dataListTemp);
+			},
+			tapLISTFSA(e){
 				// console.log(e, '所有操作后返回数据');
 				this.basicDatas = e;
 				this.$emit('tap-ModuleTemPro', this.dataListTemp);

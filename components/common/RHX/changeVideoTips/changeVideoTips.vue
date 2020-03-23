@@ -77,100 +77,101 @@ export default {
 			_self = this;
 			uni.chooseVideo({
 				count: 1,
-				maxDuration: 60,
-				sourceType: ['camera', 'album'], 
+				maxDuration: 60,//最长拍摄60秒
+				sourceType: ['camera', 'album'], //album 从相册选视频，camera 使用相机拍摄
 				success: function(e) {
-					console.log(e, '上传视频');
-					var imagePathArr = e.tempFilePath;
-					// #ifdef H5
-						console.log('进入H5图片压缩');
-						lrz(imagePathArr[0],{quality: 0.6})
-						.then(function (rst) {
-							// 处理成功会执行
-							console.log(rst);
-							imagePathArr[0] = rst.base64;
-							console.log('开始了');
-							if (_self.serverUrl) {
-								uni.uploadFile({
-									url: _self.serverUrl,
-									fileType: 'video',
-									formData: _self.formData,
-									filePath: imagePathArr[0],
-									name: 'file',
-									success: function(res) {
-										if (res.statusCode === 200) {
-											console.log(JSON.parse(res.data), '上传成功');
-											uni.request({
-												url: _self.serverUploadSuccess, //接口地址。
-												data: { fileName: JSON.parse(res.data).name },
-												method: 'POST',
-												dataType: 'from-data',
-												header: {
-													'content-type': 'application/x-www-form-urlencoded'
-												},
-												success: function(res) {
-													if (res.statusCode === 200) {
-														console.log(JSON.parse(res.data), '上传成功');
-														let imgUrl = JSON.parse(res.data).httpUrl;
-														_self.$emit('change-Image', imgUrl);
-													} else {
-													}
-												},
-												fail: function(res) {}
-											});
-										} else {
-										}
-									},
-									fail: function(res) {}
-								});
-							} else {
-							}
-						})
-					// #endif
-					// #ifdef MP-WEIXIN || MP-TOUTIAO || MP-BAIDU || MP-ALIPAY
-						console.log('进入小程序图片压缩');
-						console.log(imagePathArr[0]);
-						_self.$refs.imgYaSuo.yasuoImg(imagePathArr).then(e=>{
-						    console.log([imagePathArr,e], '压缩后对比数据');
-							imagePathArr[0] = e[0].tempFilePath;
-							console.log('开始了');
-							if (_self.serverUrl) {
-								uni.uploadFile({
-									url: _self.serverUrl,
-									fileType: 'image',
-									formData: _self.formData,
-									filePath: imagePathArr[0],
-									name: 'file',
-									success: function(res) {
-										if (res.statusCode === 200) {
-											console.log(JSON.parse(res.data), '上传成功');
-											uni.request({
-												url: _self.serverUploadSuccess, //接口地址。
-												data: { fileName: JSON.parse(res.data).name },
-												method: 'POST',
-												dataType: 'from-data',
-												header: {
-													'content-type': 'application/x-www-form-urlencoded'
-												},
-												success: function(res) {
-													if (res.statusCode === 200) {
-														console.log(JSON.parse(res.data), '上传成功');
-														let imgUrl = JSON.parse(res.data).httpUrl;
-														_self.$emit('change-Image', imgUrl);
-													} else {
-													}
-												},
-												fail: function(res) {}
-											});
-										} else {
-										}
-									},
-									fail: function(res) {}
-								});
-							} else {
-							}
-						})
-					// #endif
+					var videoPathArr = e.tempFilePath;//选定视频的临时文件路径
+					console.log(videoPathArr, '上传视频');
+					if (_self.serverUrl) {
+						uni.uploadFile({
+							url: _self.serverUrl,
+							fileType: 'video',
+							formData: _self.formData,
+							filePath: videoPathArr[0],
+							name: 'file',
+							success: function(res) {
+								if (res.statusCode === 200) {
+									console.log(JSON.parse(res.data), '上传成功');
+									uni.request({
+										url: _self.serverUploadSuccess, //接口地址。
+										data: { fileName: JSON.parse(res.data).name },
+										method: 'POST',
+										dataType: 'from-data',
+										header: {
+											'content-type': 'application/x-www-form-urlencoded'
+										},
+										success: function(res) {
+											if (res.statusCode === 200) {
+												console.log(JSON.parse(res.data), '上传成功');
+												let imgUrl = JSON.parse(res.data).httpUrl;
+												_self.$emit('change-Image', imgUrl);
+											} else {
+											}
+										},
+										fail: function(res) {}
+									});
+								} else {
+								}
+							},
+							fail: function(res) {}
+						});
+					} else {
+					}
+					// // #ifdef H5
+					// 	console.log('进入H5图片压缩');
+					// 	lrz(imagePathArr[0],{quality: 0.6})
+					// 	.then(function (rst) {
+					// 		// 处理成功会执行
+					// 		console.log(rst,'图片压缩完成');
+					// 		imagePathArr[0] = rst.base64;
+					// 		console.log('开始了');
+							
+					// 	})
+					// // #endif
+					// // #ifdef MP-WEIXIN || MP-TOUTIAO || MP-BAIDU || MP-ALIPAY
+					// 	console.log('进入小程序图片压缩');
+					// 	console.log(imagePathArr[0]);
+					// 	_self.$refs.imgYaSuo.yasuoImg(imagePathArr).then(e=>{
+					// 	    console.log([imagePathArr,e], '压缩后对比数据');
+					// 		imagePathArr[0] = e[0].tempFilePath;
+					// 		console.log('开始了');
+					// 		if (_self.serverUrl) {
+					// 			uni.uploadFile({
+					// 				url: _self.serverUrl,
+					// 				fileType: 'image',
+					// 				formData: _self.formData,
+					// 				filePath: imagePathArr[0],
+					// 				name: 'file',
+					// 				success: function(res) {
+					// 					if (res.statusCode === 200) {
+					// 						console.log(JSON.parse(res.data), '上传成功');
+					// 						uni.request({
+					// 							url: _self.serverUploadSuccess, //接口地址。
+					// 							data: { fileName: JSON.parse(res.data).name },
+					// 							method: 'POST',
+					// 							dataType: 'from-data',
+					// 							header: {
+					// 								'content-type': 'application/x-www-form-urlencoded'
+					// 							},
+					// 							success: function(res) {
+					// 								if (res.statusCode === 200) {
+					// 									console.log(JSON.parse(res.data), '上传成功');
+					// 									let imgUrl = JSON.parse(res.data).httpUrl;
+					// 									_self.$emit('change-Image', imgUrl);
+					// 								} else {
+					// 								}
+					// 							},
+					// 							fail: function(res) {}
+					// 						});
+					// 					} else {
+					// 					}
+					// 				},
+					// 				fail: function(res) {}
+					// 			});
+					// 		} else {
+					// 		}
+					// 	})
+					// // #endif
 					//检查服务器地址是否设置，设置即表示图片要上传到服务器
 				}
 			});

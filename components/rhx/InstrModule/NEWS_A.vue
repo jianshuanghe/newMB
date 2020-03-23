@@ -692,6 +692,7 @@ export default {
 .ani-box {
 	position: absolute;
 	width: 100vw;
+	height: 80vh;
 	z-index: 10000000001;
 	bottom: 0;
 	background: #ffffff;

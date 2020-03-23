@@ -8,6 +8,7 @@
 				@error="videoErrorCallback"
 				controls
 				v-if='videoShow'
+				:style="{width:videoWidth,height:videoHeight}"
 			></video>
 		</div>
 		<!-- 替换、删除 -->
